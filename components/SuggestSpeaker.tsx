@@ -1,0 +1,322 @@
+"use client";
+
+import { z } from "zod";
+import { useState, useEffect } from "react";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { CheckIcon, Loader2, XIcon } from "lucide-react";
+import { Form, FormField, FormItem, FormMessage } from "./ui/form";
+import { generateBotProtectionData } from "../lib/botProtection";
+import {
+  useGoogleReCaptcha,
+  GoogleReCaptchaProvider,
+} from "react19-google-recaptcha-v3";
+
+const formSchema = z.object({
+  yourName: z.string().min(2, "Name must be at least 2 characters"),
+  yourEmail: z.string().email(),
+  speakerName: z.string().min(2, "Speaker name must be at least 2 characters"),
+  speakerEmail: z.string().email(),
+  speakerBio: z.string().min(10, "Please provide a brief bio of the speaker"),
+  honeypot: z.string().optional(), // Honeypot field to catch bots
+  honeypot2: z.string().optional(), // Additional honeypot
+  honeypot3: z.string().optional(), // Third honeypot
+  timestamp: z.number(),
+  formStartTime: z.number(),
+  userAgent: z.string(),
+  referrer: z.string(),
+  screenResolution: z.string(),
+  timezone: z.string(),
+  language: z.string(),
+  captchaToken: z.string().optional(), // reCAPTCHA token
+});
+
+const SuggestComponent = () => {
+  const [formStartTime] = useState(Date.now());
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      yourName: "",
+      yourEmail: "",
+      speakerName: "",
+      speakerEmail: "",
+      speakerBio: "",
+      honeypot: "",
+      honeypot2: "",
+      honeypot3: "",
+      timestamp: 0,
+      formStartTime: formStartTime,
+      userAgent: "",
+      referrer: "",
+      screenResolution: "",
+      timezone: "",
+      language: "",
+      captchaToken: "",
+    },
+  });
+
+  // Initialize bot protection data when component mounts
+  useEffect(() => {
+    const botData = generateBotProtectionData();
+    form.setValue("formStartTime", botData.formStartTime || Date.now());
+    form.setValue("userAgent", botData.userAgent || "");
+    form.setValue("referrer", botData.referrer || "");
+    form.setValue("screenResolution", botData.screenResolution || "");
+    form.setValue("timezone", botData.timezone || "");
+    form.setValue("language", botData.language || "");
+  }, [form]);
+
+  const [message, setMessage] = useState<{
+    text: string;
+    type: "success" | "error";
+  } | null>(null);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  const handleSubmit = async (values: z.infer<typeof formSchema>) => {
+    try {
+      setIsLoading(true);
+
+      // Execute reCAPTCHA
+      if (!executeRecaptcha) {
+        setMessage({
+          text: "reCAPTCHA not available. Please refresh the page and try again.",
+          type: "error",
+        });
+        return;
+      }
+
+      const captchaToken = await executeRecaptcha("suggest_speaker");
+      if (!captchaToken) {
+        setMessage({
+          text: "reCAPTCHA verification failed. Please try again.",
+          type: "error",
+        });
+        return;
+      }
+
+      // Update timestamp and captcha token before sending
+      values.timestamp = Date.now();
+      values.captchaToken = captchaToken;
+
+      const response = await fetch("/api/suggest-speaker", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        setMessage({ text: data.error, type: "error" });
+        console.error("Speaker suggestion failed:", data.error);
+        return;
+      }
+
+      setMessage({
+        text: "Thank you for your speaker suggestion!",
+        type: "success",
+      });
+      form.reset();
+    } catch (error) {
+      console.error("Error suggesting speaker:", error);
+      setMessage({
+        text: "An error occurred while submitting your suggestion",
+        type: "error",
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <GoogleReCaptchaProvider
+      reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+    >
+      <div className="w-full flex flex-col items-center justify-center p-4">
+        <div className="flex flex-col md:flex-row gap-4 mb-20 md:mb-40 border border-[#00F703]/30 bg-[#0fa711]/40 px-4 md:px-8 py-12 w-full">
+          <div className="flex flex-col gap-4 items-start w-full md:w-1/2">
+            <h3 className="text-stone-200 uppercase text-5xl font-medium font-Jersey15">
+              Suggest a Speaker
+            </h3>
+            <p className="w-full md:w-2/3 text-stone-200 font-semibold">
+              Have a speaker in mind for a future event? Suggest them here!
+            </p>
+          </div>
+          <Form {...form}>
+            <form
+              className="flex flex-col gap-4 mt-2 w-full md:w-1/2"
+              onSubmit={form.handleSubmit(handleSubmit)}
+            >
+              <FormField
+                control={form.control}
+                name="yourName"
+                render={({ field }) => (
+                  <FormItem>
+                    <Input
+                      {...field}
+                      disabled={isLoading}
+                      placeholder="Your Name"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      required
+                    />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="yourEmail"
+                render={({ field }) => (
+                  <FormItem>
+                    <Input
+                      {...field}
+                      disabled={isLoading}
+                      placeholder="Your Email"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      required
+                    />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="speakerName"
+                render={({ field }) => (
+                  <FormItem>
+                    <Input
+                      {...field}
+                      disabled={isLoading}
+                      placeholder="Speaker's Name"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      required
+                    />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="speakerEmail"
+                render={({ field }) => (
+                  <FormItem>
+                    <Input
+                      {...field}
+                      disabled={isLoading}
+                      placeholder="Speaker's Email"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      required
+                    />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="speakerBio"
+                render={({ field }) => (
+                  <FormItem>
+                    <textarea
+                      {...field}
+                      disabled={isLoading}
+                      placeholder="Speaker's Bio"
+                      className="rounded-none bg-[#0d230d] border border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 w-full p-2 min-h-[100px] resize-none"
+                      required
+                    />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              {/* Multiple honeypot fields - hidden from users but visible to bots */}
+              <FormField
+                control={form.control}
+                name="honeypot"
+                render={({ field }) => (
+                  <FormItem>
+                    <input
+                      {...field}
+                      type="text"
+                      style={{ display: "none" }}
+                      tabIndex={-1}
+                      autoComplete="off"
+                      aria-hidden="true"
+                    />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="honeypot2"
+                render={({ field }) => (
+                  <FormItem>
+                    <input
+                      {...field}
+                      type="text"
+                      style={{ display: "none" }}
+                      tabIndex={-1}
+                      autoComplete="off"
+                      aria-hidden="true"
+                    />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="honeypot3"
+                render={({ field }) => (
+                  <FormItem>
+                    <input
+                      {...field}
+                      type="text"
+                      style={{ display: "none" }}
+                      tabIndex={-1}
+                      autoComplete="off"
+                      aria-hidden="true"
+                    />
+                  </FormItem>
+                )}
+              />
+              <div className="flex flex-col md:flex-row w-full items-center justify-between gap-4 md:gap-0">
+                <Button
+                  variant="green"
+                  className="w-full md:w-40 font-bold text-white h-10"
+                  type="submit"
+                  disabled={isLoading}
+                >
+                  {isLoading ? (
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                  ) : (
+                    "Submit"
+                  )}
+                </Button>
+                {message && (
+                  <div
+                    className={`flex items-center text-sm justify-center md:justify-start gap-1 ${
+                      message.type === "success"
+                        ? "text-green-400"
+                        : "text-red-400"
+                    }`}
+                  >
+                    {message.type === "success" ? (
+                      <CheckIcon className="w-4 h-4" />
+                    ) : (
+                      <XIcon className="w-4 h-4" />
+                    )}
+                    {message.text}
+                  </div>
+                )}
+              </div>
+            </form>
+          </Form>
+        </div>
+      </div>
+    </GoogleReCaptchaProvider>
+  );
+};
+
+export default SuggestComponent;
