@@ -110,7 +110,7 @@ const MailingListForm = ({
               <FormItem className={cn("w-full", isHero && "space-y-2")}>
                 {isHero && (
                   <FormLabel className="block text-[10px] font-bold uppercase leading-none tracking-[0.16em] text-[#86f086]/90 sm:text-[11px]">
-                    Email for monthly NYC DeSci updates
+                    Email for monthly NYC DeSci invites
                   </FormLabel>
                 )}
                 <div className="relative">
