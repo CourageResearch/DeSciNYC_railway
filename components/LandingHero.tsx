@@ -52,7 +52,7 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
               projects, and socialize. Science is for everyone, and we try to
               make it accessible to all.
             </p>
-            <div className="flex flex-col items-stretch justify-start gap-3 mx-4 mt-8 md:mt-24">
+            <div className="flex flex-col items-stretch justify-start gap-4 mx-4 mt-10 md:mt-24 md:gap-5">
               <Link
                 href={rsvpHref}
                 className="w-full"
@@ -84,7 +84,7 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
               <MailingListForm
                 id="subscribe"
                 variant="hero"
-                placeholder="Email for monthly NYC DeSci updates"
+                placeholder="you@example.com"
                 buttonLabel="Join list"
                 successMessage="You're on the list."
               />

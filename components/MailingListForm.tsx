@@ -3,11 +3,18 @@
 import { z } from "zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { CheckIcon, Loader2, XIcon } from "lucide-react";
+import { CheckIcon, Loader2, MailIcon, XIcon } from "lucide-react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Form, FormField, FormItem, FormMessage } from "./ui/form";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "./ui/form";
 import { cn } from "@/lib/utils";
 
 const formSchema = z.object({
@@ -85,13 +92,13 @@ const MailingListForm = ({
   const isHero = variant === "hero";
 
   return (
-    <div id={id} className={cn("w-full scroll-mt-8", className)}>
+    <div id={id} className={cn("w-full scroll-mt-8", isHero && "pt-1", className)}>
       <Form {...form}>
         <form
           className={cn(
             "relative z-20 flex w-full",
             isHero
-              ? "flex-col gap-2 sm:flex-row sm:gap-0"
+              ? "flex-col gap-3 sm:flex-row sm:items-end sm:gap-3"
               : "flex-row items-start"
           )}
           onSubmit={form.handleSubmit(handleSubmit)}
@@ -100,21 +107,37 @@ const MailingListForm = ({
             control={form.control}
             name="email"
             render={({ field }) => (
-              <FormItem className="w-full">
-                <Input
-                  {...field}
-                  type="email"
-                  disabled={isLoading}
-                  placeholder={placeholder}
-                  className={cn(
-                    "rounded-none text-stone-200 placeholder:text-[#0fa711]/40",
-                    isHero
-                      ? "h-12 border-2 border-[#0fa711]/60 bg-black/45 px-4 font-semibold md:h-14 sm:border-r-0"
-                      : "h-10 border-[#0fa711]/40 bg-[#0d230d]"
+              <FormItem className={cn("w-full", isHero && "space-y-2")}>
+                {isHero && (
+                  <FormLabel className="block text-[10px] font-bold uppercase leading-none tracking-[0.16em] text-[#86f086]/90 sm:text-[11px]">
+                    Email for monthly NYC DeSci updates
+                  </FormLabel>
+                )}
+                <div className="relative">
+                  {isHero && (
+                    <MailIcon
+                      aria-hidden="true"
+                      className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-[#86f086]/75"
+                    />
                   )}
-                  required
-                />
-                <FormMessage />
+                  <FormControl>
+                    <Input
+                      {...field}
+                      type="email"
+                      disabled={isLoading}
+                      placeholder={placeholder}
+                      aria-label="Email address"
+                      className={cn(
+                        "rounded-none text-stone-200",
+                        isHero
+                          ? "h-14 border-2 border-[#86f086]/80 bg-black/80 px-11 font-semibold placeholder:text-stone-500 shadow-[inset_0_0_0_1px_rgba(134,240,134,0.16)] focus-visible:border-[#c9ff8a] focus-visible:ring-2 focus-visible:ring-[#0fa711]/60"
+                          : "h-10 border-[#0fa711]/40 bg-[#0d230d] placeholder:text-[#0fa711]/40"
+                      )}
+                      required
+                    />
+                  </FormControl>
+                </div>
+                <FormMessage className={cn(isHero && "text-[#ff8a8a]")} />
               </FormItem>
             )}
           />
@@ -122,7 +145,7 @@ const MailingListForm = ({
             variant="green"
             className={cn(
               "shrink-0 font-bold text-white",
-              isHero ? "h-12 w-full md:h-14 sm:w-36" : "h-10 w-40"
+              isHero ? "h-14 w-full tracking-[0.08em] sm:w-40" : "h-10 w-40"
             )}
             type="submit"
             disabled={isLoading}
