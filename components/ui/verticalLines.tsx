@@ -1,7 +1,11 @@
-const VerticalLines = () => {
+const VerticalLines = ({ fadeBottom = false }: { fadeBottom?: boolean }) => {
+  const fadeClass = fadeBottom
+    ? "[mask-image:linear-gradient(to_bottom,black_0%,black_64%,transparent_100%)]"
+    : "";
+
   return (
     <>
-      <div className="absolute left-0 top-0 h-full z-[-10] opacity-30 flex gap-1">
+      <div className={`absolute left-0 top-0 h-full z-[-10] opacity-30 flex gap-1 ${fadeClass}`}>
         <div className="h-full w-6 bg-[#0FA711] opacity-90" />
         <div className="h-full w-6 bg-[#0FA711] opacity-80" />
         <div className="h-full w-6 bg-[#0FA711] opacity-70" />
@@ -13,7 +17,7 @@ const VerticalLines = () => {
         <div className="h-full w-3 bg-[#0FA711] opacity-10" />
         <div className="h-full w-3 bg-[#0FA711] opacity-5" />
       </div>
-      <div className="absolute right-0 top-0 h-full z-[-10] opacity-30 flex gap-1 rotate-180">
+      <div className={`absolute right-0 top-0 h-full z-[-10] opacity-30 flex gap-1 rotate-180 ${fadeClass}`}>
         <div className="h-full w-6 bg-[#0FA711] opacity-90" />
         <div className="h-full w-6 bg-[#0FA711] opacity-80" />
         <div className="h-full w-6 bg-[#0FA711] opacity-70" />

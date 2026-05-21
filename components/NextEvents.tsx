@@ -19,7 +19,7 @@ const NextEvents = async () => {
   } catch (error) {
     console.error("Error fetching events:", error);
     return (
-      <div className="flex flex-col gap-4 pb-20 md:pb-40 px-4 md:px-0">
+      <div className="flex flex-col gap-4 pt-2 pb-20 md:pt-4 md:pb-40 px-4 md:px-0">
         <Heading title="Next Events" />
         <div className="border border-[#202020] p-4">
           <p className="text-xl text-red-500">
@@ -33,7 +33,7 @@ const NextEvents = async () => {
   // If no upcoming events, show a message
   if (upcomingEvents.length === 0) {
     return (
-      <div className="flex flex-col gap-4 pb-20 md:pb-40 px-4 md:px-0">
+      <div className="flex flex-col gap-4 pt-2 pb-20 md:pt-4 md:pb-40 px-4 md:px-0">
         <Heading title="Next Events" />
         <div className="border border-[#202020] p-4">
           <p className="text-xl">
@@ -75,7 +75,7 @@ const NextEvents = async () => {
   });
 
   return (
-    <div className="flex flex-col gap-4 pb-20 md:pb-40 px-4 md:px-0">
+    <div className="flex flex-col gap-4 pt-2 pb-20 md:pt-4 md:pb-40 px-4 md:px-0">
       <Heading title="Next Events" />
       {/* Event Cards */}
       <div className="flex flex-col gap-4">

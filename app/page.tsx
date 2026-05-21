@@ -7,7 +7,6 @@ import LandingHero from "@/components/LandingHero";
 import StayInTouch from "@/components/StayInTouch";
 import PhotoGallery from "@/components/PhotoGallery";
 import SuggestComponent from "@/components/SuggestSpeaker";
-import SubscribeComponent from "@/components/SubscribeComponent";
 import { type EventRecord, getUpcomingEvents } from "@/lib/events";
 import { listGalleryImages } from "@/lib/gallery";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
@@ -76,7 +75,6 @@ const LandingPage = async () => {
   return (
     <div className="relative w-full h-screen">
       <LandingHero event={heroEvent} />
-      <SubscribeComponent />
       <div className="max-w-[1100px] mx-auto">
         <NextEvents />
         <PastEvents />
