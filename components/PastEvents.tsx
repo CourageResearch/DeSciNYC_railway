@@ -4,6 +4,10 @@ import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
 
+function getSlidesHref(slides: string) {
+  return /^https?:\/\//i.test(slides) ? slides : `/slides/${slides}`;
+}
+
 const PastEvents = async () => {
   const pastEvents = await getPastEvents();
   type EventWithLumaData = EventRecord & {
@@ -86,7 +90,7 @@ const PastEvents = async () => {
                 </Link>
                 {event.slides && (
                   <Link
-                    href={`/slides/${event.slides}`}
+                    href={getSlidesHref(event.slides)}
                     target="_blank"
                     className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                   >
