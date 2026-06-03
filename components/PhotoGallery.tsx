@@ -34,6 +34,7 @@ const PhotoGallery = ({
                 src={item.original as string}
                 alt=""
                 fill
+                unoptimized
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 80vw"
               />
@@ -45,6 +46,7 @@ const PhotoGallery = ({
                 src={item.thumbnail as string}
                 alt=""
                 fill
+                unoptimized
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 80vw"
               />
