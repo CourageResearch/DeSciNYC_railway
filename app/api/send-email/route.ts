@@ -63,37 +63,41 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // Verify reCAPTCHA token
-        if (!captchaToken) {
-          console.log("Missing reCAPTCHA token");
-          return NextResponse.json(
-            { error: "reCAPTCHA verification required" },
-            { status: 400 }
-          );
-        }
-
-        const captchaResponse = await fetch(
-          "https://www.google.com/recaptcha/api/siteverify",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded",
-            },
-            body: new URLSearchParams({
-              secret: process.env.RECAPTCHA_SECRET_KEY!,
-              response: captchaToken,
-            }),
+        const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
+        if (recaptchaSecretKey) {
+          if (!captchaToken) {
+            console.log("Missing reCAPTCHA token");
+            return NextResponse.json(
+              { error: "reCAPTCHA verification required" },
+              { status: 400 }
+            );
           }
-        );
 
-        const captchaResult = await captchaResponse.json();
-
-        if (!captchaResult.success) {
-          console.log("reCAPTCHA verification failed:", captchaResult);
-          return NextResponse.json(
-            { error: "reCAPTCHA verification failed" },
-            { status: 400 }
+          const captchaResponse = await fetch(
+            "https://www.google.com/recaptcha/api/siteverify",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+              },
+              body: new URLSearchParams({
+                secret: recaptchaSecretKey,
+                response: captchaToken,
+              }),
+            }
           );
+
+          const captchaResult = await captchaResponse.json();
+
+          if (!captchaResult.success) {
+            console.log("reCAPTCHA verification failed:", captchaResult);
+            return NextResponse.json(
+              { error: "reCAPTCHA verification failed" },
+              { status: 400 }
+            );
+          }
+        } else {
+          console.warn("RECAPTCHA_SECRET_KEY is not set - skipping reCAPTCHA");
         }
 
         // Additional email domain validation
@@ -120,9 +124,20 @@ export async function POST(req: NextRequest) {
           "spamgourmet.com",
         ];
 
-        const emailDomain = email.split("@")[1]?.toLowerCase();
+        const contactName = String(name || "").trim();
+        const contactEmail = String(email || "").trim();
+        const contactPhone = String(phone || "").trim();
+        const contactMessage = String(message || "").trim();
+        const emailDomain = contactEmail.split("@")[1]?.toLowerCase();
 
-        if (botEmailDomains.includes(emailDomain)) {
+        if (!contactMessage) {
+          return NextResponse.json(
+            { error: "Message is required" },
+            { status: 400 }
+          );
+        }
+
+        if (emailDomain && botEmailDomains.includes(emailDomain)) {
           console.log("Bot email domain detected:", emailDomain);
           return NextResponse.json(
             { error: "Invalid email domain" },
@@ -130,35 +145,41 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        await Promise.all([
+        const emailPromises = [
           // Admin notification
           resend.emails.send({
             from: "DeSciNYC <admin@desci.nyc>",
             to: ADMIN_EMAILS,
             subject: "New Contact Form Submission",
             text: `
-              Name: ${name}
-              Email: ${email}
-              Phone: ${phone}
-              Message: ${message}
+              Name: ${contactName || "Not provided"}
+              Email: ${contactEmail || "Not provided"}
+              Phone: ${contactPhone || "Not provided"}
+              Message: ${contactMessage}
             `,
           }),
-          // User confirmation
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: [email],
-            subject: "Thank you for contacting DeSciNYC",
-            html: `
+        ];
+
+        if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)) {
+          emailPromises.push(
+            resend.emails.send({
+              from: "DeSciNYC <admin@desci.nyc>",
+              to: [contactEmail],
+              subject: "Thank you for contacting DeSciNYC",
+              html: `
               <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                <p>Dear ${name},</p>
+                <p>Dear ${contactName || "there"},</p>
                 
                 <p>Thank you for reaching out to DeSciNYC. We have received your message and will get back to you as soon as possible.</p>
                 
                 <p>Best regards,<br>The DeSciNYC Team</p>
               </div>
             `,
-          }),
-        ]);
+            })
+          );
+        }
+
+        await Promise.all(emailPromises);
 
         return NextResponse.json({ message: "Email sent successfully" });
       }

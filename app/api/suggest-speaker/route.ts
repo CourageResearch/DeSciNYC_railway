@@ -46,37 +46,41 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Verify reCAPTCHA token
-    if (!captchaToken) {
-      console.log("Missing reCAPTCHA token");
-      return NextResponse.json(
-        { error: "reCAPTCHA verification required" },
-        { status: 400 }
-      );
-    }
-
-    const captchaResponse = await fetch(
-      "https://www.google.com/recaptcha/api/siteverify",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams({
-          secret: process.env.RECAPTCHA_SECRET_KEY!,
-          response: captchaToken,
-        }),
+    const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
+    if (recaptchaSecretKey) {
+      if (!captchaToken) {
+        console.log("Missing reCAPTCHA token");
+        return NextResponse.json(
+          { error: "reCAPTCHA verification required" },
+          { status: 400 }
+        );
       }
-    );
 
-    const captchaResult = await captchaResponse.json();
-
-    if (!captchaResult.success) {
-      console.log("reCAPTCHA verification failed:", captchaResult);
-      return NextResponse.json(
-        { error: "reCAPTCHA verification failed" },
-        { status: 400 }
+      const captchaResponse = await fetch(
+        "https://www.google.com/recaptcha/api/siteverify",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: new URLSearchParams({
+            secret: recaptchaSecretKey,
+            response: captchaToken,
+          }),
+        }
       );
+
+      const captchaResult = await captchaResponse.json();
+
+      if (!captchaResult.success) {
+        console.log("reCAPTCHA verification failed:", captchaResult);
+        return NextResponse.json(
+          { error: "reCAPTCHA verification failed" },
+          { status: 400 }
+        );
+      }
+    } else {
+      console.warn("RECAPTCHA_SECRET_KEY is not set - skipping reCAPTCHA");
     }
 
     // Additional email domain validation
@@ -121,23 +125,21 @@ export async function POST(req: NextRequest) {
     }
 
     // Send notification email
-    const emailResponse = await fetch(
-      `${process.env.NEXT_PUBLIC_URL}/api/send-email`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          type: "suggest",
-          yourName: yourName,
-          yourEmail: yourEmail,
-          speakerName: speakerName,
-          speakerEmail: speakerEmail,
-          speakerBio: speakerBio,
-        }),
-      }
-    );
+    const emailUrl = new URL("/api/send-email", req.url);
+    const emailResponse = await fetch(emailUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        type: "suggest",
+        yourName: yourName,
+        yourEmail: yourEmail,
+        speakerName: speakerName,
+        speakerEmail: speakerEmail,
+        speakerBio: speakerBio,
+      }),
+    });
 
     if (!emailResponse.ok) {
       console.error("Failed to send notification email");

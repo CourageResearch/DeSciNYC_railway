@@ -22,12 +22,6 @@ const ContactUs = () => {
               </h4>
               <div className="text-gray-200 flex flex-col gap-1 text-lg">
                 <Link
-                  href="#"
-                  className="transition-all ease-in-out hover:text-[#0FA711]"
-                >
-                  Newsletter
-                </Link>
-                <Link
                   href="https://lu.ma/descinyc"
                   target="_blank"
                   className="transition-all ease-in-out hover:text-[#0FA711]"

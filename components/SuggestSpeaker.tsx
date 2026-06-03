@@ -33,9 +33,18 @@ const formSchema = z.object({
   captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
-const SuggestComponent = () => {
+type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
+
+type SuggestFormProps = {
+  executeRecaptcha?: ExecuteRecaptcha;
+  isRecaptchaEnabled: boolean;
+};
+
+const SuggestForm = ({
+  executeRecaptcha,
+  isRecaptchaEnabled,
+}: SuggestFormProps) => {
   const [formStartTime] = useState(Date.now());
-  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -80,27 +89,39 @@ const SuggestComponent = () => {
     try {
       setIsLoading(true);
 
-      // Execute reCAPTCHA
-      if (!executeRecaptcha) {
-        setMessage({
-          text: "reCAPTCHA not available. Please refresh the page and try again.",
-          type: "error",
-        });
-        return;
+      if (isRecaptchaEnabled) {
+        if (!executeRecaptcha) {
+          setMessage({
+            text: "reCAPTCHA not available. Please refresh the page and try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        let captchaToken = "";
+        try {
+          captchaToken = await executeRecaptcha("suggest_speaker");
+        } catch (error) {
+          console.error("Error executing reCAPTCHA:", error);
+          setMessage({
+            text: "reCAPTCHA verification failed. Please refresh the page and try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        if (!captchaToken) {
+          setMessage({
+            text: "reCAPTCHA verification failed. Please try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        values.captchaToken = captchaToken;
       }
 
-      const captchaToken = await executeRecaptcha("suggest_speaker");
-      if (!captchaToken) {
-        setMessage({
-          text: "reCAPTCHA verification failed. Please try again.",
-          type: "error",
-        });
-        return;
-      }
-
-      // Update timestamp and captcha token before sending
       values.timestamp = Date.now();
-      values.captchaToken = captchaToken;
 
       const response = await fetch("/api/suggest-speaker", {
         method: "POST",
@@ -134,10 +155,7 @@ const SuggestComponent = () => {
   };
 
   return (
-    <GoogleReCaptchaProvider
-      reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-    >
-      <div className="w-full flex flex-col items-center justify-center p-4">
+    <div className="w-full flex flex-col items-center justify-center p-4">
         <div className="flex flex-col md:flex-row gap-4 mb-20 md:mb-40 border border-[#00F703]/30 bg-[#0fa711]/40 px-4 md:px-8 py-12 w-full">
           <div className="flex flex-col gap-4 items-start w-full md:w-1/2">
             <h3 className="text-stone-200 uppercase text-5xl font-medium font-Jersey15">
@@ -314,7 +332,31 @@ const SuggestComponent = () => {
             </form>
           </Form>
         </div>
-      </div>
+    </div>
+  );
+};
+
+const SuggestFormWithRecaptcha = () => {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  return (
+    <SuggestForm
+      executeRecaptcha={executeRecaptcha}
+      isRecaptchaEnabled={true}
+    />
+  );
+};
+
+const SuggestComponent = () => {
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+
+  if (!recaptchaSiteKey) {
+    return <SuggestForm isRecaptchaEnabled={false} />;
+  }
+
+  return (
+    <GoogleReCaptchaProvider reCaptchaKey={recaptchaSiteKey}>
+      <SuggestFormWithRecaptcha />
     </GoogleReCaptchaProvider>
   );
 };

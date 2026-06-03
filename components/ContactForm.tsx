@@ -16,17 +16,11 @@ import {
 } from "react19-google-recaptcha-v3";
 
 const formSchema = z.object({
-  name: z.string().min(2, {
-    message: "Username must be at least 2 characters.",
-  }),
-  email: z.string().email({
-    message: "Invalid email address.",
-  }),
-  phone: z.string().min(10, {
-    message: "Phone number must be at least 10 characters.",
-  }),
-  message: z.string().min(10, {
-    message: "Message must be at least 10 characters.",
+  name: z.string().optional(),
+  email: z.string().optional(),
+  phone: z.string().optional(),
+  message: z.string().trim().min(1, {
+    message: "Message is required.",
   }),
   honeypot: z.string().optional(), // Honeypot field to catch bots
   honeypot2: z.string().optional(), // Additional honeypot
@@ -41,9 +35,18 @@ const formSchema = z.object({
   captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
-const ContactForm = () => {
+type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
+
+type ContactFormFieldsProps = {
+  executeRecaptcha?: ExecuteRecaptcha;
+  isRecaptchaEnabled: boolean;
+};
+
+const ContactFormFields = ({
+  executeRecaptcha,
+  isRecaptchaEnabled,
+}: ContactFormFieldsProps) => {
   const [formStartTime] = useState(Date.now());
-  const { executeRecaptcha } = useGoogleReCaptcha();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [message, setMessage] = useState<{
     text: string;
@@ -86,27 +89,39 @@ const ContactForm = () => {
     try {
       setIsLoading(true);
 
-      // Execute reCAPTCHA
-      if (!executeRecaptcha) {
-        setMessage({
-          text: "reCAPTCHA not available. Please refresh the page and try again.",
-          type: "error",
-        });
-        return;
+      if (isRecaptchaEnabled) {
+        if (!executeRecaptcha) {
+          setMessage({
+            text: "reCAPTCHA not available. Please refresh the page and try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        let captchaToken = "";
+        try {
+          captchaToken = await executeRecaptcha("contact_form");
+        } catch (error) {
+          console.error("Error executing reCAPTCHA:", error);
+          setMessage({
+            text: "reCAPTCHA verification failed. Please refresh the page and try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        if (!captchaToken) {
+          setMessage({
+            text: "reCAPTCHA verification failed. Please try again.",
+            type: "error",
+          });
+          return;
+        }
+
+        values.captchaToken = captchaToken;
       }
 
-      const captchaToken = await executeRecaptcha("contact_form");
-      if (!captchaToken) {
-        setMessage({
-          text: "reCAPTCHA verification failed. Please try again.",
-          type: "error",
-        });
-        return;
-      }
-
-      // Update timestamp and captcha token before sending
       values.timestamp = Date.now();
-      values.captchaToken = captchaToken;
 
       const response = await fetch("/api/send-email", {
         method: "POST",
@@ -143,10 +158,7 @@ const ContactForm = () => {
   };
 
   return (
-    <GoogleReCaptchaProvider
-      reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-    >
-      <Form {...form}>
+    <Form {...form}>
         <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-4">
           <FormField
             control={form.control}
@@ -289,7 +301,31 @@ const ContactForm = () => {
             {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : "Send"}
           </Button>
         </form>
-      </Form>
+    </Form>
+  );
+};
+
+const ContactFormWithRecaptcha = () => {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  return (
+    <ContactFormFields
+      executeRecaptcha={executeRecaptcha}
+      isRecaptchaEnabled={true}
+    />
+  );
+};
+
+const ContactForm = () => {
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+
+  if (!recaptchaSiteKey) {
+    return <ContactFormFields isRecaptchaEnabled={false} />;
+  }
+
+  return (
+    <GoogleReCaptchaProvider reCaptchaKey={recaptchaSiteKey}>
+      <ContactFormWithRecaptcha />
     </GoogleReCaptchaProvider>
   );
 };
