@@ -4,8 +4,15 @@ import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
 
+const RAW_SLIDES_BASE =
+  "https://raw.githubusercontent.com/CourageResearch/DeSciNYC_railway/main/public/slides";
+
 function getSlidesHref(slides: string) {
-  return /^https?:\/\//i.test(slides) ? slides : `/slides/${slides}`;
+  if (/^https?:\/\//i.test(slides) || slides.startsWith("/")) {
+    return slides;
+  }
+
+  return `${RAW_SLIDES_BASE}/${slides.split("/").map(encodeURIComponent).join("/")}`;
 }
 
 const PastEvents = async () => {
