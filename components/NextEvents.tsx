@@ -116,14 +116,20 @@ const NextEvents = async () => {
             </div>
             <div className="flex flex-col gap-2 items-center justify-center w-full md:w-2/5">
               {event.lumaEvent?.cover_url ? (
-                <div className="relative w-full aspect-square">
+                <Link
+                  href={event.luma_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${event.title} event`}
+                  className="relative block w-full aspect-square overflow-hidden transition-opacity hover:opacity-90"
+                >
                   <Image
                     src={event.lumaEvent.cover_url}
                     alt="Event Image"
                     fill
                     className="object-cover"
                   />
-                </div>
+                </Link>
               ) : (
                 <div className="w-full aspect-square bg-gray-200 flex items-center justify-center">
                   <p className="text-gray-500">No image available</p>
