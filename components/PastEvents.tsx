@@ -3,6 +3,7 @@ import Image from "next/image";
 import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
+import { withUtmSource } from "@/lib/tracking";
 
 const RAW_SLIDES_BASE =
   "https://raw.githubusercontent.com/CourageResearch/DeSciNYC_railway/main/public/slides";
@@ -89,8 +90,9 @@ const PastEvents = async () => {
                   Video
                 </Link>
                 <Link
-                  href={event.luma_url}
+                  href={withUtmSource(event.luma_url, "descinyc_website")}
                   target="_blank"
+                  rel="noopener"
                   className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                 >
                   Luma event

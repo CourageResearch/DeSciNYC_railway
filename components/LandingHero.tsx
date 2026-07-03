@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import VerticalLines from "./ui/verticalLines";
 import Link from "next/link";
 import MailingListForm from "./MailingListForm";
+import { withUtmSource } from "@/lib/tracking";
 
 type HeroEvent = {
   url: string;
@@ -28,7 +29,10 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
   const eventDate = event?.startAt ? new Date(event.startAt) : null;
   const hasEventDate = eventDate && !Number.isNaN(eventDate.getTime());
   const showSupportBanner = false;
-  const rsvpHref = event?.url || "#subscribe";
+  const rsvpHref = withUtmSource(
+    event?.url || "#subscribe",
+    "descinyc_website"
+  );
   const opensNewTab = rsvpHref.startsWith("http");
 
   return (
@@ -57,7 +61,7 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
                 href={rsvpHref}
                 className="w-full"
                 target={opensNewTab ? "_blank" : undefined}
-                rel={opensNewTab ? "noreferrer" : undefined}
+                rel={opensNewTab ? "noopener" : undefined}
               >
                 <Button
                   variant="green"

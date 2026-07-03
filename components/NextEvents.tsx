@@ -5,6 +5,7 @@ import Heading from "./ui/heading";
 import { Button } from "./ui/button";
 import { type EventRecord, getUpcomingEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
+import { withUtmSource } from "@/lib/tracking";
 
 // const scheduleLines = [
 //   { time: "7:00 - 8:00 PM", activity: "Networking" },
@@ -79,65 +80,74 @@ const NextEvents = async () => {
       <Heading title="Next Events" />
       {/* Event Cards */}
       <div className="flex flex-col gap-4">
-        {eventsWithLumaData.map((event) => (
-          <div
-            key={event.event_uuid || event.id || event.luma_id}
-            className="flex flex-col md:flex-row border-b md:border border-[#202020] p-4 gap-4"
-          >
-            <div className="flex flex-col justify-center gap-2 w-full md:w-3/5">
-              <h4 className="font-Jersey10 text-4xl">
-                {event.title}
-              </h4>
-              <p className="text-muted-foreground font-bold text-xl">
-                {event.lumaEvent?.start_at ? new Date(event.lumaEvent.start_at).toLocaleString('en-US', {
-                  month: 'long',
-                  day: 'numeric',
-                  year: 'numeric',
-                  hour: 'numeric',
-                  minute: 'numeric',
-                  hour12: true,
-                  timeZone: event.lumaEvent.timezone || 'America/New_York'
-                }) : ''}
-              </p>
-              <QRCode url={event.luma_url + "?utm_source=qr"} />
-              <Link
-                href={event.luma_url}
-                target="_blank"
-                className="w-min mt-4"
-              >
-                <Button
-                  variant="green"
-                  size="lg"
-                  className="h-12 text-xl font-bold w-full md:w-96 bg-[#0FA711]/60 text-white"
-                >
-                  RSVP
-                </Button>
-              </Link>
-            </div>
-            <div className="flex flex-col gap-2 items-center justify-center w-full md:w-2/5">
-              {event.lumaEvent?.cover_url ? (
+        {eventsWithLumaData.map((event) => {
+          const websiteEventUrl = withUtmSource(
+            event.luma_url,
+            "descinyc_website"
+          );
+          const qrEventUrl = withUtmSource(event.luma_url, "qr");
+
+          return (
+            <div
+              key={event.event_uuid || event.id || event.luma_id}
+              className="flex flex-col md:flex-row border-b md:border border-[#202020] p-4 gap-4"
+            >
+              <div className="flex flex-col justify-center gap-2 w-full md:w-3/5">
+                <h4 className="font-Jersey10 text-4xl">
+                  {event.title}
+                </h4>
+                <p className="text-muted-foreground font-bold text-xl">
+                  {event.lumaEvent?.start_at ? new Date(event.lumaEvent.start_at).toLocaleString('en-US', {
+                    month: 'long',
+                    day: 'numeric',
+                    year: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric',
+                    hour12: true,
+                    timeZone: event.lumaEvent.timezone || 'America/New_York'
+                  }) : ''}
+                </p>
+                <QRCode url={qrEventUrl} />
                 <Link
-                  href={event.luma_url}
+                  href={websiteEventUrl}
                   target="_blank"
-                  rel="noreferrer"
-                  aria-label={`Open ${event.title} event`}
-                  className="relative block w-full aspect-square overflow-hidden transition-opacity hover:opacity-90"
+                  rel="noopener"
+                  className="w-min mt-4"
                 >
-                  <Image
-                    src={event.lumaEvent.cover_url}
-                    alt="Event Image"
-                    fill
-                    className="object-cover"
-                  />
+                  <Button
+                    variant="green"
+                    size="lg"
+                    className="h-12 text-xl font-bold w-full md:w-96 bg-[#0FA711]/60 text-white"
+                  >
+                    RSVP
+                  </Button>
                 </Link>
-              ) : (
-                <div className="w-full aspect-square bg-gray-200 flex items-center justify-center">
-                  <p className="text-gray-500">No image available</p>
-                </div>
-              )}
+              </div>
+              <div className="flex flex-col gap-2 items-center justify-center w-full md:w-2/5">
+                {event.lumaEvent?.cover_url ? (
+                  <Link
+                    href={websiteEventUrl}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label={`Open ${event.title} event`}
+                    className="relative block w-full aspect-square overflow-hidden transition-opacity hover:opacity-90"
+                  >
+                    <Image
+                      src={event.lumaEvent.cover_url}
+                      alt="Event Image"
+                      fill
+                      className="object-cover"
+                    />
+                  </Link>
+                ) : (
+                  <div className="w-full aspect-square bg-gray-200 flex items-center justify-center">
+                    <p className="text-gray-500">No image available</p>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
