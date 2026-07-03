@@ -108,7 +108,9 @@ export default function AttributionCheckoutButton({
         className={`luma-checkout--button ${className || ""}`}
         data-luma-action="checkout"
         data-luma-event-id={event.lumaEventId}
-        data-luma-utm-source={initialTracking.utm_source || "twitter_ads"}
+        data-luma-utm-source={
+          initialTracking.utm_source || event.defaultUtm.utm_source
+        }
       >
         {children}
       </a>

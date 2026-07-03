@@ -14,6 +14,8 @@ type PayloadEntry = {
 };
 
 export type ParsedLumaConversion = {
+  webhookType: string | null;
+  approvalStatus: string | null;
   attendeeName: string | null;
   email: string | null;
   hashedEmail: string | null;
@@ -249,6 +251,12 @@ export function parseLumaConversionPayload(
 ): ParsedLumaConversion {
   const entries = collectEntries(payload).filter((entry) => entry.value);
   const tracking = getTrackingFromEntries(entries);
+  const webhookType = getStringAtPath(payload, ["type"]);
+  const approvalStatus =
+    getStringAtPath(payload, ["data", "approval_status"]) ||
+    findByKey(entries, (leafKey, fullPath) => {
+      return leafKey === "approval_status" || fullPath.includes("approval_status");
+    });
   const email = findByKey(
     entries,
     (leafKey, fullPath, value) =>
@@ -325,6 +333,8 @@ export function parseLumaConversionPayload(
     stableStringify(payload);
 
   return {
+    webhookType,
+    approvalStatus,
     attendeeName,
     email,
     hashedEmail,

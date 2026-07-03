@@ -4,7 +4,7 @@ import {
   findAttributionClick,
   recordAttributionConversion,
 } from "@/lib/attribution-db";
-import { sendAttributionTicketNotification } from "@/lib/attribution-notifications";
+import { sendAttributionConversionNotification } from "@/lib/attribution-notifications";
 import { parseLumaConversionPayload } from "@/lib/luma-attribution";
 import { verifyLumaWebhookSignature } from "@/lib/luma-webhooks";
 import { sendXConversion } from "@/lib/x-conversions";
@@ -23,10 +23,19 @@ function trackingFromClick(
     utm_term: parsedTracking.utm_term || click?.utm_term || null,
     utm_id: parsedTracking.utm_id || click?.utm_id || click?.click_id || null,
     twclid: parsedTracking.twclid || click?.twclid || null,
+    fbclid: parsedTracking.fbclid || click?.fbclid || null,
   };
 }
 
-function isAdAttributedTicket({
+const PAID_SOCIAL_SOURCES = new Set([
+  "twitter_ads",
+  "x_ads",
+  "instagram_ads",
+  "facebook_ads",
+  "meta_ads",
+]);
+
+function isAdAttributedConversion({
   event,
   tracking,
   clickMatched,
@@ -38,8 +47,10 @@ function isAdAttributedTicket({
   return Boolean(
     clickMatched ||
       tracking.twclid ||
+      tracking.fbclid ||
       tracking.utm_campaign === event.defaultUtm.utm_campaign ||
       tracking.utm_content === event.defaultUtm.utm_content ||
+      PAID_SOCIAL_SOURCES.has((tracking.utm_source || "").toLowerCase()) ||
       (tracking.utm_source === event.defaultUtm.utm_source &&
         tracking.utm_medium === event.defaultUtm.utm_medium)
   );
@@ -86,9 +97,11 @@ export async function POST(req: NextRequest) {
     eventSlug: event.slug,
     utmId: parsed.tracking.utm_id,
     twclid: parsed.twclid,
+    fbclid: parsed.tracking.fbclid,
   });
   const tracking = trackingFromClick(parsed.tracking, click);
   const clickMatched = Boolean(click);
+  const adAttributed = isAdAttributedConversion({ event, tracking, clickMatched });
   const twclid = tracking.twclid || null;
   const xResult = await sendXConversion({
     conversionId: parsed.conversionId,
@@ -99,7 +112,7 @@ export async function POST(req: NextRequest) {
     userAgent: click?.user_agent || null,
     value: parsed.conversionValue,
     eventSourceUrl: parsed.eventSourceUrl,
-    description: `${event.title} ticket registration`,
+    description: `${event.title} Luma registration`,
   });
   const xResponse = xResult.sent
     ? xResult.response
@@ -129,13 +142,15 @@ export async function POST(req: NextRequest) {
     if (
       conversionResult.stored &&
       conversionResult.inserted &&
-      isAdAttributedTicket({ event, tracking, clickMatched })
+      adAttributed
     ) {
-      await sendAttributionTicketNotification({
+      await sendAttributionConversionNotification({
         event,
         conversionId: parsed.conversionId,
         clickMatched,
         clickId: click?.click_id || null,
+        webhookType: parsed.webhookType,
+        approvalStatus: parsed.approvalStatus,
         lumaGuestId: parsed.lumaGuestId,
         lumaTicketId: parsed.lumaTicketId,
         attendeeName: parsed.attendeeName,
@@ -155,6 +170,7 @@ export async function POST(req: NextRequest) {
     webhookId: req.headers.get("webhook-id"),
     conversionId: parsed.conversionId,
     clickMatched,
+    adAttributed,
     x: xResult.sent
       ? { sent: true, status: xResult.status }
       : { sent: false, skippedReason: xResult.skippedReason },

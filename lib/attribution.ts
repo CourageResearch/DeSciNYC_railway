@@ -98,6 +98,7 @@ export const DEFAULT_ATTRIBUTION_EVENT_SLUG = "descinyc46";
 
 export type TrackingParams = {
   twclid?: string | null;
+  fbclid?: string | null;
   utm_source?: string | null;
   utm_medium?: string | null;
   utm_campaign?: string | null;
@@ -108,6 +109,7 @@ export type TrackingParams = {
 
 export const TRACKING_PARAM_KEYS = [
   "twclid",
+  "fbclid",
   "utm_source",
   "utm_medium",
   "utm_campaign",

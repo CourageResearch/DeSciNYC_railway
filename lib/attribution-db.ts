@@ -26,6 +26,7 @@ export type AttributionClick = QueryResultRow & {
   landing_url: string;
   landing_path: string;
   twclid: string | null;
+  fbclid: string | null;
   utm_source: string | null;
   utm_medium: string | null;
   utm_campaign: string | null;
@@ -43,6 +44,7 @@ export type MatchClickInput = {
   eventSlug?: string;
   utmId?: string | null;
   twclid?: string | null;
+  fbclid?: string | null;
 };
 
 export type RecordConversionInput = {
@@ -85,6 +87,7 @@ export async function recordAttributionClick(input: RecordClickInput) {
           landing_url,
           landing_path,
           twclid,
+          fbclid,
           utm_source,
           utm_medium,
           utm_campaign,
@@ -95,7 +98,7 @@ export async function recordAttributionClick(input: RecordClickInput) {
           user_agent,
           ip_address
         )
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17)
         ON CONFLICT (click_id) DO NOTHING
         RETURNING TRUE AS inserted
       ),
@@ -104,15 +107,16 @@ export async function recordAttributionClick(input: RecordClickInput) {
         SET landing_url = $5,
             landing_path = $6,
             twclid = COALESCE($7, attribution_clicks.twclid),
-            utm_source = COALESCE($8, attribution_clicks.utm_source),
-            utm_medium = COALESCE($9, attribution_clicks.utm_medium),
-            utm_campaign = COALESCE($10, attribution_clicks.utm_campaign),
-            utm_content = COALESCE($11, attribution_clicks.utm_content),
-            utm_term = COALESCE($12, attribution_clicks.utm_term),
-            utm_id = COALESCE($13, attribution_clicks.utm_id),
-            referrer = COALESCE($14, attribution_clicks.referrer),
-            user_agent = COALESCE($15, attribution_clicks.user_agent),
-            ip_address = COALESCE($16, attribution_clicks.ip_address),
+            fbclid = COALESCE($8, attribution_clicks.fbclid),
+            utm_source = COALESCE($9, attribution_clicks.utm_source),
+            utm_medium = COALESCE($10, attribution_clicks.utm_medium),
+            utm_campaign = COALESCE($11, attribution_clicks.utm_campaign),
+            utm_content = COALESCE($12, attribution_clicks.utm_content),
+            utm_term = COALESCE($13, attribution_clicks.utm_term),
+            utm_id = COALESCE($14, attribution_clicks.utm_id),
+            referrer = COALESCE($15, attribution_clicks.referrer),
+            user_agent = COALESCE($16, attribution_clicks.user_agent),
+            ip_address = COALESCE($17, attribution_clicks.ip_address),
             last_seen_at = now()
         WHERE click_id = $1
           AND NOT EXISTS (SELECT 1 FROM inserted)
@@ -131,6 +135,7 @@ export async function recordAttributionClick(input: RecordClickInput) {
       input.landingUrl,
       input.landingPath,
       input.tracking.twclid || null,
+      input.tracking.fbclid || null,
       input.tracking.utm_source || null,
       input.tracking.utm_medium || null,
       input.tracking.utm_campaign || null,
@@ -187,6 +192,22 @@ export async function findAttributionClick(input: MatchClickInput) {
     return rows[0] || null;
   }
 
+  if (input.fbclid) {
+    const { rows } = await query<AttributionClick>(
+      `
+        SELECT *
+        FROM attribution_clicks
+        WHERE event_slug = $1
+          AND fbclid = $2
+        ORDER BY created_at DESC
+        LIMIT 1
+      `,
+      [eventSlug, input.fbclid]
+    );
+
+    return rows[0] || null;
+  }
+
   return null;
 }
 
@@ -209,6 +230,7 @@ export async function recordAttributionConversion(
           luma_ticket_id,
           hashed_email,
           twclid,
+          fbclid,
           utm_source,
           utm_medium,
           utm_campaign,
@@ -227,7 +249,7 @@ export async function recordAttributionConversion(
         VALUES (
           $1, $2, $3, $4, $5, $6, $7, $8,
           $9, $10, $11, $12, $13, $14, $15, $16,
-          $17::jsonb, $18, $19, $20::jsonb, $21, $22
+          $17, $18::jsonb, $19, $20, $21::jsonb, $22, $23
         )
         ON CONFLICT (conversion_id) DO NOTHING
         RETURNING TRUE AS inserted
@@ -240,20 +262,21 @@ export async function recordAttributionConversion(
             luma_ticket_id = COALESCE($6, attribution_conversions.luma_ticket_id),
             hashed_email = COALESCE($7, attribution_conversions.hashed_email),
             twclid = COALESCE($8, attribution_conversions.twclid),
-            utm_source = COALESCE($9, attribution_conversions.utm_source),
-            utm_medium = COALESCE($10, attribution_conversions.utm_medium),
-            utm_campaign = COALESCE($11, attribution_conversions.utm_campaign),
-            utm_content = COALESCE($12, attribution_conversions.utm_content),
-            utm_term = COALESCE($13, attribution_conversions.utm_term),
-            utm_id = COALESCE($14, attribution_conversions.utm_id),
-            event_source_url = COALESCE($15, attribution_conversions.event_source_url),
-            conversion_value = COALESCE($16, attribution_conversions.conversion_value),
-            payload = $17::jsonb,
-            x_sent_at = COALESCE($18, attribution_conversions.x_sent_at),
-            x_status = COALESCE($19, attribution_conversions.x_status),
-            x_response = COALESCE($20::jsonb, attribution_conversions.x_response),
-            x_error = $21,
-            x_skipped_reason = $22
+            fbclid = COALESCE($9, attribution_conversions.fbclid),
+            utm_source = COALESCE($10, attribution_conversions.utm_source),
+            utm_medium = COALESCE($11, attribution_conversions.utm_medium),
+            utm_campaign = COALESCE($12, attribution_conversions.utm_campaign),
+            utm_content = COALESCE($13, attribution_conversions.utm_content),
+            utm_term = COALESCE($14, attribution_conversions.utm_term),
+            utm_id = COALESCE($15, attribution_conversions.utm_id),
+            event_source_url = COALESCE($16, attribution_conversions.event_source_url),
+            conversion_value = COALESCE($17, attribution_conversions.conversion_value),
+            payload = $18::jsonb,
+            x_sent_at = COALESCE($19, attribution_conversions.x_sent_at),
+            x_status = COALESCE($20, attribution_conversions.x_status),
+            x_response = COALESCE($21::jsonb, attribution_conversions.x_response),
+            x_error = $22,
+            x_skipped_reason = $23
         WHERE conversion_id = $1
           AND NOT EXISTS (SELECT 1 FROM inserted)
         RETURNING FALSE AS inserted
@@ -272,6 +295,7 @@ export async function recordAttributionConversion(
       input.lumaTicketId || null,
       input.hashedEmail || null,
       input.twclid || null,
+      input.tracking?.fbclid || null,
       input.tracking?.utm_source || null,
       input.tracking?.utm_medium || null,
       input.tracking?.utm_campaign || null,

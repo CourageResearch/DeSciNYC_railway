@@ -20,11 +20,13 @@ type SendAttributionClickNotificationInput = {
   occurredAt?: string;
 };
 
-type SendAttributionTicketNotificationInput = {
+type SendAttributionConversionNotificationInput = {
   event: AttributionEventConfig;
   conversionId: string;
   clickMatched: boolean;
   clickId?: string | null;
+  webhookType?: string | null;
+  approvalStatus?: string | null;
   lumaGuestId?: string | null;
   lumaTicketId?: string | null;
   attendeeName?: string | null;
@@ -140,6 +142,7 @@ export async function sendAttributionClickNotification({
       ["Click ID", clickId],
       ["UTM ID", tracking.utm_id],
       ["TWCLID", tracking.twclid],
+      ["FBCLID", tracking.fbclid],
       ["Landing URL", landingUrl],
       ["Referrer", referrer],
       ["Timestamp", occurredAt],
@@ -147,11 +150,13 @@ export async function sendAttributionClickNotification({
   });
 }
 
-export async function sendAttributionTicketNotification({
+export async function sendAttributionConversionNotification({
   event,
   conversionId,
   clickMatched,
   clickId,
+  webhookType,
+  approvalStatus,
   lumaGuestId,
   lumaTicketId,
   attendeeName,
@@ -160,14 +165,16 @@ export async function sendAttributionTicketNotification({
   eventSourceUrl,
   conversionValue,
   conversionTime,
-}: SendAttributionTicketNotificationInput) {
+}: SendAttributionConversionNotificationInput) {
   return sendAttributionNotification({
-    kind: "ad ticket",
-    subject: `[DeSciNYC Ads] Ticket from ad: ${event.slug}`,
+    kind: "ad conversion",
+    subject: `[DeSciNYC Ads] Registration from ad: ${event.slug}`,
     details: [
-      ["Notification", "Ticket from ad"],
+      ["Notification", "Registration from ad"],
       ["Event", event.title],
       ["Event slug", event.slug],
+      ["Luma webhook type", webhookType],
+      ["Approval status", approvalStatus],
       ["Campaign", tracking.utm_campaign],
       ["Content", tracking.utm_content],
       ["Source", tracking.utm_source],
@@ -182,6 +189,7 @@ export async function sendAttributionTicketNotification({
       ["Value", conversionValue],
       ["UTM ID", tracking.utm_id],
       ["TWCLID", tracking.twclid],
+      ["FBCLID", tracking.fbclid],
       ["Event source URL", eventSourceUrl],
       ["Timestamp", conversionTime],
     ],
