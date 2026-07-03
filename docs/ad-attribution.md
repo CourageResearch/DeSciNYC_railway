@@ -12,9 +12,15 @@ https://desci.nyc/descinyc46?utm_source=twitter_ads&utm_medium=paid_social&utm_c
 https://desci.nyc/descinyc49?utm_source=twitter_ads&utm_medium=paid_social&utm_campaign=descinyc49_peptides&utm_content=peptides_101
 ```
 
-X should append `twclid` automatically when click tracking is enabled. The landing page stores the click, generates an internal `utm_id`, and passes that into Luma checkout with the rest of the UTM parameters.
+X should append `twclid` automatically when click tracking is enabled. These DeSciNYC URLs are tracking redirects: they store the click, generate an internal `utm_id` when needed, then immediately send the visitor to Luma with the rest of the UTM parameters.
 
-Supported event attribution configs live in `lib/attribution.ts`. Add future events there with the DeSciNYC slug, Luma URL, Luma event ID, landing-page copy, and default UTMs.
+To inspect the DeSciNYC event creative without redirecting to Luma, append `preview=1`:
+
+```text
+https://desci.nyc/descinyc46?preview=1&utm_source=twitter_ads&utm_medium=paid_social&utm_campaign=descinyc46_air_quality&utm_content=poster_jack_klein
+```
+
+Supported event attribution configs live in `lib/attribution.ts`. Add future events there with the DeSciNYC slug, Luma URL, Luma event ID, preview-page copy, and default UTMs.
 
 ## Required Setup
 
@@ -49,7 +55,7 @@ Until those are configured, conversions are still stored in `attribution_convers
 
 ## Verification
 
-- Open the ad URL with a fake `twclid`, then confirm `POST /api/attribution/click` writes an `attribution_clicks` row.
+- Open the ad URL with a fake `twclid`, confirm it redirects to Luma, then confirm `attribution_clicks` gets a row.
 - Send a Luma webhook test payload to `/api/attribution/luma-ticket` and confirm `attribution_conversions` gets a row.
 - Confirm the row has the expected `event_slug`, such as `descinyc46` or `descinyc49`.
 - With X credentials configured, confirm the endpoint response returns `x.sent=true`.

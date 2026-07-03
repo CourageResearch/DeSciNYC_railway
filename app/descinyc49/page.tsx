@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 import AttributionEventLanding from "@/components/AttributionEventLanding";
+import {
+  captureAttributionAndBuildRedirectUrl,
+  shouldShowAttributionPreview,
+  type AttributionSearchParams,
+} from "@/lib/attribution-redirect";
 import {
   ATTRIBUTION_EVENTS,
   extractTrackingParams,
@@ -18,12 +24,16 @@ export const metadata: Metadata = {
 };
 
 type PageProps = {
-  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+  searchParams?: Promise<AttributionSearchParams>;
 };
 
 export default async function DeSciNYC49Page({ searchParams }: PageProps) {
   const params = (await searchParams) || {};
   const tracking = withTrackingDefaults(extractTrackingParams(params), event);
+
+  if (!shouldShowAttributionPreview(params)) {
+    redirect(await captureAttributionAndBuildRedirectUrl({ event, params }));
+  }
 
   return <AttributionEventLanding event={event} tracking={tracking} />;
 }
