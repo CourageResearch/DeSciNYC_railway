@@ -1,5 +1,4 @@
 import crypto from "crypto";
-import OAuth from "oauth-1.0a";
 
 export type XConversionInput = {
   conversionId: string;
@@ -35,10 +34,7 @@ type XIdentifier =
 
 function getXConfig() {
   const required = {
-    apiKey: process.env.X_ADS_API_KEY,
-    apiSecret: process.env.X_ADS_API_SECRET,
-    accessToken: process.env.X_ADS_ACCESS_TOKEN,
-    accessTokenSecret: process.env.X_ADS_ACCESS_TOKEN_SECRET,
+    pixelToken: process.env.X_ADS_PIXEL_TOKEN || process.env.X_PIXEL_TOKEN,
     pixelId: process.env.X_ADS_PIXEL_ID,
     eventId: process.env.X_ADS_EVENT_ID,
   };
@@ -68,22 +64,6 @@ export function hashEmailForX(email: string | null | undefined) {
   return normalized ? sha256Hex(normalized) : null;
 }
 
-function createOAuthClient(apiKey: string, apiSecret: string) {
-  return new OAuth({
-    consumer: {
-      key: apiKey,
-      secret: apiSecret,
-    },
-    signature_method: "HMAC-SHA1",
-    hash_function(baseString, key) {
-      return crypto
-        .createHmac("sha1", key)
-        .update(baseString)
-        .digest("base64");
-    },
-  });
-}
-
 export async function sendXConversion(
   input: XConversionInput
 ): Promise<XConversionResult> {
@@ -98,11 +78,7 @@ export async function sendXConversion(
     identifiers.push({ hashed_email: input.hashedEmail });
   }
 
-  if (
-    input.ipAddress &&
-    input.userAgent &&
-    (input.twclid || input.hashedEmail)
-  ) {
+  if (input.ipAddress && input.userAgent) {
     identifiers.push({
       ip_address: input.ipAddress,
       user_agent: input.userAgent,
@@ -155,28 +131,12 @@ export async function sendXConversion(
 
   const pixelId = encodeURIComponent(config.pixelId as string);
   const url = `https://ads-api.x.com/${config.apiVersion}/measurement/conversions/${pixelId}`;
-  const oauth = createOAuthClient(
-    config.apiKey as string,
-    config.apiSecret as string
-  );
-  const authHeader = oauth.toHeader(
-    oauth.authorize(
-      {
-        url,
-        method: "POST",
-      },
-      {
-        key: config.accessToken as string,
-        secret: config.accessTokenSecret as string,
-      }
-    )
-  );
 
   try {
     const response = await fetch(url, {
       method: "POST",
       headers: {
-        ...authHeader,
+        "X-Pixel-Token": config.pixelToken as string,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(payload),

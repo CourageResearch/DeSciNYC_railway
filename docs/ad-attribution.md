@@ -41,15 +41,14 @@ Luma sends `Webhook-Signature`, `Webhook-Id`, and `Webhook-Timestamp` headers wi
 Set these after the X Event Source / Pixel and conversion event exist in X Events Manager:
 
 ```text
-X_ADS_API_KEY=
-X_ADS_API_SECRET=
-X_ADS_ACCESS_TOKEN=
-X_ADS_ACCESS_TOKEN_SECRET=
-X_ADS_PIXEL_ID=
+X_ADS_PIXEL_TOKEN=
+X_ADS_PIXEL_ID=r65z0
 X_ADS_EVENT_ID=
 X_ADS_API_VERSION=12
 X_ADS_DRY_RUN=false
 ```
+
+`X_ADS_PIXEL_TOKEN` comes from X Events Manager -> Install Pixel -> Manual -> Web Pixel + Conversion API -> Generate access token. The backend sends conversions to `https://ads-api.x.com/12/measurement/conversions/{X_ADS_PIXEL_ID}` with that value in the `X-Pixel-Token` header.
 
 Until those are configured, conversions are still stored in `attribution_conversions` with `x_skipped_reason` showing the missing config. Set `X_ADS_DRY_RUN=true` to verify payload construction without sending events to X.
 
