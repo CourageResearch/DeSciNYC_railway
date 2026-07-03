@@ -118,6 +118,8 @@ export const TRACKING_PARAM_KEYS = [
   "utm_id",
 ] as const;
 
+const LUMA_SOURCE_CLICK_SEPARATOR = "__click_";
+
 export function attributionCookieName(eventSlug: string) {
   return `${ATTRIBUTION_COOKIE_NAME}_${eventSlug.replace(/[^a-z0-9_-]/gi, "_")}`;
 }
@@ -230,6 +232,48 @@ export function withTrackingDefaults(
   };
 }
 
+export function encodeLumaSourceWithClickId(
+  source: string | null | undefined,
+  clickId: string | null | undefined
+) {
+  const cleanSource = cleanTrackingValue(source);
+  const cleanClickId = cleanTrackingValue(clickId);
+
+  if (!cleanSource || !isUuid(cleanClickId)) {
+    return cleanSource;
+  }
+
+  const decoded = decodeLumaSourceWithClickId(cleanSource);
+  const sourceWithoutClick =
+    decoded.clickId && decoded.source ? decoded.source : cleanSource;
+
+  return `${sourceWithoutClick}${LUMA_SOURCE_CLICK_SEPARATOR}${cleanClickId}`;
+}
+
+export function decodeLumaSourceWithClickId(source: string | null | undefined) {
+  const cleanSource = cleanTrackingValue(source);
+
+  if (!cleanSource) {
+    return { source: null, clickId: null };
+  }
+
+  const separatorIndex = cleanSource.lastIndexOf(LUMA_SOURCE_CLICK_SEPARATOR);
+  if (separatorIndex === -1) {
+    return { source: cleanSource, clickId: null };
+  }
+
+  const sourceWithoutClick = cleanSource.slice(0, separatorIndex) || null;
+  const clickId = cleanSource.slice(
+    separatorIndex + LUMA_SOURCE_CLICK_SEPARATOR.length
+  );
+
+  if (!isUuid(clickId)) {
+    return { source: cleanSource, clickId: null };
+  }
+
+  return { source: sourceWithoutClick, clickId };
+}
+
 export function buildLumaUrl(
   clickId: string | null | undefined,
   params: TrackingParams,
@@ -243,9 +287,15 @@ export function buildLumaUrl(
     },
     event
   );
+  const lumaTracking = {
+    ...merged,
+    utm_source:
+      encodeLumaSourceWithClickId(merged.utm_source, merged.utm_id || clickId) ||
+      merged.utm_source,
+  };
 
   for (const key of TRACKING_PARAM_KEYS) {
-    const value = merged[key];
+    const value = lumaTracking[key];
     if (value) {
       url.searchParams.set(key, value);
     }

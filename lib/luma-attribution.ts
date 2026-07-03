@@ -1,6 +1,7 @@
 import {
   TRACKING_PARAM_KEYS,
   cleanTrackingValue,
+  decodeLumaSourceWithClickId,
   findAttributionEventByUrl,
   getDefaultAttributionEvent,
   type TrackingParams,
@@ -134,15 +135,36 @@ function extractUrlParams(value: string) {
   }
 }
 
+function applyTrackingParam(
+  tracking: TrackingParams,
+  key: keyof TrackingParams,
+  value: unknown
+) {
+  const cleaned = cleanTrackingValue(value);
+
+  if (!cleaned) {
+    return;
+  }
+
+  if (key === "utm_source") {
+    const decoded = decodeLumaSourceWithClickId(cleaned);
+    tracking.utm_source = tracking.utm_source || decoded.source || cleaned;
+    tracking.utm_id = tracking.utm_id || decoded.clickId || null;
+    return;
+  }
+
+  tracking[key] = tracking[key] || cleaned;
+}
+
 function getTrackingFromEntries(entries: PayloadEntry[]) {
   const tracking: TrackingParams = {};
 
   for (const entry of entries) {
     const leafKey = normalizeKey(entry.key);
     if ((TRACKING_PARAM_KEYS as readonly string[]).includes(leafKey)) {
-      tracking[leafKey as keyof TrackingParams] = cleanTrackingValue(
-        entry.value
-      );
+      applyTrackingParam(tracking, leafKey as keyof TrackingParams, entry.value);
+    } else if (leafKey === "custom_source") {
+      applyTrackingParam(tracking, "utm_source", entry.value);
     }
 
     const urlParams = extractUrlParams(entry.value);
@@ -151,7 +173,7 @@ function getTrackingFromEntries(entries: PayloadEntry[]) {
     }
 
     for (const key of TRACKING_PARAM_KEYS) {
-      tracking[key] = tracking[key] || cleanTrackingValue(urlParams.get(key));
+      applyTrackingParam(tracking, key, urlParams.get(key));
     }
   }
 

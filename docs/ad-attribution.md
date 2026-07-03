@@ -12,7 +12,7 @@ https://desci.nyc/descinyc46?utm_source=twitter_ads&utm_medium=paid_social&utm_c
 https://desci.nyc/descinyc49?utm_source=twitter_ads&utm_medium=paid_social&utm_campaign=descinyc49_peptides&utm_content=peptides_101
 ```
 
-X should append `twclid` automatically when click tracking is enabled. These DeSciNYC URLs are tracking redirects: they store the click, generate an internal `utm_id` when needed, then immediately send the visitor to Luma with the rest of the UTM parameters.
+X should append `twclid` automatically when click tracking is enabled. These DeSciNYC URLs are tracking redirects: they store the click, generate an internal `utm_id` when needed, then immediately send the visitor to Luma with the rest of the UTM parameters. The Luma redirect also encodes the click id into Luma's `utm_source` as `twitter_ads__click_<uuid>` so Luma webhooks can still be matched back to the exact click even when Luma only returns source-level attribution.
 
 Use these as Instagram / Meta ad destinations:
 
@@ -48,7 +48,7 @@ https://desci.nyc/api/attribution/luma-ticket
 
 Luma sends `Webhook-Signature`, `Webhook-Id`, and `Webhook-Timestamp` headers with each request. The endpoint verifies the HMAC signature before processing the ticket registration.
 
-Luma may only include `utm_source` / `custom_source` in webhook payloads even when the registration URL includes the full `utm_campaign`, `utm_content`, and `utm_id`. The webhook handler treats known paid-social sources such as `twitter_ads` as ad conversions for admin notifications, even when the exact click row cannot be matched back to the Luma ticket.
+Luma may only include `utm_source` / `custom_source` in webhook payloads even when the registration URL includes the full `utm_campaign`, `utm_content`, and `utm_id`. To preserve exact matching, DeSciNYC sends Luma a source value shaped like `twitter_ads__click_<uuid>`. The webhook handler decodes that value back to `utm_source=twitter_ads` and `utm_id=<uuid>` before matching the click row, sending X conversions, and sending admin notifications.
 
 ## Luma Meta Pixel Setup
 
