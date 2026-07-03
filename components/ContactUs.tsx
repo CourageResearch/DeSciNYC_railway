@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
+import { withUtmSource } from "@/lib/tracking";
 
 const ContactUs = () => {
   return (
@@ -22,8 +23,12 @@ const ContactUs = () => {
               </h4>
               <div className="text-gray-200 flex flex-col gap-1 text-lg">
                 <Link
-                  href="https://lu.ma/descinyc"
+                  href={withUtmSource(
+                    "https://lu.ma/descinyc",
+                    "descinyc_website"
+                  )}
                   target="_blank"
+                  rel="noopener"
                   className="transition-all ease-in-out hover:text-[#0FA711]"
                 >
                   Calendar

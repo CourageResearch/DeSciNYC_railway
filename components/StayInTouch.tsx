@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "./ui/heading";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { withUtmSource } from "@/lib/tracking";
 
 const StayInTouch = () => {
   return (
@@ -15,7 +16,11 @@ const StayInTouch = () => {
             A curated selection of local science events in New York City and the
             surrounding area.
           </p>
-          <Link href="https://lu.ma/descinyc" target="_blank">
+          <Link
+            href={withUtmSource("https://lu.ma/descinyc", "descinyc_website")}
+            target="_blank"
+            rel="noopener"
+          >
             <Button
               variant="green"
               size="lg"
