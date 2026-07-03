@@ -7,6 +7,7 @@ import {
   resolveAttributionEvent,
 } from "@/lib/attribution";
 import { recordAttributionClick } from "@/lib/attribution-db";
+import { sendAttributionClickNotification } from "@/lib/attribution-notifications";
 
 export const runtime = "nodejs";
 
@@ -56,6 +57,16 @@ export async function POST(req: NextRequest) {
       userAgent,
       ipAddress: getClientIp(req),
     });
+
+    if (result.stored && result.inserted) {
+      await sendAttributionClickNotification({
+        event,
+        clickId,
+        landingUrl,
+        tracking,
+        referrer,
+      });
+    }
 
     const response = NextResponse.json({ ok: true, ...result });
     response.cookies.set(attributionCookieName(event.slug), clickId, {

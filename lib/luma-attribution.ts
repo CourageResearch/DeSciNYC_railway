@@ -14,6 +14,7 @@ type PayloadEntry = {
 };
 
 export type ParsedLumaConversion = {
+  attendeeName: string | null;
   email: string | null;
   hashedEmail: string | null;
   lumaEventId: string | null;
@@ -99,6 +100,19 @@ function findByKey(
       )
     )?.value || null
   );
+}
+
+function findAttendeeName(entries: PayloadEntry[]) {
+  return findByKey(entries, (leafKey, fullPath, value) => {
+    return (
+      value.length <= 120 &&
+      !value.includes("@") &&
+      !/^https?:\/\//i.test(value) &&
+      (leafKey === "name" || leafKey.endsWith("_name")) &&
+      /(attendee|buyer|contact|guest|person|registration|user)/.test(fullPath) &&
+      !/(calendar|event|organization|ticket_type)/.test(fullPath)
+    );
+  });
 }
 
 function extractUrlParams(value: string) {
@@ -241,6 +255,7 @@ export function parseLumaConversionPayload(
       (leafKey.includes("email") || fullPath.includes("email")) &&
       /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
   );
+  const attendeeName = findAttendeeName(entries);
   const hashedEmail = hashEmailForX(email);
   const lumaEventId =
     findByKey(entries, (_leafKey, fullPath, value) => {
@@ -310,6 +325,7 @@ export function parseLumaConversionPayload(
     stableStringify(payload);
 
   return {
+    attendeeName,
     email,
     hashedEmail,
     lumaEventId,

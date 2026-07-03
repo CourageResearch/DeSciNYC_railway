@@ -74,41 +74,54 @@ export async function recordAttributionClick(input: RecordClickInput) {
     return { stored: false, reason: "invalid_click_id" };
   }
 
-  await query(
+  const { rows } = await query<{ inserted: boolean }>(
     `
-      INSERT INTO attribution_clicks (
-        click_id,
-        event_slug,
-        luma_event_id,
-        luma_url,
-        landing_url,
-        landing_path,
-        twclid,
-        utm_source,
-        utm_medium,
-        utm_campaign,
-        utm_content,
-        utm_term,
-        utm_id,
-        referrer,
-        user_agent,
-        ip_address
+      WITH inserted AS (
+        INSERT INTO attribution_clicks (
+          click_id,
+          event_slug,
+          luma_event_id,
+          luma_url,
+          landing_url,
+          landing_path,
+          twclid,
+          utm_source,
+          utm_medium,
+          utm_campaign,
+          utm_content,
+          utm_term,
+          utm_id,
+          referrer,
+          user_agent,
+          ip_address
+        )
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
+        ON CONFLICT (click_id) DO NOTHING
+        RETURNING TRUE AS inserted
+      ),
+      updated AS (
+        UPDATE attribution_clicks
+        SET landing_url = $5,
+            landing_path = $6,
+            twclid = COALESCE($7, attribution_clicks.twclid),
+            utm_source = COALESCE($8, attribution_clicks.utm_source),
+            utm_medium = COALESCE($9, attribution_clicks.utm_medium),
+            utm_campaign = COALESCE($10, attribution_clicks.utm_campaign),
+            utm_content = COALESCE($11, attribution_clicks.utm_content),
+            utm_term = COALESCE($12, attribution_clicks.utm_term),
+            utm_id = COALESCE($13, attribution_clicks.utm_id),
+            referrer = COALESCE($14, attribution_clicks.referrer),
+            user_agent = COALESCE($15, attribution_clicks.user_agent),
+            ip_address = COALESCE($16, attribution_clicks.ip_address),
+            last_seen_at = now()
+        WHERE click_id = $1
+          AND NOT EXISTS (SELECT 1 FROM inserted)
+        RETURNING FALSE AS inserted
       )
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
-      ON CONFLICT (click_id) DO UPDATE
-      SET landing_url = EXCLUDED.landing_url,
-          landing_path = EXCLUDED.landing_path,
-          twclid = COALESCE(EXCLUDED.twclid, attribution_clicks.twclid),
-          utm_source = COALESCE(EXCLUDED.utm_source, attribution_clicks.utm_source),
-          utm_medium = COALESCE(EXCLUDED.utm_medium, attribution_clicks.utm_medium),
-          utm_campaign = COALESCE(EXCLUDED.utm_campaign, attribution_clicks.utm_campaign),
-          utm_content = COALESCE(EXCLUDED.utm_content, attribution_clicks.utm_content),
-          utm_term = COALESCE(EXCLUDED.utm_term, attribution_clicks.utm_term),
-          utm_id = COALESCE(EXCLUDED.utm_id, attribution_clicks.utm_id),
-          referrer = COALESCE(EXCLUDED.referrer, attribution_clicks.referrer),
-          user_agent = COALESCE(EXCLUDED.user_agent, attribution_clicks.user_agent),
-          ip_address = COALESCE(EXCLUDED.ip_address, attribution_clicks.ip_address),
-          last_seen_at = now()
+      SELECT inserted FROM inserted
+      UNION ALL
+      SELECT inserted FROM updated
+      LIMIT 1
     `,
     [
       input.clickId,
@@ -130,7 +143,7 @@ export async function recordAttributionClick(input: RecordClickInput) {
     ]
   );
 
-  return { stored: true };
+  return { stored: true, inserted: rows[0]?.inserted ?? false };
 }
 
 export async function findAttributionClick(input: MatchClickInput) {
@@ -184,58 +197,71 @@ export async function recordAttributionConversion(
     return { stored: false, reason: "missing_database_config" };
   }
 
-  await query(
+  const { rows } = await query<{ inserted: boolean }>(
     `
-      INSERT INTO attribution_conversions (
-        conversion_id,
-        click_id,
-        event_slug,
-        luma_event_id,
-        luma_guest_id,
-        luma_ticket_id,
-        hashed_email,
-        twclid,
-        utm_source,
-        utm_medium,
-        utm_campaign,
-        utm_content,
-        utm_term,
-        utm_id,
-        event_source_url,
-        conversion_value,
-        payload,
-        x_sent_at,
-        x_status,
-        x_response,
-        x_error,
-        x_skipped_reason
+      WITH inserted AS (
+        INSERT INTO attribution_conversions (
+          conversion_id,
+          click_id,
+          event_slug,
+          luma_event_id,
+          luma_guest_id,
+          luma_ticket_id,
+          hashed_email,
+          twclid,
+          utm_source,
+          utm_medium,
+          utm_campaign,
+          utm_content,
+          utm_term,
+          utm_id,
+          event_source_url,
+          conversion_value,
+          payload,
+          x_sent_at,
+          x_status,
+          x_response,
+          x_error,
+          x_skipped_reason
+        )
+        VALUES (
+          $1, $2, $3, $4, $5, $6, $7, $8,
+          $9, $10, $11, $12, $13, $14, $15, $16,
+          $17::jsonb, $18, $19, $20::jsonb, $21, $22
+        )
+        ON CONFLICT (conversion_id) DO NOTHING
+        RETURNING TRUE AS inserted
+      ),
+      updated AS (
+        UPDATE attribution_conversions
+        SET click_id = COALESCE($2, attribution_conversions.click_id),
+            luma_event_id = COALESCE($4, attribution_conversions.luma_event_id),
+            luma_guest_id = COALESCE($5, attribution_conversions.luma_guest_id),
+            luma_ticket_id = COALESCE($6, attribution_conversions.luma_ticket_id),
+            hashed_email = COALESCE($7, attribution_conversions.hashed_email),
+            twclid = COALESCE($8, attribution_conversions.twclid),
+            utm_source = COALESCE($9, attribution_conversions.utm_source),
+            utm_medium = COALESCE($10, attribution_conversions.utm_medium),
+            utm_campaign = COALESCE($11, attribution_conversions.utm_campaign),
+            utm_content = COALESCE($12, attribution_conversions.utm_content),
+            utm_term = COALESCE($13, attribution_conversions.utm_term),
+            utm_id = COALESCE($14, attribution_conversions.utm_id),
+            event_source_url = COALESCE($15, attribution_conversions.event_source_url),
+            conversion_value = COALESCE($16, attribution_conversions.conversion_value),
+            payload = $17::jsonb,
+            x_sent_at = COALESCE($18, attribution_conversions.x_sent_at),
+            x_status = COALESCE($19, attribution_conversions.x_status),
+            x_response = COALESCE($20::jsonb, attribution_conversions.x_response),
+            x_error = $21,
+            x_skipped_reason = $22
+        WHERE conversion_id = $1
+          AND NOT EXISTS (SELECT 1 FROM inserted)
+        RETURNING FALSE AS inserted
       )
-      VALUES (
-        $1, $2, $3, $4, $5, $6, $7, $8,
-        $9, $10, $11, $12, $13, $14, $15, $16,
-        $17::jsonb, $18, $19, $20::jsonb, $21, $22
-      )
-      ON CONFLICT (conversion_id) DO UPDATE
-      SET click_id = COALESCE(EXCLUDED.click_id, attribution_conversions.click_id),
-          luma_event_id = COALESCE(EXCLUDED.luma_event_id, attribution_conversions.luma_event_id),
-          luma_guest_id = COALESCE(EXCLUDED.luma_guest_id, attribution_conversions.luma_guest_id),
-          luma_ticket_id = COALESCE(EXCLUDED.luma_ticket_id, attribution_conversions.luma_ticket_id),
-          hashed_email = COALESCE(EXCLUDED.hashed_email, attribution_conversions.hashed_email),
-          twclid = COALESCE(EXCLUDED.twclid, attribution_conversions.twclid),
-          utm_source = COALESCE(EXCLUDED.utm_source, attribution_conversions.utm_source),
-          utm_medium = COALESCE(EXCLUDED.utm_medium, attribution_conversions.utm_medium),
-          utm_campaign = COALESCE(EXCLUDED.utm_campaign, attribution_conversions.utm_campaign),
-          utm_content = COALESCE(EXCLUDED.utm_content, attribution_conversions.utm_content),
-          utm_term = COALESCE(EXCLUDED.utm_term, attribution_conversions.utm_term),
-          utm_id = COALESCE(EXCLUDED.utm_id, attribution_conversions.utm_id),
-          event_source_url = COALESCE(EXCLUDED.event_source_url, attribution_conversions.event_source_url),
-          conversion_value = COALESCE(EXCLUDED.conversion_value, attribution_conversions.conversion_value),
-          payload = EXCLUDED.payload,
-          x_sent_at = COALESCE(EXCLUDED.x_sent_at, attribution_conversions.x_sent_at),
-          x_status = COALESCE(EXCLUDED.x_status, attribution_conversions.x_status),
-          x_response = COALESCE(EXCLUDED.x_response, attribution_conversions.x_response),
-          x_error = EXCLUDED.x_error,
-          x_skipped_reason = EXCLUDED.x_skipped_reason
+      SELECT inserted FROM inserted
+      UNION ALL
+      SELECT inserted FROM updated
+      LIMIT 1
     `,
     [
       input.conversionId,
@@ -263,5 +289,5 @@ export async function recordAttributionConversion(
     ]
   );
 
-  return { stored: true };
+  return { stored: true, inserted: rows[0]?.inserted ?? false };
 }

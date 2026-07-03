@@ -11,6 +11,7 @@ import {
   type AttributionEventConfig,
 } from "@/lib/attribution";
 import { recordAttributionClick } from "@/lib/attribution-db";
+import { sendAttributionClickNotification } from "@/lib/attribution-notifications";
 
 export type AttributionSearchParams = Record<
   string,
@@ -67,7 +68,7 @@ export async function captureAttributionAndBuildRedirectUrl({
   }
 
   try {
-    await recordAttributionClick({
+    const result = await recordAttributionClick({
       clickId,
       event,
       landingUrl: landingUrl.toString(),
@@ -79,6 +80,16 @@ export async function captureAttributionAndBuildRedirectUrl({
         getFirstHeaderValue(requestHeaders.get("x-forwarded-for")) ||
         requestHeaders.get("x-real-ip"),
     });
+
+    if (result.stored && result.inserted) {
+      await sendAttributionClickNotification({
+        event,
+        clickId,
+        landingUrl: landingUrl.toString(),
+        tracking: trackingWithClickId,
+        referrer: requestHeaders.get("referer"),
+      });
+    }
   } catch (error) {
     console.error("Failed to capture attribution redirect:", error);
   }

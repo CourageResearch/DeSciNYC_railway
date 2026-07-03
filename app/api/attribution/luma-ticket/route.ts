@@ -4,6 +4,7 @@ import {
   findAttributionClick,
   recordAttributionConversion,
 } from "@/lib/attribution-db";
+import { sendAttributionTicketNotification } from "@/lib/attribution-notifications";
 import { parseLumaConversionPayload } from "@/lib/luma-attribution";
 import { verifyLumaWebhookSignature } from "@/lib/luma-webhooks";
 import { sendXConversion } from "@/lib/x-conversions";
@@ -23,6 +24,25 @@ function trackingFromClick(
     utm_id: parsedTracking.utm_id || click?.utm_id || click?.click_id || null,
     twclid: parsedTracking.twclid || click?.twclid || null,
   };
+}
+
+function isAdAttributedTicket({
+  event,
+  tracking,
+  clickMatched,
+}: {
+  event: ReturnType<typeof resolveAttributionEvent>;
+  tracking: TrackingParams;
+  clickMatched: boolean;
+}) {
+  return Boolean(
+    clickMatched ||
+      tracking.twclid ||
+      tracking.utm_campaign === event.defaultUtm.utm_campaign ||
+      tracking.utm_content === event.defaultUtm.utm_content ||
+      (tracking.utm_source === event.defaultUtm.utm_source &&
+        tracking.utm_medium === event.defaultUtm.utm_medium)
+  );
 }
 
 export async function POST(req: NextRequest) {
@@ -68,6 +88,7 @@ export async function POST(req: NextRequest) {
     twclid: parsed.twclid,
   });
   const tracking = trackingFromClick(parsed.tracking, click);
+  const clickMatched = Boolean(click);
   const twclid = tracking.twclid || null;
   const xResult = await sendXConversion({
     conversionId: parsed.conversionId,
@@ -85,7 +106,7 @@ export async function POST(req: NextRequest) {
     : xResult.response || xResult.payload || null;
 
   try {
-    await recordAttributionConversion({
+    const conversionResult = await recordAttributionConversion({
       conversionId: parsed.conversionId,
       clickId: click?.click_id || null,
       eventSlug: event.slug,
@@ -104,6 +125,27 @@ export async function POST(req: NextRequest) {
       xError: xResult.sent ? null : xResult.error || null,
       xSkippedReason: xResult.sent ? null : xResult.skippedReason,
     });
+
+    if (
+      conversionResult.stored &&
+      conversionResult.inserted &&
+      isAdAttributedTicket({ event, tracking, clickMatched })
+    ) {
+      await sendAttributionTicketNotification({
+        event,
+        conversionId: parsed.conversionId,
+        clickMatched,
+        clickId: click?.click_id || null,
+        lumaGuestId: parsed.lumaGuestId,
+        lumaTicketId: parsed.lumaTicketId,
+        attendeeName: parsed.attendeeName,
+        attendeeEmail: parsed.email,
+        tracking,
+        eventSourceUrl: parsed.eventSourceUrl,
+        conversionValue: parsed.conversionValue,
+        conversionTime: parsed.conversionTime,
+      });
+    }
   } catch (error) {
     console.error("Failed to record Luma attribution conversion:", error);
   }
@@ -112,7 +154,7 @@ export async function POST(req: NextRequest) {
     ok: true,
     webhookId: req.headers.get("webhook-id"),
     conversionId: parsed.conversionId,
-    clickMatched: Boolean(click),
+    clickMatched,
     x: xResult.sent
       ? { sent: true, status: xResult.status }
       : { sent: false, skippedReason: xResult.skippedReason },
