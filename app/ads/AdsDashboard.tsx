@@ -84,6 +84,14 @@ function percent(value: number | null | undefined) {
   return `${(value * 100).toFixed(value < 0.01 ? 2 : 1)}%`;
 }
 
+function multiplier(value: number | null | undefined) {
+  if (value === null || value === undefined) {
+    return "n/a";
+  }
+
+  return `${value.toFixed(value < 10 ? 2 : 1)}x`;
+}
+
 function compact(value: number | null | undefined) {
   return NUMBER_FORMAT.format(value || 0);
 }
@@ -357,6 +365,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
         ...point,
         dateLabel: shortDate(point.date),
         spend: point.spendMicros / 1_000_000,
+        revenue: point.revenueMicros / 1_000_000,
       })),
     [summary.timeSeries]
   );
@@ -610,7 +619,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
           </div>
         ) : null}
 
-        <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+        <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
           <KpiCard
             label="Cost per registration"
             value={money(summary.totals.costPerRegistrationMicros, true)}
@@ -620,6 +629,16 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             label="Spend"
             value={money(summary.totals.spendMicros)}
             detail={`${compact(summary.totals.impressions)} impressions`}
+          />
+          <KpiCard
+            label="Revenue"
+            value={money(summary.totals.revenueMicros)}
+            detail={`ROAS ${multiplier(summary.totals.roas)}`}
+          />
+          <KpiCard
+            label="ROAS"
+            value={multiplier(summary.totals.roas)}
+            detail={`${money(summary.totals.revenueMicros)} revenue`}
           />
           <KpiCard
             label="Tracked conversion"
@@ -656,8 +675,11 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                       color: "#fff",
                     }}
                     formatter={(value, name) =>
-                      name === "spend"
-                        ? [MONEY_FORMAT_PRECISE.format(Number(value)), "Spend"]
+                      name === "spend" || name === "revenue"
+                        ? [
+                            MONEY_FORMAT_PRECISE.format(Number(value)),
+                            name === "spend" ? "Spend" : "Revenue",
+                          ]
                         : [compact(Number(value)), String(name)]
                     }
                   />
@@ -666,6 +688,14 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                     type="monotone"
                     dataKey="spend"
                     stroke="#D7F171"
+                    strokeWidth={2}
+                    dot={false}
+                  />
+                  <Line
+                    yAxisId="left"
+                    type="monotone"
+                    dataKey="revenue"
+                    stroke="#FFB199"
                     strokeWidth={2}
                     dot={false}
                   />
@@ -732,6 +762,9 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                       <div className="text-xs text-[#8BA59B]">
                         CPA {money(row.costPerRegistrationMicros, true)}
                       </div>
+                      <div className="text-xs text-[#8BA59B]">
+                        ROAS {multiplier(row.roas)}
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -775,7 +808,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
               </div>
 
               <div className="overflow-x-auto">
-                <table className="w-full min-w-[1180px] border-collapse text-sm">
+                <table className="w-full min-w-[1320px] border-collapse text-sm">
                   <thead className="text-left text-xs uppercase text-[#8BA59B]">
                     <tr className="border-b border-[#22362F]">
                       <th className="px-3 py-2">Style combo</th>
@@ -784,7 +817,9 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                       <th className="px-3 py-2 text-right">Tracked clicks</th>
                       <th className="px-3 py-2 text-right">Platform clicks</th>
                       <th className="px-3 py-2 text-right">Regs</th>
+                      <th className="px-3 py-2 text-right">Revenue</th>
                       <th className="px-3 py-2 text-right">CPA</th>
+                      <th className="px-3 py-2 text-right">ROAS</th>
                       <th className="px-3 py-2 text-right">CVR</th>
                       <th className="px-3 py-2 text-right">CTR</th>
                     </tr>
@@ -834,7 +869,13 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                           {compact(row.registrations)}
                         </td>
                         <td className="px-3 py-3 text-right">
+                          {money(row.revenueMicros)}
+                        </td>
+                        <td className="px-3 py-3 text-right">
                           {money(row.costPerRegistrationMicros, true)}
+                        </td>
+                        <td className="px-3 py-3 text-right">
+                          {multiplier(row.roas)}
                         </td>
                         <td className="px-3 py-3 text-right">
                           {percent(row.conversionRate)}
@@ -856,14 +897,16 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             </div>
           ) : (
             <div className="overflow-x-auto">
-              <table className="w-full min-w-[1120px] border-collapse text-sm">
+              <table className="w-full min-w-[1260px] border-collapse text-sm">
                 <thead className="text-left text-xs uppercase text-[#8BA59B]">
                   <tr className="border-b border-[#22362F]">
                     <th className="px-3 py-2">Platform</th>
                     <th className="px-3 py-2">Campaign / creative</th>
                     <th className="px-3 py-2 text-right">Spend</th>
                     <th className="px-3 py-2 text-right">Regs</th>
+                    <th className="px-3 py-2 text-right">Revenue</th>
                     <th className="px-3 py-2 text-right">CPA</th>
+                    <th className="px-3 py-2 text-right">ROAS</th>
                     <th className="px-3 py-2 text-right">Clicks</th>
                     <th className="px-3 py-2 text-right">CPC</th>
                     <th className="px-3 py-2 text-right">CTR</th>
@@ -891,7 +934,13 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                         {compact(row.registrations)}
                       </td>
                       <td className="px-3 py-3 text-right">
+                        {money(row.revenueMicros)}
+                      </td>
+                      <td className="px-3 py-3 text-right">
                         {money(row.costPerRegistrationMicros, true)}
+                      </td>
+                      <td className="px-3 py-3 text-right">
+                        {multiplier(row.roas)}
                       </td>
                       <td className="px-3 py-3 text-right">
                         {compact(row.platformClicks)}

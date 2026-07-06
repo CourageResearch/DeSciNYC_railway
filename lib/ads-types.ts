@@ -25,6 +25,7 @@ export type ConnectorStatus = {
 
 export type AdsTotals = {
   spendMicros: number;
+  revenueMicros: number;
   impressions: number;
   reach: number;
   platformClicks: number;
@@ -35,6 +36,7 @@ export type AdsTotals = {
   ctr: number | null;
   conversionRate: number | null;
   costPerRegistrationMicros: number | null;
+  roas: number | null;
   unmappedSpendMicros: number;
   provisionalSpendMicros: number;
   unmatchedConversions: number;
@@ -43,6 +45,7 @@ export type AdsTotals = {
 export type AdsTimePoint = {
   date: string;
   spendMicros: number;
+  revenueMicros: number;
   registrations: number;
   platformClicks: number;
   trackedClicks: number;
@@ -71,6 +74,7 @@ export type AdsBreakdownRow = {
   utmContent: string | null;
   campaignCount: number;
   spendMicros: number;
+  revenueMicros: number;
   impressions: number;
   reach: number;
   platformClicks: number;
@@ -81,6 +85,7 @@ export type AdsBreakdownRow = {
   ctr: number | null;
   conversionRate: number | null;
   costPerRegistrationMicros: number | null;
+  roas: number | null;
   provisional: boolean;
   lastMetricDate: string | null;
 };

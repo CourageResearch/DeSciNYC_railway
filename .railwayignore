@@ -1,6 +1,9 @@
 node_modules/
 .next/
 .local-storage/
+.agents/
+.tmp/
+.railway-config-pull-*/
 .env
 .env*.local
 public/gallery/

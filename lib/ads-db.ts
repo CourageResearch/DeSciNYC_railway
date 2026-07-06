@@ -25,6 +25,7 @@ import {
   toInt,
   trackingKey,
 } from "@/lib/ads-utils";
+import { getXAdsConfig } from "@/lib/x-ads-config";
 
 type MetricRow = {
   metric_id: string;
@@ -66,6 +67,7 @@ type AttributionGroupRow = {
   utm_campaign: string | null;
   utm_content: string | null;
   count: string | number;
+  revenue_micros?: string | number;
   unmatched?: string | number;
 };
 
@@ -140,15 +142,7 @@ function connectorMissingConfig(platform: AdPlatform) {
     return required.filter(([, value]) => !value).map(([key]) => key);
   }
 
-  const required: Array<[string, string | undefined]> = [
-    ["X_ADS_ACCOUNT_ID", process.env.X_ADS_ACCOUNT_ID],
-    ["X_ADS_API_KEY", process.env.X_ADS_API_KEY],
-    ["X_ADS_API_SECRET", process.env.X_ADS_API_SECRET],
-    ["X_ADS_ACCESS_TOKEN", process.env.X_ADS_ACCESS_TOKEN],
-    ["X_ADS_ACCESS_TOKEN_SECRET", process.env.X_ADS_ACCESS_TOKEN_SECRET],
-  ];
-
-  return required.filter(([, value]) => !value).map(([key]) => key);
+  return getXAdsConfig().missing;
 }
 
 function getLocalXBulkExportPath() {
@@ -192,6 +186,7 @@ function emptySummary(filters: AdsFilters, issue?: AdsQualityIssue): AdsSummaryR
     connectorStatus: getConnectorConfigStatus(),
     totals: {
       spendMicros: 0,
+      revenueMicros: 0,
       impressions: 0,
       reach: 0,
       platformClicks: 0,
@@ -202,6 +197,7 @@ function emptySummary(filters: AdsFilters, issue?: AdsQualityIssue): AdsSummaryR
       ctr: null,
       conversionRate: null,
       costPerRegistrationMicros: null,
+      roas: null,
       unmappedSpendMicros: 0,
       provisionalSpendMicros: 0,
       unmatchedConversions: 0,
@@ -348,6 +344,16 @@ async function getConversionGroups(filters: AdsFilters) {
         utm_campaign,
         utm_content,
         COUNT(*)::int AS count,
+        COALESCE(
+          SUM(
+            CASE
+              WHEN conversion_value ~ '^-?[0-9]+(\\.[0-9]+)?$'
+                THEN ROUND(conversion_value::numeric * 1000000)::bigint
+              ELSE 0
+            END
+          ),
+          0
+        )::bigint AS revenue_micros,
         COUNT(*) FILTER (WHERE click_id IS NULL)::int AS unmatched
       FROM attribution_conversions
       WHERE ${where.join(" AND ")}
@@ -446,11 +452,13 @@ function emptyBreakdownRow(input: {
     platformClicks: 0,
     trackedClicks: 0,
     registrations: 0,
+    revenueMicros: 0,
     cpcMicros: null,
     cpmMicros: null,
     ctr: null,
     conversionRate: null,
     costPerRegistrationMicros: null,
+    roas: null,
     provisional: false,
     lastMetricDate: null,
   };
@@ -463,6 +471,7 @@ function finalizeBreakdown(row: AdsBreakdownRow) {
   row.ctr = ratioFrom(row.platformClicks, row.impressions);
   row.conversionRate = ratioFrom(row.registrations, row.trackedClicks);
   row.costPerRegistrationMicros = microsPer(row.spendMicros, row.registrations);
+  row.roas = ratioFrom(row.revenueMicros, row.spendMicros);
   return row;
 }
 
@@ -477,13 +486,18 @@ function addMetricToBreakdown(row: AdsBreakdownRow, metric: MetricRow) {
 
 function groupAttribution(rows: AttributionGroupRow[]) {
   const byTracking = new Map<string, number>();
+  const revenueByTracking = new Map<string, number>();
   const byDate = new Map<string, number>();
+  const revenueByDate = new Map<string, number>();
   const byPlatform = new Map<string, number>();
+  const revenueByPlatform = new Map<string, number>();
   let total = 0;
+  let revenueTotal = 0;
   let unmatched = 0;
 
   for (const row of rows) {
     const count = numberValue(row.count);
+    const revenueMicros = numberValue(row.revenue_micros);
     const date = dateOnly(row.date);
     const platform = sourceToPlatform(row.utm_source);
     const key = trackingKey({
@@ -494,17 +508,37 @@ function groupAttribution(rows: AttributionGroupRow[]) {
     });
 
     total += count;
+    revenueTotal += revenueMicros;
     byTracking.set(key, (byTracking.get(key) || 0) + count);
+    revenueByTracking.set(
+      key,
+      (revenueByTracking.get(key) || 0) + revenueMicros
+    );
     byDate.set(date, (byDate.get(date) || 0) + count);
+    revenueByDate.set(date, (revenueByDate.get(date) || 0) + revenueMicros);
 
     if (platform) {
       byPlatform.set(platform, (byPlatform.get(platform) || 0) + count);
+      revenueByPlatform.set(
+        platform,
+        (revenueByPlatform.get(platform) || 0) + revenueMicros
+      );
     }
 
     unmatched += numberValue(row.unmatched);
   }
 
-  return { byTracking, byDate, byPlatform, total, unmatched };
+  return {
+    byTracking,
+    revenueByTracking,
+    byDate,
+    revenueByDate,
+    byPlatform,
+    revenueByPlatform,
+    total,
+    revenueTotal,
+    unmatched,
+  };
 }
 
 function dateRange(startDate: string, endDate: string) {
@@ -711,6 +745,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
     if (key !== "|||") {
       row.trackedClicks = clicks.byTracking.get(key) || 0;
       row.registrations = conversions.byTracking.get(key) || 0;
+      row.revenueMicros = conversions.revenueByTracking.get(key) || 0;
     }
     finalizeBreakdown(row);
   }
@@ -720,6 +755,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
     if (key !== "|||") {
       row.trackedClicks = clicks.byTracking.get(key) || 0;
       row.registrations = conversions.byTracking.get(key) || 0;
+      row.revenueMicros = conversions.revenueByTracking.get(key) || 0;
     }
 
     const campaigns = creativeCampaigns.get(row.key);
@@ -741,6 +777,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
       });
     row.trackedClicks = trackedClicks;
     row.registrations = conversions.byPlatform.get(platform) || 0;
+    row.revenueMicros = conversions.revenueByPlatform.get(platform) || 0;
     platformMap.set(platform, row);
   }
 
@@ -753,6 +790,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
         campaignName: platform === "meta" ? "Meta" : "X",
       });
     row.registrations = registrations;
+    row.revenueMicros = conversions.revenueByPlatform.get(platform) || 0;
     if (!row.trackedClicks) {
       row.trackedClicks = clicks.byPlatform.get(platform) || 0;
     }
@@ -803,6 +841,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
   const timeSeries = dateRange(filters.startDate, filters.endDate).map((date) => ({
     date,
     spendMicros: spendByDate.get(date) || 0,
+    revenueMicros: conversions.revenueByDate.get(date) || 0,
     registrations: conversions.byDate.get(date) || 0,
     platformClicks: clickByDate.get(date) || 0,
     trackedClicks: clicks.byDate.get(date) || 0,
@@ -883,6 +922,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
     connectorStatus,
     totals: {
       spendMicros,
+      revenueMicros: conversions.revenueTotal,
       impressions,
       reach,
       platformClicks,
@@ -894,6 +934,7 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
       ctr: ratioFrom(platformClicks, impressions),
       conversionRate: ratioFrom(conversions.total, clicks.total),
       costPerRegistrationMicros: microsPer(spendMicros, conversions.total),
+      roas: ratioFrom(conversions.revenueTotal, spendMicros),
       unmappedSpendMicros,
       provisionalSpendMicros,
       unmatchedConversions: conversions.unmatched,

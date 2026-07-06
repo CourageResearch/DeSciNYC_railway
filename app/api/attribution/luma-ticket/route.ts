@@ -98,6 +98,8 @@ export async function POST(req: NextRequest) {
     utmId: parsed.tracking.utm_id,
     twclid: parsed.twclid,
     fbclid: parsed.tracking.fbclid,
+    tracking: parsed.tracking,
+    conversionTime: parsed.conversionTime,
   });
   const tracking = trackingFromClick(parsed.tracking, click);
   const clickMatched = Boolean(click);

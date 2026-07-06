@@ -25,6 +25,11 @@ X_ADS_ACCESS_TOKEN_SECRET=
 X_ADS_API_VERSION=12
 ```
 
+The X reporting connector also accepts the common `X_*` / `TWITTER_*`
+equivalents for the API key, API secret, access token, and access token secret.
+The account id may be provided as `X_ACCOUNT_ID` or `TWITTER_ADS_ACCOUNT_ID`,
+but the canonical `X_ADS_*` names are preferred for Railway.
+
 For local testing without X Ads API analytics credentials, `/ads` can import the
 existing X bulk export:
 
@@ -54,7 +59,38 @@ billing metrics for the latest three days are marked provisional.
 
 The dashboard includes a Creative lab section for headline/image/style combos,
 including best CPA, most-clicked, and click-to-registration rankings. For
-DeSciNYC events, registrations from Luma are the conversion outcome.
+DeSciNYC events, registrations from Luma are the conversion outcome. If Luma
+sends a paid ticket value, the dashboard also shows revenue and ROAS by
+platform, campaign, and creative style combo.
+
+For manual or scheduled server-side syncs, run:
+
+```bash
+npm run ads:sync
+```
+
+Useful environment overrides:
+
+```text
+ADS_SYNC_BASE_URL=https://desci.nyc
+ADS_SYNC_PLATFORM=all
+ADS_SYNC_START_DATE=2026-06-06
+ADS_SYNC_END_DATE=2026-07-06
+```
+
+The script signs in through the existing admin login using `ADMIN_PASSWORD`,
+then calls `/api/ads/sync`. It is safe for Railway cron/Functions because it
+exits after the sync response.
+
+If existing Luma conversions were recorded before a click id was available, run
+the conservative backfill:
+
+```bash
+npm run ads:backfill-conversions
+```
+
+It only attaches an unmatched conversion to a click when exactly one paid-social
+click matches the same event, source, campaign/content, and time window.
 
 ## Mapping
 

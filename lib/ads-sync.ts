@@ -29,6 +29,7 @@ import {
   todayIsoDate,
 } from "@/lib/ads-utils";
 import { query } from "@/lib/db";
+import { getXAdsConfig } from "@/lib/x-ads-config";
 
 type JsonObject = Record<string, unknown>;
 
@@ -375,19 +376,11 @@ async function getMetaMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
 }
 
 function getXApiVersion() {
-  return process.env.X_ADS_API_VERSION || "12";
+  return getXAdsConfig().apiVersion;
 }
 
 function xApiMissingConfig() {
-  const required: Array<[string, string | undefined]> = [
-    ["X_ADS_ACCOUNT_ID", process.env.X_ADS_ACCOUNT_ID],
-    ["X_ADS_API_KEY", process.env.X_ADS_API_KEY],
-    ["X_ADS_API_SECRET", process.env.X_ADS_API_SECRET],
-    ["X_ADS_ACCESS_TOKEN", process.env.X_ADS_ACCESS_TOKEN],
-    ["X_ADS_ACCESS_TOKEN_SECRET", process.env.X_ADS_ACCESS_TOKEN_SECRET],
-  ];
-
-  return required.filter(([, value]) => !value).map(([key]) => key);
+  return getXAdsConfig().missing;
 }
 
 function getLocalXBulkExportPath() {
@@ -412,10 +405,12 @@ function xBaseUrl() {
 }
 
 function xOAuth() {
+  const config = getXAdsConfig();
+
   return new OAuth({
     consumer: {
-      key: process.env.X_ADS_API_KEY || "",
-      secret: process.env.X_ADS_API_SECRET || "",
+      key: config.apiKey,
+      secret: config.apiSecret,
     },
     signature_method: "HMAC-SHA1",
     hash_function(baseString, key) {
@@ -425,6 +420,7 @@ function xOAuth() {
 }
 
 async function xGet(path: string, params: Record<string, string> = {}) {
+  const config = getXAdsConfig();
   const baseUrl = `${xBaseUrl()}${path}`;
   const url = new URL(baseUrl);
 
@@ -433,8 +429,8 @@ async function xGet(path: string, params: Record<string, string> = {}) {
   }
 
   const token = {
-    key: process.env.X_ADS_ACCESS_TOKEN || "",
-    secret: process.env.X_ADS_ACCESS_TOKEN_SECRET || "",
+    key: config.accessToken,
+    secret: config.accessTokenSecret,
   };
   const request = {
     url: baseUrl,
@@ -509,7 +505,7 @@ function chunk<T>(items: T[], size: number) {
 }
 
 async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
-  const accountId = process.env.X_ADS_ACCOUNT_ID || "";
+  const accountId = getXAdsConfig().accountId;
   const [campaigns, lineItems] = await Promise.all([
     xPaged(`/accounts/${accountId}/campaigns`, {
       count: "1000",

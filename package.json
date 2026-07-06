@@ -11,6 +11,8 @@
     "db:migrate": "node scripts/db-migrate.mjs",
     "db:seed:local": "node scripts/db-seed-local.mjs",
     "db:setup:local": "npm run db:create:local && npm run db:migrate && npm run db:seed:local",
+    "ads:sync": "node scripts/ads-sync-cron.mjs",
+    "ads:backfill-conversions": "node scripts/ads-backfill-conversions.mjs",
     "copy:supabase:db": "node scripts/copy-supabase-db.mjs",
     "copy:supabase:storage": "node scripts/copy-supabase-storage.mjs",
     "copy:supabase:public": "node scripts/copy-supabase-public.mjs",

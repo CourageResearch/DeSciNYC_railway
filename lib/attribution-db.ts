@@ -45,6 +45,8 @@ export type MatchClickInput = {
   utmId?: string | null;
   twclid?: string | null;
   fbclid?: string | null;
+  tracking?: TrackingParams;
+  conversionTime?: string | null;
 };
 
 export type RecordConversionInput = {
@@ -206,6 +208,39 @@ export async function findAttributionClick(input: MatchClickInput) {
     );
 
     return rows[0] || null;
+  }
+
+  const source = input.tracking?.utm_source?.toLowerCase();
+  const campaign = input.tracking?.utm_campaign || null;
+  const content = input.tracking?.utm_content || null;
+
+  if (source && (campaign || content)) {
+    const conversionTime = input.conversionTime
+      ? new Date(input.conversionTime)
+      : new Date();
+    const endTime = Number.isNaN(conversionTime.getTime())
+      ? new Date()
+      : conversionTime;
+    const startTime = new Date(endTime.getTime() - 30 * 24 * 60 * 60 * 1000);
+    const { rows } = await query<AttributionClick>(
+      `
+        SELECT *
+        FROM attribution_clicks
+        WHERE event_slug = $1
+          AND LOWER(COALESCE(utm_source, '')) = $2
+          AND ($3::text IS NULL OR utm_campaign = $3)
+          AND ($4::text IS NULL OR utm_content = $4)
+          AND created_at >= $5
+          AND created_at <= ($6::timestamptz + INTERVAL '1 hour')
+        ORDER BY created_at DESC
+        LIMIT 2
+      `,
+      [eventSlug, source, campaign, content, startTime.toISOString(), endTime.toISOString()]
+    );
+
+    if (rows.length === 1) {
+      return rows[0];
+    }
   }
 
   return null;
