@@ -2,6 +2,7 @@ import { Resend } from "resend";
 import { ADMIN_EMAILS } from "@/types/adminEmails";
 import { NextRequest, NextResponse } from "next/server";
 import { detectBot, BotProtectionData } from "../../../lib/botProtection";
+import { shouldSendAdminEmailNotification } from "@/lib/admin-email-preferences";
 
 export async function POST(req: NextRequest) {
   try {
@@ -145,20 +146,22 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        const emailPromises = [
-          // Admin notification
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: ADMIN_EMAILS,
-            subject: "New Contact Form Submission",
-            text: `
+        const emailPromises: Array<Promise<unknown>> = [];
+        if (await shouldSendAdminEmailNotification("contact")) {
+          emailPromises.push(
+            resend.emails.send({
+              from: "DeSciNYC <admin@desci.nyc>",
+              to: ADMIN_EMAILS,
+              subject: "New Contact Form Submission",
+              text: `
               Name: ${contactName || "Not provided"}
               Email: ${contactEmail || "Not provided"}
               Phone: ${contactPhone || "Not provided"}
               Message: ${contactMessage}
             `,
-          }),
-        ];
+            })
+          );
+        }
 
         if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)) {
           emailPromises.push(
@@ -187,15 +190,19 @@ export async function POST(req: NextRequest) {
       case "subscribe": {
         const { email, nextEvent } = emailData;
 
-        await Promise.all([
-          // Admin notification
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: ADMIN_EMAILS,
-            subject: "New DeSciNYC email list member!",
-            text: `A user signed up with the email ${email}! They are now in the luma list.`,
-          }),
-          // Subscriber confirmation
+        const emailPromises: Array<Promise<unknown>> = [];
+        if (await shouldSendAdminEmailNotification("subscribe")) {
+          emailPromises.push(
+            resend.emails.send({
+              from: "DeSciNYC <admin@desci.nyc>",
+              to: ADMIN_EMAILS,
+              subject: "New DeSciNYC email list member!",
+              text: `A user signed up with the email ${email}! They are now in the luma list.`,
+            })
+          );
+        }
+
+        emailPromises.push(
           resend.emails.send({
             from: "DeSciNYC <admin@desci.nyc>",
             to: [email],
@@ -245,8 +252,10 @@ export async function POST(req: NextRequest) {
                 <p>All the best,<br>The DeSciNYC Team</p>
               </div>
             `,
-          }),
-        ]);
+          })
+        );
+
+        await Promise.all(emailPromises);
 
         return NextResponse.json({ message: "Subscription confirmed" });
       }
@@ -255,13 +264,14 @@ export async function POST(req: NextRequest) {
         const { yourName, yourEmail, speakerName, speakerEmail, speakerBio } =
           emailData;
 
-        await Promise.all([
-          // Admin notification
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: ADMIN_EMAILS,
-            subject: "New Speaker Suggestion",
-            text: `
+        const emailPromises: Array<Promise<unknown>> = [];
+        if (await shouldSendAdminEmailNotification("speaker_suggestion")) {
+          emailPromises.push(
+            resend.emails.send({
+              from: "DeSciNYC <admin@desci.nyc>",
+              to: ADMIN_EMAILS,
+              subject: "New Speaker Suggestion",
+              text: `
               Suggested by:
               Name: ${yourName}
               Email: ${yourEmail}
@@ -271,8 +281,11 @@ export async function POST(req: NextRequest) {
               Email: ${speakerEmail}
               Bio: ${speakerBio}
             `,
-          }),
-          // User confirmation
+            })
+          );
+        }
+
+        emailPromises.push(
           resend.emails.send({
             from: "DeSciNYC <admin@desci.nyc>",
             to: [yourEmail],
@@ -286,8 +299,10 @@ export async function POST(req: NextRequest) {
                 <p>Best regards,<br>The DeSciNYC Team</p>
               </div>
             `,
-          }),
-        ]);
+          })
+        );
+
+        await Promise.all(emailPromises);
 
         return NextResponse.json({ message: "Speaker suggestion received" });
       }

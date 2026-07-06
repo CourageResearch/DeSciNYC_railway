@@ -1,6 +1,10 @@
 import "server-only";
 
 import { Resend } from "resend";
+import {
+  shouldSendAdminEmailNotification,
+  type AdminEmailNotificationType,
+} from "@/lib/admin-email-preferences";
 import type {
   AttributionEventConfig,
   TrackingParams,
@@ -84,15 +88,67 @@ function detailsToHtml(details: EmailDetail[]) {
   `;
 }
 
+function cleanSubjectPart(value: string | null | undefined) {
+  return value?.replace(/\s+/g, " ").trim() || null;
+}
+
+function sourceLabel(source: string | null | undefined) {
+  const cleaned = cleanSubjectPart(source);
+  const normalized = cleaned?.toLowerCase() || "";
+
+  if (normalized.includes("instagram_ads")) {
+    return "Instagram";
+  }
+
+  if (normalized.includes("facebook_ads")) {
+    return "Facebook";
+  }
+
+  if (normalized.includes("meta_ads")) {
+    return "Meta";
+  }
+
+  if (normalized.includes("twitter_ads") || normalized.includes("x_ads")) {
+    return "X/Twitter";
+  }
+
+  return cleaned || "unknown source";
+}
+
+function trackingSubjectDetails(event: AttributionEventConfig, tracking: TrackingParams) {
+  const content = cleanSubjectPart(tracking.utm_content);
+  const campaign = cleanSubjectPart(tracking.utm_campaign);
+  const placement = content || campaign;
+
+  return placement ? `${event.slug} / ${placement}` : event.slug;
+}
+
+function attributionSubject(
+  action: "New click" | "Registration",
+  event: AttributionEventConfig,
+  tracking: TrackingParams
+) {
+  return `[DeSciNYC Ads] ${action} from ${sourceLabel(
+    tracking.utm_source
+  )}: ${trackingSubjectDetails(event, tracking)}`;
+}
+
 async function sendAttributionNotification({
   kind,
+  preferenceType,
   subject,
   details,
 }: {
   kind: string;
+  preferenceType: AdminEmailNotificationType;
   subject: string;
   details: EmailDetail[];
 }) {
+  const enabled = await shouldSendAdminEmailNotification(preferenceType);
+  if (!enabled) {
+    return { sent: false, reason: "disabled_by_admin_preference" };
+  }
+
   const resendApiKey = process.env.RESEND_API_KEY;
 
   if (!resendApiKey) {
@@ -130,7 +186,8 @@ export async function sendAttributionClickNotification({
 }: SendAttributionClickNotificationInput) {
   return sendAttributionNotification({
     kind: "ad click",
-    subject: `[DeSciNYC Ads] New ad click: ${event.slug}`,
+    preferenceType: "ad_click",
+    subject: attributionSubject("New click", event, tracking),
     details: [
       ["Notification", "New ad click"],
       ["Event", event.title],
@@ -168,7 +225,8 @@ export async function sendAttributionConversionNotification({
 }: SendAttributionConversionNotificationInput) {
   return sendAttributionNotification({
     kind: "ad conversion",
-    subject: `[DeSciNYC Ads] Registration from ad: ${event.slug}`,
+    preferenceType: "ad_registration",
+    subject: attributionSubject("Registration", event, tracking),
     details: [
       ["Notification", "Registration from ad"],
       ["Event", event.title],
