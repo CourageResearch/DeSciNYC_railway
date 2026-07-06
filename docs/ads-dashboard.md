@@ -82,6 +82,16 @@ The script signs in through the existing admin login using `ADMIN_PASSWORD`,
 then calls `/api/ads/sync`. It is safe for Railway cron/Functions because it
 exits after the sync response.
 
+Production scheduled syncs are handled by
+`.github/workflows/ads-sync.yml`, which runs every 6 hours and calls the
+protected `/api/ads/sync` route. The workflow needs the GitHub secret
+`DESCINYC_ADMIN_PASSWORD`.
+
+There is also a single-file Railway Function source at `functions/ads-sync.ts`
+if the schedule is later moved from GitHub Actions to Railway Functions. It
+should be deployed as a cron function and given `ADMIN_PASSWORD` plus
+`ADS_SYNC_BASE_URL=https://desci.nyc`.
+
 If existing Luma conversions were recorded before a click id was available, run
 the conservative backfill:
 

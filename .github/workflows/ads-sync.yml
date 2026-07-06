@@ -1,0 +1,103 @@
+name: Ads Sync
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: "Platform to sync"
+        default: "all"
+        required: false
+        type: choice
+        options:
+          - all
+          - meta
+          - x
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BASE_URL: https://desci.nyc
+      ADMIN_PASSWORD: ${{ secrets.DESCINYC_ADMIN_PASSWORD }}
+      PLATFORM: ${{ inputs.platform || 'all' }}
+    steps:
+      - name: Sync ads dashboard
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ADMIN_PASSWORD:-}" ]; then
+            echo "::error::DESCINYC_ADMIN_PASSWORD secret is not configured"
+            exit 1
+          fi
+
+          cookie_file="$(mktemp)"
+          login_payload="$(mktemp)"
+          sync_payload="$(mktemp)"
+          sync_response="$(mktemp)"
+          end_date="$(date -u +%F)"
+          start_date="$(date -u -d "${end_date} -30 days" +%F)"
+
+          python3 - <<'PY' > "${login_payload}"
+          import json
+          import os
+
+          print(json.dumps({"password": os.environ["ADMIN_PASSWORD"]}))
+          PY
+
+          curl --fail --silent --show-error \
+            --cookie-jar "${cookie_file}" \
+            --header "Content-Type: application/json" \
+            --data @"${login_payload}" \
+            "${BASE_URL}/api/admin/login" >/dev/null
+
+          START_DATE="${start_date}" END_DATE="${end_date}" python3 - <<'PY' > "${sync_payload}"
+          import json
+          import os
+
+          print(
+              json.dumps(
+                  {
+                      "startDate": os.environ["START_DATE"],
+                      "endDate": os.environ["END_DATE"],
+                      "platform": os.environ.get("PLATFORM", "all") or "all",
+                  }
+              )
+          )
+          PY
+
+          curl --fail --silent --show-error \
+            --cookie "${cookie_file}" \
+            --header "Content-Type: application/json" \
+            --data @"${sync_payload}" \
+            "${BASE_URL}/api/ads/sync" > "${sync_response}"
+
+          python3 - "${sync_response}" <<'PY'
+          import json
+          import sys
+
+          with open(sys.argv[1], "r", encoding="utf-8") as handle:
+              body = json.load(handle)
+
+          safe = {
+              "ok": body.get("ok"),
+              "range": body.get("range"),
+              "results": [
+                  {
+                      "platform": result.get("platform"),
+                      "status": result.get("status"),
+                      "configured": result.get("configured"),
+                      "rowsSynced": result.get("rowsSynced"),
+                      "missingConfig": result.get("missingConfig") or [],
+                      "error": result.get("error"),
+                  }
+                  for result in body.get("results", [])
+              ],
+          }
+          print(json.dumps(safe, indent=2))
+
+          if not body.get("ok"):
+              raise SystemExit(1)
+          PY
