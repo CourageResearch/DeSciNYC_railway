@@ -143,6 +143,32 @@ async function readGalleryFile(objectKey: string) {
   throw new Error("Gallery object not found");
 }
 
+async function readPublicGalleryFile(objectKey: string) {
+  for (const candidatePath of publicFallbackPathsFor(objectKey)) {
+    try {
+      return await fs.readFile(candidatePath);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
+        throw error;
+      }
+    }
+  }
+
+  return null;
+}
+
+async function galleryObjectResponse(objectKey: string, file: Buffer) {
+  const contentType =
+    (await getGalleryContentType(objectKey)) || inferGalleryContentType(objectKey);
+
+  return new NextResponse(new Uint8Array(file), {
+    headers: {
+      ...(contentType ? { "Content-Type": contentType } : {}),
+      "Cache-Control": "public, max-age=3600",
+    },
+  });
+}
+
 export async function listGalleryImages(): Promise<GalleryImage[]> {
   if (!hasDatabaseConfig()) {
     return [];
@@ -262,6 +288,10 @@ export async function archiveGalleryImage(objectKey: string) {
 
 export async function serveGalleryObject(objectKey: string) {
   const safeKey = safeObjectKey(objectKey);
+  const publicFile = await readPublicGalleryFile(safeKey);
+  if (publicFile) {
+    return galleryObjectResponse(safeKey, publicFile);
+  }
 
   if (hasS3Config()) {
     const url = await getSignedUrl(
@@ -273,14 +303,7 @@ export async function serveGalleryObject(objectKey: string) {
   }
 
   const file = await readGalleryFile(safeKey);
-  const contentType =
-    (await getGalleryContentType(safeKey)) || inferGalleryContentType(safeKey);
-  return new NextResponse(new Uint8Array(file), {
-    headers: {
-      ...(contentType ? { "Content-Type": contentType } : {}),
-      "Cache-Control": "public, max-age=3600",
-    },
-  });
+  return galleryObjectResponse(safeKey, file);
 }
 
 async function getGalleryContentType(objectKey: string) {
