@@ -450,14 +450,17 @@ async function xGet(path: string, params: Record<string, string> = {}) {
 
 async function xPaged(path: string, params: Record<string, string> = {}) {
   const data: JsonObject[] = [];
-  let cursor: string | null = "-1";
+  let cursor: string | null = null;
+  let isFirstPage = true;
 
-  while (cursor) {
-    const body = (await xGet(path, { ...params, cursor })) as {
+  while (isFirstPage || cursor) {
+    const pageParams = cursor ? { ...params, cursor } : params;
+    const body = (await xGet(path, pageParams)) as {
       data?: JsonObject[];
       next_cursor?: string | null;
     };
     data.push(...(body.data || []));
+    isFirstPage = false;
     cursor = body.next_cursor && body.next_cursor !== "0" ? body.next_cursor : null;
   }
 
