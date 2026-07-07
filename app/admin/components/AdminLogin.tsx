@@ -23,8 +23,9 @@ export default function AdminLogin() {
     setPassword(cleanPassword);
     setPasteError("");
     window.requestAnimationFrame(() => {
-      passwordInputRef.current?.focus();
-      passwordInputRef.current?.select();
+      const input = passwordInputRef.current;
+      input?.focus();
+      input?.setSelectionRange(cleanPassword.length, cleanPassword.length);
     });
   };
 
@@ -91,14 +92,9 @@ export default function AdminLogin() {
             type={showPassword ? "text" : "password"}
             placeholder="Password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            onFocus={(e) => e.currentTarget.select()}
-            onPaste={(e) => {
-              const pasted = e.clipboardData.getData("text");
-              if (pasted) {
-                e.preventDefault();
-                setPastedPassword(pasted);
-              }
+            onChange={(e) => {
+              setPassword(e.target.value);
+              setPasteError("");
             }}
             autoComplete="current-password"
             spellCheck={false}
