@@ -348,7 +348,32 @@ async function getConversionGroups(filters: AdsFilters) {
           SUM(
             CASE
               WHEN conversion_value ~ '^-?[0-9]+(\\.[0-9]+)?$'
-                THEN ROUND(conversion_value::numeric * 1000000)::bigint
+                THEN ROUND(
+                  (
+                    CASE
+                      WHEN
+                        conversion_value::numeric >= 100
+                        AND conversion_value::numeric = ROUND(conversion_value::numeric)
+                        AND COALESCE(
+                          payload #>> '{data,event_ticket,currency}',
+                          payload #>> '{data,event_tickets,0,currency}',
+                          payload #>> '{data,event_ticket_orders,0,currency}'
+                        ) IS NOT NULL
+                        AND COALESCE(
+                          payload #>> '{data,event_ticket,amount}',
+                          payload #>> '{data,event_tickets,0,amount}',
+                          payload #>> '{data,event_ticket_orders,0,amount}'
+                        ) ~ '^-?[0-9]+(\\.[0-9]+)?$'
+                        AND COALESCE(
+                          payload #>> '{data,event_ticket,amount}',
+                          payload #>> '{data,event_tickets,0,amount}',
+                          payload #>> '{data,event_ticket_orders,0,amount}'
+                        )::numeric = conversion_value::numeric
+                        THEN conversion_value::numeric / 100
+                      ELSE conversion_value::numeric
+                    END
+                  ) * 1000000
+                )::bigint
               ELSE 0
             END
           ),

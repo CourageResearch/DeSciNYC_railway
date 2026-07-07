@@ -194,7 +194,7 @@ function findLikelyUrl(entries: PayloadEntry[]) {
   );
 }
 
-function parseMoney(value: string | null) {
+function parseMoneyAmount(value: string | null) {
   if (!value) {
     return null;
   }
@@ -209,7 +209,94 @@ function parseMoney(value: string | null) {
     return null;
   }
 
-  return amount.toFixed(2);
+  return amount;
+}
+
+function parentPath(path: string[]) {
+  return path.slice(0, -1).join(".");
+}
+
+function hasCurrencySibling(entry: PayloadEntry, entries: PayloadEntry[]) {
+  const parent = parentPath(entry.path);
+
+  return entries.some((candidate) => {
+    return (
+      parentPath(candidate.path) === parent &&
+      normalizeKey(candidate.key) === "currency" &&
+      /^[a-z]{3}$/i.test(candidate.value)
+    );
+  });
+}
+
+function moneyCandidatePriority(entry: PayloadEntry) {
+  const leafKey = normalizeKey(entry.key);
+  const fullPath = normalizeKey(entry.path.join("_"));
+
+  if (
+    leafKey.includes("tax") ||
+    leafKey.includes("discount") ||
+    leafKey.includes("fee")
+  ) {
+    return null;
+  }
+
+  if (fullPath.includes("event_ticket_amount")) {
+    return 1;
+  }
+
+  if (fullPath.includes("event_ticket_orders") && leafKey === "amount") {
+    return 2;
+  }
+
+  if (fullPath.includes("ticket_price") || leafKey.includes("price")) {
+    return 3;
+  }
+
+  if (leafKey === "amount") {
+    return 4;
+  }
+
+  if (leafKey.includes("value") || leafKey.includes("total")) {
+    return 5;
+  }
+
+  return null;
+}
+
+function normalizeMoneyEntry(entry: PayloadEntry, entries: PayloadEntry[]) {
+  const amount = parseMoneyAmount(entry.value);
+  if (amount === null) {
+    return null;
+  }
+
+  const rawLooksLikeDollars = /[$€£]/.test(entry.value) || /\d+\.\d{1,2}/.test(entry.value);
+  const lumaCentsAmount =
+    hasCurrencySibling(entry, entries) &&
+    normalizeKey(entry.key) === "amount" &&
+    !rawLooksLikeDollars &&
+    Number.isInteger(amount) &&
+    amount >= 100;
+
+  return (lumaCentsAmount ? amount / 100 : amount).toFixed(2);
+}
+
+function findConversionValue(entries: PayloadEntry[]) {
+  const candidates = entries
+    .map((entry) => ({ entry, priority: moneyCandidatePriority(entry) }))
+    .filter(
+      (candidate): candidate is { entry: PayloadEntry; priority: number } =>
+        candidate.priority !== null
+    )
+    .sort((a, b) => a.priority - b.priority);
+
+  for (const candidate of candidates) {
+    const value = normalizeMoneyEntry(candidate.entry, entries);
+    if (value) {
+      return value;
+    }
+  }
+
+  return null;
 }
 
 function sanitizePayload(value: unknown, path: string[] = [], depth = 0): unknown {
@@ -319,16 +406,7 @@ export function parseLumaConversionPayload(
         /^[A-Za-z0-9_-]{6,}$/.test(value)
     ) || nativeTicketId;
   const eventSourceUrl = findLikelyUrl(entries);
-  const conversionValue = parseMoney(
-    findByKey(
-      entries,
-      (leafKey, fullPath) =>
-        leafKey.includes("amount") ||
-        leafKey.includes("price") ||
-        leafKey.includes("value") ||
-        fullPath.includes("ticket_price")
-    )
-  );
+  const conversionValue = findConversionValue(entries);
   const conversionTime =
     findByKey(
       entries,
