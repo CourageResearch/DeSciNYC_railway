@@ -464,6 +464,107 @@ async function xPaged(path: string, params: Record<string, string> = {}) {
   return data;
 }
 
+async function getXAccountTimezone(accountId: string) {
+  try {
+    const body = (await xGet(`/accounts/${accountId}`)) as { data?: unknown };
+    const account = jsonRecord(body.data);
+    return jsonString(account?.timezone) || "UTC";
+  } catch (error) {
+    console.warn("X account timezone lookup failed", error);
+    return "UTC";
+  }
+}
+
+const timeZoneFormatters = new Map<string, Intl.DateTimeFormat>();
+
+function getTimeZoneFormatter(timeZone: string) {
+  const cached = timeZoneFormatters.get(timeZone);
+  if (cached) {
+    return cached;
+  }
+
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  });
+  timeZoneFormatters.set(timeZone, formatter);
+  return formatter;
+}
+
+function timeZoneOffsetMs(date: Date, timeZone: string) {
+  const parts = getTimeZoneFormatter(timeZone).formatToParts(date);
+  const values = Object.fromEntries(
+    parts
+      .filter((part) => part.type !== "literal")
+      .map((part) => [part.type, Number(part.value)])
+  );
+  const asUtc = Date.UTC(
+    values.year,
+    values.month - 1,
+    values.day,
+    values.hour,
+    values.minute,
+    values.second
+  );
+
+  return asUtc - date.getTime();
+}
+
+function localMidnightIso(date: string, timeZone: string) {
+  const [year, month, day] = date.split("-").map(Number);
+  const localMidnightUtc = Date.UTC(year, month - 1, day, 0, 0, 0);
+  let utcMs = localMidnightUtc;
+
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const nextUtcMs =
+      localMidnightUtc - timeZoneOffsetMs(new Date(utcMs), timeZone);
+    if (nextUtcMs === utcMs) {
+      break;
+    }
+    utcMs = nextUtcMs;
+  }
+
+  return new Date(utcMs).toISOString().replace(".000Z", "Z");
+}
+
+function xStatsWindows(range: AdsDateRange, timeZone: string) {
+  const windows: Array<{
+    dates: string[];
+    startTime: string;
+    endTime: string;
+  }> = [];
+  let cursor = range.startDate;
+
+  while (cursor <= range.endDate && windows.length < 60) {
+    const dates: string[] = [];
+
+    while (cursor <= range.endDate && dates.length < 7) {
+      dates.push(cursor);
+      cursor = addDays(cursor, 1);
+    }
+
+    const startDate = dates[0];
+    const endDate = dates[dates.length - 1];
+    if (!startDate || !endDate) {
+      break;
+    }
+
+    windows.push({
+      dates,
+      startTime: localMidnightIso(startDate, timeZone),
+      endTime: localMidnightIso(addDays(endDate, 1), timeZone),
+    });
+  }
+
+  return windows;
+}
+
 function xArrayMetric(
   metrics: JsonObject,
   keys: string[],
@@ -526,127 +627,126 @@ async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
   }
 
   const metrics: AdMetricInput[] = [];
-  const dates: string[] = [];
-  let cursor = range.startDate;
+  const accountTimezone = await getXAccountTimezone(accountId);
+  const statWindows = xStatsWindows(range, accountTimezone);
   const provisionalBoundary = addDays(todayIsoDate(), -3);
-
-  while (cursor <= range.endDate && dates.length < 370) {
-    dates.push(cursor);
-    cursor = addDays(cursor, 1);
-  }
 
   for (const lineItemChunk of chunk(activeLineItems, 20)) {
     const ids = lineItemChunk.map((item) => String(item.id)).join(",");
-    const stats = (await xGet(`/stats/accounts/${accountId}`, {
-      entity: "LINE_ITEM",
-      entity_ids: ids,
-      start_time: `${range.startDate}T00:00:00Z`,
-      end_time: `${addDays(range.endDate, 1)}T00:00:00Z`,
-      granularity: "DAY",
-      metric_groups: "ENGAGEMENT,BILLING",
-    })) as { data?: Array<{ id?: string; id_data?: JsonObject[] }> };
     const lineById = new Map(lineItemChunk.map((item) => [String(item.id), item]));
 
-    for (const stat of stats.data || []) {
-      const lineItem = lineById.get(String(stat.id || ""));
-      if (!lineItem) {
-        continue;
-      }
+    for (const statWindow of statWindows) {
+      const stats = (await xGet(`/stats/accounts/${accountId}`, {
+        entity: "LINE_ITEM",
+        entity_ids: ids,
+        start_time: statWindow.startTime,
+        end_time: statWindow.endTime,
+        granularity: "DAY",
+        placement: "ALL_ON_TWITTER",
+        metric_groups: "ENGAGEMENT,BILLING",
+      })) as { data?: Array<{ id?: string; id_data?: JsonObject[] }> };
 
-      const campaign = campaignById.get(String(lineItem.campaign_id || ""));
-      const campaignName = String(campaign?.name || lineItem.campaign_id || "");
-      const lineItemName = String(lineItem.name || stat.id || "");
-      const tracking = inferTracking({
-        platform: "x",
-        campaignName,
-        adGroupName: lineItemName,
-      });
-      const creative = inferCreativeProfile({
-        eventSlug: tracking.eventSlug,
-        utmContent: tracking.utmContent,
-        campaignName,
-        adGroupName: lineItemName,
-      });
+      for (const stat of stats.data || []) {
+        const lineItem = lineById.get(String(stat.id || ""));
+        if (!lineItem) {
+          continue;
+        }
 
-      for (const idData of stat.id_data || []) {
-        const statMetrics = (idData.metrics || {}) as JsonObject;
+        const campaign = campaignById.get(String(lineItem.campaign_id || ""));
+        const campaignName = String(campaign?.name || lineItem.campaign_id || "");
+        const lineItemName = String(lineItem.name || stat.id || "");
+        const tracking = inferTracking({
+          platform: "x",
+          campaignName,
+          adGroupName: lineItemName,
+        });
+        const creative = inferCreativeProfile({
+          eventSlug: tracking.eventSlug,
+          utmContent: tracking.utmContent,
+          campaignName,
+          adGroupName: lineItemName,
+        });
 
-        for (let index = 0; index < dates.length; index += 1) {
-          const metricDate = dates[index];
-          const spendMicros = xArrayMetric(
-            statMetrics,
-            ["billed_charge_local_micro"],
-            index
-          );
-          const impressions = xArrayMetric(statMetrics, ["impressions"], index);
-          const clicks = xArrayMetric(
-            statMetrics,
-            ["url_clicks", "clicks", "app_clicks"],
-            index
-          );
+        for (const idData of stat.id_data || []) {
+          const statMetrics = (idData.metrics || {}) as JsonObject;
 
-          if (spendMicros === 0 && impressions === 0 && clicks === 0) {
-            continue;
+          for (let index = 0; index < statWindow.dates.length; index += 1) {
+            const metricDate = statWindow.dates[index];
+            const spendMicros = xArrayMetric(
+              statMetrics,
+              ["billed_charge_local_micro"],
+              index
+            );
+            const impressions = xArrayMetric(statMetrics, ["impressions"], index);
+            const clicks = xArrayMetric(
+              statMetrics,
+              ["url_clicks", "link_clicks", "clicks", "app_clicks"],
+              index
+            );
+
+            if (spendMicros === 0 && impressions === 0 && clicks === 0) {
+              continue;
+            }
+
+            const cpcLocalMicro = xFloatArrayMetric(
+              statMetrics,
+              ["cost_per_url_click_local_micro", "cost_per_click_local_micro"],
+              index
+            );
+            const cpmLocalMicro = xFloatArrayMetric(
+              statMetrics,
+              ["cost_per_1000_impressions_local_micro", "cpm_local_micro"],
+              index
+            );
+            const metricBase = {
+              platform: "x" as const,
+              metricDate,
+              accountId,
+              accountName: null,
+              currency:
+                typeof campaign?.currency === "string"
+                  ? campaign.currency
+                  : typeof lineItem.currency === "string"
+                    ? lineItem.currency
+                    : null,
+              platformCampaignId: String(lineItem.campaign_id || "") || null,
+              campaignName: campaignName || null,
+              platformAdGroupId: String(lineItem.id || "") || null,
+              adGroupName: lineItemName,
+              platformAdId: null,
+              adName: null,
+              ...creative,
+              placement: "ALL_ON_TWITTER",
+              eventSlug: tracking.eventSlug,
+              utmSource: tracking.utmSource,
+              utmCampaign: tracking.utmCampaign,
+              utmContent: tracking.utmContent,
+              spendMicros,
+              impressions,
+              reach: null,
+              clicks,
+              cpcMicros:
+                cpcLocalMicro === null
+                  ? clicks > 0
+                    ? Math.round(spendMicros / clicks)
+                    : null
+                  : Math.round(cpcLocalMicro),
+              cpmMicros:
+                cpmLocalMicro === null
+                  ? impressions > 0
+                    ? Math.round((spendMicros * 1000) / impressions)
+                    : null
+                  : Math.round(cpmLocalMicro),
+              ctr: impressions > 0 ? clicks / impressions : null,
+              provisional: metricDate >= provisionalBoundary,
+              raw: { stat, campaign, lineItem, accountTimezone },
+            };
+
+            metrics.push({
+              ...metricBase,
+              metricId: metricIdentity(metricBase),
+            });
           }
-
-          const cpcLocalMicro = xFloatArrayMetric(
-            statMetrics,
-            ["cost_per_url_click_local_micro", "cost_per_click_local_micro"],
-            index
-          );
-          const cpmLocalMicro = xFloatArrayMetric(
-            statMetrics,
-            ["cost_per_1000_impressions_local_micro", "cpm_local_micro"],
-            index
-          );
-          const metricBase = {
-            platform: "x" as const,
-            metricDate,
-            accountId,
-            accountName: null,
-            currency:
-              typeof campaign?.currency === "string"
-                ? campaign.currency
-                : typeof lineItem.currency === "string"
-                  ? lineItem.currency
-                  : null,
-            platformCampaignId: String(lineItem.campaign_id || "") || null,
-            campaignName: campaignName || null,
-            platformAdGroupId: String(lineItem.id || "") || null,
-            adGroupName: lineItemName || null,
-            platformAdId: null,
-            adName: null,
-            ...creative,
-            placement: null,
-            eventSlug: tracking.eventSlug,
-            utmSource: tracking.utmSource,
-            utmCampaign: tracking.utmCampaign,
-            utmContent: tracking.utmContent,
-            spendMicros,
-            impressions,
-            reach: null,
-            clicks,
-            cpcMicros:
-              cpcLocalMicro === null
-                ? clicks > 0
-                  ? Math.round(spendMicros / clicks)
-                  : null
-                : Math.round(cpcLocalMicro),
-            cpmMicros:
-              cpmLocalMicro === null
-                ? impressions > 0
-                  ? Math.round((spendMicros * 1000) / impressions)
-                  : null
-                : Math.round(cpmLocalMicro),
-            ctr: impressions > 0 ? clicks / impressions : null,
-            provisional: metricDate >= provisionalBoundary,
-            raw: { stat, campaign, lineItem },
-          };
-
-          metrics.push({
-            ...metricBase,
-            metricId: metricIdentity(metricBase),
-          });
         }
       }
     }
