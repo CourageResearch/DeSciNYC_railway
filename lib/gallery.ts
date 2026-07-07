@@ -33,6 +33,7 @@ type UploadInput = {
 const LOCAL_ROOT =
   process.env.LOCAL_STORAGE_ROOT || path.join(process.cwd(), ".local-storage");
 const GALLERY_PREFIX = "gallery";
+const PUBLIC_GALLERY_ROOT = path.join(process.cwd(), "public", "gallery");
 
 let s3Client: S3Client | null = null;
 
@@ -87,9 +88,59 @@ function localPathFor(objectKey: string) {
   return path.join(LOCAL_ROOT, GALLERY_PREFIX, safeObjectKey(objectKey));
 }
 
+function publicFallbackPathsFor(objectKey: string) {
+  const safeKey = safeObjectKey(objectKey);
+  if (!safeKey.startsWith("images/")) {
+    return [];
+  }
+
+  const fileName = path.basename(safeKey);
+  return [
+    path.join(PUBLIC_GALLERY_ROOT, "small", fileName),
+    path.join(PUBLIC_GALLERY_ROOT, "thumbnails", fileName),
+  ];
+}
+
 function archiveKey(objectKey: string) {
   const fileName = path.basename(objectKey);
   return `archive/${fileName}`;
+}
+
+function inferGalleryContentType(objectKey: string) {
+  const ext = path.extname(objectKey).toLowerCase();
+  if (ext === ".jpg" || ext === ".jpeg") {
+    return "image/jpeg";
+  }
+  if (ext === ".png") {
+    return "image/png";
+  }
+  if (ext === ".webp") {
+    return "image/webp";
+  }
+  if (ext === ".gif") {
+    return "image/gif";
+  }
+  if (ext === ".avif") {
+    return "image/avif";
+  }
+
+  return null;
+}
+
+async function readGalleryFile(objectKey: string) {
+  const candidatePaths = [localPathFor(objectKey), ...publicFallbackPathsFor(objectKey)];
+
+  for (const candidatePath of candidatePaths) {
+    try {
+      return await fs.readFile(candidatePath);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
+        throw error;
+      }
+    }
+  }
+
+  throw new Error("Gallery object not found");
 }
 
 export async function listGalleryImages(): Promise<GalleryImage[]> {
@@ -221,8 +272,9 @@ export async function serveGalleryObject(objectKey: string) {
     return NextResponse.redirect(url);
   }
 
-  const file = await fs.readFile(localPathFor(safeKey));
-  const contentType = await getGalleryContentType(safeKey);
+  const file = await readGalleryFile(safeKey);
+  const contentType =
+    (await getGalleryContentType(safeKey)) || inferGalleryContentType(safeKey);
   return new NextResponse(new Uint8Array(file), {
     headers: {
       ...(contentType ? { "Content-Type": contentType } : {}),
