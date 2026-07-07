@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { ClipboardPaste, Eye, EyeOff } from "lucide-react";
 
 function cleanPasswordInput(value: string) {
@@ -22,7 +22,10 @@ export default function AdminLogin() {
     const cleanPassword = cleanPasswordInput(value);
     setPassword(cleanPassword);
     setPasteError("");
-    passwordInputRef.current?.focus();
+    window.requestAnimationFrame(() => {
+      passwordInputRef.current?.focus();
+      passwordInputRef.current?.select();
+    });
   };
 
   const pastePassword = async () => {
@@ -47,34 +50,6 @@ export default function AdminLogin() {
       passwordInputRef.current?.focus();
       setPasteError("Clipboard access was blocked. Press Command-V in the password field.");
     }
-  };
-
-  useEffect(() => {
-    const handlePagePaste = (event: ClipboardEvent) => {
-      const pasted = event.clipboardData?.getData("text");
-
-      if (!pasted) {
-        return;
-      }
-
-      event.preventDefault();
-      setPastedPassword(pasted);
-    };
-
-    document.addEventListener("paste", handlePagePaste);
-    return () => document.removeEventListener("paste", handlePagePaste);
-  }, []);
-
-  const handlePasteShortcut = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (!(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "v") {
-      return;
-    }
-
-    window.setTimeout(() => {
-      if (!passwordInputRef.current?.value) {
-        void pastePassword();
-      }
-    }, 50);
   };
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -117,7 +92,7 @@ export default function AdminLogin() {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            onKeyDown={handlePasteShortcut}
+            onFocus={(e) => e.currentTarget.select()}
             onPaste={(e) => {
               const pasted = e.clipboardData.getData("text");
               if (pasted) {
