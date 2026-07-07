@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import TopNav from "@/components/TopNav";
+import XAdsPixel from "@/components/XAdsPixel";
 
 export const metadata: Metadata = {
   title: {
@@ -21,6 +22,7 @@ export default async function RootLayout({
       <body
         className={`font-PF-Videotext antialiased bg-black text-white w-full min-h-screen`}
       >
+        <XAdsPixel pixelId={process.env.X_ADS_PIXEL_ID} />
         <TopNav />
         {children}
       </body>

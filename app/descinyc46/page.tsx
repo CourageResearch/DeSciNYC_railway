@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import AttributionEventLanding from "@/components/AttributionEventLanding";
+import AttributionRedirectHandoff from "@/components/AttributionRedirectHandoff";
 import {
   captureAttributionAndBuildRedirectUrl,
   shouldShowAttributionPreview,
@@ -32,7 +33,22 @@ export default async function DeSciNYC46Page({ searchParams }: PageProps) {
   const tracking = withTrackingDefaults(extractTrackingParams(params), event);
 
   if (!shouldShowAttributionPreview(params)) {
-    redirect(await captureAttributionAndBuildRedirectUrl({ event, params }));
+    const redirectUrl = await captureAttributionAndBuildRedirectUrl({
+      event,
+      params,
+    });
+
+    if (process.env.X_ADS_PIXEL_ID) {
+      return (
+        <AttributionRedirectHandoff
+          event={event}
+          redirectUrl={redirectUrl}
+          pixelId={process.env.X_ADS_PIXEL_ID}
+        />
+      );
+    }
+
+    redirect(redirectUrl);
   }
 
   return <AttributionEventLanding event={event} tracking={tracking} />;
