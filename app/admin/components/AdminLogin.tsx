@@ -1,22 +1,50 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { ClipboardPaste } from "lucide-react";
+
+function cleanPasswordInput(value: string) {
+  return value
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .replace(/[\r\n]/g, "")
+    .trim();
+}
 
 export default function AdminLogin() {
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState("");
   const [loading, setLoading] = useState(false);
   const [pasteError, setPasteError] = useState("");
+  const passwordInputRef = useRef<HTMLInputElement>(null);
+
+  const setPastedPassword = (value: string) => {
+    const cleanPassword = cleanPasswordInput(value);
+    setPassword(cleanPassword);
+    setPasteError("");
+    passwordInputRef.current?.focus();
+  };
 
   const pastePassword = async () => {
     setPasteError("");
 
+    if (!navigator.clipboard?.readText) {
+      passwordInputRef.current?.focus();
+      setPasteError("Click the password field and press Command-V.");
+      return;
+    }
+
     try {
       const clipboardText = await navigator.clipboard.readText();
-      setPassword(clipboardText);
+      if (!clipboardText) {
+        passwordInputRef.current?.focus();
+        setPasteError("Clipboard is empty");
+        return;
+      }
+
+      setPastedPassword(clipboardText);
     } catch {
-      setPasteError("Clipboard access was blocked");
+      passwordInputRef.current?.focus();
+      setPasteError("Clipboard access was blocked. Press Command-V in the password field.");
     }
   };
 
@@ -24,12 +52,14 @@ export default function AdminLogin() {
     e.preventDefault();
     setLoginError("");
     setLoading(true);
+    const cleanPassword = cleanPasswordInput(password);
+    setPassword(cleanPassword);
 
     try {
       const response = await fetch("/api/admin/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ password: cleanPassword }),
       });
 
       if (!response.ok) {
@@ -53,6 +83,7 @@ export default function AdminLogin() {
       <form onSubmit={handleLogin} className="flex flex-col gap-4">
         <div className="grid grid-cols-[1fr_auto] gap-2">
           <input
+            ref={passwordInputRef}
             type="password"
             placeholder="Password"
             value={password}
@@ -60,7 +91,8 @@ export default function AdminLogin() {
             onPaste={(e) => {
               const pasted = e.clipboardData.getData("text");
               if (pasted) {
-                setPassword(pasted);
+                e.preventDefault();
+                setPastedPassword(pasted);
               }
             }}
             autoComplete="current-password"
