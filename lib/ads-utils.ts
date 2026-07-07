@@ -238,11 +238,25 @@ export function inferCreativeProfile(input: {
       format: "Poster",
       theme: "Subway air quality",
     },
+    commute_atmosphere: {
+      headline: "Commute Atmosphere",
+      imageUrl: "/images/ads/descinyc46-air-quality.png",
+      imageLabel: "Subway air quality poster",
+      format: "Static creative",
+      theme: "Subway air quality",
+    },
     peptides_101: {
       headline: "Peptides 101",
       imageUrl: "/images/eventimage.png",
       imageLabel: "Peptides 101 event card",
       format: "Static card",
+      theme: "Peptides primer",
+    },
+    luma_no_sales_pitch: {
+      headline: "Luma No Sales Pitch",
+      imageUrl: "/images/ads/descinyc49-luma-social-card.jpg",
+      imageLabel: "Peptides 101 Luma social card",
+      format: "Static creative",
       theme: "Peptides primer",
     },
   };
