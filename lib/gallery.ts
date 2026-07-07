@@ -8,7 +8,6 @@ import {
   PutObjectCommand,
   S3Client,
 } from "@aws-sdk/client-s3";
-import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { hasDatabaseConfig, query } from "./db";
 
 type GalleryRow = {
@@ -157,9 +156,15 @@ async function readPublicGalleryFile(objectKey: string) {
   return null;
 }
 
-async function galleryObjectResponse(objectKey: string, file: Buffer) {
+async function galleryObjectResponse(
+  objectKey: string,
+  file: Buffer,
+  contentTypeOverride?: string | null
+) {
   const contentType =
-    (await getGalleryContentType(objectKey)) || inferGalleryContentType(objectKey);
+    contentTypeOverride ||
+    (await getGalleryContentType(objectKey)) ||
+    inferGalleryContentType(objectKey);
 
   return new NextResponse(new Uint8Array(file), {
     headers: {
@@ -294,12 +299,15 @@ export async function serveGalleryObject(objectKey: string) {
   }
 
   if (hasS3Config()) {
-    const url = await getSignedUrl(
-      getS3Client(),
-      new GetObjectCommand({ Bucket: getBucketName(), Key: safeKey }),
-      { expiresIn: 60 * 60 }
+    const object = await getS3Client().send(
+      new GetObjectCommand({ Bucket: getBucketName(), Key: safeKey })
     );
-    return NextResponse.redirect(url);
+    if (!object.Body) {
+      throw new Error("Gallery object not found");
+    }
+
+    const bytes = await object.Body.transformToByteArray();
+    return galleryObjectResponse(safeKey, Buffer.from(bytes), object.ContentType);
   }
 
   const file = await readGalleryFile(safeKey);
