@@ -842,7 +842,10 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
         );
       }
 
-      return b.trackedClicks + b.platformClicks - (a.trackedClicks + a.platformClicks);
+      return (
+        b.trackedClicks - a.trackedClicks ||
+        b.platformClicks - a.platformClicks
+      );
     });
   const platformBreakdown = Array.from(platformMap.values())
     .map(finalizeBreakdown)

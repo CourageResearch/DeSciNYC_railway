@@ -63,6 +63,16 @@ const MONEY_FORMAT_PRECISE = new Intl.NumberFormat("en-US", {
 });
 
 const NUMBER_FORMAT = new Intl.NumberFormat("en-US");
+const DATE_LABEL_FORMAT = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  timeZone: "UTC",
+});
+const SYNC_DATE_FORMAT = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "short",
+  timeStyle: "medium",
+  timeZone: "America/New_York",
+});
 
 function money(micros: number | null | undefined, precise = false) {
   if (micros === null || micros === undefined) {
@@ -133,11 +143,7 @@ function platformLabel(platform: string) {
 }
 
 function shortDate(value: string) {
-  const date = new Date(`${value}T00:00:00`);
-  return date.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-  });
+  return DATE_LABEL_FORMAT.format(new Date(`${value}T00:00:00.000Z`));
 }
 
 function creativeTitle(row: AdsBreakdownRow) {
@@ -400,9 +406,8 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
         .slice()
         .sort(
           (a, b) =>
-            b.trackedClicks +
-            b.platformClicks -
-            (a.trackedClicks + a.platformClicks)
+            b.trackedClicks - a.trackedClicks ||
+            b.platformClicks - a.platformClicks
         )[0] || null,
     [summary.creativeRows]
   );
@@ -517,7 +522,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                   </div>
                   <div className="mt-2 text-xs text-[#8BA59B]">
                     {connector.lastSyncAt
-                      ? `Last sync ${new Date(connector.lastSyncAt).toLocaleString()}`
+                      ? `Last sync ${SYNC_DATE_FORMAT.format(new Date(connector.lastSyncAt))}`
                       : "No sync yet"}
                   </div>
                 </div>
@@ -792,12 +797,9 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                 />
                 <CreativeInsightCard
                   icon={<MousePointerClick size={18} />}
-                  label="Most clicked"
+                  label="Most tracked clicks"
                   row={mostClickedCreative}
-                  value={compact(
-                    (mostClickedCreative?.trackedClicks || 0) +
-                      (mostClickedCreative?.platformClicks || 0)
-                  )}
+                  value={compact(mostClickedCreative?.trackedClicks || 0)}
                 />
                 <CreativeInsightCard
                   icon={<RefreshCw size={18} />}
