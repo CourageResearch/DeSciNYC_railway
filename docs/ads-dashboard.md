@@ -74,13 +74,22 @@ Useful environment overrides:
 ```text
 ADS_SYNC_BASE_URL=https://desci.nyc
 ADS_SYNC_PLATFORM=all
-ADS_SYNC_START_DATE=2026-06-06
-ADS_SYNC_END_DATE=2026-07-06
+ADS_REPORTING_START_DATE=2026-07-08
+ADS_SYNC_START_DATE=2026-07-08
+ADS_SYNC_END_DATE=2026-07-08
+ADS_EXCLUDED_PLATFORM_CAMPAIGN_IDS=old-campaign-id-1,old-campaign-id-2
+ADS_EXCLUDED_PLATFORM_AD_GROUP_IDS=old-ad-group-id-1,old-ad-group-id-2
+ADS_EXCLUDED_PLATFORM_AD_IDS=old-ad-id-1,old-ad-id-2
 ```
 
 The script signs in through the existing admin login using `ADMIN_PASSWORD`,
 then calls `/api/ads/sync`. It is safe for Railway cron/Functions because it
 exits after the sync response.
+
+`ADS_REPORTING_START_DATE` clamps dashboard reads and sync requests so older
+test data cannot re-enter date ranges. The excluded ID lists are useful after a
+campaign reset: matching platform campaign, ad-group, or ad IDs are skipped
+before metrics are persisted.
 
 Production scheduled syncs are handled by
 `.github/workflows/ads-sync.yml`, which runs every 6 hours and calls the

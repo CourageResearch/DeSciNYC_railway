@@ -37,6 +37,50 @@ const META_DEFAULT_API_VERSION = "v23.0";
 const DEFAULT_X_BULK_EXPORT_PATH =
   "/Users/mint/Documents/ads/endpointarena-2026_06_04-2026_07_04-replace-descinyc-posts.xlsx";
 
+type AdEntityIds = {
+  campaignId?: unknown;
+  adGroupId?: unknown;
+  adId?: unknown;
+};
+
+function parseExcludedIds(name: string) {
+  return new Set(
+    (process.env[name] || "")
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean)
+  );
+}
+
+function getExcludedAdEntityIds() {
+  return {
+    campaignIds: parseExcludedIds("ADS_EXCLUDED_PLATFORM_CAMPAIGN_IDS"),
+    adGroupIds: parseExcludedIds("ADS_EXCLUDED_PLATFORM_AD_GROUP_IDS"),
+    adIds: parseExcludedIds("ADS_EXCLUDED_PLATFORM_AD_IDS"),
+  };
+}
+
+function entityId(value: unknown) {
+  if (value === null || value === undefined) {
+    return "";
+  }
+
+  return String(value).trim();
+}
+
+function isExcludedAdEntity(input: AdEntityIds) {
+  const exclusions = getExcludedAdEntityIds();
+  const campaignId = entityId(input.campaignId);
+  const adGroupId = entityId(input.adGroupId);
+  const adId = entityId(input.adId);
+
+  return (
+    (campaignId && exclusions.campaignIds.has(campaignId)) ||
+    (adGroupId && exclusions.adGroupIds.has(adGroupId)) ||
+    (adId && exclusions.adIds.has(adId))
+  );
+}
+
 function parseJsonResponse(text: string) {
   try {
     return text ? JSON.parse(text) : null;
@@ -315,7 +359,15 @@ async function getMetaMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
   }
 
   return rows
-    .filter((row) => row.date_start)
+    .filter(
+      (row) =>
+        row.date_start &&
+        !isExcludedAdEntity({
+          campaignId: row.campaign_id,
+          adGroupId: row.adset_id,
+          adId: row.ad_id,
+        })
+    )
     .map((row) => {
       const creativeDetails = row.ad_id ? creativeByAdId.get(row.ad_id) : null;
       const tracking = inferTracking({
@@ -623,7 +675,14 @@ async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
   const campaignById = new Map(
     campaigns.map((campaign) => [String(campaign.id || ""), campaign])
   );
-  const activeLineItems = lineItems.filter((item) => item.id);
+  const activeLineItems = lineItems.filter(
+    (item) =>
+      item.id &&
+      !isExcludedAdEntity({
+        campaignId: item.campaign_id,
+        adGroupId: item.id,
+      })
+  );
 
   if (activeLineItems.length === 0) {
     return [];
@@ -886,7 +945,14 @@ async function getXBulkExportMetrics(range: AdsDateRange): Promise<AdMetricInput
       : null;
     const eventSlug = inferBulkExportEventSlug(campaignName, adGroupName);
 
-    if (!campaignId || !eventSlug) {
+    if (
+      !campaignId ||
+      !eventSlug ||
+      isExcludedAdEntity({
+        campaignId,
+        adGroupId,
+      })
+    ) {
       continue;
     }
 
