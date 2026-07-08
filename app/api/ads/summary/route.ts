@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/adminAuth";
 import { getAdsSummary } from "@/lib/ads-db";
 import {
+  clampAdsDateRange,
   defaultAdsDateRange,
   normalizeDate,
   normalizePlatform,
@@ -22,10 +23,11 @@ function parseFilters(req: NextRequest): AdsFilters {
     startDate = defaults.startDate;
     endDate = defaults.endDate;
   }
+  const range = clampAdsDateRange({ startDate, endDate });
 
   return {
-    startDate,
-    endDate,
+    startDate: range.startDate,
+    endDate: range.endDate,
     platform: normalizePlatform(searchParams.get("platform")),
     eventSlug: nullIfBlank(searchParams.get("eventSlug")) || undefined,
     campaignId: nullIfBlank(searchParams.get("campaignId")) || undefined,

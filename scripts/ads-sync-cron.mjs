@@ -63,6 +63,7 @@ async function main() {
   const endDate = process.env.ADS_SYNC_END_DATE || isoDate(new Date());
   const startDate =
     process.env.ADS_SYNC_START_DATE ||
+    process.env.ADS_REPORTING_START_DATE ||
     isoDate(new Date(new Date(`${endDate}T00:00:00Z`).getTime() - 30 * DAY_MS));
   const platform = process.env.ADS_SYNC_PLATFORM || "all";
   const root = baseUrl();

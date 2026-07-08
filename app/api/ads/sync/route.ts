@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/adminAuth";
 import { hasDatabaseConfig } from "@/lib/db";
 import { syncAds } from "@/lib/ads-sync";
 import {
+  clampAdsDateRange,
   defaultAdsDateRange,
   normalizeDate,
   normalizePlatform,
@@ -22,7 +23,7 @@ function parseRange(body: Record<string, unknown>): AdsDateRange {
     endDate = defaults.endDate;
   }
 
-  return { startDate, endDate };
+  return clampAdsDateRange({ startDate, endDate });
 }
 
 export async function POST(req: NextRequest) {

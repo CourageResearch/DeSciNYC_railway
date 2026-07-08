@@ -92,10 +92,34 @@ export function addDays(date: string, days: number) {
 
 export function defaultAdsDateRange() {
   const endDate = todayIsoDate();
+  const reportingStartDate = normalizeDate(
+    process.env.ADS_REPORTING_START_DATE,
+    addDays(endDate, -30)
+  );
+
   return {
-    startDate: addDays(endDate, -30),
+    startDate: reportingStartDate > endDate ? endDate : reportingStartDate,
     endDate,
   };
+}
+
+export function clampAdsDateRange(input: {
+  startDate: string;
+  endDate: string;
+}) {
+  const defaults = defaultAdsDateRange();
+  let startDate = input.startDate;
+  let endDate = input.endDate;
+
+  if (startDate < defaults.startDate) {
+    startDate = defaults.startDate;
+  }
+
+  if (endDate < startDate) {
+    endDate = startDate;
+  }
+
+  return { startDate, endDate };
 }
 
 export function normalizeDate(value: unknown, fallback: string) {
