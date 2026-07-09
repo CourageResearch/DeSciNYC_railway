@@ -4,6 +4,9 @@ import type { ReactNode } from "react";
 import { useMemo, useState } from "react";
 import {
   AlertTriangle,
+  ArrowDown,
+  ArrowUp,
+  ArrowUpDown,
   CheckCircle2,
   Filter,
   ImageIcon,
@@ -43,6 +46,26 @@ type MappingDraft = {
   utmSource: string;
   utmCampaign: string;
   utmContent: string;
+};
+
+type CreativeSortKey =
+  | "style"
+  | "platform"
+  | "spend"
+  | "trackedClicks"
+  | "platformClicks"
+  | "registrations"
+  | "revenue"
+  | "cpa"
+  | "roas"
+  | "conversionRate"
+  | "ctr";
+
+type SortDirection = "asc" | "desc";
+
+type CreativeSort = {
+  key: CreativeSortKey;
+  direction: SortDirection;
 };
 
 const PLATFORM_COLORS: Record<string, string> = {
@@ -167,6 +190,135 @@ function creativeDetail(row: AdsBreakdownRow) {
   ]
     .filter(Boolean)
     .join(" / ");
+}
+
+function hasPlatformDelivery(row: AdsBreakdownRow) {
+  return Boolean(
+    row.lastMetricDate ||
+      row.spendMicros > 0 ||
+      row.impressions > 0 ||
+      row.platformClicks > 0
+  );
+}
+
+function defaultCreativeSortDirection(key: CreativeSortKey): SortDirection {
+  return key === "style" || key === "platform" || key === "cpa" ? "asc" : "desc";
+}
+
+function compareStrings(a: string | null | undefined, b: string | null | undefined) {
+  const aValue = (a || "").trim();
+  const bValue = (b || "").trim();
+
+  if (!aValue && !bValue) {
+    return 0;
+  }
+
+  if (!aValue) {
+    return 1;
+  }
+
+  if (!bValue) {
+    return -1;
+  }
+
+  return aValue.localeCompare(bValue, undefined, {
+    sensitivity: "base",
+    numeric: true,
+  });
+}
+
+function compareNumbers(
+  a: number | null | undefined,
+  b: number | null | undefined,
+  direction: SortDirection
+) {
+  const aMissing = a === null || a === undefined || Number.isNaN(a);
+  const bMissing = b === null || b === undefined || Number.isNaN(b);
+
+  if (aMissing && bMissing) {
+    return 0;
+  }
+
+  if (aMissing) {
+    return 1;
+  }
+
+  if (bMissing) {
+    return -1;
+  }
+
+  return direction === "asc" ? a - b : b - a;
+}
+
+function compareCreativeRows(
+  a: AdsBreakdownRow,
+  b: AdsBreakdownRow,
+  sort: CreativeSort
+) {
+  if (sort.key === "style") {
+    const result = compareStrings(creativeTitle(a), creativeTitle(b));
+    return sort.direction === "asc" ? result : -result;
+  }
+
+  if (sort.key === "platform") {
+    const result = compareStrings(platformLabel(a.platform), platformLabel(b.platform));
+    return sort.direction === "asc" ? result : -result;
+  }
+
+  const valueByKey: Record<
+    Exclude<CreativeSortKey, "style" | "platform">,
+    [number | null | undefined, number | null | undefined]
+  > = {
+    spend: [a.spendMicros, b.spendMicros],
+    trackedClicks: [a.trackedClicks, b.trackedClicks],
+    platformClicks: [a.platformClicks, b.platformClicks],
+    registrations: [a.registrations, b.registrations],
+    revenue: [a.revenueMicros, b.revenueMicros],
+    cpa: [a.costPerRegistrationMicros, b.costPerRegistrationMicros],
+    roas: [a.roas, b.roas],
+    conversionRate: [a.conversionRate, b.conversionRate],
+    ctr: [a.ctr, b.ctr],
+  };
+
+  const [aValue, bValue] = valueByKey[sort.key];
+  return compareNumbers(aValue, bValue, sort.direction);
+}
+
+function SortableCreativeHeader({
+  label,
+  sortKey,
+  align = "left",
+  sort,
+  onSort,
+}: {
+  label: string;
+  sortKey: CreativeSortKey;
+  align?: "left" | "right";
+  sort: CreativeSort | null;
+  onSort: (key: CreativeSortKey) => void;
+}) {
+  const active = sort?.key === sortKey;
+  const Icon = !active ? ArrowUpDown : sort.direction === "asc" ? ArrowUp : ArrowDown;
+
+  return (
+    <th
+      className={`px-3 py-2 ${align === "right" ? "text-right" : ""}`}
+      aria-sort={
+        active ? (sort.direction === "asc" ? "ascending" : "descending") : "none"
+      }
+    >
+      <button
+        type="button"
+        onClick={() => onSort(sortKey)}
+        className={`inline-flex w-full items-center gap-1 text-inherit transition hover:text-[#D7F171] ${
+          align === "right" ? "justify-end text-right" : "justify-start text-left"
+        }`}
+      >
+        <span>{label}</span>
+        <Icon size={13} aria-hidden="true" />
+      </button>
+    </th>
+  );
 }
 
 function KpiCard({
@@ -364,6 +516,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
   const [syncing, setSyncing] = useState(false);
   const [notice, setNotice] = useState("");
   const [error, setError] = useState("");
+  const [creativeSort, setCreativeSort] = useState<CreativeSort | null>(null);
 
   const trendData = useMemo(
     () =>
@@ -385,39 +538,55 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
       })),
     [summary.platformBreakdown]
   );
-  const creativeRows = useMemo(
-    () => summary.creativeRows.slice(0, 12),
+  const liveCreativeSourceRows = useMemo(
+    () => summary.creativeRows.filter(hasPlatformDelivery),
     [summary.creativeRows]
   );
+  const liveCampaignRows = useMemo(
+    () => summary.campaignRows.filter(hasPlatformDelivery),
+    [summary.campaignRows]
+  );
+  const trackedOnlyRowCount =
+    summary.creativeRows.length - liveCreativeSourceRows.length;
+  const creativeRows = useMemo(() => {
+    if (!creativeSort) {
+      return liveCreativeSourceRows.slice(0, 12);
+    }
+
+    return liveCreativeSourceRows
+      .slice()
+      .sort((a, b) => compareCreativeRows(a, b, creativeSort))
+      .slice(0, 12);
+  }, [creativeSort, liveCreativeSourceRows]);
   const bestCpaCreative = useMemo(
     () =>
-      summary.creativeRows
+      liveCreativeSourceRows
         .filter((row) => row.registrations > 0 && row.costPerRegistrationMicros)
         .sort(
           (a, b) =>
             (a.costPerRegistrationMicros || Number.MAX_SAFE_INTEGER) -
             (b.costPerRegistrationMicros || Number.MAX_SAFE_INTEGER)
         )[0] || null,
-    [summary.creativeRows]
+    [liveCreativeSourceRows]
   );
   const mostClickedCreative = useMemo(
     () =>
-      summary.creativeRows
+      liveCreativeSourceRows
         .slice()
         .sort(
           (a, b) =>
             b.trackedClicks - a.trackedClicks ||
             b.platformClicks - a.platformClicks
         )[0] || null,
-    [summary.creativeRows]
+    [liveCreativeSourceRows]
   );
   const bestConversionCreative = useMemo(
     () =>
-      summary.creativeRows
+      liveCreativeSourceRows
         .filter((row) => row.trackedClicks > 0 && row.conversionRate !== null)
         .sort((a, b) => (b.conversionRate || 0) - (a.conversionRate || 0))[0] ||
       null,
-    [summary.creativeRows]
+    [liveCreativeSourceRows]
   );
 
   const refresh = async (nextSummary = summary) => {
@@ -454,6 +623,19 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
   };
 
   const applyFilters = () => refresh();
+
+  const updateCreativeSort = (key: CreativeSortKey) => {
+    setCreativeSort((current) => {
+      if (current?.key !== key) {
+        return { key, direction: defaultCreativeSortDirection(key) };
+      }
+
+      return {
+        key,
+        direction: current.direction === "asc" ? "desc" : "asc",
+      };
+    });
+  };
 
   const syncNow = async () => {
     setSyncing(true);
@@ -778,8 +960,17 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
           </Panel>
         </section>
 
-        <Panel title="Creative lab">
-          {summary.creativeRows.length === 0 ? (
+        <Panel
+          title="Creative lab"
+          action={
+            trackedOnlyRowCount > 0 ? (
+              <span className="text-xs uppercase text-[#8BA59B]">
+                {compact(trackedOnlyRowCount)} tracked-only hidden
+              </span>
+            ) : null
+          }
+        >
+          {liveCreativeSourceRows.length === 0 ? (
             <div className="border border-dashed border-[#2A3B34] p-8 text-center text-sm text-[#8BA59B]">
               No creative-level metrics in this range.
             </div>
@@ -813,17 +1004,81 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                 <table className="w-full min-w-[1320px] border-collapse text-sm">
                   <thead className="text-left text-xs uppercase text-[#8BA59B]">
                     <tr className="border-b border-[#22362F]">
-                      <th className="px-3 py-2">Style combo</th>
-                      <th className="px-3 py-2">Platform</th>
-                      <th className="px-3 py-2 text-right">Spend</th>
-                      <th className="px-3 py-2 text-right">Tracked clicks</th>
-                      <th className="px-3 py-2 text-right">Platform clicks</th>
-                      <th className="px-3 py-2 text-right">Regs</th>
-                      <th className="px-3 py-2 text-right">Revenue</th>
-                      <th className="px-3 py-2 text-right">CPA</th>
-                      <th className="px-3 py-2 text-right">ROAS</th>
-                      <th className="px-3 py-2 text-right">CVR</th>
-                      <th className="px-3 py-2 text-right">CTR</th>
+                      <SortableCreativeHeader
+                        label="Style combo"
+                        sortKey="style"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Platform"
+                        sortKey="platform"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Spend"
+                        sortKey="spend"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Tracked clicks"
+                        sortKey="trackedClicks"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Platform clicks"
+                        sortKey="platformClicks"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Regs"
+                        sortKey="registrations"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="Revenue"
+                        sortKey="revenue"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="CPA"
+                        sortKey="cpa"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="ROAS"
+                        sortKey="roas"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="CVR"
+                        sortKey="conversionRate"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
+                      <SortableCreativeHeader
+                        label="CTR"
+                        sortKey="ctr"
+                        align="right"
+                        sort={creativeSort}
+                        onSort={updateCreativeSort}
+                      />
                     </tr>
                   </thead>
                   <tbody>
@@ -893,7 +1148,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
         </Panel>
 
         <Panel title="Campaign performance">
-          {summary.campaignRows.length === 0 ? (
+          {liveCampaignRows.length === 0 ? (
             <div className="border border-dashed border-[#2A3B34] p-8 text-center text-sm text-[#8BA59B]">
               No synced ad metrics in this range.
             </div>
@@ -916,7 +1171,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
                   </tr>
                 </thead>
                 <tbody>
-                  {summary.campaignRows.map((row) => (
+                  {liveCampaignRows.map((row) => (
                     <tr key={row.key} className="border-b border-[#17251F]">
                       <td className="px-3 py-3 text-[#D7F171]">
                         {platformLabel(row.platform)}
@@ -968,7 +1223,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             <div className="h-72">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart
-                  data={summary.campaignRows.slice(0, 8).map((row) => ({
+                  data={liveCampaignRows.slice(0, 8).map((row) => ({
                     name:
                       row.adName ||
                       row.adGroupName ||
