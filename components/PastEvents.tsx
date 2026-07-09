@@ -3,7 +3,7 @@ import Image from "next/image";
 import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
-import { getEventMedia, getMediaUrl } from "@/lib/media";
+import { getEventMedia } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 
@@ -48,9 +48,7 @@ const PastEvents = async () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
-          const videoUrl = eventMedia
-            ? getMediaUrl(eventMedia.videoKey)
-            : `https://www.youtube.com/watch?v=${event.yt_uuid}`;
+          const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
 
           return (
             <div
@@ -58,19 +56,20 @@ const PastEvents = async () => {
               className="flex flex-col border border-[#202020] h-full border-b-4 border-r-4"
             >
               {eventMedia ? (
-                <div className="relative w-full aspect-video bg-black">
-                  <video
-                    className="h-full w-full object-contain"
-                    controls
-                    playsInline
-                    preload="metadata"
-                    poster={getMediaUrl(eventMedia.posterKey)}
-                    aria-label={`${event.title} video`}
-                  >
-                    <source src={videoUrl} type="video/mp4" />
-                    <a href={videoUrl}>Open the video</a>
-                  </video>
-                </div>
+                <Link
+                  href={eventMedia.pagePath}
+                  className="relative w-full aspect-video bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0FA711]"
+                  aria-label={`Watch ${event.title}`}
+                >
+                  <Image
+                    src={eventMedia.thumbnailPath}
+                    alt="Biological Futures with Dr. Josie Zayner"
+                    fill
+                    quality={100}
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    className="object-cover"
+                  />
+                </Link>
               ) : (
                 <Link
                   href={videoUrl}
@@ -87,9 +86,12 @@ const PastEvents = async () => {
               )}
               <div className="flex flex-col justify-start items-start gap-4 p-4 flex-grow">
                 {eventMedia ? (
-                  <h3 className="text-lg font-bold line-clamp-2">
+                  <Link
+                    href={eventMedia.pagePath}
+                    className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
+                  >
                     {event.title}
-                  </h3>
+                  </Link>
                 ) : (
                   <Link
                     href={videoUrl}
@@ -102,14 +104,12 @@ const PastEvents = async () => {
                 <p className="text-sm text-gray-500">{event.speaker}</p>
                 <div className="flex flex-col gap-2">
                   {eventMedia ? (
-                    <a
-                      href={videoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href={eventMedia.pagePath}
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
                       Video
-                    </a>
+                    </Link>
                   ) : (
                     <Link
                       href={videoUrl}

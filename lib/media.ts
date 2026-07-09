@@ -10,6 +10,8 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 export type EventMedia = {
   eventUuid: string;
   lumaId: string;
+  pagePath: string;
+  thumbnailPath: string;
   videoKey: string;
   posterKey: string;
 };
@@ -18,6 +20,8 @@ const EVENT_MEDIA: EventMedia[] = [
   {
     eventUuid: "034b5719-7ea0-4ab0-b817-3149042a9f26",
     lumaId: "evt-dc04Au36HzE1tvh",
+    pagePath: "/biological-futures",
+    thumbnailPath: "/images/events/descinyc19-biological-futures.png",
     videoKey: "media/events/descinyc19-crispr.mp4",
     posterKey: "media/events/descinyc19-crispr-poster.png",
   },
@@ -89,6 +93,10 @@ export function getEventMedia(event: {
         media.eventUuid === event.event_uuid || media.lumaId === event.luma_id
     ) || null
   );
+}
+
+export function getEventMediaByPagePath(pagePath: string) {
+  return EVENT_MEDIA.find((media) => media.pagePath === pagePath) || null;
 }
 
 export function getMediaUrl(objectKey: string) {
