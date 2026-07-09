@@ -32,6 +32,13 @@ import { query } from "@/lib/db";
 import { getXAdsConfig } from "@/lib/x-ads-config";
 
 type JsonObject = Record<string, unknown>;
+type TrackingResolution = {
+  eventSlug: string | null;
+  utmSource: string | null;
+  utmCampaign: string | null;
+  utmContent: string | null;
+};
+type XAttributionGroup = { utmContent: string | null; trackedClicks: number };
 
 const META_DEFAULT_API_VERSION = "v23.0";
 const DEFAULT_X_BULK_EXPORT_PATH =
@@ -660,6 +667,83 @@ function chunk<T>(items: T[], size: number) {
   return chunks;
 }
 
+async function getMappedTracking(input: {
+  platform: AdPlatform;
+  campaignId?: string | null;
+  adGroupId?: string | null;
+  adId?: string | null;
+}): Promise<TrackingResolution | null> {
+  const { rows } = await query<{
+    event_slug: string | null;
+    utm_source: string | null;
+    utm_campaign: string | null;
+    utm_content: string | null;
+  }>(
+    `
+      SELECT event_slug, utm_source, utm_campaign, utm_content
+      FROM ad_utm_mappings
+      WHERE platform = $1
+        AND (platform_campaign_id IS NULL OR platform_campaign_id = $2)
+        AND (platform_ad_group_id IS NULL OR platform_ad_group_id = $3)
+        AND (platform_ad_id IS NULL OR platform_ad_id = $4)
+      ORDER BY
+        (CASE WHEN platform_ad_id IS NOT NULL THEN 4 ELSE 0 END) +
+        (CASE WHEN platform_ad_group_id IS NOT NULL THEN 2 ELSE 0 END) +
+        (CASE WHEN platform_campaign_id IS NOT NULL THEN 1 ELSE 0 END) DESC,
+        updated_at DESC
+      LIMIT 1
+    `,
+    [
+      input.platform,
+      input.campaignId || null,
+      input.adGroupId || null,
+      input.adId || null,
+    ]
+  );
+
+  const row = rows[0];
+  if (!row) {
+    return null;
+  }
+
+  return {
+    eventSlug: row.event_slug,
+    utmSource: row.utm_source,
+    utmCampaign: row.utm_campaign,
+    utmContent: row.utm_content,
+  };
+}
+
+function buildOverallAttributionGroups(
+  distribution: Map<string, XAttributionGroup[]>
+) {
+  const overall = new Map<string, number>();
+
+  for (const dateGroups of distribution.values()) {
+    for (const item of dateGroups) {
+      const key = item.utmContent || "";
+      overall.set(key, (overall.get(key) || 0) + item.trackedClicks);
+    }
+  }
+
+  return Array.from(overall.entries()).map(([utmContent, trackedClicks]) => ({
+    utmContent: utmContent || null,
+    trackedClicks,
+  }));
+}
+
+function allocateTotal(
+  total: number,
+  share: number,
+  index: number,
+  count: number,
+  allocatedSoFar: number
+) {
+  return index === count - 1
+    ? total - allocatedSoFar
+    : Math.round(total * share);
+}
+
 async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
   const accountId = getXAdsConfig().accountId;
   const [campaigns, lineItems] = await Promise.all([
@@ -717,17 +801,32 @@ async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
         const campaign = campaignById.get(String(lineItem.campaign_id || ""));
         const campaignName = String(campaign?.name || lineItem.campaign_id || "");
         const lineItemName = String(lineItem.name || stat.id || "");
-        const tracking = inferTracking({
+        const inferredTracking = inferTracking({
           platform: "x",
           campaignName,
           adGroupName: lineItemName,
         });
-        const creative = inferCreativeProfile({
-          eventSlug: tracking.eventSlug,
-          utmContent: tracking.utmContent,
-          campaignName,
-          adGroupName: lineItemName,
+        const mappedTracking = await getMappedTracking({
+          platform: "x",
+          campaignId: String(lineItem.campaign_id || "") || null,
+          adGroupId: String(lineItem.id || "") || null,
+          adId: null,
         });
+        const tracking = {
+          eventSlug: mappedTracking?.eventSlug || inferredTracking.eventSlug,
+          utmSource: mappedTracking?.utmSource || inferredTracking.utmSource,
+          utmCampaign: mappedTracking?.utmCampaign || inferredTracking.utmCampaign,
+          utmContent: mappedTracking?.utmContent || inferredTracking.utmContent,
+        };
+        const distribution =
+          tracking.eventSlug && tracking.utmCampaign && !tracking.utmContent
+            ? await getXAttributionDistribution({
+                range,
+                eventSlug: tracking.eventSlug,
+                utmCampaign: tracking.utmCampaign,
+              })
+            : new Map<string, XAttributionGroup[]>();
+        const fallbackGroups = buildOverallAttributionGroups(distribution);
 
         for (const idData of stat.id_data || []) {
           const statMetrics = (idData.metrics || {}) as JsonObject;
@@ -750,6 +849,23 @@ async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
               continue;
             }
 
+            const contentGroups = tracking.utmContent
+              ? [{ utmContent: tracking.utmContent, trackedClicks: clicks }]
+              : distribution.get(metricDate) ||
+                fallbackGroups ||
+                [{ utmContent: null, trackedClicks: 0 }];
+            const allocationGroups =
+              contentGroups.length > 0
+                ? contentGroups
+                : [{ utmContent: null, trackedClicks: 0 }];
+            const totalAllocationClicks = allocationGroups.reduce(
+              (sum, item) => sum + item.trackedClicks,
+              0
+            );
+            let allocatedSpendMicros = 0;
+            let allocatedImpressions = 0;
+            let allocatedClicks = 0;
+
             const cpcLocalMicro = xFloatArrayMetric(
               statMetrics,
               ["cost_per_url_click_local_micro", "cost_per_click_local_micro"],
@@ -760,54 +876,106 @@ async function getXMetrics(range: AdsDateRange): Promise<AdMetricInput[]> {
               ["cost_per_1000_impressions_local_micro", "cpm_local_micro"],
               index
             );
-            const metricBase = {
-              platform: "x" as const,
-              metricDate,
-              accountId,
-              accountName: null,
-              currency:
-                typeof campaign?.currency === "string"
-                  ? campaign.currency
-                  : typeof lineItem.currency === "string"
-                    ? lineItem.currency
-                    : null,
-              platformCampaignId: String(lineItem.campaign_id || "") || null,
-              campaignName: campaignName || null,
-              platformAdGroupId: String(lineItem.id || "") || null,
-              adGroupName: lineItemName,
-              platformAdId: null,
-              adName: null,
-              ...creative,
-              placement: "ALL_ON_TWITTER",
-              eventSlug: tracking.eventSlug,
-              utmSource: tracking.utmSource,
-              utmCampaign: tracking.utmCampaign,
-              utmContent: tracking.utmContent,
-              spendMicros,
-              impressions,
-              reach: null,
-              clicks,
-              cpcMicros:
-                cpcLocalMicro === null
-                  ? clicks > 0
-                    ? Math.round(spendMicros / clicks)
-                    : null
-                  : Math.round(cpcLocalMicro),
-              cpmMicros:
-                cpmLocalMicro === null
-                  ? impressions > 0
-                    ? Math.round((spendMicros * 1000) / impressions)
-                    : null
-                  : Math.round(cpmLocalMicro),
-              ctr: impressions > 0 ? clicks / impressions : null,
-              provisional: metricDate >= provisionalBoundary,
-              raw: { stat, campaign, lineItem, accountTimezone },
-            };
 
-            metrics.push({
-              ...metricBase,
-              metricId: metricIdentity(metricBase),
-            });
+            for (let groupIndex = 0; groupIndex < allocationGroups.length; groupIndex += 1) {
+              const item = allocationGroups[groupIndex];
+              const share =
+                totalAllocationClicks > 0
+                  ? item.trackedClicks / totalAllocationClicks
+                  : 1 / allocationGroups.length;
+              const groupSpendMicros = allocateTotal(
+                spendMicros,
+                share,
+                groupIndex,
+                allocationGroups.length,
+                allocatedSpendMicros
+              );
+              const groupImpressions = allocateTotal(
+                impressions,
+                share,
+                groupIndex,
+                allocationGroups.length,
+                allocatedImpressions
+              );
+              const groupClicks = allocateTotal(
+                clicks,
+                share,
+                groupIndex,
+                allocationGroups.length,
+                allocatedClicks
+              );
+              allocatedSpendMicros += groupSpendMicros;
+              allocatedImpressions += groupImpressions;
+              allocatedClicks += groupClicks;
+              const creative = inferCreativeProfile({
+                eventSlug: tracking.eventSlug,
+                utmContent: item.utmContent,
+                campaignName,
+                adGroupName: lineItemName,
+              });
+              const metricBase = {
+                platform: "x" as const,
+                metricDate,
+                accountId,
+                accountName: null,
+                currency:
+                  typeof campaign?.currency === "string"
+                    ? campaign.currency
+                    : typeof lineItem.currency === "string"
+                      ? lineItem.currency
+                      : null,
+                platformCampaignId: String(lineItem.campaign_id || "") || null,
+                campaignName: campaignName || null,
+                platformAdGroupId: String(lineItem.id || "") || null,
+                adGroupName: lineItemName,
+                platformAdId: null,
+                adName: null,
+                ...creative,
+                placement: "ALL_ON_TWITTER",
+                eventSlug: tracking.eventSlug,
+                utmSource: tracking.utmSource,
+                utmCampaign: tracking.utmCampaign,
+                utmContent: item.utmContent,
+                spendMicros: groupSpendMicros,
+                impressions: groupImpressions,
+                reach: null,
+                clicks: groupClicks,
+                cpcMicros:
+                  cpcLocalMicro === null
+                    ? groupClicks > 0
+                      ? Math.round(groupSpendMicros / groupClicks)
+                      : null
+                    : Math.round(cpcLocalMicro),
+                cpmMicros:
+                  cpmLocalMicro === null
+                    ? groupImpressions > 0
+                      ? Math.round((groupSpendMicros * 1000) / groupImpressions)
+                      : null
+                    : Math.round(cpmLocalMicro),
+                ctr: groupImpressions > 0 ? groupClicks / groupImpressions : null,
+                provisional: metricDate >= provisionalBoundary,
+                raw: {
+                  source: "x_ads_api_line_item",
+                  stat,
+                  campaign,
+                  lineItem,
+                  accountTimezone,
+                  allocation: {
+                    method:
+                      tracking.utmContent || allocationGroups.length === 1
+                        ? "explicit_utm_content"
+                        : "same_day_tracked_click_share",
+                    share,
+                    trackedClicks: item.trackedClicks,
+                  },
+                },
+              };
+
+              metrics.push({
+                ...metricBase,
+                metricId: metricIdentity(metricBase),
+              });
+            }
           }
         }
       }
@@ -1125,12 +1293,19 @@ async function syncPlatform(
         : xApiMissingConfig().length === 0
           ? await getXMetrics(range)
           : await getXBulkExportMetrics(range);
-    if (platform === "x" && xApiMissingConfig().length > 0) {
-      await deleteAdMetricsForPlatformRange({
-        platform: "x",
-        range,
-        rawSource: "x_bulk_export_budget_proxy",
-      });
+    if (platform === "x") {
+      await deleteAdMetricsForPlatformRange(
+        xApiMissingConfig().length === 0
+          ? {
+              platform: "x",
+              range,
+            }
+          : {
+              platform: "x",
+              range,
+              rawSource: "x_bulk_export_budget_proxy",
+            }
+      );
     }
 
     const rowsSynced = await upsertAdMetrics(metrics);
