@@ -94,7 +94,7 @@ export function defaultAdsDateRange() {
   const endDate = todayIsoDate();
   const reportingStartDate = normalizeDate(
     process.env.ADS_REPORTING_START_DATE,
-    addDays(endDate, -30)
+    endDate
   );
 
   return {
