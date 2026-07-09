@@ -3,18 +3,8 @@ import Image from "next/image";
 import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
+import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
-
-const RAW_SLIDES_BASE =
-  "https://raw.githubusercontent.com/CourageResearch/DeSciNYC_railway/main/public/slides";
-
-function getSlidesHref(slides: string) {
-  if (/^https?:\/\//i.test(slides) || slides.startsWith("/")) {
-    return slides;
-  }
-
-  return `${RAW_SLIDES_BASE}/${slides.split("/").map(encodeURIComponent).join("/")}`;
-}
 
 const PastEvents = async () => {
   const pastEvents = await getPastEvents();

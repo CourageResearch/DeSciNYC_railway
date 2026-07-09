@@ -5,6 +5,7 @@ import Heading from "./ui/heading";
 import { Button } from "./ui/button";
 import { type EventRecord, getUpcomingEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
+import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 
 // const scheduleLines = [
@@ -122,6 +123,22 @@ const NextEvents = async () => {
                     RSVP
                   </Button>
                 </Link>
+                {event.slides && (
+                  <Link
+                    href={getSlidesHref(event.slides)}
+                    target="_blank"
+                    rel="noopener"
+                    className="w-min"
+                  >
+                    <Button
+                      variant="gray"
+                      size="lg"
+                      className="h-12 text-xl font-bold w-full md:w-96"
+                    >
+                      Slides
+                    </Button>
+                  </Link>
+                )}
               </div>
               <div className="flex flex-col gap-2 items-center justify-center w-full md:w-2/5">
                 {event.lumaEvent?.cover_url ? (
