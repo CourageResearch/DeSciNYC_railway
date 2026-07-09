@@ -355,6 +355,91 @@ function stableStringify(value: unknown): string {
   return JSON.stringify(value);
 }
 
+function validDateTime(value: string | null) {
+  if (!value || Number.isNaN(new Date(value).getTime())) {
+    return null;
+  }
+
+  return value;
+}
+
+function firstValidDateTime(values: Array<string | null>) {
+  for (const value of values) {
+    const valid = validDateTime(value);
+    if (valid) {
+      return valid;
+    }
+  }
+
+  return null;
+}
+
+function isEventPageCreatedAt(entry: PayloadEntry) {
+  return (
+    entry.path.length >= 3 &&
+    entry.path[0] === "data" &&
+    entry.path[1] === "event" &&
+    entry.path[entry.path.length - 1] === "created_at"
+  );
+}
+
+function conversionTimePriority(entry: PayloadEntry) {
+  const leafKey = normalizeKey(entry.key);
+  const fullPath = normalizeKey(entry.path.join("_"));
+
+  if (isEventPageCreatedAt(entry) || !validDateTime(entry.value)) {
+    return null;
+  }
+
+  if (leafKey.includes("registered") || fullPath.includes("registered_at")) {
+    return 1;
+  }
+
+  if (fullPath.includes("registration")) {
+    return 2;
+  }
+
+  if (fullPath.includes("guest")) {
+    return 3;
+  }
+
+  if (fullPath.includes("ticket")) {
+    return 4;
+  }
+
+  if (
+    leafKey.includes("created") ||
+    leafKey.includes("timestamp") ||
+    fullPath.includes("created_at")
+  ) {
+    return 5;
+  }
+
+  return null;
+}
+
+function findConversionTime(payload: unknown, entries: PayloadEntry[]) {
+  const directTime = firstValidDateTime([
+    getStringAtPath(payload, ["data", "registered_at"]),
+    getStringAtPath(payload, ["data", "created_at"]),
+    getStringAtPath(payload, ["data", "joined_at"]),
+  ]);
+
+  if (directTime) {
+    return directTime;
+  }
+
+  const candidate = entries
+    .map((entry) => ({ entry, priority: conversionTimePriority(entry) }))
+    .filter(
+      (item): item is { entry: PayloadEntry; priority: number } =>
+        item.priority !== null
+    )
+    .sort((a, b) => a.priority - b.priority)[0];
+
+  return candidate?.entry.value || new Date().toISOString();
+}
+
 export function parseLumaConversionPayload(
   payload: unknown
 ): ParsedLumaConversion {
@@ -407,16 +492,7 @@ export function parseLumaConversionPayload(
     ) || nativeTicketId;
   const eventSourceUrl = findLikelyUrl(entries);
   const conversionValue = findConversionValue(entries);
-  const conversionTime =
-    findByKey(
-      entries,
-      (leafKey, fullPath, value) =>
-        (leafKey.includes("created") ||
-          leafKey.includes("registered") ||
-          leafKey.includes("timestamp") ||
-          fullPath.includes("created_at")) &&
-        !Number.isNaN(new Date(value).getTime())
-    ) || new Date().toISOString();
+  const conversionTime = findConversionTime(payload, entries);
 
   const conversionIdSeed =
     lumaTicketId ||
