@@ -19,6 +19,22 @@ export const PLATFORM_LABELS: Record<AdPlatform, string> = {
   x: "X",
 };
 
+export function parseAdsCsvList(value: string | undefined) {
+  return (value || "")
+    .split(",")
+    .map((item) => item.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+export function getExcludedUtmContents() {
+  return parseAdsCsvList(process.env.ADS_EXCLUDED_UTM_CONTENTS);
+}
+
+export function isExcludedUtmContent(value: string | null | undefined) {
+  const normalized = (value || "").trim().toLowerCase();
+  return normalized ? getExcludedUtmContents().includes(normalized) : false;
+}
+
 export function nullIfBlank(value: unknown) {
   if (typeof value !== "string") {
     return null;

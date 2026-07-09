@@ -17,6 +17,7 @@ import {
   PAID_SOCIAL_SOURCES,
   PLATFORM_LABELS,
   addDays,
+  getExcludedUtmContents,
   inferCreativeProfile,
   microsPer,
   normalizePlatform,
@@ -227,6 +228,14 @@ function emptySummary(filters: AdsFilters, issue?: AdsQualityIssue): AdsSummaryR
 function buildMetricsWhere(filters: AdsFilters) {
   const params: unknown[] = [filters.startDate, filters.endDate];
   const where = ["m.metric_date BETWEEN $1::date AND $2::date"];
+  const excludedUtmContents = getExcludedUtmContents();
+
+  if (excludedUtmContents.length > 0) {
+    params.push(excludedUtmContents);
+    where.push(
+      `LOWER(COALESCE(mapping.utm_content, m.utm_content, '')) <> ALL($${params.length}::text[])`
+    );
+  }
 
   if (filters.platform && filters.platform !== "all") {
     params.push(filters.platform);
@@ -295,6 +304,14 @@ async function getClickGroups(filters: AdsFilters) {
     "created_at < ($2::date + INTERVAL '1 day')",
     "LOWER(COALESCE(utm_source, '')) = ANY($3::text[])",
   ];
+  const excludedUtmContents = getExcludedUtmContents();
+
+  if (excludedUtmContents.length > 0) {
+    params.push(excludedUtmContents);
+    where.push(
+      `LOWER(COALESCE(utm_content, '')) <> ALL($${params.length}::text[])`
+    );
+  }
 
   if (filters.eventSlug) {
     params.push(filters.eventSlug);
@@ -329,6 +346,14 @@ async function getConversionGroups(filters: AdsFilters) {
     "created_at < ($2::date + INTERVAL '1 day')",
     "LOWER(COALESCE(utm_source, '')) = ANY($3::text[])",
   ];
+  const excludedUtmContents = getExcludedUtmContents();
+
+  if (excludedUtmContents.length > 0) {
+    params.push(excludedUtmContents);
+    where.push(
+      `LOWER(COALESCE(utm_content, '')) <> ALL($${params.length}::text[])`
+    );
+  }
 
   if (filters.eventSlug) {
     params.push(filters.eventSlug);
@@ -379,7 +404,13 @@ async function getConversionGroups(filters: AdsFilters) {
           ),
           0
         )::bigint AS revenue_micros,
-        COUNT(*) FILTER (WHERE click_id IS NULL)::int AS unmatched
+        COUNT(*) FILTER (
+          WHERE click_id IS NULL
+            AND (
+              COALESCE(utm_campaign, '') = ''
+              OR COALESCE(utm_content, '') = ''
+            )
+        )::int AS unmatched
       FROM attribution_conversions
       WHERE ${where.join(" AND ")}
       GROUP BY created_at::date, event_slug, utm_source, utm_campaign, utm_content

@@ -20,6 +20,7 @@ import {
 import {
   addDays,
   currencyToMicros,
+  getExcludedUtmContents,
   inferCreativeProfile,
   inferTracking,
   metricIdentity,
@@ -1045,6 +1046,28 @@ async function getXAttributionDistribution(input: {
   eventSlug: string;
   utmCampaign: string;
 }) {
+  const params: unknown[] = [
+    input.range.startDate,
+    input.range.endDate,
+    input.eventSlug,
+    input.utmCampaign,
+  ];
+  const where = [
+    "created_at >= $1::date",
+    "created_at < ($2::date + INTERVAL '1 day')",
+    "event_slug = $3",
+    "LOWER(COALESCE(utm_source, '')) IN ('twitter_ads', 'x_ads')",
+    "COALESCE(utm_campaign, '') = $4",
+  ];
+  const excludedUtmContents = getExcludedUtmContents();
+
+  if (excludedUtmContents.length > 0) {
+    params.push(excludedUtmContents);
+    where.push(
+      `LOWER(COALESCE(utm_content, '')) <> ALL($${params.length}::text[])`
+    );
+  }
+
   const { rows } = await query<{
     metric_date: string | Date;
     utm_content: string | null;
@@ -1056,15 +1079,11 @@ async function getXAttributionDistribution(input: {
         utm_content,
         COUNT(*)::int AS tracked_clicks
       FROM attribution_clicks
-      WHERE created_at >= $1::date
-        AND created_at < ($2::date + INTERVAL '1 day')
-        AND event_slug = $3
-        AND LOWER(COALESCE(utm_source, '')) IN ('twitter_ads', 'x_ads')
-        AND COALESCE(utm_campaign, '') = $4
+      WHERE ${where.join("\n        AND ")}
       GROUP BY created_at::date, utm_content
       ORDER BY created_at::date ASC, tracked_clicks DESC
     `,
-    [input.range.startDate, input.range.endDate, input.eventSlug, input.utmCampaign]
+    params
   );
   const byDate = new Map<
     string,
