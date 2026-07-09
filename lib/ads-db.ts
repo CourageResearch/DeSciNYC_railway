@@ -765,6 +765,119 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
     platformMap.set(platformKey, platformRow);
   }
 
+  if (!filters.campaignId && !filters.adId) {
+    const attributionOnlyKeys = new Set<string>();
+
+    for (const row of [...clickRows, ...conversionRows]) {
+      const platform = sourceToPlatform(row.utm_source);
+
+      if (!platform) {
+        continue;
+      }
+
+      const tracking = {
+        eventSlug: row.event_slug,
+        utmSource: row.utm_source,
+        utmCampaign: row.utm_campaign,
+        utmContent: row.utm_content,
+      };
+      const key = trackingKey(tracking);
+
+      if (key === "|||") {
+        continue;
+      }
+
+      attributionOnlyKeys.add(`${platform}::${key}`);
+    }
+
+    for (const compoundKey of attributionOnlyKeys) {
+      const [platform, eventSlug, utmSource, utmCampaign, utmContent] =
+        compoundKey.split("::").flatMap((part, index) =>
+          index === 0 ? [part] : part.split("|")
+        );
+      const tracking = {
+        eventSlug,
+        utmSource,
+        utmCampaign,
+        utmContent,
+      };
+      const key = trackingKey(tracking);
+      const alreadyHasCampaignRow = Array.from(campaignMap.values()).some(
+        (row) => row.platform === platform && trackingKey(row) === key
+      );
+      const alreadyHasCreativeRow = Array.from(creativeMap.values()).some(
+        (row) => row.platform === platform && trackingKey(row) === key
+      );
+
+      if (alreadyHasCampaignRow && alreadyHasCreativeRow) {
+        continue;
+      }
+
+      const eventTitle =
+        ATTRIBUTION_EVENTS[eventSlug as keyof typeof ATTRIBUTION_EVENTS]?.title ||
+        eventSlug ||
+        "Tracked ads";
+      const campaignName = utmCampaign || eventTitle;
+      const creative = inferCreativeProfile({
+        eventSlug,
+        utmContent,
+        campaignName,
+      });
+
+      if (!alreadyHasCampaignRow) {
+        const campaignKey = [
+          platform,
+          "attribution",
+          "",
+          "",
+          key,
+        ].join("::");
+
+        campaignMap.set(
+          campaignKey,
+          emptyBreakdownRow({
+            key: campaignKey,
+            platform,
+            campaignName,
+            ...creative,
+            eventSlug,
+            utmSource,
+            utmCampaign,
+            utmContent,
+          })
+        );
+      }
+
+      if (!alreadyHasCreativeRow) {
+        const creativeKey = [
+          platform,
+          key,
+          creative.creativeHeadline || "",
+          creative.creativeImageLabel || "",
+          creative.creativeTheme || "",
+        ].join("::");
+
+        creativeMap.set(
+          creativeKey,
+          emptyBreakdownRow({
+            key: creativeKey,
+            platform,
+            campaignName,
+            ...creative,
+            eventSlug,
+            utmSource,
+            utmCampaign,
+            utmContent,
+          })
+        );
+
+        const campaigns = creativeCampaigns.get(creativeKey) || new Set<string>();
+        campaigns.add(campaignName);
+        creativeCampaigns.set(creativeKey, campaigns);
+      }
+    }
+  }
+
   for (const row of campaignMap.values()) {
     const key = trackingKey(row);
     if (key !== "|||") {
