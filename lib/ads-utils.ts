@@ -290,6 +290,13 @@ export function inferCreativeProfile(input: {
       format: "AI-generated static creative",
       theme: "Peptides evidence check",
     },
+    poster: {
+      headline: "Real vs Hype",
+      imageUrl: "/images/ads/descinyc49-real-vs-hype.png",
+      imageLabel: "Peptides 101 real vs hype creative",
+      format: "AI-generated static creative",
+      theme: "Peptides evidence check",
+    },
     julius_ritter_1am: {
       headline: "Julius Ritter 1am",
       imageUrl: "/images/ads/descinyc49-julius-ritter.jpg",
