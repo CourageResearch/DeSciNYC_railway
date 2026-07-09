@@ -35,6 +35,15 @@ const formSchema = z.object({
   captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
+const createContactFormDefaults = (): z.infer<typeof formSchema> => ({
+  name: "",
+  email: "",
+  phone: "",
+  message: "",
+  ...generateBotProtectionData(),
+  captchaToken: "",
+});
+
 type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
 
 type ContactFormFieldsProps = {
@@ -46,7 +55,6 @@ const ContactFormFields = ({
   executeRecaptcha,
   isRecaptchaEnabled,
 }: ContactFormFieldsProps) => {
-  const [formStartTime] = useState(Date.now());
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [message, setMessage] = useState<{
     text: string;
@@ -55,23 +63,7 @@ const ContactFormFields = ({
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: {
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-      honeypot: "",
-      honeypot2: "",
-      honeypot3: "",
-      timestamp: 0,
-      formStartTime: formStartTime,
-      userAgent: "",
-      referrer: "",
-      screenResolution: "",
-      timezone: "",
-      language: "",
-      captchaToken: "",
-    },
+    defaultValues: createContactFormDefaults(),
   });
 
   // Initialize bot protection data when component mounts
@@ -145,7 +137,7 @@ const ContactFormFields = ({
         text: "Message sent successfully!",
         type: "success",
       });
-      form.reset();
+      form.reset(createContactFormDefaults());
     } catch (error) {
       console.error("Error sending message:", error);
       setMessage({

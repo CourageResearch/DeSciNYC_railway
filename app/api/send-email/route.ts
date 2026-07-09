@@ -1,320 +1,169 @@
-import { Resend } from "resend";
-import { ADMIN_EMAILS } from "@/types/adminEmails";
 import { NextRequest, NextResponse } from "next/server";
-import { detectBot, BotProtectionData } from "../../../lib/botProtection";
-import { shouldSendAdminEmailNotification } from "@/lib/admin-email-preferences";
+import { detectBot, type BotProtectionData } from "@/lib/botProtection";
+import { sendContactEmails } from "@/lib/form-email-notifications";
+import { runPublicFormAction } from "@/lib/public-form-rate-limit";
+
+const BLOCKED_EMAIL_DOMAINS = new Set([
+  "10minutemail.com",
+  "tempmail.org",
+  "guerrillamail.com",
+  "mailinator.com",
+  "throwaway.email",
+  "temp-mail.org",
+  "sharklasers.com",
+  "grr.la",
+  "guerrillamailblock.com",
+  "pokemail.net",
+  "spam4.me",
+  "bccto.me",
+  "chacuo.net",
+  "dispostable.com",
+  "mailnesia.com",
+  "mailcatch.com",
+  "inboxalias.com",
+  "mailmetrash.com",
+  "trashmail.net",
+  "spamgourmet.com",
+]);
+
+function normalizeTimestamp(value: unknown) {
+  return typeof value === "number" && Number.isFinite(value)
+    ? value
+    : Date.now();
+}
 
 export async function POST(req: NextRequest) {
   try {
     const data = await req.json();
-    const { type, ...emailData } = data;
-    const resendApiKey = process.env.RESEND_API_KEY;
 
-    if (!resendApiKey) {
-      console.error("RESEND_API_KEY is not defined");
+    if (data.type !== "contact") {
+      return NextResponse.json({ error: "Invalid email type" }, { status: 400 });
+    }
+
+    const {
+      name,
+      email,
+      phone,
+      message,
+      honeypot,
+      honeypot2,
+      honeypot3,
+      timestamp,
+      formStartTime,
+      userAgent,
+      referrer,
+      screenResolution,
+      timezone,
+      language,
+      captchaToken,
+    } = data;
+
+    const botData: BotProtectionData = {
+      honeypot: String(honeypot || ""),
+      honeypot2: String(honeypot2 || ""),
+      honeypot3: String(honeypot3 || ""),
+      timestamp: normalizeTimestamp(timestamp),
+      formStartTime: normalizeTimestamp(formStartTime),
+      userAgent:
+        req.headers.get("user-agent") || String(userAgent || ""),
+      referrer: String(referrer || ""),
+      screenResolution: String(screenResolution || ""),
+      timezone: String(timezone || ""),
+      language: String(language || ""),
+    };
+
+    const botDetection = detectBot(botData);
+
+    if (botDetection.isBot) {
+      console.log("Bot detected:", botDetection.reasons);
       return NextResponse.json(
-        { error: "Email service is not configured" },
-        { status: 500 }
+        { error: "Invalid submission" },
+        { status: 400 }
       );
     }
 
-    const resend = new Resend(resendApiKey);
-
-    switch (type) {
-      case "contact": {
-        const {
-          name,
-          email,
-          phone,
-          message,
-          honeypot,
-          honeypot2,
-          honeypot3,
-          timestamp,
-          formStartTime,
-          userAgent,
-          referrer,
-          screenResolution,
-          timezone,
-          language,
-          captchaToken,
-        } = emailData;
-
-        // Comprehensive bot detection
-        const botData: BotProtectionData = {
-          honeypot: honeypot || "",
-          honeypot2: honeypot2 || "",
-          honeypot3: honeypot3 || "",
-          timestamp: timestamp || Date.now(),
-          formStartTime: formStartTime || Date.now(),
-          userAgent: userAgent || "",
-          referrer: referrer || "",
-          screenResolution: screenResolution || "",
-          timezone: timezone || "",
-          language: language || "",
-        };
-
-        const botDetection = detectBot(botData);
-
-        if (botDetection.isBot) {
-          console.log("Bot detected:", botDetection.reasons);
-          return NextResponse.json(
-            { error: "Invalid submission" },
-            { status: 400 }
-          );
-        }
-
-        const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
-        if (recaptchaSecretKey) {
-          if (!captchaToken) {
-            console.log("Missing reCAPTCHA token");
-            return NextResponse.json(
-              { error: "reCAPTCHA verification required" },
-              { status: 400 }
-            );
-          }
-
-          const captchaResponse = await fetch(
-            "https://www.google.com/recaptcha/api/siteverify",
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-              },
-              body: new URLSearchParams({
-                secret: recaptchaSecretKey,
-                response: captchaToken,
-              }),
-            }
-          );
-
-          const captchaResult = await captchaResponse.json();
-
-          if (!captchaResult.success) {
-            console.log("reCAPTCHA verification failed:", captchaResult);
-            return NextResponse.json(
-              { error: "reCAPTCHA verification failed" },
-              { status: 400 }
-            );
-          }
-        } else {
-          console.warn("RECAPTCHA_SECRET_KEY is not set - skipping reCAPTCHA");
-        }
-
-        // Additional email domain validation
-        const botEmailDomains = [
-          "10minutemail.com",
-          "tempmail.org",
-          "guerrillamail.com",
-          "mailinator.com",
-          "throwaway.email",
-          "temp-mail.org",
-          "sharklasers.com",
-          "grr.la",
-          "guerrillamailblock.com",
-          "pokemail.net",
-          "spam4.me",
-          "bccto.me",
-          "chacuo.net",
-          "dispostable.com",
-          "mailnesia.com",
-          "mailcatch.com",
-          "inboxalias.com",
-          "mailmetrash.com",
-          "trashmail.net",
-          "spamgourmet.com",
-        ];
-
-        const contactName = String(name || "").trim();
-        const contactEmail = String(email || "").trim();
-        const contactPhone = String(phone || "").trim();
-        const contactMessage = String(message || "").trim();
-        const emailDomain = contactEmail.split("@")[1]?.toLowerCase();
-
-        if (!contactMessage) {
-          return NextResponse.json(
-            { error: "Message is required" },
-            { status: 400 }
-          );
-        }
-
-        if (emailDomain && botEmailDomains.includes(emailDomain)) {
-          console.log("Bot email domain detected:", emailDomain);
-          return NextResponse.json(
-            { error: "Invalid email domain" },
-            { status: 400 }
-          );
-        }
-
-        const emailPromises: Array<Promise<unknown>> = [];
-        if (await shouldSendAdminEmailNotification("contact")) {
-          emailPromises.push(
-            resend.emails.send({
-              from: "DeSciNYC <admin@desci.nyc>",
-              to: ADMIN_EMAILS,
-              subject: "New Contact Form Submission",
-              text: `
-              Name: ${contactName || "Not provided"}
-              Email: ${contactEmail || "Not provided"}
-              Phone: ${contactPhone || "Not provided"}
-              Message: ${contactMessage}
-            `,
-            })
-          );
-        }
-
-        if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)) {
-          emailPromises.push(
-            resend.emails.send({
-              from: "DeSciNYC <admin@desci.nyc>",
-              to: [contactEmail],
-              subject: "Thank you for contacting DeSciNYC",
-              html: `
-              <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                <p>Dear ${contactName || "there"},</p>
-                
-                <p>Thank you for reaching out to DeSciNYC. We have received your message and will get back to you as soon as possible.</p>
-                
-                <p>Best regards,<br>The DeSciNYC Team</p>
-              </div>
-            `,
-            })
-          );
-        }
-
-        await Promise.all(emailPromises);
-
-        return NextResponse.json({ message: "Email sent successfully" });
-      }
-
-      case "subscribe": {
-        const { email, nextEvent } = emailData;
-
-        const emailPromises: Array<Promise<unknown>> = [];
-        if (await shouldSendAdminEmailNotification("subscribe")) {
-          emailPromises.push(
-            resend.emails.send({
-              from: "DeSciNYC <admin@desci.nyc>",
-              to: ADMIN_EMAILS,
-              subject: "New DeSciNYC email list member!",
-              text: `A user signed up with the email ${email}! They are now in the luma list.`,
-            })
-          );
-        }
-
-        emailPromises.push(
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: [email],
-            subject: "Welcome to DeSciNYC!",
-            html: `
-              <div style="font-family: Arial, sans-serif; line-height: 1.6; padding: 20px;">
-                <p>Hi there,</p>
-
-                <p>Thanks for subscribing to the DeSciNYC email list! We're thrilled to have you as part of our community.</p>
-
-                <p>We'll keep you in the loop with upcoming events.</p>
-
-                ${
-                  nextEvent
-                    ? `
-                <p>Join us at our next event, "${nextEvent.name}" - you can RSVP here:</p>
-                <div style="margin: 25px 0;">
-                  <a href="${nextEvent.url}" 
-                     style="background-color: #0FA711; 
-                            color: white; 
-                            padding: 10px 20px; 
-                            text-decoration: none; 
-                            border-radius: 0px; 
-                            display: inline-block;">
-                    RSVP to Event
-                  </a>
-                </div>
-                `
-                    : ""
-                }
-
-                <p>Missed an event or want to catch up? You can watch previous event recordings anytime on our website here:</p>
-                <div style="margin: 25px 0;">
-                  <a href="https://www.desci.nyc/#past-events" 
-                     style="background-color: #0FA711; 
-                            color: white; 
-                            padding: 10px 20px; 
-                            text-decoration: none; 
-                            border-radius: 0px; 
-                            display: inline-block;">
-                    Watch Recordings
-                  </a>
-                </div>
-
-                <p>Looking forward to seeing you soon!</p>
-
-                <p>All the best,<br>The DeSciNYC Team</p>
-              </div>
-            `,
-          })
-        );
-
-        await Promise.all(emailPromises);
-
-        return NextResponse.json({ message: "Subscription confirmed" });
-      }
-
-      case "suggest": {
-        const { yourName, yourEmail, speakerName, speakerEmail, speakerBio } =
-          emailData;
-
-        const emailPromises: Array<Promise<unknown>> = [];
-        if (await shouldSendAdminEmailNotification("speaker_suggestion")) {
-          emailPromises.push(
-            resend.emails.send({
-              from: "DeSciNYC <admin@desci.nyc>",
-              to: ADMIN_EMAILS,
-              subject: "New Speaker Suggestion",
-              text: `
-              Suggested by:
-              Name: ${yourName}
-              Email: ${yourEmail}
-
-              Speaker Details:
-              Name: ${speakerName}
-              Email: ${speakerEmail}
-              Bio: ${speakerBio}
-            `,
-            })
-          );
-        }
-
-        emailPromises.push(
-          resend.emails.send({
-            from: "DeSciNYC <admin@desci.nyc>",
-            to: [yourEmail],
-            subject: "Thank you for your speaker suggestion",
-            html: `
-              <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                <p>Dear ${yourName},</p>
-                
-                <p>Thank you for suggesting a speaker for DeSciNYC. We appreciate your contribution to our community.</p>
-                              
-                <p>Best regards,<br>The DeSciNYC Team</p>
-              </div>
-            `,
-          })
-        );
-
-        await Promise.all(emailPromises);
-
-        return NextResponse.json({ message: "Speaker suggestion received" });
-      }
-
-      default:
+    const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
+    if (recaptchaSecretKey) {
+      if (typeof captchaToken !== "string" || !captchaToken) {
+        console.log("Missing reCAPTCHA token");
         return NextResponse.json(
-          { error: "Invalid email type" },
+          { error: "reCAPTCHA verification required" },
           { status: 400 }
         );
+      }
+
+      const captchaResponse = await fetch(
+        "https://www.google.com/recaptcha/api/siteverify",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: new URLSearchParams({
+            secret: recaptchaSecretKey,
+            response: captchaToken,
+          }),
+        }
+      );
+
+      const captchaResult = await captchaResponse.json();
+
+      if (!captchaResult.success) {
+        console.log("reCAPTCHA verification failed:", captchaResult);
+        return NextResponse.json(
+          { error: "reCAPTCHA verification failed" },
+          { status: 400 }
+        );
+      }
+    } else {
+      console.warn("RECAPTCHA_SECRET_KEY is not set - skipping reCAPTCHA");
     }
+
+    const contactName = String(name || "").trim();
+    const contactEmail = String(email || "").trim();
+    const contactPhone = String(phone || "").trim();
+    const contactMessage = String(message || "").trim();
+    const emailDomain = contactEmail.split("@")[1]?.toLowerCase();
+
+    if (!contactMessage) {
+      return NextResponse.json(
+        { error: "Message is required" },
+        { status: 400 }
+      );
+    }
+
+    if (emailDomain && BLOCKED_EMAIL_DOMAINS.has(emailDomain)) {
+      console.log("Bot email domain detected:", emailDomain);
+      return NextResponse.json(
+        { error: "Invalid email domain" },
+        { status: 400 }
+      );
+    }
+
+    const submission = await runPublicFormAction(req, "contact", () =>
+      sendContactEmails({
+        name: contactName,
+        email: contactEmail,
+        phone: contactPhone,
+        message: contactMessage,
+      })
+    );
+
+    if (!submission.allowed) {
+      return NextResponse.json(
+        { error: "Too many submissions. Please try again later." },
+        {
+          status: 429,
+          headers: {
+            "Retry-After": String(submission.retryAfterSeconds),
+          },
+        }
+      );
+    }
+
+    return NextResponse.json({ message: "Email sent successfully" });
   } catch (error) {
-    console.error("Error sending email:", error);
+    console.error("Error sending contact email:", error);
     return NextResponse.json(
       { error: "Failed to send email" },
       { status: 500 }

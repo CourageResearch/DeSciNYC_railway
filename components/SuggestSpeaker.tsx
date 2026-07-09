@@ -33,6 +33,16 @@ const formSchema = z.object({
   captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
+const createSuggestFormDefaults = (): z.infer<typeof formSchema> => ({
+  yourName: "",
+  yourEmail: "",
+  speakerName: "",
+  speakerEmail: "",
+  speakerBio: "",
+  ...generateBotProtectionData(),
+  captchaToken: "",
+});
+
 type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
 
 type SuggestFormProps = {
@@ -44,28 +54,9 @@ const SuggestForm = ({
   executeRecaptcha,
   isRecaptchaEnabled,
 }: SuggestFormProps) => {
-  const [formStartTime] = useState(Date.now());
-
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: {
-      yourName: "",
-      yourEmail: "",
-      speakerName: "",
-      speakerEmail: "",
-      speakerBio: "",
-      honeypot: "",
-      honeypot2: "",
-      honeypot3: "",
-      timestamp: 0,
-      formStartTime: formStartTime,
-      userAgent: "",
-      referrer: "",
-      screenResolution: "",
-      timezone: "",
-      language: "",
-      captchaToken: "",
-    },
+    defaultValues: createSuggestFormDefaults(),
   });
 
   // Initialize bot protection data when component mounts
@@ -142,7 +133,7 @@ const SuggestForm = ({
         text: "Thank you for your speaker suggestion!",
         type: "success",
       });
-      form.reset();
+      form.reset(createSuggestFormDefaults());
     } catch (error) {
       console.error("Error suggesting speaker:", error);
       setMessage({

@@ -1,10 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getUpcomingEvents } from "@/lib/events";
 import { getLumaEvent } from "@/lib/luma";
+import { sendSubscriptionEmails } from "@/lib/form-email-notifications";
 
 export async function POST(req: NextRequest) {
   try {
-    const { email } = await req.json();
+    const { email: rawEmail } = await req.json();
+    const email = String(rawEmail || "").trim();
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      return NextResponse.json(
+        { error: "A valid email address is required" },
+        { status: 400 }
+      );
+    }
 
     // Add to Luma
     const lumaApiKey = process.env.LUMA_API_KEY;
@@ -62,33 +71,18 @@ export async function POST(req: NextRequest) {
 
       if (lumaData?.event) {
         nextEvent = {
-          name: lumaData.event.name,
+          name: lumaData.event.name || "Upcoming DeSciNYC event",
           url: nextUpcomingEvent.luma_url,
-          start_at: lumaData.event.start_at,
-          cover_url: lumaData.event.cover_url
         };
       }
     }
 
-    // Send notification email
-    const origin = req.headers.get('origin') || 'http://localhost:3000';
-    const emailResponse = await fetch(
-      `${origin}/api/send-email`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          type: "subscribe",
-          email: email,
-          nextEvent: nextEvent
-        }),
-      }
-    );
-
-    if (!emailResponse.ok) {
-      console.error("Failed to send notification email");
+    // Email delivery is kept separate from the completed Luma subscription.
+    // A provider outage should not tell someone that their subscription failed.
+    try {
+      await sendSubscriptionEmails({ email, nextEvent });
+    } catch (error) {
+      console.error("Failed to send subscription email:", error);
     }
 
     return NextResponse.json({ message: "Subscription successful" });
