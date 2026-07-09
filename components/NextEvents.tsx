@@ -123,6 +123,22 @@ const NextEvents = async () => {
                     RSVP
                   </Button>
                 </Link>
+                {event.yt_uuid && (
+                  <Link
+                    href={`https://www.youtube.com/watch?v=${event.yt_uuid}`}
+                    target="_blank"
+                    rel="noopener"
+                    className="w-min"
+                  >
+                    <Button
+                      variant="gray"
+                      size="lg"
+                      className="h-12 text-xl font-bold w-full md:w-96"
+                    >
+                      Video
+                    </Button>
+                  </Link>
+                )}
                 {event.slides && (
                   <Link
                     href={getSlidesHref(event.slides)}
