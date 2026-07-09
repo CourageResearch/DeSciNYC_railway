@@ -283,6 +283,27 @@ export function inferCreativeProfile(input: {
       format: "Static creative",
       theme: "Peptides primer",
     },
+    poster: {
+      headline: "Poster",
+      imageUrl: "/images/ads/descinyc49-peptides-poster.png",
+      imageLabel: "Peptides 101 poster",
+      format: "Poster",
+      theme: "Peptides primer",
+    },
+    julius_ritter_1am: {
+      headline: "Julius Ritter 1am",
+      imageUrl: "/images/ads/descinyc49-julius-ritter.jpg",
+      imageLabel: "Julius Ritter poster",
+      format: "Poster",
+      theme: "Peptides primer",
+    },
+    storefront_hype: {
+      headline: "Storefront Hype",
+      imageUrl: "/images/ads/descinyc49-storefront-hype.jpg",
+      imageLabel: "Storefront peptide poster",
+      format: "Photo",
+      theme: "Peptides hype check",
+    },
   };
   const known = content ? knownByContent[content] : null;
   const fallbackText = [
