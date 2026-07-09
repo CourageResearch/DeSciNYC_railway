@@ -3,6 +3,7 @@ import Image from "next/image";
 import Heading from "./ui/heading";
 import { type EventRecord, getPastEvents } from "@/lib/events";
 import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
+import { getEventMedia, getMediaUrl } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 
@@ -45,61 +46,91 @@ const PastEvents = async () => {
     >
       <Heading title="Past Events" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {pastEventsWithLumaData?.map((event) => (
-          <div
-            key={event.event_uuid || event.id || event.luma_id}
-            className="flex flex-col border border-[#202020] h-full border-b-4 border-r-4"
-          >
-            <Link
-              href={`https://www.youtube.com/watch?v=${event.yt_uuid}`}
-              className="relative w-full aspect-video"
-              target="_blank"
+        {pastEventsWithLumaData?.map((event) => {
+          const eventMedia = getEventMedia(event);
+          const videoUrl = eventMedia
+            ? getMediaUrl(eventMedia.videoKey)
+            : `https://www.youtube.com/watch?v=${event.yt_uuid}`;
+
+          return (
+            <div
+              key={event.event_uuid || event.id || event.luma_id}
+              className="flex flex-col border border-[#202020] h-full border-b-4 border-r-4"
             >
-              <Image
-                src={`https://i3.ytimg.com/vi/${event.yt_uuid}/sddefault.jpg`}
-                alt={event.title}
-                fill
-                className="object-cover"
-              />
-            </Link>
-            <div className="flex flex-col justify-start items-start gap-4 p-4 flex-grow">
-              <Link
-                href={`https://www.youtube.com/watch?v=${event.yt_uuid}`}
-                target="_blank"
-                className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
-              >
-                {event.title}
-              </Link>
-              <p className="text-sm text-gray-500">{event.speaker}</p>
-              <div className="flex flex-col gap-2">
-                <Link
-                  href={`https://www.youtube.com/watch?v=${event.yt_uuid}`}
-                  target="_blank"
-                  className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
-                >
-                  Video
-                </Link>
-                <Link
-                  href={withUtmSource(event.luma_url, "descinyc_website")}
-                  target="_blank"
-                  rel="noopener"
-                  className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
-                >
-                  Luma event
-                </Link>
-                {event.slides && (
-                  <Link
-                    href={getSlidesHref(event.slides)}
-                    target="_blank"
-                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+              {eventMedia ? (
+                <div className="relative w-full aspect-video bg-black">
+                  <video
+                    className="h-full w-full object-contain"
+                    controls
+                    playsInline
+                    preload="metadata"
+                    poster={getMediaUrl(eventMedia.posterKey)}
+                    aria-label={`${event.title} video`}
                   >
-                    Slides
+                    <source src={videoUrl} type="video/mp4" />
+                    <a href={videoUrl}>Open the video</a>
+                  </video>
+                </div>
+              ) : (
+                <Link
+                  href={videoUrl}
+                  className="relative w-full aspect-video"
+                  target="_blank"
+                >
+                  <Image
+                    src={`https://i3.ytimg.com/vi/${event.yt_uuid}/sddefault.jpg`}
+                    alt={event.title}
+                    fill
+                    className="object-cover"
+                  />
+                </Link>
+              )}
+              <div className="flex flex-col justify-start items-start gap-4 p-4 flex-grow">
+                {eventMedia ? (
+                  <h3 className="text-lg font-bold line-clamp-2">
+                    {event.title}
+                  </h3>
+                ) : (
+                  <Link
+                    href={videoUrl}
+                    target="_blank"
+                    className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
+                  >
+                    {event.title}
                   </Link>
                 )}
+                <p className="text-sm text-gray-500">{event.speaker}</p>
+                <div className="flex flex-col gap-2">
+                  <Link
+                    href={videoUrl}
+                    target="_blank"
+                    rel={eventMedia ? "noopener noreferrer" : undefined}
+                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                  >
+                    Video
+                  </Link>
+                  <Link
+                    href={withUtmSource(event.luma_url, "descinyc_website")}
+                    target="_blank"
+                    rel="noopener"
+                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                  >
+                    Luma event
+                  </Link>
+                  {event.slides && (
+                    <Link
+                      href={getSlidesHref(event.slides)}
+                      target="_blank"
+                      className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                    >
+                      Slides
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
