@@ -101,14 +101,24 @@ const PastEvents = async () => {
                 )}
                 <p className="text-sm text-gray-500">{event.speaker}</p>
                 <div className="flex flex-col gap-2">
-                  <Link
-                    href={videoUrl}
-                    target="_blank"
-                    rel={eventMedia ? "noopener noreferrer" : undefined}
-                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
-                  >
-                    Video
-                  </Link>
+                  {eventMedia ? (
+                    <a
+                      href={videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                    >
+                      Video
+                    </a>
+                  ) : (
+                    <Link
+                      href={videoUrl}
+                      target="_blank"
+                      className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                    >
+                      Video
+                    </Link>
+                  )}
                   <Link
                     href={withUtmSource(event.luma_url, "descinyc_website")}
                     target="_blank"
