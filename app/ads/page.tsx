@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AdminLogin from "@/app/admin/components/AdminLogin";
+import AdminNav from "@/app/admin/components/AdminNav";
 import AdsDashboard from "@/app/ads/AdsDashboard";
 import { isAdminAuthenticated } from "@/lib/adminAuth";
 import { getAdsSummary } from "@/lib/ads-db";
@@ -29,5 +30,10 @@ export default async function AdsPage() {
     platform: "all",
   });
 
-  return <AdsDashboard initialSummary={summary} />;
+  return (
+    <>
+      <AdminNav active="ads" />
+      <AdsDashboard initialSummary={summary} />
+    </>
+  );
 }
