@@ -62,7 +62,7 @@ export const ATTRIBUTION_EVENTS = {
   descinyc49: {
     slug: "descinyc49",
     title: "Peptides 101",
-    speaker: null,
+    speaker: "Julius Ritter",
     startsAt: "2026-07-14T19:30:00-04:00",
     lumaUrl: "https://luma.com/descinyc49",
     lumaEventId: "evt-NyxpH2NdNO4DotF",
