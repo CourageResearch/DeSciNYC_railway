@@ -16,6 +16,9 @@ const PastEvents = async () => {
   // Fetch Luma event data for each event
   const pastEventsWithLumaData: EventWithLumaData[] = await Promise.all(
     pastEvents.map(async (event) => {
+      if (event.luma_id.startsWith("partiful-")) {
+        return { ...event, lumaEvent: null };
+      }
       try {
         const lumaData = await getLumaEvent(event.luma_id, event.luma_url);
         return {
@@ -32,10 +35,12 @@ const PastEvents = async () => {
     })
   );
 
-  // Sort by lumaEvent.start_at descending (most recent first)
+  // Use a saved date for externally hosted events, otherwise the Luma date.
   pastEventsWithLumaData.sort((a, b) => {
-    const aDate = a.lumaEvent?.start_at ? new Date(a.lumaEvent.start_at).getTime() : 0;
-    const bDate = b.lumaEvent?.start_at ? new Date(b.lumaEvent.start_at).getTime() : 0;
+    const aStart = a.starts_at || a.lumaEvent?.start_at;
+    const bStart = b.starts_at || b.lumaEvent?.start_at;
+    const aDate = aStart ? new Date(aStart).getTime() : 0;
+    const bDate = bStart ? new Date(bStart).getTime() : 0;
     return bDate - aDate;
   });
 
@@ -49,6 +54,9 @@ const PastEvents = async () => {
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
           const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
+          const eventLinkLabel = /^https?:\/\/(?:www\.)?partiful\.com(?:\/|$)/i.test(event.luma_url)
+            ? "Partiful event"
+            : "Luma event";
 
           return (
             <div
@@ -125,7 +133,7 @@ const PastEvents = async () => {
                     rel="noopener"
                     className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                   >
-                    Luma event
+                    {eventLinkLabel}
                   </Link>
                   {event.slides && (
                     <Link

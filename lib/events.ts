@@ -10,13 +10,15 @@ export type EventRecord = {
   luma_url: string;
   luma_id: string;
   slides: string | null;
+  starts_at: string | null;
   created_at: string | null;
   updated_at: string | null;
   active: boolean;
 };
 
-type EventRow = Omit<EventRecord, "created_at" | "updated_at"> & {
+type EventRow = Omit<EventRecord, "starts_at" | "created_at" | "updated_at"> & {
   sort_order?: number | null;
+  starts_at: Date | string | null;
   created_at: Date | string | null;
   updated_at: Date | string | null;
 };
@@ -40,6 +42,7 @@ const EVENT_FIELDS = `
   luma_url,
   luma_id,
   slides,
+  starts_at,
   created_at,
   updated_at,
   active
@@ -63,6 +66,7 @@ function mapEvent(row: EventRow): EventRecord {
     luma_url: row.luma_url,
     luma_id: row.luma_id,
     slides: row.slides,
+    starts_at: toIso(row.starts_at),
     created_at: toIso(row.created_at),
     updated_at: toIso(row.updated_at),
     active: row.active,
@@ -80,6 +84,7 @@ function bundledEvents() {
     luma_url: event.luma_url,
     luma_id: event.luma_id,
     slides: "slides" in event ? event.slides || null : null,
+    starts_at: null,
     created_at: null,
     updated_at: null,
     active: Number(event.id) >= nextEventId,
