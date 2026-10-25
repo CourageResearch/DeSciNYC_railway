@@ -138,7 +138,8 @@ const SuggestComponent = () => {
                       {...field}
                       disabled={isLoading}
                       placeholder="Your Name"
-                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      aria-label="Your name"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#86f086]/70 h-10 w-full"
                       required
                     />
                     <FormMessage />
@@ -154,7 +155,9 @@ const SuggestComponent = () => {
                       {...field}
                       disabled={isLoading}
                       placeholder="Your Email"
-                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      type="email"
+                      aria-label="Your email"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#86f086]/70 h-10 w-full"
                       required
                     />
                     <FormMessage />
@@ -170,7 +173,8 @@ const SuggestComponent = () => {
                       {...field}
                       disabled={isLoading}
                       placeholder="Speaker's Name"
-                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      aria-label="Speaker’s name"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#86f086]/70 h-10 w-full"
                       required
                     />
                     <FormMessage />
@@ -186,7 +190,9 @@ const SuggestComponent = () => {
                       {...field}
                       disabled={isLoading}
                       placeholder="Speaker's Email"
-                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 h-10 w-full"
+                      type="email"
+                      aria-label="Speaker’s email"
+                      className="rounded-none bg-[#0d230d] border-[#0fa711]/40 text-stone-200 placeholder:text-[#86f086]/70 h-10 w-full"
                       required
                     />
                     <FormMessage />
@@ -202,7 +208,8 @@ const SuggestComponent = () => {
                       {...field}
                       disabled={isLoading}
                       placeholder="Speaker's Bio"
-                      className="rounded-none bg-[#0d230d] border border-[#0fa711]/40 text-stone-200 placeholder:text-[#0fa711]/40 w-full p-2 min-h-[100px] resize-none"
+                      aria-label="Speaker’s bio"
+                      className="rounded-none bg-[#0d230d] border border-[#0fa711]/40 text-stone-200 placeholder:text-[#86f086]/70 w-full p-2 min-h-[100px] resize-none"
                       required
                     />
                     <FormMessage />
@@ -284,6 +291,7 @@ const SuggestComponent = () => {
                 </Button>
                 {message && (
                   <div
+                    role="status"
                     className={`flex items-center text-sm justify-center md:justify-start gap-1 ${
                       message.type === "success"
                         ? "text-green-400"

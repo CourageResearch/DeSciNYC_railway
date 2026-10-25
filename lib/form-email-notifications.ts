@@ -137,12 +137,12 @@ export async function sendSubscriptionEmails({
   const sendAdminCopy = await shouldSendAdminEmailNotification("subscribe");
 
   if (sendAdminCopy) {
-    await sendCheckedEmail(resend, {
+    await sendBestEffortEmail(resend, {
       from: FROM_ADDRESS,
       to: ADMIN_EMAILS,
       subject: "New DeSciNYC email list member!",
       text: `A user signed up with the email ${email}! They are now in the luma list.`,
-    });
+    }, "subscription admin notification");
   }
 
   const nextEventMarkup = nextEvent

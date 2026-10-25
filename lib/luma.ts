@@ -94,6 +94,7 @@ export async function getLumaEvent(
 
   const config = {
     method: "GET",
+    signal: AbortSignal.timeout(5_000),
     headers: {
       accept: "application/json",
       "x-luma-api-key": process.env.LUMA_API_KEY,

@@ -17,7 +17,7 @@ import {
 
 const formSchema = z.object({
   name: z.string().optional(),
-  email: z.string().optional(),
+  email: z.string().trim().email("Please enter a valid email address.").or(z.literal("")).optional(),
   phone: z.string().optional(),
   message: z.string().trim().min(1, {
     message: "Message is required.",
@@ -80,6 +80,7 @@ const ContactFormFields = ({
   const handleSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       setIsLoading(true);
+      setMessage(null);
 
       if (isRecaptchaEnabled) {
         if (!executeRecaptcha) {
@@ -162,7 +163,8 @@ const ContactFormFields = ({
                     {...field}
                     disabled={isLoading}
                     placeholder="Name"
-                    className="rounded-none bg-[#0D230D] placeholder:text-[#0FA711]/40 border-[#0FA711]/40"
+                    aria-label="Name (optional)"
+                    className="rounded-none bg-[#0D230D] placeholder:text-[#86f086]/70 border-[#0FA711]/40"
                   />
                 </FormControl>
                 <FormMessage />
@@ -179,7 +181,9 @@ const ContactFormFields = ({
                     {...field}
                     disabled={isLoading}
                     placeholder="Email"
-                    className="rounded-none bg-[#0D230D] placeholder:text-[#0FA711]/40 border-[#0FA711]/40"
+                    type="email"
+                    aria-label="Email (optional)"
+                    className="rounded-none bg-[#0D230D] placeholder:text-[#86f086]/70 border-[#0FA711]/40"
                   />
                 </FormControl>
                 <FormMessage />
@@ -196,7 +200,9 @@ const ContactFormFields = ({
                     {...field}
                     disabled={isLoading}
                     placeholder="Phone Number"
-                    className="rounded-none bg-[#0D230D] placeholder:text-[#0FA711]/40 border-[#0FA711]/40"
+                    type="tel"
+                    aria-label="Phone number (optional)"
+                    className="rounded-none bg-[#0D230D] placeholder:text-[#86f086]/70 border-[#0FA711]/40"
                   />
                 </FormControl>
                 <FormMessage />
@@ -213,7 +219,8 @@ const ContactFormFields = ({
                     {...field}
                     disabled={isLoading}
                     placeholder="Message"
-                    className="rounded-none bg-[#0D230D] placeholder:text-[#0FA711]/40 border-[#0FA711]/40 resize-none h-40"
+                    aria-label="Message"
+                    className="rounded-none bg-[#0D230D] placeholder:text-[#86f086]/70 border-[#0FA711]/40 resize-none h-40"
                   />
                 </FormControl>
                 <FormMessage />
@@ -271,6 +278,7 @@ const ContactFormFields = ({
           />
           {message && (
             <div
+              role="status"
               className={`flex items-center gap-2 ${
                 message.type === "success" ? "text-green-500" : "text-red-500"
               }`}

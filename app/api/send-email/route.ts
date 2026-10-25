@@ -34,9 +34,9 @@ function normalizeTimestamp(value: unknown) {
 
 export async function POST(req: NextRequest) {
   try {
-    const data = await req.json();
+    const data = await req.json().catch(() => null);
 
-    if (data.type !== "contact") {
+    if (!data || data.type !== "contact") {
       return NextResponse.json({ error: "Invalid email type" }, { status: 400 });
     }
 
@@ -128,6 +128,13 @@ export async function POST(req: NextRequest) {
     if (!contactMessage) {
       return NextResponse.json(
         { error: "Message is required" },
+        { status: 400 }
+      );
+    }
+
+    if (contactEmail && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)) {
+      return NextResponse.json(
+        { error: "Please enter a valid email address or leave it blank." },
         { status: 400 }
       );
     }

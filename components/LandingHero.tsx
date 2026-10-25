@@ -68,7 +68,7 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
                   size="lg"
                   className="w-full h-12 md:h-14 normal-case text-lg md:text-xl font-semibold flex-col gap-0"
                 >
-                  <p>RSVP to next event</p>
+                  <p>{opensNewTab ? "RSVP to next event" : "Get notified about the next event"}</p>
                   <p className="text-xs">
                     {hasEventDate
                       ? eventDate.toLocaleString("en-US", {
@@ -81,7 +81,7 @@ const LandingHero = async ({ event }: { event: HeroEvent | null }) => {
                           timeZone: event?.timezone || "America/New_York",
                           timeZoneName: "short",
                         })
-                      : "Details on Lu.ma"}
+                      : opensNewTab ? "Details on Lu.ma" : "Join the email list below"}
                   </p>
                 </Button>
               </Link>

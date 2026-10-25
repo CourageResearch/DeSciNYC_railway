@@ -5,10 +5,10 @@ import { sendSubscriptionEmails } from "@/lib/form-email-notifications";
 
 export async function POST(req: NextRequest) {
   try {
-    const { email: rawEmail } = await req.json();
-    const email = String(rawEmail || "").trim();
+    const data = await req.json().catch(() => null);
+    const email = typeof data?.email === "string" ? data.email.trim() : "";
 
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json(
         { error: "A valid email address is required" },
         { status: 400 }
@@ -19,16 +19,15 @@ export async function POST(req: NextRequest) {
     const lumaApiKey = process.env.LUMA_API_KEY;
     const lumaWebsiteTag = process.env.LUMA_WEBSITE_TAG;
     
-    if (!lumaApiKey) {
-      console.error("Luma API key not found");
+    if (!lumaApiKey || !lumaWebsiteTag) {
+      console.error("Luma subscription configuration is incomplete");
       return NextResponse.json(
-        { error: "Configuration error" },
-        { status: 500 }
+        { error: "Email signup is temporarily unavailable. Please try again later." },
+        { status: 503 }
       );
     }
 
-    // Only try to add to Luma if we have both the API key and website tag
-    if (lumaWebsiteTag) {
+    try {
       const lumaResponse = await fetch(
         "https://api.lu.ma/public/v1/calendar/import-people",
         {
@@ -41,40 +40,46 @@ export async function POST(req: NextRequest) {
             tag_api_ids: [lumaWebsiteTag],
             infos: [{ email }],
           }),
+          signal: AbortSignal.timeout(10_000),
         }
       );
 
       if (!lumaResponse.ok) {
-        const responseBody = await lumaResponse.text();
-        console.error("Error adding email to Luma:", responseBody);
+        console.error("Luma rejected the subscription:", lumaResponse.status);
         return NextResponse.json(
-          { error: "Failed to add to Luma" },
-          { status: 400 }
+          { error: "We couldn’t add you to the email list. Please try again." },
+          { status: 502 }
         );
       }
-    } else {
-      console.warn("LUMA_WEBSITE_TAG not set - skipping Luma subscription");
+    } catch (error) {
+      console.error("Luma subscription request failed:", error);
+      return NextResponse.json(
+        { error: "Email signup is temporarily unavailable. Please try again later." },
+        { status: 503 }
+      );
     }
 
-    const upcomingEvents = await getUpcomingEvents();
-
     let nextEvent = null;
-    if (upcomingEvents && upcomingEvents.length > 0) {
-      // Get the first upcoming event
-      const nextUpcomingEvent = upcomingEvents[0];
+    // Event details are optional once the subscription has been saved.
+    try {
+      const upcomingEvents = await getUpcomingEvents();
+      if (upcomingEvents && upcomingEvents.length > 0) {
+        const nextUpcomingEvent = upcomingEvents[0];
 
-      // Fetch Luma event details
-      const lumaData = await getLumaEvent(
-        nextUpcomingEvent.luma_id,
-        nextUpcomingEvent.luma_url
-      );
+        const lumaData = await getLumaEvent(
+          nextUpcomingEvent.luma_id,
+          nextUpcomingEvent.luma_url
+        );
 
-      if (lumaData?.event) {
-        nextEvent = {
-          name: lumaData.event.name || "Upcoming DeSciNYC event",
-          url: nextUpcomingEvent.luma_url,
-        };
+        if (lumaData?.event) {
+          nextEvent = {
+            name: lumaData.event.name || "Upcoming DeSciNYC event",
+            url: nextUpcomingEvent.luma_url,
+          };
+        }
       }
+    } catch (error) {
+      console.error("Unable to include upcoming event in welcome email:", error);
     }
 
     // Email delivery is kept separate from the completed Luma subscription.

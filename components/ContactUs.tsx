@@ -60,7 +60,7 @@ const ContactUs = () => {
                   Sponsor
                 </Link>
                 <Link
-                  href="https://shop.descinyc.com"
+                  href="https://descinyc.creator-spring.com/"
                   target="_blank"
                   className="transition-all ease-in-out hover:text-[#0FA711]"
                 >

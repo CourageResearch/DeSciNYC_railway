@@ -36,7 +36,10 @@ function normalizeTimestamp(value: unknown) {
 
 export async function POST(req: NextRequest) {
   try {
-    const data = await req.json();
+    const data = await req.json().catch(() => null);
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      return NextResponse.json({ error: "Invalid submission" }, { status: 400 });
+    }
     const {
       yourName,
       yourEmail,
