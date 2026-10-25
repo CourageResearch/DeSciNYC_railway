@@ -28,7 +28,7 @@ export default function BiologicalFuturesPage() {
           href="/#past-events"
           className="w-fit text-sm uppercase text-stone-400 transition-colors hover:text-[#0FA711] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0FA711]"
         >
-          &larr; Back to past events
+          &larr; Back to videos
         </Link>
 
         <header className="flex flex-col gap-2 border-l-4 border-[#0FA711] pl-4 md:pl-6">

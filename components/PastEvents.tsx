@@ -49,7 +49,7 @@ const PastEvents = async () => {
       className="flex flex-col gap-4 pb-20 md:pb-40 px-4 md:px-0"
       id="past-events"
     >
-      <Heading title="Past Events" />
+      <Heading title="Videos" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
