@@ -9,10 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { CheckIcon, Loader2, XIcon } from "lucide-react";
 import { Form, FormField, FormItem, FormMessage } from "./ui/form";
 import { generateBotProtectionData } from "../lib/botProtection";
-import {
-  useGoogleReCaptcha,
-  GoogleReCaptchaProvider,
-} from "react19-google-recaptcha-v3";
+import Turnstile from "./Turnstile";
 
 const formSchema = z.object({
   yourName: z.string().min(2, "Name must be at least 2 characters"),
@@ -30,7 +27,6 @@ const formSchema = z.object({
   screenResolution: z.string(),
   timezone: z.string(),
   language: z.string(),
-  captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
 const createSuggestFormDefaults = (): z.infer<typeof formSchema> => ({
@@ -40,20 +36,12 @@ const createSuggestFormDefaults = (): z.infer<typeof formSchema> => ({
   speakerEmail: "",
   speakerBio: "",
   ...generateBotProtectionData(),
-  captchaToken: "",
 });
 
-type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
-
-type SuggestFormProps = {
-  executeRecaptcha?: ExecuteRecaptcha;
-  isRecaptchaEnabled: boolean;
-};
-
-const SuggestForm = ({
-  executeRecaptcha,
-  isRecaptchaEnabled,
-}: SuggestFormProps) => {
+const SuggestComponent = () => {
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+  const [captchaToken, setCaptchaToken] = useState("");
+  const [verificationReset, setVerificationReset] = useState(0);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: createSuggestFormDefaults(),
@@ -77,40 +65,17 @@ const SuggestForm = ({
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const handleSubmit = async (values: z.infer<typeof formSchema>) => {
+    if (!siteKey || !captchaToken) {
+      setMessage({
+        text: "Please complete the human verification before submitting.",
+        type: "error",
+      });
+      return;
+    }
+
     try {
       setIsLoading(true);
-
-      if (isRecaptchaEnabled) {
-        if (!executeRecaptcha) {
-          setMessage({
-            text: "reCAPTCHA not available. Please refresh the page and try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        let captchaToken = "";
-        try {
-          captchaToken = await executeRecaptcha("suggest_speaker");
-        } catch (error) {
-          console.error("Error executing reCAPTCHA:", error);
-          setMessage({
-            text: "reCAPTCHA verification failed. Please refresh the page and try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        if (!captchaToken) {
-          setMessage({
-            text: "reCAPTCHA verification failed. Please try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        values.captchaToken = captchaToken;
-      }
+      setMessage(null);
 
       values.timestamp = Date.now();
 
@@ -119,7 +84,7 @@ const SuggestForm = ({
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(values),
+        body: JSON.stringify({ ...values, captchaToken }),
       });
 
       if (!response.ok) {
@@ -141,6 +106,9 @@ const SuggestForm = ({
         type: "error",
       });
     } finally {
+      // Tokens are single-use, including attempts that fail after verification.
+      setCaptchaToken("");
+      setVerificationReset((value) => value + 1);
       setIsLoading(false);
     }
   };
@@ -290,12 +258,23 @@ const SuggestForm = ({
                   </FormItem>
                 )}
               />
+              {siteKey ? (
+                <Turnstile
+                  siteKey={siteKey}
+                  resetKey={verificationReset}
+                  onToken={setCaptchaToken}
+                />
+              ) : (
+                <p role="alert" className="text-sm text-red-400">
+                  Human verification is temporarily unavailable. Please try again later.
+                </p>
+              )}
               <div className="flex flex-col md:flex-row w-full items-center justify-between gap-4 md:gap-0">
                 <Button
                   variant="green"
                   className="w-full md:w-40 font-bold text-white h-10"
                   type="submit"
-                  disabled={isLoading}
+                  disabled={isLoading || !siteKey || !captchaToken}
                 >
                   {isLoading ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -324,31 +303,6 @@ const SuggestForm = ({
           </Form>
         </div>
     </div>
-  );
-};
-
-const SuggestFormWithRecaptcha = () => {
-  const { executeRecaptcha } = useGoogleReCaptcha();
-
-  return (
-    <SuggestForm
-      executeRecaptcha={executeRecaptcha}
-      isRecaptchaEnabled={true}
-    />
-  );
-};
-
-const SuggestComponent = () => {
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
-
-  if (!recaptchaSiteKey) {
-    return <SuggestForm isRecaptchaEnabled={false} />;
-  }
-
-  return (
-    <GoogleReCaptchaProvider reCaptchaKey={recaptchaSiteKey}>
-      <SuggestFormWithRecaptcha />
-    </GoogleReCaptchaProvider>
   );
 };
 

@@ -20,6 +20,24 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Speaker suggestion spam protection
+
+The speaker suggestion form requires Cloudflare Turnstile in Managed mode.
+Create a widget restricted to `desci.nyc` and `www.desci.nyc`, then configure:
+
+- `NEXT_PUBLIC_TURNSTILE_SITE_KEY`: the public widget key, available at build time.
+- `TURNSTILE_SECRET_KEY`: the private verification key, stored only in the hosting environment.
+- `TURNSTILE_ALLOWED_HOSTNAMES`: comma-separated exact hostnames; defaults to `desci.nyc,www.desci.nyc`.
+
+Rebuild and deploy after setting the keys. Missing configuration, invalid or reused
+tokens, unexpected hostnames/actions, and verification outages reject the submission
+before any email is sent. Existing honeypot and submission limits remain in place.
+The contact form's separate reCAPTCHA configuration is unchanged.
+
+For local UI testing, use Cloudflare's documented test widget keys only in the local
+environment. Do not configure test keys in production. Run `npm test` for mocked
+server verification checks that do not send email or call Cloudflare.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
