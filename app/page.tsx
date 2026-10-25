@@ -1,5 +1,4 @@
 import Store from "@/components/Store";
-import SupportUs from "@/components/SupportUs";
 import ContactUs from "@/components/ContactUs";
 import NextEvents from "@/components/NextEvents";
 import PastEvents from "@/components/PastEvents";
@@ -80,7 +79,6 @@ const LandingPage = async () => {
         <PastEvents />
         <PhotoGallery images={images} />
         <StayInTouch />
-        <SupportUs />
         <Store />
         <SuggestComponent />
       </div>

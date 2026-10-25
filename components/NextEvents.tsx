@@ -32,18 +32,9 @@ const NextEvents = async () => {
     );
   }
 
-  // If no upcoming events, show a message
+  // Only show this section when there are upcoming events.
   if (upcomingEvents.length === 0) {
-    return (
-      <div className="flex flex-col gap-4 pt-2 pb-20 md:pt-4 md:pb-40 px-4 md:px-0">
-        <Heading title="Next Events" />
-        <div className="border border-[#202020] p-4">
-          <p className="text-xl">
-            No upcoming events scheduled. Check back soon!
-          </p>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   type EventWithLumaData = EventRecord & {
