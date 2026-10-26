@@ -268,6 +268,7 @@ const SuggestComponent = () => {
               {siteKey ? (
                 <Turnstile
                   siteKey={siteKey}
+                  action="suggest_speaker"
                   resetKey={verificationReset}
                   onToken={setCaptchaToken}
                 />

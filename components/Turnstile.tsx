@@ -11,7 +11,7 @@ type TurnstileApi = {
     size: "flexible";
     callback: (token: string) => void;
     "expired-callback": () => void;
-    "error-callback": () => void;
+    "error-callback": (code?: string) => void;
     "timeout-callback": () => void;
   }) => string | undefined;
   remove: (widgetId: string) => void;
@@ -25,11 +25,12 @@ declare global {
 
 type TurnstileProps = {
   siteKey: string;
+  action: "suggest_speaker" | "contact_form";
   resetKey: number;
   onToken: (token: string) => void;
 };
 
-export default function Turnstile({ siteKey, resetKey, onToken }: TurnstileProps) {
+export default function Turnstile({ siteKey, action, resetKey, onToken }: TurnstileProps) {
   const container = useRef<HTMLDivElement>(null);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -40,8 +41,9 @@ export default function Turnstile({ siteKey, resetKey, onToken }: TurnstileProps
     const turnstile = window.turnstile;
     let active = true;
     let widgetId: string | undefined;
-    const fail = () => {
+    const fail = (code?: string) => {
       if (!active) return;
+      console.warn("Human verification failed", code || "unknown");
       onToken("");
       setError("Verification couldn’t finish. Please refresh the page to try again.");
     };
@@ -51,7 +53,7 @@ export default function Turnstile({ siteKey, resetKey, onToken }: TurnstileProps
     try {
       widgetId = turnstile.render(container.current, {
         sitekey: siteKey,
-        action: "suggest_speaker",
+        action,
         theme: "dark",
         size: "flexible",
         callback: (token) => {
@@ -73,14 +75,16 @@ export default function Turnstile({ siteKey, resetKey, onToken }: TurnstileProps
       active = false;
       if (widgetId !== undefined) turnstile.remove(widgetId);
     };
-  }, [ready, siteKey, resetKey, onToken]);
+  }, [ready, siteKey, action, resetKey, onToken]);
 
   return (
     <div className="w-full min-w-0">
+      {/* onLoad also runs for another form sharing an in-flight script. */}
       <Script
         id="cloudflare-turnstile"
         src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
         strategy="afterInteractive"
+        onLoad={() => setReady(true)}
         onReady={() => setReady(true)}
         onError={() => {
           onToken("");

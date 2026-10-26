@@ -10,10 +10,7 @@ import { Button } from "./ui/button";
 import { useState, useEffect } from "react";
 import { CheckIcon, Loader2, XIcon } from "lucide-react";
 import { generateBotProtectionData } from "../lib/botProtection";
-import {
-  useGoogleReCaptcha,
-  GoogleReCaptchaProvider,
-} from "react19-google-recaptcha-v3";
+import Turnstile from "./Turnstile";
 
 const formSchema = z.object({
   name: z.string().optional(),
@@ -32,7 +29,6 @@ const formSchema = z.object({
   screenResolution: z.string(),
   timezone: z.string(),
   language: z.string(),
-  captchaToken: z.string().optional(), // reCAPTCHA token
 });
 
 const createContactFormDefaults = (): z.infer<typeof formSchema> => ({
@@ -41,20 +37,12 @@ const createContactFormDefaults = (): z.infer<typeof formSchema> => ({
   phone: "",
   message: "",
   ...generateBotProtectionData(),
-  captchaToken: "",
 });
 
-type ExecuteRecaptcha = ((action?: string) => Promise<string>) | undefined;
-
-type ContactFormFieldsProps = {
-  executeRecaptcha?: ExecuteRecaptcha;
-  isRecaptchaEnabled: boolean;
-};
-
-const ContactFormFields = ({
-  executeRecaptcha,
-  isRecaptchaEnabled,
-}: ContactFormFieldsProps) => {
+const ContactForm = () => {
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+  const [captchaToken, setCaptchaToken] = useState("");
+  const [verificationReset, setVerificationReset] = useState(0);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [message, setMessage] = useState<{
     text: string;
@@ -78,41 +66,17 @@ const ContactFormFields = ({
   }, [form]);
 
   const handleSubmit = async (values: z.infer<typeof formSchema>) => {
+    if (!siteKey || !captchaToken) {
+      setMessage({
+        text: "Please complete the human verification before sending your message.",
+        type: "error",
+      });
+      return;
+    }
+
     try {
       setIsLoading(true);
       setMessage(null);
-
-      if (isRecaptchaEnabled) {
-        if (!executeRecaptcha) {
-          setMessage({
-            text: "reCAPTCHA not available. Please refresh the page and try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        let captchaToken = "";
-        try {
-          captchaToken = await executeRecaptcha("contact_form");
-        } catch (error) {
-          console.error("Error executing reCAPTCHA:", error);
-          setMessage({
-            text: "reCAPTCHA verification failed. Please refresh the page and try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        if (!captchaToken) {
-          setMessage({
-            text: "reCAPTCHA verification failed. Please try again.",
-            type: "error",
-          });
-          return;
-        }
-
-        values.captchaToken = captchaToken;
-      }
 
       values.timestamp = Date.now();
 
@@ -124,6 +88,7 @@ const ContactFormFields = ({
         body: JSON.stringify({
           type: "contact",
           ...values,
+          captchaToken,
         }),
       });
 
@@ -146,6 +111,9 @@ const ContactFormFields = ({
         type: "error",
       });
     } finally {
+      // Each request consumes its token, even when email delivery fails.
+      setCaptchaToken("");
+      setVerificationReset((value) => value + 1);
       setIsLoading(false);
     }
   };
@@ -276,6 +244,18 @@ const ContactFormFields = ({
               </FormItem>
             )}
           />
+          {siteKey ? (
+            <Turnstile
+              siteKey={siteKey}
+              action="contact_form"
+              resetKey={verificationReset}
+              onToken={setCaptchaToken}
+            />
+          ) : (
+            <p role="alert" className="text-sm text-red-400">
+              Human verification is temporarily unavailable. Please try again later.
+            </p>
+          )}
           {message && (
             <div
               role="status"
@@ -296,37 +276,12 @@ const ContactFormFields = ({
             size="lg"
             className="w-full text-white"
             type="submit"
-            disabled={isLoading}
+            disabled={isLoading || !siteKey || !captchaToken}
           >
             {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : "Send"}
           </Button>
         </form>
     </Form>
-  );
-};
-
-const ContactFormWithRecaptcha = () => {
-  const { executeRecaptcha } = useGoogleReCaptcha();
-
-  return (
-    <ContactFormFields
-      executeRecaptcha={executeRecaptcha}
-      isRecaptchaEnabled={true}
-    />
-  );
-};
-
-const ContactForm = () => {
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
-
-  if (!recaptchaSiteKey) {
-    return <ContactFormFields isRecaptchaEnabled={false} />;
-  }
-
-  return (
-    <GoogleReCaptchaProvider reCaptchaKey={recaptchaSiteKey}>
-      <ContactFormWithRecaptcha />
-    </GoogleReCaptchaProvider>
   );
 };
 

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { detectBot, type BotProtectionData } from "@/lib/botProtection";
 import { sendContactEmails } from "@/lib/form-email-notifications";
 import { runPublicFormAction } from "@/lib/public-form-rate-limit";
+import { verifyTurnstileToken } from "@/lib/turnstile";
 
 const BLOCKED_EMAIL_DOMAINS = new Set([
   "10minutemail.com",
@@ -82,43 +83,6 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
-    if (recaptchaSecretKey) {
-      if (typeof captchaToken !== "string" || !captchaToken) {
-        console.log("Missing reCAPTCHA token");
-        return NextResponse.json(
-          { error: "reCAPTCHA verification required" },
-          { status: 400 }
-        );
-      }
-
-      const captchaResponse = await fetch(
-        "https://www.google.com/recaptcha/api/siteverify",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-          body: new URLSearchParams({
-            secret: recaptchaSecretKey,
-            response: captchaToken,
-          }),
-        }
-      );
-
-      const captchaResult = await captchaResponse.json();
-
-      if (!captchaResult.success) {
-        console.log("reCAPTCHA verification failed:", captchaResult);
-        return NextResponse.json(
-          { error: "reCAPTCHA verification failed" },
-          { status: 400 }
-        );
-      }
-    } else {
-      console.warn("RECAPTCHA_SECRET_KEY is not set - skipping reCAPTCHA");
-    }
-
     const contactName = String(name || "").trim();
     const contactEmail = String(email || "").trim();
     const contactPhone = String(phone || "").trim();
@@ -144,6 +108,24 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         { error: "Invalid email domain" },
         { status: 400 }
+      );
+    }
+
+    const verification = await verifyTurnstileToken({
+      token: captchaToken,
+      secretKey: process.env.TURNSTILE_SECRET_KEY,
+      allowedHostnames: (process.env.TURNSTILE_ALLOWED_HOSTNAMES ?? "desci.nyc,www.desci.nyc")
+        .split(",")
+        .map((hostname) => hostname.trim().toLowerCase())
+        .filter(Boolean),
+      expectedAction: "contact_form",
+    });
+
+    if (!verification.success) {
+      console.info("Contact submission rejected by human verification", verification.status);
+      return NextResponse.json(
+        { error: verification.error },
+        { status: verification.status }
       );
     }
 

@@ -11,7 +11,7 @@ function loadRoute(file, mocks, env = {}) {
   const {outputText} = ts.transpileModule(source, {compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}});
   const exports = {};
   const sandbox = {
-    exports, process:{env}, console:{error(){},warn(){},log(){}}, URLSearchParams, AbortSignal,
+    exports, process:{env}, console:{error(){},warn(){},log(){},info(){}}, URLSearchParams, AbortSignal,
     fetch: mocks.fetch,
     require(name) {
       if (name === 'next/server') return {NextResponse:{json:Response.json}};
@@ -81,33 +81,74 @@ const browserData = () => ({
   timestamp:Date.now(),formStartTime:Date.now()-10000,screenResolution:'1920x1080',
   honeypot:'',honeypot2:'',honeypot3:'',userAgent:'Mozilla/5.0',
 });
-function messageRoute(kind,{deliveryFailure=false,verificationPass=true}={}) {
+function messageRoute(kind,{
+  deliveryFailure=false,
+  verificationPass=true,
+  verificationAction=kind === 'send-email' ? 'contact_form' : 'suggest_speaker',
+  verificationHostname='desci.nyc',
+  verificationError=false,
+  secretKey='qa-secret',
+}={}) {
   const calls=[];
   const send=async data=>{calls.push(data);if(deliveryFailure)throw new Error('QA delivery failure');};
   const route=loadRoute(`app/api/${kind}/route.ts`,{
     '@/lib/botProtection':{detectBot},
     '@/lib/form-email-notifications':{sendContactEmails:send,sendSpeakerSuggestionEmails:send},
     '@/lib/public-form-rate-limit':{runPublicFormAction:async(_req,_scope,action)=>({allowed:true,result:await action()})},
-    '@/lib/turnstile':{verifyTurnstileToken:options=>verifyTurnstileToken({...options,fetchImpl:async()=>Response.json({success:verificationPass,hostname:'desci.nyc',action:'suggest_speaker'})})},
-  },{TURNSTILE_SECRET_KEY:'qa-secret'});
+    '@/lib/turnstile':{verifyTurnstileToken:options=>verifyTurnstileToken({
+      ...options,
+      fetchImpl:async()=>{
+        if (verificationError) throw new Error('Verification unavailable');
+        return Response.json({success:verificationPass,hostname:verificationHostname,action:verificationAction});
+      },
+    })},
+  },{TURNSTILE_SECRET_KEY:secretKey});
   return {route,calls};
 }
-test('contact messages need no CAPTCHA, accept an omitted email, and reject invalid provided email',async()=>{
+const contact = (overrides = {}) => ({
+  ...browserData(),type:'contact',message:'A useful message',captchaToken:'qa-token',...overrides,
+});
+test('verified contact messages accept an omitted email and reject invalid provided email',async()=>{
   const {route,calls}=messageRoute('send-email');
-  for(const email of ['', 'qa@example.com']) assert.equal((await route.POST(request({...browserData(),type:'contact',message:'A useful message',email}))).status,200);
+  for(const email of ['', 'qa@example.com']) assert.equal((await route.POST(request(contact({email})))).status,200);
   assert.equal(calls.length,2);
-  assert.equal((await route.POST(request({...browserData(),type:'contact',message:'A useful message',email:'invalid'}))).status,400);
+  assert.equal((await route.POST(request(contact({email:'invalid'})))).status,400);
   assert.equal(calls.length,2);
 });
 test('contact empty messages, honeypots, malformed JSON, and invalid types do not send mail',async()=>{
   const {route,calls}=messageRoute('send-email');
-  for(const body of [null,{}, {...browserData(),type:'contact',message:' '},{...browserData(),type:'contact',message:'test',honeypot:'spam'}]) assert.equal((await route.POST(request(body))).status,400);
+  for(const body of [null,{}, contact({message:' '}),contact({honeypot:'spam'})]) assert.equal((await route.POST(request(body))).status,400);
   assert.equal((await route.POST(new Request('http://localhost',{method:'POST',body:'{broken'}))).status,400);
   assert.equal(calls.length,0);
 });
 test('failed contact delivery reports failure so the user can retry',async()=>{
   const {route}=messageRoute('send-email',{deliveryFailure:true});
-  assert.equal((await route.POST(request({...browserData(),type:'contact',message:'A useful message'}))).status,500);
+  assert.equal((await route.POST(request(contact()))).status,500);
+});
+test('direct contact spam cannot send email without a genuine verification token',async()=>{
+  const {route,calls}=messageRoute('send-email');
+  for (const captchaToken of [undefined,'',null,123,{},'x'.repeat(2049)]) {
+    const response=await route.POST(request(contact({
+      name:'fjpgSkUcmHVhledQNYjx',email:'spam-test@example.com',
+      phone:'5550101234',message:'sZlxHmVfDrZLvObs',captchaToken,
+    })));
+    assert.equal(response.status,400);
+    assert.match((await response.json()).error,/human verification/i);
+  }
+  assert.equal(calls.length,0);
+});
+test('contact rejects forged tokens, tokens for another form/site, and verification outages',async()=>{
+  for (const [options,status] of [
+    [{verificationPass:false},400],
+    [{verificationAction:'suggest_speaker'},400],
+    [{verificationHostname:'other.example'},400],
+    [{verificationError:true},503],
+    [{secretKey:''},503],
+  ]) {
+    const {route,calls}=messageRoute('send-email',options);
+    assert.equal((await route.POST(request(contact()))).status,status);
+    assert.equal(calls.length,0);
+  }
 });
 const suggestion = () => ({...browserData(),yourName:'QA Tester',yourEmail:'qa@example.com',speakerName:'QA Speaker',speakerEmail:'speaker@example.com',speakerBio:'A qualified test speaker.',captchaToken:'qa-token'});
 test('speaker suggestions only send after valid human verification',async()=>{
