@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 import { useMemo, useRef, useState } from "react";
 import { filtersForAdsEvent } from "@/lib/ads-events";
+import AdPreview from "@/app/ads/AdPreview";
 import {
   AlertTriangle,
   ArrowDown,
@@ -12,6 +13,7 @@ import {
   Filter,
   ImageIcon,
   MousePointerClick,
+  Eye,
   RefreshCw,
   Save,
   Shield,
@@ -528,6 +530,7 @@ export default function AdsDashboard({ initialSummary, initialEventReports }: Ad
   const [notice, setNotice] = useState("");
   const [error, setError] = useState("");
   const [creativeSort, setCreativeSort] = useState<CreativeSort | null>(null);
+  const [previewCreative, setPreviewCreative] = useState<AdsBreakdownRow | null>(null);
 
   const trendData = useMemo(
     () =>
@@ -1164,7 +1167,13 @@ export default function AdsDashboard({ initialSummary, initialEventReports }: Ad
                     {creativeRows.map((row) => (
                       <tr key={row.key} className="border-b border-[#17251F]">
                         <td className="px-3 py-3">
-                          <div className="grid grid-cols-[44px_1fr] gap-3">
+                          <button
+                            type="button"
+                            onClick={() => setPreviewCreative(row)}
+                            aria-label={`Preview ad: ${creativeTitle(row)}`}
+                            aria-haspopup="dialog"
+                            className="group grid w-full grid-cols-[44px_1fr_auto] items-center gap-3 text-left outline-offset-4 transition hover:bg-[#111D16] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#D7F171]"
+                          >
                             {row.creativeImageUrl ? (
                               <div
                                 aria-label={row.creativeImageLabel || "Creative image"}
@@ -1187,7 +1196,8 @@ export default function AdsDashboard({ initialSummary, initialEventReports }: Ad
                                 {creativeDetail(row) || "Unlabeled creative"}
                               </div>
                             </div>
-                          </div>
+                            <Eye size={16} aria-hidden="true" className="text-[#8BA59B] group-hover:text-[#D7F171]" />
+                          </button>
                         </td>
                         <td className="px-3 py-3 text-[#D7F171]">
                           {platformLabel(row.platform)}
@@ -1381,6 +1391,9 @@ export default function AdsDashboard({ initialSummary, initialEventReports }: Ad
           </Panel>
         ) : null}
       </div>
+      {previewCreative ? (
+        <AdPreview key={previewCreative.key} row={previewCreative} onClose={() => setPreviewCreative(null)} />
+      ) : null}
     </main>
   );
 }

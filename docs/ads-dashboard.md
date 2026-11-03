@@ -83,7 +83,12 @@ the event/campaign/content directly from each ad's destination URL.
 
 The dashboard includes a Creative lab section for headline/image/style combos,
 including best CPA, most-clicked, and click-to-registration rankings. For
-DeSciNYC events, registrations from Luma are the conversion outcome. If Luma
+each creative, clicking its thumbnail or title opens an ad preview with the
+saved image, copy, headline, platform, and destination link. Close the preview
+with its close button, Escape, or a click outside it. Layout varies by placement;
+creatives with missing images or copy show an explicit fallback.
+
+For DeSciNYC events, registrations from Luma are the conversion outcome. If Luma
 sends a paid ticket value, the dashboard also shows revenue and ROAS by
 platform, campaign, and creative style combo.
 
