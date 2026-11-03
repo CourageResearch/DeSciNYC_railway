@@ -76,10 +76,10 @@ export default function AttributionEventLanding({
               </Link>
             </div>
             <dl className="grid max-w-2xl grid-cols-1 gap-4 border-t border-zinc-800 pt-5 text-sm text-zinc-300 sm:grid-cols-3">
-              <div>
+              {event.speaker ? <div>
                 <dt className="mb-1 text-[#86f086]">Speaker</dt>
-                <dd>{event.speaker || "DeSciNYC"}</dd>
-              </div>
+                <dd>{event.speaker}</dd>
+              </div> : null}
               <div>
                 <dt className="mb-1 text-[#86f086]">Focus</dt>
                 <dd>{event.focus}</dd>

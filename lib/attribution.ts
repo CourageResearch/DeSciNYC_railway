@@ -25,6 +25,40 @@ export type AttributionEventConfig = {
 };
 
 export const ATTRIBUTION_EVENTS = {
+  descinyc54: {
+    slug: "descinyc54",
+    title: "Humanity, Space, and Industrial Civilization",
+    speaker: null,
+    startsAt: "2026-11-14T18:30:00-05:00",
+    lumaUrl: "https://luma.com/descinyc54",
+    lumaEventId: "evt-9OpRa1KTEFHva0s",
+    description:
+      "Join DeSciNYC and PALLADIUM for a formal evening exploring humanity's future beyond Earth. Arrive at 6:30 PM for the 7 PM lecture on space and industrial civilization, followed by a reception with drinks, refreshments, and conversation.",
+    focus: "Space and industrial civilization",
+    posterImage: "/images/ads/descinyc54-formal-reception.png",
+    imageAlt:
+      "The Future Beyond Earth: DeSciNYC and PALLADIUM, November 14 at 6:30 PM in New York, formal attire, lecture and reception",
+    audienceCards: [
+      {
+        title: "An evening together",
+        body: "Meet people interested in science, technology, and the future at the reception following the lecture.",
+      },
+      {
+        title: "Formal attire",
+        body: "The event requires formal dress: jackets for men and equivalent formal attire for women.",
+      },
+      {
+        title: "Plan your visit",
+        body: "Arrive at 6:30 PM; the lecture begins at 7 PM. Registration requires approval. See Luma for current tickets and location details.",
+      },
+    ],
+    defaultUtm: {
+      utm_source: "twitter_ads",
+      utm_medium: "paid_social",
+      utm_campaign: "descinyc54_science_evening",
+      utm_content: "descinyc54_formal_reception",
+    },
+  },
   descinyc46: {
     slug: "descinyc46",
     title: "What Are We Breathing in the NYC Subway?",

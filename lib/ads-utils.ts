@@ -271,6 +271,20 @@ export function inferCreativeProfile(input: {
       theme: string;
     }
   > = {
+    descinyc54_formal_reception: {
+      headline: "The Future Beyond Earth",
+      imageUrl: "/images/ads/descinyc54-formal-reception.png",
+      imageLabel: "Formal science evening and reception",
+      format: "AI-generated photographic poster",
+      theme: "Formal science evening",
+    },
+    descinyc54_space_future: {
+      headline: "Our Future Beyond Earth",
+      imageUrl: "/images/ads/descinyc54-space-future.png",
+      imageLabel: "Space, science, and civilization illustrated poster",
+      format: "AI-generated illustrated poster",
+      theme: "Space and industrial civilization",
+    },
     poster_jack_klein: {
       headline: "What Are We Breathing in the NYC Subway?",
       imageUrl: "/images/ads/descinyc46-air-quality.png",
