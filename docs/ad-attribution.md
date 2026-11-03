@@ -2,6 +2,15 @@
 
 ## Ad URLs
 
+The active DeSciNYC54 campaign uses these destinations:
+
+```text
+https://desci.nyc/descinyc54?utm_source=twitter_ads&utm_medium=paid_social&utm_campaign=descinyc54_science_evening&utm_content=descinyc54_earthrise
+https://desci.nyc/descinyc54?utm_source=instagram_ads&utm_medium=paid_social&utm_campaign=descinyc54_science_evening&utm_content=descinyc54_formal_reception
+```
+
+DeSciNYC54 records the attribution click on the server and immediately redirects to the full Luma event page. It does not render the pixel handoff screen or wait for the X browser pixel. Platform click IDs, campaign tags, creative tags, and the internal click ID continue through the redirect, so Luma webhook matching and server-side conversion reporting remain available. Ad-platform spend reporting and Luma's Meta pixel are independent of this redirect. The creative preview remains available only with `preview=1`; do not add that parameter to ad destinations.
+
 Use these as X ad destinations:
 
 ```text
