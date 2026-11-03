@@ -285,6 +285,13 @@ export function inferCreativeProfile(input: {
       format: "AI-generated illustrated poster",
       theme: "Space and industrial civilization",
     },
+    descinyc54_earthrise: {
+      headline: "Our Future Beyond Earth",
+      imageUrl: "/images/ads/descinyc54-earthrise-nasa.jpg",
+      imageLabel: "Earthrise, Apollo 8 (1968). Photo: NASA/Bill Anders",
+      format: "Archival photograph",
+      theme: "Space and industrial civilization",
+    },
     poster_jack_klein: {
       headline: "What Are We Breathing in the NYC Subway?",
       imageUrl: "/images/ads/descinyc46-air-quality.png",
