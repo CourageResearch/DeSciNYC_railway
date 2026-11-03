@@ -3,8 +3,8 @@ import AdminLogin from "@/app/admin/components/AdminLogin";
 import AdminNav from "@/app/admin/components/AdminNav";
 import AdsDashboard from "@/app/ads/AdsDashboard";
 import { isAdminAuthenticated } from "@/lib/adminAuth";
-import { getAdsSummary } from "@/lib/ads-db";
-import { defaultAdsDateRange } from "@/lib/ads-utils";
+import { getAdsEventReports, getAdsSummary } from "@/lib/ads-db";
+import { resolveAdsPageFilters } from "@/lib/ads-events";
 
 export const dynamic = "force-dynamic";
 
@@ -13,7 +13,9 @@ export const metadata: Metadata = {
   description: "DeSciNYC paid-social performance dashboard.",
 };
 
-export default async function AdsPage() {
+export default async function AdsPage({ searchParams }: {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}) {
   const isAuthenticated = await isAdminAuthenticated();
 
   if (!isAuthenticated) {
@@ -24,16 +26,14 @@ export default async function AdsPage() {
     );
   }
 
-  const range = defaultAdsDateRange();
-  const summary = await getAdsSummary({
-    ...range,
-    platform: "all",
-  });
+  const eventReports = await getAdsEventReports();
+  const filters = resolveAdsPageFilters(eventReports.events, eventReports.range, (await searchParams) || {});
+  const summary = await getAdsSummary(filters);
 
   return (
     <>
       <AdminNav active="ads" />
-      <AdsDashboard initialSummary={summary} />
+      <AdsDashboard initialSummary={summary} initialEventReports={eventReports} />
     </>
   );
 }

@@ -4,6 +4,18 @@ The protected ads dashboard lives at `/ads` and reuses the existing admin
 password session. It reads platform delivery data from the local Postgres ads
 tables and joins that with `attribution_clicks` and `attribution_conversions`.
 
+The dashboard opens on the nearest upcoming tracked event (or the most recent
+event when none are upcoming). The Event history table compares lifetime
+paid-social results for each event, including past events. Selecting a row
+loads that event's own date range, totals, charts, platforms, and creatives;
+stale campaign filters are cleared. Nothing is deleted or zeroed in storage.
+Registrations and revenue here are ad-attributed outcomes, not all Luma sales.
+
+Event reports can be bookmarked with `/ads?eventSlug=descinyc54` or
+`/ads?eventSlug=descinyc49`; `/ads?eventSlug=all` explicitly shows combined
+results. The authenticated `/api/ads/events` endpoint supplies the comparison
+table. Its lifetime totals remain independent of the selected detail filters.
+
 ## Required env
 
 Meta:

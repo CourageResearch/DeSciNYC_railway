@@ -1,7 +1,8 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { filtersForAdsEvent } from "@/lib/ads-events";
 import {
   AlertTriangle,
   ArrowDown,
@@ -33,12 +34,16 @@ import {
 import { Button } from "@/components/ui/button";
 import type {
   AdsBreakdownRow,
+  AdsDateRange,
+  AdsEventReport,
+  AdsFilters,
   AdsSummaryResponse,
   AdsSyncResponse,
 } from "@/lib/ads-types";
 
 type AdsDashboardProps = {
   initialSummary: AdsSummaryResponse;
+  initialEventReports: { range: AdsDateRange; events: AdsEventReport[] };
 };
 
 type MappingDraft = {
@@ -140,6 +145,8 @@ function buildQuery(summary: AdsSummaryResponse) {
 
   if (summary.filters.eventSlug) {
     params.set("eventSlug", summary.filters.eventSlug);
+  } else {
+    params.set("eventSlug", "all");
   }
 
   if (summary.filters.campaignId) {
@@ -154,6 +161,7 @@ function buildQuery(summary: AdsSummaryResponse) {
 }
 
 function platformLabel(platform: string) {
+  if (platform === "all") return "Meta and X";
   if (platform === "meta") {
     return "Meta";
   }
@@ -510,8 +518,11 @@ function MappingEditor({
   );
 }
 
-export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
+export default function AdsDashboard({ initialSummary, initialEventReports }: AdsDashboardProps) {
   const [summary, setSummary] = useState(initialSummary);
+  const [draftFilters, setDraftFilters] = useState(initialSummary.filters);
+  const [eventReports, setEventReports] = useState(initialEventReports);
+  const requestSequence = useRef(0);
   const [loading, setLoading] = useState(false);
   const [syncing, setSyncing] = useState(false);
   const [notice, setNotice] = useState("");
@@ -589,12 +600,13 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
     [liveCreativeSourceRows]
   );
 
-  const refresh = async (nextSummary = summary) => {
+  const refresh = async (filters: AdsFilters = summary.filters) => {
+    const requestId = ++requestSequence.current;
     setLoading(true);
     setError("");
 
     try {
-      const query = buildQuery(nextSummary);
+      const query = buildQuery({ ...summary, filters });
       const response = await fetch(`/api/ads/summary?${query.toString()}`, {
         cache: "no-store",
       });
@@ -604,25 +616,33 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
         throw new Error(body.error || "Failed to load ads dashboard");
       }
 
-      setSummary(await response.json());
+      const nextSummary = await response.json() as AdsSummaryResponse;
+      if (requestId !== requestSequence.current) return;
+      setSummary(nextSummary);
+      setDraftFilters(nextSummary.filters);
+      window.history.replaceState(null, "", `/ads?${buildQuery(nextSummary)}`);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to load ads dashboard");
+      if (requestId === requestSequence.current) {
+        setError(err instanceof Error ? err.message : "Failed to load ads dashboard");
+      }
     } finally {
-      setLoading(false);
+      if (requestId === requestSequence.current) setLoading(false);
     }
   };
 
   const updateFilter = (key: keyof AdsSummaryResponse["filters"], value: string) => {
-    setSummary((current) => ({
+    setDraftFilters((current) => ({
       ...current,
-      filters: {
-        ...current.filters,
-        [key]: value || undefined,
-      },
+      [key]: value || undefined,
+      ...(key === "platform" ? { campaignId: undefined, adId: undefined } : {}),
     }));
   };
 
-  const applyFilters = () => refresh();
+  const applyFilters = () => refresh(draftFilters);
+  const selectEvent = (eventSlug: string) => refresh(
+    filtersForAdsEvent(eventReports.events, eventSlug || undefined, eventReports.range)
+  );
+  const selectedEvent = eventReports.events.find(row => row.eventSlug === summary.filters.eventSlug);
 
   const updateCreativeSort = (key: CreativeSortKey) => {
     setCreativeSort((current) => {
@@ -654,8 +674,8 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
       });
       const body = (await response.json()) as AdsSyncResponse & { error?: string };
 
-      if (!response.ok) {
-        throw new Error(body.error || "Sync failed");
+      if (!response.ok || !body.ok) {
+        throw new Error(body.error || body.results?.find(result => result.error)?.error || "Sync failed");
       }
 
       const rows = body.results.reduce((sum, result) => sum + result.rowsSynced, 0);
@@ -667,6 +687,9 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
           ? `Synced ${compact(rows)} rows. ${skipped.join(", ")} still needs setup.`
           : `Synced ${compact(rows)} rows.`
       );
+      const overview = await fetch("/api/ads/events", { cache: "no-store" });
+      if (!overview.ok) throw new Error("Synced metrics, but event history could not refresh.");
+      setEventReports(await overview.json());
       await refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Sync failed");
@@ -716,7 +739,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
               Start
               <input
                 type="date"
-                value={summary.filters.startDate}
+                value={draftFilters.startDate}
                 onChange={(event) => updateFilter("startDate", event.target.value)}
                 className="h-10 border border-[#2A3B34] bg-[#060807] px-2 text-sm text-white"
               />
@@ -725,7 +748,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
               End
               <input
                 type="date"
-                value={summary.filters.endDate}
+                value={draftFilters.endDate}
                 onChange={(event) => updateFilter("endDate", event.target.value)}
                 className="h-10 border border-[#2A3B34] bg-[#060807] px-2 text-sm text-white"
               />
@@ -733,7 +756,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             <label className="grid gap-1 text-xs uppercase text-[#8BA59B]">
               Platform
               <select
-                value={summary.filters.platform || "all"}
+                value={draftFilters.platform || "all"}
                 onChange={(event) => updateFilter("platform", event.target.value)}
                 className="h-10 border border-[#2A3B34] bg-[#060807] px-2 text-sm text-white"
               >
@@ -748,7 +771,8 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
               Event
               <select
                 value={summary.filters.eventSlug || ""}
-                onChange={(event) => updateFilter("eventSlug", event.target.value)}
+                onChange={(event) => selectEvent(event.target.value)}
+                disabled={loading || syncing}
                 className="h-10 border border-[#2A3B34] bg-[#060807] px-2 text-sm text-white"
               >
                 <option value="">All events</option>
@@ -762,7 +786,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             <label className="grid gap-1 text-xs uppercase text-[#8BA59B]">
               Campaign
               <select
-                value={summary.filters.campaignId || ""}
+                value={draftFilters.campaignId || ""}
                 onChange={(event) => updateFilter("campaignId", event.target.value)}
                 className="h-10 border border-[#2A3B34] bg-[#060807] px-2 text-sm text-white"
               >
@@ -777,7 +801,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             <Button
               type="button"
               onClick={applyFilters}
-              disabled={loading}
+              disabled={loading || syncing}
               className="h-10 self-end rounded-none border border-[#2A3B34] bg-[#121B16] text-white hover:bg-[#1A281F]"
             >
               <Filter size={16} />
@@ -786,7 +810,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             <Button
               type="button"
               onClick={syncNow}
-              disabled={syncing}
+              disabled={syncing || loading}
               className="h-10 self-end rounded-none bg-[#D7F171] text-black hover:bg-[#C5E35F]"
             >
               <RefreshCw size={16} className={syncing ? "animate-spin" : ""} />
@@ -794,6 +818,61 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
             </Button>
           </div>
         </section>
+
+        <Panel title="Event history">
+          <p className="mb-4 text-sm text-[#B8C7C0]">
+            Compare lifetime paid-social results across Meta and X. Select an event to open its full report.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[1250px] text-left text-sm" aria-label="Ad performance by event">
+              <thead className="text-xs uppercase text-[#8BA59B]">
+                <tr>{["Event", "Spend", "Regs", "Revenue", "CPA", "ROAS", "Impressions", "Clicks", "CPC", "CTR", "Tracked visits", "CVR"].map(label =>
+                  <th key={label} className="whitespace-nowrap px-3 py-2 font-normal">{label}</th>
+                )}</tr>
+              </thead>
+              <tbody>
+                {eventReports.events.map(event => {
+                  const totals = event.totals;
+                  const selected = event.eventSlug === summary.filters.eventSlug;
+                  return (
+                    <tr key={event.eventSlug} className={`border-t border-[#22362F] ${selected ? "bg-[#172319]" : "bg-[#090D0B]"}`}>
+                      <td className="min-w-64 max-w-80 px-3 py-3">
+                        {event.eventSlug ? (
+                          <button type="button" onClick={() => selectEvent(event.eventSlug)} disabled={loading || syncing}
+                            aria-pressed={selected} className="text-left text-[#D7F171] underline-offset-4 hover:underline disabled:opacity-60">
+                            {event.title}
+                          </button>
+                        ) : event.title}
+                        <div className="mt-1 text-xs text-[#8BA59B]">
+                          {event.status === "past" ? "Past event" : event.status === "upcoming" ? "Upcoming event" : "Needs mapping"}
+                          {event.startsAt ? ` · ${new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", dateStyle: "medium" }).format(new Date(event.startsAt))}` : ""}
+                        </div>
+                      </td>
+                      {[money(totals.spendMicros, true), compact(totals.registrations), money(totals.revenueMicros, true),
+                        money(totals.costPerRegistrationMicros, true), multiplier(totals.roas), compact(totals.impressions),
+                        compact(totals.platformClicks), money(totals.cpcMicros, true), percent(totals.ctr),
+                        compact(totals.trackedClicks), percent(totals.conversionRate)].map((value, index) =>
+                        <td key={index} className="whitespace-nowrap px-3 py-3 tabular-nums text-[#E2EAE5]">{value}</td>
+                      )}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-xs text-[#8BA59B]">
+            Regs = ad-attributed registrations. CPA = cost per registration. CVR = registrations / tracked visits.
+            History covers {eventReports.range.startDate} through {eventReports.range.endDate}. Filters apply only to the selected report.
+          </p>
+        </Panel>
+
+        <div className="border-l-2 border-[#D7F171] pl-4" aria-live="polite">
+          <div className="text-xs uppercase text-[#8BA59B]">{loading ? "Loading event report" : selectedEvent?.status === "past" ? "Past event report" : "Selected report"}</div>
+          <h2 className="mt-1 font-Jersey25 text-4xl text-[#D7F171]">{selectedEvent?.title || "All events combined"}</h2>
+          <p className="mt-1 text-sm text-[#B8C7C0]">
+            {summary.filters.startDate} through {summary.filters.endDate} · {platformLabel(summary.filters.platform || "all")}
+          </p>
+        </div>
 
         {notice ? (
           <div className="border border-[#335F42] bg-[#0D1711] px-4 py-3 text-sm text-[#D7F171]">

@@ -42,6 +42,15 @@ export type AdsTotals = {
   unmatchedConversions: number;
 };
 
+export type AdsEventReport = {
+  eventSlug: string;
+  title: string;
+  startsAt: string | null;
+  status: "upcoming" | "past" | "unassigned";
+  range: AdsDateRange;
+  totals: AdsTotals;
+};
+
 export type AdsTimePoint = {
   date: string;
   spendMicros: number;

@@ -28,6 +28,8 @@ import {
 } from "@/lib/ads-utils";
 import { getXAdsConfig } from "@/lib/x-ads-config";
 import { AUTOMATED_USER_AGENT_PATTERN } from "@/lib/attribution-traffic";
+import { adsReportingToday, buildAdsEventReports } from "@/lib/ads-events";
+import { defaultAdsDateRange } from "@/lib/ads-utils";
 
 type MetricRow = {
   metric_id: string;
@@ -616,6 +618,34 @@ function dateRange(startDate: string, endDate: string) {
   }
 
   return dates;
+}
+
+export async function getAdsEventReports() {
+  const range = { ...defaultAdsDateRange(), endDate: adsReportingToday() };
+  if (range.startDate > range.endDate) range.startDate = range.endDate;
+  const filters: AdsFilters = { ...range, platform: "all" };
+  const [metrics, clicks, conversions] = hasDatabaseConfig()
+    ? await Promise.all([getMetricRows(filters), getClickGroups(filters), getConversionGroups(filters)])
+    : [[], [], []];
+  return {
+    range,
+    events: buildAdsEventReports({
+      events: Object.values(ATTRIBUTION_EVENTS), range,
+      metrics: metrics.map(row => ({
+        eventSlug: row.resolved_event_slug, date: dateOnly(row.metric_date),
+        spendMicros: numberValue(row.spend_micros), impressions: numberValue(row.impressions),
+        clicks: numberValue(row.clicks), reach: numberValue(row.reach), provisional: row.provisional,
+        unmapped: !row.resolved_utm_source || !row.resolved_utm_campaign || !row.resolved_utm_content,
+      })),
+      clicks: clicks.map(row => ({
+        eventSlug: row.event_slug, date: dateOnly(row.date), count: numberValue(row.count),
+      })),
+      conversions: conversions.map(row => ({
+        eventSlug: row.event_slug, date: dateOnly(row.date), count: numberValue(row.count),
+        revenueMicros: numberValue(row.revenue_micros), unmatched: numberValue(row.unmatched),
+      })),
+    }),
+  };
 }
 
 export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResponse> {
