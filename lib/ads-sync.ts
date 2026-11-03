@@ -31,6 +31,7 @@ import {
 } from "@/lib/ads-utils";
 import { query } from "@/lib/db";
 import { getXAdsConfig } from "@/lib/x-ads-config";
+import { AUTOMATED_USER_AGENT_PATTERN } from "@/lib/attribution-traffic";
 
 type JsonObject = Record<string, unknown>;
 type TrackingResolution = {
@@ -1051,6 +1052,7 @@ async function getXAttributionDistribution(input: {
     input.range.endDate,
     input.eventSlug,
     input.utmCampaign,
+    AUTOMATED_USER_AGENT_PATTERN,
   ];
   const where = [
     "created_at >= $1::date",
@@ -1058,6 +1060,7 @@ async function getXAttributionDistribution(input: {
     "event_slug = $3",
     "LOWER(COALESCE(utm_source, '')) IN ('twitter_ads', 'x_ads')",
     "COALESCE(utm_campaign, '') = $4",
+    "COALESCE(user_agent, '') !~* $5",
   ];
   const excludedUtmContents = getExcludedUtmContents();
 

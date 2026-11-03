@@ -830,7 +830,7 @@ export default function AdsDashboard({ initialSummary }: AdsDashboardProps) {
           <KpiCard
             label="Tracked conversion"
             value={percent(summary.totals.conversionRate)}
-            detail={`${compact(summary.totals.trackedClicks)} tracked clicks`}
+            detail={`${compact(summary.totals.trackedClicks)} tracked visits; known crawlers excluded`}
           />
           <KpiCard
             label="Platform clicks"

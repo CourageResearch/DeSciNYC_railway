@@ -57,6 +57,18 @@ Meta sync uses ad-level Insights with a `publisher_platform` breakdown, so
 Facebook and Instagram spend can be separated. X sync uses line-item stats; X
 billing metrics for the latest three days are marked provisional.
 
+Known social-preview and search crawlers are excluded from tracked-click
+counts and X creative allocation. Historical raw clicks remain stored for
+audit; new identified crawler visits do not create attribution clicks. Other
+preview/test visits may still count, so tracked visits are not the same as
+platform-reported paid clicks. X creative delivery metrics are estimated from
+tracked click share; campaign delivery totals come directly from the X API.
+
+The November DeSciNYC54 X campaign (`pk6ep`, ad group `y2bfj`) maps to
+`descinyc54_science_evening`; its creative content is left unset at group level
+so both the formal-reception and Earthrise variants participate. Meta obtains
+the event/campaign/content directly from each ad's destination URL.
+
 The dashboard includes a Creative lab section for headline/image/style combos,
 including best CPA, most-clicked, and click-to-registration rankings. For
 DeSciNYC events, registrations from Luma are the conversion outcome. If Luma

@@ -119,19 +119,15 @@ function findAttendeeName(entries: PayloadEntry[]) {
 }
 
 function extractUrlParams(value: string) {
+  // Descriptions can contain Markdown links with UTMs. They are not a
+  // registrant's attribution and must never override custom_source.
+  if (!/^(https?:\/\/|\/|\?)/i.test(value) || /\s/.test(value)) {
+    return null;
+  }
   try {
-    return new URL(value).searchParams;
+    return new URL(value, "https://desci.nyc").searchParams;
   } catch {
-    const queryIndex = value.indexOf("?");
-    if (queryIndex === -1) {
-      return null;
-    }
-
-    try {
-      return new URLSearchParams(value.slice(queryIndex + 1));
-    } catch {
-      return null;
-    }
+    return null;
   }
 }
 
@@ -166,7 +162,13 @@ function getTrackingFromEntries(entries: PayloadEntry[]) {
     } else if (leafKey === "custom_source") {
       applyTrackingParam(tracking, "utm_source", entry.value);
     }
+  }
 
+  // Explicit tracking fields take priority regardless of JSON property order.
+  for (const entry of entries) {
+    if (!/(^|_)(url|uri|href|link|referrer|query)(_|$)/.test(normalizeKey(entry.key))) {
+      continue;
+    }
     const urlParams = extractUrlParams(entry.value);
     if (!urlParams) {
       continue;

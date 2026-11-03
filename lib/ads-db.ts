@@ -27,6 +27,7 @@ import {
   trackingKey,
 } from "@/lib/ads-utils";
 import { getXAdsConfig } from "@/lib/x-ads-config";
+import { AUTOMATED_USER_AGENT_PATTERN } from "@/lib/attribution-traffic";
 
 type MetricRow = {
   metric_id: string;
@@ -298,11 +299,17 @@ function attributionSourceFilter(filters: AdsFilters) {
 
 async function getClickGroups(filters: AdsFilters) {
   const sources = attributionSourceFilter(filters);
-  const params: unknown[] = [filters.startDate, filters.endDate, sources];
+  const params: unknown[] = [
+    filters.startDate,
+    filters.endDate,
+    sources,
+    AUTOMATED_USER_AGENT_PATTERN,
+  ];
   const where = [
     "created_at >= $1::date",
     "created_at < ($2::date + INTERVAL '1 day')",
     "LOWER(COALESCE(utm_source, '')) = ANY($3::text[])",
+    "COALESCE(user_agent, '') !~* $4",
   ];
   const excludedUtmContents = getExcludedUtmContents();
 
@@ -1086,6 +1093,14 @@ export async function getAdsSummary(filters: AdsFilters): Promise<AdsSummaryResp
       level: "info",
       title: "Recent X spend is provisional",
       body: "X billing metrics can settle for up to three days after delivery.",
+    });
+  }
+
+  if (metrics.some((metric) => metric.platform === "x" && !metric.platform_ad_id)) {
+    qualityIssues.push({
+      level: "info",
+      title: "X creative spend is estimated",
+      body: "X campaign totals come from the Ads API. Spend, impressions, and platform clicks per creative are allocated using tracked click share.",
     });
   }
 

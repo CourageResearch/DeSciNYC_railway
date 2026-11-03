@@ -1,4 +1,5 @@
 import { hasDatabaseConfig, query } from "@/lib/db";
+import { isAutomatedAttributionVisit } from "@/lib/attribution-traffic";
 import type { QueryResultRow } from "pg";
 import {
   type AttributionEventConfig,
@@ -70,6 +71,10 @@ export type RecordConversionInput = {
 };
 
 export async function recordAttributionClick(input: RecordClickInput) {
+  if (isAutomatedAttributionVisit(input.userAgent)) {
+    return { stored: false, reason: "automated_preview" };
+  }
+
   if (!hasDatabaseConfig()) {
     return { stored: false, reason: "missing_database_config" };
   }
