@@ -7,6 +7,14 @@ import { getEventMedia } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 
+const EVENT_SUMMARIES: Record<string, string[]> = {
+  "evt-9OpRa1KTEFHva0s": [
+    "Marko Jukic argues that the ambition to reach other stars could help civilization on Earth keep growing, inventing, and preserving its freedom. Humanity has enormous physical room to expand; in his view, our biggest constraints come from institutions and political choices that limit what people can build.",
+    "He describes humans as civilization's adaptable builders and maintainers. AI and automation can extend those abilities, but intelligence alone does not replace human initiative or the work of sustaining complex systems. Drawing on the history of rocketry, he argues that major advances often begin with bold visions pursued by determined individuals.",
+    "For Jukic, developing the solar system is a stepping stone toward interstellar settlement. That goal could motivate the industrial capacity and technological breakthroughs needed for a more dynamic future. Widely separated settlements could also allow different societies to flourish without any single institution controlling humanity's future.",
+  ],
+};
+
 const PastEvents = async () => {
   const pastEvents = await getPastEvents();
   type EventWithLumaData = EventRecord & {
@@ -53,6 +61,7 @@ const PastEvents = async () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
+          const eventSummary = EVENT_SUMMARIES[event.luma_id];
           const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
           const eventLinkLabel = /^https?:\/\/(?:www\.)?partiful\.com(?:\/|$)/i.test(event.luma_url)
             ? "Partiful event"
@@ -145,6 +154,18 @@ const PastEvents = async () => {
                     </Link>
                   )}
                 </div>
+                {eventSummary && (
+                  <details className="w-full border-t border-[#202020] pt-3 text-sm">
+                    <summary className="cursor-pointer font-medium text-white hover:text-[#0FA711] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0FA711]">
+                      1-minute summary
+                    </summary>
+                    <div className="mt-3 space-y-3 font-sans leading-relaxed text-gray-300">
+                      {eventSummary.map((paragraph) => (
+                        <p key={paragraph}>{paragraph}</p>
+                      ))}
+                    </div>
+                  </details>
+                )}
               </div>
             </div>
           );
