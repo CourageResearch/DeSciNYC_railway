@@ -6,14 +6,7 @@ import { type LumaEventResponse, getLumaEvent } from "@/lib/luma";
 import { getEventMedia } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
-
-const EVENT_SUMMARIES: Record<string, string[]> = {
-  "evt-9OpRa1KTEFHva0s": [
-    "Marko Jukic argues that the ambition to reach other stars could help civilization on Earth keep growing, inventing, and preserving its freedom. Humanity has enormous physical room to expand; in his view, our biggest constraints come from institutions and political choices that limit what people can build.",
-    "He describes humans as civilization's adaptable builders and maintainers. AI and automation can extend those abilities, but intelligence alone does not replace human initiative or the work of sustaining complex systems. Drawing on the history of rocketry, he argues that major advances often begin with bold visions pursued by determined individuals.",
-    "For Jukic, developing the solar system is a stepping stone toward interstellar settlement. That goal could motivate the industrial capacity and technological breakthroughs needed for a more dynamic future. Widely separated settlements could also allow different societies to flourish without any single institution controlling humanity's future.",
-  ],
-};
+import { MARKO_TALK } from "@/lib/marko-talk";
 
 const PastEvents = async () => {
   const pastEvents = await getPastEvents();
@@ -61,8 +54,9 @@ const PastEvents = async () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
-          const eventSummary = EVENT_SUMMARIES[event.luma_id];
+          const isMarkoTalk = event.luma_id === MARKO_TALK.lumaId;
           const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
+          const watchUrl = isMarkoTalk ? MARKO_TALK.pagePath : videoUrl;
           const eventLinkLabel = /^https?:\/\/(?:www\.)?partiful\.com(?:\/|$)/i.test(event.luma_url)
             ? "Partiful event"
             : "Luma event";
@@ -70,6 +64,7 @@ const PastEvents = async () => {
           return (
             <div
               key={event.event_uuid || event.id || event.luma_id}
+              id={isMarkoTalk ? "marko-jukic" : undefined}
               className="flex flex-col border border-[#202020] h-full border-b-4 border-r-4"
             >
               {eventMedia ? (
@@ -89,9 +84,9 @@ const PastEvents = async () => {
                 </Link>
               ) : (
                 <Link
-                  href={videoUrl}
+                  href={watchUrl}
                   className="relative w-full aspect-video"
-                  target="_blank"
+                  target={isMarkoTalk ? undefined : "_blank"}
                 >
                   <Image
                     src={`https://i3.ytimg.com/vi/${event.yt_uuid}/sddefault.jpg`}
@@ -111,8 +106,8 @@ const PastEvents = async () => {
                   </Link>
                 ) : (
                   <Link
-                    href={videoUrl}
-                    target="_blank"
+                    href={watchUrl}
+                    target={isMarkoTalk ? undefined : "_blank"}
                     className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
                   >
                     {event.title}
@@ -129,8 +124,8 @@ const PastEvents = async () => {
                     </Link>
                   ) : (
                     <Link
-                      href={videoUrl}
-                      target="_blank"
+                      href={watchUrl}
+                      target={isMarkoTalk ? undefined : "_blank"}
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
                       Video
@@ -153,19 +148,23 @@ const PastEvents = async () => {
                       Slides
                     </Link>
                   )}
+                  {isMarkoTalk && (
+                    <>
+                      <Link
+                        href={`${MARKO_TALK.pagePath}#one-minute-summary`}
+                        className="text-sm uppercase text-white hover:underline"
+                      >
+                        1-minute video summary
+                      </Link>
+                      <Link
+                        href={`${MARKO_TALK.pagePath}#transcript`}
+                        className="text-sm uppercase text-white hover:underline"
+                      >
+                        Read transcript
+                      </Link>
+                    </>
+                  )}
                 </div>
-                {eventSummary && (
-                  <details className="w-full border-t border-[#202020] pt-3 text-sm">
-                    <summary className="cursor-pointer font-medium text-white hover:text-[#0FA711] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0FA711]">
-                      1-minute summary
-                    </summary>
-                    <div className="mt-3 space-y-3 font-sans leading-relaxed text-gray-300">
-                      {eventSummary.map((paragraph) => (
-                        <p key={paragraph}>{paragraph}</p>
-                      ))}
-                    </div>
-                  </details>
-                )}
               </div>
             </div>
           );

@@ -6,6 +6,7 @@ import {
   S3Client,
 } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
+import { MARKO_TALK } from "./marko-talk";
 
 export type EventMedia = {
   eventUuid: string;
@@ -50,6 +51,11 @@ const MEDIA_OBJECTS = new Map<string, MediaObject>(
     ],
   ])
 );
+
+MEDIA_OBJECTS.set(MARKO_TALK.summaryVideoKey, {
+  contentType: "video/mp4",
+  fileName: "marko-jukic-60-second-summary.mp4",
+});
 
 let mediaS3Client: S3Client | null = null;
 
