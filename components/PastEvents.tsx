@@ -131,27 +131,12 @@ const PastEvents = async () => {
                       {isMarkoTalk ? "Full video" : "Video"}
                     </Link>
                   )}
-                  <Link
-                    href={withUtmSource(event.luma_url, "descinyc_website")}
-                    target="_blank"
-                    rel="noopener"
-                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
-                  >
-                    {eventLinkLabel}
-                  </Link>
-                  {event.slides && (
-                    <Link
-                      href={getSlidesHref(event.slides)}
-                      target="_blank"
-                      className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
-                    >
-                      Slides
-                    </Link>
-                  )}
                   {isMarkoTalk && (
                     <>
                       <Link
-                        href={`${MARKO_TALK.pagePath}#one-minute-summary`}
+                        href={`https://www.youtube.com/shorts/${MARKO_TALK.summaryVideoId}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-sm uppercase text-white hover:underline"
                       >
                         1 min video
@@ -164,6 +149,23 @@ const PastEvents = async () => {
                       </Link>
                     </>
                   )}
+                  {event.slides && (
+                    <Link
+                      href={getSlidesHref(event.slides)}
+                      target="_blank"
+                      className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                    >
+                      Slides
+                    </Link>
+                  )}
+                  <Link
+                    href={withUtmSource(event.luma_url, "descinyc_website")}
+                    target="_blank"
+                    rel="noopener"
+                    className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
+                  >
+                    {eventLinkLabel}
+                  </Link>
                 </div>
               </div>
             </div>
