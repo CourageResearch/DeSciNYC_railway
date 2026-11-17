@@ -1,0 +1,779 @@
+{
+  "paragraphs": [
+    {
+      "start": 0.16,
+      "end": 17.0,
+      "text": "[Music] Everyone come forward. Come forward."
+    },
+    {
+      "start": 23.119,
+      "end": 33.8,
+      "text": ">> Hello. Hi. Good to see you. And then T. play to the camera."
+    },
+    {
+      "start": 40.079,
+      "end": 84.32,
+      "text": ">> All right, cool. Hey everyone, I'm Ela. I'm head of DIY here at Sage the Sage. Thank you very much for coming and super excited to be hosting the Dite NYC. We're going to be hosting an exciting talk on Salem metabolism. Uh so that'll be coming up very shortly. Um a little bit about SAGE. So we're in layer 1 um fastest EVM paralyzed blockchain and we're also dedicated to decentralized science. So as well as other applications in crypto but but also a focus on the application of crypto in the sciences, AI, frontier technology, robotics etc. Um we also have a fund so"
+    },
+    {
+      "start": 81.04,
+      "end": 122.92,
+      "text": "65 million in capitals called Sapion uh dedicated towards building projects on SA. Um yeah so I mean that is pretty much everything. Um I hope you enjoy the talk and uh Mike will hand over to you for a couple of notes on DI and PC. Guys, let's give it up for SE. They gave us this beautiful office and it was so appreciated for them. And thank you to Eleanor and the entire SE team. Look at this. We have a koi pond over here. How cool is that? Okay. Um, let's go to the next slide."
+    },
+    {
+      "start": 124.32,
+      "end": 162.2,
+      "text": ">> How do I do it? Who wants a sleep mask? Okay, while we're waiting for the next slide, do a sleep mask. A sleep mask. A sleep mask. Oh, sorry. A sleep mask. Sleep mask. Sorry. In the far back. Sorry. Sorry. Oh, is this Oh, where's the slide? Okay. Okay. Um,"
+    },
+    {
+      "start": 169.44,
+      "end": 196.4,
+      "text": ">> okay. So guys, welcome to st welcome to DCYC. We host these events like once a month. Um, and you know, we have a one coming up next time on quantum computing which is going to be very very cool. And um, I'm going to give it to a Nesh right here. Yes. He's going to talk about a new type of um clinical trial that we're going to be working on."
+    },
+    {
+      "start": 193.84,
+      "end": 236.08,
+      "text": ">> Thank you, Michael. Hello, everyone. You probably are aware that the microbiome can impact all sorts of aspects of health, but it's still the very early stages of figuring out how and most of that focuses on the negatives of how certain strains of bad bacteria can cause problems. But there was recently a lab in MIT that decided to go and look at a bunch of elite athletes and look at their microbiomes and try to figure out which species might be common amongst a lot of elite performers that could potentially link like lead towards part of their actual success. They were able to isolate a bunch of different strains right now. They ran some animal trials,"
+    },
+    {
+      "start": 234.48,
+      "end": 277.84,
+      "text": "some human trials that are on the market. I have no actual association with this company in terms of like there's no financial link. I just like them. And we're partnering together with Michael to basically take 200 of you and whoever decides to join, give you free access to two different types of these probiotics and figure out at a larger scale, can that impact sleep, digestion, exercise performance. These are all things that have been validated fairly well within the rodent studies and the early human trials. And we're not ones to take anything with small amounts of data and say it absolutely works. So instead, we want to get our own larger amounts of data, run our own trials in a decentralized way, and figure out, can"
+    },
+    {
+      "start": 275.36,
+      "end": 298.0,
+      "text": "we take this and measure its impact on human performance in terms of sleep and physical activity. So if you are interested in getting free access to this fairly expensive probiotic and are willing to do the work to try and test it in yourself and measure the outcomes, come and talk to me or Michael or there's a QR code somewhere where you can sign up. >> Yes. Excellent. Find us afterwards."
+    },
+    {
+      "start": 295.919,
+      "end": 320.24,
+      "text": ">> But what what's cool about this is um Decentral like DIY NYC for so long has been just about um looking at content and learning about content. But this is one of the first times that a group like this is going to actually be creating new types of science and like uh contributing to the cannon of knowledge. So this is going to be very very cool. Um you've helped design the study as well."
+    },
+    {
+      "start": 319.84,
+      "end": 359.12,
+      "text": ">> Yeah. >> Yeah. And this this I don't know if you know but he's like an influencer on on science and you know you should give a talk at some point. I think I think at some point you will and um maybe you could even talk about the results and how like doing it in a decentralized way is uh possible now. >> Yeah, that'd be fun. >> Cool. Um do we do we have the link >> oh >> I just want to get the signup link here >> in case I downplay it. A lot of people have been reporting really cool results from it, but you know, it's always hard to tell from placebo. So that's why you want to get good at it."
+    },
+    {
+      "start": 357.44,
+      "end": 387.199,
+      "text": ">> Okay. And then we're getting the link up here and then people that are interested in it. So this is part of DIN NYC and it's going to be one of the first um like trials that's ever been done um in in a new way. So I'm very excited about this. I don't I don't think that um you know people crypto and tokens and democratization of science has been done in this way. So um very excited. Okay."
+    },
+    {
+      "start": 383.12,
+      "end": 426.4,
+      "text": "So without further ado, we are going to bring Kenny on st Timothy on stage. >> Okay. So let's let's give a round of applause for Timothy. Um Timothy is a postto at the Rockefeller University studying cellular metabolism. So let's give it up. Thank you guys very much. Um I'm super excited to be here and present the work that I've been working on in my post talk and I'm starting my own laboratory at Mount Si in January. So I'm going to be talking a little bit about the stuff that keep me up at night and um I'm excited to have a different audience to talk to than a normal academic audience."
+    },
+    {
+      "start": 424.8,
+      "end": 450.08,
+      "text": "Um, and I think too one of the cool things about this uh about DI and about decentralizing science is finding new revenue streams to fund science to fund basic science that companies necessarily aren't going to be funding. It's very important research for us to be doing. I hope I can convince you of some of that um through my talk and kind of the stuff that I've been working."
+    },
+    {
+      "start": 446.0,
+      "end": 480.08,
+      "text": "Okay. So I will be um so the focus of my talk is really cellular metabolism and what is metabolism? Metabolism is the sum of all chemical reactions within a biological system. And this is a map showing kind of the central metabolic pathways in mamlian cells. And I know it looks quite complicated, but this is actually a gross oversimplification of metabolism. So we know that there's over 220,000 reported human metabolites in humans."
+    },
+    {
+      "start": 477.919,
+      "end": 523.36,
+      "text": "And just in human serum for example, there's over 4,500 serum metabolites. And so one of the questions that that that I and so many people for centuries and millennia have been interested in is how is metabolism regulated and controlled? And how do humans and living organisms maintain metabolism to sustain life? And so Aristotle became started thinking about this in the 4th century BC. and he made the observation that the food that we eat must be what provides the energy and the building blocks that we need to grow and sustain life in uh humans. And a couple centuries later, Santorius of Padawa um actually expanded"
+    },
+    {
+      "start": 521.36,
+      "end": 561.2,
+      "text": "upon this and took very detailed measurements of his consumption and excretion over 30 years and made the observation that for every 8 pounds of food he ate only 3 lb of waste was consu was produced. So therefore he said this must be going somewhere and um uh that principle has really been expanded at the cellular level. So in the 19th century, Ernest Overbertton studied how metabolites get in and out of cells and how they um are transported into the cell and how that enables them to be used for different cellular metabolic pathways and processes."
+    },
+    {
+      "start": 558.32,
+      "end": 598.0,
+      "text": "And so really the key player of cellular metabolism is transporters. And transporters are protein proteins that sit on the cell membrane that bring nutrients in and out of the cells. And this is a really fundamental process for cellular biology and organismal biology in general. And the fact that this is so important is highlighted by the fact that over 10% of the human genome, all genes that humans encode, they encode for proteins that have transport function. So it's a very key function of cellular homeostasis, but also organismal homeostasis."
+    },
+    {
+      "start": 595.279,
+      "end": 639.36,
+      "text": "And one of the largest families of these um uh these uh solute carriers are or is known as the solute carrier super family, the SLC's. And there's over 450 of these different um transporters which range in diversity of where they're located within the cell, what they transport, what affinity they have for their substrates. And um throughout evolution, these different transporters have evolved to enable organisms and cells to tightly regulate their metabolism. So for example, if we take glucose as an example, which is a very abundant metabolite, there's at least four different glucose transporters and they change in where they are expressed in"
+    },
+    {
+      "start": 636.64,
+      "end": 681.279,
+      "text": "the human body. So for example uh in the brain you have this transporter called glute 3 and that has very very high affinity meaning it really really wants to transport glucose and that makes sense because the brain has a high energetic demands. In other tissues such as um in pancreatic beta cells, gl the affinity of uh the transporter glute 2 has very low affinity for glucose and that allows it to act as a sensor so your pancreas can understand whether or not you've recently fed and and induced the types of organismal u metabolism that your body needs to regulate uh glucose levels. And so what do we know"
+    },
+    {
+      "start": 679.279,
+      "end": 722.88,
+      "text": "about other transporters other than glucose? Well, surprisingly very little. So of the 456 transporters that I told you about, if we just survey them and ask what what is transported by that transporter, almost half of them, we have very little evidence for what it transports. About a quarter of them, we have absolutely no idea whatsoever what it transports. And if we look on the opposite end where we consider gold standard proof where we have a structure of of the protein bound to its substrate and cellular and biochemical evidence of what it does, that's only 5% of this whole family of transporters. And I told you this is the biggest and most important family of metabolite"
+    },
+    {
+      "start": 719.6,
+      "end": 764.56,
+      "text": "transporters in humans. And the fact that we know so little is is um even more striking when you have take into account that over 50% of SLC transporters are associated with human disease. And so when I started my postto and some of the work that I'm doing in my laboratory now is can we systematically identify the physiological substrates of metabolite transporters and by doing that understand biology and understand potentially human disease. So we took this G-W was based approach. So G-W was genomewide association studies. So they are studies in which they you look at the different snips or varants in the"
+    },
+    {
+      "start": 762.16,
+      "end": 805.12,
+      "text": "genome of people and then you can associate that with phenotypes or clinical outcomes that those patients have. And so we took this data set for which they had both the um the the genetic information for 6,000 people, but they also measured serum metabolite levels for these patients. And we thought we could use this as a discovery platform to try to identify associations genetically and statistically between metabolites in circulating serum and potential variance in those trans in potential transporters in people and kind of use human biology as a way as a discovery platform to kind of deorphanize these transporters. And so"
+    },
+    {
+      "start": 803.2,
+      "end": 847.68,
+      "text": "normally when people do G-W was they're looking for genetic variations that are associated with human disease. And what we're trying to do here is the opposite where we're actually looking for associations in uh the circulating levels of metabolites of these patients with variance in potential uh uh transporters to try to deorganize who is transporting what in an unbiased way. And so the idea of looking at differences in serum metabolites to inform uh physiology is not new. So there are a number of metabolites for which there's human diseases caused by elevated levels of metabolites. So this isn't a a foreign concept, but it was a"
+    },
+    {
+      "start": 845.6,
+      "end": 871.04,
+      "text": "a unique approach that we took to to deorganize these transporters. And we we first were able to show that things that you would expect from the literature that you could pick up. So for example, cholesterol is a very important metabolite and the transporter that takes up cholesterol is LDLR. And we were able to find that variance in this transporter are associated with uh changes in serum levels of that metaph."
+    },
+    {
+      "start": 869.12,
+      "end": 907.12,
+      "text": "And so we next turned our attention to what was unknown, what's previously unreported. And the one transport that I'm going to tell you about that I've been working on is this transporter called FVCR1. It's a expressed on the plasma membrane of cells. And we found that it was associated with this metabolite called phospholine. And we were interested in this metab in this association because it was not only associated with phosphocoline but also the downstream metabolite of phosphocoline phospatidylcholine which led us to believe that maybe this is a real bonafide hit that has something to do with choline metabolism."
+    },
+    {
+      "start": 905.36,
+      "end": 947.12,
+      "text": "Okay, taking a step back. What is choline? I'm sure most of you have probably heard of it before, but it's this fivecarbon essential nutrient that we have to take up from our diet. And it has once choline goes into the cell it has multiple metabolic fates of what it can become. So probably most wellknown is it can become acetylcholine and acetylcholine is a very important neurotransmitter. It can also be used to make phospatidylcholine which I just discussed before but phospatidylcholine is the most abundant phospholipid in mamalian membrane. So this is really what makes a cell a cell this layer of phospatidylcholine."
+    },
+    {
+      "start": 945.04,
+      "end": 988.639,
+      "text": "Additionally, it can be used to make baiting, this other metabolite that's important in one carbon metabolism, which plays a role in epigenetic regulation and transcription and other things that I won't touch upon today. But what I want to emphasize is that we know and I'll I'll talk I'll walk through this in a second, but we know that choline must be obtained from the diet and we know that it's a pretty abundant metabolite in human serum. And so the uh association of choline and um physiology really came about in the 1930s. So Frederick Banting and Charles Best were the first to show that if you have dogs that were uh had a pancreattomy. So they removed their"
+    },
+    {
+      "start": 986.88,
+      "end": 1030.799,
+      "text": "pancreas, they had fatty liver disease. And they found that if you gave these dogs choline, it reversed the fatty liver that these dogs had. again showing for the first time that there was an association between the levels of a given metabolite in the diet, choline in this case, and disease in an animal model. And really in the 1970s, before the 1970s, it really wasn't even clear if choline was an essential nutrient for humans. It was thought that animals needed to eat choline, but humans didn't need to eat choline. And plants, for example, can make their own choline. But really, that came about in the 1970s. that dogma started to change and that really came about from studying"
+    },
+    {
+      "start": 1028.0,
+      "end": 1071.919,
+      "text": "um nursing mothers and the contents of breast milk. So choline is very very high in breast milk and choline is passed from mothers through the placenta to developing adults and kind of that body of literature in the '9s finally came to the conclusion and recommendation from governmental bodies that choline is in fact an essential human nutrient that you have to take in your diet um in order to have normal physiology and homeostasis. And they really observed this for the first time by doing studies in the 80s and 90s where they gave people choline deficient diets and then asked what happened to these people. And these people end up developing fatty liver disease. They have muscle wasting and they have liver"
+    },
+    {
+      "start": 1068.88,
+      "end": 1102.72,
+      "text": "wasting liver uh degeneration. But one of the coolest things about those studies is that when you reintroduce choline into the diet of people who if you've taken choline away from those phenotypes and those diseases all go away. again showing this tight link between uh the nutrients that you take up uh in your diet and your health options. Okay, so we know that choline because of its structure must be transported into cells. It cannot just passively diffuse across the membrane and get into cells."
+    },
+    {
+      "start": 1101.039,
+      "end": 1143.039,
+      "text": "And going back to kind of the association studies that I showed you before, we hypothesized that maybe this transporter that I discovered, FOVCR1, is a transporter of choline and allows choline to get into cells. Okay, now getting into some actual science. How do we show this? So we can take cells and genetically engineer them. So we knock out a gene and then add it back with an expression system. And we did this in cells. And then we just did metabolomics where we can look at all metabolites detected in the cell and ask what goes up what goes down. And when we did that we found that in cells that don't have ethylr1 this transporter they have very low levels of phosphocoline this choline"
+    },
+    {
+      "start": 1141.039,
+      "end": 1186.24,
+      "text": "derived metabolite as well as choline and another choline derived metabolite beta. And there's another approach that we can use especially in metabolomics which is using carbon tracing. So we can take advantage of the fact that some carbons are naturally occurring to have uh they're heavy naturally occurring. So we can feed these heavy carbons in a in a metabolite such as cold to cells and then trace how those carbons move through the metabolism and ask where did that carbon go when we fed it to the cells. And so when we do that we see that cells without FLCR1 cannot incorporate choline into the downstream metabolites of choline metabolism like phospholine in baby."
+    },
+    {
+      "start": 1183.12,
+      "end": 1219.28,
+      "text": "Okay. Now to really demonstrate that ethylvcr1 was a choline transporter we used radioactive choline and again similar types of experiments gave it to cells with and without ethylcr1. And the hypothesis being that if FLVCR1 transports choline, you should need FLVCR1 to see a radioactive signal of choline. And that's in case in fact what we saw. So in the orange you see here, we saw both time and dose dependent uptake of choline through the transporter FOV."
+    },
+    {
+      "start": 1216.4,
+      "end": 1246.08,
+      "text": "And really the gold standard in terms of metabolite transport is showing that in a liposome system. So a liposome is a cell-free system. It's a fake membrane, circular membrane in which you put in your protein of interest. And so without any other components, just your transporter of interest, do you see uptake of that metabolite? And that's in fact what we do see with FOVC1. So FOVCR1 alone can transport choline into lipos."
+    },
+    {
+      "start": 1244.0,
+      "end": 1279.52,
+      "text": "We also then did some work doing the cryoM structure where we resolved a structure of Ethyl VCR1 bound to its substrate choline. So I'm showing you here too. This protein exists in these two six hetero um pseudo bundles that rock back and forth to transport choline. And this is just zooming in on the pocket where we found choline bound to the protein. And there's these specific residues or specific parts of the protein which bind and stabilize choline so that it can be transported."
+    },
+    {
+      "start": 1277.6,
+      "end": 1322.72,
+      "text": "And when we mutate some of these residues, specifically this tryptophan W125, we can completely block choline transport. So again, we've really kind of nailed down from a biochemical point of view, this is the substrate of FVCR, FLVR1, it's choline. Um, okay. So this is all well and good. Like you found a transporter, it transports something. Do cells even care about having this? And surprisingly, not really. So only when we really really deplete choline do we see a difference in cells ability to grow in culture conditions. In normal conditions these cells grow completely fine. And if you think about it I just told you choline is super important. So how is that the"
+    },
+    {
+      "start": 1318.72,
+      "end": 1362.72,
+      "text": "case? So we used um that's a question. So how does cell sustain choline metabolism and proliferate without FODV1? And we use crisper based genetic screens to uncover some possible ways that the cells are using to cope this. And this is a technically a little challenging but conceptually very simple. You take cells with and without your gene of interest and then you just grow them and we use this pool genetic crisper system that each cell has a different gene knocked out in it. And then over time in a poolled fashion you ask if that gene that got knocked out is essential for cells in your condition not having FOBR1 for example to grow then at the end of"
+    },
+    {
+      "start": 1360.64,
+      "end": 1402.08,
+      "text": "your experiment you should see that cells in which you've knocked out that gene are no longer there and you can do these types of experiments and it's the power of unbiased genetic screens and what we're able to find is that I don't want to walk through the details very carefully but we were able to find that there were other ways that cells were able to compensate for not having choline transported through FOVCR1. So, one of them is the salvage pathway. So, cells can actually take up lipids extracellularly which contain choline and they can take that up and break it down and recycle it. So we're able to find out new biology in this respect and also we were able to see that one of the"
+    },
+    {
+      "start": 1400.64,
+      "end": 1445.52,
+      "text": "hits in our screen was this other transporter which is a family member of LDCR1 called FLDR2 and we were able to show that that itself also can transport choline. Okay, again this is cool. This is in mice, but what happens or this is in cells, but what happens in an organismal context? What happens if you don't have apple one and no choline transport in mice, for example? What happens? Well, consistent with the idea that it's essential, mice without FOVCR1 don't make it to birth. So, they end up dying at embryionic stage E12.5 in mice. So you can see there's the wild type mice or the mice that only have one"
+    },
+    {
+      "start": 1442.72,
+      "end": 1484.72,
+      "text": "copy of ethylcr1 gone completely fine. They're born they're normal. The ones that have both copies of is gone developmentally have defects. You can see that you don't have to be a an embryologist to see this. The head is different size. You see the eyes in the wild type and the hetererozygous that you don't see in the knockouts and even their the size of the embryo is different. Um, so this really shows that this transporter is actually necessary for mamalian development. And when we did metabolomics on these embryos, we found that the knockout embryos do in fact have decreased levels of choline and these downstream metabolites. Again, showing that the problem with these is"
+    },
+    {
+      "start": 1483.52,
+      "end": 1527.2,
+      "text": "probably that they don't have enough choline to for their downstream metabolic functions. And then we tried to ask could we actually rescue these mice that don't have FOB the1 by giving super physiological amounts of chine so very very high doses of choline to the pregnant mothers during pregnancy to try to extend the lifespan of these knockout embryos. And what we found is that we could significantly extend the lifespan of these knockout embryos. So, for example, in a the control arm, knockout embryos at day E15.5, we don't see any of them. I told you they die at E12.5, that's 3 days earlier. You don't see any"
+    },
+    {
+      "start": 1524.64,
+      "end": 1549.039,
+      "text": "of them. But the knockout ones, when we give really high levels of choline, we can still see live embryos at this time point. Again, there's still a lot of developmental problems with them, so we're not able to fully rescue it. I think this is very strong proof in mice that the thing that these mice are feeling these embryos during development is that they don't have enough cold."
+    },
+    {
+      "start": 1544.64,
+      "end": 1588.0,
+      "text": "Okay. So why is FOVCR1 loss embryionically lethal? The truth is we still don't have a clear answer for that but I want to show a little bit of data from this. Um and what we think is happening is that the mice that don't have FLBC1 during development their mitochondria which you guys probably know the powerhouse of the cell. this important metabolic this important metabolic uh organel is very messed up and dysfunctional in the knockouts and you can see I think just appreciating through these EM images what the mitochondria look like they're dark and dense the the darkness comes from the electrons in them and they have these beautiful structures of this double membrane bound structure and you can see"
+    },
+    {
+      "start": 1586.48,
+      "end": 1626.159,
+      "text": "that in the knockout embryos on the furthest right you have the christe which is the the the folds of the mitochondria are messed up they're swollen And we know from other data that I'm now showing here that they're not actually behaving properly. And what we think is happening is that the uh phosphodal choline, one of the the lipids that I talked about in the beginning, is a really important lipid for mitochondria. And perhaps by restricting choline through FOVCR1 not being there, they're not able to have enough phosphatidoline to make effective um mitochondria. And maybe that's why they're dying. And we we're working on this to try to figure it out."
+    },
+    {
+      "start": 1623.52,
+      "end": 1667.44,
+      "text": "Okay, what about in humans? And I think the beauty of basic science is that if you find something truly fundamental to basic science in biology, it usually is implicated in some type of human disease. And that's the case that we found as well. So they're actually rare, but there are dozens of people that have varants in ethylcier1 that causes this ultra rare disease called pecarp disease. And that stands for posterior columnar atexia with retinitis pigmentotosa. It's a long name, but it's a debilitating disease in which they have degeneration of the retina. So they eventually become blind and they also develop problems walking and ambulating because they have degeneration of their"
+    },
+    {
+      "start": 1664.32,
+      "end": 1699.44,
+      "text": "spinal cord. And before our work, they had made the association that this variants of this gene were associated with this disease. But what this gene transported and what potentially was the ideology of this of this uh uh the pathophysiology of this disease was not clear. And also this other transporter that we discovered in our genetic strains, the cousin of FLCR1, FLVCR2 is also associated with this less rare human disease called Fowlers. um syndrome."
+    },
+    {
+      "start": 1696.399,
+      "end": 1738.159,
+      "text": "And um kind of the the point of this work is that we you could hypothesize that given that these patients have variance in these transporters and I think we have pretty convincing evidence that what they're missing is choline, you can imagine devising very easy dietary interventions to help these patients by giving them more choline. And that's work that we're doing right now with clinicians to try to understand or try to help these patients. But also we're trying to understand too choline itself exists in this form furthest on the left. But there's other metabolites as I told you about in the genetic screens from which metabolite cells are very thrifty in the ways that they can regenerate choline."
+    },
+    {
+      "start": 1736.799,
+      "end": 1776.0,
+      "text": "And really the important part they need is this part that's highlighted in yellow. So, we're playing around with different formulations of different choline derived metabolites that we can give these patients to try to provide them with more choline so that they can um have a better expectancy in terms of lifespan but also in terms of uh their the pathologies that they're suffering from and uh the disease that they that they have. And finally, one of the things that I'm interested in as a basic biologist is that when we identify what a transporter does, that gives us a genetic handle that we can then go ask very fundamental biological questions."
+    },
+    {
+      "start": 1773.36,
+      "end": 1816.64,
+      "text": "So now that we know that FOVCR1 is a choline transporter, we can go knock it out in very specific cell types and ask what is the role of choline in the nervous system in mice and when we knock it out, what happens in these mice? And that's kind of the work that I'm doing now. Um, it's really going full circle and really understanding new biology based on a very fundamental deorphanization of these metabolic transporters. And I want to highlight this is just one of these 450 transporters, there's a ton of work to do to deorphanize these. But by understanding how nutrients get in and out of cells and organisms, we can start to build a better understanding of how cellular metabolism really works. and it can point us into directions of"
+    },
+    {
+      "start": 1814.399,
+      "end": 1859.6,
+      "text": "potential therapies for patients that have uh variance in in these transporters. And uh with that, I want to thank my lab and all the people that I work with and I'd be happy to take any questions. Thank you guys so much for listening. [Applause] All right. Does anyone have any questions? Yeah, I take the mic so the people in VR studio land can hear. >> Awesome. Thank thanks so much for the talk. Um is like Alzheimer's other"
+    },
+    {
+      "start": 1857.039,
+      "end": 1902.96,
+      "text": "dementias or disease of acetylcholine deficit. So you got like uh antiolinsterase inhibitors like ariscept amongst drugs. Just curious like you know research or or maybe maybe um I guess research you've done into that class of disease and FLC1 dynamics there. >> No, this is Thank you. That's that's a very good question and that's exactly what we're doing now. So we have knockouts of these mice that have some very Alzheimer's neurodeenerative like symptoms when we've made new knockout animals of these. So that's exactly what we're trying to do and try to understand the interplay of if choline is really"
+    },
+    {
+      "start": 1898.88,
+      "end": 1941.2,
+      "text": "necessary uh through FOVCR1 for the function of making acetylcholine and in these patients for example with colon eststerase inhibitors as you suggested be beneficial and I think they so that's that's work we're ongoing and working on yeah thanks for your question so what in the example you were showing earlier when you had the knockout mice that they they were able to go and inject larger amounts of choline to sort of overcome that. How does that translate into the amount that the human body can actually handle? Like if you're trying to think about in humans for those two diseases they discussed,"
+    },
+    {
+      "start": 1938.88,
+      "end": 1981.919,
+      "text": "what's the upper limit on choline intake that would be able to potentially exist and not cause other problems and how does that balance happen? And also if you're talking about recycling mechanism is that could potentially go and be the alternative uh ways of making use of the choline you said that's the way the modifications of the choline molecule molecule are the ways that you are going to try and get sorry versions of choline that can actually work for people who have these sorts of knockouts. Are there particular ones that you have found so far in these knockout mice that are looking to be more promising just >> yeah yeah no that's a great question. So first off, so in terms of the the amount of supplementation that we're able to do"
+    },
+    {
+      "start": 1980.0,
+      "end": 2022.08,
+      "text": "in mice, this is not necessarily the most directly transmittable. So you can so we're giving these mice dietary amounts of choline, but I think that the limit for that is the intestinal absorption. So you can eat bucket loads of choline. It's very hard to overdose in terms of eating choline. The biggest side effect is that you smell fishy because you make this trimethylamine. your gut microbiota actually breaks down the choline. So what we're doing in these mice is actually injecting IP choline and so I wouldn't suggest doing that in patients because if you inject too much choline you can cause a colonergic crisis and the mice for examples seize and die. So we found like the absolute level that the pregnant"
+    },
+    {
+      "start": 2020.72,
+      "end": 2062.96,
+      "text": "mice can take and that's what we were using. So in terms of the therapeutic benefit I think as he suggested over here maybe acetyloline eststerase inhibitors would be a good approach. So for people who don't know acetylcholine is a neurotransmitter it gets released in the syninnapse of between neurons and normally there's this protein called acetyloline eststerase that breaks down acetylcholine into choline and acetate and it's the same principle as like an SSRI for example that increases the level of serotonin in the syninnapse by blocking the breakdown of acetyloline eststerase of acetylcholine you're increasing the amount in the syninnapse So that would be a therapeutic benefit"
+    },
+    {
+      "start": 2061.679,
+      "end": 2105.04,
+      "text": "that you could go through and then like you suggested about the other forms of choline potentially some of those would have less of a choleergic effect if you were to give intravenous amounts. So I know for example I've seen like when paltro says she takes uh lysophospatidylcholine in in IV drips. So potentially you could think about ways of doing other types of colon containing molecule or metabolites that would be less averse in the patients that have the variants of ethyl one and two but it's it's hard we still don't even know how choline is absorbed in the intestine. So, we know that you"
+    },
+    {
+      "start": 2102.56,
+      "end": 2146.0,
+      "text": "have to get I think for women it's like 425 milligrams per day. Men it's like 550 milligrams. But we don't even know what the main dietary source of choline is. Like we know for example that it's in fish, meat, spinach, eggs, things like that. But we don't actually know is that coming from free choline that's in those or is it coming from choline containing metabolites like lysop phospatidylcholine? and are is the absorption that's happening in the gut of lysophospitylcoline or is that being broken down into choline and then being taken up into the gut. So there's very it's a very important metabolite but there's very fundamental things that we don't even know how it gets into"
+    },
+    {
+      "start": 2144.24,
+      "end": 2186.64,
+      "text": "circulation but that's the kind of thing we're playing around with. >> And how long does it takes? Let's say if hypothetically speaking >> if there was a a timing for for recovering the system let's say the mice for example how long did it took you to make it back to normal level after you try the steroid thing number one and number two um what was the threshold and what would be the again hypothetically speaking what would be the threshold for a human you said 550 for male 425 for If you wanted to compensate in more for"
+    },
+    {
+      "start": 2185.04,
+      "end": 2224.8,
+      "text": "it, yes, of course, we have to evaluate how low is it and then take it back. But let's say you're recovering from a disease or something like that. It happened. Say you went down to 50%. >> Again, hypothetically speaking, >> um how long would it will it take it to let's say we'll take it up and we'll leave it there and it say like two months, three months or have you tried something like that? We've so the mouse experiments I've shown so far we're doing the pre we're treating them from conception. So they've always had elevated levels of colon. The amount that's the amount that we inject into the mice is like equivalent to a human."
+    },
+    {
+      "start": 2222.56,
+      "end": 2255.52,
+      "text": "So it's very very high amounts. And the thing I want to emphasize too is in cells that don't have epcr they cannot take up free choline. So I think the way that we're getting choline into these cells is there's just so much outside of the cell that some of it's like leaking into the cell. So that's the other thing is like even if you were to make the choline level back to what a normal patient had that has a variant with PC1, they still can't take up that colon. Do you know what I mean? Because choline so >> the cell is actually damaged."
+    },
+    {
+      "start": 2253.92,
+      "end": 2286.24,
+      "text": ">> The cell is not able to take up that free choline. So a a better approach would maybe be using a different choline containing metabolite because it's probably a different transporter for that metabolite. So patients that have variance in ethylcr1 may be okay at taking up glycerospholine. So if you give them that, you're still giving them the same molecular toolkit that they can then work with to do their metabolism, but you're circumventing the problem they have in getting into the cell. If that makes sense."
+    },
+    {
+      "start": 2283.92,
+      "end": 2310.56,
+      "text": "And in terms of timing, >> I would think the problem with any neurodeenerative disease is like once the horse has left the stable, it will make. So you it would be preventative would be the best case scenario if you were to screen people that had variance in this the longer the more you can give them excess amounts of coding the better because it's very hard to once neurons have generated remake those neurons."
+    },
+    {
+      "start": 2308.079,
+      "end": 2352.8,
+      "text": "They're gone. So that's what I would say about that and it would have to be probably a forever thing. >> Thank you for the talk. Found it very interesting. Um curious about the funding from that. So what's the end goal of the research? Does it lead to something which is translational and what are the applications in industry? >> Yes. So the funding that I have from MER is just they fund a certain number of postal fellows at Rockefeller. So I had that funding for a year. So it's not even like project based. So there are ways of course that that pharma companies will work with investigators but that wasn't really the case for this. Um in terms of the therapeutic"
+    },
+    {
+      "start": 2349.44,
+      "end": 2392.24,
+      "text": "benefit like I think the these would be considered ultra rare diseases that I don't think many pharma companies would touch uh this type of work. The one good thing is when you're working with metabolites and nutrient supplements, a lot of that is not considered a drug, right? You could tell a patient that you should go get nature made choline to try that. You don't even need to file an IND or to do those types of trials. So, that would be a way that we could help these patients without going through typical pharmaceutical trials. But I think big picture understanding how choline is taken up and what that plays a role in in different diseases going to Alzheimer's or something like that could"
+    },
+    {
+      "start": 2390.56,
+      "end": 2420.64,
+      "text": "be something where a pharmaceutical company would be interested. And I can say for example prostate cancer they use choline PET scans to stage prostate cancer because prostate cancer really takes up a lot of choline. So like potentially if you had an inhibitor that blocked FOVR1 that really you have found a therapeutic window that hit cancer cells but not normal cells that would be a good therapy. We haven't talked to any pharma companies about that kind of stuff but that that's kind of what we're thinking."
+    },
+    {
+      "start": 2418.88,
+      "end": 2459.599,
+      "text": "So hopefully that answers the question. >> Okay. Thank you. Any more questions? >> Uh so two quick questions. So you mentioned for example choline can be absorbed into multiple ways in the body. So how does the body know which way to kind of uh which which would be the best use and two is there a way to kind of for neurodeenerative diseases to screen for whether um the problem is for example it's like the inability to absorb certain um uh uh metabolic >> Yeah."
+    },
+    {
+      "start": 2457.76,
+      "end": 2498.72,
+      "text": ">> Um >> I yeah it's a good question. So I would say that probably there's no in terms of the association of the uh problems in absorption and disease like nerve degeneration. I doubt there's probably genetic defects in transport in patients that cause common diseases like nerve degeneration. It's possible that deficiencies in diet could be associated. So they have done studies in mice for example that if you manipulate the amount of choline that they have in their diet and it's a mouse model that gets Alzheimer's already they get Alzheimer's even worse and even earlier."
+    },
+    {
+      "start": 2496.24,
+      "end": 2538.16,
+      "text": "So um that's that's a possibility. And then in terms of your first question like very interesting how does it's not just for choline for any metabolite. How does the cell know what it should go to make and how does it do that? The way it usually works for most of these metabolic pathways is it's kind of a funnel. So it comes in and it has multiple routes of where it can go. And the way that the cell usually changes the rate or the flux from which it goes down this path or this path is the amount of the enzymes that do the work to make it go down this side or down that. So example, you would shut down the enzyme that makes this so that in this cell type, you're not making the metabolite that you didn't want to make."
+    },
+    {
+      "start": 2536.24,
+      "end": 2568.319,
+      "text": "But how it's it's a very good broad question. How do cells sense and know what metabolites they have? How do they regulate that? That's a wide open field and something we and other people are very interested in. >> Here >> one last question. >> Yeah. Uh just a quick question in the heck case where they have one copy what's happening there is like half the cells are getting it up or down."
+    },
+    {
+      "start": 2565.359,
+      "end": 2604.96,
+      "text": ">> No. So the hat would be all cells have one copy of FLV. So they're not it's not a mosaic where some are knockout, some are wild type. It's all of them have one copy. But what you can tell from that is that having one copy of FOP is sufficient to do the job. And that actually is what we see in some patients that we've been working with where their parent has one copy gone and the other parent has another copy gone in a different place and only when they're together does their child have a problem. So having half is enough. But that's not the case for every gene. But in this case, it is."
+    },
+    {
+      "start": 2603.2,
+      "end": 2635.119,
+      "text": ">> And how does it render like on the cell memory? Like do they have what path is transporter >> usually, but it depends. Some that's also controlled at the level of transcription. So some of some of some genes you don't need to have both copies to have the same number of protein. And it could be that the cell we don't know this. This is speculation. It could be that the cell senses that they don't have enough of it and they tell the cell to make more of that. And there's the compensatory mechanism that maybe they have the same amount."
+    },
+    {
+      "start": 2632.48,
+      "end": 2672.48,
+      "text": ">> Cool. Thanks. >> How many questions are left? >> You wait. So are you are you proposing for prostate cancer they knock out the gene? >> No, I wouldn't propose to knock it out, but in theory like a lot of these uh a lot of these drugs would be to inhibit the function of it. So if you could find something that could stick in the middle of the transporter and block it so that it can't do that, can't take up choline, that would be the >> So you would be suggesting to take up less choline for prostate cancer."
+    },
+    {
+      "start": 2671.44,
+      "end": 2693.76,
+      "text": ">> That would be the idea. >> I see. But wouldn't that come with other side effects? >> That's every drug. That's every drug. So it's always looking for a therapeutic window in which having that drug would hit the cells that you want to hit and cause an effect there without causing some other to do. But that's with every drug. >> Did uh did the drug company show interest in that?"
+    },
+    {
+      "start": 2692.0,
+      "end": 2720.48,
+      "text": ">> We've never pitched it to them and I've never really I I did cancer in my PhD. Planning to do more of it in the future, but that's not something we've it's just kind of throwing it out there. >> Oh, I see. >> But something that would be interest, but you'd have to find a molecule that can inhibit it. And I would be a little concerned given the phenotypes that we see in the mice that the therapeutic window we have to hit cancer but not hit any other cells might be too tight. It's not even worth doing."
+    },
+    {
+      "start": 2716.88,
+      "end": 2741.839,
+      "text": ">> Okay. So next question >> just uh quickly I the first sort of thought that I think probably most people have when they see the G-W was with the metabolites thing is wow that's a lot of hits and then you chose one and this was really great job like tremendous amount of work though. So are there any sort of thoughts or like initiatives to sort of parallelize parallelize this process?"
+    },
+    {
+      "start": 2739.68,
+      "end": 2780.8,
+      "text": ">> Yeah. So so for example the other work that I didn't present now we publish all the associations that we found and so one of the things and I think it goes back to TAI is decentralizing and putting back out there and I think my whole career I hope to have a long career. I can probably do I don't know tens of these but I can't do hundreds of these. So it's a big open project and again you have to choose what you're interested in and the way we did it is like for me it's like if it's evolutionary conserve that's more interesting for me. if there's patients that have variants in this that have a disease, that's interesting to me. But again, whenever you do these large types of um fishing expeditions,"
+    },
+    {
+      "start": 2780.079,
+      "end": 2823.88,
+      "text": ">> yeah, >> how you choose what to go after is always difficult. But I think one of the important things and the push that there is, I think, in the scientific community to make all that data accessible. So maybe some investigator really really cares about glutamine or some other metabolite, they can go find associations and they can work on them. >> Cool. Thank you. All right. So, >> brought you a H science grade man hat for your wonderful talk and thank you again to say and thank you. We have more people to drink. It's feel free to chat and mingle. So, thank you all for coming."
+    },
+    {
+      "start": 2819.52,
+      "end": 2823.88,
+      "text": "[Applause]"
+    },
+    {
+      "start": 2837.04,
+      "end": 2840.599,
+      "text": "Grab some pizza."
+    },
+    {
+      "start": 2856.02,
+      "end": 2862.52,
+      "text": "[Music] We don't"
+    },
+    {
+      "start": 2917.18,
+      "end": 2920.37,
+      "text": "[Music]"
+    },
+    {
+      "start": 2938.17,
+      "end": 2941.28,
+      "text": "[Music]"
+    },
+    {
+      "start": 2952.48,
+      "end": 2970.34,
+      "text": "Biscuits competition. [Music]"
+    },
+    {
+      "start": 3000.079,
+      "end": 3005.319,
+      "text": "It's basically like"
+    },
+    {
+      "start": 3036.8,
+      "end": 3049.679,
+      "text": "Yeah. Like [Music] [Music]"
+    },
+    {
+      "start": 3087.19,
+      "end": 3099.12,
+      "text": "[Music] [Music]"
+    },
+    {
+      "start": 3152.8,
+      "end": 3160.159,
+      "text": "Wow. Thank you. [Music]"
+    },
+    {
+      "start": 3176.2,
+      "end": 3182.449,
+      "text": "[Music]"
+    },
+    {
+      "start": 3270.48,
+      "end": 3273.72,
+      "text": "Good afternoon."
+    },
+    {
+      "start": 3289.68,
+      "end": 3302.02,
+      "text": "If anyone needs a QR code, go. [Music]"
+    },
+    {
+      "start": 3340.0,
+      "end": 3343.24,
+      "text": "Oh my god."
+    },
+    {
+      "start": 3360.4,
+      "end": 3364.2,
+      "text": "You know what you guys are using?"
+    },
+    {
+      "start": 3380.96,
+      "end": 3383.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 3396.36,
+      "end": 3399.409,
+      "text": "[Music]"
+    },
+    {
+      "start": 3416.319,
+      "end": 3419.64,
+      "text": "It's really"
+    },
+    {
+      "start": 3441.0,
+      "end": 3450.249,
+      "text": "[Music] [Music]"
+    },
+    {
+      "start": 3460.01,
+      "end": 3463.119,
+      "text": "[Music]"
+    },
+    {
+      "start": 3475.14,
+      "end": 3480.79,
+      "text": "[Music]"
+    },
+    {
+      "start": 3488.24,
+      "end": 3497.849,
+      "text": "Good job. [Music]"
+    },
+    {
+      "start": 3524.96,
+      "end": 3528.119,
+      "text": "I don't know."
+    },
+    {
+      "start": 3556.079,
+      "end": 3558.96,
+      "text": "Sorry."
+    },
+    {
+      "start": 3566.28,
+      "end": 3571.96,
+      "text": "[Music] Yes."
+    },
+    {
+      "start": 3605.839,
+      "end": 3613.039,
+      "text": "Thank you. [Music]"
+    },
+    {
+      "start": 3632.079,
+      "end": 3635.16,
+      "text": "Thank you."
+    },
+    {
+      "start": 3662.72,
+      "end": 3665.96,
+      "text": "This way."
+    },
+    {
+      "start": 3672.03,
+      "end": 3675.129,
+      "text": "[Music]"
+    },
+    {
+      "start": 3694.0,
+      "end": 3697.319,
+      "text": "Someone else"
+    },
+    {
+      "start": 3704.72,
+      "end": 3707.72,
+      "text": "impressive."
+    },
+    {
+      "start": 3724.24,
+      "end": 3740.389,
+      "text": "I don't think It's like [Music]"
+    },
+    {
+      "start": 3766.88,
+      "end": 3771.48,
+      "text": "So if you're not drinking"
+    },
+    {
+      "start": 3816.72,
+      "end": 3820.039,
+      "text": "Good Yeah."
+    },
+    {
+      "start": 3834.319,
+      "end": 3838.359,
+      "text": "Deep down there."
+    },
+    {
+      "start": 3848.96,
+      "end": 3867.649,
+      "text": "I want to interrupt. [Music] [Music]"
+    },
+    {
+      "start": 3877.29,
+      "end": 3885.309,
+      "text": "[Music]"
+    },
+    {
+      "start": 3898.96,
+      "end": 3904.359,
+      "text": "Don't Beautiful."
+    },
+    {
+      "start": 3941.13,
+      "end": 3955.67,
+      "text": "[Music] Okay. Two. [Music]"
+    },
+    {
+      "start": 3968.0,
+      "end": 3971.16,
+      "text": "Don't wait."
+    },
+    {
+      "start": 3983.46,
+      "end": 3986.519,
+      "text": "[Music]"
+    },
+    {
+      "start": 3993.839,
+      "end": 3997.0,
+      "text": "You know"
+    },
+    {
+      "start": 4006.12,
+      "end": 4011.01,
+      "text": "[Music]"
+    },
+    {
+      "start": 4043.44,
+      "end": 4055.319,
+      "text": "No, they're not. It's not"
+    },
+    {
+      "start": 4075.76,
+      "end": 4078.76,
+      "text": "good."
+    },
+    {
+      "start": 4096.0,
+      "end": 4101.679,
+      "text": "Oh, I [Music]"
+    },
+    {
+      "start": 4127.66,
+      "end": 4135.869,
+      "text": "[Music] I probably [Music]"
+    },
+    {
+      "start": 4153.979,
+      "end": 4157.139,
+      "text": "[Music]"
+    },
+    {
+      "start": 4180.0,
+      "end": 4191.47,
+      "text": "Good job. [Music]"
+    },
+    {
+      "start": 4201.6,
+      "end": 4204.6,
+      "text": "Oh,"
+    },
+    {
+      "start": 4223.32,
+      "end": 4226.439,
+      "text": "[Music]"
+    },
+    {
+      "start": 4247.36,
+      "end": 4267.999,
+      "text": "Did I take I thought this Oh my god. [Music]"
+    },
+    {
+      "start": 4301.72,
+      "end": 4314.6,
+      "text": "[Music] Coming up. [Music]"
+    },
+    {
+      "start": 4322.57,
+      "end": 4341.529,
+      "text": "[Music] It's amazing. [Music] Thanks for telling Yes, we really [Music]"
+    },
+    {
+      "start": 4353.32,
+      "end": 4356.45,
+      "text": "[Music]"
+    },
+    {
+      "start": 4368.88,
+      "end": 4371.88,
+      "text": "Everyone"
+    },
+    {
+      "start": 4405.36,
+      "end": 4427.009,
+      "text": "[Music] talking to the wrong people. >> Uh, anyone else to talk to me? [Music]"
+    },
+    {
+      "start": 4464.48,
+      "end": 4470.92,
+      "text": "That was like 256 years later."
+    },
+    {
+      "start": 4492.64,
+      "end": 4511.96,
+      "text": "I worked in that last long time ago. What? >> Yeah."
+    },
+    {
+      "start": 4535.44,
+      "end": 4538.76,
+      "text": "Love you."
+    },
+    {
+      "start": 4566.97,
+      "end": 4570.089,
+      "text": "[Music]"
+    },
+    {
+      "start": 4589.28,
+      "end": 4601.88,
+      "text": "Good job. [Music] Thank you."
+    },
+    {
+      "start": 4658.33,
+      "end": 4661.439,
+      "text": "[Music]"
+    },
+    {
+      "start": 4670.88,
+      "end": 4674.52,
+      "text": "I'll take Yeah."
+    },
+    {
+      "start": 4690.8,
+      "end": 4697.979,
+      "text": "Creation. [Music]"
+    },
+    {
+      "start": 4740.719,
+      "end": 4744.12,
+      "text": "Oh, it's working."
+    },
+    {
+      "start": 4755.92,
+      "end": 4758.92,
+      "text": "about"
+    },
+    {
+      "start": 4767.45,
+      "end": 4770.91,
+      "text": "[Music]"
+    },
+    {
+      "start": 4782.66,
+      "end": 4805.12,
+      "text": "[Music] become friends. [Music] Yeah, we've been at this office for a very long time and thank you so much."
+    },
+    {
+      "start": 4838.96,
+      "end": 4858.6,
+      "text": "Hi, thank you to everyone who joined us. This was an amazing event. We are wrapping up. So, if you guys could just head to the exit. Elevators and staircases are right ahead. Bathrooms are all along the left wall. Thank you guys again."
+    },
+    {
+      "start": 4868.4,
+      "end": 4884.36,
+      "text": "[Music] Oh my"
+    },
+    {
+      "start": 4902.64,
+      "end": 4913.4,
+      "text": "Sorry. petition."
+    },
+    {
+      "start": 4938.96,
+      "end": 4987.0,
+      "text": "Yes. Okay. [Music] >> And >> hey Mike, you want to help? >> Oh, good. >> Yeah. Yeah. Yeah. I think I mean [Music] >> I didn't need to be like mess and pulling this table to the front. >> Perfect."
+    },
+    {
+      "start": 4995.199,
+      "end": 5001.159,
+      "text": ">> Yep. Um, Congress to the far"
+    },
+    {
+      "start": 5017.679,
+      "end": 5031.639,
+      "text": ">> is it all? [Music] Oh, that's not"
+    },
+    {
+      "start": 5063.679,
+      "end": 5076.38,
+      "text": "I guess it's true. That's true. tattoo. [Music]"
+    },
+    {
+      "start": 5111.28,
+      "end": 5113.6,
+      "text": "I don't"
+    }
+  ]
+}

@@ -2,24 +2,29 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getEventMediaByPagePath, getMediaUrl } from "@/lib/media";
 import { withUtmSource } from "@/lib/tracking";
+import TalkTranscript from "@/components/TalkTranscript";
+import { transcripts } from "@/lib/transcripts";
+import { getTranscriptParagraphs } from "@/lib/transcript-content";
 
 const pagePath = "/biological-futures";
 const eventMedia = getEventMediaByPagePath(pagePath);
 
 export const metadata: Metadata = {
   title: "Biological Futures: CRISPR",
-  description: "Watch Dr. Jo Zayner's CRISPR talk at DeSciNYC.",
+  description: "Watch Dr. Jo Zayner's CRISPR talk at DeSciNYC and read the timestamped transcript.",
   alternates: {
     canonical: pagePath,
   },
 };
 
-export default function BiologicalFuturesPage() {
+export default async function BiologicalFuturesPage() {
   if (!eventMedia) {
     throw new Error("Biological Futures media is not configured");
   }
 
   const videoUrl = getMediaUrl(eventMedia.videoKey);
+  const transcript = transcripts.find((item) => item.key === "crispr");
+  const paragraphs = transcript ? await getTranscriptParagraphs(transcript.key) : [];
 
   return (
     <main className="min-h-[calc(100vh-3.5rem)] px-4 pb-20 pt-12 md:pb-28 md:pt-20">
@@ -41,9 +46,14 @@ export default function BiologicalFuturesPage() {
           <p className="text-stone-400">Dr. Jo Zayner</p>
         </header>
 
+        {transcript && (
+          <a href="#transcript" className="w-fit text-sm text-[#5cdb68] underline underline-offset-4">Read transcript</a>
+        )}
         <div className="overflow-hidden border border-[#202020] border-b-4 border-r-4 bg-black">
           <div className="aspect-video w-full bg-black">
             <video
+              id="recording"
+              tabIndex={0}
               className="h-full w-full object-contain"
               controls
               playsInline
@@ -52,6 +62,7 @@ export default function BiologicalFuturesPage() {
               aria-label="CRISPR video with Dr. Jo Zayner"
             >
               <source src={videoUrl} type="video/mp4" />
+              {transcript && <track kind="captions" src={transcript.captionsPath} srcLang="en" label="English (automatic)" />}
               <a href={videoUrl}>Open the video</a>
             </video>
           </div>
@@ -68,6 +79,7 @@ export default function BiologicalFuturesPage() {
         >
           View Luma event
         </Link>
+        {transcript && <TalkTranscript transcript={transcript} paragraphs={paragraphs} />}
       </div>
     </main>
   );

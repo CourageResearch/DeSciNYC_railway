@@ -1,0 +1,544 @@
+{
+  "paragraphs": [
+    {
+      "start": 0.06,
+      "end": 42.84,
+      "text": "okay so uh welcome everyone to the opening evening and thank you for joining us for the first ever DSi NYC Meetup and as we all know science has been at the Forefront of human progress pushing the boundaries of like what is possible and unlocking the secrets of the universe but in recent years the traditional scientific establishment has come under scrutiny um has come under scrutinity for an increase for its increasing Reliance on Authority on centralized Authority Gatekeepers and bureaucracy but with the rise of web 3 Technologies like blockchain smart contracts and"
+    },
+    {
+      "start": 40.5,
+      "end": 84.119,
+      "text": "decentralized networks we now have the opportunity to fundamentally transform the way science is done decentralized science offers a new paradigm of open transparent and collaborative research where anyone with an internet connection can contribute to the scientific process regardless of their academic credentials or institutional affiliation so just imagine a world where research is done at research data is freely available and verifiable where scientific results can be peer-reviewed and validated in real time and we're funding and rewards are distributed based on Merit and contribution rather"
+    },
+    {
+      "start": 81.479,
+      "end": 124.979,
+      "text": "than on subjective biases in politics this is the vision of decentralized Science and it has the potential to unleash a new era of innovation and progress but we can't do it alone decentralized science requires a vibrant and diverse community of researchers developers and enthusiasts who are willing to challenge the status quo and embrace new ways of thinking and working and that's why we're here today to start a conversation to share ideas and to experience and to build the network of support and collaboration and there's no better place to do this than New York City as the global capital of culture and technology and Finance New York is the perfect launching pad for decentralized science"
+    },
+    {
+      "start": 122.88,
+      "end": 166.319,
+      "text": "with its Rich ecosystem of universities research institutions startups and investors New York is the ideal place to innovate and accelerate the development of a decentralized science but it's not just about science New York is also a vibrant and inclusive community where people of all backgrounds and experiences can come together and learn and grow and create from the best-selling streets of Manhattan to the vibrant neighborhoods of Brooklyn New York is a Melting Pot of ideas and Inspirations where decentralized science can Thrive and flourish so let's get started let's explore the potential of decentralized Science and let's build a community of innovators and explorers who are who are ready to take on the challenges and opportunities"
+    },
+    {
+      "start": 163.8,
+      "end": 206.94,
+      "text": "for the 21st century let's make New York City the epicenter of decentralized Science and let's unleash a new era of discoveries and progress thank you foreign so a couple of important announcements we've already scheduled our next Meetup Desai NYC event number two January 5th 6 to 8 PM RSVP at the Luma here okay next thing um we started a vibrant group chat there are 80 people in it so far it has a lot of great discussions and the people you want to know we you can apply to be in it if you're interested in the"
+    },
+    {
+      "start": 205.319,
+      "end": 244.819,
+      "text": "scan QR code and there's a couple questions you can answer and then you'll get amazing opportunities inside it and then lastly the event today was sponsored by dvdow which is the company that I work for okay now without further Ado is Ariel in here oh come introduce the mushroom guy all right so up here we have David hi Nathan how are you doing how's it going hell yeah it's great Nathan I'm gonna read a little bit about you um from some information I found on this thing called the internet"
+    },
+    {
+      "start": 245.7,
+      "end": 290.46,
+      "text": "okay no problem he created mushrooms under her website it was what he's going to talk to us about and um in 2006 so you've been doing that a long time yeah you've been active in the mycology community in various roles for over 40 years um from 2010 to 2014 he worked for the Marine biological laboratory in Woods Hole where he was the director of the biodiversity informatics component of the Encyclopedia of Life which sounds"
+    },
+    {
+      "start": 287.16,
+      "end": 330.66,
+      "text": "extremely fancy so I mean that's amazing good job um you've also had a number of amazing positions according to this website but I think we're going to talk a little bit more um about mushroom Observer which is a collaborative mycology website um and it helps people record observations about mushrooms helps people identify mushrooms they aren't familiar with and expand the community around the scientific exploration of mushrooms which I think is a very relevant topic today because I think it's something that people are super interested in so Nathan take it away great thank you so much so happy to be here"
+    },
+    {
+      "start": 327.36,
+      "end": 337.62,
+      "text": "let me go ahead and share my screen make sure that this is working uh"
+    },
+    {
+      "start": 348.6,
+      "end": 367.759,
+      "text": "I'm sure that's doing exactly what I wanted to do okay um just a minute let me I think it I think my machine decided to do something different than I was expecting let me try this"
+    },
+    {
+      "start": 375.72,
+      "end": 420.479,
+      "text": "it works okay let me just try zooming this and see if that works yay okay you just can't be zoomed originally so whatever okay so yeah so who am I um so I consider myself a lifelong naturalist I also consider myself a Mycologist um my college is the study of fungi um I've been an open source developer since about 1985. um I've been a software team lead at various companies uh since 94 and I was the original creator of the mushroom"
+    },
+    {
+      "start": 416.1,
+      "end": 459.84,
+      "text": "Observer um in 2006 it was largely in response to Web 2.0 remember that way back in the day um and basically essentially putting databases online rather than just having you know little tiny pages that just didn't do very much um and I thought you know I'm really interested in mushrooms I've got a bunch of mushroom pictures I really want to share them I love open source I just want to create this environment where people can go in and share some stuff and I figured I'd share with a few friends and you know we'd see what happened um so this is the site as it looks today"
+    },
+    {
+      "start": 457.02,
+      "end": 501.419,
+      "text": "um or a few days ago and uh some example observations that have gone up here um it does have a little bit of a 90s look to it we're working on getting that updated and hopefully that will happen soon um so but the website as I like to say has been successful beyond my wildest dreams so uh we currently have 1.5 million images of fungi from all over the world uh we have getting close to 500 000 observations that are associated with those images and we have about 11 000 people who have contributed in some way or another um to the website um by uploading images or making"
+    },
+    {
+      "start": 499.08,
+      "end": 543.66,
+      "text": "comments or whatever um so it's an active website in the time I've been talking I'm sure yet another observation has gone up with yet more uh photos of mushrooms so um it's really and and it's pretty well known within the larger scientific mycology Community as a source of data and a lot of people use it and enjoy it and participate and we have very high level top professionals that have found the community and are part of it so why did I create it well number one reason is I love mushrooms I got into mushrooms when I was about 10. my mom encouraged it and I got involved in the"
+    },
+    {
+      "start": 541.56,
+      "end": 584.7,
+      "text": "amateur mycology Community which is a very active community of folks that also are interested in mushrooms there are chapters in pretty much every major city in the U.S of some sort or some group that's studying mushrooms in some way and the science itself is for a very long time had a very strong and active amateur community um I was really interested in sharing a bunch of images that I had and sort of keeping a journal of some way but I was really computer oriented so I was like I really want this to be online so I made an online one discovered Ruby on Rails"
+    },
+    {
+      "start": 582.3,
+      "end": 626.94,
+      "text": "and a month later the first version of mushroom Observer um was up um the other thing that's really sustained Mo uh is the core developer Community uh with a real shared Vision so we have a you know relatively small number of folks that are very active in helping to develop it and move it forward and uh it would not be what it is without um that team so um one of the things that we do uh in mushroom observers we have a identification process so I had originally been really interested in getting computers to do identification and even wrote a master's thesis on it"
+    },
+    {
+      "start": 624.839,
+      "end": 668.519,
+      "text": "um it was a really hard problem um especially in that day and age um and uh I realized that basically I could just leverage the community that we already had to help with identification so because I was you know just thought it was a cool idea I went ahead and created a voting system within it so that people could propose names and then people could sort of upvote or downvote um the name uh it's essentially a seven point scale at the moment and the weight of your vote um everybody gets one point a vote and then you also get um there's sort of a logarithmic component of uh based on your site usage"
+    },
+    {
+      "start": 665.7,
+      "end": 711.24,
+      "text": "um so uh you get a little you get a significant boost as you start contributing and then as you can get more and more stuff it kind of tails off but you know uh could you continue to make progress um in terms of the weight of your vote compared to other people um the big challenge for the existing voting system is it does create confusion um I won't go into the details unless someone asks me and I can explain some more about that um at this point I actually really one of the things I want to do is change the voting change the ID process actually and I really want to move to more of a last one wins model um which is actually very characteristic of existing scientific"
+    },
+    {
+      "start": 707.76,
+      "end": 750.42,
+      "text": "um herbaria and fungaria uh where specimens get stored where basically the last person to really look at it and dig into it it usually leaves a note saying this is probably this other name um and uh they essentially uh end up naming uh the particular observation or the particular specimen in that case um so the community kind of likes the voting system so I'm not quite sure how to balance all of that this particular mushroom I chose as an image because it's our most heavily voted and contentious mushroom that's ever been on the site um it has 24 proposed names no one has"
+    },
+    {
+      "start": 748.74,
+      "end": 791.1,
+      "text": "agreed on what it is that we finally settled on basically it's a mushroom that's essentially what this says um and there have been 139 vote um there's 24 proposed names so uh most things get a very very much much smaller than that but um there is some discussion and so forth that happens around some of the the uh observations so um one of the things that um Michael asked me to talk about was uh the data usage of mushroom Observer so as I mentioned earlier we have about half a million observations about 1.5"
+    },
+    {
+      "start": 789.18,
+      "end": 834.36,
+      "text": "million images in the original concession of mushroom Observer or pretty early on in the conception of fashion Observer I should say um 2009 something like that um I learned about a project called the Encyclopedia of life and uh sort of related project called the global biodiversity information facility or gbif and they are aggregators of taxonomy information like this essentially observational data um and um other projects uh that sort and so one of the things they do is they look for sites similar to this one and develop a relationship and start and"
+    },
+    {
+      "start": 832.5,
+      "end": 879.56,
+      "text": "hopefully get them to develop an API which we then are pushing data through um and so um mushroom Observer has done that for many years uh to the Encyclopedia of life um Dave Gibson a slightly different state but a lot of from Observer eventually ends up on gbiv um and uh that sort of data sharing has been going on for a long time and a lot of the scientific Community uses observations um particularly uploaded to gbif um but and also to Australian extent within EOL um there's also sort of a manual process where people have moved a lot of the images up to a site like Wikipedia um and some of the many of the mushroom"
+    },
+    {
+      "start": 875.519,
+      "end": 920.339,
+      "text": "images in Wikipedia are originally from mushroom Observer so that's pretty cool um the other big interesting question that I was hoping to encourage as I developed the site was species Discovery so the image over here is an example of a mushroom that occurs in California it used to go under a different name um but one of the active members of the mushroom Observer Community um was really interested in trying to publish this as a species and he did the"
+    },
+    {
+      "start": 916.139,
+      "end": 962.16,
+      "text": "work along with his vibrator uh I want to say it's Mark Davis I Can't Remember up Top Hand anyway she's been more prepared I'll do that but anyway um they uh named this at Augusta in probably I don't know 2011 2012 um and it's a well-known now well-known name and uh mushroom Observer helped make that happen so it's a good example of that process there are but many others that have been named uh information that comes out of the site um some of the things that I wasn't really thinking of that were also forms of data usage were species rediscovery"
+    },
+    {
+      "start": 959.459,
+      "end": 1002.66,
+      "text": "um so the picture over here is um called the hypokriopsis Rhododendron um it had not been observed for 150 years um in the area that this was this observation came from which was West Virginia um and uh this photo showed up on mushroom Observer and people started discussing it and trying to figure out what the heck it was and um eventually a researcher in Scotland who was studying a related species in the UK um up on it and uh material was delivered to them they did the DNA sequencing on it and they discovered"
+    },
+    {
+      "start": 1000.079,
+      "end": 1044.72,
+      "text": "that it was in fact the same species as had been collected 150 years earlier um and uh was a substantial find for this species um so that was pretty cool and uh you know just an exciting uh cool story that came out of equestrian Observer it's not at all unusual for muscle Observer to cause range expansions um there are not a lot of active psychologists in the world that are not amateurs and there aren't a lot of systems that help get their traditions and their collections out of the world and so mushroom reserver tries to do that and tries to help people understand"
+    },
+    {
+      "start": 1041.679,
+      "end": 1085.34,
+      "text": "the range of the organisms and so forth that we have some maps in the website and things like that for looking at those um interestingly um it's now well known that a number of species are expanding um their range uh in the world including one of the deadliest questions in the world Gemini the full ladies um for the death Gap um and it's expanding its range actively in the United States and you can track that on insurance over and the main researcher who did that yeah is actually on our board of directors uh now and uh tracks that particular species in some"
+    },
+    {
+      "start": 1082.82,
+      "end": 1125.6,
+      "text": "of its close relatives um one of the forms of data usage that I couldn't even Envision I couldn't Envision at all and I originally created the site was the machine Learning Community would get as excited as it is now or as as productive as it is now and start looking for data sets similar to mushrooms we currently get a request probably about once a week for someone who's interested in using our data set in some way or doing machine learning um it is actually an area of active development within mushroom Observer itself at this point uh we do have a prototype"
+    },
+    {
+      "start": 1123.62,
+      "end": 1167.48,
+      "text": "um machine learning based identification system um and um to be able to roll out something um in the near future that will help and assist with identification based on images um there are some interesting challenges there if that's a whole other talk I could give it would be happy to talk more again if you ask a question about that I can get more into that um and where we're going with that so one of the things Michael suggested I I talked about lessons that I've gotten and sort of building the community of you know 11 000 people that are contributing to the site number one keep it simple um we try to make it as simple as"
+    },
+    {
+      "start": 1165.799,
+      "end": 1209.48,
+      "text": "possible for someone to add an observation um get feedback um don't expect a lot from any one individual just let the whole Community um contribute there will be people who go Gonzo and get really really involved and there will be people who put up one observation to get a name and then walk away um and that's all that's fine they're all legitimate contributions um obviously the people that get more involved in it presumably get more out of it and as a result we get more out of it which is great um I've also always been really interested in sustainability focusing on community needs like how do we make a system that we could live for a really"
+    },
+    {
+      "start": 1207.919,
+      "end": 1252.2,
+      "text": "long time um a lot of that means keeping costs extremely low um just running off of volunteers making sure that there are backups for different roles and not like having really strict deadlines or a huge amount of pressure or anything like that so we're all about just keeping it going um I also think um we try hard to avoid required coordination so um somebody can go in they can just put something in if someone else picks up on it and sees it that's great if they don't that's okay um there's not a lot of coordinating within the community other than what"
+    },
+    {
+      "start": 1250.1,
+      "end": 1293.0,
+      "text": "people want to make themselves and so the leadership of the project Moore is just doing tasks to help accelerate the website and trying to spend a lot of time managing the community or trying to coordinate people or things like that um as with everything in life um it always helps to be thankful and to stay humble um and finally um there are quote competitors out there there's uh other tools that do similar things they're even now um or uh projects that have even more phone images of fungi than we do but as"
+    },
+    {
+      "start": 1291.26,
+      "end": 1334.82,
+      "text": "we collaborate with them we work with them um we are interested in the problem we're not interested in our solution being the final solution or anything like that we're trying to fill a gap that we perceive and create a place where people can have fun and learn um and so collaboration is way more important to us than any like real feel of competition so I love the concept of Desai um I myself um have almost got involved in a blockchain startup back in whenever that was back back when the um consensus uh restriction constriction"
+    },
+    {
+      "start": 1332.539,
+      "end": 1375.08,
+      "text": "happened uh reorg whatever you want to call it um I was almost about to get hired and then uh got the rug pulled out from under me and ended up going working somewhere else which is fine um but I do like the concept of blockchain a lot um and think that it has a lot of power that we haven't yet explored um and I love the idea of applying it to science um I'm not completely sure that taxonomy and blockchain are ready to dance they might be um I'd love to get some thoughts uh on that um I do think larger science has has like a better place to start or maybe"
+    },
+    {
+      "start": 1372.679,
+      "end": 1415.22,
+      "text": "medical uh research and things like that where there's kind of more immediate energy and work but I think there's a lot of lessons that can be learned from taxonomy and from mycology in terms of how we we go about doing what we're doing right now and I definitely think that you know that we could leverage some of those things as they come into existence or maybe help make help them uh and encourage them into existence um so I think of taxonomy as the original uh decentralized science um it has always been a process where people working in obscure corners of the world can go ahead and publish something"
+    },
+    {
+      "start": 1413.0,
+      "end": 1455.78,
+      "text": "um write down what they found and publish it in a particular way and then that becomes uh an authority on it and they have processes for dealing with people who describe the same species uh but at different points in time and um things like that in terms of what takes priority and so forth and that's all part of the process it's kind of messy but it has also worked pretty well I do think there are some flaws in it that I think uh we could address and and get better at um and I'm hoping to do some of that through mushroom Observer um but it's certainly been going on for you know the last 150 years uh and doing"
+    },
+    {
+      "start": 1453.559,
+      "end": 1496.4,
+      "text": "a pretty effective job but it is still extremely decentralized in terms of how how species get named and described and discovered which I think is exciting and I think is an interesting and worthy model uh to think about on the context of trying to develop the ideas around uh whatever the next wave is going to be um so when thinking about blockchain and comparing it to sort of my earlier notes these are kind of the points of conflict that I see so the reality is blockchain is pretty complex um I think I'm sure many people here understand it really well um I myself feel like I have a decent"
+    },
+    {
+      "start": 1494.539,
+      "end": 1538.34,
+      "text": "understanding of it um but it's pretty darn complex it's a really hard thing to explain to your mom um and until either people have like seen some more like really clear um value in it and examples from it other than like speculating on bitcoin um that's going to be a hard piece of moving this forward and getting it integrated into systems like this in an effective way um I think the the question's still out about how sustainable um blockchain is um I do love that ethereum has moved over to proof of stake"
+    },
+    {
+      "start": 1535.88,
+      "end": 1579.58,
+      "text": "um rather than proof of work um because you know being really interested in the natural world it was very concerning to me how much carbon was getting generated by um that whole process and um I I think that that's an important move and I'd love to um I I I'm not incredibly close to it so I don't know all the ins and outs of it but I would love to know more about how effective that has been in terms of reducing um the cost of maintaining blockchains um and finally at some level blockchains are coordinated um I mean yes they're distributed but there is a big component of that which"
+    },
+    {
+      "start": 1577.159,
+      "end": 1620.059,
+      "text": "is sort of loose coordination through computers and through keys and things like that so to me those are more interesting questions like how does that fit into the philosophy that we've been taking um with this um uh scientific endeavor and finally a big question for me is what is the value of a name um obviously in some sensitive situations they're extremely important but they're also now like really really cheap it's really easy to make to publish a new species um and it's really easy to do this and and the real challenge is knowing how to"
+    },
+    {
+      "start": 1618.5,
+      "end": 1666.98,
+      "text": "compare it to all of the other things and so forth and there's a there's a big set of work that typically happens around people publishing um new scientific name information but an individual name is it's not at all difficult to get a new name published and there are plenty of species that have not been described um like to put that in perspective the current estimate is that there's between 1.5 million and 10 million species of fungi we don't even know the order of magnitude of the number of species in the world and of those only about 70 000 have been described so there's a giant Gap there"
+    },
+    {
+      "start": 1662.72,
+      "end": 1705.32,
+      "text": "um there are undoubtedly fungi in New York City that have not been described like there's just no question um and you know I used to live in LA and there was a mushroom that grew a couple blocks from me that to this day has not been described um so it's not there's a huge gap there there's a lot of value in filling that Gap but it's also a very slow process and it's not something that there's a huge amount of force behind but it's something that we need to keep moving forward with to understand the diversity of the world and there's a lot of things"
+    },
+    {
+      "start": 1703.159,
+      "end": 1744.799,
+      "text": "um that we just don't know um that can probably be helpful so plans for the mushroom Observer so our number one goal is to better serve the mycology community in general as I alluded to earlier I've been working on um a project for doing machine learning for ID we have a couple of different people who are involved in that um so we're looking at um some of the current quote AI machine learning tools Pi torch and so forth um and fast AI to try to leverage that and so that's a really great project we"
+    },
+    {
+      "start": 1743.48,
+      "end": 1786.98,
+      "text": "have a small group of people who are working on that there are other people who want to get involved in that they're the door is completely open and would love to get people involved um we actually just released a mobile app for the website um and I'll give you some of the contact information for that uh it we literally got the final version all approved and done Monday um so uh we've been have it's been a beta test for a while and we're finally ready for public release um of the mobile app um and then the other thing um are just sort of General technology updates as I mentioned the current interface uh definitely needs a little bit of updating and there's a bunch of other sort of back end stuff just"
+    },
+    {
+      "start": 1785.0,
+      "end": 1828.039,
+      "text": "keeping up with uh the state of the world um that are important we also have some other projects that are out there and it's you know classic open source project if you've got a niche to scratch you're welcome to scratch it and you know we're happy to talk about it and try to figure it out and try to go from there so if you're interested in helping um number one thing to do go out and find some mushrooms and take pictures of them um and uh you know share them back to the website and uh so of course um if you're technically inclined which I'm guessing many of you probably are um we would love help with our Tech um we've got a you know small dedicated"
+    },
+    {
+      "start": 1825.32,
+      "end": 1869.12,
+      "text": "team of folks and uh everyone is welcome and uh yeah just let me know um and then finally uh we do have a donate page and we also have some exciting merch like this t-shirt that we just got available um the web the logo was just developed in the last year or so again volunteer basis um and uh we're finally sort of stepping up and making a lot of that stuff uh happen a little bit more robustly so that's my quick talk I wanted to thank Michael for inviting me to be here I definitely want to thank the mushroom Observer community and these are some of the main names of folks that are involved um Margaret McKinney was an amateur"
+    },
+    {
+      "start": 1867.2,
+      "end": 1909.86,
+      "text": "Mycologist who inspired my grandmother to learn about mushrooms who in turn passed that on to my mother who in turn passed it on to me and David Aurora wrote an amazing book called The Mushroom mushrooms demystified which is the number one source of my own original education on mushrooms and must thank them um and of course many other people have contributed along the way yeah here's some QR codes for the mobile app and I'm totally open to answering questions um I had a question right off the bat um when you think about like"
+    },
+    {
+      "start": 1907.58,
+      "end": 1951.2,
+      "text": "incentivizing your community like how does that work what what has worked well for incentivizing people what do people respond to um you know just rip on that sort of concept um one of the main things that people respond to is kind of the tension like if you get in and somebody puts up an observation and you start talking about it like people respond to that and they get hooked and they do more um we don't have any kind of financial incentive system uh within it we do have a simple point system that basically measures usage of the website um I would like to switch that over to"
+    },
+    {
+      "start": 1949.039,
+      "end": 1992.84,
+      "text": "more of a model where it has to do with how much like buzz it generates within the site of course there's a lot of issues with that um the reality is that the people that really get involved like just start doing it because they love mushrooms um and that's really what we're trying to encourage and so uh just building Community um getting people um you know responses you know we give people you know rate their stuff and respond to it in various ways and um you know there are also local communities generally that they to get involved in and that sort of thing but that's the main incentives that drive the website itself obviously people are also"
+    },
+    {
+      "start": 1991.46,
+      "end": 2000.36,
+      "text": "interested in contributing to science in various ways um but that's that's where we're at right now"
+    },
+    {
+      "start": 2012.22,
+      "end": 2056.32,
+      "text": "there are some people streaming it I think well excited hey Nathan so just regarding that decentralization part I think it's very interesting because you guys basically operate in a very decentralized manner like people put content onto the site and then they vote on it it's maybe even more decentralized and a lot of the dials are in the space today and so my question to you is how would you feel about giving ownership to those people that contribute you know more than points making them like you know a part of the brand and that would in turn like enable the whole Community to scale and you know more people would contribute eventually because more people that love mushroom would have access to the mushroom um so we do I mean it is something that"
+    },
+    {
+      "start": 2054.52,
+      "end": 2097.66,
+      "text": "we already do to a certain extent in terms of just um adding um uh giving ownership um definitely the way we talk about it is it's Community owned um it's a volunteer organization um so and we also uh maintain copyright um so people can point to the things that they've contributed and um and so forth and get summaries of the work that they've done and and that sort of thing and it is very much in the open source tradition and very much um in terms of distributed ownership um so it sort of depends on what you mean by ownership"
+    },
+    {
+      "start": 2095.919,
+      "end": 2140.68,
+      "text": "something else in mind I'm really curious and would love to know what that is um there the reality is so one of the conclusions I came to early on is that if the site was going to be focused primarily on mushrooms um there just wasn't enough money involved in that uh there wasn't enough opportunity to like get big grants or things like that that it made sense to try to charge for anything we don't even do ads or that kind of thing it's entirely volunteer run it's entirely volunteer maintained so our server some of our server servers are contributed and some of our servers are"
+    },
+    {
+      "start": 2137.619,
+      "end": 2158.46,
+      "text": "um you know the funding for the services um that we use uh comes entirely from the community we just say hey folks we need some money and people are like okay yeah sure write a check and you know it's I mean our annual budget's about two thousand dollars to run the website so that's not terribly hard to raise"
+    },
+    {
+      "start": 2166.48,
+      "end": 2209.26,
+      "text": "okay I I just came up with some idea maybe like every picture that Observer take can be nft and this nft can be pushed to the mushroom collection so in that uh case the The Observer actually really owned the like the ownership of this a picture and then like if uh some people want to show their love they can also buy the nft from the secondary market so uh The Observer will directly gain the like income from taking that picture does it make sense um it makes sense"
+    },
+    {
+      "start": 2206.98,
+      "end": 2251.02,
+      "text": "um again to me it gets kind of down to the complexity question um you know I nfts are an interesting idea I personally like you know I own a small amount of you know Bitcoin a little bit of ethereum some stuff like that um I I sort of understand how that works and honestly it's complicated um I really don't think that the the people in the mycology community like a lot of them are having a hard time dropping a website to be honest and so getting them set up with a wallet and getting them set up with the ability to like purchase an nft and some things"
+    },
+    {
+      "start": 2248.38,
+      "end": 2293.56,
+      "text": "like that is challenging um I would love to see that become simpler but my big worry about doing that in any sort of heavy way is just the um I I don't want to create barriers between people doing things within the system um so that's one of the reasons why we haven't explored that deeply because we're kind of sustainable as we are um I love the idea conceptually um it's just a question of how to get there from a practical standpoint yeah I think that totally makes sense and I also know uh some of my friends they are doing non-custodial wallet basically you can log in the wallet without like any words you can just log"
+    },
+    {
+      "start": 2291.099,
+      "end": 2334.839,
+      "text": "in with Google account that maybe lower the this retro but I totally understand you should make it simple yeah if you want to yeah this idea like we can talk more thank you yeah I would love to I I'm happy to we can make it really simple to do and we see some clear value I'm all for it or any other questions last one yeah hi hi Nathan oh thanks for the talk so basically um I work in news and the the thing that that's been going on is that there's a bunch of pictures on say Getty and Sarah"
+    },
+    {
+      "start": 2332.26,
+      "end": 2373.32,
+      "text": "stock and places where a person could just take a picture of the sunrise of the sunrise in New York and just post that and he'll take one every day and post an upload 365 picture spaghetti and make a good living out of that so so let's say there are people taking pictures of mushroom and sending them to together and just make money off of that so in that case how do you got how do you think you could survive when everybody else is giving basically rewards to those who are just uploading photos and do you think decentralization is going to help with the with that does that make sense um it does I mean"
+    },
+    {
+      "start": 2373.96,
+      "end": 2416.44,
+      "text": "I guess the way I would think about those one of the challenges with just uploading images of mushrooms is what is the value of those in the conversation around mycology and if you have no identification associated with that thing and you have no um like practical like scientific connection for it like you can sell it as like a front cover for a magazine or something like that sure I can see you know getting some value out of it from that um but and you know it's got to be a really high quality image and there's a bunch of other constraints there and nobody really cares what species it is"
+    },
+    {
+      "start": 2414.339,
+      "end": 2458.56,
+      "text": "to be honest um and the site is more about the taxonomy and the questions about what mushroom is that um and to me that's um a very different question than necessarily leveraging your photographic skills um to make money um I could see them meshing together in some useful way and blending but honestly a lot of the images that we get from an aesthetic standpoint aren't great um and I don't expect that they have a huge amount of commercial value in the way that that sort of is what you're leveraging in the system that you're talking about"
+    },
+    {
+      "start": 2455.74,
+      "end": 2499.3,
+      "text": "um the value is more again around understanding things like species distribution and uh you know trying to understand what the diversity of the planet is and those sorts of things which is a much harder thing for people to opt into in terms of of paying for it um and so far we've not had any like issue with you know the the the project continues to grow so I'm not terribly concerned about um you know it it getting again this kind of gets to the collaboration versus um uh competition"
+    },
+    {
+      "start": 2497.26,
+      "end": 2540.16,
+      "text": "um I'm not terribly concerned about a photo site you know making a bunch of money and photographers making a bunch of money um even for images that they also share a mushroom absorber like that's great go go team um you know and as I said like our costs are quite quite low and so we just continue to support the community uh in general and you know yeah if there was if it was a community that had a huge amount of money then I'd be more interested in focusing on that problem um because I think you know something I'd love to work as a full-time thing on if I could but I can't at the moment it's because of the nature of uh how"
+    },
+    {
+      "start": 2538.72,
+      "end": 2582.4,
+      "text": "much funding is available in the community so that's the way I tend to look at it awesome thanks cool well let's give Nathan around the hotel thank you um you're welcome to stick around or um you know okay we'll do it you guys you know him you love him he planned this event he's the best he's your own uh Michael yes sure um so Michael's the founder of DB Dao and previously Michael finished his PhD at"
+    },
+    {
+      "start": 2580.66,
+      "end": 2622.02,
+      "text": "Stanford University in computer science where he studied natural language processing and how AI can allow so much specified program using natural language um before he was an undergrad in Stanford studying computer science he's co-author of the book regulating AI it was a teaching assistant at Stanford in the department of computer science and Stanford law school for a course taught by California Supreme Court Justice it's our dude it's Michael thank you guys okay I'm gonna pull up my slides thank you for the excellent introduction and thank you also to Empire Dao for hosting us tonight um they did a fantastic job and put it all put all this together"
+    },
+    {
+      "start": 2622.18,
+      "end": 2651.9,
+      "text": "okay just unplug here for two seconds and pull up my slides are you guys having a good time tonight how many of you didn't know about DSi before you came here did anyone know is this anyone's first time learning about D side"
+    },
+    {
+      "start": 2659.98,
+      "end": 2706.06,
+      "text": "we're getting a little Inception right now okay share a screen uh a window this guy all right this will just be a short presentation boom okay um oh wait actually let's this is because this is a historic event and this is the first everd site everyone's smile and we'll we'll this will we'll we'll make it into like an nft to memorialize it three two one say um mitochondria is the PowerHouse of the itself okay so my name is Michael"
+    },
+    {
+      "start": 2703.359,
+      "end": 2746.14,
+      "text": "um so we heart we learned a little bit about the science of um Desai and now we want to also talk a little bit so we're going to be hosting more of these events and I think what we're going to do for each of them is we're gonna have like a decide project and then we're gonna have like a natural science or science project and I hope that the goal then is that we just have like these D scientists uh working in one room and the other one is working in other room because I think what Nathan said a lot was like you know they only want certain things and I think it's important for us to be able to understand sort of their needs and to also understand our own capabilities as web 3 Engineers so um I'm going to talk about oh in the back and um so we're going to talk a"
+    },
+    {
+      "start": 2744.94,
+      "end": 2789.52,
+      "text": "little bit about those projects I'm working on which is trying to enable um web free these scientists so we looked at the space of compute on in web3 and the way it worked is like we saw there was like storage on web 2 like S2 and we looked at web3 like ipfs and we looked at hosting there was like first cell and then there's Fleek for uh hosting and different name Services there's uh DNS services and then there's ens services and for the server we have our smart contracts and we have AWS lambdas but I didn't really see any sort of like um decentralized um files or not file storage but decentralized um database solution like mongodb or post across and"
+    },
+    {
+      "start": 2787.18,
+      "end": 2831.16,
+      "text": "databases are so important in web3 because without them you can't store structured data and query it and do SQL queries and do all the things that data scientists sort of know and love so we set out to solve this problem so what is like what are the cool things like we don't just want to like solve the problem with like deal with databases we want to like expand the market on what is possible with um when you have like a database that lives on the blockchain so the first is like um you can incentivize people to contribute data to your data set so you can give them a partial ownership of a database and then they will um they can own some of the data or own Equity into"
+    },
+    {
+      "start": 2829.119,
+      "end": 2872.38,
+      "text": "the in the database um then there's data permanence how many times have there been in the early scientific experiments that exist where the data has been lost or the methodology the the code is lost so the papers are lost this is a huge problem in science and so when you have a database that's built on top of the blockchain you have permanent data so it'll never be it'll be around sort of lower lives forever um you want to be able to link between different data sets right now data is very silent when you have an inks a naming service that is flat you can start to link things between different database data sets um give people ownership of their data privacy you should be able to like encrypt your own data if you want to put"
+    },
+    {
+      "start": 2870.339,
+      "end": 2915.4,
+      "text": "your health record on online you should be able to Grant people access to that based and encrypt it um and then there's other things like interoper identity you want to be able to link your take you to have data provenance you need to be able to be able to see where the data came from it came from which machine it came from and the way to do that is to tie it all to addresses and then interoperability it needs to sort of work generally well with the ecosystem of data science of um web3 so it needs to integrate with wallet needs to integrate with lit it needs to integrate with Avalanche um thank you Avalanche for also helping to co-sponsor this event and um so so DB dial is in a it's a database with like a dow wrapper so each data set"
+    },
+    {
+      "start": 2912.88,
+      "end": 2953.74,
+      "text": "is controlled by a dow and the Dow controls which types of data they want in the data set and which 50 dollars they want to help stuff they want to remove from the data set and curations data is really important and then secondly is like every Row in the database is an nft so each person contributes a row of data to the database and they are the owner of it and it's interoperable with the larger web3 ecosystem so you could contribute a row to the mushroom database you're the owner of it and then someone else might want to buy you say you're the first person to discover a mushroom someone else might want to buy that nft from you and because on open scene and it's just very interoperable um and then lastly is like we want to be"
+    },
+    {
+      "start": 2953.02,
+      "end": 2996.7,
+      "text": "able to um with this project we want to be able to incentivize we want to be able to share the wealth so an individual piece of data isn't super valuable but when you start to compose a hundred or a thousand or a million pieces of data you get something that's where the sum is greater than the parts of the whole so what do you do with that extra money now is you just split it up and give it to the people that help to contribute to the database so the way it works is um every row is a data but the screen is so big it's on the floor okay so every row is a database and you sort of put it into this popular database then the database monetizes through say advertisements or through subscriptions like Spotify or"
+    },
+    {
+      "start": 2995.02,
+      "end": 3038.819,
+      "text": "through um just people buying it and then the money goes into the database and then it goes out to the various folders of the database so people are incentivized to get their data into the database because if you get your database in the database you can earn money so what's going to happen then is you're going to have people that are not good people and they're going to try and get data into the database like spam if you if if we give money out based on uh percentage ownership of a database if someone puts in a million rows into the database they're going to get all the money so how do we solve this problem is we force people to stake on the data so when you contribute a row to the database what you have to do is you have to put in a"
+    },
+    {
+      "start": 3036.54,
+      "end": 3081.3,
+      "text": "lot along within like 10 cents or a dollar along with that piece of data and if your data is accepted by the Dow into the database what happens is you get you get a dollar back it's rejected you get slashed so then your dollar goes into the database and funds the database so the upshot of this is it disincentivizes people from spamming your database with bad data it's kind of like a penny per email type system if you have to pay a penny per email you wouldn't get a million ads in your inbox because it doesn't make sense to do that at scale so it introduces a little bit of friction in like a good way so how does the how does the administration of the database work"
+    },
+    {
+      "start": 3077.7,
+      "end": 3120.18,
+      "text": "um it's done using a gnosis multisig so from the point of view of the outside a row comes in and then there's a multi-stick here which gets to contribute um if you should accept the row into your database or if you should reject the row from your database now how can that database what are the different things that can be inside this black box of a multi-save it can be one person it can be a group of people like a company it can be a dow itself it could be people hired from mechanical turf or it could be gpt3 any of these things can be curators of data so uh Additionally you might want to be able to encrypt certain Columns of your"
+    },
+    {
+      "start": 3117.72,
+      "end": 3158.78,
+      "text": "database so you will use lit protocol to encrypt different to encrypt the database so here's sort of how it works uh so you create you mint a database then you define the schema for the database so how it will look we integrate with um schema.org so it's very interoperable that way you mint the database and then this is written on chain and it pops up metamask here you can see the the transaction on chain"
+    },
+    {
+      "start": 3159.3,
+      "end": 3203.24,
+      "text": "and now we want to add a row to the database which is actually an nft so this is for our integration with a psychedelics um you the clinical trial so if someone is describing the substance and uh various aspects of themselves so there's the row in the database and you can add or remove it from the database okay and so then we want to talk about rewards is like we split the money that comes into the database through the various people uh okay that was all thank you guys did anybody have any questions"
+    },
+    {
+      "start": 3203.88,
+      "end": 3247.859,
+      "text": "okay um you first and then we'll go this way so I understand why okay but don't you run into the problem of just watching the university query in the first place like how good someone how would an advertise you really like this data easily yeah so we we cashed all the data as well so you can do a standard SQL or web c or web graphql query with it um and then regarding the gas cost because we are on Avalanche the gas costs together with the ERC 1155 token"
+    },
+    {
+      "start": 3246.0,
+      "end": 3290.099,
+      "text": "we actually are moving to a new thing where we're paying the cost of the gas speed because it's so minimal and well the good point about that is then it reduces friction alone so you don't have to pop up like this really understand here was actually like an older version the newer version is completely seamless to the end user so all the gas costs are covered um by us and there we can cover it because it's pretty minimal and then it's all see it's all cached so you can query it and it's a drop-in replacement for an existing database so you can work together with Prisma or many of the other database connectors and just drop in a URI that points to our server and then you use it the same way you"
+    },
+    {
+      "start": 3287.579,
+      "end": 3326.059,
+      "text": "would use your existing database but the benefit now is that the end users are owning their data um let's go here and then we'll go this way yeah I have a question about that models um pricing or the way you would generate awesome things through like subscriptions and things like that yeah business if one of you actually occur I mean software settings"
+    },
+    {
+      "start": 3343.64,
+      "end": 3387.119,
+      "text": "oh there's a there's a which database can have many different benefits that are part of it but one actually to be part of many databases as long as it conforms to the schema okay but then that sounds like it could be very difficult because although there's like other phones yeah and it's necessarily a great sort of like I said about it like I'm just so you can also reward People based on usage so this is a parameter of the database it can you can equally share effectively in the database but you can also reward people say one one row is query significantly more than the other"
+    },
+    {
+      "start": 3385.14,
+      "end": 3431.119,
+      "text": "that person should probably get more of a reward yeah oh well I mean the money we don't control the money is just generated based on how popular the data set is and then whatever comes in is split between the people who are part of the database we don't we don't control the money coming in that's just based on the popularity of the data what I'm saying is that like it might be a good and sensitive in order to happier data that you may be patients that goes officials for you and then any fees that is there to become that native provided to that initial contribution but then"
+    },
+    {
+      "start": 3427.619,
+      "end": 3471.059,
+      "text": "yeah like otherwise but you could you're not really generating any type of value aside from like like clicks like somebody has this one pay or like too low like they're asking some type of money involved but you can't yeah your money yes do you understand her yeah so so like uh basically like detail itself technically doesn't have a token the slashing and the rewards are beated out in whatever the native currency is so you know one thing around Arbor Trail"
+    },
+    {
+      "start": 3468.72,
+      "end": 3512.04,
+      "text": "it was an eight one announced Avalanche maybe an abax it could also be done in theory of good like saving Point as well so there is no dilution to the Token because they're not using their own token itself it's being gained in like real traditional Revenue it's a it's a functionally or unfortunately so but that's that's just maintained by the curator you trust the curator to maintain a good data set and if more data is uh creates a better dealership that's just part of it that's just the way the data set works I mean you there is some dilution in like if the data set grows for sure but that's just the nature of like it's like Spotify what they do is they take all the subscriptions and then they split it"
+    },
+    {
+      "start": 3509.88,
+      "end": 3554.48,
+      "text": "based some sort of minutes listed and there's a similar type of thing going on here like if your data is more popular you get more of the percentage of the revenue there's different ways of rewarding people through Equity but it can also be through data usage so if your data is more Pro if your data is uh you know listen say it's a database of music if you have more minutes to listen to you will get more the same amount of money that you had before like there is other ways that you guys okay well we'll talk more I'm curious"
+    },
+    {
+      "start": 3563.72,
+      "end": 3606.839,
+      "text": "the platform itself revenue is generally based on donations and uh for you know like merch basically but there's an interesting you know so phenomenon where it looks like you know once per week or however many times they've been invention there are people that sort of machine learning community that was interested in using this very large database uh you know different species of mushrooms for whatever purpose it is and so you know because there is some demand maybe there's monetary demand or something along those lines and so potentially there might be people pay for this so I'm sort of curious though like if somebody were to use something like three down for instance maybe even like mushrooms over could you really want to see a potential interesting you know new space for"
+    },
+    {
+      "start": 3604.799,
+      "end": 3648.72,
+      "text": "utilize the DBL in the instance of motion observer in that specific scenario before like yeah you can almost kick back if I'm being generated from people using the data set uh to the contributors of you know motion Observer yeah yeah so I mean so the way it would work is you have a database um and then instead of the database minting a row in the postgres or which they're using Nathan are you there what database are you using whenever they have is you know they're sort of in the background whenever a row is created it mints in nft for that"
+    },
+    {
+      "start": 3646.859,
+      "end": 3692.339,
+      "text": "person who created that Row in the background and then whenever there is a funding event whether it be through a donation or through someone buying merch or just maybe an impact certificate commiser it with views that is in the form of an nft that person accrues points or value and then they take that nft and they post it on their resume or on their GitHub profile or on some other thing and they can say look mushroom Observer is a fantastic website it has a ton of credibility within the community and um here are my six seven nfcs and each of them has a number of points I'm showing it's like you know how many points you have on stack Overflow and I'm going to be proud of this and um"
+    },
+    {
+      "start": 3690.299,
+      "end": 3732.9,
+      "text": "maybe it's displayed also on the mushroom server website as some things being more credible than others based on how how much redundancy there is and so it would sort of be uh we would look into their back end and see you know just be sort of a drop-in replacement to that is a good question about no no that's implemented so the way it is is like we connect up with gnosis safe to control the Dow so then you put sort of any sort of governance you want on top of that multisate so you could use boardroom.io or uh looking at Orca"
+    },
+    {
+      "start": 3730.559,
+      "end": 3775.799,
+      "text": "or populist or whatever it's called now um and then you've created the governance method so maybe there's like the CEO of the data set and he has the she has all their deputies underneath and um you know someone can overrule the deputies but whatever you know do you come up with your own sort of governance structure that is proper for your data set and then all that just comes out is like that multi-sig has a yes or a note coming in then that accepts or rejects it so that's just all done through gnosis yeah I mean so you you"
+    },
+    {
+      "start": 3772.339,
+      "end": 3817.98,
+      "text": "someone votes to delete the row and then that goes into gnosis and then people deal with the there based on the governance protocol and if it gets three of five signatures then it sends the completed transaction to the database yeah yeah I was curious you know when looking at a thousand database like managing those Paper Towns it's like a social Community aspect of it but you see like your users like users of clothes besides you guys like you know some kind of Entertainer yeah I mean I think that we were very interoperable so we can export to anything and allow for many eyes of data"
+    },
+    {
+      "start": 3814.2,
+      "end": 3860.299,
+      "text": "analysis or contribution or rewarding people um basically we're the database and then other people can interoperate with that you know in any way they want to build interesting functionality maybe that would be like a data visualization layer or something that works together with um a Jupiter notebook or you know whatever whatever it might be and how people builds community that way or maybe they display other nfts on their profile on charm verse or something like that like there's many different ways that we can that we're building and interoperating with other with other communities yeah um so let's say I upload a little potato"
+    },
+    {
+      "start": 3858.18,
+      "end": 3901.14,
+      "text": "um that could be just used for basically connection but also you could use this kind of people so in that case does that does that go through the no system honestly and if so is that what exactly the same as any other Data Center um I mean what people post on the data like this is soft like it does go through their notes it goes through the multi-state if you're in someone's phone number I would recommend encrypting that column so that it's not publicly available and then only allowing the people with the holders of a specific nft to be able to decrypt that thing so that's them using like lit protocol um but yeah if it's used for scamming the person who's in control of the"
+    },
+    {
+      "start": 3899.579,
+      "end": 3944.42,
+      "text": "multi-sig shouldn't allow that sort of stuff to go there so the scanner wouldn't get access to basically Bible the same yeah UW anything you don't want publicly available you should it should be encrypted and the people who should be able to decrypt it should have an nft well we'll do you first and then we'll go to Karen yes oh okay we'll start in the back we'll go to the front Okay um for the seafood like he identified and that I made it is pretty interesting useful at the end of our data sets and"
+    },
+    {
+      "start": 3941.04,
+      "end": 3984.9,
+      "text": "then typically like biographies so I'm curious if you can see use cases like that or maybe you have a database where you have some incorrected problems but then you know for like a height of fee or whatever uh some of you on here yeah I got an idea yeah yeah so we're doing genomic stuff now also and so that is encrypted and that's also store like we encrypt uh a link to an off and on and uh a separately hosted service but in order to get access to that severally hosted service you need to have access to the nft that grants you the ability to"
+    },
+    {
+      "start": 3982.559,
+      "end": 4017.98,
+      "text": "encrypt that specific seller column group yeah but and then we'll move up yeah yeah my question I'm interested in Dean what was like I haven't seen anything close that nature and then the second one is like do you see this sort of serving as almost like the waterfall foreign"
+    },
+    {
+      "start": 4026.319,
+      "end": 4070.539,
+      "text": "yeah I mean we're seeing a lot of usage with um decentralized science projects that are basically a bunch of people that have some question that is generally pretty well defined which I think is a good thing I think we see a lot of issues in science where the methodologies and the data collection become so complicated that it becomes hard to track um and so they come up with a well-defined question how does taking this specific drug impact my sleep or when I view these types of activities with food what what is the result of it or when I um you know exercise and this this and this and I take this what is the result and so yeah we're seeing a lot of that and that's sort of the main use case in the"
+    },
+    {
+      "start": 4067.7,
+      "end": 4079.18,
+      "text": "TV out so far okay um I have a small question on the Practical point of view how fast is very much"
+    },
+    {
+      "start": 4087.74,
+      "end": 4131.08,
+      "text": "yeah so we cache everything so we're just as performant as a normal xrd server on Amazon or anything like that and then it's all sort of like the final resolution of that data is all on can be anchi and we are listening to all the events of trans any transfer between of any between uh token holders and then we update the database based on that so from the end user's perspective it's it's as it's within reasonable uh order of magnitude of what you'd expect it's just based on our bottleneck and we could offer different services to people to meet them more or less performance they'll probably always be a free way to do it and then maybe if you really have"
+    },
+    {
+      "start": 4128.299,
+      "end": 4171.44,
+      "text": "a application yeah is it on the database or versus data being entry yes so it's like a it's like think of it like peer review like a editor of a journal like their job as the editor of the journal is to suss out which papers are good and which papers are bad and which have good data and which have bad data and sometimes they get it wrong but the credibility of the data set is lynched on that credibility of the multi-sig or the curator of the"
+    },
+    {
+      "start": 4169.16,
+      "end": 4202.239,
+      "text": "data and the curator of the data should have some domain expertise in determining correct and incorrect data and they might have to look at data provenance they might have to look at the lab that's doing it to make sure it's not artificial data generated by an AI that looks very practical but so you might have to just there will be some trust involved for sure it's not a perfect process but I think by Distributing and allowing a fixed uh adjudication method for that type of thing we have the best shot at uh making it work if someone else"
+    },
+    {
+      "start": 4208.36,
+      "end": 4251.06,
+      "text": "yeah yeah so there's a there's a fixed programmatic way to access the data through paying usdc and then you get a returned data set and then if you wanted more um insight into the curatorial process then that would be by asking the curators to uh um share with you how they determine what is legit and what they're knowledge it now we do offer one thing which is um a data log so you can see everything that has been submitted to the database and that has been accepted or rejected so you want to be able to verify that the curator of the database isn't corrupt and they're not"
+    },
+    {
+      "start": 4248.6,
+      "end": 4291.62,
+      "text": "just slashing uh all their enemies and accepting all their friends into the database and so you can look at the log chain of submitted data and see like oh this this and this this is false uh I'm not going to trust this curator or I want more I want the curator to defend their options on this specific data set on this specific row yeah that's a good question um yeah we'll go there incentivizing the curators yeah so the curator is generally the person that minted the database so they have some sort of um incentive like in mushroom Explorer"
+    },
+    {
+      "start": 4289.699,
+      "end": 4331.36,
+      "text": "it would be Nathan who was the curator of the database or the the board of directors that Nathan appoints that deputizes to be part of the curator curatorial board and then yes so these are approximate um rewards but like the database administrator gets 30 of the revenue that the database generates because the database administrator or the curator of the data set does a lot of work to make sure that the data is good so they are rewarded so these are approximate but we take a cut the database administrator takes a cut the Scout the person who submitted the data takes it as well it's just sort of dependent on the various rate the various dynamics of the data that yeah"
+    },
+    {
+      "start": 4331.46,
+      "end": 4378.82,
+      "text": "um it's possible to have the state here so let's say I started somebody else create the same one another and so then how do you keep track because they're definitely under this thing yeah databases yeah it's all multi-chain so wherever it is it's more indexes the same way yeah it's just a change in uh chain IDE and Alchemy XR RCR PCS any other questions okay all right last thing is um"
+    },
+    {
+      "start": 4376.34,
+      "end": 4402.1,
+      "text": "don't forget we have the next event you can sign up here um apply to be part of our group chat here's the here's the here's the URL we're gonna take a picture thank you to Empire dial for hosting and um let's hope thank you guys for coming we're here for a while"
+    }
+  ]
+}

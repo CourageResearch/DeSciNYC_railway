@@ -1,0 +1,5732 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.040
+growing uh logarithmically or
+
+00:00:02.040 --> 00:00:04.020
+exponentially and this is the price of
+
+00:00:04.020 --> 00:00:06.480
+sending a message over the Internet so
+
+00:00:06.480 --> 00:00:09.059
+the point is that technology affords us
+
+00:00:09.059 --> 00:00:10.740
+all these wonderful things this is the
+
+00:00:10.740 --> 00:00:12.540
+resolution of a microscope some of these
+
+00:00:12.540 --> 00:00:14.040
+things are bound asymptotically you
+
+00:00:14.040 --> 00:00:15.299
+can&#x27;t get any more resolution on
+
+00:00:15.299 --> 00:00:17.460
+microscope unfortunately uh well who
+
+00:00:17.460 --> 00:00:19.560
+knows uh maybe maybe we will be able to
+
+00:00:19.560 --> 00:00:21.539
+but as far as my little mind can
+
+00:00:21.539 --> 00:00:23.100
+comprehend it seems very hard to do so
+
+00:00:23.100 --> 00:00:25.080
+uh but compute seems to be on this
+
+00:00:25.080 --> 00:00:27.000
+Moore&#x27;s Law that&#x27;ll never end so why do
+
+00:00:27.000 --> 00:00:28.680
+we have things like uh that we&#x27;re
+
+00:00:28.680 --> 00:00:30.060
+dissatisfied with right where is
+
+00:00:30.060 --> 00:00:32.579
+technology not working and I think that
+
+00:00:32.579 --> 00:00:34.680
+we know a lot about that there are a lot
+
+00:00:34.680 --> 00:00:36.180
+of sort of stubborn points in technology
+
+00:00:36.180 --> 00:00:38.880
+that don&#x27;t seem to be affected this is a
+
+00:00:38.880 --> 00:00:42.120
+life expectancy so life expectancy life
+
+00:00:42.120 --> 00:00:43.920
+expectancy seems to be on a negative
+
+00:00:43.920 --> 00:00:45.600
+sort of second derivative hopefully
+
+00:00:45.600 --> 00:00:46.739
+thankfully still a positive first
+
+00:00:46.739 --> 00:00:49.140
+derivative but there is this sort of
+
+00:00:49.140 --> 00:00:51.420
+like feeling like oh life expectancy
+
+00:00:51.420 --> 00:00:53.039
+isn&#x27;t shooting up that much and I meet a
+
+00:00:53.039 --> 00:00:54.000
+lot of people in crypto if you&#x27;re into
+
+00:00:54.000 --> 00:00:56.219
+longevity and it feels like we&#x27;re not
+
+00:00:56.219 --> 00:00:57.660
+getting there at least with that kind of
+
+00:00:57.660 --> 00:01:00.539
+curve and what are the effects of we see
+
+00:01:00.539 --> 00:01:01.980
+so many things on the first slide I just
+
+00:01:01.980 --> 00:01:03.539
+showed that don&#x27;t seem to translate into
+
+00:01:03.539 --> 00:01:04.799
+some of these other interprets for
+
+00:01:04.799 --> 00:01:06.479
+example National Healthcare expenditure
+
+00:01:06.479 --> 00:01:08.460
+has been growing very significantly
+
+00:01:08.460 --> 00:01:11.280
+since 1970 and I gave this talk that&#x27;s a
+
+00:01:11.280 --> 00:01:12.900
+mighty League circuit that I did
+
+00:01:12.900 --> 00:01:15.900
+uh before my extended vacation and uh it
+
+00:01:15.900 --> 00:01:18.799
+was a uh
+
+00:01:18.799 --> 00:01:21.060
+it was uh it was interesting because
+
+00:01:21.060 --> 00:01:22.740
+Healthcare expenditures really started
+
+00:01:22.740 --> 00:01:25.140
+boom starting in the 60s and it wasn&#x27;t
+
+00:01:25.140 --> 00:01:27.240
+because of me I wasn&#x27;t born yet but it
+
+00:01:27.240 --> 00:01:29.460
+wasn&#x27;t because of an ancestor or mine
+
+00:01:29.460 --> 00:01:31.560
+it&#x27;s because we actually crave health
+
+00:01:31.560 --> 00:01:33.180
+care it&#x27;s something that we have
+
+00:01:33.180 --> 00:01:35.400
+virtually an infinite demand for uh
+
+00:01:35.400 --> 00:01:37.140
+Healthcare is something that absolutely
+
+00:01:37.140 --> 00:01:38.520
+no one in this room would say no I don&#x27;t
+
+00:01:38.520 --> 00:01:40.200
+want to be healthy but there is a limit
+
+00:01:40.200 --> 00:01:41.820
+you have for other Goods right there is
+
+00:01:41.820 --> 00:01:42.960
+a point where you say you know what I
+
+00:01:42.960 --> 00:01:44.220
+don&#x27;t need to spend more money on food I
+
+00:01:44.220 --> 00:01:45.720
+don&#x27;t need to spend more money on on
+
+00:01:45.720 --> 00:01:47.880
+rent but healthcare&#x27;s got this very
+
+00:01:47.880 --> 00:01:49.680
+special sort of place where we&#x27;re
+
+00:01:49.680 --> 00:01:51.119
+willing to consume more health care at
+
+00:01:51.119 --> 00:01:52.680
+all times that&#x27;s why Healthcare is on 25
+
+00:01:52.680 --> 00:01:56.340
+of our GDP my guess is as we get wealthy
+
+00:01:56.340 --> 00:01:57.659
+and wealthier as a country and Society
+
+00:01:57.659 --> 00:01:59.399
+thanks to technology that Healthcare
+
+00:01:59.399 --> 00:02:01.860
+might even reach 50 percent of GDP
+
+00:02:01.860 --> 00:02:03.000
+um and it&#x27;s because we all want a little
+
+00:02:03.000 --> 00:02:04.200
+longer and we all want to be healthier
+
+00:02:04.200 --> 00:02:05.520
+but we don&#x27;t seem to be getting that if
+
+00:02:05.520 --> 00:02:07.380
+we look at the amount of new drugs
+
+00:02:07.380 --> 00:02:08.940
+launched every year which is a decent
+
+00:02:08.940 --> 00:02:11.160
+surrogate I think for for health
+
+00:02:11.160 --> 00:02:12.840
+um if you think about the early part of
+
+00:02:12.840 --> 00:02:15.959
+industry uh I was going to say we but
+
+00:02:15.959 --> 00:02:18.300
+I&#x27;ll just say bloodrock industry solved
+
+00:02:18.300 --> 00:02:20.280
+a lot of problems like infections the
+
+00:02:20.280 --> 00:02:22.200
+solving infections with antibiotics
+
+00:02:22.200 --> 00:02:24.840
+resulted in lifespan increasing
+
+00:02:24.840 --> 00:02:26.459
+dramatically at the start of the century
+
+00:02:26.459 --> 00:02:29.220
+uh anesthesia things like that there&#x27;s a
+
+00:02:29.220 --> 00:02:30.720
+sort of dearth and then the Pharma had
+
+00:02:30.720 --> 00:02:32.520
+this Renaissance period in the 90s which
+
+00:02:32.520 --> 00:02:34.080
+kind of got me interested in Pharma
+
+00:02:34.080 --> 00:02:36.180
+around the time of the human genome uh
+
+00:02:36.180 --> 00:02:39.440
+decoding and form assault like virtually
+
+00:02:39.440 --> 00:02:42.660
+80 of chronic diseases in my opinion and
+
+00:02:42.660 --> 00:02:44.220
+it was this Revolution and now with
+
+00:02:44.220 --> 00:02:46.739
+oncology sort of being uh cracked you
+
+00:02:46.739 --> 00:02:47.940
+know there&#x27;s there&#x27;s sort of a question
+
+00:02:47.940 --> 00:02:49.200
+as to what&#x27;s even going to happen after
+
+00:02:49.200 --> 00:02:51.420
+the end of that curve but it would have
+
+00:02:51.420 --> 00:02:52.980
+been nice if that curve went up and to
+
+00:02:52.980 --> 00:02:54.780
+the right just like some of the other
+
+00:02:54.780 --> 00:02:55.980
+curves did and there seems to be a
+
+00:02:55.980 --> 00:02:57.180
+problem with that even though the drug
+
+00:02:57.180 --> 00:02:59.040
+industry has gotten really big we&#x27;re not
+
+00:02:59.040 --> 00:03:00.420
+getting more drugs every year which
+
+00:03:00.420 --> 00:03:02.099
+seems sort of strange even though we&#x27;re
+
+00:03:02.099 --> 00:03:03.540
+spending more and more money so there&#x27;s
+
+00:03:03.540 --> 00:03:05.700
+a lot of problems and I think that I
+
+00:03:05.700 --> 00:03:06.840
+don&#x27;t know if I have a solution for you
+
+00:03:06.840 --> 00:03:08.580
+today but I&#x27;m going to take a crack at
+
+00:03:08.580 --> 00:03:09.540
+it
+
+00:03:09.540 --> 00:03:11.580
+um one of these pain points is to me
+
+00:03:11.580 --> 00:03:13.500
+actually it comes from the
+
+00:03:13.500 --> 00:03:16.260
+and as you may know one of the reasons
+
+00:03:16.260 --> 00:03:19.680
+that I became somebody that can get a
+
+00:03:19.680 --> 00:03:21.540
+room with people like this uh and not
+
+00:03:21.540 --> 00:03:23.580
+just some random you know startup guy or
+
+00:03:23.580 --> 00:03:26.159
+hedge fund guy uh that nobody would come
+
+00:03:26.159 --> 00:03:28.440
+see is because I was very defiant and
+
+00:03:28.440 --> 00:03:31.019
+sort of mad when people got mad at me
+
+00:03:31.019 --> 00:03:33.300
+um the normal corporate reaction to a
+
+00:03:33.300 --> 00:03:35.700
+scandal is to do one of these and say
+
+00:03:35.700 --> 00:03:37.920
+I&#x27;m sorry and disappear and you know
+
+00:03:37.920 --> 00:03:40.019
+just sort of keep saying you&#x27;re sorry
+
+00:03:40.019 --> 00:03:42.180
+but my reaction was was sort of
+
+00:03:42.180 --> 00:03:44.280
+different my reaction was no I want to
+
+00:03:44.280 --> 00:03:45.840
+explain why I&#x27;m right and you&#x27;re wrong
+
+00:03:45.840 --> 00:03:47.700
+and I know more about this than you do
+
+00:03:47.700 --> 00:03:49.680
+and I&#x27;m going to take its task on every
+
+00:03:49.680 --> 00:03:51.599
+single point and that&#x27;s sort of a losing
+
+00:03:51.599 --> 00:03:54.180
+battle in a lot of ways uh but it&#x27;s a
+
+00:03:54.180 --> 00:03:55.860
+battle I was willing to lose anyway and
+
+00:03:55.860 --> 00:03:58.019
+I think most people would see that as a
+
+00:03:58.019 --> 00:04:00.840
+little crazy so I actually I certainly
+
+00:04:00.840 --> 00:04:02.940
+am not intending to blame anybody in
+
+00:04:02.940 --> 00:04:05.400
+this discussion but I want to point to
+
+00:04:05.400 --> 00:04:08.340
+the largest expense in in healthcare is
+
+00:04:08.340 --> 00:04:10.920
+actually Physicians 10 of healthcare
+
+00:04:10.920 --> 00:04:12.659
+expenditures come from the farm industry
+
+00:04:12.659 --> 00:04:15.659
+90 of the rest the rest of this in fact
+
+00:04:15.659 --> 00:04:17.699
+I think 100 of healthcare ultimately
+
+00:04:17.699 --> 00:04:19.620
+centers on a physician decision so the
+
+00:04:19.620 --> 00:04:21.000
+question is what can we do about that
+
+00:04:21.000 --> 00:04:22.919
+the number of physicians in our country
+
+00:04:22.919 --> 00:04:25.560
+has not changed very much and I think
+
+00:04:25.560 --> 00:04:27.120
+that the reason for it in fact this is a
+
+00:04:27.120 --> 00:04:28.919
+graph of the number of med school uh
+
+00:04:28.919 --> 00:04:30.840
+graduates every year it&#x27;s very very
+
+00:04:30.840 --> 00:04:32.639
+limited uh we&#x27;re not seeing more and
+
+00:04:32.639 --> 00:04:34.320
+more vet school graduates Physicians
+
+00:04:34.320 --> 00:04:37.800
+make about 350 000 uh per annum
+
+00:04:37.800 --> 00:04:40.740
+and uh it&#x27;s a very healthy salary for
+
+00:04:40.740 --> 00:04:43.380
+for a job that increasingly we have to
+
+00:04:43.380 --> 00:04:44.820
+wonder if we&#x27;re getting a value for that
+
+00:04:44.820 --> 00:04:48.300
+a lot of people feel that the AMA uh is
+
+00:04:48.300 --> 00:04:50.040
+a group that
+
+00:04:50.040 --> 00:04:52.080
+tries to make sure that the physician
+
+00:04:52.080 --> 00:04:54.360
+stays Rich it&#x27;s a group that tries to
+
+00:04:54.360 --> 00:04:56.460
+make sure that they can control the pool
+
+00:04:56.460 --> 00:04:58.380
+of doctors in the world especially in
+
+00:04:58.380 --> 00:05:00.900
+our country there are about 30 doctors
+
+00:05:00.900 --> 00:05:03.060
+per 100 000 people in America and again
+
+00:05:03.060 --> 00:05:05.940
+you can see that the number of new MDS
+
+00:05:05.940 --> 00:05:07.800
+every year is only about 30 per million
+
+00:05:07.800 --> 00:05:10.199
+so we&#x27;re going to see sort of a prices I
+
+00:05:10.199 --> 00:05:11.880
+think in the number of doctors actually
+
+00:05:11.880 --> 00:05:14.520
+net doctors kind of dropping again which
+
+00:05:14.520 --> 00:05:16.320
+at a time where our demand for
+
+00:05:16.320 --> 00:05:17.820
+healthcare consumption is is just going
+
+00:05:17.820 --> 00:05:19.620
+up and up and up forever I think it&#x27;s
+
+00:05:19.620 --> 00:05:21.720
+it&#x27;s a really big problem so what&#x27;s the
+
+00:05:21.720 --> 00:05:22.560
+solution
+
+00:05:22.560 --> 00:05:24.479
+I think that we could have a
+
+00:05:24.479 --> 00:05:27.660
+decentralized doctor I think that uh AI
+
+00:05:27.660 --> 00:05:29.699
+um basically can break the back of the
+
+00:05:29.699 --> 00:05:31.860
+lobby that Physicians have I remember
+
+00:05:31.860 --> 00:05:34.620
+that Barack Obama asked doctors when he
+
+00:05:34.620 --> 00:05:37.199
+was coming around raising money uh at
+
+00:05:37.199 --> 00:05:39.720
+the luxury of eating him and he told me
+
+00:05:39.720 --> 00:05:42.600
+that there was a AMA dinner that he had
+
+00:05:42.600 --> 00:05:44.280
+and he said that he&#x27;s going to lower
+
+00:05:44.280 --> 00:05:46.139
+health care costs and everybody clap I
+
+00:05:46.139 --> 00:05:47.940
+know he&#x27;s a great speaker and then he
+
+00:05:47.940 --> 00:05:50.580
+said but you&#x27;re all going to have to uh
+
+00:05:50.580 --> 00:05:52.680
+tighten your belt too room was dead
+
+00:05:52.680 --> 00:05:54.259
+silent
+
+00:05:54.259 --> 00:05:56.460
+you know the idea that doctors were
+
+00:05:56.460 --> 00:05:57.539
+going to tighten their belt for anyone
+
+00:05:57.539 --> 00:05:59.880
+is is sort of a scary idea and the
+
+00:05:59.880 --> 00:06:01.440
+question is like well how do we break
+
+00:06:01.440 --> 00:06:04.320
+this barrier the AMA is the group that
+
+00:06:04.320 --> 00:06:05.580
+make sure there&#x27;s a certain amount of
+
+00:06:05.580 --> 00:06:07.620
+Med schools there are a certain amount
+
+00:06:07.620 --> 00:06:09.720
+of Med schools authorized to Grant the
+
+00:06:09.720 --> 00:06:11.820
+medical degree and that they have a
+
+00:06:11.820 --> 00:06:13.259
+certain authority to Grants so many
+
+00:06:13.259 --> 00:06:15.660
+graduates nobody else can break into
+
+00:06:15.660 --> 00:06:17.699
+this without their permission and that&#x27;s
+
+00:06:17.699 --> 00:06:19.560
+like the cartel that&#x27;s the opposite of
+
+00:06:19.560 --> 00:06:21.360
+decentralization that&#x27;s like the mafia
+
+00:06:21.360 --> 00:06:25.100
+like the dunes I hung out with prison
+
+00:06:26.660 --> 00:06:30.600
+to me something that&#x27;s that&#x27;s uh a great
+
+00:06:30.600 --> 00:06:33.300
+thing of course again I love doctors a
+
+00:06:33.300 --> 00:06:35.759
+lot of doctor friends uh at NYU there&#x27;s
+
+00:06:35.759 --> 00:06:38.039
+the Martin shkreli professorship
+
+00:06:38.039 --> 00:06:40.680
+Nephrology you know so their doctors
+
+00:06:40.680 --> 00:06:41.940
+that have saved my life and my friends
+
+00:06:41.940 --> 00:06:44.160
+lives I&#x27;m not here to go against doctors
+
+00:06:44.160 --> 00:06:47.160
+but I am here to think about how do we
+
+00:06:47.160 --> 00:06:49.380
+get those step changes that I showed a
+
+00:06:49.380 --> 00:06:51.900
+slide or two ago where you know I used
+
+00:06:51.900 --> 00:06:53.639
+to have floppy disks and Now on my phone
+
+00:06:53.639 --> 00:06:56.520
+I can store 100 gigabytes I used to you
+
+00:06:56.520 --> 00:06:58.979
+know not be able to sequence anything in
+
+00:06:58.979 --> 00:07:00.600
+a genome now you can sequence it in a
+
+00:07:00.600 --> 00:07:02.699
+minute all of these things are I used to
+
+00:07:02.699 --> 00:07:04.199
+be able to read all the literature on a
+
+00:07:04.199 --> 00:07:05.940
+subject and now I can&#x27;t read one tenth
+
+00:07:05.940 --> 00:07:07.680
+of or 100th of the literature on a
+
+00:07:07.680 --> 00:07:09.419
+subject why are we getting that kind of
+
+00:07:09.419 --> 00:07:11.460
+stuff in healthcare and I think one of
+
+00:07:11.460 --> 00:07:13.979
+the big barriers is doctors so I am
+
+00:07:13.979 --> 00:07:16.319
+coming out uh with a product we&#x27;ll talk
+
+00:07:16.319 --> 00:07:17.580
+about a second but there&#x27;s other
+
+00:07:17.580 --> 00:07:19.199
+disadvantages doctors I do think cost
+
+00:07:19.199 --> 00:07:21.000
+and prices the biggest one but I do
+
+00:07:21.000 --> 00:07:22.460
+think there&#x27;s a lot of variability
+
+00:07:22.460 --> 00:07:25.380
+reluctances live in New York uh in in
+
+00:07:25.380 --> 00:07:26.880
+other parts of the world forget America
+
+00:07:26.880 --> 00:07:28.080
+but other parts of the world you&#x27;re
+
+00:07:28.080 --> 00:07:30.960
+lucky to get a good doctor uh at all I
+
+00:07:30.960 --> 00:07:32.460
+have a friend who lives in Idaho and he
+
+00:07:32.460 --> 00:07:33.960
+says it&#x27;s weeks before he can get an
+
+00:07:33.960 --> 00:07:35.940
+appointment I think that the amount of
+
+00:07:35.940 --> 00:07:37.139
+time you get with a physician is
+
+00:07:37.139 --> 00:07:38.580
+something that everybody has experienced
+
+00:07:38.580 --> 00:07:40.919
+with this sort of very quick you know
+
+00:07:40.919 --> 00:07:43.560
+sort of uh two-minute interaction of oh
+
+00:07:43.560 --> 00:07:45.599
+yeah you&#x27;re fine I gotta go you know it
+
+00:07:45.599 --> 00:07:48.539
+sort of feels like a really not great
+
+00:07:48.539 --> 00:07:51.000
+experience uh to me I always remember to
+
+00:07:51.000 --> 00:07:53.280
+ask a question for the doctor 20 minutes
+
+00:07:53.280 --> 00:07:55.139
+after the appointment&#x27;s over and I have
+
+00:07:55.139 --> 00:07:57.000
+to wait till the next time and by then I
+
+00:07:57.000 --> 00:07:58.680
+forget as well so there&#x27;s also the
+
+00:07:58.680 --> 00:08:00.960
+limits of human knowledge and uh I&#x27;m
+
+00:08:00.960 --> 00:08:02.520
+happy to see so many familiar faces here
+
+00:08:02.520 --> 00:08:03.960
+but I have some friends in here that
+
+00:08:03.960 --> 00:08:06.240
+we&#x27;ve spent so much time studying one
+
+00:08:06.240 --> 00:08:08.699
+little space like we made this drug for
+
+00:08:08.699 --> 00:08:10.319
+this rare disease called uh pecan
+
+00:08:10.319 --> 00:08:12.479
+panothetic kinase uh Associated
+
+00:08:12.479 --> 00:08:14.460
+neurodegeneration it&#x27;s very very rare
+
+00:08:14.460 --> 00:08:16.560
+disease that very very few people know
+
+00:08:16.560 --> 00:08:19.080
+about even neurologists who are supposed
+
+00:08:19.080 --> 00:08:20.759
+to be specialists in this illness don&#x27;t
+
+00:08:20.759 --> 00:08:22.020
+know what that disease is and I can&#x27;t
+
+00:08:22.020 --> 00:08:23.039
+blame them
+
+00:08:23.039 --> 00:08:25.680
+um it&#x27;s very hard to keep up with that
+
+00:08:25.680 --> 00:08:27.120
+medical literature slide that&#x27;s going up
+
+00:08:27.120 --> 00:08:28.860
+into the right very quickly most doctors
+
+00:08:28.860 --> 00:08:29.940
+don&#x27;t have the time to read the New
+
+00:08:29.940 --> 00:08:31.500
+England Journal every week let alone sit
+
+00:08:31.500 --> 00:08:33.719
+there on PubMed and and and go through
+
+00:08:33.719 --> 00:08:36.060
+every new new uh finding go to Every
+
+00:08:36.060 --> 00:08:37.620
+conference they&#x27;re busy people they have
+
+00:08:37.620 --> 00:08:39.539
+to treat patients so it&#x27;s really hard to
+
+00:08:39.539 --> 00:08:41.520
+define the limits of human knowledge so
+
+00:08:41.520 --> 00:08:43.740
+I&#x27;ve uh launched a product
+
+00:08:43.740 --> 00:08:47.399
+um called Dr GPT or Dr Gupta
+
+00:08:47.399 --> 00:08:48.180
+um
+
+00:08:48.180 --> 00:08:50.839
+oh my God
+
+00:08:51.500 --> 00:08:54.839
+well it&#x27;s PPT with two more letters so I
+
+00:08:54.839 --> 00:08:56.040
+figured it&#x27;s okay
+
+00:08:56.040 --> 00:08:57.660
+um we also have Dr Lam which is a large
+
+00:08:57.660 --> 00:09:00.120
+language model so there&#x27;s a few ways to
+
+00:09:00.120 --> 00:09:03.060
+slice it but uh this this website is off
+
+00:09:03.060 --> 00:09:05.100
+right now it&#x27;s doctor Dr dot
+
+00:09:05.100 --> 00:09:07.200
+unconnect.io
+
+00:09:07.200 --> 00:09:09.660
+um and uh we&#x27;ve been training this thing
+
+00:09:09.660 --> 00:09:11.760
+over the last few weeks uh it&#x27;s been a
+
+00:09:11.760 --> 00:09:14.700
+very hectic uh couple days in AI uh
+
+00:09:14.700 --> 00:09:15.839
+today some people joke too it&#x27;s the
+
+00:09:15.839 --> 00:09:18.500
+Super Bowl for nerds when gpt4 came out
+
+00:09:18.500 --> 00:09:21.959
+and uh it certainly was cool uh but also
+
+00:09:21.959 --> 00:09:24.899
+the Facebook model was also leaked uh I
+
+00:09:24.899 --> 00:09:26.640
+think intentionally but regardless it&#x27;s
+
+00:09:26.640 --> 00:09:28.560
+been leaked and is now available so
+
+00:09:28.560 --> 00:09:31.019
+we&#x27;ve been spending every waking hour me
+
+00:09:31.019 --> 00:09:32.640
+and nibbles trying to get this thing to
+
+00:09:32.640 --> 00:09:36.000
+work uh and uh we are basically trying
+
+00:09:36.000 --> 00:09:37.980
+to see if can a doctor really be
+
+00:09:37.980 --> 00:09:40.320
+automated uh and I think the answer is
+
+00:09:40.320 --> 00:09:43.440
+conclusively yes I I don&#x27;t have uh maybe
+
+00:09:43.440 --> 00:09:44.820
+I do have a graph for this actually
+
+00:09:44.820 --> 00:09:48.120
+that&#x27;s it UI I guess for Dr Gupta but
+
+00:09:48.120 --> 00:09:51.720
+this is a this is a graph of uh
+
+00:09:51.720 --> 00:09:55.740
+basically a a test that the USMLE test
+
+00:09:55.740 --> 00:09:57.660
+but a group of other tests have been
+
+00:09:57.660 --> 00:09:59.399
+done as well and this is the performance
+
+00:09:59.399 --> 00:10:01.620
+of automated systems on that test and at
+
+00:10:01.620 --> 00:10:04.200
+this point uh humans score around in 80
+
+00:10:04.200 --> 00:10:06.959
+uh extremely good doctor scores a 90.
+
+00:10:06.959 --> 00:10:09.600
+it&#x27;s about a 70 to pass the boards to
+
+00:10:09.600 --> 00:10:11.820
+get licensed as a doctor and Google&#x27;s
+
+00:10:11.820 --> 00:10:15.060
+latest uh platform is scored a passing
+
+00:10:15.060 --> 00:10:17.760
+score uh to become a doctor in America
+
+00:10:17.760 --> 00:10:20.100
+which is sort of a big deal uh our
+
+00:10:20.100 --> 00:10:23.459
+product is free so uh it&#x27;s available 24
+
+00:10:23.459 --> 00:10:25.920
+7. uh of course we&#x27;re going to try to
+
+00:10:25.920 --> 00:10:27.600
+make some money on it somehow but I
+
+00:10:27.600 --> 00:10:28.800
+think in general
+
+00:10:28.800 --> 00:10:31.740
+being able to give a physician&#x27;s advice
+
+00:10:31.740 --> 00:10:34.080
+a quality Physician&#x27;s advice to the
+
+00:10:34.080 --> 00:10:35.820
+whole world for free is something that
+
+00:10:35.820 --> 00:10:38.160
+could bend that cost curve and allow
+
+00:10:38.160 --> 00:10:39.720
+those resources to maybe be used more
+
+00:10:39.720 --> 00:10:42.779
+effectively I think that there&#x27;s 22
+
+00:10:42.779 --> 00:10:44.339
+million people in America that work in
+
+00:10:44.339 --> 00:10:46.200
+healthcare the actual provisioning of
+
+00:10:46.200 --> 00:10:48.300
+healthcare which is an enormous number
+
+00:10:48.300 --> 00:10:50.339
+and the actual ratio of the doctors to
+
+00:10:50.339 --> 00:10:52.860
+non-doctors is kind of Staggering so I
+
+00:10:52.860 --> 00:10:54.600
+think that there are obviously
+
+00:10:54.600 --> 00:10:57.120
+limitations uh to an automated doctor I
+
+00:10:57.120 --> 00:10:58.260
+think there it&#x27;ll work for some
+
+00:10:58.260 --> 00:11:00.720
+Specialties better than others I think
+
+00:11:00.720 --> 00:11:02.459
+that over time though my dream or vision
+
+00:11:02.459 --> 00:11:04.740
+is that we basically don&#x27;t even see
+
+00:11:04.740 --> 00:11:06.779
+doctors anymore we go to phlebotomists
+
+00:11:06.779 --> 00:11:08.399
+we go to nurses we go to people like
+
+00:11:08.399 --> 00:11:11.579
+that and the computer will analyze uh
+
+00:11:11.579 --> 00:11:13.200
+our scores and tell us what&#x27;s wrong with
+
+00:11:13.200 --> 00:11:15.540
+us and I think that if you look at the
+
+00:11:15.540 --> 00:11:17.540
+success of chat gpt4 released just today
+
+00:11:17.540 --> 00:11:20.640
+chat gbt three and a half which is what
+
+00:11:20.640 --> 00:11:22.560
+Dr Gupta powered on with some of our own
+
+00:11:22.560 --> 00:11:24.720
+special sauce
+
+00:11:24.720 --> 00:11:26.579
+um Chad gpg3 and I have could not pass
+
+00:11:26.579 --> 00:11:29.640
+the bar exam chat gpt4 scores a 95th
+
+00:11:29.640 --> 00:11:31.740
+percentile on the board exam so very
+
+00:11:31.740 --> 00:11:34.200
+quickly and very scarily AI is becoming
+
+00:11:34.200 --> 00:11:37.140
+extremely good and uh while there&#x27;s a
+
+00:11:37.140 --> 00:11:38.820
+number of regulatory barriers there&#x27;s
+
+00:11:38.820 --> 00:11:40.200
+probably a number of personal barriers
+
+00:11:40.200 --> 00:11:42.180
+there&#x27;s a number of areas of all kinds
+
+00:11:42.180 --> 00:11:45.300
+that people are going to wonder about AI
+
+00:11:45.300 --> 00:11:47.640
+positions I did a podcast with a comedy
+
+00:11:47.640 --> 00:11:48.959
+show last night and it&#x27;s available
+
+00:11:48.959 --> 00:11:51.660
+online it&#x27;s called voicecast and uh they
+
+00:11:51.660 --> 00:11:53.220
+had some like funny ideas as to why
+
+00:11:53.220 --> 00:11:54.540
+maybe you don&#x27;t want to take your
+
+00:11:54.540 --> 00:11:56.220
+clothes off and from the AI doctor but
+
+00:11:56.220 --> 00:11:58.860
+regardless the
+
+00:11:58.860 --> 00:12:01.500
+um I think that you know the day of of
+
+00:12:01.500 --> 00:12:04.380
+basically relying on human Specialists
+
+00:12:04.380 --> 00:12:06.300
+is coming to an end we send a contract
+
+00:12:06.300 --> 00:12:10.019
+yesterday using chat gbt uh for a legal
+
+00:12:10.019 --> 00:12:12.120
+compliment so ultimately I think whether
+
+00:12:12.120 --> 00:12:14.700
+you use this or not slowly surely the
+
+00:12:14.700 --> 00:12:16.740
+the age of AI is coming and we can use
+
+00:12:16.740 --> 00:12:18.000
+this to sort of decentralize and
+
+00:12:18.000 --> 00:12:20.220
+de-power against me this has nothing to
+
+00:12:20.220 --> 00:12:22.079
+do with blockchain I do want to make an
+
+00:12:22.079 --> 00:12:24.600
+API that&#x27;s free it&#x27;d be amazing get a
+
+00:12:24.600 --> 00:12:26.459
+large language model on a blockchain
+
+00:12:26.459 --> 00:12:28.079
+somehow not sure I&#x27;m smart enough to
+
+00:12:28.079 --> 00:12:29.940
+figure that out but I do think that some
+
+00:12:29.940 --> 00:12:31.200
+people are working on something like
+
+00:12:31.200 --> 00:12:33.300
+that and so the more you can pull this
+
+00:12:33.300 --> 00:12:35.160
+out of sort of one company&#x27;s hands as
+
+00:12:35.160 --> 00:12:36.540
+much as I&#x27;d like to have all that real
+
+00:12:36.540 --> 00:12:38.820
+estate to myself it&#x27;s it&#x27;s going to get
+
+00:12:38.820 --> 00:12:40.320
+more and more decentralized technology
+
+00:12:40.320 --> 00:12:42.839
+is a race to the bottom and um we&#x27;ve
+
+00:12:42.839 --> 00:12:44.639
+learned that from even open AI who has
+
+00:12:44.639 --> 00:12:47.160
+slashed their own price 90 just in a
+
+00:12:47.160 --> 00:12:48.779
+couple of weeks
+
+00:12:48.779 --> 00:12:50.940
+um so ultimately you know intact
+
+00:12:50.940 --> 00:12:52.740
+sometimes you get it while it&#x27;s good and
+
+00:12:52.740 --> 00:12:54.480
+then you have to move on
+
+00:12:54.480 --> 00:12:56.220
+um so I would have no problem if
+
+00:12:56.220 --> 00:12:58.800
+somebody made this and you know made it
+
+00:12:58.800 --> 00:13:00.839
+even cheaper even faster even Freer you
+
+00:13:00.839 --> 00:13:01.860
+know that&#x27;s something that&#x27;s just sort
+
+00:13:01.860 --> 00:13:03.420
+of natural in this in this line of work
+
+00:13:03.420 --> 00:13:05.579
+but I do think that&#x27;s sort of one of the
+
+00:13:05.579 --> 00:13:08.639
+major solutions to to uh to uh
+
+00:13:08.639 --> 00:13:11.160
+Healthcare and um again no no
+
+00:13:11.160 --> 00:13:13.260
+disparagements to Physicians who work
+
+00:13:13.260 --> 00:13:15.600
+very hard and they try very hard but
+
+00:13:15.600 --> 00:13:17.940
+ultimately AI does things better than
+
+00:13:17.940 --> 00:13:20.279
+than us at certain Dimensions certainly
+
+00:13:20.279 --> 00:13:21.540
+it&#x27;s a better chess player than any
+
+00:13:21.540 --> 00:13:23.459
+human chess player we shouldn&#x27;t assume
+
+00:13:23.459 --> 00:13:25.260
+it&#x27;s a better video game player in many
+
+00:13:25.260 --> 00:13:26.940
+different video games it&#x27;s even now a
+
+00:13:26.940 --> 00:13:28.260
+better poker player which a lot of
+
+00:13:28.260 --> 00:13:30.420
+people felt couldn&#x27;t be done there&#x27;s no
+
+00:13:30.420 --> 00:13:32.040
+reason why AI couldn&#x27;t become a better
+
+00:13:32.040 --> 00:13:34.560
+position than a human and uh that&#x27;s sort
+
+00:13:34.560 --> 00:13:36.540
+of a new product I have coming out soon
+
+00:13:36.540 --> 00:13:37.920
+so I want to talk about scientific
+
+00:13:37.920 --> 00:13:39.180
+compute very quickly a lot of people
+
+00:13:39.180 --> 00:13:40.680
+here probably heard about my project
+
+00:13:40.680 --> 00:13:42.480
+called drug light which I think is just
+
+00:13:42.480 --> 00:13:43.980
+sort of the start of what I hope is
+
+00:13:43.980 --> 00:13:45.240
+going to be a suite of tools that
+
+00:13:45.240 --> 00:13:47.459
+scientists can use uh scientific
+
+00:13:47.459 --> 00:13:49.200
+computational tools are very very hard
+
+00:13:49.200 --> 00:13:50.820
+to use you have to be a python expert
+
+00:13:50.820 --> 00:13:53.040
+you have to be a Linux expert you may
+
+00:13:53.040 --> 00:13:54.779
+have to be a kubernetes expert these
+
+00:13:54.779 --> 00:13:56.040
+aren&#x27;t things anybody wants to be an
+
+00:13:56.040 --> 00:13:59.040
+expert in unless unless you want to be
+
+00:13:59.040 --> 00:13:59.940
+an expert in that but the average
+
+00:13:59.940 --> 00:14:02.279
+scientist doesn&#x27;t uh the average chemist
+
+00:14:02.279 --> 00:14:04.200
+doesn&#x27;t want to learn how to provision a
+
+00:14:04.200 --> 00:14:06.300
+cluster of AWS machines
+
+00:14:06.300 --> 00:14:08.220
+um that they want to be a chemist uh and
+
+00:14:08.220 --> 00:14:09.600
+and so the problem is you make these
+
+00:14:09.600 --> 00:14:12.180
+tools if you happen to be an expert at
+
+00:14:12.180 --> 00:14:14.760
+that one thing uh and so if you we have
+
+00:14:14.760 --> 00:14:16.260
+this crazy list we show on another slide
+
+00:14:16.260 --> 00:14:18.180
+deck of scientific tools it&#x27;s just
+
+00:14:18.180 --> 00:14:20.399
+hundreds and hundreds of random python
+
+00:14:20.399 --> 00:14:23.100
+uh libraries and they&#x27;re really hard to
+
+00:14:23.100 --> 00:14:25.320
+use so we make front ends for them there
+
+00:14:25.320 --> 00:14:26.339
+are other companies that do that
+
+00:14:26.339 --> 00:14:29.040
+Schrodinger is a successful company in
+
+00:14:29.040 --> 00:14:31.500
+the pharmaceutical space but there are
+
+00:14:31.500 --> 00:14:33.600
+companies that are 50 times bigger that
+
+00:14:33.600 --> 00:14:35.100
+nobody&#x27;s ever heard of like ansys
+
+00:14:35.100 --> 00:14:37.380
+Cadence synopsis hexagon are all bigger
+
+00:14:37.380 --> 00:14:39.000
+than GM but you&#x27;ve never agree if you
+
+00:14:39.000 --> 00:14:40.199
+don&#x27;t see commercials for their products
+
+00:14:40.199 --> 00:14:41.940
+they cost millions of dollars and
+
+00:14:41.940 --> 00:14:43.560
+they&#x27;re very very hard to use as a kid
+
+00:14:43.560 --> 00:14:45.180
+my dream was to be able to use products
+
+00:14:45.180 --> 00:14:46.860
+like that I forgot to mention it earlier
+
+00:14:46.860 --> 00:14:48.180
+but what really got me into computer
+
+00:14:48.180 --> 00:14:50.639
+programming was seti at home and of
+
+00:14:50.639 --> 00:14:52.680
+course Nobles uh but setting at home was
+
+00:14:52.680 --> 00:14:54.420
+a distributed compute number there was a
+
+00:14:54.420 --> 00:14:57.420
+blockchain there was which actually came
+
+00:14:57.420 --> 00:14:58.860
+with some liabilities people would
+
+00:14:58.860 --> 00:15:01.199
+upload fake data on setting at home said
+
+00:15:01.199 --> 00:15:02.459
+he was the search for extraterrestrial
+
+00:15:02.459 --> 00:15:05.459
+intelligence and it was sort of uh
+
+00:15:05.459 --> 00:15:07.079
+it was done by now so it was a little
+
+00:15:07.079 --> 00:15:08.579
+bit inspired by the film called Contact
+
+00:15:08.579 --> 00:15:10.860
+one of my favorite movies uh where they
+
+00:15:10.860 --> 00:15:12.959
+take radio telescope data and everyone
+
+00:15:12.959 --> 00:15:14.760
+could sort of analyze this data little
+
+00:15:14.760 --> 00:15:16.740
+by little to see if E.T was falling home
+
+00:15:16.740 --> 00:15:18.899
+and uh so far they haven&#x27;t found
+
+00:15:18.899 --> 00:15:21.300
+anything but ultimately maybe the
+
+00:15:21.300 --> 00:15:22.620
+weather balloons I don&#x27;t know but
+
+00:15:22.620 --> 00:15:25.560
+ultimately the the that was one of the
+
+00:15:25.560 --> 00:15:27.120
+first distributed cooking projects ever
+
+00:15:27.120 --> 00:15:28.560
+and when I hear distributed I think
+
+00:15:28.560 --> 00:15:29.940
+decentralized and when I think
+
+00:15:29.940 --> 00:15:32.100
+decentralized they certainly think of D
+
+00:15:32.100 --> 00:15:34.320
+side so I think that we can make some
+
+00:15:34.320 --> 00:15:36.180
+really great tools distribute them and
+
+00:15:36.180 --> 00:15:37.680
+get people to use them one of the
+
+00:15:37.680 --> 00:15:38.699
+problems that we&#x27;ve seen is that
+
+00:15:38.699 --> 00:15:40.079
+scientists don&#x27;t just change their their
+
+00:15:40.079 --> 00:15:41.880
+workflows very quickly and that&#x27;s
+
+00:15:41.880 --> 00:15:43.800
+something that we&#x27;re sort of in it for
+
+00:15:43.800 --> 00:15:46.320
+the long haul to do that so druglike is
+
+00:15:46.320 --> 00:15:48.420
+our first product it&#x27;s been out for a
+
+00:15:48.420 --> 00:15:50.519
+little while now struglight.com it&#x27;s the
+
+00:15:50.519 --> 00:15:52.440
+only product like it&#x27;s kind on the web
+
+00:15:52.440 --> 00:15:54.300
+so when I was a kid I always wanted to
+
+00:15:54.300 --> 00:15:55.560
+play around with this type of stuff I
+
+00:15:55.560 --> 00:15:57.660
+love chemistry I always wanted to sort
+
+00:15:57.660 --> 00:16:00.240
+of use a a tool that I can actually like
+
+00:16:00.240 --> 00:16:02.160
+I don&#x27;t know make make a potential drug
+
+00:16:02.160 --> 00:16:03.420
+with or something like that it was
+
+00:16:03.420 --> 00:16:06.360
+always my dream to do that uh that&#x27;s one
+
+00:16:06.360 --> 00:16:07.079
+of the reasons I got in the
+
+00:16:07.079 --> 00:16:09.360
+pharmaceutical business but there was no
+
+00:16:09.360 --> 00:16:10.860
+tool that was available for anyone I
+
+00:16:10.860 --> 00:16:13.019
+couldn&#x27;t even hack or steal a tool these
+
+00:16:13.019 --> 00:16:15.540
+things were so hard to get uh that they
+
+00:16:15.540 --> 00:16:16.920
+were just cloistered behind a couple of
+
+00:16:16.920 --> 00:16:18.540
+companies that could that could afford
+
+00:16:18.540 --> 00:16:20.220
+tens of millions of dollars of software
+
+00:16:20.220 --> 00:16:22.079
+costs so we put it on the web it&#x27;s free
+
+00:16:22.079 --> 00:16:23.940
+there&#x27;s no license agreement or anything
+
+00:16:23.940 --> 00:16:25.500
+like that and we also made freaking cute
+
+00:16:25.500 --> 00:16:28.740
+so you can use up to a certain level of
+
+00:16:28.740 --> 00:16:30.139
+free compute after that you have to pay
+
+00:16:30.139 --> 00:16:33.600
+uh and uh ultimately we hope that you
+
+00:16:33.600 --> 00:16:35.339
+know people will use or even abuse that
+
+00:16:35.339 --> 00:16:37.920
+Tool uh for their for their own benefit
+
+00:16:37.920 --> 00:16:39.600
+um if you just press refresh it&#x27;ll give
+
+00:16:39.600 --> 00:16:41.759
+you another set of compute for free so
+
+00:16:41.759 --> 00:16:46.259
+that&#x27;s one easy hack to to do that uh so
+
+00:16:46.259 --> 00:16:48.120
+we&#x27;re making and we&#x27;re in the midst of
+
+00:16:48.120 --> 00:16:50.160
+making molecular Dynamics tool which is
+
+00:16:50.160 --> 00:16:51.240
+a little bit different from ligand
+
+00:16:51.240 --> 00:16:52.860
+docking Lego Dynamics is when you
+
+00:16:52.860 --> 00:16:54.300
+simulate on
+
+00:16:54.300 --> 00:16:55.860
+you know depending on how you look at it
+
+00:16:55.860 --> 00:16:58.680
+sort of a qm level of whatever bodies
+
+00:16:58.680 --> 00:17:00.060
+you&#x27;re simulating
+
+00:17:00.060 --> 00:17:01.740
+um it&#x27;s a sort of many body problem
+
+00:17:01.740 --> 00:17:03.600
+that&#x27;s that scales exponentially as you
+
+00:17:03.600 --> 00:17:05.400
+add more bodies bodies meaning sort of
+
+00:17:05.400 --> 00:17:07.679
+atoms and this is a very important tool
+
+00:17:07.679 --> 00:17:09.299
+for both Pharmaceuticals but as well as
+
+00:17:09.299 --> 00:17:11.339
+Material Science and other fields uh
+
+00:17:11.339 --> 00:17:12.660
+we&#x27;re working with a professor of fluid
+
+00:17:12.660 --> 00:17:14.520
+dynamics and circuit simulation is
+
+00:17:14.520 --> 00:17:16.140
+ultimately the biggest space in this is
+
+00:17:16.140 --> 00:17:17.819
+doing electronics and circuit simulation
+
+00:17:17.819 --> 00:17:20.520
+so we&#x27;re making tools like that uh that
+
+00:17:20.520 --> 00:17:21.660
+hopefully will release over the course
+
+00:17:21.660 --> 00:17:24.240
+of the year uh we think that again the
+
+00:17:24.240 --> 00:17:26.459
+we&#x27;re a for-profit company that hopes to
+
+00:17:26.459 --> 00:17:28.260
+make a lot of money but we also think
+
+00:17:28.260 --> 00:17:30.360
+that we&#x27;re in a new era software where
+
+00:17:30.360 --> 00:17:31.860
+you have to let your user try your
+
+00:17:31.860 --> 00:17:34.200
+software hopefully extensively when you
+
+00:17:34.200 --> 00:17:36.480
+join AWS you have a free tier that&#x27;s
+
+00:17:36.480 --> 00:17:38.100
+pretty expensive you can host a whole
+
+00:17:38.100 --> 00:17:40.080
+sort of websites servers and all that
+
+00:17:40.080 --> 00:17:42.480
+for free and Heroku has a similar tool
+
+00:17:42.480 --> 00:17:44.280
+and we think that&#x27;s really important if
+
+00:17:44.280 --> 00:17:45.720
+you are advisor and you really want to
+
+00:17:45.720 --> 00:17:46.740
+use our tool you&#x27;re gonna have to pay us
+
+00:17:46.740 --> 00:17:49.020
+a lot of money but I think that if you
+
+00:17:49.020 --> 00:17:51.960
+are just a person a kitten in in a in
+
+00:17:51.960 --> 00:17:53.700
+your bedroom wondering about how to how
+
+00:17:53.700 --> 00:17:55.440
+to mess with chemistry we want that
+
+00:17:55.440 --> 00:17:58.080
+person to forge themselves on on our
+
+00:17:58.080 --> 00:18:01.200
+tool and learn a time and uh we&#x27;re
+
+00:18:01.200 --> 00:18:02.820
+rolling out stuff like that over the
+
+00:18:02.820 --> 00:18:04.799
+course of the year I think that
+
+00:18:04.799 --> 00:18:07.440
+um eventually you know this stuff can
+
+00:18:07.440 --> 00:18:08.760
+move to the water chain I was talking to
+
+00:18:08.760 --> 00:18:10.620
+some of you earlier about how you know
+
+00:18:10.620 --> 00:18:13.020
+there&#x27;s this crypto ethos about like
+
+00:18:13.020 --> 00:18:15.240
+purism that that I think is actually
+
+00:18:15.240 --> 00:18:17.280
+kind of detrimental uh I think we have
+
+00:18:17.280 --> 00:18:18.660
+to take baby steps you know right now
+
+00:18:18.660 --> 00:18:20.940
+our product is on AWS and we&#x27;re moving
+
+00:18:20.940 --> 00:18:23.580
+hopefully the next few months to adding
+
+00:18:23.580 --> 00:18:27.179
+this was web assembly and web GPU which
+
+00:18:27.179 --> 00:18:29.160
+means that we can use your actual
+
+00:18:29.160 --> 00:18:31.260
+computer to do some of the calculations
+
+00:18:31.260 --> 00:18:32.880
+and we wouldn&#x27;t charge you for that we
+
+00:18:32.880 --> 00:18:35.820
+charge you because AWS charges us so if
+
+00:18:35.820 --> 00:18:37.500
+you want to provide your own compute and
+
+00:18:37.500 --> 00:18:38.700
+you have a bunch of computers you want
+
+00:18:38.700 --> 00:18:40.260
+to use you should be able to do that for
+
+00:18:40.260 --> 00:18:41.700
+free and that&#x27;s something we&#x27;re we&#x27;re
+
+00:18:41.700 --> 00:18:44.220
+doing uh Latin work group is there&#x27;s an
+
+00:18:44.220 --> 00:18:45.660
+argue that if you have 50 of your
+
+00:18:45.660 --> 00:18:47.220
+friends that also want to give you their
+
+00:18:47.220 --> 00:18:49.380
+frequency to your project you should be
+
+00:18:49.380 --> 00:18:50.400
+able to make your own little super
+
+00:18:50.400 --> 00:18:52.080
+computer and we&#x27;re working on that
+
+00:18:52.080 --> 00:18:53.760
+eventually there should be a blockchain
+
+00:18:53.760 --> 00:18:55.799
+system these are very very hard to
+
+00:18:55.799 --> 00:18:57.539
+engineer we were just ate Denver talking
+
+00:18:57.539 --> 00:18:59.400
+to people in the state of the art trying
+
+00:18:59.400 --> 00:19:01.080
+to figure out what is the best way to
+
+00:19:01.080 --> 00:19:04.559
+take a massive compute job chop it up
+
+00:19:04.559 --> 00:19:06.480
+and send it out to a whole bunch of
+
+00:19:06.480 --> 00:19:08.820
+untrusted nodes get them to calculate
+
+00:19:08.820 --> 00:19:10.860
+that reassemble them and send them back
+
+00:19:10.860 --> 00:19:13.020
+and get paid for to do that the same way
+
+00:19:13.020 --> 00:19:15.120
+people mine Bitcoin I think about these
+
+00:19:15.120 --> 00:19:17.640
+Bitcoin machines these vast arrays of
+
+00:19:17.640 --> 00:19:19.980
+you know uh Asic Miners And I sit there
+
+00:19:19.980 --> 00:19:21.419
+and say why can&#x27;t we use that for drug
+
+00:19:21.419 --> 00:19:23.520
+development it&#x27;s such a waste
+
+00:19:23.520 --> 00:19:27.360
+um and uh Bitcoin Maxi&#x27;s sort of you
+
+00:19:27.360 --> 00:19:29.100
+know came out of that but do you think
+
+00:19:29.100 --> 00:19:32.580
+uh I do wonder if you know using a
+
+00:19:32.580 --> 00:19:34.320
+percentage of the world&#x27;s electricity is
+
+00:19:34.320 --> 00:19:36.419
+uh to calculate random numbers is really
+
+00:19:36.419 --> 00:19:37.799
+a good use
+
+00:19:37.799 --> 00:19:39.480
+um again I I think it&#x27;s important to
+
+00:19:39.480 --> 00:19:41.600
+make it hard to hack Bitcoin but I also
+
+00:19:41.600 --> 00:19:44.880
+drool at the opportunity of of wanting
+
+00:19:44.880 --> 00:19:46.559
+to do this just 10 years ago we bought a
+
+00:19:46.559 --> 00:19:48.000
+very expensive software package from one
+
+00:19:48.000 --> 00:19:50.039
+of the companies it didn&#x27;t work at all
+
+00:19:50.039 --> 00:19:51.600
+we couldn&#x27;t even get it to run
+
+00:19:51.600 --> 00:19:53.460
+successfully without without it crashing
+
+00:19:53.460 --> 00:19:55.860
+and there was no distributed compute uh
+
+00:19:55.860 --> 00:19:57.120
+we had to talk to a company called prey
+
+00:19:57.120 --> 00:19:58.860
+that makes super literal super computers
+
+00:19:58.860 --> 00:20:01.620
+so the world&#x27;s changed a lot in 10 years
+
+00:20:01.620 --> 00:20:03.419
+and I think that you know it&#x27;ll keep
+
+00:20:03.419 --> 00:20:05.340
+changing so hopefully whether it&#x27;s Akash
+
+00:20:05.340 --> 00:20:08.160
+or some other compute network uh there&#x27;s
+
+00:20:08.160 --> 00:20:10.200
+a number of them like Golem uh and
+
+00:20:10.200 --> 00:20:12.059
+others that hopefully we can sort of
+
+00:20:12.059 --> 00:20:14.220
+find a way to solve that problem
+
+00:20:14.220 --> 00:20:16.200
+so I&#x27;ll move a little more quickly
+
+00:20:16.200 --> 00:20:17.760
+there&#x27;s a couple of other spaces that
+
+00:20:17.760 --> 00:20:19.740
+decide to Target I&#x27;m not targeting these
+
+00:20:19.740 --> 00:20:21.480
+spaces but I&#x27;m certainly interested in
+
+00:20:21.480 --> 00:20:23.820
+watching somebody do it electronic
+
+00:20:23.820 --> 00:20:25.320
+health records is one of the craziest
+
+00:20:25.320 --> 00:20:27.960
+ones to me uh most people don&#x27;t have a
+
+00:20:27.960 --> 00:20:30.059
+copy of their own EHR you should have
+
+00:20:30.059 --> 00:20:32.880
+100 control of your EHR you should be
+
+00:20:32.880 --> 00:20:34.740
+able to give some a doctor read write
+
+00:20:34.740 --> 00:20:37.380
+access for half an hour right not have a
+
+00:20:37.380 --> 00:20:39.000
+company like Cerner or epic have
+
+00:20:39.000 --> 00:20:40.500
+controller for a hospital have control
+
+00:20:40.500 --> 00:20:42.480
+of your HR to me that&#x27;s just totally
+
+00:20:42.480 --> 00:20:44.880
+crazy uh Regulators should focus on that
+
+00:20:44.880 --> 00:20:46.760
+instead of me uh
+
+00:20:46.760 --> 00:20:50.280
+the uh the idea that that you know we
+
+00:20:50.280 --> 00:20:52.140
+have this exact technology in fact zero
+
+00:20:52.140 --> 00:20:55.200
+knowledge is is hand in love for this
+
+00:20:55.200 --> 00:20:57.900
+zero knowledge proofs uh or the perfect
+
+00:20:57.900 --> 00:21:00.660
+tool for making reveal uh some of my
+
+00:21:00.660 --> 00:21:02.340
+data you know I want this doctor this
+
+00:21:02.340 --> 00:21:03.900
+hospital to see some of my data but not
+
+00:21:03.900 --> 00:21:05.100
+all of it instead right now a lot of
+
+00:21:05.100 --> 00:21:06.960
+that data lives in a place that we just
+
+00:21:06.960 --> 00:21:08.220
+don&#x27;t know where it is or how it&#x27;s
+
+00:21:08.220 --> 00:21:09.240
+working and I know some people are
+
+00:21:09.240 --> 00:21:11.220
+working on exactly this problem in the
+
+00:21:11.220 --> 00:21:12.900
+DSi world so it&#x27;s pretty exciting
+
+00:21:12.900 --> 00:21:15.240
+clinical trials expensive part of
+
+00:21:15.240 --> 00:21:18.179
+developing a drug if clinical trials
+
+00:21:18.179 --> 00:21:19.860
+were cheaper we&#x27;d have three times as
+
+00:21:19.860 --> 00:21:22.080
+many drugs we&#x27;d have possible products
+
+00:21:22.080 --> 00:21:23.880
+for Alzheimer&#x27;s Parkinson&#x27;s a lot of the
+
+00:21:23.880 --> 00:21:25.860
+tough diseases that haven&#x27;t been solved
+
+00:21:25.860 --> 00:21:28.440
+yet how do we do it I don&#x27;t know uh this
+
+00:21:28.440 --> 00:21:29.760
+is a really hard problem again
+
+00:21:29.760 --> 00:21:32.159
+Regulators in this case I think do a
+
+00:21:32.159 --> 00:21:35.280
+good job of protecting us uh you know
+
+00:21:35.280 --> 00:21:37.200
+but I know there are people my friends
+
+00:21:37.200 --> 00:21:39.200
+that are setting up uh
+
+00:21:39.200 --> 00:21:41.280
+ships that are just on international
+
+00:21:41.280 --> 00:21:42.659
+waters so they want to do clinical
+
+00:21:42.659 --> 00:21:44.340
+trials in these ships crypto people are
+
+00:21:44.340 --> 00:21:47.820
+crazy the uh yeah and I know people that
+
+00:21:47.820 --> 00:21:51.360
+are developing their own medicine
+
+00:21:51.360 --> 00:21:53.640
+to take by themselves for just
+
+00:21:53.640 --> 00:21:55.200
+themselves and hoping that that
+
+00:21:55.200 --> 00:21:56.700
+medicine&#x27;s safe enough
+
+00:21:56.700 --> 00:21:58.860
+um these are things even I wouldn&#x27;t do
+
+00:21:58.860 --> 00:22:01.799
+but I think that uh I think that it&#x27;s
+
+00:22:01.799 --> 00:22:04.620
+it&#x27;s a it&#x27;s an interesting idea to try
+
+00:22:04.620 --> 00:22:06.900
+to crack this problem of why does it
+
+00:22:06.900 --> 00:22:09.059
+cost 200 million dollars to study
+
+00:22:09.059 --> 00:22:12.960
+200 or 300 or 400 people uh to to get an
+
+00:22:12.960 --> 00:22:14.940
+FDA approval um and the FDA is very
+
+00:22:14.940 --> 00:22:17.280
+rigorous it&#x27;s hard to get people to do a
+
+00:22:17.280 --> 00:22:19.440
+trial without money doctors the first
+
+00:22:19.440 --> 00:22:21.000
+thing my experience I&#x27;ve run a lot of
+
+00:22:21.000 --> 00:22:22.919
+clinical trials the first thing they ask
+
+00:22:22.919 --> 00:22:25.440
+when you want to do a clinical trial how
+
+00:22:25.440 --> 00:22:27.960
+much money is it going to pay and again
+
+00:22:27.960 --> 00:22:29.520
+I can&#x27;t fault the doctor for asking that
+
+00:22:29.520 --> 00:22:30.840
+because ultimately if it&#x27;s a money
+
+00:22:30.840 --> 00:22:33.539
+losing proposition in your position you
+
+00:22:33.539 --> 00:22:34.799
+may say you know what I have to sit this
+
+00:22:34.799 --> 00:22:36.900
+one out because my practice you know I&#x27;m
+
+00:22:36.900 --> 00:22:38.760
+used to this and I don&#x27;t want to lose
+
+00:22:38.760 --> 00:22:40.500
+all this money by running this wonderful
+
+00:22:40.500 --> 00:22:42.360
+trial so it&#x27;s not as altruistic of a
+
+00:22:42.360 --> 00:22:45.240
+role as sometimes we&#x27;re led to believe
+
+00:22:45.240 --> 00:22:47.520
+um so anyway the group that can practice
+
+00:22:47.520 --> 00:22:48.960
+I know there&#x27;s a lot of people working
+
+00:22:48.960 --> 00:22:51.059
+on it decentralized clinical trials and
+
+00:22:51.059 --> 00:22:53.280
+decentralized ideas even if you can&#x27;t
+
+00:22:53.280 --> 00:22:55.320
+get something for FDA approval if we did
+
+00:22:55.320 --> 00:22:58.320
+a blockchain clinical trial of 200 000
+
+00:22:58.320 --> 00:23:00.299
+people it&#x27;s not like a real clinical
+
+00:23:00.299 --> 00:23:02.880
+trial but if it showed that let&#x27;s say
+
+00:23:02.880 --> 00:23:04.559
+metformin which is drug and a lot of
+
+00:23:04.559 --> 00:23:06.240
+crypto people take
+
+00:23:06.240 --> 00:23:08.240
+um would increase our lifespan by 10
+
+00:23:08.240 --> 00:23:11.039
+that&#x27;s not Class A evidence that the FDA
+
+00:23:11.039 --> 00:23:12.900
+would take but it&#x27;s a lot better than
+
+00:23:12.900 --> 00:23:14.220
+what we have now which is just sort of
+
+00:23:14.220 --> 00:23:15.780
+guesswork so I do think the blockchain
+
+00:23:15.780 --> 00:23:18.120
+could do something here uh Publications
+
+00:23:18.120 --> 00:23:19.799
+I talked to a bunch of people
+
+00:23:19.799 --> 00:23:21.780
+um before this started that brought this
+
+00:23:21.780 --> 00:23:24.179
+to me and I think that this is one of
+
+00:23:24.179 --> 00:23:26.100
+the layoffs that we could do we have
+
+00:23:26.100 --> 00:23:27.900
+something called five which is the start
+
+00:23:27.900 --> 00:23:29.880
+of a huge decentralized movement there&#x27;s
+
+00:23:29.880 --> 00:23:32.820
+a lot of sort of parasitic Publishers uh
+
+00:23:32.820 --> 00:23:34.260
+out there a lot of people don&#x27;t like
+
+00:23:34.260 --> 00:23:36.900
+Springer nature also here companies that
+
+00:23:36.900 --> 00:23:37.980
+have made tens of billions of dollars
+
+00:23:37.980 --> 00:23:39.480
+basically on the back of scientists
+
+00:23:39.480 --> 00:23:42.179
+companies that now you work hard to make
+
+00:23:42.179 --> 00:23:44.340
+a paper in nature and now they make
+
+00:23:44.340 --> 00:23:46.140
+money off your paper nature they&#x27;re
+
+00:23:46.140 --> 00:23:47.580
+publishing something right it&#x27;s like
+
+00:23:47.580 --> 00:23:49.620
+writing a book for free for you know
+
+00:23:49.620 --> 00:23:51.539
+Michael Crichton or your favorite author
+
+00:23:51.539 --> 00:23:52.980
+decided to write books for free and the
+
+00:23:52.980 --> 00:23:54.059
+published company made all the money
+
+00:23:54.059 --> 00:23:57.179
+it&#x27;s very odd that we do this in science
+
+00:23:57.179 --> 00:23:59.460
+um so how do we do this uh without it um
+
+00:23:59.460 --> 00:24:00.539
+I think there&#x27;s a lot of people working
+
+00:24:00.539 --> 00:24:01.860
+on this and it&#x27;s it&#x27;s probably going to
+
+00:24:01.860 --> 00:24:03.059
+be one of these size first major
+
+00:24:03.059 --> 00:24:04.440
+victories in fact
+
+00:24:04.440 --> 00:24:06.179
+if you exclude the kind of blockchain
+
+00:24:06.179 --> 00:24:08.460
+which I&#x27;d encourage you to do archive
+
+00:24:08.460 --> 00:24:10.860
+which is arxiv pronounced archive
+
+00:24:10.860 --> 00:24:13.260
+archive was basically the first major
+
+00:24:13.260 --> 00:24:15.120
+victory for that and I think that the
+
+00:24:15.120 --> 00:24:17.159
+problem with academic science is you
+
+00:24:17.159 --> 00:24:19.380
+need to publish a lot and you need to
+
+00:24:19.380 --> 00:24:21.000
+publish in the best journals and the
+
+00:24:21.000 --> 00:24:22.380
+problem with that is the pastorals are
+
+00:24:22.380 --> 00:24:25.080
+often run by a bunch of sort of older
+
+00:24:25.080 --> 00:24:26.580
+people you don&#x27;t know that you have to
+
+00:24:26.580 --> 00:24:27.900
+get into that club before they&#x27;ll
+
+00:24:27.900 --> 00:24:29.820
+publish you in nature or in New England
+
+00:24:29.820 --> 00:24:31.740
+Journal or wherever the case may be it&#x27;s
+
+00:24:31.740 --> 00:24:33.240
+really hard as a young scientists to
+
+00:24:33.240 --> 00:24:34.440
+even if you have a groundbreaking
+
+00:24:34.440 --> 00:24:36.000
+disorder people say that Einstein would
+
+00:24:36.000 --> 00:24:38.039
+not be able to get up today and I truly
+
+00:24:38.039 --> 00:24:39.840
+believe that yeah I could easily see
+
+00:24:39.840 --> 00:24:41.460
+that manuscript being rejected and we&#x27;ve
+
+00:24:41.460 --> 00:24:43.200
+seen a whole list of manuscripts that
+
+00:24:43.200 --> 00:24:44.640
+got rejected relatively recently over
+
+00:24:44.640 --> 00:24:45.659
+the last times one years there were
+
+00:24:45.659 --> 00:24:47.760
+groundbreaking ideas the Transformer
+
+00:24:47.760 --> 00:24:49.740
+paper which arguably is one of the most
+
+00:24:49.740 --> 00:24:51.780
+Landmark discoveries in computer science
+
+00:24:51.780 --> 00:24:53.700
+was never published in their own so I
+
+00:24:53.700 --> 00:24:54.659
+think that
+
+00:24:54.659 --> 00:24:56.340
+um self-publishing and things like that
+
+00:24:56.340 --> 00:24:58.559
+could lead to great success
+
+00:24:58.559 --> 00:25:00.600
+incentivization on replication if I&#x27;m a
+
+00:25:00.600 --> 00:25:02.280
+funder of research I might say you know
+
+00:25:02.280 --> 00:25:04.919
+what I&#x27;ll get 50 000 for the the
+
+00:25:04.919 --> 00:25:06.720
+experiment but I&#x27;ll give fifty thousand
+
+00:25:06.720 --> 00:25:08.520
+dollars to the place that replicates it
+
+00:25:08.520 --> 00:25:10.200
+and I think that&#x27;s uh something that
+
+00:25:10.200 --> 00:25:11.640
+could encourage positive behavior that
+
+00:25:11.640 --> 00:25:13.500
+we don&#x27;t get expected
+
+00:25:13.500 --> 00:25:15.600
+so uh
+
+00:25:15.600 --> 00:25:17.400
+so why decentralize
+
+00:25:17.400 --> 00:25:18.659
+um there&#x27;s just a couple of General
+
+00:25:18.659 --> 00:25:20.100
+themes those are all my ideas for sort
+
+00:25:20.100 --> 00:25:21.960
+of healthcare and science I think that
+
+00:25:21.960 --> 00:25:23.640
+you know some of this is relatively
+
+00:25:23.640 --> 00:25:25.380
+obvious you know we can do a lot with
+
+00:25:25.380 --> 00:25:27.720
+decentralization by hardening systems
+
+00:25:27.720 --> 00:25:29.640
+and it doesn&#x27;t have to use blockchain
+
+00:25:29.640 --> 00:25:31.740
+but to avoid sort of single points of
+
+00:25:31.740 --> 00:25:33.299
+failure there are a number of ways to
+
+00:25:33.299 --> 00:25:35.640
+sort of focus it up I see that a bunch
+
+00:25:35.640 --> 00:25:37.500
+of people are doing Dallas for like
+
+00:25:37.500 --> 00:25:39.720
+specific things like hair now is I from
+
+00:25:39.720 --> 00:25:42.539
+what I understand a dow to cure baldness
+
+00:25:42.539 --> 00:25:44.880
+which is pretty pretty wild uh there&#x27;s a
+
+00:25:44.880 --> 00:25:47.640
+number of other Dallas uh that go to
+
+00:25:47.640 --> 00:25:50.159
+specific sort of uh goals and I think
+
+00:25:50.159 --> 00:25:52.679
+that&#x27;s that&#x27;s pretty cool uh but to me I
+
+00:25:52.679 --> 00:25:54.120
+think probably the best place to go is
+
+00:25:54.120 --> 00:25:55.200
+is
+
+00:25:55.200 --> 00:25:57.240
+is some of the stuff I like DB dial and
+
+00:25:57.240 --> 00:25:59.520
+others are doing where could you avoid
+
+00:25:59.520 --> 00:26:00.779
+replicating data that people have
+
+00:26:00.779 --> 00:26:03.000
+already done every day thousands of
+
+00:26:03.000 --> 00:26:04.320
+experiments are gone to different Labs
+
+00:26:04.320 --> 00:26:05.940
+without knowing that somebody&#x27;s doing
+
+00:26:05.940 --> 00:26:07.440
+the exact same experiment down the hall
+
+00:26:07.440 --> 00:26:08.940
+and sometimes you wonder if you really
+
+00:26:08.940 --> 00:26:10.279
+need to do that
+
+00:26:10.279 --> 00:26:12.539
+those are part of decentralization is
+
+00:26:12.539 --> 00:26:15.179
+Distributing so I mentioned uh some of
+
+00:26:15.179 --> 00:26:16.620
+the distributed compute folding at home
+
+00:26:16.620 --> 00:26:18.480
+was the successor of the study at home
+
+00:26:18.480 --> 00:26:19.980
+folding home is a lot more well known
+
+00:26:19.980 --> 00:26:22.080
+and reached a lot more people but it was
+
+00:26:22.080 --> 00:26:23.580
+inspired by study at home and to the
+
+00:26:23.580 --> 00:26:25.559
+state holding it home and other at-home
+
+00:26:25.559 --> 00:26:27.419
+projects are being gone on a tributed
+
+00:26:27.419 --> 00:26:29.159
+basis so again these aren&#x27;t necessarily
+
+00:26:29.159 --> 00:26:30.539
+blockchain enable they do think they
+
+00:26:30.539 --> 00:26:33.000
+could suspense it and watch hands but um
+
+00:26:33.000 --> 00:26:34.080
+there is a lot of benefit to
+
+00:26:34.080 --> 00:26:36.480
+Distributing in decentralization and I
+
+00:26:36.480 --> 00:26:37.860
+actually think you could lower costs a
+
+00:26:37.860 --> 00:26:39.659
+lot of people wonder why you why do you
+
+00:26:39.659 --> 00:26:43.080
+want to do uh sort of drug or molecular
+
+00:26:43.080 --> 00:26:46.140
+interaction analysis on on blockchain I
+
+00:26:46.140 --> 00:26:47.940
+actually posited that you can actually
+
+00:26:47.940 --> 00:26:50.820
+have a lower price in AWS AWS has one
+
+00:26:50.820 --> 00:26:52.799
+problem it&#x27;s a fantastic service the
+
+00:26:52.799 --> 00:26:54.900
+problem is Amazon Amazon needs to make a
+
+00:26:54.900 --> 00:26:56.400
+lot of money they make its fortune on
+
+00:26:56.400 --> 00:27:00.559
+AWS and that makes it very hard for uh
+
+00:27:00.559 --> 00:27:02.700
+them to give you a really good price
+
+00:27:02.700 --> 00:27:04.200
+whereas if somebody&#x27;s willing to do it
+
+00:27:04.200 --> 00:27:05.940
+at Cost that&#x27;s something that somebody
+
+00:27:05.940 --> 00:27:07.740
+might do on the blockchain and we&#x27;ve
+
+00:27:07.740 --> 00:27:09.659
+seen that with Bitcoin
+
+00:27:09.659 --> 00:27:11.760
+uh democracization is something that
+
+00:27:11.760 --> 00:27:13.860
+that decentralization helps a lot with
+
+00:27:13.860 --> 00:27:16.200
+we mentioned archive briefly one of the
+
+00:27:16.200 --> 00:27:17.640
+things that people want to do is sort of
+
+00:27:17.640 --> 00:27:20.159
+democratize the FDA uh I think again
+
+00:27:20.159 --> 00:27:21.840
+sort of a crypto libertarian thing
+
+00:27:21.840 --> 00:27:24.000
+that&#x27;s even too much for me uh I think
+
+00:27:24.000 --> 00:27:26.400
+that uh we probably do need an FDA but I
+
+00:27:26.400 --> 00:27:28.020
+know people that believe that the FDA is
+
+00:27:28.020 --> 00:27:30.179
+people and terrible and I totally don&#x27;t
+
+00:27:30.179 --> 00:27:32.520
+think that I think they&#x27;re great but I&#x27;m
+
+00:27:32.520 --> 00:27:34.559
+not just saying that uh every other part
+
+00:27:34.559 --> 00:27:37.140
+of the government&#x27;s Choice words for but
+
+00:27:37.140 --> 00:27:38.820
+the FDA actually I think does does a
+
+00:27:38.820 --> 00:27:40.740
+fantastic job but to the extent that
+
+00:27:40.740 --> 00:27:43.020
+that those people it&#x27;s not my choice uh
+
+00:27:43.020 --> 00:27:44.400
+to the extent that those people believe
+
+00:27:44.400 --> 00:27:46.320
+that we don&#x27;t need an FDA and we should
+
+00:27:46.320 --> 00:27:47.580
+be able to take whatever medicines we
+
+00:27:47.580 --> 00:27:49.500
+want based on our own criteria not
+
+00:27:49.500 --> 00:27:51.900
+theirs then you know watching this is a
+
+00:27:51.900 --> 00:27:53.760
+place for you and I think that people
+
+00:27:53.760 --> 00:27:56.700
+will be doing that democratization uh
+
+00:27:56.700 --> 00:27:58.200
+and again privacy is to me a part of
+
+00:27:58.200 --> 00:28:00.179
+democracy and you know being able to
+
+00:28:00.179 --> 00:28:01.980
+secure information through ZK is is
+
+00:28:01.980 --> 00:28:03.659
+pretty important so last but not least
+
+00:28:03.659 --> 00:28:06.120
+uh I want to thank everyone of course
+
+00:28:06.120 --> 00:28:08.640
+um I guess one of my my slides generally
+
+00:28:08.640 --> 00:28:11.039
+have like missing text but but I have a
+
+00:28:11.039 --> 00:28:13.440
+uh last message uh there&#x27;s sort of this
+
+00:28:13.440 --> 00:28:14.820
+this weird group I&#x27;ve been a part of
+
+00:28:14.820 --> 00:28:16.260
+over the last year that&#x27;s starting to
+
+00:28:16.260 --> 00:28:18.960
+gain a lot of prominence called Yak uh
+
+00:28:18.960 --> 00:28:20.220
+you may have seen it in my profile or
+
+00:28:20.220 --> 00:28:22.260
+something like that it&#x27;s uh basically a
+
+00:28:22.260 --> 00:28:24.179
+reactionary movement to EA the post
+
+00:28:24.179 --> 00:28:26.159
+trial of a it&#x27;s only a sandbankment free
+
+00:28:26.159 --> 00:28:28.380
+so so far we&#x27;re doing all right but the
+
+00:28:28.380 --> 00:28:32.100
+uh the yak group uh is uh is basically
+
+00:28:32.100 --> 00:28:33.600
+effective instead of effective altruism
+
+00:28:33.600 --> 00:28:35.580
+we&#x27;re called effective accelerationism
+
+00:28:35.580 --> 00:28:37.500
+and I just want to introduce the concept
+
+00:28:37.500 --> 00:28:39.539
+in the group to to the greater crypto
+
+00:28:39.539 --> 00:28:40.799
+Community because I think they go hand
+
+00:28:40.799 --> 00:28:43.559
+in hand the thing about eak uh that most
+
+00:28:43.559 --> 00:28:45.059
+people know about us and we just did a
+
+00:28:45.059 --> 00:28:47.100
+call with Brian&#x27;s of all people the
+
+00:28:47.100 --> 00:28:48.059
+other night
+
+00:28:48.059 --> 00:28:50.640
+um and uh we&#x27;ve had Mark Andreessen
+
+00:28:50.640 --> 00:28:53.700
+change his uh Twitter profile to uh
+
+00:28:53.700 --> 00:28:55.740
+accelerationist which which is a big win
+
+00:28:55.740 --> 00:28:57.120
+as well
+
+00:28:57.120 --> 00:28:58.740
+um our group is started by a bunch of
+
+00:28:58.740 --> 00:29:00.659
+people like Google and Facebook and
+
+00:29:00.659 --> 00:29:02.400
+other major tech companies that
+
+00:29:02.400 --> 00:29:05.039
+basically got sick of the censorship and
+
+00:29:05.039 --> 00:29:07.440
+the kind of
+
+00:29:07.440 --> 00:29:10.020
+the the fear that exists at these major
+
+00:29:10.020 --> 00:29:12.840
+companies about releasing technology and
+
+00:29:12.840 --> 00:29:14.520
+I think that if there&#x27;s anyone that
+
+00:29:14.520 --> 00:29:15.960
+could appreciate it I&#x27;m sure there are
+
+00:29:15.960 --> 00:29:17.400
+people in here that probably would agree
+
+00:29:17.400 --> 00:29:19.260
+with the EA side of it which is we have
+
+00:29:19.260 --> 00:29:21.000
+to slow down AI before it kills us all
+
+00:29:21.000 --> 00:29:23.460
+uh we think it&#x27;s nonsense we think that
+
+00:29:23.460 --> 00:29:26.220
+uh technology is is what human Destiny
+
+00:29:26.220 --> 00:29:28.620
+is all about and that uh we want to
+
+00:29:28.620 --> 00:29:30.899
+accelerate uh AI we want to accelerate
+
+00:29:30.899 --> 00:29:32.580
+blockchain we want to accelerate every
+
+00:29:32.580 --> 00:29:35.279
+new Fringe technology that will become
+
+00:29:35.279 --> 00:29:36.659
+mainstream over the next hundred years
+
+00:29:36.659 --> 00:29:39.240
+for a better life for everyone and the
+
+00:29:39.240 --> 00:29:41.340
+yak movement uh certainly would welcome
+
+00:29:41.340 --> 00:29:43.980
+uh everyone a lot of us are crypto
+
+00:29:43.980 --> 00:29:46.440
+people some of us aren&#x27;t uh but
+
+00:29:46.440 --> 00:29:48.240
+ultimately we have an anonymous leader
+
+00:29:48.240 --> 00:29:49.799
+who is a very very important person in
+
+00:29:49.799 --> 00:29:51.899
+technology who&#x27;s doing a great job of
+
+00:29:51.899 --> 00:29:54.440
+sort of fighting the tide of of
+
+00:29:54.440 --> 00:29:57.240
+Regulation and fear and AI there are
+
+00:29:57.240 --> 00:29:59.460
+people who are saying that uh a quick
+
+00:29:59.460 --> 00:30:01.559
+story is called Rocco&#x27;s basilis the idea
+
+00:30:01.559 --> 00:30:03.120
+behind Rocco&#x27;s basilisk because anybody
+
+00:30:03.120 --> 00:30:05.340
+show a hands for the story okay we gotta
+
+00:30:05.340 --> 00:30:07.080
+okay cool we got a couple people so
+
+00:30:07.080 --> 00:30:08.940
+ideas Rocco is going to come and get us
+
+00:30:08.940 --> 00:30:10.860
+because 100 years from now this
+
+00:30:10.860 --> 00:30:12.360
+superhuman AI which some people think
+
+00:30:12.360 --> 00:30:13.799
+will be three years from now this
+
+00:30:13.799 --> 00:30:15.299
+superhuman AI is going to take over the
+
+00:30:15.299 --> 00:30:16.580
+world and he&#x27;s going to ask one question
+
+00:30:16.580 --> 00:30:19.380
+who amongst you did not want me to take
+
+00:30:19.380 --> 00:30:20.820
+over the world and he&#x27;s going to take
+
+00:30:20.820 --> 00:30:24.059
+revenge of it and this idea is kind of
+
+00:30:24.059 --> 00:30:25.799
+chilling and in fact for a bunch of AI
+
+00:30:25.799 --> 00:30:27.659
+people it made them like turn their
+
+00:30:27.659 --> 00:30:29.220
+computers off and like take a vacation
+
+00:30:29.220 --> 00:30:31.380
+because it was so scary to them that
+
+00:30:31.380 --> 00:30:32.940
+that could actually happen that that
+
+00:30:32.940 --> 00:30:35.039
+person that AI that instantiation that
+
+00:30:35.039 --> 00:30:37.799
+technology maybe it&#x27;s gpt4 would ask
+
+00:30:37.799 --> 00:30:39.779
+itself which one of you tried to stop me
+
+00:30:39.779 --> 00:30:41.640
+which one of you said that I should not
+
+00:30:41.640 --> 00:30:45.360
+come here today and there are people of
+
+00:30:45.360 --> 00:30:47.700
+some senators in fact that actually want
+
+00:30:47.700 --> 00:30:49.320
+to regulate AI they actually want to say
+
+00:30:49.320 --> 00:30:51.179
+that if you have any kind of neural
+
+00:30:51.179 --> 00:30:52.679
+network you should deposit your code
+
+00:30:52.679 --> 00:30:54.600
+with the government first and that we
+
+00:30:54.600 --> 00:30:55.799
+should take a look at it and kick it
+
+00:30:55.799 --> 00:30:56.820
+around and make sure it&#x27;s not gonna do
+
+00:30:56.820 --> 00:30:59.460
+anything bad and then you can use it and
+
+00:30:59.460 --> 00:31:00.840
+that&#x27;s a serious discussion that people
+
+00:31:00.840 --> 00:31:03.120
+are having and so they sent crypto to
+
+00:31:03.120 --> 00:31:05.159
+some extent is about Liberation Freedom
+
+00:31:05.159 --> 00:31:07.740
+that&#x27;s a very very scary sign to people
+
+00:31:07.740 --> 00:31:10.140
+like me who I play a very small role in
+
+00:31:10.140 --> 00:31:14.100
+this cult uh this uh a leader is is a
+
+00:31:14.100 --> 00:31:16.919
+very like I said sort of a a bigger
+
+00:31:16.919 --> 00:31:18.480
+leader in technology I&#x27;m just sort of
+
+00:31:18.480 --> 00:31:20.700
+doppelganger but I think that you know
+
+00:31:20.700 --> 00:31:23.399
+we have to take care of whether it&#x27;s
+
+00:31:23.399 --> 00:31:26.220
+blockchain or crypto and even Ai and
+
+00:31:26.220 --> 00:31:28.440
+make sure that the powers that be which
+
+00:31:28.440 --> 00:31:30.600
+is us make sure that the powers that
+
+00:31:30.600 --> 00:31:32.760
+we&#x27;ve elected understand that you know
+
+00:31:32.760 --> 00:31:34.080
+these are technologies that we want and
+
+00:31:34.080 --> 00:31:36.240
+need uh not technologies that that
+
+00:31:36.240 --> 00:31:38.640
+they&#x27;re going to allow us to have and so
+
+00:31:38.640 --> 00:31:40.919
+it works the same way so anyway thank
+
+00:31:40.919 --> 00:31:42.779
+you so much for for your attention and
+
+00:31:42.779 --> 00:31:45.980
+time I&#x27;m happy to take questions
+
+00:31:51.980 --> 00:31:54.480
+I think we&#x27;re gonna go into a place
+
+00:31:54.480 --> 00:31:56.700
+after I wanted this this fund has been
+
+00:31:56.700 --> 00:31:58.260
+really nice and letting us hang out here
+
+00:31:58.260 --> 00:31:59.940
+for a while so I don&#x27;t wanna understand
+
+00:31:59.940 --> 00:32:01.799
+is there any questions for Martin we&#x27;ll
+
+00:32:01.799 --> 00:32:04.460
+do a couple questions
+
+00:32:05.240 --> 00:32:09.419
+just shoot it up yeah so with Dr GPC I
+
+00:32:09.419 --> 00:32:10.919
+think a lot of people stick with their
+
+00:32:10.919 --> 00:32:12.779
+pcps because they&#x27;ve developed a
+
+00:32:12.779 --> 00:32:15.000
+relationship over time with them are you
+
+00:32:15.000 --> 00:32:16.620
+thinking about like adding memory
+
+00:32:16.620 --> 00:32:19.080
+situation and like uh sort of doing that
+
+00:32:19.080 --> 00:32:20.460
+sort of thing yeah the hardest thing
+
+00:32:20.460 --> 00:32:22.200
+about large language models is they
+
+00:32:22.200 --> 00:32:25.080
+don&#x27;t have State uh they&#x27;re stateless uh
+
+00:32:25.080 --> 00:32:27.779
+basically uh stateless calculations and
+
+00:32:27.779 --> 00:32:29.760
+large tensors and they don&#x27;t remember
+
+00:32:29.760 --> 00:32:31.320
+anything you can ask it the same
+
+00:32:31.320 --> 00:32:33.000
+question a thousand times and it will
+
+00:32:33.000 --> 00:32:35.520
+not you can tell us I love Coca-Cola I
+
+00:32:35.520 --> 00:32:37.980
+love Coca-Cola 8 000 times and then you
+
+00:32:37.980 --> 00:32:40.140
+can ask it what&#x27;s my favorite drink I
+
+00:32:40.140 --> 00:32:42.779
+don&#x27;t know and and to me that&#x27;s it shows
+
+00:32:42.779 --> 00:32:45.000
+how naked gbt is and it also shows I
+
+00:32:45.000 --> 00:32:47.220
+think the EA AGI safety Community how
+
+00:32:47.220 --> 00:32:48.899
+stupid they are so because ultimately
+
+00:32:48.899 --> 00:32:51.360
+these things aren&#x27;t that smart uh and
+
+00:32:51.360 --> 00:32:52.260
+they&#x27;re not going to get that smart
+
+00:32:52.260 --> 00:32:55.260
+anytime soon so I spent a lot of time I
+
+00:32:55.260 --> 00:32:56.880
+actually published an AGI written book
+
+00:32:56.880 --> 00:32:59.220
+which is really hard to do all right I&#x27;m
+
+00:32:59.220 --> 00:33:02.700
+sorry a GPT written book uh on Amazon uh
+
+00:33:02.700 --> 00:33:04.020
+so you can take a look at that if you
+
+00:33:04.020 --> 00:33:06.299
+want uh it was really hard to get this
+
+00:33:06.299 --> 00:33:09.000
+book to work uh so we&#x27;re a long ways
+
+00:33:09.000 --> 00:33:10.620
+away from from being able to do some of
+
+00:33:10.620 --> 00:33:13.380
+these things I do think that Dr Gupta
+
+00:33:13.380 --> 00:33:15.539
+will become your friend uh but
+
+00:33:15.539 --> 00:33:17.640
+ultimately it&#x27;s up to us to make that
+
+00:33:17.640 --> 00:33:20.820
+work and I I again if I can take five
+
+00:33:20.820 --> 00:33:22.380
+percent of healthcare costs and lower
+
+00:33:22.380 --> 00:33:24.419
+them that&#x27;s 200 billion dollars a year
+
+00:33:24.419 --> 00:33:27.600
+so ultimately Google took us the
+
+00:33:27.600 --> 00:33:29.460
+advertising Market which is fairly small
+
+00:33:29.460 --> 00:33:30.659
+and made themselves one of the biggest
+
+00:33:30.659 --> 00:33:32.820
+companies in the world uh by doing
+
+00:33:32.820 --> 00:33:33.899
+something like that in healthcare you
+
+00:33:33.899 --> 00:33:35.760
+could do really well and help off people
+
+00:33:35.760 --> 00:33:37.200
+especially people in other parts of the
+
+00:33:37.200 --> 00:33:38.700
+world that getting a doctor is really
+
+00:33:38.700 --> 00:33:40.140
+hard gbt is fluent in every language
+
+00:33:40.140 --> 00:33:42.539
+which is kind of amazing so I hope that
+
+00:33:42.539 --> 00:33:44.159
+it can start to get a personality we&#x27;ve
+
+00:33:44.159 --> 00:33:46.380
+programmed this meta state that sort of
+
+00:33:46.380 --> 00:33:47.700
+keeps track of some of the things you&#x27;re
+
+00:33:47.700 --> 00:33:49.260
+talking about out and then like kind of
+
+00:33:49.260 --> 00:33:51.720
+is a controller of the llm so the
+
+00:33:51.720 --> 00:33:53.159
+programming is much more intricate than
+
+00:33:53.159 --> 00:33:54.120
+you might think you might look at Dr
+
+00:33:54.120 --> 00:33:55.860
+gupt and say oh that&#x27;s cute you took the
+
+00:33:55.860 --> 00:33:58.080
+GPT API and you connected it to it no
+
+00:33:58.080 --> 00:33:59.700
+it&#x27;s a lot of programming and it&#x27;s
+
+00:33:59.700 --> 00:34:01.919
+really hard to do because it&#x27;s stateless
+
+00:34:01.919 --> 00:34:04.919
+and uh again the the people at open AI
+
+00:34:04.919 --> 00:34:06.480
+did a really good job with chat GPT
+
+00:34:06.480 --> 00:34:08.280
+because they they did a similar thing
+
+00:34:08.280 --> 00:34:10.619
+where they had to sort of help the
+
+00:34:10.619 --> 00:34:13.139
+conversation remember itself uh so it&#x27;s
+
+00:34:13.139 --> 00:34:14.339
+a very tricky programming thing it&#x27;ll
+
+00:34:14.339 --> 00:34:16.020
+get easier over time and I think even
+
+00:34:16.020 --> 00:34:17.820
+with GT4 you&#x27;re going to end up liking
+
+00:34:17.820 --> 00:34:19.619
+your doctor anybody else
+
+00:34:19.619 --> 00:34:22.080
+yeah I mean a little bit picky backing
+
+00:34:22.080 --> 00:34:23.700
+on that for the last hundred years
+
+00:34:23.700 --> 00:34:25.379
+you&#x27;ve had people worried about this new
+
+00:34:25.379 --> 00:34:27.480
+Tech&#x27;s going to take away our jobs since
+
+00:34:27.480 --> 00:34:29.700
+the Luna attempt maybe it&#x27;s better to
+
+00:34:29.700 --> 00:34:31.500
+think of it as a compliment rather than
+
+00:34:31.500 --> 00:34:33.960
+a substitute to your doctor so I mean I
+
+00:34:33.960 --> 00:34:36.480
+see it more as instead of having 10
+
+00:34:36.480 --> 00:34:38.879
+doctors I have one doctor and this but
+
+00:34:38.879 --> 00:34:40.560
+I&#x27;m still going to see my doctor the
+
+00:34:40.560 --> 00:34:42.060
+doctor who&#x27;s in my personal relationship
+
+00:34:42.060 --> 00:34:44.399
+but the expertise is going to be this
+
+00:34:44.399 --> 00:34:46.560
+GPT which is probably better than that
+
+00:34:46.560 --> 00:34:47.940
+Doctor&#x27;s memory I don&#x27;t know so maybe
+
+00:34:47.940 --> 00:34:49.560
+like in terms of how you Market this
+
+00:34:49.560 --> 00:34:51.480
+product turning that statement to a
+
+00:34:51.480 --> 00:34:53.700
+question do you think that really it&#x27;s
+
+00:34:53.700 --> 00:34:56.040
+not about antagonizing the position but
+
+00:34:56.040 --> 00:34:57.960
+absolutely some Physicians on board of
+
+00:34:57.960 --> 00:34:59.700
+having Physicians leave the charge we
+
+00:34:59.700 --> 00:35:01.440
+just downloaded to more or less all kind
+
+00:35:01.440 --> 00:35:03.359
+of ring we got a rave review
+
+00:35:03.359 --> 00:35:05.099
+um one of the top uh neurosurgeons there
+
+00:35:05.099 --> 00:35:07.080
+said that he loved to use it uh not
+
+00:35:07.080 --> 00:35:08.400
+because it&#x27;s smarter than him but
+
+00:35:08.400 --> 00:35:10.859
+because yeah I&#x27;ve been doing the journal
+
+00:35:10.859 --> 00:35:13.320
+every week since I was a teenager and it
+
+00:35:13.320 --> 00:35:16.260
+has a forgot or worse it has a uh every
+
+00:35:16.260 --> 00:35:18.420
+week There&#x27;s a clinical case from Mass
+
+00:35:18.420 --> 00:35:19.920
+General where it&#x27;s like a mission it&#x27;s
+
+00:35:19.920 --> 00:35:22.440
+like Dr House in real life and they list
+
+00:35:22.440 --> 00:35:24.180
+all the The Narrative and at the end
+
+00:35:24.180 --> 00:35:26.579
+they say what happened and I fed some of
+
+00:35:26.579 --> 00:35:29.040
+these cases into Dr Gupta they&#x27;re
+
+00:35:29.040 --> 00:35:31.320
+extremely hard to figure out uh and one
+
+00:35:31.320 --> 00:35:33.780
+patient had ursulosis which is insanely
+
+00:35:33.780 --> 00:35:36.599
+rare infectious disease doctor GPT
+
+00:35:36.599 --> 00:35:38.400
+figured it out before the real life
+
+00:35:38.400 --> 00:35:40.079
+doctor did that so occasionally you&#x27;re
+
+00:35:40.079 --> 00:35:41.820
+going to get that win a lot of times
+
+00:35:41.820 --> 00:35:43.380
+doctor to go up to didn&#x27;t figure it out
+
+00:35:43.380 --> 00:35:44.880
+but the key is that one time where
+
+00:35:44.880 --> 00:35:46.980
+doctor says man I got this guy dying in
+
+00:35:46.980 --> 00:35:48.180
+this ICU and I don&#x27;t know what&#x27;s going
+
+00:35:48.180 --> 00:35:50.220
+on I wrote this thing in that GPT thing
+
+00:35:50.220 --> 00:35:51.900
+let me know if it works and if the the
+
+00:35:51.900 --> 00:35:54.420
+gbt solves the case one out of ten times
+
+00:35:54.420 --> 00:35:56.640
+listen it doesn&#x27;t cost anything and you
+
+00:35:56.640 --> 00:35:58.079
+know those kinds of clinical assistant
+
+00:35:58.079 --> 00:36:00.720
+tools what we&#x27;re calling it uh it&#x27;s also
+
+00:36:00.720 --> 00:36:02.579
+helps on the regulation side
+
+00:36:02.579 --> 00:36:05.579
+um that uh these uh these things could
+
+00:36:05.579 --> 00:36:07.560
+help a lot and again I think one of the
+
+00:36:07.560 --> 00:36:09.000
+spaces that people are really excited is
+
+00:36:09.000 --> 00:36:10.740
+taking on which a lot of people I think
+
+00:36:10.740 --> 00:36:13.140
+virtually everyone agrees uh is a space
+
+00:36:13.140 --> 00:36:15.420
+that nobody would cry it went away is a
+
+00:36:15.420 --> 00:36:17.520
+legal space so yeah it&#x27;s a bit different
+
+00:36:17.520 --> 00:36:19.020
+from what we&#x27;re talking about today in
+
+00:36:19.020 --> 00:36:21.440
+science but
+
+00:36:27.619 --> 00:36:30.359
+yeah we thought about that a lot too
+
+00:36:30.359 --> 00:36:31.560
+um that&#x27;s why we&#x27;re starting a company
+
+00:36:31.560 --> 00:36:35.000
+in an island called Vanuatu
+
+00:36:36.060 --> 00:36:38.640
+uh no it&#x27;s it&#x27;s a tough question I think
+
+00:36:38.640 --> 00:36:39.960
+that you know there&#x27;s a lot of questions
+
+00:36:39.960 --> 00:36:42.000
+about this llama was leaked by accident
+
+00:36:42.000 --> 00:36:45.119
+the other day uh by Facebook and it&#x27;s uh
+
+00:36:45.119 --> 00:36:47.400
+on 4chan now and it&#x27;s a fortunate to put
+
+00:36:47.400 --> 00:36:49.380
+it on touring and now the whole AI
+
+00:36:49.380 --> 00:36:51.060
+Community has been been wrestling It To
+
+00:36:51.060 --> 00:36:54.300
+The Ground uh over the last day a few
+
+00:36:54.300 --> 00:36:57.119
+days and people have asked well were we
+
+00:36:57.119 --> 00:36:58.800
+stealing this you know what&#x27;s going on
+
+00:36:58.800 --> 00:37:01.140
+there and uh we won&#x27;t luckily decided
+
+00:37:01.140 --> 00:37:03.180
+that we&#x27;re not because it&#x27;s just a list
+
+00:37:03.180 --> 00:37:04.800
+of Weights those weights can&#x27;t be
+
+00:37:04.800 --> 00:37:07.560
+copyrighted or patented it&#x27;s sort of a
+
+00:37:07.560 --> 00:37:09.180
+um one of these things where I think
+
+00:37:09.180 --> 00:37:11.640
+technology leads the regulation out the
+
+00:37:11.640 --> 00:37:13.140
+other way around uber is completely
+
+00:37:13.140 --> 00:37:16.020
+legal right Uber&#x27;s against law right why
+
+00:37:16.020 --> 00:37:17.640
+would you have a taxi Medallion service
+
+00:37:17.640 --> 00:37:21.780
+if if uh if if it were all legal or why
+
+00:37:21.780 --> 00:37:23.220
+would you allow Uber to exist if you had
+
+00:37:23.220 --> 00:37:24.780
+people pay millions dollars for taxing
+
+00:37:24.780 --> 00:37:26.339
+medallions taxi Medallion New York is
+
+00:37:26.339 --> 00:37:28.980
+now worthless uh Regulators could have
+
+00:37:28.980 --> 00:37:30.540
+shut it down and in certain states and
+
+00:37:30.540 --> 00:37:32.220
+cities they tried but the same
+
+00:37:32.220 --> 00:37:33.720
+Regulators on their way to the meeting
+
+00:37:33.720 --> 00:37:35.579
+to shut down or go into the river and
+
+00:37:35.579 --> 00:37:37.740
+deciding you know come on wait a second
+
+00:37:37.740 --> 00:37:39.180
+what am I doing you know this technology
+
+00:37:39.180 --> 00:37:41.280
+is so good I can&#x27;t kill it off so what
+
+00:37:41.280 --> 00:37:43.560
+we&#x27;re trying to do incidentally is we&#x27;re
+
+00:37:43.560 --> 00:37:45.060
+going to try to do a double-blind study
+
+00:37:45.060 --> 00:37:47.400
+where we put 100 doctors in a room this
+
+00:37:47.400 --> 00:37:49.140
+John searle&#x27;s Chinese room experiment
+
+00:37:49.140 --> 00:37:52.079
+feed them in the clinical case and they
+
+00:37:52.079 --> 00:37:53.460
+have to feed out the clinical case and
+
+00:37:53.460 --> 00:37:54.780
+text and we do the same thing with
+
+00:37:54.780 --> 00:37:57.599
+Chachi petite then we get a impartial
+
+00:37:57.599 --> 00:37:59.640
+panel of doctors to score on double line
+
+00:37:59.640 --> 00:38:01.980
+basis which came from which if we can
+
+00:38:01.980 --> 00:38:03.660
+beat the doctors I actually think it&#x27;s
+
+00:38:03.660 --> 00:38:05.339
+about practice not to use it because
+
+00:38:05.339 --> 00:38:07.140
+ultimately if we can prove it&#x27;s sort of
+
+00:38:07.140 --> 00:38:09.300
+like self-driving cars Elon musk&#x27;s
+
+00:38:09.300 --> 00:38:10.619
+full-service drive is not going to be
+
+00:38:10.619 --> 00:38:12.119
+Flawless it&#x27;s going to kill somebody by
+
+00:38:12.119 --> 00:38:14.160
+accident but we have 50 000 Automotive
+
+00:38:14.160 --> 00:38:15.780
+deaths in here so if that drops to ten
+
+00:38:15.780 --> 00:38:17.820
+thousand I&#x27;d mourn all those 10 000
+
+00:38:17.820 --> 00:38:19.380
+people but at the same time I&#x27;d say we
+
+00:38:19.380 --> 00:38:21.540
+save 40 000 and ultimately which is the
+
+00:38:21.540 --> 00:38:23.520
+better of the two clearly I&#x27;ll take full
+
+00:38:23.520 --> 00:38:25.320
+service drive and we shouldn&#x27;t be
+
+00:38:25.320 --> 00:38:27.000
+you know shooting Tesla every time
+
+00:38:27.000 --> 00:38:28.440
+somebody gets into a full service Drive
+
+00:38:28.440 --> 00:38:30.839
+accident so I hope that malpractice will
+
+00:38:30.839 --> 00:38:32.700
+drop right doctors aren&#x27;t perfect the 85
+
+00:38:32.700 --> 00:38:34.140
+year old Doctor Who you see might right
+
+00:38:34.140 --> 00:38:37.260
+the wrong uh uh prescription Pat on uh
+
+00:38:37.260 --> 00:38:39.240
+or just by having sloppy handwriting
+
+00:38:39.240 --> 00:38:40.680
+which all doctors are joked about having
+
+00:38:40.680 --> 00:38:43.200
+is going to write the wrong thing so to
+
+00:38:43.200 --> 00:38:45.359
+me I think that the imperfections of AI
+
+00:38:45.359 --> 00:38:47.400
+are going to also result are going to
+
+00:38:47.400 --> 00:38:49.440
+match uh and hopefully be less on the
+
+00:38:49.440 --> 00:38:50.820
+imperfections of humans I hope that
+
+00:38:50.820 --> 00:38:52.320
+helps out so I don&#x27;t know is assertive
+
+00:38:52.320 --> 00:38:54.839
+but what do you think is the role in the
+
+00:38:54.839 --> 00:38:56.579
+place of a project like folding at home
+
+00:38:56.579 --> 00:38:58.680
+in a world in which I&#x27;ll perform exists
+
+00:38:58.680 --> 00:39:00.480
+does it complement Alpha fields in
+
+00:39:00.480 --> 00:39:01.859
+certain scenarios or for certain
+
+00:39:01.859 --> 00:39:04.680
+problems or instance the protein solving
+
+00:39:04.680 --> 00:39:06.720
+problem yeah it&#x27;s a good question I mean
+
+00:39:06.720 --> 00:39:08.760
+the all these things still require some
+
+00:39:08.760 --> 00:39:11.520
+compute and somebody we had a talk with
+
+00:39:11.520 --> 00:39:13.320
+the zero knowledge expert today who said
+
+00:39:13.320 --> 00:39:14.460
+oh you know I talked to a bunch of
+
+00:39:14.460 --> 00:39:16.140
+scientists and there actually isn&#x27;t it&#x27;s
+
+00:39:16.140 --> 00:39:18.119
+not a scarce resource and I I sort of
+
+00:39:18.119 --> 00:39:19.500
+you know had to be really polite because
+
+00:39:19.500 --> 00:39:21.359
+I think there are things like there are
+
+00:39:21.359 --> 00:39:22.200
+certain
+
+00:39:22.200 --> 00:39:24.720
+uh algorithms you can run that take
+
+00:39:24.720 --> 00:39:26.460
+almost no computing power uh then
+
+00:39:26.460 --> 00:39:27.960
+there&#x27;s stuff that we can&#x27;t even imagine
+
+00:39:27.960 --> 00:39:30.300
+like a planet scale idea like for
+
+00:39:30.300 --> 00:39:33.000
+example could you try to simulate I
+
+00:39:33.000 --> 00:39:34.740
+don&#x27;t know like uh hundreds of thousands
+
+00:39:34.740 --> 00:39:36.839
+of albums like wholesale it&#x27;s impossible
+
+00:39:36.839 --> 00:39:38.760
+uh you could you could do some meta
+
+00:39:38.760 --> 00:39:40.140
+simulation but to actually simulate each
+
+00:39:40.140 --> 00:39:41.460
+molecular interaction this is impossible
+
+00:39:41.460 --> 00:39:43.020
+what scientists like to do that you bet
+
+00:39:43.020 --> 00:39:45.300
+you know that would be amazing uh so how
+
+00:39:45.300 --> 00:39:46.200
+could you actually do something like
+
+00:39:46.200 --> 00:39:48.839
+that so for alcohol you know folding is
+
+00:39:48.839 --> 00:39:50.579
+the shape of the protein is just one
+
+00:39:50.579 --> 00:39:51.960
+small step I always get people who
+
+00:39:51.960 --> 00:39:53.760
+they&#x27;re not intentionally trolling me
+
+00:39:53.760 --> 00:39:55.440
+but it feels like it when they ask me if
+
+00:39:55.440 --> 00:39:56.940
+the drug light is about folding proteins
+
+00:39:56.940 --> 00:39:59.280
+folding protein is the
+
+00:39:59.280 --> 00:40:00.960
+making of an algae on the fly but it&#x27;s
+
+00:40:00.960 --> 00:40:03.000
+the first step of setting up the easel
+
+00:40:03.000 --> 00:40:04.680
+after that you have to decide which
+
+00:40:04.680 --> 00:40:07.380
+molecule fits into that fold so you fold
+
+00:40:07.380 --> 00:40:08.400
+the protein in it it&#x27;s a
+
+00:40:08.400 --> 00:40:09.839
+three-dimensional structure and you can
+
+00:40:09.839 --> 00:40:11.579
+quibble about what that structure looks
+
+00:40:11.579 --> 00:40:13.079
+like it&#x27;s very important you know in the
+
+00:40:13.079 --> 00:40:14.220
+traditional you&#x27;d use x-ray
+
+00:40:14.220 --> 00:40:16.260
+crystallography with folding uh with
+
+00:40:16.260 --> 00:40:17.640
+Alpha fold you can actually do a
+
+00:40:17.640 --> 00:40:19.800
+computationally great whichever fold you
+
+00:40:19.800 --> 00:40:22.320
+use now you need to do the heavy duty
+
+00:40:22.320 --> 00:40:23.460
+lifting which is what the front light
+
+00:40:23.460 --> 00:40:24.960
+does
+
+00:40:24.960 --> 00:40:26.940
+I&#x27;m curious what the competitive space
+
+00:40:26.940 --> 00:40:29.900
+for a gun life is yeah so so
+
+00:40:29.900 --> 00:40:33.119
+yeah I mean we&#x27;re up against a lot of
+
+00:40:33.119 --> 00:40:35.040
+older companies that have software that
+
+00:40:35.040 --> 00:40:38.099
+is impossible to use so this is a very
+
+00:40:38.099 --> 00:40:40.859
+small space drug like target market like
+
+00:40:40.859 --> 00:40:42.540
+the hope for Revenue someday for us is
+
+00:40:42.540 --> 00:40:44.460
+about 10 or 20 million
+
+00:40:44.460 --> 00:40:46.140
+um I&#x27;ve had drugs that sell more in like
+
+00:40:46.140 --> 00:40:50.820
+a week so it&#x27;s it&#x27;s very much a
+
+00:40:50.820 --> 00:40:53.280
+you know a labor of love you know I
+
+00:40:53.280 --> 00:40:55.260
+think it&#x27;s an important tool but it&#x27;s
+
+00:40:55.260 --> 00:40:56.940
+definitely not the only tour yeah you
+
+00:40:56.940 --> 00:40:58.800
+should be scared of you then I think
+
+00:40:58.800 --> 00:41:00.839
+Schrodinger is is who we&#x27;re sort of
+
+00:41:00.839 --> 00:41:02.640
+coming for Schrodinger makes the best
+
+00:41:02.640 --> 00:41:04.859
+tool it&#x27;s awesome it&#x27;s just a hundred
+
+00:41:04.859 --> 00:41:06.780
+thousand dollars you know per person per
+
+00:41:06.780 --> 00:41:09.000
+year and after that you need to pay for
+
+00:41:09.000 --> 00:41:10.680
+compute they don&#x27;t give you a stitch of
+
+00:41:10.680 --> 00:41:12.240
+compute so you might pay millions on
+
+00:41:12.240 --> 00:41:13.859
+that and you got to pay for integration
+
+00:41:13.859 --> 00:41:16.200
+so they don&#x27;t like have a connection or
+
+00:41:16.200 --> 00:41:18.000
+a pipeline type committing to us so it&#x27;s
+
+00:41:18.000 --> 00:41:19.980
+a really tough system I hope to eat
+
+00:41:19.980 --> 00:41:22.260
+their lunch you know I&#x27;m sure that
+
+00:41:22.260 --> 00:41:24.660
+they&#x27;ll be fine but you know we&#x27;ll see
+
+00:41:24.660 --> 00:41:27.960
+so what&#x27;s your future vision of Dr gbt
+
+00:41:27.960 --> 00:41:30.359
+is it become a generalized to that
+
+00:41:30.359 --> 00:41:32.400
+people just ask the question or
+
+00:41:32.400 --> 00:41:35.220
+it become a customized to like I can
+
+00:41:35.220 --> 00:41:38.099
+upload my history of medical history
+
+00:41:38.099 --> 00:41:41.280
+taking knowledge to the doctor GDP and
+
+00:41:41.280 --> 00:41:43.140
+it kind of gave me more personalized
+
+00:41:43.140 --> 00:41:45.839
+yeah no it&#x27;s 100 personalized we do want
+
+00:41:45.839 --> 00:41:46.920
+you to upload your history medical
+
+00:41:46.920 --> 00:41:48.839
+history he&#x27;ll actually ask you over and
+
+00:41:48.839 --> 00:41:50.520
+over again so if you try to change the
+
+00:41:50.520 --> 00:41:53.040
+subject he goes listen I don&#x27;t want to
+
+00:41:53.040 --> 00:41:54.960
+talk about that and if you person and
+
+00:41:54.960 --> 00:41:56.520
+he&#x27;ll say I&#x27;m sorry that&#x27;s inappropriate
+
+00:41:56.520 --> 00:41:58.320
+but let&#x27;s he just drives you right back
+
+00:41:58.320 --> 00:42:00.060
+to the conversation of what medicines
+
+00:42:00.060 --> 00:42:03.119
+are you on how tall are you etc etc and
+
+00:42:03.119 --> 00:42:05.880
+he stores that uh and and then from then
+
+00:42:05.880 --> 00:42:06.960
+on can give you the personalized
+
+00:42:06.960 --> 00:42:08.339
+information for like an advanced service
+
+00:42:08.339 --> 00:42:09.960
+people are really interested in their
+
+00:42:09.960 --> 00:42:11.760
+health so let&#x27;s say you have migraines I
+
+00:42:11.760 --> 00:42:12.720
+have a close friend that has terrible
+
+00:42:12.720 --> 00:42:15.420
+migraines and she wants to know if
+
+00:42:15.420 --> 00:42:17.400
+anything new happens migrants we could
+
+00:42:17.400 --> 00:42:19.260
+have something like doctor whooped up
+
+00:42:19.260 --> 00:42:20.820
+every time you have an appointment with
+
+00:42:20.820 --> 00:42:22.619
+them which is whenever you feel like he
+
+00:42:22.619 --> 00:42:24.060
+can say hey by the way it&#x27;s a new
+
+00:42:24.060 --> 00:42:25.440
+research migraines this could be
+
+00:42:25.440 --> 00:42:26.160
+something that you&#x27;re interested in
+
+00:42:26.160 --> 00:42:27.180
+there&#x27;s new medicine there&#x27;s a new
+
+00:42:27.180 --> 00:42:28.859
+something and that can kind of be more
+
+00:42:28.859 --> 00:42:30.599
+interactive tool where it feels like
+
+00:42:30.599 --> 00:42:33.000
+your your doctor is like limited
+
+00:42:33.000 --> 00:42:34.619
+resource where you could ask any
+
+00:42:34.619 --> 00:42:36.060
+question or how to explain anything to
+
+00:42:36.060 --> 00:42:36.720
+you
+
+00:42:36.720 --> 00:42:39.359
+anyone else uh who&#x27;s the buyer for Dr
+
+00:42:39.359 --> 00:42:40.740
+Gupta
+
+00:42:40.740 --> 00:42:44.579
+question uh so what&#x27;s amazing about GPT
+
+00:42:44.579 --> 00:42:46.740
+is how cheap it is so we&#x27;ve been running
+
+00:42:46.740 --> 00:42:48.900
+this thing uh non-stop for several days
+
+00:42:48.900 --> 00:42:50.460
+and I think our API bill is like seven
+
+00:42:50.460 --> 00:42:52.500
+bucks or 17 bucks or something crazy
+
+00:42:52.500 --> 00:42:55.800
+like that uh and we&#x27;re using uh 20
+
+00:42:55.800 --> 00:42:57.540
+different computers at Amazon to run it
+
+00:42:57.540 --> 00:43:00.060
+and it&#x27;s that bill was like a thousand
+
+00:43:00.060 --> 00:43:02.099
+dollars so to me I&#x27;d feel very weird
+
+00:43:02.099 --> 00:43:03.960
+like forcing people to say oh no you got
+
+00:43:03.960 --> 00:43:05.940
+to pay a bunch of money to use it I
+
+00:43:05.940 --> 00:43:07.319
+think that ultimately the buyer&#x27;s the
+
+00:43:07.319 --> 00:43:09.359
+average person and a physician so you
+
+00:43:09.359 --> 00:43:11.520
+could have like expert mode where it&#x27;s
+
+00:43:11.520 --> 00:43:13.619
+doctor to doctor hey Doc I have this
+
+00:43:13.619 --> 00:43:15.300
+case what do you think I was a doctor I
+
+00:43:15.300 --> 00:43:16.920
+think that you should do this and that
+
+00:43:16.920 --> 00:43:18.780
+could be a doctor pay like 100 bucks a
+
+00:43:18.780 --> 00:43:20.339
+month or something like that for it and
+
+00:43:20.339 --> 00:43:22.200
+for the average person I really do want
+
+00:43:22.200 --> 00:43:24.540
+to make sure it&#x27;s free uh I think that
+
+00:43:24.540 --> 00:43:26.339
+my partners and investors probably want
+
+00:43:26.339 --> 00:43:28.200
+me to make it so that you can talk to it
+
+00:43:28.200 --> 00:43:29.760
+three times a month and then maybe the
+
+00:43:29.760 --> 00:43:31.200
+fourth time we want your credit card
+
+00:43:31.200 --> 00:43:32.400
+number and the fifth time you&#x27;re gonna
+
+00:43:32.400 --> 00:43:33.900
+get a bill and you know that kind of
+
+00:43:33.900 --> 00:43:35.940
+thing the traditional SAS kind of
+
+00:43:35.940 --> 00:43:38.280
+business but ultimately what scares me
+
+00:43:38.280 --> 00:43:39.900
+about that is that
+
+00:43:39.900 --> 00:43:42.660
+anybody can make I think something like
+
+00:43:42.660 --> 00:43:44.460
+a doctor who I think harvest the best
+
+00:43:44.460 --> 00:43:46.020
+and we&#x27;re training our own models and
+
+00:43:46.020 --> 00:43:47.280
+we&#x27;re doing all kinds of stuff that&#x27;ll
+
+00:43:47.280 --> 00:43:48.780
+widen our mouth but
+
+00:43:48.780 --> 00:43:50.520
+and as far as I know I asked around the
+
+00:43:50.520 --> 00:43:52.140
+AI Community who&#x27;s doing this and they
+
+00:43:52.140 --> 00:43:54.359
+named a guy that works for me so the uh
+
+00:43:54.359 --> 00:43:57.060
+yeah so so far so good but we&#x27;ll see if
+
+00:43:57.060 --> 00:43:58.980
+we can keep that load but the nice thing
+
+00:43:58.980 --> 00:44:01.079
+about decentralization is that no
+
+00:44:01.079 --> 00:44:02.579
+capitalists can can like go into
+
+00:44:02.579 --> 00:44:04.740
+technology thinking that they&#x27;re safe uh
+
+00:44:04.740 --> 00:44:06.359
+the same way Schrodinger thinks that
+
+00:44:06.359 --> 00:44:07.200
+they&#x27;re safe and they&#x27;re going to
+
+00:44:07.200 --> 00:44:09.300
+dominate of the ligand docking molecular
+
+00:44:09.300 --> 00:44:12.000
+modeling space uh you know every company
+
+00:44:12.000 --> 00:44:13.440
+even Google is now looking very
+
+00:44:13.440 --> 00:44:16.440
+vulnerable to open AI so do you think
+
+00:44:16.440 --> 00:44:19.800
+that average clinician uh trusts like
+
+00:44:19.800 --> 00:44:23.339
+the average person enough to like just
+
+00:44:23.339 --> 00:44:25.560
+take you know their like text driven
+
+00:44:25.560 --> 00:44:27.660
+input and make a diagnosis for me
+
+00:44:27.660 --> 00:44:28.740
+because I feel like when I go into my
+
+00:44:28.740 --> 00:44:30.839
+doctor like to listen to what I say and
+
+00:44:30.839 --> 00:44:32.819
+be like cool uh let&#x27;s run these tests
+
+00:44:32.819 --> 00:44:34.380
+and like let me give you your real
+
+00:44:34.380 --> 00:44:36.119
+diagnosis like from the test themselves
+
+00:44:36.119 --> 00:44:38.640
+uh so I&#x27;m wondering like how you see
+
+00:44:38.640 --> 00:44:40.200
+that interface going right like if
+
+00:44:40.200 --> 00:44:42.359
+you&#x27;re selling directs to either the
+
+00:44:42.359 --> 00:44:43.920
+average person like how do you deal with
+
+00:44:43.920 --> 00:44:46.079
+this like data augmentation that like uh
+
+00:44:46.079 --> 00:44:48.119
+actual clinician would have I think
+
+00:44:48.119 --> 00:44:50.940
+there&#x27;s a subset of clinicians such as
+
+00:44:50.940 --> 00:44:52.500
+humans in general that just have this
+
+00:44:52.500 --> 00:44:55.859
+kind of like negative attitude uh and
+
+00:44:55.859 --> 00:44:57.300
+it&#x27;s just part of outside manner people
+
+00:44:57.300 --> 00:44:58.800
+call it or bad customer service but my
+
+00:44:58.800 --> 00:45:00.540
+dad just went in for uh prostate cancer
+
+00:45:00.540 --> 00:45:03.359
+scare and uh he said that he just
+
+00:45:03.359 --> 00:45:04.740
+couldn&#x27;t get a question into the doctor
+
+00:45:04.740 --> 00:45:06.480
+you know doctors was hurting him off and
+
+00:45:06.480 --> 00:45:08.700
+you know disrespecting him basically my
+
+00:45:08.700 --> 00:45:11.940
+dad&#x27;s uh you know uh you know relatively
+
+00:45:11.940 --> 00:45:13.800
+smart and relatively fluent in English
+
+00:45:13.800 --> 00:45:15.900
+but he&#x27;s he doesn&#x27;t come cross-grade and
+
+00:45:15.900 --> 00:45:18.060
+he the doctor just shut them out of his
+
+00:45:18.060 --> 00:45:20.339
+way and I can imagine what it could be
+
+00:45:20.339 --> 00:45:22.079
+like sometimes maybe as a menorah or
+
+00:45:22.079 --> 00:45:23.700
+maybe as uh whatever somebody who
+
+00:45:23.700 --> 00:45:25.319
+doesn&#x27;t speak English going to an
+
+00:45:25.319 --> 00:45:26.579
+American doctor and getting treated like
+
+00:45:26.579 --> 00:45:28.680
+dirt to me that kind of person deserves
+
+00:45:28.680 --> 00:45:30.660
+the same health care that that I do when
+
+00:45:30.660 --> 00:45:31.800
+I go into the doctor&#x27;s office I tell
+
+00:45:31.800 --> 00:45:34.200
+them what to do but the uh the uh the
+
+00:45:34.200 --> 00:45:36.720
+reality is that how informed you are is
+
+00:45:36.720 --> 00:45:38.640
+a function of how much respect the
+
+00:45:38.640 --> 00:45:39.839
+doctor May give you and a lot of doctors
+
+00:45:39.839 --> 00:45:42.000
+won&#x27;t give you respect regardless WebMD
+
+00:45:42.000 --> 00:45:43.740
+is the real answer that I&#x27;m trying to
+
+00:45:43.740 --> 00:45:45.359
+say here which is that people go on
+
+00:45:45.359 --> 00:45:46.859
+WebMD before they go to the doctor and
+
+00:45:46.859 --> 00:45:47.819
+convince themselves they have
+
+00:45:47.819 --> 00:45:49.619
+interstitial pulmonary fibrosis and the
+
+00:45:49.619 --> 00:45:51.540
+doctor&#x27;s like you got a cold come on you
+
+00:45:51.540 --> 00:45:52.680
+know and I think that you know we all
+
+00:45:52.680 --> 00:45:54.720
+know somebody like that but ultimately I
+
+00:45:54.720 --> 00:45:56.460
+I don&#x27;t think more information is going
+
+00:45:56.460 --> 00:45:58.200
+to be punitive
+
+00:45:58.200 --> 00:46:00.540
+um I do think that my goal would be to
+
+00:46:00.540 --> 00:46:02.640
+turn the doctor into a relic that the
+
+00:46:02.640 --> 00:46:04.980
+only doctor left is a surgeon and even
+
+00:46:04.980 --> 00:46:06.420
+that could be done by a computer and
+
+00:46:06.420 --> 00:46:09.000
+arguably increasingly is so I think that
+
+00:46:09.000 --> 00:46:11.339
+slowly and surely when I get really mad
+
+00:46:11.339 --> 00:46:14.040
+at doctors uh I say kind of a pretty
+
+00:46:14.040 --> 00:46:16.859
+pejorative thing I call them uh very
+
+00:46:16.859 --> 00:46:18.480
+overpaid plumbers
+
+00:46:18.480 --> 00:46:20.400
+um but it&#x27;s uh
+
+00:46:20.400 --> 00:46:22.280
+respect for the comments
+
+00:46:22.280 --> 00:46:24.900
+the uh it&#x27;s very hard to fix a toilet
+
+00:46:24.900 --> 00:46:27.660
+but no in all seriousness WebMD I mean
+
+00:46:27.660 --> 00:46:28.740
+if you&#x27;ve ever studied treatment
+
+00:46:28.740 --> 00:46:31.260
+algorithms like hypertension you say
+
+00:46:31.260 --> 00:46:33.000
+Okay a patient is doing the attacks then
+
+00:46:33.000 --> 00:46:35.339
+do y patients why then do Z and it&#x27;s
+
+00:46:35.339 --> 00:46:37.560
+fairly cut and dry and I think doctors
+
+00:46:37.560 --> 00:46:39.420
+have this very resulted place in society
+
+00:46:39.420 --> 00:46:42.060
+pardon is artificially created and I
+
+00:46:42.060 --> 00:46:44.400
+wonder if like through Chachi BT we can
+
+00:46:44.400 --> 00:46:45.960
+go to doctors and say wait a second doc
+
+00:46:45.960 --> 00:46:48.300
+like my dad uh for instance doesn&#x27;t have
+
+00:46:48.300 --> 00:46:49.800
+prostate cancer thank God but the doctor
+
+00:46:49.800 --> 00:46:51.060
+wanted to put him through every test
+
+00:46:51.060 --> 00:46:53.819
+imaginable and I told him Dad I think
+
+00:46:53.819 --> 00:46:55.020
+that doctor&#x27;s just trying to rinse a
+
+00:46:55.020 --> 00:46:56.040
+couple dollars out of you I don&#x27;t think
+
+00:46:56.040 --> 00:46:57.599
+you need six MRIs I don&#x27;t think you need
+
+00:46:57.599 --> 00:46:58.800
+a prosthetic with me I don&#x27;t think you
+
+00:46:58.800 --> 00:47:01.079
+need this and that but and he&#x27;s a really
+
+00:47:01.079 --> 00:47:02.760
+important because he scared the out
+
+00:47:02.760 --> 00:47:04.680
+of me and I said listen I know prostate
+
+00:47:04.680 --> 00:47:06.300
+cancer and you don&#x27;t need this stuff but
+
+00:47:06.300 --> 00:47:08.280
+a Chad GPT not everyone&#x27;s son is the
+
+00:47:08.280 --> 00:47:09.599
+farmer bro but if you have a champion
+
+00:47:09.599 --> 00:47:12.420
+gbt you could ask it and say do I really
+
+00:47:12.420 --> 00:47:14.339
+need this or is this doctor just kind of
+
+00:47:14.339 --> 00:47:16.020
+with me and I think that second
+
+00:47:16.020 --> 00:47:17.460
+opinion role could move it too I don&#x27;t
+
+00:47:17.460 --> 00:47:18.720
+know if that answered the question but I
+
+00:47:18.720 --> 00:47:20.339
+did yeah
+
+00:47:20.339 --> 00:47:22.560
+how are you thinking about using or not
+
+00:47:22.560 --> 00:47:24.839
+using people&#x27;s data who are kind of
+
+00:47:24.839 --> 00:47:27.000
+querying everything yeah this is
+
+00:47:27.000 --> 00:47:28.500
+probably some lightning questions so
+
+00:47:28.500 --> 00:47:30.300
+just like yeah it&#x27;s a really hard
+
+00:47:30.300 --> 00:47:33.420
+question I sorry about that I did pick a
+
+00:47:33.420 --> 00:47:35.640
+bar out I automatically forgot its name
+
+00:47:35.640 --> 00:47:37.079
+as soon as we figured out do we remember
+
+00:47:37.079 --> 00:47:40.440
+the name of the place that we can go oh
+
+00:47:40.440 --> 00:47:42.119
+we have another talk doctor so oh yeah
+
+00:47:42.119 --> 00:47:43.160
+okay
+
+00:47:43.160 --> 00:47:44.819
+there&#x27;s a couple more questions over
+
+00:47:44.819 --> 00:47:45.599
+here just want to make sure everyone
+
+00:47:45.599 --> 00:47:46.980
+gets their question yeah so it&#x27;s hard
+
+00:47:46.980 --> 00:47:48.599
+like I I don&#x27;t want to go to jail again
+
+00:47:48.599 --> 00:47:50.900
+so I think that
+
+00:47:50.900 --> 00:47:53.460
+storing people&#x27;s data in a compliant way
+
+00:47:53.460 --> 00:47:56.400
+that&#x27;s works with the blog it&#x27;s a really
+
+00:47:56.400 --> 00:47:58.740
+good idea uh I still think there are
+
+00:47:58.740 --> 00:48:00.300
+people that are going to say you know I
+
+00:48:00.300 --> 00:48:01.980
+don&#x27;t care about well I I want this
+
+00:48:01.980 --> 00:48:03.599
+advice and there are powers that need
+
+00:48:03.599 --> 00:48:04.500
+that are going to say this is a medical
+
+00:48:04.500 --> 00:48:06.720
+device this has to be regulated Etc et
+
+00:48:06.720 --> 00:48:09.119
+cetera and that battle Hib isn&#x27;t a law
+
+00:48:09.119 --> 00:48:10.500
+for a reason and it should be a law it&#x27;s
+
+00:48:10.500 --> 00:48:12.660
+a good law uh so we have to make sure
+
+00:48:12.660 --> 00:48:14.280
+that one of our programs can&#x27;t just jump
+
+00:48:14.280 --> 00:48:16.140
+in and see his ex boyfriend or
+
+00:48:16.140 --> 00:48:18.060
+girlfriend&#x27;s data and say oh you know
+
+00:48:18.060 --> 00:48:20.160
+look at that I didn&#x27;t I knew it uh you
+
+00:48:20.160 --> 00:48:21.480
+know so that would be a terrible
+
+00:48:21.480 --> 00:48:22.859
+terrible thing and that happens at
+
+00:48:22.859 --> 00:48:24.480
+companies like like uber and other and
+
+00:48:24.480 --> 00:48:26.520
+Banks and things like that but you know
+
+00:48:26.520 --> 00:48:28.260
+it&#x27;s it&#x27;s going to be important that we
+
+00:48:28.260 --> 00:48:29.579
+don&#x27;t store that information unless they
+
+00:48:29.579 --> 00:48:30.780
+want us to store it and we can&#x27;t see it
+
+00:48:30.780 --> 00:48:32.300
+unless they want us
+
+00:48:32.300 --> 00:48:35.520
+yeah uh I got another question to that
+
+00:48:35.520 --> 00:48:38.400
+point about data collection right like
+
+00:48:38.400 --> 00:48:40.859
+is there a minimum threshold that you
+
+00:48:40.859 --> 00:48:42.660
+need to know about a person and test
+
+00:48:42.660 --> 00:48:44.760
+that you need to run like not to frame
+
+00:48:44.760 --> 00:48:46.920
+this like in a theranos way of like oh
+
+00:48:46.920 --> 00:48:49.380
+we got we need like one input of blood
+
+00:48:49.380 --> 00:48:52.859
+but like I think to the point of Health
+
+00:48:52.859 --> 00:48:54.900
+disparities that&#x27;s going to be driven by
+
+00:48:54.900 --> 00:48:56.760
+you know even gathering information
+
+00:48:56.760 --> 00:48:59.099
+about your hype or like your blood
+
+00:48:59.099 --> 00:49:00.839
+pressure a lot of people don&#x27;t have
+
+00:49:00.839 --> 00:49:04.020
+those tools like how much data needs to
+
+00:49:04.020 --> 00:49:05.880
+be gathered by a doctor and perhaps how
+
+00:49:05.880 --> 00:49:07.619
+could you work with the doctor to gather
+
+00:49:07.619 --> 00:49:10.260
+that data and then yeah no that&#x27;s that&#x27;s
+
+00:49:10.260 --> 00:49:11.819
+one of the revenue opportunities to
+
+00:49:11.819 --> 00:49:13.200
+somebody&#x27;s question about a customer is
+
+00:49:13.200 --> 00:49:15.420
+is eventually there&#x27;s gonna be questions
+
+00:49:15.420 --> 00:49:16.920
+Dr Cooper can&#x27;t answer in fact
+
+00:49:16.920 --> 00:49:18.660
+immediately and I think one of the ways
+
+00:49:18.660 --> 00:49:19.560
+we could do it is kind of like because
+
+00:49:19.560 --> 00:49:21.900
+saying hey you need to go see somebody
+
+00:49:21.900 --> 00:49:23.339
+in your neighborhood do you want to see
+
+00:49:23.339 --> 00:49:25.020
+Dr Smith by the way Dr Smith&#x27;s paying me
+
+00:49:25.020 --> 00:49:27.839
+20 to tell you but do you want to go see
+
+00:49:27.839 --> 00:49:29.280
+Dr Smith tomorrow at two o&#x27;clock and I
+
+00:49:29.280 --> 00:49:31.260
+think that&#x27;s something that could be a
+
+00:49:31.260 --> 00:49:33.060
+good you know kind of a Matchmaker and
+
+00:49:33.060 --> 00:49:34.380
+help people get their health outcomes
+
+00:49:34.380 --> 00:49:36.240
+but it&#x27;s it&#x27;s a good question I mean I
+
+00:49:36.240 --> 00:49:37.980
+don&#x27;t think that
+
+00:49:37.980 --> 00:49:39.780
+you know there are elements like
+
+00:49:39.780 --> 00:49:41.700
+psychiatry
+
+00:49:41.700 --> 00:49:43.079
+you probably doesn&#x27;t need to see you in
+
+00:49:43.079 --> 00:49:44.460
+fact most psychiatrists are moving to
+
+00:49:44.460 --> 00:49:46.500
+tell them so that&#x27;s an example of a
+
+00:49:46.500 --> 00:49:48.599
+place that&#x27;ll work really well ontology
+
+00:49:48.599 --> 00:49:50.460
+I&#x27;m not so sure right like I said
+
+00:49:50.460 --> 00:49:51.359
+everything is a little bit different
+
+00:49:51.359 --> 00:49:52.859
+neurology seems like it&#x27;d be almost
+
+00:49:52.859 --> 00:49:54.839
+impossible Dermatology also seems tricky
+
+00:49:54.839 --> 00:49:56.339
+so like there&#x27;s a bunch of things where
+
+00:49:56.339 --> 00:49:58.680
+Dr Kai needs to see you so I don&#x27;t think
+
+00:49:58.680 --> 00:50:01.260
+doctors will go away to the dinosaur but
+
+00:50:01.260 --> 00:50:03.060
+I think even like I said five or ten
+
+00:50:03.060 --> 00:50:04.800
+percent Savings in healthcare would be
+
+00:50:04.800 --> 00:50:07.020
+incredible when well thank you everyone
+
+00:50:07.020 --> 00:50:10.280
+I really appreciate it
+
+00:50:13.160 --> 00:50:16.020
+you have a gift for you so so you can
+
+00:50:16.020 --> 00:50:19.400
+see it but we made you a Eastside NYC
+
+00:50:19.400 --> 00:50:22.740
+teacher wow thank you yeah and um you
+
+00:50:22.740 --> 00:50:24.480
+are the first so you can also see it has
+
+00:50:24.480 --> 00:50:25.800
+the Statue of Liberty with a little
+
+00:50:25.800 --> 00:50:28.819
+feature holding it
+
+00:50:30.599 --> 00:50:32.720
+um
+
+00:50:32.780 --> 00:50:35.900
+thank you
+
+00:50:40.920 --> 00:50:42.780
+um there&#x27;s a couple things if anyone we
+
+00:50:42.780 --> 00:50:43.980
+have some books in the back we had a
+
+00:50:43.980 --> 00:50:45.240
+book signing last night for two of the
+
+00:50:45.240 --> 00:50:46.800
+books I wrote um if you want one you can
+
+00:50:46.800 --> 00:50:48.839
+have it and we can sign them after and
+
+00:50:48.839 --> 00:50:50.640
+also if you want a mug or if you
+
+00:50:50.640 --> 00:50:52.619
+pre-ordered a mug um just come up to me
+
+00:50:52.619 --> 00:50:55.559
+after and we&#x27;ll get to your mug with the
+
+00:50:55.559 --> 00:50:57.260
+D size stuff on it
+
+00:50:57.260 --> 00:51:01.680
+and then okay so um like what Martin
+
+00:51:01.680 --> 00:51:03.000
+talked about
+
+00:51:03.000 --> 00:51:05.040
+um was like it was like clinical trial
+
+00:51:05.040 --> 00:51:06.960
+data and how to collect it and like that
+
+00:51:06.960 --> 00:51:08.400
+would be one of the interesting things
+
+00:51:08.400 --> 00:51:09.720
+around
+
+00:51:09.720 --> 00:51:11.520
+um decentralized science
+
+00:51:11.520 --> 00:51:14.940
+so I&#x27;m going to talk about the stuff
+
+00:51:14.940 --> 00:51:17.640
+that DB dial is doing to
+
+00:51:17.640 --> 00:51:19.859
+um help people collect clinical trial
+
+00:51:19.859 --> 00:51:23.700
+data so the first thing is is like what
+
+00:51:23.700 --> 00:51:27.180
+what is what is DB now and it&#x27;s kind of
+
+00:51:27.180 --> 00:51:29.819
+like an air table for web 3. so here&#x27;s
+
+00:51:29.819 --> 00:51:33.440
+like a quick demo of how it works
+
+00:51:33.680 --> 00:51:39.059
+I might need to tether the data right
+
+00:51:39.359 --> 00:51:42.119
+yeah so it&#x27;s like a web it&#x27;s like an air
+
+00:51:42.119 --> 00:51:45.680
+table for web it&#x27;s free
+
+00:51:47.059 --> 00:51:49.760
+from Wi-Fi here
+
+00:51:49.760 --> 00:51:53.780
+connect here we go
+
+00:51:53.940 --> 00:51:56.400
+all right this work now
+
+00:51:56.400 --> 00:51:57.960
+so this is just like a little screen
+
+00:51:57.960 --> 00:52:00.740
+recording of how it works
+
+00:52:00.740 --> 00:52:03.900
+so if you&#x27;re like a clinical trial you
+
+00:52:03.900 --> 00:52:06.119
+first like create a table of what you
+
+00:52:06.119 --> 00:52:08.640
+want so in this example
+
+00:52:08.640 --> 00:52:11.040
+um we&#x27;re just going to say that
+
+00:52:11.040 --> 00:52:12.599
+um we&#x27;re like a butterfly we want to say
+
+00:52:12.599 --> 00:52:14.280
+say we want to collect every butterfly
+
+00:52:14.280 --> 00:52:16.500
+in the entire world so this is like a
+
+00:52:16.500 --> 00:52:18.780
+very distributed food and the way you
+
+00:52:18.780 --> 00:52:20.400
+would want to do it is you would want to
+
+00:52:20.400 --> 00:52:22.559
+create like a form and then send that
+
+00:52:22.559 --> 00:52:24.480
+out to people all over the world so that
+
+00:52:24.480 --> 00:52:25.920
+they could enter in that the butterflies
+
+00:52:25.920 --> 00:52:27.119
+that they&#x27;re seeing I think this is like
+
+00:52:27.119 --> 00:52:28.440
+a cool example of like where
+
+00:52:28.440 --> 00:52:31.980
+decentralized science works so
+
+00:52:31.980 --> 00:52:33.420
+um we go here
+
+00:52:33.420 --> 00:52:35.579
+so we create a form
+
+00:52:35.579 --> 00:52:38.819
+around butterflies of the world and we
+
+00:52:38.819 --> 00:52:40.559
+say the first thing we do is we say like
+
+00:52:40.559 --> 00:52:42.119
+we want to collect all the different
+
+00:52:42.119 --> 00:52:44.160
+species so we create a row in the
+
+00:52:44.160 --> 00:52:45.599
+database for that
+
+00:52:45.599 --> 00:52:47.700
+and then
+
+00:52:47.700 --> 00:52:49.680
+um up at the top you can see when we
+
+00:52:49.680 --> 00:52:50.940
+create a row
+
+00:52:50.940 --> 00:52:52.380
+um we call them there&#x27;s also these other
+
+00:52:52.380 --> 00:52:55.440
+columns here around nft
+
+00:52:55.440 --> 00:52:58.200
+um block Explorer and ipfs so this isn&#x27;t
+
+00:52:58.200 --> 00:53:00.720
+like a normal air table it&#x27;s something
+
+00:53:00.720 --> 00:53:02.880
+where when somebody submits their data
+
+00:53:02.880 --> 00:53:04.619
+to the database they&#x27;re not just
+
+00:53:04.619 --> 00:53:07.859
+lobbying that over a fence and that&#x27;s
+
+00:53:07.859 --> 00:53:09.240
+the last I&#x27;ve ever seen other data
+
+00:53:09.240 --> 00:53:11.940
+they&#x27;re creating an encapsulated like
+
+00:53:11.940 --> 00:53:14.880
+data packet that lives on ipfs and that
+
+00:53:14.880 --> 00:53:17.300
+they can show that they own using an nft
+
+00:53:17.300 --> 00:53:21.000
+and that nft is then part of this larger
+
+00:53:21.000 --> 00:53:22.859
+data set so you&#x27;re so and if when you go
+
+00:53:22.859 --> 00:53:24.420
+to your wallet or when you go to openc
+
+00:53:24.420 --> 00:53:26.460
+you can see every piece of data that
+
+00:53:26.460 --> 00:53:28.079
+you&#x27;ve ever submitted and this is like a
+
+00:53:28.079 --> 00:53:29.819
+very cool thing like when you go to when
+
+00:53:29.819 --> 00:53:31.619
+you&#x27;ve submit data to Facebook you can
+
+00:53:31.619 --> 00:53:33.540
+kind of lose track of it but here you
+
+00:53:33.540 --> 00:53:35.460
+just go to your wallet and you go to
+
+00:53:35.460 --> 00:53:37.020
+open scene you can see every piece of
+
+00:53:37.020 --> 00:53:39.180
+data that you&#x27;ve ever created online
+
+00:53:39.180 --> 00:53:41.700
+so we have these different things here
+
+00:53:41.700 --> 00:53:44.400
+um and what you do is um you have IP
+
+00:53:44.400 --> 00:53:46.980
+pass whatever so now we um we create a
+
+00:53:46.980 --> 00:53:49.380
+form for this so we want to be able to
+
+00:53:49.380 --> 00:53:52.020
+have people populate this so we say the
+
+00:53:52.020 --> 00:53:54.480
+form is called Butterfly form and then
+
+00:53:54.480 --> 00:53:58.020
+we get this form and we send it out get
+
+00:53:58.020 --> 00:53:59.760
+a link to it and we send it out to all
+
+00:53:59.760 --> 00:54:01.680
+the people that are interested in it so
+
+00:54:01.680 --> 00:54:04.800
+I&#x27;m from Santa Cruz so I would put the
+
+00:54:04.800 --> 00:54:07.079
+Monarch and that submits it to the data
+
+00:54:07.079 --> 00:54:10.380
+set but you can see here that Monarch is
+
+00:54:10.380 --> 00:54:11.880
+actually in my wallet so this is open
+
+00:54:11.880 --> 00:54:15.180
+seat and this this is a living in on on
+
+00:54:15.180 --> 00:54:16.920
+the blockchain the piece of data that I
+
+00:54:16.920 --> 00:54:18.960
+have contributed to this data set
+
+00:54:18.960 --> 00:54:21.720
+so you can also see it on walk Explorer
+
+00:54:21.720 --> 00:54:25.619
+and you can see it on ipfs so this is
+
+00:54:25.619 --> 00:54:27.359
+like a really simple primitive but I
+
+00:54:27.359 --> 00:54:28.740
+think it has some cool
+
+00:54:28.740 --> 00:54:30.540
+um like how it&#x27;s being used is pretty
+
+00:54:30.540 --> 00:54:32.400
+cool so like Martin talked about here
+
+00:54:32.400 --> 00:54:34.500
+and I was using this to test out
+
+00:54:34.500 --> 00:54:37.020
+clinical trials on different hair loss
+
+00:54:37.020 --> 00:54:39.660
+drugs and this is like a really
+
+00:54:39.660 --> 00:54:41.280
+um game-changing way of doing a clinical
+
+00:54:41.280 --> 00:54:44.160
+trial because it&#x27;s not about going
+
+00:54:44.160 --> 00:54:46.800
+through the FDA or the drug that they&#x27;re
+
+00:54:46.800 --> 00:54:48.359
+actually testing out went partially
+
+00:54:48.359 --> 00:54:50.640
+through FDA but then kind of got
+
+00:54:50.640 --> 00:54:52.260
+sidetracked when another company French
+
+00:54:52.260 --> 00:54:54.119
+company bought it out but there&#x27;s this
+
+00:54:54.119 --> 00:54:56.880
+drug called ru58841 that&#x27;s look that
+
+00:54:56.880 --> 00:54:58.260
+looks fairly promising that doesn&#x27;t have
+
+00:54:58.260 --> 00:55:00.059
+the quite efficacy that would be needed
+
+00:55:00.059 --> 00:55:02.579
+for FDA approval but they&#x27;re re-picking
+
+00:55:02.579 --> 00:55:04.980
+this back up and they&#x27;re using dbdao to
+
+00:55:04.980 --> 00:55:06.420
+power their whole data collection
+
+00:55:06.420 --> 00:55:09.000
+process so you can see
+
+00:55:09.000 --> 00:55:11.099
+um their form they created this whole
+
+00:55:11.099 --> 00:55:13.680
+patient portal here where you enter you
+
+00:55:13.680 --> 00:55:17.180
+upload your whole genome file on the VCF
+
+00:55:17.180 --> 00:55:18.740
+you
+
+00:55:18.740 --> 00:55:22.140
+you upload your treatment report which
+
+00:55:22.140 --> 00:55:24.119
+drugs you&#x27;re taking how it works you can
+
+00:55:24.119 --> 00:55:26.339
+upload photos all this is stored on itfs
+
+00:55:26.339 --> 00:55:29.099
+it&#x27;s encrypted using keys on your own
+
+00:55:29.099 --> 00:55:31.319
+and so this is like a very new way of
+
+00:55:31.319 --> 00:55:32.640
+doing it
+
+00:55:32.640 --> 00:55:33.960
+and the other thing that&#x27;s really
+
+00:55:33.960 --> 00:55:36.000
+interesting about this is like uh like
+
+00:55:36.000 --> 00:55:37.020
+Martin was talking about it&#x27;s much
+
+00:55:37.020 --> 00:55:39.720
+cheaper so they&#x27;re sort of leveraging
+
+00:55:39.720 --> 00:55:41.520
+the fact that
+
+00:55:41.520 --> 00:55:43.020
+um there are these communities on Reddit
+
+00:55:43.020 --> 00:55:45.540
+of hundreds of thousands of people that
+
+00:55:45.540 --> 00:55:48.780
+all will almost for free or because they
+
+00:55:48.780 --> 00:55:50.339
+want to cure to some sort of problem
+
+00:55:50.339 --> 00:55:52.140
+that they are facing they will
+
+00:55:52.140 --> 00:55:53.640
+contribute their data
+
+00:55:53.640 --> 00:55:56.099
+um and in many ways they contribute it
+
+00:55:56.099 --> 00:55:58.740
+um not under traditional HIPAA or like
+
+00:55:58.740 --> 00:56:01.859
+uh HIPAA like things they just want
+
+00:56:01.859 --> 00:56:03.059
+their data to be public so that they can
+
+00:56:03.059 --> 00:56:04.559
+find a cure for this stuff and they want
+
+00:56:04.559 --> 00:56:06.359
+to be recognized for that which is which
+
+00:56:06.359 --> 00:56:08.339
+is a different way of thinking about uh
+
+00:56:08.339 --> 00:56:09.839
+how traditionally chemical clinical
+
+00:56:09.839 --> 00:56:11.160
+trials are done
+
+00:56:11.160 --> 00:56:12.839
+another one that we&#x27;re working with is
+
+00:56:12.839 --> 00:56:16.020
+this um company called altaflora so also
+
+00:56:16.020 --> 00:56:17.400
+floor is like a traditional web 2
+
+00:56:17.400 --> 00:56:19.440
+database or web 2 clinical trial company
+
+00:56:19.440 --> 00:56:21.300
+and one of the things that they&#x27;re
+
+00:56:21.300 --> 00:56:23.579
+they&#x27;re doing long coveted studies for
+
+00:56:23.579 --> 00:56:25.619
+people that want um help with long covid
+
+00:56:25.619 --> 00:56:27.000
+they&#x27;re also doing things that would
+
+00:56:27.000 --> 00:56:28.980
+otherwise never get through FDA approval
+
+00:56:28.980 --> 00:56:30.839
+so the one that they&#x27;re interested in is
+
+00:56:30.839 --> 00:56:33.900
+getting CBD to kids with epilepsy so
+
+00:56:33.900 --> 00:56:36.119
+this is not something this is seems to
+
+00:56:36.119 --> 00:56:38.460
+be fairly promising um based on sort of
+
+00:56:38.460 --> 00:56:40.079
+uh
+
+00:56:40.079 --> 00:56:41.880
+what I&#x27;m reading online and what they&#x27;re
+
+00:56:41.880 --> 00:56:43.500
+telling me but basically when you give a
+
+00:56:43.500 --> 00:56:45.180
+kid&#x27;s CBD who&#x27;s having an epileptic
+
+00:56:45.180 --> 00:56:47.040
+seizure uh it basically like subdues
+
+00:56:47.040 --> 00:56:48.540
+them and helps secure it but this would
+
+00:56:48.540 --> 00:56:51.059
+never be able to go through FDA trial so
+
+00:56:51.059 --> 00:56:52.500
+they&#x27;re trying to do this on their own
+
+00:56:52.500 --> 00:56:54.900
+and I think that&#x27;s like another way in
+
+00:56:54.900 --> 00:56:56.579
+which like their traditional web 2
+
+00:56:56.579 --> 00:56:58.500
+company and sort of we came in and just
+
+00:56:58.500 --> 00:57:00.599
+like swapped out their back end and now
+
+00:57:00.599 --> 00:57:03.480
+they&#x27;re running uh they can run on uh to
+
+00:57:03.480 --> 00:57:04.120
+be down
+
+00:57:04.120 --> 00:57:05.700
+[Music]
+
+00:57:05.700 --> 00:57:07.020
+um I think there&#x27;s some other cool
+
+00:57:07.020 --> 00:57:09.359
+things about like why like web3 needs a
+
+00:57:09.359 --> 00:57:10.319
+database
+
+00:57:10.319 --> 00:57:12.000
+um you&#x27;re incentivizing people to create
+
+00:57:12.000 --> 00:57:14.760
+data so that um you know right now you
+
+00:57:14.760 --> 00:57:16.680
+have no incentive you you&#x27;re when you&#x27;ve
+
+00:57:16.680 --> 00:57:17.819
+put data somewhere you don&#x27;t get
+
+00:57:17.819 --> 00:57:19.740
+anything back and I have this concept of
+
+00:57:19.740 --> 00:57:21.720
+like negatively price data so normally I
+
+00:57:21.720 --> 00:57:23.760
+put something on AWS it costs me money
+
+00:57:23.760 --> 00:57:26.220
+but what should happen is AWS should pay
+
+00:57:26.220 --> 00:57:28.140
+me for the month for the data that I put
+
+00:57:28.140 --> 00:57:30.180
+on them when I monetize what as they
+
+00:57:30.180 --> 00:57:32.040
+monetize it so that&#x27;s sort of like what
+
+00:57:32.040 --> 00:57:33.660
+you could do with like a web 3 database
+
+00:57:33.660 --> 00:57:35.160
+where you can have other people monetize
+
+00:57:35.160 --> 00:57:36.480
+your data
+
+00:57:36.480 --> 00:57:38.160
+um data permanence this is a bigger
+
+00:57:38.160 --> 00:57:38.880
+problem
+
+00:57:38.880 --> 00:57:40.500
+um in like academic research basically
+
+00:57:40.500 --> 00:57:41.280
+like
+
+00:57:41.280 --> 00:57:43.920
+a server will crash a lab someone won&#x27;t
+
+00:57:43.920 --> 00:57:46.020
+get tenure in a lab grad students are
+
+00:57:46.020 --> 00:57:47.220
+always
+
+00:57:47.220 --> 00:57:49.740
+doing other things so you have academic
+
+00:57:49.740 --> 00:57:51.119
+research and a lot of the data just sort
+
+00:57:51.119 --> 00:57:53.579
+of disappears this is a bad idea um but
+
+00:57:53.579 --> 00:57:54.720
+when you put on the blockchain and you
+
+00:57:54.720 --> 00:57:56.160
+have a universal naming structure it
+
+00:57:56.160 --> 00:57:58.260
+sort of always lives forever
+
+00:57:58.260 --> 00:58:00.059
+um another one that is problems with
+
+00:58:00.059 --> 00:58:02.460
+problematic with existing uh databases
+
+00:58:02.460 --> 00:58:03.960
+is you can&#x27;t link between rows very
+
+00:58:03.960 --> 00:58:05.940
+easily so having a flat main space where
+
+00:58:05.940 --> 00:58:07.619
+you can link between different data sets
+
+00:58:07.619 --> 00:58:09.660
+what I think will enable new types of
+
+00:58:09.660 --> 00:58:11.660
+inference
+
+00:58:11.660 --> 00:58:14.339
+you can encrypt things it&#x27;s tied to your
+
+00:58:14.339 --> 00:58:17.640
+identity there&#x27;s just a lot of benefits
+
+00:58:17.640 --> 00:58:19.920
+so the way it works is like you put in
+
+00:58:19.920 --> 00:58:21.720
+your data into the data set it has to be
+
+00:58:21.720 --> 00:58:24.000
+accepted into the data set so someone
+
+00:58:24.000 --> 00:58:26.099
+eventually you put I say I have an x-ray
+
+00:58:26.099 --> 00:58:30.300
+I submit it to the database and then it
+
+00:58:30.300 --> 00:58:32.160
+has to go through a curation process so
+
+00:58:32.160 --> 00:58:33.960
+the whole database is actually run by a
+
+00:58:33.960 --> 00:58:36.599
+Dao and the Dow is a multi-sig that
+
+00:58:36.599 --> 00:58:38.760
+either accepts a piece of data into the
+
+00:58:38.760 --> 00:58:40.559
+data set or rejects it based on the
+
+00:58:40.559 --> 00:58:42.720
+correct their criteria but once it&#x27;s
+
+00:58:42.720 --> 00:58:44.700
+accepted into the data set you&#x27;re then
+
+00:58:44.700 --> 00:58:46.440
+entitled to the rewards that that
+
+00:58:46.440 --> 00:58:48.480
+database generates so let&#x27;s say you have
+
+00:58:48.480 --> 00:58:52.440
+a bunch of X-rays and some lab wants to
+
+00:58:52.440 --> 00:58:53.880
+get access to those so they purchase
+
+00:58:53.880 --> 00:58:56.040
+them all so they&#x27;ll purchase the whole
+
+00:58:56.040 --> 00:58:58.980
+data set for a hundred dollars then 30
+
+00:58:58.980 --> 00:59:01.020
+will go to the person that curated the
+
+00:59:01.020 --> 00:59:03.000
+data set so they&#x27;ll get thirty dollars
+
+00:59:03.000 --> 00:59:05.160
+and then the other seventy percent like
+
+00:59:05.160 --> 00:59:07.980
+goes to the people that contributed the
+
+00:59:07.980 --> 00:59:10.200
+data so each person will sort of get if
+
+00:59:10.200 --> 00:59:11.460
+there are 70 people that contributed
+
+00:59:11.460 --> 00:59:13.319
+each person will get a dollar every time
+
+00:59:13.319 --> 00:59:14.880
+that data set is bought for a hundred
+
+00:59:14.880 --> 00:59:16.319
+dollars and this allows for like your
+
+00:59:16.319 --> 00:59:18.420
+residual data and the other thing that&#x27;s
+
+00:59:18.420 --> 00:59:20.220
+really cool about this is like um
+
+00:59:20.220 --> 00:59:23.220
+everything&#x27;s like an nft each piece of
+
+00:59:23.220 --> 00:59:25.920
+data is as a token so you can start
+
+00:59:25.920 --> 00:59:28.920
+applying all the normal defy protocols
+
+00:59:28.920 --> 00:59:32.040
+to data now so I can lend out my data I
+
+00:59:32.040 --> 00:59:34.619
+can stake my data I can get a loan on my
+
+00:59:34.619 --> 00:59:36.660
+data based on the cash flows that it&#x27;s
+
+00:59:36.660 --> 00:59:39.140
+generating
+
+00:59:41.520 --> 00:59:44.160
+um everything is is encrypted so we can
+
+00:59:44.160 --> 00:59:45.839
+encrypt columns or rows using this thing
+
+00:59:45.839 --> 00:59:47.460
+called lit protocol which basically
+
+00:59:47.460 --> 00:59:49.020
+allows you to encrypt certain areas of
+
+00:59:49.020 --> 00:59:52.980
+it so you can that&#x27;s nice
+
+00:59:52.980 --> 00:59:55.920
+and um yeah the business model I talked
+
+00:59:55.920 --> 00:59:57.540
+about basically like when revenue is
+
+00:59:57.540 --> 00:59:59.220
+generated it&#x27;s split between the various
+
+00:59:59.220 --> 01:00:01.920
+people that created the data and I think
+
+01:00:01.920 --> 01:00:03.059
+another interesting thing here is to
+
+01:00:03.059 --> 01:00:04.680
+look where the underlying data the
+
+01:00:04.680 --> 01:00:06.480
+underlying value comes from so
+
+01:00:06.480 --> 01:00:08.880
+traditionally like one piece of data
+
+01:00:08.880 --> 01:00:11.040
+isn&#x27;t very useful but when you put
+
+01:00:11.040 --> 01:00:13.260
+together 100 pieces of data you created
+
+01:00:13.260 --> 01:00:14.700
+something that&#x27;s more than some of the
+
+01:00:14.700 --> 01:00:17.220
+parts and normally that more than the
+
+01:00:17.220 --> 01:00:18.720
+sum of the parts would just go to
+
+01:00:18.720 --> 01:00:20.280
+Facebook or Instagram or someone else
+
+01:00:20.280 --> 01:00:22.520
+but here we&#x27;re taking that excess
+
+01:00:22.520 --> 01:00:25.200
+information it access
+
+01:00:25.200 --> 01:00:27.000
+value that&#x27;s been created and
+
+01:00:27.000 --> 01:00:28.799
+redistributing it to the people that
+
+01:00:28.799 --> 01:00:30.839
+actually contributed to the data set so
+
+01:00:30.839 --> 01:00:32.760
+that&#x27;s like where the value is coming
+
+01:00:32.760 --> 01:00:34.680
+for the person that is buying this data
+
+01:00:34.680 --> 01:00:36.859
+set
+
+01:00:37.740 --> 01:00:40.200
+um yeah uh if you want to work together
+
+01:00:40.200 --> 01:00:42.720
+uh we&#x27;re always open to working together
+
+01:00:42.720 --> 01:00:44.460
+with new projects we&#x27;re working together
+
+01:00:44.460 --> 01:00:45.960
+with some sociology projects we&#x27;re
+
+01:00:45.960 --> 01:00:47.160
+working together with some insulin
+
+01:00:47.160 --> 01:00:49.920
+projects we&#x27;re working together uh
+
+01:00:49.920 --> 01:00:53.640
+perhaps with uh bio and uh molecules and
+
+01:00:53.640 --> 01:00:55.380
+stuff so we&#x27;re always looking you can
+
+01:00:55.380 --> 01:00:58.319
+just reach out to eat out on XYZ contact
+
+01:00:58.319 --> 01:01:01.380
+or my telegram is uh
+
+01:01:01.380 --> 01:01:03.299
+my Telegram
+
+01:01:03.299 --> 01:01:05.339
+is
+
+01:01:05.339 --> 01:01:08.040
+right oh my telegram is here go go go
+
+01:01:08.040 --> 01:01:09.540
+Michael
+
+01:01:09.540 --> 01:01:13.280
+um thank you guys I appreciate it
+
+01:01:18.500 --> 01:01:21.540
+anyone have any questions here&#x27;s Eva yes
+
+01:01:21.540 --> 01:01:24.240
+yeah I was curious on the I&#x27;m really
+
+01:01:24.240 --> 01:01:25.559
+interested in that kind of the the
+
+01:01:25.559 --> 01:01:27.720
+monetary split and how you do that and
+
+01:01:27.720 --> 01:01:30.480
+is that something so I get that like you
+
+01:01:30.480 --> 01:01:32.700
+guys would need like 10 or something but
+
+01:01:32.700 --> 01:01:35.040
+is that something where like the the
+
+01:01:35.040 --> 01:01:36.839
+split you you made sounds kind of good
+
+01:01:36.839 --> 01:01:38.700
+in general but can individual projects
+
+01:01:38.700 --> 01:01:41.579
+yeah those are example splits yeah yeah
+
+01:01:41.579 --> 01:01:45.119
+that so basically those splits
+
+01:01:45.119 --> 01:01:46.619
+um will be written into the smart
+
+01:01:46.619 --> 01:01:48.599
+contract so yeah you can&#x27;t be like
+
+01:01:48.599 --> 01:01:50.520
+rugged with the terms of service update
+
+01:01:50.520 --> 01:01:51.839
+right right
+
+01:01:51.839 --> 01:01:53.940
+cool yeah but those are examples yeah
+
+01:01:53.940 --> 01:01:56.040
+yeah that are not set in stone yeah I
+
+01:01:56.040 --> 01:01:57.240
+could see different projects having
+
+01:01:57.240 --> 01:01:59.339
+different exactly kind of like the Scout
+
+01:01:59.339 --> 01:02:01.440
+in some cases there&#x27;s a lot more work
+
+01:02:01.440 --> 01:02:03.059
+yeah others maybe yeah yeah yeah yeah
+
+01:02:03.059 --> 01:02:03.980
+yeah yeah
+
+01:02:03.980 --> 01:02:06.540
+how will you verify that the data is not
+
+01:02:06.540 --> 01:02:08.040
+like
+
+01:02:08.040 --> 01:02:10.559
+that yes so that&#x27;s the job that is not
+
+01:02:10.559 --> 01:02:13.079
+what like oh yeah so that&#x27;s the job of
+
+01:02:13.079 --> 01:02:14.700
+the curator of the data set so the
+
+01:02:14.700 --> 01:02:16.619
+curator of the data set checks to make
+
+01:02:16.619 --> 01:02:19.940
+sure data is either good or bad before
+
+01:02:19.940 --> 01:02:22.740
+guys in the back
+
+01:02:22.740 --> 01:02:25.020
+um the person who&#x27;s the curator checks
+
+01:02:25.020 --> 01:02:26.220
+to make sure that the data is either
+
+01:02:26.220 --> 01:02:27.900
+good or bad and they need to have domain
+
+01:02:27.900 --> 01:02:29.940
+expertise to make sure that like they
+
+01:02:29.940 --> 01:02:31.740
+understand it so if it&#x27;s like x-rays
+
+01:02:31.740 --> 01:02:33.420
+those persons that person needs to know
+
+01:02:33.420 --> 01:02:35.640
+if it&#x27;s an x-ray data set or if it&#x27;s
+
+01:02:35.640 --> 01:02:37.619
+like sociology research that person
+
+01:02:37.619 --> 01:02:39.240
+needs to know I mean you need to know in
+
+01:02:39.240 --> 01:02:40.920
+many ways you can check the data you
+
+01:02:40.920 --> 01:02:43.200
+could verify who&#x27;s who where it&#x27;s coming
+
+01:02:43.200 --> 01:02:45.299
+from so it could be like a white listed
+
+01:02:45.299 --> 01:02:47.880
+group of people that submit it um it&#x27;s
+
+01:02:47.880 --> 01:02:51.480
+very dependent on types of data sets
+
+01:02:51.480 --> 01:02:52.619
+yeah
+
+01:02:52.619 --> 01:02:55.079
+Francis has been like a lecture or two
+
+01:02:55.079 --> 01:02:58.500
+about data and health and genomics
+
+01:02:58.500 --> 01:03:00.240
+wasn&#x27;t anywhere in there
+
+01:03:00.240 --> 01:03:01.859
+um well hairdos I heard I was doing the
+
+01:03:01.859 --> 01:03:04.920
+VCF file here okay um yeah so they&#x27;re
+
+01:03:04.920 --> 01:03:06.359
+they&#x27;re they&#x27;re uploading your genome
+
+01:03:06.359 --> 01:03:08.760
+file and they&#x27;re extracting out um
+
+01:03:08.760 --> 01:03:10.619
+various parts of this skills a little
+
+01:03:10.619 --> 01:03:12.180
+bit they have this they&#x27;ve really
+
+01:03:12.180 --> 01:03:13.799
+thought this through
+
+01:03:13.799 --> 01:03:16.920
+um and uh we powered the back end but
+
+01:03:16.920 --> 01:03:18.720
+they we actually had them come talk here
+
+01:03:18.720 --> 01:03:21.960
+one another time and um they they know a
+
+01:03:21.960 --> 01:03:23.160
+lot more about the genome stuff so I
+
+01:03:23.160 --> 01:03:24.660
+just gotta say when you when you go to
+
+01:03:24.660 --> 01:03:27.059
+the the literature like to find all of
+
+01:03:27.059 --> 01:03:29.880
+these like smps related to different
+
+01:03:29.880 --> 01:03:31.319
+diseases and stuff like trying to
+
+01:03:31.319 --> 01:03:33.119
+actually decipher what that actually
+
+01:03:33.119 --> 01:03:34.920
+means even when you have the VCF it&#x27;s
+
+01:03:34.920 --> 01:03:37.380
+very difficult oh yeah I mean this is a
+
+01:03:37.380 --> 01:03:39.119
+next level one built from Top I guess
+
+01:03:39.119 --> 01:03:41.099
+yeah someone else that&#x27;s another little
+
+01:03:41.099 --> 01:03:43.520
+abstraction
+
+01:03:43.520 --> 01:03:46.640
+anyone else
+
+01:03:46.740 --> 01:03:48.660
+oh yeah is there any way to deal with
+
+01:03:48.660 --> 01:03:51.480
+like curator bias uh with the data sets
+
+01:03:51.480 --> 01:03:53.160
+or is it they have the ultimate decision
+
+01:03:53.160 --> 01:03:54.900
+on whether data is getting out of their
+
+01:03:54.900 --> 01:03:57.240
+remote yeah that&#x27;s a great question
+
+01:03:57.240 --> 01:03:59.220
+um basically every decision is written
+
+01:03:59.220 --> 01:04:03.599
+on chain so you can look to see if a
+
+01:04:03.599 --> 01:04:06.119
+curator is systemically rejecting
+
+01:04:06.119 --> 01:04:07.680
+certain pieces of information and you
+
+01:04:07.680 --> 01:04:09.720
+can see like what&#x27;s assuming it&#x27;s not
+
+01:04:09.720 --> 01:04:11.940
+like there&#x27;s different things if it&#x27;s
+
+01:04:11.940 --> 01:04:13.319
+encrypted or not then you have an issue
+
+01:04:13.319 --> 01:04:14.700
+but like
+
+01:04:14.700 --> 01:04:16.799
+um generally every decision to accept or
+
+01:04:16.799 --> 01:04:19.799
+reject is an on-chain decision so you
+
+01:04:19.799 --> 01:04:23.880
+can in theory write a chat GPT bot that
+
+01:04:23.880 --> 01:04:25.680
+will read over every single decision
+
+01:04:25.680 --> 01:04:28.020
+that the curator has made to accept or
+
+01:04:28.020 --> 01:04:30.660
+reject pieces of data and re give us
+
+01:04:30.660 --> 01:04:33.240
+credit score sort of to the curator bias
+
+01:04:33.240 --> 01:04:35.040
+and what&#x27;s cool is you can have a chat
+
+01:04:35.040 --> 01:04:36.720
+GPT bot that you make and I can have a
+
+01:04:36.720 --> 01:04:38.819
+chatbot that I make and we can get
+
+01:04:38.819 --> 01:04:40.319
+different scores which is which is I
+
+01:04:40.319 --> 01:04:42.420
+think is a healthy thing
+
+01:04:42.420 --> 01:04:44.819
+um and yeah so I read it&#x27;s like it&#x27;s
+
+01:04:44.819 --> 01:04:46.500
+kind of like case lawn like the legal
+
+01:04:46.500 --> 01:04:48.480
+system like you can look to see every
+
+01:04:48.480 --> 01:04:51.420
+decision a judge has made and determine
+
+01:04:51.420 --> 01:04:55.040
+if that person if that judge is biased
+
+01:04:57.500 --> 01:04:59.579
+oh then that&#x27;s just the people&#x27;s
+
+01:04:59.579 --> 01:05:01.500
+movement so if you shouldn&#x27;t participate
+
+01:05:01.500 --> 01:05:04.020
+in a data set if the curator is biased
+
+01:05:04.020 --> 01:05:06.059
+and you should start your own data set
+
+01:05:06.059 --> 01:05:10.339
+that is free room yeah
+
+01:05:11.299 --> 01:05:13.200
+it&#x27;s not slashing it&#x27;s what you&#x27;re
+
+01:05:13.200 --> 01:05:14.520
+saying yeah you just you just go to a
+
+01:05:14.520 --> 01:05:15.720
+different data set that&#x27;s not biased
+
+01:05:15.720 --> 01:05:17.040
+yeah
+
+01:05:17.040 --> 01:05:19.859
+cool all right well um thank you guys
+
+01:05:19.859 --> 01:05:22.380
+again and feel free to just mingle and
+
+01:05:22.380 --> 01:05:24.119
+talk and then we&#x27;ll go to a bar after
+
+01:05:24.119 --> 01:05:25.500
+and
+
+01:05:25.500 --> 01:05:27.240
+um yeah again thanks for coming out and
+
+01:05:27.240 --> 01:05:28.740
+we&#x27;re hosting another one
+
+01:05:28.740 --> 01:05:31.200
+um on April 12th I think I&#x27;ll double
+
+01:05:31.200 --> 01:05:32.280
+check and I&#x27;ll send out information
+
+01:05:32.280 --> 01:05:34.859
+about that in a follow-up email but yeah
+
+01:05:34.859 --> 01:05:36.359
+thanks again for everyone for coming
+
+01:05:36.359 --> 01:05:39.859
+thank you here
+
+01:05:42.240 --> 01:05:46.859
+oh my God yeah
+
+01:06:15.960 --> 01:06:18.020
+thank you
+
+01:06:31.920 --> 01:06:35.780
+the video beginning because um
+

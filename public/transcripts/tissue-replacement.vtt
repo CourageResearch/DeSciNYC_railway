@@ -1,0 +1,3986 @@
+WEBVTT
+
+00:00:02.860 --> 00:00:05.520
+[Music]
+
+00:00:05.520 --> 00:00:09.879
+okay okay now now we&#x27;re
+
+00:00:10.400 --> 00:00:13.799
+starting thank you guys for coming out
+
+00:00:13.799 --> 00:00:16.600
+this be the chair someone
+
+00:00:16.600 --> 00:00:19.000
+else um thank you guys for all being
+
+00:00:19.000 --> 00:00:21.480
+very excited about uh decentralized
+
+00:00:21.480 --> 00:00:25.080
+science and New York City and meeting
+
+00:00:25.080 --> 00:00:27.599
+other science people that happen to be
+
+00:00:27.599 --> 00:00:30.720
+here so I think a lot of people um are
+
+00:00:30.720 --> 00:00:33.040
+curious like what is D side maybe you&#x27;re
+
+00:00:33.040 --> 00:00:36.040
+um and so at the very highest level
+
+00:00:36.040 --> 00:00:39.280
+decentralized science is about how you
+
+00:00:39.280 --> 00:00:42.520
+can use the blockchain to improve some
+
+00:00:42.520 --> 00:00:44.920
+of the various aspects of science I&#x27;ll
+
+00:00:44.920 --> 00:00:46.600
+give a little talk around that but I
+
+00:00:46.600 --> 00:00:48.280
+just wanted to like welcome everyone and
+
+00:00:48.280 --> 00:00:49.680
+we do these we try and do these like
+
+00:00:49.680 --> 00:00:52.000
+once a month it&#x27;s a very Grassroots
+
+00:00:52.000 --> 00:00:54.440
+effort here in New York um I see a lot
+
+00:00:54.440 --> 00:00:56.000
+of people taking pictures um we&#x27;re
+
+00:00:56.000 --> 00:00:57.719
+trying to grow our Instagram and our
+
+00:00:57.719 --> 00:01:01.760
+Twitter a lot so if you tag us at D NYC
+
+00:01:01.760 --> 00:01:03.680
+on Instagram or Twitter surprisingly
+
+00:01:03.680 --> 00:01:05.840
+that name wasn&#x27;t taken for either of
+
+00:01:05.840 --> 00:01:10.040
+them um I would appreciate it but no
+
+00:01:10.040 --> 00:01:14.360
+pressure okay um okay
+
+00:01:14.360 --> 00:01:17.360
+so um I&#x27;m just going to give a little
+
+00:01:17.360 --> 00:01:19.159
+talk around what is decentralized
+
+00:01:19.159 --> 00:01:21.000
+science and then we&#x27;ll have our main
+
+00:01:21.000 --> 00:01:24.880
+speaker so uh what is
+
+00:01:24.880 --> 00:01:30.280
+D so um I did a PhD before and and it
+
+00:01:30.280 --> 00:01:32.479
+was sort of around traditional science
+
+00:01:32.479 --> 00:01:35.240
+and computer science and as it was as it
+
+00:01:35.240 --> 00:01:37.880
+was finishing with it I was taking a lot
+
+00:01:37.880 --> 00:01:40.600
+of notice around like the blockchain and
+
+00:01:40.600 --> 00:01:43.000
+how the blockchain was being used for
+
+00:01:43.000 --> 00:01:45.680
+things like uh the fit for Bitcoin to
+
+00:01:45.680 --> 00:01:48.560
+exchange money and value and then that
+
+00:01:48.560 --> 00:01:50.680
+sort of around that same time also
+
+00:01:50.680 --> 00:01:53.439
+ethereum came into into fruition which
+
+00:01:53.439 --> 00:01:55.439
+was around doing like a distributed
+
+00:01:55.439 --> 00:01:57.119
+computation the ability to do
+
+00:01:57.119 --> 00:01:59.320
+distributed computation and trusted
+
+00:01:59.320 --> 00:02:00.799
+computation
+
+00:02:00.799 --> 00:02:03.320
+and what those were really useful for
+
+00:02:03.320 --> 00:02:07.560
+were for like decentralized Finance so
+
+00:02:07.560 --> 00:02:10.039
+you could um you could figure out people
+
+00:02:10.039 --> 00:02:12.520
+could exchange value with each other and
+
+00:02:12.520 --> 00:02:14.760
+build all these lending protocols on top
+
+00:02:14.760 --> 00:02:16.360
+of blockchain and
+
+00:02:16.360 --> 00:02:18.879
+ethereum but one of the problems with
+
+00:02:18.879 --> 00:02:20.720
+this is like there was nothing that was
+
+00:02:20.720 --> 00:02:22.879
+like a it was all just like this meta
+
+00:02:22.879 --> 00:02:24.480
+stuff like there were these colored
+
+00:02:24.480 --> 00:02:25.879
+coins where someone had a red coin and
+
+00:02:25.879 --> 00:02:27.440
+you had a blue coin and you could
+
+00:02:27.440 --> 00:02:29.560
+exchange value and the red coin was
+
+00:02:29.560 --> 00:02:31.599
+worth more because the team that did it
+
+00:02:31.599 --> 00:02:35.440
+was really um was really smart but U at
+
+00:02:35.440 --> 00:02:36.319
+the end of the day there was nothing
+
+00:02:36.319 --> 00:02:38.080
+that was sort of backing that besides
+
+00:02:38.080 --> 00:02:41.560
+just uh you know reputation in some ways
+
+00:02:41.560 --> 00:02:43.360
+and one of the things that&#x27;s really cool
+
+00:02:43.360 --> 00:02:45.519
+about decentralized science is you can
+
+00:02:45.519 --> 00:02:47.800
+use all these really powerful
+
+00:02:47.800 --> 00:02:50.319
+distributed Technologies but instead of
+
+00:02:50.319 --> 00:02:53.440
+um having them backed by just uh
+
+00:02:53.440 --> 00:02:55.959
+information B red or blue coin you can
+
+00:02:55.959 --> 00:02:59.120
+back it with actual ex transic knowledge
+
+00:02:59.120 --> 00:03:01.200
+that is being taken from The Real World
+
+00:03:01.200 --> 00:03:03.680
+and put onto the blockchain and then
+
+00:03:03.680 --> 00:03:06.159
+people can trade that those knowledge
+
+00:03:06.159 --> 00:03:09.360
+coins or they can verify computation or
+
+00:03:09.360 --> 00:03:11.799
+they can verify data sets and you&#x27;re
+
+00:03:11.799 --> 00:03:13.879
+using sort of all this really cool
+
+00:03:13.879 --> 00:03:15.840
+decentralized Technologies to improve
+
+00:03:15.840 --> 00:03:17.560
+science as opposed to just sort of
+
+00:03:17.560 --> 00:03:20.200
+swapping tokens for decentralized
+
+00:03:20.200 --> 00:03:24.519
+finance so the goal of all this is to
+
+00:03:24.519 --> 00:03:27.440
+improve and create a more transparent a
+
+00:03:27.440 --> 00:03:30.280
+more open accessible and more like
+
+00:03:30.280 --> 00:03:34.159
+collaborative scientific research
+
+00:03:35.720 --> 00:03:38.959
+environment okay so the problem is like
+
+00:03:38.959 --> 00:03:41.200
+the way science is done right now is so
+
+00:03:41.200 --> 00:03:43.280
+broke and broken because it really
+
+00:03:43.280 --> 00:03:46.799
+hasn&#x27;t adapted too much since like the
+
+00:03:46.799 --> 00:03:50.720
+1500s let me just make sure
+
+00:03:51.200 --> 00:03:53.239
+good A lot of people who weren&#x27;t able to
+
+00:03:53.239 --> 00:03:55.799
+make it they want to see it okay so um
+
+00:03:55.799 --> 00:03:58.400
+they haven&#x27;t they have um like the
+
+00:03:58.400 --> 00:04:00.239
+problem is is when people are doing
+
+00:04:00.239 --> 00:04:02.280
+science today it&#x27;s so it&#x27;s actually very
+
+00:04:02.280 --> 00:04:04.519
+centralized so if you want to get money
+
+00:04:04.519 --> 00:04:06.159
+you have to if you want to do science
+
+00:04:06.159 --> 00:04:07.760
+the first thing you have to do is you
+
+00:04:07.760 --> 00:04:09.680
+have to apply for a grant and the people
+
+00:04:09.680 --> 00:04:11.000
+that you have to apply for the grant
+
+00:04:11.000 --> 00:04:14.120
+from is typically a government agency
+
+00:04:14.120 --> 00:04:15.760
+but the problem with that is the
+
+00:04:15.760 --> 00:04:18.079
+government agency like they they have
+
+00:04:18.079 --> 00:04:20.479
+like if the median if they start off as
+
+00:04:20.479 --> 00:04:21.799
+the people who are giving the grant just
+
+00:04:21.799 --> 00:04:23.759
+30 years old they just give the grants
+
+00:04:23.759 --> 00:04:24.960
+to the people that are always their
+
+00:04:24.960 --> 00:04:27.880
+friends so like there&#x27;s not a lot of new
+
+00:04:27.880 --> 00:04:29.840
+influx of ideas like you can look at the
+
+00:04:29.840 --> 00:04:31.880
+cohort it&#x27;s like the median age of the
+
+00:04:31.880 --> 00:04:33.120
+people that get the grants and give the
+
+00:04:33.120 --> 00:04:34.520
+grants is all the same and it just kind
+
+00:04:34.520 --> 00:04:36.680
+of moves forward and forward and forward
+
+00:04:36.680 --> 00:04:38.560
+so this is not great because it doesn&#x27;t
+
+00:04:38.560 --> 00:04:42.360
+allow for the introduction of new ideas
+
+00:04:42.360 --> 00:04:44.759
+um the other thing that sucks about it
+
+00:04:44.759 --> 00:04:47.320
+is like it&#x27;s slow so Publications can
+
+00:04:47.320 --> 00:04:50.120
+take like six months or a year or a year
+
+00:04:50.120 --> 00:04:52.440
+and a half before they&#x27;re ever released
+
+00:04:52.440 --> 00:04:55.039
+in like a big journal and it&#x27;s also like
+
+00:04:55.039 --> 00:04:57.880
+it puts a lot of limiting factors so
+
+00:04:57.880 --> 00:04:59.600
+they&#x27;ll give you all these uh
+
+00:04:59.600 --> 00:05:01.039
+recommendations of things you need to do
+
+00:05:01.039 --> 00:05:04.160
+to fix it um and by the time the paper
+
+00:05:04.160 --> 00:05:06.919
+is done uh there&#x27;s not the core kernel
+
+00:05:06.919 --> 00:05:09.320
+of the idea anymore that&#x27;s left sort of
+
+00:05:09.320 --> 00:05:12.639
+an amalgamation which sucks um and I
+
+00:05:12.639 --> 00:05:13.919
+think this is actually the biggest one
+
+00:05:13.919 --> 00:05:15.600
+this next one is like the
+
+00:05:15.600 --> 00:05:18.639
+reproducibility um and replicability in
+
+00:05:18.639 --> 00:05:21.440
+science so this is like a looming threat
+
+00:05:21.440 --> 00:05:23.360
+that is going to come and we&#x27;re seeing
+
+00:05:23.360 --> 00:05:26.280
+it now more and more um the profess like
+
+00:05:26.280 --> 00:05:28.960
+the president of Stanford had to resign
+
+00:05:28.960 --> 00:05:32.080
+because the data was sort of falsified
+
+00:05:32.080 --> 00:05:33.720
+and they couldn&#x27;t trace it back and then
+
+00:05:33.720 --> 00:05:34.960
+the president of Harvard was
+
+00:05:34.960 --> 00:05:37.800
+plagiarizing data and I think in general
+
+00:05:37.800 --> 00:05:39.639
+um if if at the top of these
+
+00:05:39.639 --> 00:05:42.120
+institutions the people are having these
+
+00:05:42.120 --> 00:05:44.160
+problems with reproducibility it
+
+00:05:44.160 --> 00:05:45.800
+probably trickles down and I think the
+
+00:05:45.800 --> 00:05:48.440
+analogy would be is like if Lance
+
+00:05:48.440 --> 00:05:51.000
+Armstrong is doping it&#x27;s very likely
+
+00:05:51.000 --> 00:05:52.680
+that a lot of the people under them have
+
+00:05:52.680 --> 00:05:54.680
+to dope as well in order to remain
+
+00:05:54.680 --> 00:05:57.479
+competitive at that same level so I
+
+00:05:57.479 --> 00:05:59.520
+think that it&#x27;s very likely that we&#x27;re
+
+00:05:59.520 --> 00:06:00.720
+going to have a lot of problems with
+
+00:06:00.720 --> 00:06:02.720
+reproducibility in the future and we&#x27;re
+
+00:06:02.720 --> 00:06:03.720
+just sort of seeing the tip of the
+
+00:06:03.720 --> 00:06:06.680
+iceberg at it now and then lastly is
+
+00:06:06.680 --> 00:06:10.360
+like um complex IP agreements so ideally
+
+00:06:10.360 --> 00:06:11.960
+like people that do science in a
+
+00:06:11.960 --> 00:06:13.560
+university setting should be
+
+00:06:13.560 --> 00:06:14.919
+incentivized to do the science and
+
+00:06:14.919 --> 00:06:15.800
+should be able to reap some of the
+
+00:06:15.800 --> 00:06:17.960
+benefit of that but the problem is like
+
+00:06:17.960 --> 00:06:19.639
+a lot of the IP that&#x27;s created in
+
+00:06:19.639 --> 00:06:21.280
+universities gets stuck between the
+
+00:06:21.280 --> 00:06:24.400
+university and the department and the IP
+
+00:06:24.400 --> 00:06:25.960
+the principal investigator and The
+
+00:06:25.960 --> 00:06:27.960
+Graduate students and it&#x27;s not easy to
+
+00:06:27.960 --> 00:06:29.440
+track who did what and who can
+
+00:06:29.440 --> 00:06:31.520
+distributed while and this is really bad
+
+00:06:31.520 --> 00:06:33.919
+because ideally the person that does the
+
+00:06:33.919 --> 00:06:37.560
+most of the work should gain most of the
+
+00:06:37.560 --> 00:06:40.360
+value okay so how does blockchain fix
+
+00:06:40.360 --> 00:06:43.360
+this is now blockchain has a
+
+00:06:43.360 --> 00:06:45.880
+decentralized way of for people to get
+
+00:06:45.880 --> 00:06:49.240
+money um blockchain has democratizes
+
+00:06:49.240 --> 00:06:50.720
+more people to become involved in
+
+00:06:50.720 --> 00:06:52.840
+science and you can track where the data
+
+00:06:52.840 --> 00:06:55.160
+comes from and who gets and who
+
+00:06:55.160 --> 00:06:56.680
+contributed what so that everyone is
+
+00:06:56.680 --> 00:06:59.440
+rewarded properly and it engages a lot
+
+00:06:59.440 --> 00:07:01.400
+lot more people through cryptoeconomic
+
+00:07:01.400 --> 00:07:03.639
+incentives so it&#x27;s not just about like
+
+00:07:03.639 --> 00:07:05.639
+decentralizing science but it&#x27;s also
+
+00:07:05.639 --> 00:07:08.160
+about incentivizing science in the right
+
+00:07:08.160 --> 00:07:09.879
+way I mean one of the problems that was
+
+00:07:09.879 --> 00:07:12.960
+also um with PE the publishing platform
+
+00:07:12.960 --> 00:07:15.560
+was like the the vectors in which the
+
+00:07:15.560 --> 00:07:17.879
+money flows is is kind of backwards so
+
+00:07:17.879 --> 00:07:19.520
+to get your paper accepted once the
+
+00:07:19.520 --> 00:07:21.199
+paper&#x27;s accepted you actually have to
+
+00:07:21.199 --> 00:07:23.960
+pay the the journal and then the to get
+
+00:07:23.960 --> 00:07:25.960
+access to that paper like they have to
+
+00:07:25.960 --> 00:07:27.440
+pay the journal also but the journal
+
+00:07:27.440 --> 00:07:28.960
+should really be paying the authors and
+
+00:07:28.960 --> 00:07:30.360
+the people that review and they
+
+00:07:30.360 --> 00:07:31.680
+reviewers don&#x27;t get any money so there&#x27;s
+
+00:07:31.680 --> 00:07:34.800
+a lot of incentive mismatches which lead
+
+00:07:34.800 --> 00:07:38.879
+to basically um people like getting
+
+00:07:38.879 --> 00:07:42.000
+their friends uh things and then like
+
+00:07:42.000 --> 00:07:43.520
+when the incentives aren&#x27;t clear like
+
+00:07:43.520 --> 00:07:45.840
+you get these like weird outgrowth of
+
+00:07:45.840 --> 00:07:47.240
+incentives where people do things that
+
+00:07:47.240 --> 00:07:49.000
+they probably shouldn&#x27;t be doing with
+
+00:07:49.000 --> 00:07:50.919
+the goal of some other goal of getting a
+
+00:07:50.919 --> 00:07:53.879
+professorship or some sort of um Plum
+
+00:07:53.879 --> 00:07:56.400
+appointment or something else so it&#x27;s
+
+00:07:56.400 --> 00:07:58.479
+really neat to like be able to get rid
+
+00:07:58.479 --> 00:08:00.520
+of all that and just sort of start fresh
+
+00:08:00.520 --> 00:08:02.080
+and say like okay this is this is
+
+00:08:02.080 --> 00:08:03.199
+interesting and the other thing I want
+
+00:08:03.199 --> 00:08:05.240
+to mention is like a lot of like a lot
+
+00:08:05.240 --> 00:08:07.080
+of these problems could be fixed at the
+
+00:08:07.080 --> 00:08:09.520
+social level but like we can&#x27;t there is
+
+00:08:09.520 --> 00:08:11.440
+no impetus to fix it at the social level
+
+00:08:11.440 --> 00:08:13.039
+so we have to come up with these very
+
+00:08:13.039 --> 00:08:16.360
+complicated Technologies in order to fix
+
+00:08:16.360 --> 00:08:18.000
+the social thing so another example
+
+00:08:18.000 --> 00:08:19.800
+would be like Bitcoin like we could just
+
+00:08:19.800 --> 00:08:21.440
+like Stop Printing money but like that&#x27;s
+
+00:08:21.440 --> 00:08:22.759
+not going to happen at the social level
+
+00:08:22.759 --> 00:08:24.520
+because it&#x27;s way too hard to fix it so
+
+00:08:24.520 --> 00:08:26.080
+it&#x27;s much easier to just sort of create
+
+00:08:26.080 --> 00:08:28.639
+a new blockchain where people can like
+
+00:08:28.639 --> 00:08:30.599
+trade money and create a new system even
+
+00:08:30.599 --> 00:08:31.639
+though it&#x27;s really complicated
+
+00:08:31.639 --> 00:08:33.080
+technically it will lead to like a
+
+00:08:33.080 --> 00:08:34.320
+better
+
+00:08:34.320 --> 00:08:37.760
+op okay um this is the slide we talk
+
+00:08:37.760 --> 00:08:42.919
+about it um so uh like the what&#x27;s cool
+
+00:08:42.919 --> 00:08:44.920
+about t is there&#x27;s all these new
+
+00:08:44.920 --> 00:08:46.560
+initiatives there&#x27;s Dows that are being
+
+00:08:46.560 --> 00:08:47.839
+formed which is a essential is
+
+00:08:47.839 --> 00:08:50.000
+autonomous organization which is like a
+
+00:08:50.000 --> 00:08:52.959
+lab in the traditional sense and um
+
+00:08:52.959 --> 00:08:55.279
+people are finding funding through new
+
+00:08:55.279 --> 00:08:57.959
+ways of crowdsourcing people are
+
+00:08:57.959 --> 00:08:59.720
+publishing on chain
+
+00:08:59.720 --> 00:09:01.880
+and doing peer review in new interesting
+
+00:09:01.880 --> 00:09:05.600
+ways um IP is being tracked in new ways
+
+00:09:05.600 --> 00:09:07.440
+and uh Dows are sort of driving new
+
+00:09:07.440 --> 00:09:09.000
+types of scientific
+
+00:09:09.000 --> 00:09:13.519
+innovation um uh this is more about the
+
+00:09:13.519 --> 00:09:16.519
+funding um people are publishing new
+
+00:09:16.519 --> 00:09:17.760
+thing people are doing new types of
+
+00:09:17.760 --> 00:09:19.839
+publishing people are publishing on ipfs
+
+00:09:19.839 --> 00:09:22.440
+people are attaching reputation to uh
+
+00:09:22.440 --> 00:09:24.480
+wallet addresses so that they can see
+
+00:09:24.480 --> 00:09:26.560
+who&#x27;s a really good good at who&#x27;s really
+
+00:09:26.560 --> 00:09:27.839
+good at predicting which paper is going
+
+00:09:27.839 --> 00:09:29.760
+to be successful or not so people can
+
+00:09:29.760 --> 00:09:31.160
+create like a people are creating a
+
+00:09:31.160 --> 00:09:33.480
+prediction market around publishing so
+
+00:09:33.480 --> 00:09:35.480
+instead of just uh someone saying like
+
+00:09:35.480 --> 00:09:37.200
+oh this is like a good paper people are
+
+00:09:37.200 --> 00:09:39.560
+staking like hundred or ,000 dollars on
+
+00:09:39.560 --> 00:09:42.040
+a paper and saying I bet in a year or
+
+00:09:42.040 --> 00:09:44.200
+two this paper is going to be worth more
+
+00:09:44.200 --> 00:09:46.399
+and so they&#x27;re being incentivized to do
+
+00:09:46.399 --> 00:09:48.079
+a good job of figuring out which papers
+
+00:09:48.079 --> 00:09:50.560
+are going to be
+
+00:09:51.040 --> 00:09:53.440
+successful um another really cool thing
+
+00:09:53.440 --> 00:09:55.120
+is like tracking of intellectual
+
+00:09:55.120 --> 00:09:57.200
+property so you can start from the
+
+00:09:57.200 --> 00:09:58.720
+beginning of where the data comes from
+
+00:09:58.720 --> 00:10:01.240
+on the sensor and you can track all the
+
+00:10:01.240 --> 00:10:05.040
+way through um up to the the final P
+
+00:10:05.040 --> 00:10:06.760
+published paper and what&#x27;s cool about
+
+00:10:06.760 --> 00:10:09.160
+this is now you can start to incentivize
+
+00:10:09.160 --> 00:10:10.399
+um the people that are actually doing
+
+00:10:10.399 --> 00:10:12.399
+the contributing the data or actually
+
+00:10:12.399 --> 00:10:14.760
+doing the analysis and each person sort
+
+00:10:14.760 --> 00:10:17.000
+of leaves a mark on that on each piece
+
+00:10:17.000 --> 00:10:19.160
+of data and allows to them to be
+
+00:10:19.160 --> 00:10:22.079
+incentivized at the
+
+00:10:22.600 --> 00:10:24.920
+end so I think there&#x27;s there&#x27;s some
+
+00:10:24.920 --> 00:10:26.160
+challenges though definitely for
+
+00:10:26.160 --> 00:10:30.320
+decentralized science um well there like
+
+00:10:30.320 --> 00:10:31.920
+with tra in traditional science you have
+
+00:10:31.920 --> 00:10:33.880
+a very clear source of funding but in
+
+00:10:33.880 --> 00:10:35.760
+decentralized science it&#x27;s almost like
+
+00:10:35.760 --> 00:10:37.519
+it&#x27;s more broad so you have to put a
+
+00:10:37.519 --> 00:10:39.440
+little bit more effort into into finding
+
+00:10:39.440 --> 00:10:42.000
+the money another hard one is like I
+
+00:10:42.000 --> 00:10:43.639
+think decentralized science works very
+
+00:10:43.639 --> 00:10:46.959
+well for um longitudinal research where
+
+00:10:46.959 --> 00:10:49.040
+everyone contributes a small amount but
+
+00:10:49.040 --> 00:10:50.639
+I think it becomes much harder to do
+
+00:10:50.639 --> 00:10:52.959
+decentralized science um where you need
+
+00:10:52.959 --> 00:10:54.839
+like someone with a lot of domain
+
+00:10:54.839 --> 00:10:57.480
+expertise to really understand how the
+
+00:10:57.480 --> 00:10:59.880
+Krab Cycle Works or how like a very
+
+00:10:59.880 --> 00:11:01.560
+complicated thing that requires a lot of
+
+00:11:01.560 --> 00:11:03.079
+knowledge because there&#x27;s not a lot of
+
+00:11:03.079 --> 00:11:04.560
+people who are willing to put in all the
+
+00:11:04.560 --> 00:11:06.720
+energy to do that and the university is
+
+00:11:06.720 --> 00:11:07.920
+actually does a really good job of
+
+00:11:07.920 --> 00:11:09.040
+screening for those people who are
+
+00:11:09.040 --> 00:11:12.279
+willing to put in um the energy and then
+
+00:11:12.279 --> 00:11:15.959
+lastly um like uh a regulatory things I
+
+00:11:15.959 --> 00:11:17.120
+think one of the things we have to look
+
+00:11:17.120 --> 00:11:19.240
+out for is people uh doing things that
+
+00:11:19.240 --> 00:11:21.040
+are in compliance that are generally
+
+00:11:21.040 --> 00:11:22.560
+socially acceptable so like in a
+
+00:11:22.560 --> 00:11:24.880
+university setting there&#x27;s an IRB which
+
+00:11:24.880 --> 00:11:27.000
+stands for an Institutional review board
+
+00:11:27.000 --> 00:11:28.560
+that makes sure like what the studies
+
+00:11:28.560 --> 00:11:30.639
+that are being done or conducted are
+
+00:11:30.639 --> 00:11:32.480
+generally ethical and I think we need to
+
+00:11:32.480 --> 00:11:34.320
+be careful about that in decentralized
+
+00:11:34.320 --> 00:11:36.440
+science
+
+00:11:36.440 --> 00:11:39.399
+also um so I think we have that has the
+
+00:11:39.399 --> 00:11:41.200
+ability to like revolutionize new areas
+
+00:11:41.200 --> 00:11:43.200
+of science with with some
+
+00:11:43.200 --> 00:11:45.079
+cavon
+
+00:11:45.079 --> 00:11:47.240
+and um I just wanted to talk a little
+
+00:11:47.240 --> 00:11:48.600
+bit more around so that&#x27;s that that&#x27;s
+
+00:11:48.600 --> 00:11:51.720
+what decentralized Sciences so D we have
+
+00:11:51.720 --> 00:11:53.200
+um we do these
+
+00:11:53.200 --> 00:11:57.399
+monthly and um here&#x27;s the next D event
+
+00:11:57.399 --> 00:11:59.720
+um it&#x27;s going to be on Focus ultrasound
+
+00:11:59.720 --> 00:12:02.800
+so if you scan this uh you can RSVP on
+
+00:12:02.800 --> 00:12:04.839
+it and focus ultrasound is very
+
+00:12:04.839 --> 00:12:07.480
+interesting it&#x27;s basically trying to
+
+00:12:07.480 --> 00:12:11.360
+it&#x27;s like the cyber knife where um
+
+00:12:11.360 --> 00:12:13.440
+you&#x27;re trying to resonate some certain
+
+00:12:13.440 --> 00:12:15.440
+area of the brain at a very specific
+
+00:12:15.440 --> 00:12:18.560
+frequency so that the cell sort of
+
+00:12:18.560 --> 00:12:20.399
+explodes and it&#x27;s completely
+
+00:12:20.399 --> 00:12:22.240
+non-invasive and it&#x27;s looking very
+
+00:12:22.240 --> 00:12:24.959
+promising there&#x27;s some um people at UCLA
+
+00:12:24.959 --> 00:12:27.440
+who are looking into it so that is our
+
+00:12:27.440 --> 00:12:30.880
+next D event which will be in
+
+00:12:32.240 --> 00:12:34.279
+February
+
+00:12:34.279 --> 00:12:38.519
+um that is that portion of the
+
+00:12:41.480 --> 00:12:44.279
+talk anyone have any questions before we
+
+00:12:44.279 --> 00:12:46.199
+our main
+
+00:12:46.199 --> 00:12:49.680
+speaker I have a question um you said
+
+00:12:49.680 --> 00:12:51.279
+that issues
+
+00:12:51.279 --> 00:12:54.240
+the what is the is just simply the proof
+
+00:12:54.240 --> 00:12:57.519
+of that youed data to link to or is like
+
+00:12:57.519 --> 00:12:59.720
+there&#x27;s some other certific
+
+00:12:59.720 --> 00:13:02.000
+it has the it has it there&#x27;s an ad
+
+00:13:02.000 --> 00:13:03.959
+testation from our server to that and it
+
+00:13:03.959 --> 00:13:06.600
+also has the the data on it too the data
+
+00:13:06.600 --> 00:13:09.240
+is store on ipfs and then the ipf then
+
+00:13:09.240 --> 00:13:13.360
+the ipfs ID is linked to that nft and so
+
+00:13:13.360 --> 00:13:16.320
+then it&#x27;s all there yeah for the
+
+00:13:16.320 --> 00:13:19.600
+original sale how is that price decided
+
+00:13:19.600 --> 00:13:21.160
+there&#x27;s no there&#x27;s no there&#x27;s no price
+
+00:13:21.160 --> 00:13:23.000
+decided initially you you&#x27;re Meed the
+
+00:13:23.000 --> 00:13:25.480
+nft and then that price fluctuates based
+
+00:13:25.480 --> 00:13:30.680
+on the value of the data set the market
+
+00:13:30.680 --> 00:13:35.199
+yeah you see potential for this to be
+
+00:13:35.199 --> 00:13:37.199
+integrating because I think one the
+
+00:13:37.199 --> 00:13:40.160
+biggest issue with research is having
+
+00:13:40.160 --> 00:13:43.360
+facilities back resources yeah it&#x27;s a
+
+00:13:43.360 --> 00:13:44.480
+good question I think there&#x27;s going to
+
+00:13:44.480 --> 00:13:46.600
+be something like a cloud kitchen model
+
+00:13:46.600 --> 00:13:49.000
+for for um there&#x27;s already been people
+
+00:13:49.000 --> 00:13:51.399
+that have approached this who have extra
+
+00:13:51.399 --> 00:13:53.600
+lab space that they&#x27;re not using and are
+
+00:13:53.600 --> 00:13:56.399
+willing to rent it out to people so if
+
+00:13:56.399 --> 00:13:58.399
+if you wanted lab space we actually have
+
+00:13:58.399 --> 00:14:00.320
+people depending on what it is it was
+
+00:14:00.320 --> 00:14:03.079
+like some wet l so I don&#x27;t think the wet
+
+00:14:03.079 --> 00:14:04.680
+and in University settings you can
+
+00:14:04.680 --> 00:14:07.000
+actually a lot of times rent out bench
+
+00:14:07.000 --> 00:14:09.040
+space as well and they&#x27;ll do it for you
+
+00:14:09.040 --> 00:14:11.519
+as a profit as a for-profit thing so I
+
+00:14:11.519 --> 00:14:14.519
+don&#x27;t think like the physical plant of
+
+00:14:14.519 --> 00:14:17.399
+the university is like a huge barrier to
+
+00:14:17.399 --> 00:14:18.800
+actual
+
+00:14:18.800 --> 00:14:21.279
+science it&#x27;s a good point
+
+00:14:21.279 --> 00:14:25.839
+though yeah um you mentioned one of the
+
+00:14:25.839 --> 00:14:27.680
+problems with the status
+
+00:14:27.680 --> 00:14:30.680
+quo
+
+00:14:34.040 --> 00:14:36.160
+L
+
+00:14:40.330 --> 00:14:43.469
+[Music]
+
+00:14:45.720 --> 00:14:48.809
+[Music]
+
+00:14:52.480 --> 00:14:55.839
+ofid yeah I think it&#x27;s just it&#x27;s a good
+
+00:14:55.839 --> 00:14:59.040
+point I think and definitely in web in
+
+00:14:59.040 --> 00:15:01.199
+general there are Dows that are very
+
+00:15:01.199 --> 00:15:04.160
+clickish and probably even more clickish
+
+00:15:04.160 --> 00:15:07.680
+than some of the labs in some University
+
+00:15:07.680 --> 00:15:11.600
+and so maybe it won&#x27;t be that won&#x27;t be
+
+00:15:11.600 --> 00:15:14.240
+resolved but there&#x27;ll be more so you
+
+00:15:14.240 --> 00:15:16.079
+will be able there&#x27;s nothing in there&#x27;s
+
+00:15:16.079 --> 00:15:18.560
+nothing per se wrong with being clickish
+
+00:15:18.560 --> 00:15:20.519
+or unique as long as there&#x27;s a clickish
+
+00:15:20.519 --> 00:15:22.279
+and unique place for each person who
+
+00:15:22.279 --> 00:15:24.600
+wants to participate like in some ways
+
+00:15:24.600 --> 00:15:27.240
+like um being unique is like if everyone
+
+00:15:27.240 --> 00:15:28.759
+is unique that&#x27;s kind of the best
+
+00:15:28.759 --> 00:15:30.880
+outcome in the world because everyone
+
+00:15:30.880 --> 00:15:32.440
+has their own domain in which they&#x27;re
+
+00:15:32.440 --> 00:15:35.160
+not comping competing and it&#x27;s like a
+
+00:15:35.160 --> 00:15:39.759
+Peto optimal situation um but um I think
+
+00:15:39.759 --> 00:15:40.720
+there&#x27;s just like there&#x27;ll be more
+
+00:15:40.720 --> 00:15:42.440
+opportunity but it is something to is
+
+00:15:42.440 --> 00:15:43.639
+something to be worried about and I do
+
+00:15:43.639 --> 00:15:45.519
+think that like web 3 is generally not
+
+00:15:45.519 --> 00:15:49.680
+great at creating like um groups of
+
+00:15:49.680 --> 00:15:52.519
+people that and letting new people in I
+
+00:15:52.519 --> 00:15:53.839
+think there should be like maybe like an
+
+00:15:53.839 --> 00:15:55.480
+entrance test or like something like
+
+00:15:55.480 --> 00:16:00.600
+that I to me the biggest downside
+
+00:16:14.000 --> 00:16:18.079
+yeah yeah um science is very quick just
+
+00:16:18.079 --> 00:16:20.120
+in general everyone has their idea and
+
+00:16:20.120 --> 00:16:22.199
+like there&#x27;s this saying that like death
+
+00:16:22.199 --> 00:16:24.480
+is the only way that new ideas get
+
+00:16:24.480 --> 00:16:27.120
+admitted into science because the only
+
+00:16:27.120 --> 00:16:29.519
+way for a new idea has to sort of
+
+00:16:29.519 --> 00:16:32.000
+physically die before the new thing is
+
+00:16:32.000 --> 00:16:34.800
+allowed in I think it&#x27;s kind of true and
+
+00:16:34.800 --> 00:16:36.519
+um maybe maybe just people don&#x27;t
+
+00:16:36.519 --> 00:16:40.440
+communicate as much have less
+
+00:16:40.440 --> 00:16:42.319
+conflict but it&#x27;s a good point it&#x27;s a
+
+00:16:42.319 --> 00:16:44.040
+very good
+
+00:16:44.040 --> 00:16:46.600
+point anyone
+
+00:16:46.600 --> 00:16:49.480
+else okay all right let&#x27;s before we do
+
+00:16:49.480 --> 00:16:52.000
+that um let&#x27;s get a group picture so
+
+00:16:52.000 --> 00:16:54.240
+everyone
+
+00:16:54.240 --> 00:16:57.480
+everyone everyone
+
+00:16:57.480 --> 00:16:59.319
+try
+
+00:16:59.319 --> 00:17:03.400
+three you&#x27;re on the side come
+
+00:17:03.400 --> 00:17:07.919
+in come in the side we can&#x27;t see the
+
+00:17:08.480 --> 00:17:10.760
+people
+
+00:17:10.760 --> 00:17:14.039
+okay three two
+
+00:17:14.039 --> 00:17:15.839
+one say
+
+00:17:15.839 --> 00:17:20.760
+cheese okay one more uh three two one
+
+00:17:20.760 --> 00:17:22.619
+cheese
+
+00:17:22.619 --> 00:17:23.109
+[Music]
+
+00:17:23.109 --> 00:17:25.880
+[Applause]
+
+00:17:25.880 --> 00:17:30.720
+Yay see it&#x27;s on you want with this oh
+
+00:17:32.980 --> 00:17:34.370
+[Applause]
+
+00:17:34.370 --> 00:17:35.640
+[Music]
+
+00:17:35.640 --> 00:17:39.760
+OHA so now this the actual
+
+00:17:45.039 --> 00:17:46.640
+one
+
+00:17:46.640 --> 00:17:50.840
+okay three two
+
+00:17:50.840 --> 00:17:54.360
+one okay I think I
+
+00:17:55.039 --> 00:17:57.400
+got
+
+00:17:57.400 --> 00:18:00.400
+perfect
+
+00:18:02.540 --> 00:18:07.080
+[Music]
+
+00:18:07.080 --> 00:18:09.600
+officially a
+
+00:18:25.370 --> 00:18:27.320
+[Music]
+
+00:18:27.320 --> 00:18:30.320
+professional
+
+00:18:30.580 --> 00:18:33.700
+[Music]
+
+00:18:38.040 --> 00:18:39.720
+[Music]
+
+00:18:39.720 --> 00:18:46.960
+okay okay so um uh for our main talk we
+
+00:18:46.960 --> 00:18:49.080
+have Jean
+
+00:18:49.080 --> 00:18:52.360
+her we try to pronounce it and I met
+
+00:18:52.360 --> 00:18:55.720
+Jean at a dinner a few months ago and he
+
+00:18:55.720 --> 00:18:57.600
+was doing really really interesting
+
+00:18:57.600 --> 00:19:01.760
+research on on um like replacement so
+
+00:19:01.760 --> 00:19:03.280
+like there&#x27;s this interesting thing you
+
+00:19:03.280 --> 00:19:05.080
+guys have all heard of Brian Johnson
+
+00:19:05.080 --> 00:19:06.559
+like I think at a high level it&#x27;s like
+
+00:19:06.559 --> 00:19:08.799
+you eat broccoli you&#x27;ll live forever I
+
+00:19:08.799 --> 00:19:11.559
+think that&#x27;s like probably not not not
+
+00:19:11.559 --> 00:19:13.240
+going to work we&#x27;re going to need more
+
+00:19:13.240 --> 00:19:15.799
+more sophisticated scientific
+
+00:19:15.799 --> 00:19:19.520
+interventions and um like he was telling
+
+00:19:19.520 --> 00:19:20.840
+about this really interesting idea of
+
+00:19:20.840 --> 00:19:22.919
+like you know you can replace the organs
+
+00:19:22.919 --> 00:19:25.159
+you can replace your land in the future
+
+00:19:25.159 --> 00:19:27.200
+you can suppress the immune system but
+
+00:19:27.200 --> 00:19:29.280
+like the brain is you can&#x27;t you can&#x27;t
+
+00:19:29.280 --> 00:19:31.240
+replace the Fring your Frankenstein and
+
+00:19:31.240 --> 00:19:33.480
+so uh we&#x27;ve been in contact and he&#x27;s
+
+00:19:33.480 --> 00:19:35.480
+written a really interesting book um
+
+00:19:35.480 --> 00:19:37.559
+which you can purchase on Amazon and I
+
+00:19:37.559 --> 00:19:38.720
+will send out the link and I&#x27;ve been
+
+00:19:38.720 --> 00:19:40.480
+reading it over the past week or so and
+
+00:19:40.480 --> 00:19:41.760
+it&#x27;s actually really it&#x27;s really really
+
+00:19:41.760 --> 00:19:43.760
+good I&#x27;ve been learning a lot about it
+
+00:19:43.760 --> 00:19:46.039
+and um it&#x27;s it&#x27;s back there I shouldn&#x27;t
+
+00:19:46.039 --> 00:19:48.919
+have brought it up here and um and from
+
+00:19:48.919 --> 00:19:50.840
+and he&#x27;s a professor at Einstein
+
+00:19:50.840 --> 00:19:53.640
+medicine and has a lab has started a
+
+00:19:53.640 --> 00:19:56.600
+company that is uh doing springing
+
+00:19:56.600 --> 00:19:58.080
+research and I&#x27;ll let you take it from
+
+00:19:58.080 --> 00:20:00.799
+here great
+
+00:20:02.799 --> 00:20:05.200
+thanks yeah I I wouldn&#x27;t mind getting a
+
+00:20:05.200 --> 00:20:07.480
+sense of the room just to see you know
+
+00:20:07.480 --> 00:20:10.080
+what I&#x27;m dealing with here um let&#x27;s say
+
+00:20:10.080 --> 00:20:14.360
+you could have a young body until you&#x27;re
+
+00:20:14.360 --> 00:20:18.480
+15 who here would want to live 250 with
+
+00:20:18.480 --> 00:20:19.679
+a young
+
+00:20:19.679 --> 00:20:23.480
+body oh good good
+
+00:20:23.720 --> 00:20:27.159
+start what about
+
+00:20:27.159 --> 00:20:30.159
+indefinitely
+
+00:20:36.880 --> 00:20:39.280
+I guess maybe the first part of what I&#x27;m
+
+00:20:39.280 --> 00:20:41.120
+going to say might sound like a bit of a
+
+00:20:41.120 --> 00:20:46.640
+downer um but there is uh hope I think
+
+00:20:46.640 --> 00:20:48.720
+with some of the approaches that a
+
+00:20:48.720 --> 00:20:51.760
+fraction of the PO of regenera
+
+00:20:51.760 --> 00:20:54.520
+regenerated medicine is
+
+00:20:54.520 --> 00:20:58.240
+working um so yeah you know Progressive
+
+00:20:58.240 --> 00:21:00.640
+tissue Replacements Um this can be
+
+00:21:00.640 --> 00:21:03.440
+interactive too so please feel free to
+
+00:21:03.440 --> 00:21:05.799
+interrupt ask
+
+00:21:05.799 --> 00:21:09.880
+questions but yeah the the point first
+
+00:21:09.880 --> 00:21:11.000
+point I want to
+
+00:21:11.000 --> 00:21:15.279
+make is that aging is a difficult
+
+00:21:15.279 --> 00:21:17.880
+problem and most people in the longevity
+
+00:21:17.880 --> 00:21:19.559
+feel completely
+
+00:21:19.559 --> 00:21:22.880
+ignored and the reason they ignore it is
+
+00:21:22.880 --> 00:21:25.279
+because either they don&#x27;t know about
+
+00:21:25.279 --> 00:21:27.600
+this data that exists from decades ago
+
+00:21:27.600 --> 00:21:29.559
+bioch is
+
+00:21:29.559 --> 00:21:32.760
+characterizing this the complex forms of
+
+00:21:32.760 --> 00:21:35.880
+damage that occurs uh in our bodies to
+
+00:21:35.880 --> 00:21:38.440
+our macro molecules so those are
+
+00:21:38.440 --> 00:21:42.600
+proteins carbohydrates DNA lipids um and
+
+00:21:42.600 --> 00:21:45.520
+instead they just focus on you know
+
+00:21:45.520 --> 00:21:48.520
+other things that change with age but
+
+00:21:48.520 --> 00:21:51.440
+everything changes with age because you
+
+00:21:51.440 --> 00:21:54.799
+know the environment of the cells in the
+
+00:21:54.799 --> 00:21:56.840
+body is falling
+
+00:21:56.840 --> 00:22:00.880
+apart so so um this you know this slide
+
+00:22:00.880 --> 00:22:03.240
+is just meant to illustrate some of the
+
+00:22:03.240 --> 00:22:05.279
+examples that these biochemist
+
+00:22:05.279 --> 00:22:07.240
+discovered long ago and they gave up on
+
+00:22:07.240 --> 00:22:09.400
+Aging because they said there&#x27;s no way
+
+00:22:09.400 --> 00:22:11.799
+of dealing with this um that hasn&#x27;t
+
+00:22:11.799 --> 00:22:14.880
+stopped a lot of people today
+
+00:22:14.880 --> 00:22:19.360
+of trying to combat aging with different
+
+00:22:19.360 --> 00:22:23.880
+approaches but really the only approach
+
+00:22:23.880 --> 00:22:26.320
+that has a chance of working is
+
+00:22:26.320 --> 00:22:29.520
+replacement at a tissue greater level
+
+00:22:29.520 --> 00:22:32.120
+and and again it&#x27;s because these are
+
+00:22:32.120 --> 00:22:35.360
+just examples of different classes of
+
+00:22:35.360 --> 00:22:38.159
+stochastic damage that occurs just to
+
+00:22:38.159 --> 00:22:40.600
+proteins over time in your body it&#x27;s a
+
+00:22:40.600 --> 00:22:41.960
+physical
+
+00:22:41.960 --> 00:22:45.480
+process we have no genes in our genome
+
+00:22:45.480 --> 00:22:48.200
+that recognize any of these forms of
+
+00:22:48.200 --> 00:22:51.480
+damage or much less can process them and
+
+00:22:51.480 --> 00:22:54.360
+get rid of them so all these genetic
+
+00:22:54.360 --> 00:22:56.600
+approaches these epigenetic approaches
+
+00:22:56.600 --> 00:22:58.360
+which is maybe some of you heard of
+
+00:22:58.360 --> 00:23:01.000
+partial reprogramming there&#x27;s no way
+
+00:23:01.000 --> 00:23:02.720
+that that can address without
+
+00:23:02.720 --> 00:23:04.720
+Reinventing a genome which we&#x27;re nowhere
+
+00:23:04.720 --> 00:23:07.039
+near being able to do there&#x27;s no way
+
+00:23:07.039 --> 00:23:09.799
+that can address these forms of damage
+
+00:23:09.799 --> 00:23:11.960
+and that occurs in the brain but in all
+
+00:23:11.960 --> 00:23:15.080
+parts of the body so this is sort of the
+
+00:23:15.080 --> 00:23:17.840
+downer side
+
+00:23:18.279 --> 00:23:20.720
+of
+
+00:23:20.720 --> 00:23:24.320
+um but there is a way right and that is
+
+00:23:24.320 --> 00:23:27.640
+repl it right so what if you know I we
+
+00:23:27.640 --> 00:23:31.679
+could take your old body and just
+
+00:23:31.679 --> 00:23:33.880
+surgically replace it with a new body a
+
+00:23:33.880 --> 00:23:35.600
+young body like if you were 80 and
+
+00:23:35.600 --> 00:23:37.400
+replace it with a 20-y old
+
+00:23:37.400 --> 00:23:41.279
+body you would then be 20 years old
+
+00:23:41.279 --> 00:23:44.919
+biologically right replacement will work
+
+00:23:44.919 --> 00:23:46.760
+right so it&#x27;s just a question of making
+
+00:23:46.760 --> 00:23:49.400
+it work
+
+00:23:49.400 --> 00:23:54.080
+um and uh the one biggest challenge I
+
+00:23:54.080 --> 00:23:56.039
+think people are actually working on
+
+00:23:56.039 --> 00:23:58.039
+whole body Replacements I think that
+
+00:23:58.039 --> 00:24:02.159
+happen with but it won&#x27;t do much good if
+
+00:24:02.159 --> 00:24:04.880
+your brain is still Aging in in that
+
+00:24:04.880 --> 00:24:07.440
+whole body right you&#x27;ll have Dementia by
+
+00:24:07.440 --> 00:24:08.799
+the
+
+00:24:08.799 --> 00:24:13.400
+time the healthiest most you
+
+00:24:13.400 --> 00:24:17.000
+know intellectually sharp 100 year olds
+
+00:24:17.000 --> 00:24:19.720
+are nothing like you
+
+00:24:19.720 --> 00:24:23.600
+know um so your brain can you know ages
+
+00:24:23.600 --> 00:24:25.799
+no matter what so you need to do
+
+00:24:25.799 --> 00:24:28.320
+something about brain
+
+00:24:28.320 --> 00:24:30.240
+and the challenging part of course is
+
+00:24:30.240 --> 00:24:32.159
+the brain is who we are it defines our
+
+00:24:32.159 --> 00:24:34.799
+personality it houses our unique
+
+00:24:34.799 --> 00:24:37.000
+memories our personality so we don&#x27;t
+
+00:24:37.000 --> 00:24:38.279
+want to lose that right that would
+
+00:24:38.279 --> 00:24:42.320
+defeat purpose so is there a way that we
+
+00:24:42.320 --> 00:24:46.360
+can you know make the brain young again
+
+00:24:46.360 --> 00:24:49.679
+and um I&#x27;m going to argue that there is
+
+00:24:49.679 --> 00:24:52.279
+and I&#x27;m going to tell you why uh and of
+
+00:24:52.279 --> 00:24:54.640
+course it&#x27;s with Progressive replacement
+
+00:24:54.640 --> 00:24:59.440
+um not with I can probably other slides
+
+00:24:59.440 --> 00:25:02.600
+um that we could try the other
+
+00:25:02.600 --> 00:25:06.399
+dongle yeah if you want let&#x27;s try sure
+
+00:25:06.399 --> 00:25:09.480
+this does seem to be
+
+00:25:11.720 --> 00:25:14.720
+working so I some of you may be familiar
+
+00:25:14.720 --> 00:25:17.440
+with the uh ship aesus
+
+00:25:17.440 --> 00:25:20.320
+mythology where you know you take a old
+
+00:25:20.320 --> 00:25:22.760
+boat you replace a plank by
+
+00:25:22.760 --> 00:25:25.159
+C I guess the question there is is it
+
+00:25:25.159 --> 00:25:27.799
+the same boat but for the brain you know
+
+00:25:27.799 --> 00:25:30.720
+far as we can tell the evidence is that
+
+00:25:30.720 --> 00:25:34.080
+it would be the same so I give you a
+
+00:25:34.080 --> 00:25:36.600
+couple of examples that I come across
+
+00:25:36.600 --> 00:25:39.520
+from the clinic I&#x27;m not a a clinician
+
+00:25:39.520 --> 00:25:44.679
+but talking to clinicians um we they&#x27;ve
+
+00:25:44.679 --> 00:25:48.760
+seen individuals in their 50s 60s 7s
+
+00:25:48.760 --> 00:25:52.200
+with benign brain tumors that have eaten
+
+00:25:52.200 --> 00:25:54.720
+away at either their Language Center
+
+00:25:54.720 --> 00:25:57.000
+they occur randomly in the brain or the
+
+00:25:57.000 --> 00:25:58.840
+frontal l which is a big part of
+
+00:25:58.840 --> 00:26:01.000
+personality and these benign tumors
+
+00:26:01.000 --> 00:26:04.080
+start as a single cell and grow out and
+
+00:26:04.080 --> 00:26:06.480
+eat away at the tissue eventually they
+
+00:26:06.480 --> 00:26:07.720
+have a headache or a seizure or
+
+00:26:07.720 --> 00:26:10.039
+something they go to the hospital doctor
+
+00:26:10.039 --> 00:26:13.640
+says you know uh good news bad news bad
+
+00:26:13.640 --> 00:26:15.080
+news first you know brain tumor good
+
+00:26:15.080 --> 00:26:16.840
+news it&#x27;s operable they take it out not
+
+00:26:16.840 --> 00:26:19.679
+have big hole where the tumor was but
+
+00:26:19.679 --> 00:26:21.200
+they didn&#x27;t change they were the same
+
+00:26:21.200 --> 00:26:23.200
+person they&#x27;ve always been their
+
+00:26:23.200 --> 00:26:24.840
+personality if it&#x27;s in the frontal Lo
+
+00:26:24.840 --> 00:26:26.679
+didn&#x27;t change they never lost the
+
+00:26:26.679 --> 00:26:28.760
+ability to speak no one noticed a
+
+00:26:28.760 --> 00:26:32.279
+difference so the reason is uh that the
+
+00:26:32.279 --> 00:26:34.320
+neocortex this is the part of the brain
+
+00:26:34.320 --> 00:26:36.120
+we&#x27;re tackling first the biggest part
+
+00:26:36.120 --> 00:26:38.320
+most important part in terms of defining
+
+00:26:38.320 --> 00:26:40.720
+who we are as individuals U is
+
+00:26:40.720 --> 00:26:43.000
+incredibly plastic in how it encodes
+
+00:26:43.000 --> 00:26:46.159
+information so if you give it time to
+
+00:26:46.159 --> 00:26:48.840
+relocate a function that is being used
+
+00:26:48.840 --> 00:26:51.399
+it has to be used or else it&#x27;ll be lost
+
+00:26:51.399 --> 00:26:52.919
+if you give it time to relocate a
+
+00:26:52.919 --> 00:26:55.320
+function that&#x27;s being used uh it&#x27;ll do
+
+00:26:55.320 --> 00:26:57.840
+that right if you get a stroke in the
+
+00:26:57.840 --> 00:27:00.440
+frontal road is a different story
+
+00:27:00.440 --> 00:27:03.000
+there&#x27;s no time for that information to
+
+00:27:03.000 --> 00:27:05.799
+be re-encoded elsewhere and the cortex
+
+00:27:05.799 --> 00:27:08.240
+personality changes you get a stroke in
+
+00:27:08.240 --> 00:27:10.520
+The Language Center you lose the ability
+
+00:27:10.520 --> 00:27:12.720
+to speak
+
+00:27:12.720 --> 00:27:15.840
+doesn&#x27;t so that&#x27;s one aspect so I kind
+
+00:27:15.840 --> 00:27:17.960
+of jumped ahead here without the slides
+
+00:27:17.960 --> 00:27:20.919
+but you know this here&#x27;s just the
+
+00:27:20.919 --> 00:27:23.120
+example
+
+00:27:23.120 --> 00:27:25.799
+of most clinicians are a pain in the ass
+
+00:27:25.799 --> 00:27:28.080
+because they don&#x27;t publish these amazing
+
+00:27:28.080 --> 00:27:30.440
+findings so you know at least some of
+
+00:27:30.440 --> 00:27:33.440
+them do uh and and make a study of it
+
+00:27:33.440 --> 00:27:35.480
+and compare all these different PA same
+
+00:27:35.480 --> 00:27:38.039
+age same amount of damage from Stroke
+
+00:27:38.039 --> 00:27:39.799
+versus slow growing
+
+00:27:39.799 --> 00:27:42.919
+voma thankfully you know we have but if
+
+00:27:42.919 --> 00:27:44.919
+you talk to clinicians you know many of
+
+00:27:44.919 --> 00:27:47.640
+them come across these examples without
+
+00:27:47.640 --> 00:27:51.080
+publishing um the other thing that&#x27;s
+
+00:27:51.080 --> 00:27:53.640
+encouraging about Progressive brain
+
+00:27:53.640 --> 00:27:56.360
+tissue replacement is there&#x27;s dozens of
+
+00:27:56.360 --> 00:27:58.279
+labs including our
+
+00:27:58.279 --> 00:28:02.120
+who have put in brain precursor cells in
+
+00:28:02.120 --> 00:28:04.480
+the adult brain and shown that they
+
+00:28:04.480 --> 00:28:07.600
+differentiate into neurons that connect
+
+00:28:07.600 --> 00:28:10.600
+surprisingly well to the rest of the
+
+00:28:10.600 --> 00:28:13.640
+brain but this was a surprise some of
+
+00:28:13.640 --> 00:28:16.080
+you in the neuro field may have been
+
+00:28:16.080 --> 00:28:18.159
+familiar with the Dogma that there&#x27;s no
+
+00:28:18.159 --> 00:28:21.200
+new axon growth in the adult and that&#x27;s
+
+00:28:21.200 --> 00:28:23.919
+absolutely true from existing mature
+
+00:28:23.919 --> 00:28:26.000
+neurons but if you put in these
+
+00:28:26.000 --> 00:28:27.600
+precursor cells that give R to to
+
+00:28:27.600 --> 00:28:30.679
+immature NS it&#x27;s highly reproducible
+
+00:28:30.679 --> 00:28:32.679
+everybody sees the same thing they
+
+00:28:32.679 --> 00:28:35.200
+project to distant parts of the brain
+
+00:28:35.200 --> 00:28:37.760
+not only that but to appropriate targets
+
+00:28:37.760 --> 00:28:39.519
+we&#x27;re not sure how they do that yet they
+
+00:28:39.519 --> 00:28:42.440
+may follow signals that are still there
+
+00:28:42.440 --> 00:28:44.240
+from development or they may just be
+
+00:28:44.240 --> 00:28:46.600
+following you know remnants of axon
+
+00:28:46.600 --> 00:28:48.399
+facts that were there before but in any
+
+00:28:48.399 --> 00:28:51.840
+case they do it so new neurons can
+
+00:28:51.840 --> 00:28:54.320
+connect efficiently with the bra and
+
+00:28:54.320 --> 00:28:56.440
+maybe I&#x27;ll give you an example from my
+
+00:28:56.440 --> 00:28:58.240
+Labb of that as well
+
+00:28:58.240 --> 00:29:01.279
+um this is this is not the example I was
+
+00:29:01.279 --> 00:29:04.399
+just alluding to but another example
+
+00:29:04.399 --> 00:29:07.640
+where we put in uh you know precursor
+
+00:29:07.640 --> 00:29:11.120
+cells for the L cortex and uh so here&#x27;s
+
+00:29:11.120 --> 00:29:13.559
+the graph it&#x27;s human in a mouse cortex
+
+00:29:13.559 --> 00:29:16.399
+doesn&#x27;t it still works uh we just have
+
+00:29:16.399 --> 00:29:20.000
+to IM compromise the the mice and you
+
+00:29:20.000 --> 00:29:22.679
+know you can see all these axons coming
+
+00:29:22.679 --> 00:29:25.080
+off the graph going down into this fiber
+
+00:29:25.080 --> 00:29:27.399
+track that&#x27;s what they&#x27;re supposed to do
+
+00:29:27.399 --> 00:29:29.640
+and they do it uh even though we haven&#x27;t
+
+00:29:29.640 --> 00:29:31.200
+come up with a graph yet that&#x27;s
+
+00:29:31.200 --> 00:29:33.279
+functional it&#x27;s still sort of a jumble
+
+00:29:33.279 --> 00:29:35.399
+of cells we need to fix this that&#x27;s what
+
+00:29:35.399 --> 00:29:38.399
+we&#x27;re really focused on but the neurons
+
+00:29:38.399 --> 00:29:40.760
+are doing what they&#x27;re supposed to do uh
+
+00:29:40.760 --> 00:29:42.480
+and they&#x27;ll project and connect to other
+
+00:29:42.480 --> 00:29:44.360
+parts of the
+
+00:29:44.360 --> 00:29:47.440
+brain um and again we&#x27;re not the only
+
+00:29:47.440 --> 00:29:49.399
+ones or even the first ones to have sh
+
+00:29:49.399 --> 00:29:51.960
+this you know all these high profile
+
+00:29:51.960 --> 00:29:54.880
+papers with pretty spectacular titles
+
+00:29:54.880 --> 00:29:58.159
+saying that oh wow we reped the brain
+
+00:29:58.159 --> 00:30:00.000
+no one&#x27;s come close to repairing the
+
+00:30:00.000 --> 00:30:04.000
+brain yet but the you you can sort of
+
+00:30:04.000 --> 00:30:07.240
+repair uh at a very base level surface
+
+00:30:07.240 --> 00:30:09.159
+in the
+
+00:30:09.159 --> 00:30:12.760
+brain so those two things uh the fact
+
+00:30:12.760 --> 00:30:15.480
+that you can you know slowly remove old
+
+00:30:15.480 --> 00:30:18.000
+tissue without losing its information
+
+00:30:18.000 --> 00:30:21.039
+and add new tissue that can encode
+
+00:30:21.039 --> 00:30:23.159
+information means that we can
+
+00:30:23.159 --> 00:30:25.279
+progressively replace brain tissue in
+
+00:30:25.279 --> 00:30:29.640
+Theory without l of information loss of
+
+00:30:29.640 --> 00:30:32.159
+personality and our memories as long as
+
+00:30:32.159 --> 00:30:34.799
+we&#x27;re recalling those memories during
+
+00:30:34.799 --> 00:30:37.600
+the silencing process
+
+00:30:37.600 --> 00:30:40.480
+before all right so why why hav&#x27;t we
+
+00:30:40.480 --> 00:30:41.559
+done this
+
+00:30:41.559 --> 00:30:44.720
+yet and why doesn&#x27;t it work yet um so
+
+00:30:44.720 --> 00:30:46.880
+there&#x27;s a a couple reasons again a lot
+
+00:30:46.880 --> 00:30:49.360
+of labs are doing this but progress is
+
+00:30:49.360 --> 00:30:50.600
+super
+
+00:30:50.600 --> 00:30:53.640
+incremental again this is a whole other
+
+00:30:53.640 --> 00:30:55.880
+thing we should talk about is the way
+
+00:30:55.880 --> 00:30:57.840
+that science is done now
+
+00:30:57.840 --> 00:31:00.519
+small incremental progress is rewarded
+
+00:31:00.519 --> 00:31:02.320
+trying to reach further than that you
+
+00:31:02.320 --> 00:31:05.399
+get slapped down no funding so uh you
+
+00:31:05.399 --> 00:31:08.679
+know things have moved very slowly um
+
+00:31:08.679 --> 00:31:10.639
+and and so you know the biggest things
+
+00:31:10.639 --> 00:31:13.880
+that are missing so far is that this is
+
+00:31:13.880 --> 00:31:16.480
+like one of the better looking graphs in
+
+00:31:16.480 --> 00:31:21.440
+the literature um and there&#x27;s no
+
+00:31:21.440 --> 00:31:23.679
+architecture here compared to a normal
+
+00:31:23.679 --> 00:31:26.200
+nice layer tissue here there&#x27;s different
+
+00:31:26.200 --> 00:31:27.799
+types of Dres
+
+00:31:27.799 --> 00:31:30.399
+that organization is very important for
+
+00:31:30.399 --> 00:31:33.399
+the intra or would be important if they
+
+00:31:33.399 --> 00:31:36.200
+had a graph that was for intra uh
+
+00:31:36.200 --> 00:31:38.080
+information processing there&#x27;s a whole
+
+00:31:38.080 --> 00:31:40.279
+flow of information that occurs in the
+
+00:31:40.279 --> 00:31:42.519
+cortex between the layers and that&#x27;s
+
+00:31:42.519 --> 00:31:44.799
+important for information processing
+
+00:31:44.799 --> 00:31:47.320
+that is not recapitulated here uh
+
+00:31:47.320 --> 00:31:49.080
+there&#x27;s also important cell types
+
+00:31:49.080 --> 00:31:51.399
+missing you know there are many types of
+
+00:31:51.399 --> 00:31:54.600
+neurons in the cortex and uh a lot of
+
+00:31:54.600 --> 00:31:56.880
+those are missing from current graphs
+
+00:31:56.880 --> 00:32:00.360
+and very again important for feedback
+
+00:32:00.360 --> 00:32:04.159
+information feed forward information so
+
+00:32:04.159 --> 00:32:06.000
+they&#x27;re needed for learning new things
+
+00:32:06.000 --> 00:32:08.600
+and they&#x27;re missing here so so we&#x27;re not
+
+00:32:08.600 --> 00:32:09.960
+there
+
+00:32:09.960 --> 00:32:13.720
+yet um so you know the approach that
+
+00:32:13.720 --> 00:32:17.440
+we&#x27;re taking um is one of trying not to
+
+00:32:17.440 --> 00:32:20.840
+reinvent the wheel brain tissue you know
+
+00:32:20.840 --> 00:32:23.559
+one of most complicated things we know
+
+00:32:23.559 --> 00:32:27.480
+of and we&#x27;re not we wouldn&#x27;t be able to
+
+00:32:27.480 --> 00:32:30.559
+um put in mature tissue into a person
+
+00:32:30.559 --> 00:32:32.960
+for one it&#x27;s too
+
+00:32:32.960 --> 00:32:35.080
+complex and and two it wouldn&#x27;t
+
+00:32:35.080 --> 00:32:37.519
+integrate again because mature neurons
+
+00:32:37.519 --> 00:32:39.559
+don&#x27;t project a and
+
+00:32:39.559 --> 00:32:43.639
+connect so what we&#x27;re doing is just
+
+00:32:43.639 --> 00:32:46.639
+mimicking the way our brains were made
+
+00:32:46.639 --> 00:32:49.039
+in the first place no scientist or
+
+00:32:49.039 --> 00:32:52.159
+engineer made any of our brains they all
+
+00:32:52.159 --> 00:32:55.679
+develop from a relatively simple tissue
+
+00:32:55.679 --> 00:32:58.000
+thly in fetal develop
+
+00:32:58.000 --> 00:33:01.240
+so this is a much more manageable task
+
+00:33:01.240 --> 00:33:03.840
+is to reverse engineer that simple
+
+00:33:03.840 --> 00:33:07.799
+tissue we we found a stage it&#x27;s kind of
+
+00:33:07.799 --> 00:33:10.639
+a sweet spot where there&#x27;s enough
+
+00:33:10.639 --> 00:33:13.880
+internal structural cues and signaling
+
+00:33:13.880 --> 00:33:16.279
+cues for that tissue to develop on its
+
+00:33:16.279 --> 00:33:18.240
+own and yet it&#x27;s simple enough that we
+
+00:33:18.240 --> 00:33:20.320
+can engineer both the cellular
+
+00:33:20.320 --> 00:33:22.240
+components and those extra cellular
+
+00:33:22.240 --> 00:33:24.480
+components so that&#x27;s what we&#x27;re trying
+
+00:33:24.480 --> 00:33:28.279
+to do here this just an example so in
+
+00:33:28.279 --> 00:33:30.399
+doing this too we use like high
+
+00:33:30.399 --> 00:33:33.039
+resolution analysis of real human fetal
+
+00:33:33.039 --> 00:33:36.559
+neocortical tissue um not not everyone
+
+00:33:36.559 --> 00:33:39.840
+here is in the biofield but we look at
+
+00:33:39.840 --> 00:33:42.559
+proteomics to do single cell sequencing
+
+00:33:42.559 --> 00:33:45.440
+just to really find out what&#x27;s there and
+
+00:33:45.440 --> 00:33:49.720
+then mimic that and so you know we it&#x27;s
+
+00:33:49.720 --> 00:33:51.480
+been finding from a scientific point of
+
+00:33:51.480 --> 00:33:53.679
+view because we&#x27;ve discovered you know
+
+00:33:53.679 --> 00:33:56.120
+molecules that no one knows no one
+
+00:33:56.120 --> 00:33:59.000
+previously knew there uh and they seem
+
+00:33:59.000 --> 00:34:00.720
+very important because they can be very
+
+00:34:00.720 --> 00:34:03.120
+localized to structures that we know are
+
+00:34:03.120 --> 00:34:06.279
+very important um and and specialized
+
+00:34:06.279 --> 00:34:08.440
+cell types that we know are very
+
+00:34:08.440 --> 00:34:11.440
+important but we don&#x27;t know you know how
+
+00:34:11.440 --> 00:34:14.320
+to so you know it&#x27;s F from a scientific
+
+00:34:14.320 --> 00:34:16.040
+point of view but of course you know we
+
+00:34:16.040 --> 00:34:19.800
+want to be able to engineer this tissue
+
+00:34:19.800 --> 00:34:22.440
+so these I won&#x27;t go through this but
+
+00:34:22.440 --> 00:34:24.839
+basically these are the uh precursor
+
+00:34:24.839 --> 00:34:28.200
+cell types that we need for the tissue
+
+00:34:28.200 --> 00:34:30.639
+engineering uh and also the
+
+00:34:30.639 --> 00:34:32.639
+extracellular components so we&#x27;re at a
+
+00:34:32.639 --> 00:34:35.119
+stage now where I think we&#x27;ve identified
+
+00:34:35.119 --> 00:34:37.320
+everything that we need to make this
+
+00:34:37.320 --> 00:34:40.599
+tissue uh we can generate all these cell
+
+00:34:40.599 --> 00:34:43.320
+types from Human IPS cells so I don&#x27;t
+
+00:34:43.320 --> 00:34:45.599
+know if you guys are familiar with IPS
+
+00:34:45.599 --> 00:34:47.919
+cells but you can take cells from your
+
+00:34:47.919 --> 00:34:49.879
+blood or your skin or other parts of
+
+00:34:49.879 --> 00:34:52.639
+your body and bring them back to like
+
+00:34:52.639 --> 00:34:54.879
+the earliest embryonic stage and from
+
+00:34:54.879 --> 00:34:57.560
+that generate any cell type body that
+
+00:34:57.560 --> 00:34:59.680
+want if you develop the protocol be able
+
+00:34:59.680 --> 00:35:01.240
+to do that but they have the potential
+
+00:35:01.240 --> 00:35:03.320
+to do that and so we&#x27;re at that stage
+
+00:35:03.320 --> 00:35:05.160
+where we can generate all but one of
+
+00:35:05.160 --> 00:35:08.720
+them um so we&#x27;re almost there then the
+
+00:35:08.720 --> 00:35:11.040
+trick will be to assemble them and test
+
+00:35:11.040 --> 00:35:12.119
+their
+
+00:35:12.119 --> 00:35:16.640
+fun so we have a platform for doing that
+
+00:35:16.640 --> 00:35:18.839
+um in mice as I showed you earlier with
+
+00:35:18.839 --> 00:35:21.119
+the human tissue so we basically just
+
+00:35:21.119 --> 00:35:23.640
+make these very reproducible lesions and
+
+00:35:23.640 --> 00:35:25.520
+then put our cells with their
+
+00:35:25.520 --> 00:35:28.000
+extracellular environment or the biogel
+
+00:35:28.000 --> 00:35:30.359
+or Niche however you want to call it
+
+00:35:30.359 --> 00:35:33.440
+into that space and then we look for um
+
+00:35:33.440 --> 00:35:35.200
+how well it functions you know how well
+
+00:35:35.200 --> 00:35:37.800
+it develops in a structural way and sort
+
+00:35:37.800 --> 00:35:40.359
+of a couple of highlights you know these
+
+00:35:40.359 --> 00:35:45.160
+are from papers we covered but
+
+00:35:45.160 --> 00:35:48.800
+um one illustrates the neuron neuronal
+
+00:35:48.800 --> 00:35:51.640
+integration I mentioned before where you
+
+00:35:51.640 --> 00:35:53.920
+know axons project to the right place
+
+00:35:53.920 --> 00:35:56.119
+they also receive new inputs from the
+
+00:35:56.119 --> 00:35:58.640
+surrounding bra and this is an example
+
+00:35:58.640 --> 00:36:00.280
+of that
+
+00:36:00.280 --> 00:36:05.520
+so the in this case we put new you know
+
+00:36:05.520 --> 00:36:07.599
+photo tissue that might be an
+
+00:36:07.599 --> 00:36:10.359
+exaggeration we put new cells and biogel
+
+00:36:10.359 --> 00:36:12.839
+in uh in the lesion site in the visual
+
+00:36:12.839 --> 00:36:17.040
+cortex in this case and wait over time U
+
+00:36:17.040 --> 00:36:18.720
+and find that these neurons if we&#x27;re
+
+00:36:18.720 --> 00:36:20.839
+recording from them with an electro you
+
+00:36:20.839 --> 00:36:22.880
+can detect their activity they pretty
+
+00:36:22.880 --> 00:36:25.680
+much behave like uh visual cortical
+
+00:36:25.680 --> 00:36:29.720
+neurons do in a newborn uh Mouse in this
+
+00:36:29.720 --> 00:36:33.040
+case um so initially there&#x27;s just you
+
+00:36:33.040 --> 00:36:35.720
+know sort of spontaneous random activity
+
+00:36:35.720 --> 00:36:38.160
+even though we&#x27;re challenging exposing
+
+00:36:38.160 --> 00:36:40.640
+the mouse to a visual stimulus which is
+
+00:36:40.640 --> 00:36:43.680
+this little thing here um but eventually
+
+00:36:43.680 --> 00:36:45.359
+those neurons start responding
+
+00:36:45.359 --> 00:36:47.520
+specifically to that visual
+
+00:36:47.520 --> 00:36:50.560
+s and then they get very good at it and
+
+00:36:50.560 --> 00:36:53.160
+not only that but they get tuned to to
+
+00:36:53.160 --> 00:36:55.920
+very specific visual stimul like normal
+
+00:36:55.920 --> 00:36:59.720
+neurons do so again very encouraging but
+
+00:36:59.720 --> 00:37:01.160
+you know we&#x27;re not there yet this
+
+00:37:01.160 --> 00:37:03.560
+response does not mean that that tissue
+
+00:37:03.560 --> 00:37:05.359
+is processing the information in a
+
+00:37:05.359 --> 00:37:07.800
+useful way in sharing it with the brain
+
+00:37:07.800 --> 00:37:09.800
+so that you know it contributes to a
+
+00:37:09.800 --> 00:37:13.240
+useful Behavior function to M but it&#x27;s
+
+00:37:13.240 --> 00:37:15.400
+encouraging that we can get there the
+
+00:37:15.400 --> 00:37:18.440
+other one is vascular integration uh
+
+00:37:18.440 --> 00:37:22.000
+also very important so we include uh you
+
+00:37:22.000 --> 00:37:24.240
+know we have the luxury of genetically
+
+00:37:24.240 --> 00:37:26.760
+modifying the cells that we put in so
+
+00:37:26.760 --> 00:37:29.680
+make them flues green for our vascular
+
+00:37:29.680 --> 00:37:32.000
+endial cells so that we can compare them
+
+00:37:32.000 --> 00:37:35.480
+to Total blood vessels uh and we find
+
+00:37:35.480 --> 00:37:38.560
+that they quickly form vessels after
+
+00:37:38.560 --> 00:37:41.280
+grafting um these vessels fuse with the
+
+00:37:41.280 --> 00:37:44.319
+host vasculature and we even have videos
+
+00:37:44.319 --> 00:37:45.839
+that show that you know you have little
+
+00:37:45.839 --> 00:37:47.480
+red blood cells going through there and
+
+00:37:47.480 --> 00:37:50.359
+you get circulation through there um so
+
+00:37:50.359 --> 00:37:52.280
+you can get vascularization of these
+
+00:37:52.280 --> 00:37:54.160
+grass very quickly which is important
+
+00:37:54.160 --> 00:37:55.560
+when you&#x27;re considering that you want
+
+00:37:55.560 --> 00:37:57.119
+the structure to stay
+
+00:37:57.119 --> 00:37:59.720
+you stable
+
+00:37:59.720 --> 00:38:03.839
+after so those are just two examples um
+
+00:38:03.839 --> 00:38:06.040
+so I guess just to take a step back now
+
+00:38:06.040 --> 00:38:08.480
+and say how would this work so you could
+
+00:38:08.480 --> 00:38:10.200
+potentially use this to repair brain
+
+00:38:10.200 --> 00:38:12.680
+tissue and that would be our first uh
+
+00:38:12.680 --> 00:38:14.520
+clinical indication would be something
+
+00:38:14.520 --> 00:38:18.480
+like stroke um but U and that&#x27;s what I
+
+00:38:18.480 --> 00:38:20.359
+started a company for to accelerate
+
+00:38:20.359 --> 00:38:22.119
+progress towards the clinic for a proof
+
+00:38:22.119 --> 00:38:24.720
+of concept that our tissue works but
+
+00:38:24.720 --> 00:38:27.440
+ultimately you know since all of us here
+
+00:38:27.440 --> 00:38:30.839
+want to live you know at least to
+
+00:38:30.839 --> 00:38:34.560
+150 um you know that means uh we need to
+
+00:38:34.560 --> 00:38:36.880
+fix the brain so the way that that would
+
+00:38:36.880 --> 00:38:39.160
+work is with this Progressive tissue
+
+00:38:39.160 --> 00:38:41.880
+replacement so initially the brain
+
+00:38:41.880 --> 00:38:44.440
+shrinks right so it does on its own
+
+00:38:44.440 --> 00:38:47.280
+create room for new tissues so you could
+
+00:38:47.280 --> 00:38:49.920
+put in this new ketol like precursor
+
+00:38:49.920 --> 00:38:53.040
+tissue that grows into a mature tissue
+
+00:38:53.040 --> 00:38:54.400
+as it connects with the rest of the
+
+00:38:54.400 --> 00:38:57.480
+brain and starts adopting function
+
+00:38:57.480 --> 00:38:59.079
+and while you&#x27;re doing that you can
+
+00:38:59.079 --> 00:39:00.560
+start
+
+00:39:00.560 --> 00:39:03.359
+silencing other parts of the
+
+00:39:03.359 --> 00:39:05.520
+neocortex and you could potentially do
+
+00:39:05.520 --> 00:39:07.640
+that not with the example of a benign
+
+00:39:07.640 --> 00:39:10.440
+brain tumor I told you about because
+
+00:39:10.440 --> 00:39:12.640
+they unfortunately sometimes give rise
+
+00:39:12.640 --> 00:39:15.119
+to malignant brain tumors but you could
+
+00:39:15.119 --> 00:39:17.560
+do it with existing optogenetic
+
+00:39:17.560 --> 00:39:21.720
+approaches uh where you can use light to
+
+00:39:21.720 --> 00:39:24.800
+uh silence neurons from a pinpoint out
+
+00:39:24.800 --> 00:39:28.119
+as a tun does the person you can you
+
+00:39:28.119 --> 00:39:29.480
+know you can first map what the
+
+00:39:29.480 --> 00:39:31.440
+functions are there which is what
+
+00:39:31.440 --> 00:39:34.960
+neurosurgeons do when brain surgery and
+
+00:39:34.960 --> 00:39:37.720
+and figure out what is roughly encoded
+
+00:39:37.720 --> 00:39:39.240
+there and tell that person to keep
+
+00:39:39.240 --> 00:39:41.000
+thinking about that during the process
+
+00:39:41.000 --> 00:39:43.160
+and it will get re-encoded elsewhere and
+
+00:39:43.160 --> 00:39:45.720
+they will not lose it um and then that
+
+00:39:45.720 --> 00:39:47.880
+will create more space for new tissue
+
+00:39:47.880 --> 00:39:50.480
+and you repeat the cycle and you could
+
+00:39:50.480 --> 00:39:54.040
+potentially have a 20-year-old brain
+
+00:39:54.040 --> 00:39:57.319
+again but with all your memor from
+
+00:39:57.319 --> 00:40:02.920
+aong living um so that would be the idea
+
+00:40:02.920 --> 00:40:07.160
+um sure sure just optional whether or
+
+00:40:07.160 --> 00:40:11.079
+not you want to keep a memory
+
+00:40:11.079 --> 00:40:14.760
+so memory like that yeah sure sure um
+
+00:40:14.760 --> 00:40:16.839
+yeah and you know you could also
+
+00:40:16.839 --> 00:40:19.599
+probably probably try learning a new
+
+00:40:19.599 --> 00:40:21.720
+language when you have new tissue
+
+00:40:21.720 --> 00:40:23.680
+anywhere near the
+
+00:40:23.680 --> 00:40:28.359
+language acquire that like ay old
+
+00:40:32.920 --> 00:40:35.720
+so how does this fit with decentralized
+
+00:40:35.720 --> 00:40:38.280
+science not sure
+
+00:40:38.280 --> 00:40:41.640
+yet it&#x27;s a big enough project that I
+
+00:40:41.640 --> 00:40:45.000
+wish it did uh you know we I wish we had
+
+00:40:45.000 --> 00:40:46.680
+a lot of people working on the this
+
+00:40:46.680 --> 00:40:49.680
+different aspects uh of this approach I
+
+00:40:49.680 --> 00:40:51.960
+only talked about the the cortex but
+
+00:40:51.960 --> 00:40:54.200
+what we learned here in part can be
+
+00:40:54.200 --> 00:40:56.079
+applicable to other parts of the brain
+
+00:40:56.079 --> 00:40:58.200
+which nobody is even working on yet but
+
+00:40:58.200 --> 00:41:00.440
+they are also essential to normal
+
+00:41:00.440 --> 00:41:02.079
+function and we would also need to
+
+00:41:02.079 --> 00:41:06.040
+address them in aging so we really do
+
+00:41:06.040 --> 00:41:08.200
+need sort of this collaborative
+
+00:41:08.200 --> 00:41:10.119
+community of scientists working on this
+
+00:41:10.119 --> 00:41:12.240
+to get there in a reasonable amount of
+
+00:41:12.240 --> 00:41:15.680
+time um you know I&#x27;m I&#x27;m very open to
+
+00:41:15.680 --> 00:41:17.200
+that you know the first people I talked
+
+00:41:17.200 --> 00:41:21.400
+to were adal vadal some of you Mayer to
+
+00:41:21.400 --> 00:41:24.520
+them um but they&#x27;re a longevity doubt
+
+00:41:24.520 --> 00:41:27.240
+and I love the idea getting everybody
+
+00:41:27.240 --> 00:41:29.720
+involved and more people involved
+
+00:41:29.720 --> 00:41:32.640
+working on this um and U so they
+
+00:41:32.640 --> 00:41:35.599
+actually fund our company to some extent
+
+00:41:35.599 --> 00:41:38.400
+but we need more of that um and
+
+00:41:38.400 --> 00:41:41.440
+certainly at a scientific level so we
+
+00:41:41.440 --> 00:41:44.640
+need more of the people trying this in
+
+00:41:44.640 --> 00:41:46.280
+different places different ways sharing
+
+00:41:46.280 --> 00:41:48.079
+the information what works best we&#x27;ll
+
+00:41:48.079 --> 00:41:50.400
+move forward a lot faster the way we&#x27;re
+
+00:41:50.400 --> 00:41:53.440
+doing it now you know we think of what
+
+00:41:53.440 --> 00:41:55.680
+we need okay there&#x27;s like 10 different
+
+00:41:55.680 --> 00:41:58.280
+ways we can you get there it&#x27;s like well
+
+00:41:58.280 --> 00:41:59.920
+we only have two people working on it we
+
+00:41:59.920 --> 00:42:02.319
+can only try one of these if we fail we
+
+00:42:02.319 --> 00:42:04.200
+got to come back try again try again fix
+
+00:42:04.200 --> 00:42:06.720
+it it&#x27;s going to take a long time if we
+
+00:42:06.720 --> 00:42:09.000
+can working as a community different
+
+00:42:09.000 --> 00:42:11.400
+people uh working together exchanging
+
+00:42:11.400 --> 00:42:13.760
+the information get faster I don&#x27;t know
+
+00:42:13.760 --> 00:42:16.119
+how we get there do
+
+00:42:16.119 --> 00:42:20.839
+that to yeah that&#x27;s pretty it just the
+
+00:42:20.839 --> 00:42:24.200
+company um yeah so combined with body
+
+00:42:24.200 --> 00:42:26.960
+repacement as I mentioned other people
+
+00:42:26.960 --> 00:42:29.280
+are actually working on and it&#x27;s
+
+00:42:29.280 --> 00:42:31.800
+technologically not that difficult you
+
+00:42:31.800 --> 00:42:33.599
+guys want to hear more about it happy to
+
+00:42:33.599 --> 00:42:36.040
+tell you more about it uh but if we can
+
+00:42:36.040 --> 00:42:37.920
+do that in the brain we actually can
+
+00:42:37.920 --> 00:42:41.559
+beat ping and you know decide how long
+
+00:42:41.559 --> 00:42:43.960
+we want to
+
+00:42:46.640 --> 00:42:49.820
+[Applause]
+
+00:42:52.680 --> 00:42:57.200
+live one question uh what kind of uh
+
+00:42:57.200 --> 00:42:59.040
+inflammatory response do you get when
+
+00:42:59.040 --> 00:43:01.480
+you replace or sort of introduce right
+
+00:43:01.480 --> 00:43:03.559
+this new brain tissue and do you need to
+
+00:43:03.559 --> 00:43:05.720
+treat the animal models with some sort
+
+00:43:05.720 --> 00:43:06.640
+of like
+
+00:43:06.640 --> 00:43:09.400
+immunosuppressant like
+
+00:43:09.400 --> 00:43:12.400
+tack absolutely so there&#x27;s uh sort of
+
+00:43:12.400 --> 00:43:14.480
+two parts to that there&#x27;s you
+
+00:43:14.480 --> 00:43:17.079
+know the there&#x27;s always inflammation
+
+00:43:17.079 --> 00:43:18.520
+whenever there&#x27;s a type of Legion or
+
+00:43:18.520 --> 00:43:21.640
+aging itself that&#x27;s inflamation lot of
+
+00:43:21.640 --> 00:43:23.839
+damage uh but certainly in the way we do
+
+00:43:23.839 --> 00:43:27.200
+it where we actually remove tissue
+
+00:43:27.200 --> 00:43:29.000
+so there&#x27;s lot of information we use
+
+00:43:29.000 --> 00:43:31.800
+anti-inflammatories
+
+00:43:34.839 --> 00:43:38.400
+um and that helps uh but we occasionally
+
+00:43:38.400 --> 00:43:41.119
+still get some Scar Tissue it&#x27;s
+
+00:43:41.119 --> 00:43:44.839
+not more we can do there um then there&#x27;s
+
+00:43:44.839 --> 00:43:48.119
+you know not having the host reject that
+
+00:43:48.119 --> 00:43:51.160
+gra and uh yeah so right now that
+
+00:43:51.160 --> 00:43:55.319
+involves immune sence um even so there&#x27;s
+
+00:43:55.319 --> 00:43:59.040
+brain C Therapies in the clinic now for
+
+00:43:59.040 --> 00:44:00.839
+Parkinson&#x27;s for
+
+00:44:00.839 --> 00:44:04.400
+epilepsy with very good early results
+
+00:44:04.400 --> 00:44:06.760
+but they&#x27;re also using allergenic cells
+
+00:44:06.760 --> 00:44:09.480
+so not the patient cells but somebody
+
+00:44:09.480 --> 00:44:12.440
+else&#x27;s uh and so they take
+
+00:44:12.440 --> 00:44:16.440
+immune with um aous cells would you like
+
+00:44:16.440 --> 00:44:18.480
+do you think even like if they&#x27;re coming
+
+00:44:18.480 --> 00:44:20.960
+from the patient you still see tissue
+
+00:44:20.960 --> 00:44:22.839
+rejected like you know what I&#x27;m saying
+
+00:44:22.839 --> 00:44:25.440
+like the patient themselves right uh
+
+00:44:25.440 --> 00:44:28.720
+there&#x27;s too many examples of that in hum
+
+00:44:28.720 --> 00:44:33.680
+yet but uh so far the ends
+
+00:44:33.680 --> 00:44:37.319
+of suggest that it&#x27;s not a problem but
+
+00:44:37.319 --> 00:44:39.480
+still early stage but there shouldn&#x27;t be
+
+00:44:39.480 --> 00:44:41.640
+right they&#x27;re genetically mat
+
+00:44:41.640 --> 00:44:44.640
+identically so that&#x27;s the idea and there
+
+00:44:44.640 --> 00:44:47.599
+is a a company on the west coast who
+
+00:44:47.599 --> 00:44:51.520
+just got NDA approval to do that fork
+
+00:44:51.520 --> 00:44:54.520
+Pati
+
+00:44:54.960 --> 00:44:57.960
+IPS
+
+00:44:59.200 --> 00:45:00.720
+they don&#x27;t have results yet but the ones
+
+00:45:00.720 --> 00:45:03.960
+that are using nonpatient Drive are
+
+00:45:03.960 --> 00:45:07.000
+getting good results for that&#x27;s a group
+
+00:45:07.000 --> 00:45:10.119
+here in New York founded the company is
+
+00:45:10.119 --> 00:45:13.200
+Blue Rock founded
+
+00:45:17.359 --> 00:45:20.920
+by how do you approachment in stroke
+
+00:45:20.920 --> 00:45:23.280
+where there is acute destruction
+
+00:45:23.280 --> 00:45:24.880
+structure
+
+00:45:24.880 --> 00:45:28.160
+function is more Progressive integation
+
+00:45:28.160 --> 00:45:33.400
+of the graph into yeah there&#x27;s not a
+
+00:45:33.400 --> 00:45:35.760
+quick and easy answer to that question
+
+00:45:35.760 --> 00:45:40.240
+it&#x27;s a good question uh it depends uh
+
+00:45:40.240 --> 00:45:43.160
+how long after the stroke you plan on
+
+00:45:43.160 --> 00:45:45.559
+putting the tissue uh if you wait long
+
+00:45:45.559 --> 00:45:48.520
+enough you now have a depression and
+
+00:45:48.520 --> 00:45:52.839
+space if you do an acute inflammatory
+
+00:45:52.839 --> 00:45:54.880
+stage it would be very different
+
+00:45:54.880 --> 00:45:57.920
+environment um so maybe somewhere in
+
+00:45:57.920 --> 00:45:59.720
+between would be ideal but you still
+
+00:45:59.720 --> 00:46:03.200
+have like a scar tissue there so we
+
+00:46:03.200 --> 00:46:07.119
+we&#x27;ve consulted with uh
+
+00:46:07.119 --> 00:46:09.400
+neurosurgeons and that&#x27;s actually what
+
+00:46:09.400 --> 00:46:12.079
+they worry about most is displacing the
+
+00:46:12.079 --> 00:46:15.040
+scar tissue to put in the new tissue
+
+00:46:15.040 --> 00:46:18.920
+because that might cause more bleeding
+
+00:46:18.920 --> 00:46:20.960
+you know they&#x27;re very cautious despite
+
+00:46:20.960 --> 00:46:23.040
+the fact that neurosurgeons are like the
+
+00:46:23.040 --> 00:46:26.760
+craziest Ms out there
+
+00:46:26.760 --> 00:46:30.240
+unlike other doctors who you know you
+
+00:46:30.240 --> 00:46:32.040
+ask them about a potential treatment
+
+00:46:32.040 --> 00:46:34.559
+they say oh has somebody else done it no
+
+00:46:34.559 --> 00:46:36.200
+that I don&#x27;t want to do it neur surgeon
+
+00:46:36.200 --> 00:46:39.000
+if ask somebody else do it oh that&#x27;s for
+
+00:46:39.000 --> 00:46:40.920
+I don&#x27;t want to do it they want to be
+
+00:46:40.920 --> 00:46:44.839
+the person uh so that&#x27;s good for but um
+
+00:46:44.839 --> 00:46:47.280
+yeah so that&#x27;s actually you know a
+
+00:46:47.280 --> 00:46:51.520
+question that U we have to be
+
+00:46:51.760 --> 00:46:54.800
+very when
+
+00:46:54.800 --> 00:46:58.400
+put how we going to
+
+00:46:59.520 --> 00:47:01.960
+do I mean there are things you can do
+
+00:47:01.960 --> 00:47:04.359
+toate that but
+
+00:47:04.359 --> 00:47:07.920
+still really
+
+00:47:09.240 --> 00:47:11.400
+reduce so you mentioned that you were
+
+00:47:11.400 --> 00:47:13.720
+focusing on the Neo cortex um and then
+
+00:47:13.720 --> 00:47:15.800
+you would also mentioned this um I think
+
+00:47:15.800 --> 00:47:18.040
+it was like five we sweet spot of
+
+00:47:18.040 --> 00:47:20.119
+development um where was at the right
+
+00:47:20.119 --> 00:47:22.800
+area to engineer so is that a
+
+00:47:22.800 --> 00:47:25.319
+development process and timeline is that
+
+00:47:25.319 --> 00:47:27.800
+un War across the neocortex or does
+
+00:47:27.800 --> 00:47:29.960
+there end up being regions where it
+
+00:47:29.960 --> 00:47:32.040
+differs there are gradients of
+
+00:47:32.040 --> 00:47:36.240
+Development Across the neocortex yeah
+
+00:47:36.240 --> 00:47:38.880
+so yeah so we&#x27;re kind of you know
+
+00:47:38.880 --> 00:47:42.280
+talking about a generic middle for that
+
+00:47:42.280 --> 00:47:45.280
+age um you know human neocortical
+
+00:47:45.280 --> 00:47:48.599
+development is pretty protracted so uh
+
+00:47:48.599 --> 00:47:52.079
+it&#x27;s not as dramatic as you find an
+
+00:47:52.079 --> 00:47:57.680
+analysis those gradi are easily seen
+
+00:47:57.680 --> 00:47:59.400
+ey
+
+00:47:59.400 --> 00:48:02.240
+thickness so it&#x27;s not yeah so they are
+
+00:48:02.240 --> 00:48:04.359
+there we should be conscious of them
+
+00:48:04.359 --> 00:48:06.400
+also
+
+00:48:06.400 --> 00:48:09.559
+because there&#x27;s some predispositions to
+
+00:48:09.559 --> 00:48:13.839
+function that seem to exist early on
+
+00:48:13.839 --> 00:48:17.040
+inel we don&#x27;t know if it&#x27;s that early
+
+00:48:17.040 --> 00:48:19.800
+but so it may be possible that you would
+
+00:48:19.800 --> 00:48:22.559
+need different um different starting
+
+00:48:22.559 --> 00:48:24.559
+points for different regions um but
+
+00:48:24.559 --> 00:48:26.240
+you&#x27;re hoping it be Universal possibly
+
+00:48:26.240 --> 00:48:28.319
+possibly yeah yeah I mean certainly you
+
+00:48:28.319 --> 00:48:30.440
+know around the edges of the cortex the
+
+00:48:30.440 --> 00:48:33.400
+canonical layered structure breaks
+
+00:48:33.400 --> 00:48:37.280
+down the Arctic cortex singulate cortex
+
+00:48:37.280 --> 00:48:39.599
+those are clearly different and yeah we
+
+00:48:39.599 --> 00:48:44.079
+would use you know a different three
+
+00:48:44.079 --> 00:48:47.200
+structure question in the future do you
+
+00:48:47.200 --> 00:48:49.160
+foresee this being something that could
+
+00:48:49.160 --> 00:48:52.079
+be covered realistically by insurances
+
+00:48:52.079 --> 00:48:53.559
+like for treatment of Parkinson&#x27;s
+
+00:48:53.559 --> 00:48:55.240
+Alzheimer&#x27;s Dementia or is this going to
+
+00:48:55.240 --> 00:48:57.240
+be more more a treatment for the Rich
+
+00:48:57.240 --> 00:49:00.559
+and Famous just to remain young yeah I
+
+00:49:00.559 --> 00:49:03.839
+mean I uh actually just proposed this
+
+00:49:03.839 --> 00:49:05.160
+program to
+
+00:49:05.160 --> 00:49:07.520
+ARA and I&#x27;m waiting to hear back they
+
+00:49:07.520 --> 00:49:11.599
+invited me for an interview and so you
+
+00:49:11.599 --> 00:49:14.920
+know they&#x27;re really concerned about
+
+00:49:14.920 --> 00:49:18.040
+that um so I I prepared a list of
+
+00:49:18.040 --> 00:49:20.720
+arguments for why it could be one is
+
+00:49:20.720 --> 00:49:22.960
+that cell-based therapies you know have
+
+00:49:22.960 --> 00:49:25.079
+already been approved by the FDA and
+
+00:49:25.079 --> 00:49:28.200
+covered Medicare those are all blood uh
+
+00:49:28.200 --> 00:49:30.640
+diseases so there&#x27;s precedents for
+
+00:49:30.640 --> 00:49:32.440
+getting insurance coverage for those
+
+00:49:32.440 --> 00:49:34.920
+things but there&#x27;s also you know really
+
+00:49:34.920 --> 00:49:38.680
+the cost benefit analysis so treatment
+
+00:49:38.680 --> 00:49:43.280
+of um stroke patients and traumatic
+
+00:49:43.280 --> 00:49:44.920
+brain injury which would be another
+
+00:49:44.920 --> 00:49:46.839
+Target of this are like a hundred
+
+00:49:46.839 --> 00:49:48.799
+billion dollars in the US alone or
+
+00:49:48.799 --> 00:49:51.839
+approaching 100 billion doar and we
+
+00:49:51.839 --> 00:49:54.920
+would actually save Society a lot of
+
+00:49:54.920 --> 00:49:56.040
+money
+
+00:49:56.040 --> 00:49:58.920
+by getting those people back to work and
+
+00:49:58.920 --> 00:50:03.000
+not having them um rely on this lifetime
+
+00:50:03.000 --> 00:50:05.319
+of support care which ends up being much
+
+00:50:05.319 --> 00:50:07.119
+more expensive than the
+
+00:50:07.119 --> 00:50:10.599
+surgery so there&#x27;s economic reasons why
+
+00:50:10.599 --> 00:50:13.359
+it would make sense whether we can
+
+00:50:13.359 --> 00:50:15.799
+convince people of that I don&#x27;t know but
+
+00:50:15.799 --> 00:50:19.599
+yeah I mean it should be for everyone
+
+00:50:19.599 --> 00:50:22.400
+isn&#x27;t that the point of
+
+00:50:23.280 --> 00:50:26.760
+decentralization exactly yeah
+
+00:50:26.760 --> 00:50:31.839
+uh yeah sorry I think
+
+00:50:32.640 --> 00:50:36.079
+first either way sure thanks yeah so I
+
+00:50:36.079 --> 00:50:38.760
+was wondering um with uh you know a lot
+
+00:50:38.760 --> 00:50:41.280
+of people older people have uh protein
+
+00:50:41.280 --> 00:50:43.599
+aggregation in their brain and you know
+
+00:50:43.599 --> 00:50:45.599
+people talk and the
+
+00:50:45.599 --> 00:50:47.799
+theory the dominant theory is that it
+
+00:50:47.799 --> 00:50:49.559
+spreads through this like PR like
+
+00:50:49.559 --> 00:50:51.240
+mechanism through the brain and maybe
+
+00:50:51.240 --> 00:50:54.480
+once it gets to a certain point it uh
+
+00:50:54.480 --> 00:50:56.480
+you know it maybe caused by aging but
+
+00:50:56.480 --> 00:50:58.040
+once it gets to a certain point it may
+
+00:50:58.040 --> 00:51:00.119
+become sort of self- sustaining so I
+
+00:51:00.119 --> 00:51:01.920
+wonder like do you think that these
+
+00:51:01.920 --> 00:51:04.160
+graphs are going to be you know
+
+00:51:04.160 --> 00:51:05.799
+especially in cases like Parkinson&#x27;s
+
+00:51:05.799 --> 00:51:07.440
+where there&#x27;s like a protein aggregation
+
+00:51:07.440 --> 00:51:08.920
+nature to it do you think these graphs
+
+00:51:08.920 --> 00:51:11.240
+are just going to be destroyed by that
+
+00:51:11.240 --> 00:51:13.680
+process after a while or are they going
+
+00:51:13.680 --> 00:51:17.079
+to resist it I don&#x27;t think so based on
+
+00:51:17.079 --> 00:51:20.280
+the evidence so far which is you know
+
+00:51:20.280 --> 00:51:22.799
+they were doing these transplants using
+
+00:51:22.799 --> 00:51:27.520
+um human mid tissue to treat Parkinson&#x27;s
+
+00:51:27.520 --> 00:51:29.559
+in the late 80s in
+
+00:51:29.559 --> 00:51:32.880
+Sweden and uh some of these patients
+
+00:51:32.880 --> 00:51:35.480
+were essentially cured some were made
+
+00:51:35.480 --> 00:51:38.040
+worse to improve before they went back
+
+00:51:38.040 --> 00:51:40.880
+to it but in some of the patients you
+
+00:51:40.880 --> 00:51:42.640
+know two decades later they did
+
+00:51:42.640 --> 00:51:44.920
+postmortem analyses and saw that the
+
+00:51:44.920 --> 00:51:47.240
+neurons were still there that they
+
+00:51:47.240 --> 00:51:49.720
+transplanted so and those are naked
+
+00:51:49.720 --> 00:51:51.200
+cells right they weren&#x27;t part of the
+
+00:51:51.200 --> 00:51:53.520
+tissue so ours are going to be much more
+
+00:51:53.520 --> 00:51:56.040
+insulated from the environment I&#x27;m not
+
+00:51:56.040 --> 00:51:57.440
+saying this is going to be true for all
+
+00:51:57.440 --> 00:51:59.880
+Aggregates preons you know maybe a
+
+00:51:59.880 --> 00:52:03.000
+little more problematic than you know ad
+
+00:52:03.000 --> 00:52:05.920
+Aggregates
+
+00:52:10.319 --> 00:52:12.799
+orates are looking at thato I guess
+
+00:52:12.799 --> 00:52:14.720
+that&#x27;s something if you had like 100
+
+00:52:14.720 --> 00:52:16.880
+extra people in some Dy funding that be
+
+00:52:16.880 --> 00:52:18.960
+tested my spouse models and that sort of
+
+00:52:18.960 --> 00:52:21.480
+thing
+
+00:52:24.280 --> 00:52:27.079
+yeah in terms of Parkinson&#x27;s also I know
+
+00:52:27.079 --> 00:52:29.720
+that stems from the mid brain could the
+
+00:52:29.720 --> 00:52:32.119
+grass be applied in the mid brain or
+
+00:52:32.119 --> 00:52:34.280
+does it have to be in
+
+00:52:34.280 --> 00:52:38.280
+the well so the graphs now that these
+
+00:52:38.280 --> 00:52:40.520
+companies are in clinical trials were
+
+00:52:40.520 --> 00:52:41.720
+getting good
+
+00:52:41.720 --> 00:52:45.839
+results similar to the the early studies
+
+00:52:45.839 --> 00:52:49.359
+in Sweden they&#x27;re putting the cells at
+
+00:52:49.359 --> 00:52:50.880
+the Target
+
+00:52:50.880 --> 00:52:53.520
+location of of where the neurons that
+
+00:52:53.520 --> 00:52:55.960
+are lost would would have rejected to
+
+00:52:55.960 --> 00:52:58.520
+rather than where the neurons were lost
+
+00:52:58.520 --> 00:53:02.520
+and that&#x27;s because back then they didn&#x27;t
+
+00:53:02.520 --> 00:53:05.280
+realize that young neurons can project
+
+00:53:05.280 --> 00:53:07.079
+in the adult brain it&#x27;s been shown in
+
+00:53:07.079 --> 00:53:09.119
+humans for Parkinson&#x27;s patients postm
+
+00:53:09.119 --> 00:53:11.400
+morally as well that you get these
+
+00:53:11.400 --> 00:53:14.240
+projections so again because they got
+
+00:53:14.240 --> 00:53:17.839
+these positive effects no one sort of
+
+00:53:17.839 --> 00:53:20.280
+wanted to take the risk of trying to put
+
+00:53:20.280 --> 00:53:22.559
+them where they belong instead of where
+
+00:53:22.559 --> 00:53:23.760
+they have been putting them because
+
+00:53:23.760 --> 00:53:26.319
+there was a positive effect so they kept
+
+00:53:26.319 --> 00:53:27.920
+putting them in this places so the
+
+00:53:27.920 --> 00:53:29.480
+current clinical trials they put them in
+
+00:53:29.480 --> 00:53:32.079
+the strium not the
+
+00:53:32.079 --> 00:53:37.280
+suspension and there&#x27;s one guy that
+
+00:53:37.280 --> 00:53:39.880
+had the courage to at least put him in
+
+00:53:39.880 --> 00:53:43.079
+both places um so he put them in theum
+
+00:53:43.079 --> 00:53:44.280
+and the
+
+00:53:44.280 --> 00:53:47.720
+substanti and uh in postmodem patient
+
+00:53:47.720 --> 00:53:49.960
+saw that they had connections they
+
+00:53:49.960 --> 00:53:51.280
+couldn&#x27;t tell which direction they were
+
+00:53:51.280 --> 00:53:53.280
+going in but those are bir directional
+
+00:53:53.280 --> 00:53:55.599
+connections anyway so even in the human
+
+00:53:55.599 --> 00:53:57.559
+brain in the adult in a diseased
+
+00:53:57.559 --> 00:53:59.240
+environment you getting proper
+
+00:53:59.240 --> 00:54:01.280
+connections so that&#x27;s very encouraging
+
+00:54:01.280 --> 00:54:03.079
+as
+
+00:54:03.079 --> 00:54:06.839
+well got question mine&#x27;s kind
+
+00:54:06.839 --> 00:54:09.799
+of um so I&#x27;m just curious so since like
+
+00:54:09.799 --> 00:54:13.240
+the aggregation of proteins like to Al
+
+00:54:13.240 --> 00:54:15.839
+anoid and start accumulating your 20 30s
+
+00:54:15.839 --> 00:54:19.000
+and 40s just C the new Diagnostics like
+
+00:54:19.000 --> 00:54:22.400
+em pet tow pet if you can like diagnose
+
+00:54:22.400 --> 00:54:26.400
+some of these conditions earlier use the
+
+00:54:26.400 --> 00:54:29.079
+tissue uh degeneration can that help
+
+00:54:29.079 --> 00:54:32.240
+prevent the onset of
+
+00:54:32.480 --> 00:54:34.240
+the
+
+00:54:34.240 --> 00:54:36.720
+um May
+
+00:54:36.720 --> 00:54:39.480
+if like the really early cases are
+
+00:54:39.480 --> 00:54:41.559
+usually familial so
+
+00:54:41.559 --> 00:54:44.559
+gener so in those cases if you can
+
+00:54:44.559 --> 00:54:46.960
+identify the genetic lesion you could
+
+00:54:46.960 --> 00:54:49.799
+even in Aus PTI cell
+
+00:54:49.799 --> 00:54:52.520
+correct before making
+
+00:54:52.520 --> 00:54:56.160
+tissue so potentially yes
+
+00:54:56.160 --> 00:54:59.599
+like a E4 for
+
+00:54:59.599 --> 00:55:03.839
+example I would correct that if
+
+00:55:05.799 --> 00:55:09.119
+I want quickly thank you for your talk
+
+00:55:09.119 --> 00:55:10.720
+this my first time at one of this has
+
+00:55:10.720 --> 00:55:12.920
+been highly fascinating uh fortunately
+
+00:55:12.920 --> 00:55:14.599
+and unfortunately some of the awesome
+
+00:55:14.599 --> 00:55:16.440
+people here asked like questions I
+
+00:55:16.440 --> 00:55:19.960
+already had so I&#x27;m left with the sadly
+
+00:55:19.960 --> 00:55:21.880
+philosophical one that iy don&#x27;t want to
+
+00:55:21.880 --> 00:55:23.319
+ask on following up I stood about
+
+00:55:23.319 --> 00:55:26.160
+insurance where while I know stages and
+
+00:55:26.160 --> 00:55:28.200
+as someone who&#x27;s done research before
+
+00:55:28.200 --> 00:55:30.200
+even in Computing it&#x27;s very hard to get
+
+00:55:30.200 --> 00:55:32.880
+off the ground and in stuff uh do you
+
+00:55:32.880 --> 00:55:35.280
+any researcher sometimes step back and
+
+00:55:35.280 --> 00:55:36.799
+including all the wonderful things to
+
+00:55:36.799 --> 00:55:38.839
+get used for you sometimes go oh God
+
+00:55:38.839 --> 00:55:40.400
+this is going to change a lot of things
+
+00:55:40.400 --> 00:55:43.400
+that I hope like society and legal stuff
+
+00:55:43.400 --> 00:55:45.359
+will hopefully catch up to if for
+
+00:55:45.359 --> 00:55:48.359
+example he become the ship such as that
+
+00:55:48.359 --> 00:55:51.039
+one quick example is we base a lot of
+
+00:55:51.039 --> 00:55:53.680
+our um social political stuff on our own
+
+00:55:53.680 --> 00:55:55.880
+term limits so there a lot of positions
+
+00:55:55.880 --> 00:55:58.039
+in our society where you just run those
+
+00:55:58.039 --> 00:56:00.160
+until you&#x27;re dead so if you&#x27;re able to
+
+00:56:00.160 --> 00:56:02.440
+even go into advanc Ag and look forever
+
+00:56:02.440 --> 00:56:05.799
+that guide BEC a problem yeah I mean a
+
+00:56:05.799 --> 00:56:07.640
+little bit you know you can&#x27;t help but
+
+00:56:07.640 --> 00:56:10.599
+think about these different things but
+
+00:56:10.599 --> 00:56:13.520
+always weigh that against the fact that
+
+00:56:13.520 --> 00:56:16.079
+aging will kill everybody on this planet
+
+00:56:16.079 --> 00:56:17.680
+if they
+
+00:56:17.680 --> 00:56:21.240
+don&#x27;t that seems if you value light and
+
+00:56:21.240 --> 00:56:24.079
+you know an individual&#x27;s life that seems
+
+00:56:24.079 --> 00:56:26.599
+to outweigh pretty much everything else
+
+00:56:26.599 --> 00:56:30.200
+those other things we can adapt you know
+
+00:56:30.200 --> 00:56:33.680
+we can change the way we do things but
+
+00:56:33.680 --> 00:56:35.920
+you know to me
+
+00:56:35.920 --> 00:56:39.559
+that always the fact that we&#x27;re all
+
+00:56:39.559 --> 00:56:43.160
+going to die kind of outs I will say
+
+00:56:43.160 --> 00:56:45.000
+personally well I could be here all day
+
+00:56:45.000 --> 00:56:46.799
+like disagree very fastly with different
+
+00:56:46.799 --> 00:56:48.640
+things I do agree that I&#x27;d love Jesus
+
+00:56:48.640 --> 00:56:51.680
+research to like some&#x27;s please help them
+
+00:56:51.680 --> 00:56:53.880
+that&#x27;s
+
+00:56:53.880 --> 00:56:56.880
+like
+
+00:56:57.400 --> 00:57:00.160
+great within your field where do you
+
+00:57:00.160 --> 00:57:02.000
+think like your colleagues are wasting
+
+00:57:02.000 --> 00:57:04.440
+the most
+
+00:57:05.559 --> 00:57:10.119
+time getting Irv approval besides admin
+
+00:57:10.119 --> 00:57:13.480
+obviously a lot of line of inquiry wise
+
+00:57:13.480 --> 00:57:16.559
+line of inquiry wise um so which field
+
+00:57:16.559 --> 00:57:19.119
+you need however you want to self-define
+
+00:57:19.119 --> 00:57:20.640
+you know like when you go to a
+
+00:57:20.640 --> 00:57:22.200
+conference and you walk eyes with the
+
+00:57:22.200 --> 00:57:24.039
+guy across from you and you like you
+
+00:57:24.039 --> 00:57:25.799
+know
+
+00:57:25.799 --> 00:57:28.319
+him what is he doing
+
+00:57:28.319 --> 00:57:31.319
+wrong well yeah I mean I&#x27;m already taken
+
+00:57:31.319 --> 00:57:33.200
+my punches after
+
+00:57:33.200 --> 00:57:35.520
+theity know when I go to a conference
+
+00:57:35.520 --> 00:57:38.520
+onity
+
+00:57:40.799 --> 00:57:44.880
+yeah you don&#x27;t want to drop some shade
+
+00:57:48.319 --> 00:57:52.079
+here that&#x27;s all work
+
+00:57:53.799 --> 00:57:55.359
+together
+
+00:57:55.359 --> 00:57:57.599
+all
+
+00:58:02.640 --> 00:58:05.640
+right well thank you thank you for
+
+00:58:05.640 --> 00:58:08.160
+coming and thank you all you can STI
+
+00:58:08.160 --> 00:58:09.640
+stick around and chat for a little and
+
+00:58:09.640 --> 00:58:12.359
+thank you again to our
+
+00:58:13.680 --> 00:58:16.960
+speaker and way to get in contact with
+
+00:58:16.960 --> 00:58:19.079
+you
+
+00:58:19.599 --> 00:58:21.359
+or
+
+00:58:21.359 --> 00:58:26.720
+Okay Okay Google his website my
+
+00:58:28.880 --> 00:58:30.720
+sweet all right well thank you guys and
+
+00:58:30.720 --> 00:58:33.760
+make sure to come to the one on the
+
+00:58:33.760 --> 00:58:36.720
+February something on ultrasound thank
+
+00:58:36.720 --> 00:58:39.480
+you guys and stick
+
+00:58:41.319 --> 00:58:44.319
+around hey how you doing good how are
+
+00:58:44.319 --> 00:58:47.400
+you good all
+
+00:58:53.720 --> 00:58:56.250
+right
+
+00:58:56.250 --> 00:59:00.780
+[Music]
+
+00:59:11.690 --> 00:59:18.559
+[Music]
+
+00:59:18.559 --> 00:59:22.079
+parti yeaha
+

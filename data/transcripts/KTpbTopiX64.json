@@ -1,0 +1,434 @@
+{
+  "paragraphs": [
+    {
+      "start": 2.86,
+      "end": 46.6,
+      "text": "[Music] okay okay now now we're starting thank you guys for coming out this be the chair someone else um thank you guys for all being very excited about uh decentralized science and New York City and meeting other science people that happen to be here so I think a lot of people um are curious like what is D side maybe you're um and so at the very highest level decentralized science is about how you can use the blockchain to improve some of the various aspects of science I'll"
+    },
+    {
+      "start": 44.92,
+      "end": 92.479,
+      "text": "give a little talk around that but I just wanted to like welcome everyone and we do these we try and do these like once a month it's a very Grassroots effort here in New York um I see a lot of people taking pictures um we're trying to grow our Instagram and our Twitter a lot so if you tag us at D NYC on Instagram or Twitter surprisingly that name wasn't taken for either of them um I would appreciate it but no pressure okay um okay so um I'm just going to give a little talk around what is decentralized science and then we'll have our main speaker so uh what is D so um I did a PhD before and and it"
+    },
+    {
+      "start": 90.28,
+      "end": 134.76,
+      "text": "was sort of around traditional science and computer science and as it was as it was finishing with it I was taking a lot of notice around like the blockchain and how the blockchain was being used for things like uh the fit for Bitcoin to exchange money and value and then that sort of around that same time also ethereum came into into fruition which was around doing like a distributed computation the ability to do distributed computation and trusted computation and what those were really useful for were for like decentralized Finance so you could um you could figure out people could exchange value with each other and"
+    },
+    {
+      "start": 132.52,
+      "end": 175.959,
+      "text": "build all these lending protocols on top of blockchain and ethereum but one of the problems with this is like there was nothing that was like a it was all just like this meta stuff like there were these colored coins where someone had a red coin and you had a blue coin and you could exchange value and the red coin was worth more because the team that did it was really um was really smart but U at the end of the day there was nothing that was sort of backing that besides just uh you know reputation in some ways and one of the things that's really cool about decentralized science is you can use all these really powerful distributed Technologies but instead of um having them backed by just uh"
+    },
+    {
+      "start": 173.44,
+      "end": 214.159,
+      "text": "information B red or blue coin you can back it with actual ex transic knowledge that is being taken from The Real World and put onto the blockchain and then people can trade that those knowledge coins or they can verify computation or they can verify data sets and you're using sort of all this really cool decentralized Technologies to improve science as opposed to just sort of swapping tokens for decentralized finance so the goal of all this is to improve and create a more transparent a more open accessible and more like collaborative scientific research"
+    },
+    {
+      "start": 215.72,
+      "end": 258.079,
+      "text": "environment okay so the problem is like the way science is done right now is so broke and broken because it really hasn't adapted too much since like the 1500s let me just make sure good A lot of people who weren't able to make it they want to see it okay so um they haven't they have um like the problem is is when people are doing science today it's so it's actually very centralized so if you want to get money you have to if you want to do science the first thing you have to do is you have to apply for a grant and the people that you have to apply for the grant from is typically a government agency but the problem with that is the"
+    },
+    {
+      "start": 255.76,
+      "end": 299.6,
+      "text": "government agency like they they have like if the median if they start off as the people who are giving the grant just 30 years old they just give the grants to the people that are always their friends so like there's not a lot of new influx of ideas like you can look at the cohort it's like the median age of the people that get the grants and give the grants is all the same and it just kind of moves forward and forward and forward so this is not great because it doesn't allow for the introduction of new ideas um the other thing that sucks about it is like it's slow so Publications can take like six months or a year or a year and a half before they're ever released in like a big journal and it's also like it puts a lot of limiting factors so"
+    },
+    {
+      "start": 297.88,
+      "end": 342.12,
+      "text": "they'll give you all these uh recommendations of things you need to do to fix it um and by the time the paper is done uh there's not the core kernel of the idea anymore that's left sort of an amalgamation which sucks um and I think this is actually the biggest one this next one is like the reproducibility um and replicability in science so this is like a looming threat that is going to come and we're seeing it now more and more um the profess like the president of Stanford had to resign because the data was sort of falsified and they couldn't trace it back and then the president of Harvard was plagiarizing data and I think in general um if if at the top of these"
+    },
+    {
+      "start": 339.639,
+      "end": 381.28,
+      "text": "institutions the people are having these problems with reproducibility it probably trickles down and I think the analogy would be is like if Lance Armstrong is doping it's very likely that a lot of the people under them have to dope as well in order to remain competitive at that same level so I think that it's very likely that we're going to have a lot of problems with reproducibility in the future and we're just sort of seeing the tip of the iceberg at it now and then lastly is like um complex IP agreements so ideally like people that do science in a university setting should be incentivized to do the science and should be able to reap some of the benefit of that but the problem is like a lot of the IP that's created in"
+    },
+    {
+      "start": 379.639,
+      "end": 423.639,
+      "text": "universities gets stuck between the university and the department and the IP the principal investigator and The Graduate students and it's not easy to track who did what and who can distributed while and this is really bad because ideally the person that does the most of the work should gain most of the value okay so how does blockchain fix this is now blockchain has a decentralized way of for people to get money um blockchain has democratizes more people to become involved in science and you can track where the data comes from and who gets and who contributed what so that everyone is rewarded properly and it engages a lot lot more people through cryptoeconomic"
+    },
+    {
+      "start": 421.4,
+      "end": 463.52,
+      "text": "incentives so it's not just about like decentralizing science but it's also about incentivizing science in the right way I mean one of the problems that was also um with PE the publishing platform was like the the vectors in which the money flows is is kind of backwards so to get your paper accepted once the paper's accepted you actually have to pay the the journal and then the to get access to that paper like they have to pay the journal also but the journal should really be paying the authors and the people that review and they reviewers don't get any money so there's a lot of incentive mismatches which lead to basically um people like getting their friends uh things and then like"
+    },
+    {
+      "start": 462.0,
+      "end": 504.52,
+      "text": "when the incentives aren't clear like you get these like weird outgrowth of incentives where people do things that they probably shouldn't be doing with the goal of some other goal of getting a professorship or some sort of um Plum appointment or something else so it's really neat to like be able to get rid of all that and just sort of start fresh and say like okay this is this is interesting and the other thing I want to mention is like a lot of like a lot of these problems could be fixed at the social level but like we can't there is no impetus to fix it at the social level so we have to come up with these very complicated Technologies in order to fix the social thing so another example would be like Bitcoin like we could just like Stop Printing money but like that's not going to happen at the social level"
+    },
+    {
+      "start": 502.759,
+      "end": 547.44,
+      "text": "because it's way too hard to fix it so it's much easier to just sort of create a new blockchain where people can like trade money and create a new system even though it's really complicated technically it will lead to like a better op okay um this is the slide we talk about it um so uh like the what's cool about t is there's all these new initiatives there's Dows that are being formed which is a essential is autonomous organization which is like a lab in the traditional sense and um people are finding funding through new ways of crowdsourcing people are publishing on chain and doing peer review in new interesting ways um IP is being tracked in new ways"
+    },
+    {
+      "start": 545.6,
+      "end": 588.079,
+      "text": "and uh Dows are sort of driving new types of scientific innovation um uh this is more about the funding um people are publishing new thing people are doing new types of publishing people are publishing on ipfs people are attaching reputation to uh wallet addresses so that they can see who's a really good good at who's really good at predicting which paper is going to be successful or not so people can create like a people are creating a prediction market around publishing so instead of just uh someone saying like oh this is like a good paper people are staking like hundred or ,000 dollars on a paper and saying I bet in a year or two this paper is going to be worth more and so they're being incentivized to do"
+    },
+    {
+      "start": 586.399,
+      "end": 631.92,
+      "text": "a good job of figuring out which papers are going to be successful um another really cool thing is like tracking of intellectual property so you can start from the beginning of where the data comes from on the sensor and you can track all the way through um up to the the final P published paper and what's cool about this is now you can start to incentivize um the people that are actually doing the contributing the data or actually doing the analysis and each person sort of leaves a mark on that on each piece of data and allows to them to be incentivized at the end so I think there's there's some challenges though definitely for decentralized science um well there like"
+    },
+    {
+      "start": 630.32,
+      "end": 675.959,
+      "text": "with tra in traditional science you have a very clear source of funding but in decentralized science it's almost like it's more broad so you have to put a little bit more effort into into finding the money another hard one is like I think decentralized science works very well for um longitudinal research where everyone contributes a small amount but I think it becomes much harder to do decentralized science um where you need like someone with a lot of domain expertise to really understand how the Krab Cycle Works or how like a very complicated thing that requires a lot of knowledge because there's not a lot of people who are willing to put in all the energy to do that and the university is actually does a really good job of screening for those people who are willing to put in um the energy and then"
+    },
+    {
+      "start": 672.279,
+      "end": 717.399,
+      "text": "lastly um like uh a regulatory things I think one of the things we have to look out for is people uh doing things that are in compliance that are generally socially acceptable so like in a university setting there's an IRB which stands for an Institutional review board that makes sure like what the studies that are being done or conducted are generally ethical and I think we need to be careful about that in decentralized science also um so I think we have that has the ability to like revolutionize new areas of science with with some cavon and um I just wanted to talk a little bit more around so that's that that's what decentralized Sciences so D we have um we do these"
+    },
+    {
+      "start": 713.2,
+      "end": 758.519,
+      "text": "monthly and um here's the next D event um it's going to be on Focus ultrasound so if you scan this uh you can RSVP on it and focus ultrasound is very interesting it's basically trying to it's like the cyber knife where um you're trying to resonate some certain area of the brain at a very specific frequency so that the cell sort of explodes and it's completely non-invasive and it's looking very promising there's some um people at UCLA who are looking into it so that is our next D event which will be in February"
+    },
+    {
+      "start": 754.279,
+      "end": 799.6,
+      "text": "um that is that portion of the talk anyone have any questions before we our main speaker I have a question um you said that issues the what is the is just simply the proof of that youed data to link to or is like there's some other certific it has the it has it there's an ad testation from our server to that and it also has the the data on it too the data is store on ipfs and then the ipf then the ipfs ID is linked to that nft and so then it's all there yeah for the"
+    },
+    {
+      "start": 796.32,
+      "end": 838.399,
+      "text": "original sale how is that price decided there's no there's no there's no price decided initially you you're Meed the nft and then that price fluctuates based on the value of the data set the market yeah you see potential for this to be integrating because I think one the biggest issue with research is having facilities back resources yeah it's a good question I think there's going to be something like a cloud kitchen model for for um there's already been people that have approached this who have extra lab space that they're not using and are willing to rent it out to people so if"
+    },
+    {
+      "start": 836.399,
+      "end": 876.16,
+      "text": "if you wanted lab space we actually have people depending on what it is it was like some wet l so I don't think the wet and in University settings you can actually a lot of times rent out bench space as well and they'll do it for you as a profit as a for-profit thing so I don't think like the physical plant of the university is like a huge barrier to actual science it's a good point though yeah um you mentioned one of the problems with the status quo L"
+    },
+    {
+      "start": 880.33,
+      "end": 922.279,
+      "text": "[Music] [Music] ofid yeah I think it's just it's a good point I think and definitely in web in general there are Dows that are very clickish and probably even more clickish than some of the labs in some University and so maybe it won't be that won't be resolved but there'll be more so you will be able there's nothing in there's nothing per se wrong with being clickish or unique as long as there's a clickish"
+    },
+    {
+      "start": 920.519,
+      "end": 960.6,
+      "text": "and unique place for each person who wants to participate like in some ways like um being unique is like if everyone is unique that's kind of the best outcome in the world because everyone has their own domain in which they're not comping competing and it's like a Peto optimal situation um but um I think there's just like there'll be more opportunity but it is something to is something to be worried about and I do think that like web 3 is generally not great at creating like um groups of people that and letting new people in I think there should be like maybe like an entrance test or like something like that I to me the biggest downside"
+    },
+    {
+      "start": 974.0,
+      "end": 1017.48,
+      "text": "yeah yeah um science is very quick just in general everyone has their idea and like there's this saying that like death is the only way that new ideas get admitted into science because the only way for a new idea has to sort of physically die before the new thing is allowed in I think it's kind of true and um maybe maybe just people don't communicate as much have less conflict but it's a good point it's a very good point anyone else okay all right let's before we do that um let's get a group picture so everyone"
+    },
+    {
+      "start": 1014.24,
+      "end": 1089.6,
+      "text": "everyone everyone try three you're on the side come in come in the side we can't see the people okay three two one say cheese okay one more uh three two one cheese [Music] [Applause] Yay see it's on you want with this oh [Applause] [Music] OHA so now this the actual one okay three two one okay I think I got perfect [Music] officially a"
+    },
+    {
+      "start": 1105.37,
+      "end": 1151.559,
+      "text": "[Music] professional [Music] [Music] okay okay so um uh for our main talk we have Jean her we try to pronounce it and I met Jean at a dinner a few months ago and he was doing really really interesting research on on um like replacement so like there's this interesting thing you guys have all heard of Brian Johnson like I think at a high level it's like you eat broccoli you'll live forever I"
+    },
+    {
+      "start": 1148.799,
+      "end": 1190.84,
+      "text": "think that's like probably not not not going to work we're going to need more more sophisticated scientific interventions and um like he was telling about this really interesting idea of like you know you can replace the organs you can replace your land in the future you can suppress the immune system but like the brain is you can't you can't replace the Fring your Frankenstein and so uh we've been in contact and he's written a really interesting book um which you can purchase on Amazon and I will send out the link and I've been reading it over the past week or so and it's actually really it's really really good I've been learning a lot about it and um it's it's back there I shouldn't have brought it up here and um and from"
+    },
+    {
+      "start": 1188.919,
+      "end": 1230.159,
+      "text": "and he's a professor at Einstein medicine and has a lab has started a company that is uh doing springing research and I'll let you take it from here great thanks yeah I I wouldn't mind getting a sense of the room just to see you know what I'm dealing with here um let's say you could have a young body until you're 15 who here would want to live 250 with a young body oh good good start what about indefinitely"
+    },
+    {
+      "start": 1236.88,
+      "end": 1279.559,
+      "text": "I guess maybe the first part of what I'm going to say might sound like a bit of a downer um but there is uh hope I think with some of the approaches that a fraction of the PO of regenera regenerated medicine is working um so yeah you know Progressive tissue Replacements Um this can be interactive too so please feel free to interrupt ask questions but yeah the the point first point I want to make is that aging is a difficult problem and most people in the longevity"
+    },
+    {
+      "start": 1277.88,
+      "end": 1323.24,
+      "text": "feel completely ignored and the reason they ignore it is because either they don't know about this data that exists from decades ago bioch is characterizing this the complex forms of damage that occurs uh in our bodies to our macro molecules so those are proteins carbohydrates DNA lipids um and instead they just focus on you know other things that change with age but everything changes with age because you know the environment of the cells in the body is falling apart so so um this you know this slide"
+    },
+    {
+      "start": 1320.88,
+      "end": 1365.48,
+      "text": "is just meant to illustrate some of the examples that these biochemist discovered long ago and they gave up on Aging because they said there's no way of dealing with this um that hasn't stopped a lot of people today of trying to combat aging with different approaches but really the only approach that has a chance of working is replacement at a tissue greater level and and again it's because these are just examples of different classes of stochastic damage that occurs just to proteins over time in your body it's a physical"
+    },
+    {
+      "start": 1361.96,
+      "end": 1407.64,
+      "text": "process we have no genes in our genome that recognize any of these forms of damage or much less can process them and get rid of them so all these genetic approaches these epigenetic approaches which is maybe some of you heard of partial reprogramming there's no way that that can address without Reinventing a genome which we're nowhere near being able to do there's no way that can address these forms of damage and that occurs in the brain but in all parts of the body so this is sort of the downer side of um but there is a way right and that is"
+    },
+    {
+      "start": 1404.32,
+      "end": 1447.44,
+      "text": "repl it right so what if you know I we could take your old body and just surgically replace it with a new body a young body like if you were 80 and replace it with a 20-y old body you would then be 20 years old biologically right replacement will work right so it's just a question of making it work um and uh the one biggest challenge I think people are actually working on whole body Replacements I think that happen with but it won't do much good if your brain is still Aging in in that"
+    },
+    {
+      "start": 1444.88,
+      "end": 1489.679,
+      "text": "whole body right you'll have Dementia by the time the healthiest most you know intellectually sharp 100 year olds are nothing like you know um so your brain can you know ages no matter what so you need to do something about brain and the challenging part of course is the brain is who we are it defines our personality it houses our unique memories our personality so we don't want to lose that right that would defeat purpose so is there a way that we can you know make the brain young again"
+    },
+    {
+      "start": 1486.36,
+      "end": 1530.72,
+      "text": "and um I'm going to argue that there is and I'm going to tell you why uh and of course it's with Progressive replacement um not with I can probably other slides um that we could try the other dongle yeah if you want let's try sure this does seem to be working so I some of you may be familiar with the uh ship aesus mythology where you know you take a old boat you replace a plank by C I guess the question there is is it the same boat but for the brain you know"
+    },
+    {
+      "start": 1527.799,
+      "end": 1573.64,
+      "text": "far as we can tell the evidence is that it would be the same so I give you a couple of examples that I come across from the clinic I'm not a a clinician but talking to clinicians um we they've seen individuals in their 50s 60s 7s with benign brain tumors that have eaten away at either their Language Center they occur randomly in the brain or the frontal l which is a big part of personality and these benign tumors start as a single cell and grow out and eat away at the tissue eventually they have a headache or a seizure or something they go to the hospital doctor"
+    },
+    {
+      "start": 1570.039,
+      "end": 1612.919,
+      "text": "says you know uh good news bad news bad news first you know brain tumor good news it's operable they take it out not have big hole where the tumor was but they didn't change they were the same person they've always been their personality if it's in the frontal Lo didn't change they never lost the ability to speak no one noticed a difference so the reason is uh that the neocortex this is the part of the brain we're tackling first the biggest part most important part in terms of defining who we are as individuals U is incredibly plastic in how it encodes information so if you give it time to relocate a function that is being used it has to be used or else it'll be lost"
+    },
+    {
+      "start": 1611.399,
+      "end": 1655.48,
+      "text": "if you give it time to relocate a function that's being used uh it'll do that right if you get a stroke in the frontal road is a different story there's no time for that information to be re-encoded elsewhere and the cortex personality changes you get a stroke in The Language Center you lose the ability to speak doesn't so that's one aspect so I kind of jumped ahead here without the slides but you know this here's just the example of most clinicians are a pain in the ass because they don't publish these amazing findings so you know at least some of them do uh and and make a study of it"
+    },
+    {
+      "start": 1653.44,
+      "end": 1696.08,
+      "text": "and compare all these different PA same age same amount of damage from Stroke versus slow growing voma thankfully you know we have but if you talk to clinicians you know many of them come across these examples without publishing um the other thing that's encouraging about Progressive brain tissue replacement is there's dozens of labs including our who have put in brain precursor cells in the adult brain and shown that they differentiate into neurons that connect surprisingly well to the rest of the brain but this was a surprise some of"
+    },
+    {
+      "start": 1693.64,
+      "end": 1736.44,
+      "text": "you in the neuro field may have been familiar with the Dogma that there's no new axon growth in the adult and that's absolutely true from existing mature neurons but if you put in these precursor cells that give R to to immature NS it's highly reproducible everybody sees the same thing they project to distant parts of the brain not only that but to appropriate targets we're not sure how they do that yet they may follow signals that are still there from development or they may just be following you know remnants of axon facts that were there before but in any case they do it so new neurons can connect efficiently with the bra and"
+    },
+    {
+      "start": 1734.32,
+      "end": 1778.399,
+      "text": "maybe I'll give you an example from my Labb of that as well um this is this is not the example I was just alluding to but another example where we put in uh you know precursor cells for the L cortex and uh so here's the graph it's human in a mouse cortex doesn't it still works uh we just have to IM compromise the the mice and you know you can see all these axons coming off the graph going down into this fiber track that's what they're supposed to do and they do it uh even though we haven't come up with a graph yet that's functional it's still sort of a jumble of cells we need to fix this that's what"
+    },
+    {
+      "start": 1775.399,
+      "end": 1818.0,
+      "text": "we're really focused on but the neurons are doing what they're supposed to do uh and they'll project and connect to other parts of the brain um and again we're not the only ones or even the first ones to have sh this you know all these high profile papers with pretty spectacular titles saying that oh wow we reped the brain no one's come close to repairing the brain yet but the you you can sort of repair uh at a very base level surface in the brain so those two things uh the fact that you can you know slowly remove old"
+    },
+    {
+      "start": 1815.48,
+      "end": 1857.84,
+      "text": "tissue without losing its information and add new tissue that can encode information means that we can progressively replace brain tissue in Theory without l of information loss of personality and our memories as long as we're recalling those memories during the silencing process before all right so why why hav't we done this yet and why doesn't it work yet um so there's a a couple reasons again a lot of labs are doing this but progress is super incremental again this is a whole other thing we should talk about is the way"
+    },
+    {
+      "start": 1855.88,
+      "end": 1898.08,
+      "text": "that science is done now small incremental progress is rewarded trying to reach further than that you get slapped down no funding so uh you know things have moved very slowly um and and so you know the biggest things that are missing so far is that this is like one of the better looking graphs in the literature um and there's no architecture here compared to a normal nice layer tissue here there's different types of Dres that organization is very important for the intra or would be important if they had a graph that was for intra uh"
+    },
+    {
+      "start": 1896.2,
+      "end": 1940.84,
+      "text": "information processing there's a whole flow of information that occurs in the cortex between the layers and that's important for information processing that is not recapitulated here uh there's also important cell types missing you know there are many types of neurons in the cortex and uh a lot of those are missing from current graphs and very again important for feedback information feed forward information so they're needed for learning new things and they're missing here so so we're not there yet um so you know the approach that we're taking um is one of trying not to"
+    },
+    {
+      "start": 1937.44,
+      "end": 1981.24,
+      "text": "reinvent the wheel brain tissue you know one of most complicated things we know of and we're not we wouldn't be able to um put in mature tissue into a person for one it's too complex and and two it wouldn't integrate again because mature neurons don't project a and connect so what we're doing is just mimicking the way our brains were made in the first place no scientist or engineer made any of our brains they all develop from a relatively simple tissue thly in fetal develop"
+    },
+    {
+      "start": 1978.0,
+      "end": 2022.559,
+      "text": "so this is a much more manageable task is to reverse engineer that simple tissue we we found a stage it's kind of a sweet spot where there's enough internal structural cues and signaling cues for that tissue to develop on its own and yet it's simple enough that we can engineer both the cellular components and those extra cellular components so that's what we're trying to do here this just an example so in doing this too we use like high resolution analysis of real human fetal neocortical tissue um not not everyone here is in the biofield but we look at"
+    },
+    {
+      "start": 2019.84,
+      "end": 2064.839,
+      "text": "proteomics to do single cell sequencing just to really find out what's there and then mimic that and so you know we it's been finding from a scientific point of view because we've discovered you know molecules that no one knows no one previously knew there uh and they seem very important because they can be very localized to structures that we know are very important um and and specialized cell types that we know are very important but we don't know you know how to so you know it's F from a scientific point of view but of course you know we want to be able to engineer this tissue so these I won't go through this but"
+    },
+    {
+      "start": 2062.44,
+      "end": 2105.16,
+      "text": "basically these are the uh precursor cell types that we need for the tissue engineering uh and also the extracellular components so we're at a stage now where I think we've identified everything that we need to make this tissue uh we can generate all these cell types from Human IPS cells so I don't know if you guys are familiar with IPS cells but you can take cells from your blood or your skin or other parts of your body and bring them back to like the earliest embryonic stage and from that generate any cell type body that want if you develop the protocol be able to do that but they have the potential to do that and so we're at that stage"
+    },
+    {
+      "start": 2103.32,
+      "end": 2148.8,
+      "text": "where we can generate all but one of them um so we're almost there then the trick will be to assemble them and test their fun so we have a platform for doing that um in mice as I showed you earlier with the human tissue so we basically just make these very reproducible lesions and then put our cells with their extracellular environment or the biogel or Niche however you want to call it into that space and then we look for um how well it functions you know how well it develops in a structural way and sort of a couple of highlights you know these are from papers we covered but"
+    },
+    {
+      "start": 2145.16,
+      "end": 2189.72,
+      "text": "um one illustrates the neuron neuronal integration I mentioned before where you know axons project to the right place they also receive new inputs from the surrounding bra and this is an example of that so the in this case we put new you know photo tissue that might be an exaggeration we put new cells and biogel in uh in the lesion site in the visual cortex in this case and wait over time U and find that these neurons if we're recording from them with an electro you can detect their activity they pretty much behave like uh visual cortical"
+    },
+    {
+      "start": 2185.68,
+      "end": 2229.8,
+      "text": "neurons do in a newborn uh Mouse in this case um so initially there's just you know sort of spontaneous random activity even though we're challenging exposing the mouse to a visual stimulus which is this little thing here um but eventually those neurons start responding specifically to that visual s and then they get very good at it and not only that but they get tuned to to very specific visual stimul like normal neurons do so again very encouraging but you know we're not there yet this response does not mean that that tissue is processing the information in a useful way in sharing it with the brain"
+    },
+    {
+      "start": 2227.8,
+      "end": 2272.28,
+      "text": "so that you know it contributes to a useful Behavior function to M but it's encouraging that we can get there the other one is vascular integration uh also very important so we include uh you know we have the luxury of genetically modifying the cells that we put in so make them flues green for our vascular endial cells so that we can compare them to Total blood vessels uh and we find that they quickly form vessels after grafting um these vessels fuse with the host vasculature and we even have videos that show that you know you have little red blood cells going through there and you get circulation through there um so"
+    },
+    {
+      "start": 2270.359,
+      "end": 2314.56,
+      "text": "you can get vascularization of these grass very quickly which is important when you're considering that you want the structure to stay you stable after so those are just two examples um so I guess just to take a step back now and say how would this work so you could potentially use this to repair brain tissue and that would be our first uh clinical indication would be something like stroke um but U and that's what I started a company for to accelerate progress towards the clinic for a proof of concept that our tissue works but ultimately you know since all of us here want to live you know at least to"
+    },
+    {
+      "start": 2310.839,
+      "end": 2355.119,
+      "text": "150 um you know that means uh we need to fix the brain so the way that that would work is with this Progressive tissue replacement so initially the brain shrinks right so it does on its own create room for new tissues so you could put in this new ketol like precursor tissue that grows into a mature tissue as it connects with the rest of the brain and starts adopting function and while you're doing that you can start silencing other parts of the neocortex and you could potentially do that not with the example of a benign brain tumor I told you about because they unfortunately sometimes give rise"
+    },
+    {
+      "start": 2352.64,
+      "end": 2397.319,
+      "text": "to malignant brain tumors but you could do it with existing optogenetic approaches uh where you can use light to uh silence neurons from a pinpoint out as a tun does the person you can you know you can first map what the functions are there which is what neurosurgeons do when brain surgery and and figure out what is roughly encoded there and tell that person to keep thinking about that during the process and it will get re-encoded elsewhere and they will not lose it um and then that will create more space for new tissue and you repeat the cycle and you could potentially have a 20-year-old brain"
+    },
+    {
+      "start": 2394.04,
+      "end": 2438.28,
+      "text": "again but with all your memor from aong living um so that would be the idea um sure sure just optional whether or not you want to keep a memory so memory like that yeah sure sure um yeah and you know you could also probably probably try learning a new language when you have new tissue anywhere near the language acquire that like ay old so how does this fit with decentralized"
+    },
+    {
+      "start": 2435.72,
+      "end": 2481.4,
+      "text": "science not sure yet it's a big enough project that I wish it did uh you know we I wish we had a lot of people working on the this different aspects uh of this approach I only talked about the the cortex but what we learned here in part can be applicable to other parts of the brain which nobody is even working on yet but they are also essential to normal function and we would also need to address them in aging so we really do need sort of this collaborative community of scientists working on this to get there in a reasonable amount of time um you know I'm I'm very open to that you know the first people I talked"
+    },
+    {
+      "start": 2477.2,
+      "end": 2519.92,
+      "text": "to were adal vadal some of you Mayer to them um but they're a longevity doubt and I love the idea getting everybody involved and more people involved working on this um and U so they actually fund our company to some extent but we need more of that um and certainly at a scientific level so we need more of the people trying this in different places different ways sharing the information what works best we'll move forward a lot faster the way we're doing it now you know we think of what we need okay there's like 10 different ways we can you get there it's like well"
+    },
+    {
+      "start": 2518.28,
+      "end": 2563.96,
+      "text": "we only have two people working on it we can only try one of these if we fail we got to come back try again try again fix it it's going to take a long time if we can working as a community different people uh working together exchanging the information get faster I don't know how we get there do that to yeah that's pretty it just the company um yeah so combined with body repacement as I mentioned other people are actually working on and it's technologically not that difficult you guys want to hear more about it happy to tell you more about it uh but if we can do that in the brain we actually can beat ping and you know decide how long"
+    },
+    {
+      "start": 2561.559,
+      "end": 2603.839,
+      "text": "we want to [Applause] live one question uh what kind of uh inflammatory response do you get when you replace or sort of introduce right this new brain tissue and do you need to treat the animal models with some sort of like immunosuppressant like tack absolutely so there's uh sort of two parts to that there's you know the there's always inflammation whenever there's a type of Legion or aging itself that's inflamation lot of"
+    },
+    {
+      "start": 2601.64,
+      "end": 2646.76,
+      "text": "damage uh but certainly in the way we do it where we actually remove tissue so there's lot of information we use anti-inflammatories um and that helps uh but we occasionally still get some Scar Tissue it's not more we can do there um then there's you know not having the host reject that gra and uh yeah so right now that involves immune sence um even so there's brain C Therapies in the clinic now for Parkinson's for epilepsy with very good early results"
+    },
+    {
+      "start": 2644.4,
+      "end": 2687.599,
+      "text": "but they're also using allergenic cells so not the patient cells but somebody else's uh and so they take immune with um aous cells would you like do you think even like if they're coming from the patient you still see tissue rejected like you know what I'm saying like the patient themselves right uh there's too many examples of that in hum yet but uh so far the ends of suggest that it's not a problem but still early stage but there shouldn't be right they're genetically mat identically so that's the idea and there"
+    },
+    {
+      "start": 2684.64,
+      "end": 2735.76,
+      "text": "is a a company on the west coast who just got NDA approval to do that fork Pati IPS they don't have results yet but the ones that are using nonpatient Drive are getting good results for that's a group here in New York founded the company is Blue Rock founded by how do you approachment in stroke where there is acute destruction structure function is more Progressive integation of the graph into yeah there's not a"
+    },
+    {
+      "start": 2733.4,
+      "end": 2778.92,
+      "text": "quick and easy answer to that question it's a good question uh it depends uh how long after the stroke you plan on putting the tissue uh if you wait long enough you now have a depression and space if you do an acute inflammatory stage it would be very different environment um so maybe somewhere in between would be ideal but you still have like a scar tissue there so we we've consulted with uh neurosurgeons and that's actually what they worry about most is displacing the scar tissue to put in the new tissue"
+    },
+    {
+      "start": 2775.04,
+      "end": 2818.4,
+      "text": "because that might cause more bleeding you know they're very cautious despite the fact that neurosurgeons are like the craziest Ms out there unlike other doctors who you know you ask them about a potential treatment they say oh has somebody else done it no that I don't want to do it neur surgeon if ask somebody else do it oh that's for I don't want to do it they want to be the person uh so that's good for but um yeah so that's actually you know a question that U we have to be very when put how we going to"
+    },
+    {
+      "start": 2819.52,
+      "end": 2865.28,
+      "text": "do I mean there are things you can do toate that but still really reduce so you mentioned that you were focusing on the Neo cortex um and then you would also mentioned this um I think it was like five we sweet spot of development um where was at the right area to engineer so is that a development process and timeline is that un War across the neocortex or does there end up being regions where it differs there are gradients of Development Across the neocortex yeah so yeah so we're kind of you know talking about a generic middle for that"
+    },
+    {
+      "start": 2862.28,
+      "end": 2904.559,
+      "text": "age um you know human neocortical development is pretty protracted so uh it's not as dramatic as you find an analysis those gradi are easily seen ey thickness so it's not yeah so they are there we should be conscious of them also because there's some predispositions to function that seem to exist early on inel we don't know if it's that early but so it may be possible that you would need different um different starting"
+    },
+    {
+      "start": 2902.559,
+      "end": 2945.16,
+      "text": "points for different regions um but you're hoping it be Universal possibly possibly yeah yeah I mean certainly you know around the edges of the cortex the canonical layered structure breaks down the Arctic cortex singulate cortex those are clearly different and yeah we would use you know a different three structure question in the future do you foresee this being something that could be covered realistically by insurances like for treatment of Parkinson's Alzheimer's Dementia or is this going to be more more a treatment for the Rich and Famous just to remain young yeah I mean I uh actually just proposed this"
+    },
+    {
+      "start": 2943.839,
+      "end": 2986.839,
+      "text": "program to ARA and I'm waiting to hear back they invited me for an interview and so you know they're really concerned about that um so I I prepared a list of arguments for why it could be one is that cell-based therapies you know have already been approved by the FDA and covered Medicare those are all blood uh diseases so there's precedents for getting insurance coverage for those things but there's also you know really the cost benefit analysis so treatment of um stroke patients and traumatic brain injury which would be another"
+    },
+    {
+      "start": 2984.92,
+      "end": 3031.839,
+      "text": "Target of this are like a hundred billion dollars in the US alone or approaching 100 billion doar and we would actually save Society a lot of money by getting those people back to work and not having them um rely on this lifetime of support care which ends up being much more expensive than the surgery so there's economic reasons why it would make sense whether we can convince people of that I don't know but yeah I mean it should be for everyone isn't that the point of decentralization exactly yeah"
+    },
+    {
+      "start": 3026.76,
+      "end": 3068.92,
+      "text": "uh yeah sorry I think first either way sure thanks yeah so I was wondering um with uh you know a lot of people older people have uh protein aggregation in their brain and you know people talk and the theory the dominant theory is that it spreads through this like PR like mechanism through the brain and maybe once it gets to a certain point it uh you know it maybe caused by aging but once it gets to a certain point it may become sort of self- sustaining so I wonder like do you think that these graphs are going to be you know especially in cases like Parkinson's where there's like a protein aggregation"
+    },
+    {
+      "start": 3067.44,
+      "end": 3111.2,
+      "text": "nature to it do you think these graphs are just going to be destroyed by that process after a while or are they going to resist it I don't think so based on the evidence so far which is you know they were doing these transplants using um human mid tissue to treat Parkinson's in the late 80s in Sweden and uh some of these patients were essentially cured some were made worse to improve before they went back to it but in some of the patients you know two decades later they did postmortem analyses and saw that the neurons were still there that they transplanted so and those are naked"
+    },
+    {
+      "start": 3109.72,
+      "end": 3152.119,
+      "text": "cells right they weren't part of the tissue so ours are going to be much more insulated from the environment I'm not saying this is going to be true for all Aggregates preons you know maybe a little more problematic than you know ad Aggregates orates are looking at thato I guess that's something if you had like 100 extra people in some Dy funding that be tested my spouse models and that sort of thing yeah in terms of Parkinson's also I know that stems from the mid brain could the"
+    },
+    {
+      "start": 3149.72,
+      "end": 3194.24,
+      "text": "grass be applied in the mid brain or does it have to be in the well so the graphs now that these companies are in clinical trials were getting good results similar to the the early studies in Sweden they're putting the cells at the Target location of of where the neurons that are lost would would have rejected to rather than where the neurons were lost and that's because back then they didn't realize that young neurons can project in the adult brain it's been shown in humans for Parkinson's patients postm morally as well that you get these"
+    },
+    {
+      "start": 3191.4,
+      "end": 3235.599,
+      "text": "projections so again because they got these positive effects no one sort of wanted to take the risk of trying to put them where they belong instead of where they have been putting them because there was a positive effect so they kept putting them in this places so the current clinical trials they put them in the strium not the suspension and there's one guy that had the courage to at least put him in both places um so he put them in theum and the substanti and uh in postmodem patient saw that they had connections they couldn't tell which direction they were going in but those are bir directional"
+    },
+    {
+      "start": 3233.28,
+      "end": 3276.72,
+      "text": "connections anyway so even in the human brain in the adult in a diseased environment you getting proper connections so that's very encouraging as well got question mine's kind of um so I'm just curious so since like the aggregation of proteins like to Al anoid and start accumulating your 20 30s and 40s just C the new Diagnostics like em pet tow pet if you can like diagnose some of these conditions earlier use the tissue uh degeneration can that help prevent the onset of the"
+    },
+    {
+      "start": 3274.24,
+      "end": 3316.44,
+      "text": "um May if like the really early cases are usually familial so gener so in those cases if you can identify the genetic lesion you could even in Aus PTI cell correct before making tissue so potentially yes like a E4 for example I would correct that if I want quickly thank you for your talk this my first time at one of this has been highly fascinating uh fortunately and unfortunately some of the awesome"
+    },
+    {
+      "start": 3314.599,
+      "end": 3358.039,
+      "text": "people here asked like questions I already had so I'm left with the sadly philosophical one that iy don't want to ask on following up I stood about insurance where while I know stages and as someone who's done research before even in Computing it's very hard to get off the ground and in stuff uh do you any researcher sometimes step back and including all the wonderful things to get used for you sometimes go oh God this is going to change a lot of things that I hope like society and legal stuff will hopefully catch up to if for example he become the ship such as that one quick example is we base a lot of our um social political stuff on our own term limits so there a lot of positions"
+    },
+    {
+      "start": 3355.88,
+      "end": 3399.559,
+      "text": "in our society where you just run those until you're dead so if you're able to even go into advanc Ag and look forever that guide BEC a problem yeah I mean a little bit you know you can't help but think about these different things but always weigh that against the fact that aging will kill everybody on this planet if they don't that seems if you value light and you know an individual's life that seems to outweigh pretty much everything else those other things we can adapt you know we can change the way we do things but you know to me"
+    },
+    {
+      "start": 3395.92,
+      "end": 3439.119,
+      "text": "that always the fact that we're all going to die kind of outs I will say personally well I could be here all day like disagree very fastly with different things I do agree that I'd love Jesus research to like some's please help them that's like great within your field where do you think like your colleagues are wasting the most time getting Irv approval besides admin obviously a lot of line of inquiry wise line of inquiry wise um so which field"
+    },
+    {
+      "start": 3436.559,
+      "end": 3477.599,
+      "text": "you need however you want to self-define you know like when you go to a conference and you walk eyes with the guy across from you and you like you know him what is he doing wrong well yeah I mean I'm already taken my punches after theity know when I go to a conference onity yeah you don't want to drop some shade here that's all work together all"
+    },
+    {
+      "start": 3482.64,
+      "end": 3527.4,
+      "text": "right well thank you thank you for coming and thank you all you can STI stick around and chat for a little and thank you again to our speaker and way to get in contact with you or Okay Okay Google his website my sweet all right well thank you guys and make sure to come to the one on the February something on ultrasound thank you guys and stick around hey how you doing good how are"
+    },
+    {
+      "start": 3524.319,
+      "end": 3527.4,
+      "text": "you good all"
+    },
+    {
+      "start": 3533.72,
+      "end": 3540.78,
+      "text": "right [Music]"
+    },
+    {
+      "start": 3551.69,
+      "end": 3562.079,
+      "text": "[Music] parti yeaha"
+    }
+  ]
+}

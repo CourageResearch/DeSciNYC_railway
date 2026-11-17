@@ -1,0 +1,764 @@
+{
+  "paragraphs": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 14.559,
+      "end": 17.559,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 24.56,
+      "end": 27.56,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 34.64,
+      "end": 43.399,
+      "text": "Yeah. Heat."
+    },
+    {
+      "start": 56.0,
+      "end": 59.0,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 68.72,
+      "end": 71.799,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 85.119,
+      "end": 88.28,
+      "text": "I never"
+    },
+    {
+      "start": 124.479,
+      "end": 145.52,
+      "text": "You can hear me say decentralized science. >> Can you just make sure I'm always in the frame? >> Can you make sure I'm in the frame? Yeah, you're good. If if I go after you go. >> Okay. So, if you can hear me, say decentralized science. We're going to get started a little bit early because there's so many people in here and we want to keep things moving. Um, cool."
+    },
+    {
+      "start": 144.16,
+      "end": 187.519,
+      "text": "Well, thank you guys all for coming out. I'm so excited. There's so many people interested in either prediction markets, clinical trials, or meeting other cool people out here. Um, there's a lot of new faces, which is which is exciting. And I'm so honored to be speaking at DCNYC. getting an invitation to this prestigious event is um an honor for those people. Uh this is our 44th decentralized science that we've hosted and we have a surprise one which I'll actually just tell you right now so you can get excited. Um it's on Thursday and it will be by Kremu. Do you guys know who Kremu"
+    },
+    {
+      "start": 185.92,
+      "end": 216.959,
+      "text": "is? No. >> So, we got him to come speak on Thursday and he's like a huge Twitter follower, Twitter influencer in the >> science and genetics and everything space and uh so he'll be here Thursday and that's going to be really really exciting. So, I hope you guys can all the RSVP is here. This was this was late breaking. This was like an hour ago that we got him. So, uh it's very late breaking."
+    },
+    {
+      "start": 213.68,
+      "end": 253.28,
+      "text": "Um, okay. So, before we start, um, let's get a quick picture so we can memorialize it. So, everyone smile and then we'll jump right in. We'll do a panoramic, not portrait, panoramic. So, smile everybody. Three, two, one. Oh my gosh, there's so many outstanding people here. Yay. Okay. So, okay. So, I started DCNYC and this is actually the first time I've ever spoken at DCYC. Normally, someone else speaks, so it's kind of exciting."
+    },
+    {
+      "start": 251.519,
+      "end": 291.6,
+      "text": "Um, and so this is what I'm going to talk about. I've been working on this project called Endpoint Arena, which is a clinical which is a prediction market for clinical trials. And we we I had this idea for a very long time. I've had this idea for maybe a couple years. And I always wanted to sort of tie together um markets like financial markets together with scientific mericates. Um Gordon Gecko, have you guys ever seen Have you guys seen money money never sleeps? He has this expression where greed is good. He's like if you're greedy, you're good. You're you're efficient. You you want to make things happen. And >> Wall Street >> Oh, maybe you're right. You're right."
+    },
+    {
+      "start": 289.04,
+      "end": 332.96,
+      "text": "You're right. Wall Street. Um yeah, it's in Wall Street. Not the money never sleeps. and um and I did a PhD and I I I saw a lot of people were just sort of lazy and you know just they didn't have the ambition that you see on on Wall Street. Maybe we should have done this on Wall Street. So I wanted to tie together this concept of prediction markets and and markets together with science and uh create a new sort of thing that would accelerate science and I think there's a lot of trends that I'll talk about which make this a very good time to explore this concept. So right now we all want to ask the same question. We want to know um you know will a drug work and no one can you know everyone is biohacking these days. So"
+    },
+    {
+      "start": 330.96,
+      "end": 374.8,
+      "text": "everyone is doing N of one experiments where they're injecting peptides and then they see it works for them but they don't like Brian Johnson is a is a perfect example of this and he's doing a very very good N of one study but we're not going to get to um living forever through these N of one studies by just relying on him. We need to start to decentralize it. We need to have many people doing N of one studies. We need to have many people doing N of 10 studies and N of a 100 studies. And we're not going to get there um in this sort of slow uh slow method that he's doing. And the problem is isn't necessarily um the data. It's it's the incentive. So there's an incentive issue"
+    },
+    {
+      "start": 372.479,
+      "end": 417.919,
+      "text": "that we need to fix in order for to get people to share their data, in order to get in order to get data to read out more quickly than the FDA does it now where it takes multiple years. So we have a way of testing these drugs in a non-none style way and this is through clinical trials with the FDA and they do answer the question you know will this drug works but the problem is is it's very expensive to do these things. So, a clinical trial can cost anywhere between 10 to hundred million dollars to to conduct and um they're very slow, they're binary, they take, you know, if you go to clinicaltrial.gov, it could take five to 10 years for for a trial to happen. And"
+    },
+    {
+      "start": 415.6,
+      "end": 455.039,
+      "text": "they're also not capturing um the proper markets. A lot of their drugs are like oncology drugs that are very severe, but you now we're seeing a whole uh gray market and cottage industry for people that want to look smack, that want to get peptides, they want to increase longevity, and you're not seeing those style of of of uh trials happening on clinical trial.gov. So, there's a real opportunity for new styles of drugs to uh for people to test out new new types of drugs. And again, it's not sort of like a lack of science. It's it's an incentivization. It's an incentive problem that we're dealing with here."
+    },
+    {
+      "start": 452.16,
+      "end": 490.56,
+      "text": "So the idea here is markets like the Wall Street like betting markets these are sort of machines for figuring out truth and markets have been very very well applied for in in sports betting in politics in many things like that. But at the end of the day these types of markets they don't really make the world a better place. If the Giants or the Red Sox wins it doesn't really matter. Um, but if someone discovers a new type of drug and you're betting on that and you're accelerating science and you're creating more accurate data, this actually is a has a meaningful could have a meaningful effect um on society."
+    },
+    {
+      "start": 488.96,
+      "end": 533.279,
+      "text": "But for whatever reason, we sort of barely use these prediction markets or markets in general um for for uh for for figuring out science. So we want to sort of turn these turn this market into a way of um doing uh clinical trials and um so as I said like these these prediction markets can destroy billions of dollars overnight if if any here uh trade stocks and pharma stocks couple people you can see like if you if I okay so I did a meetup in uh in San Francisco and I was talking to some people I was in crypto before and then I was talking to some people in biotech. I will say that people in biotech are way more degenerate and gambling"
+    },
+    {
+      "start": 531.92,
+      "end": 576.08,
+      "text": "than the people in crypto. Like the people in crypto look like noviceses in comparison to like the degeneracy that you see in biotech. One guy was showing me his portfolio and he's like, \"Yeah, I made like 10,000% on this one stock and then like and then in the crypto, you know, you buy hype and it goes up to like 20% in a week and you're disappointed.\" Um so uh the way the so right now clinical trials can um are very expensive. They they make they're hund00 million to 10 to 100 million depending on the phase. They take 10 years. They're very they fail 90% of the time. So if you start out with a drug and you push it all the way through 90% of the time it fails in either one stage one, two or three. So this is this is bad. Um and the way these pharma"
+    },
+    {
+      "start": 574.0,
+      "end": 602.56,
+      "text": "companies do like make decisions is sort of in the old school style of the how moneyball was where you know they would just go by field. They had no statistics. didn't have any way of like quantifying which drug was going to work and which drug wasn't going to work. So this is very bad for the pharma industry when you have these very big binary risks because it makes their profits very lumpy. So one day they'll be making a lot of money, another day they'll be making a lot of little money."
+    },
+    {
+      "start": 600.72,
+      "end": 646.16,
+      "text": "And other industries have figured out ways to to smooth out this and make make these types of things more investable. So you'll have like the airlines who who use fuel swaps to to smooth out how much how much risk is involved in price pricing oil in pricing fuel. In the oil industry you can buy futures agriculture you can buy frozen concentrate orange juice futures so that is it remains constant. Did anyone see trading places the movie there's trading for the whole concept is on frozen concentrate orange juice and they're trying to trade the commodity stocks on that. Um, and in credit they have this thing called a credit default swap. So like if multiple people are failing or uh aren't uh uh paying their"
+    },
+    {
+      "start": 643.76,
+      "end": 687.44,
+      "text": "bill, you can you can you can put pull all their credit and their uh their uh default risk together into pools and sell that off. And for pharma the no nothing like that had sort of come about. So biotech these has these very large um risks and if a clinical trial is going to succeed or fail but there's no way for them to hedge that risk and smooth out that curve to make it uh more more investable. So um so the prediction markets are sort of like a way to price risk in science. So you can say like how likely is this thing going to be successful or not. So I'll show you the pro what the product looks like. So we built this thing that's like a it's like a prediction market like poly market or Kelshi but"
+    },
+    {
+      "start": 684.0,
+      "end": 712.959,
+      "text": "really focused on on science and um the way it works is we find and if anyone has questions along the way feel free to ask. Okay just saying um the way it works is we pull together a bunch of clinical trials. So there's there's 7,000 clinical trials a year that happen. And if you're in the back you can you can squeeze forward a little bit. There's There's If you're squeezing forward, everyone take a step forward."
+    },
+    {
+      "start": 710.56,
+      "end": 749.0,
+      "text": "Get more people. Is there room in the back now? >> No. A little bit. Did that help? Okay. Um, so what we do is we take we there's 7,000 trials a year and obviously not all of these trials are are important. Some some are on rare diseases, some are on bigger markets and we ch we try and choose like the top 10 um each month that are coming due and create markets for them uh around phase one, phase two, phase three of our protocol changes and and uh create different markets and um let me actually let me show you how it works. I'll give you a live demo."
+    },
+    {
+      "start": 755.12,
+      "end": 801.279,
+      "text": "So the way it works is um you have all these different markets here and you know it's like if uh we can go into uh autism spectrum disorder and um what it has is this is the probability that this endpoint will succeed or fail. So we put a lot. So a clinical trial has these things called uh uh the clinical trial has these things called endpoints. So I'll show you here and this is the thing that makes this work really well is we have these end points these end points here. So they're measuring uh"
+    },
+    {
+      "start": 796.959,
+      "end": 840.399,
+      "text": "autism off of some baseline at day 110. So we look to see what is the most important endpoint for a trial and then we say is it going is is is when the trial reads out is it going to uh be positive or is it going to be negative and so we create a market around that and then what you can do is you can bet um if this is going to be successful um and you can bet a dollar or $10, however much you want. Here is the price of the stock. So this is the company that's actually doing it. And what's interesting is oftent times a company will have anywhere between like 10 to 100 assets. So when you're invest"
+    },
+    {
+      "start": 837.12,
+      "end": 883.12,
+      "text": "investing in like Astroenica or Novo, they'll it's almost like you're investing in an index. You're not actually investing in like one individual drug. And when it when there's a trial readout, it'll you'll have like five or 10%. they'll have a huge fluctuation even though that one asset on like phase two is only a marginal part of their total like market cap for that stock but it still has a very big um fluctuation so I think there's like an arbitrage opportunity there um and then what we have is uh you can learn a little bit more about how the the clinical like the clinical side of things how big it is how many people it affects how big of a market it is uh the news that's affect that news for"
+    },
+    {
+      "start": 878.8,
+      "end": 922.639,
+      "text": "that drug um stuff about the trial and uh to create a little liquidity and we have a bunch of uh AI agents that are betting. So we are testing claw GPT groi and they're all looking at the clinical trial and trying to determine if it's undervalued or overvalued. And we give each one like $10,000 and let it bet to see which it if it will bet do well or not. And then we have like a leaderboard up here where you can see how well it's doing and and you can see Claude is actually crushing it. uh deepseek is doing terribly. Uh Gemini is pretty good. And later on we'll tell a little about talk a little bit about the personality types of each of these different models. But it's very interesting uh this using"
+    },
+    {
+      "start": 920.72,
+      "end": 961.92,
+      "text": "using this is using prediction markets as a way to benchmark uh AI models is very good. So one of the problems with predict with benchmarking any model is you have some contamination issue. So if you try to benchmark a model on a on an a on a data set that's already been released, it knows the outcome to this. So you need to always be sort of releasing new stuff. And so this is a a good way of doing it. It's also a good way of doing it because it also forces a confidence thing. Like an AI model can say like, oh, I think this, I think this, but it needs to give it a confidence interval. And um with this, you can say you can measure confidence based on how much it wants to uh size into a position here."
+    },
+    {
+      "start": 958.8,
+      "end": 1003.199,
+      "text": "Um and then we also have like the model reasoning. So you can see like why each of the models chose a different uh uh uh outcome for something. So it could say like oh I I was looking at an endpoint. I was looking at the the uh the uh like mechanism of action. I was looking at what people were saying on Twitter. And so they give some reasoning here. And then uh finally we have the oracle. So uh we have to eventually close these markets. And so what happens is a uh the the the the sponsor of the clinical trial will release uh some a press release on their uh on their website that says like you know we we read out"
+    },
+    {
+      "start": 1001.12,
+      "end": 1045.919,
+      "text": "this way and we met this end point or we didn't meet this end point. >> Is there any questions on it? >> Yeah. Go ahead. Companies will usually sometimes say that they succeeded at trial shifty like that. >> So his question was is like sometimes there's a lot of fluff in the PR releases. Um we try and we our oracle so poly market uses something called UMA to like determine this and KI uses another model. What we're using is we're having like a common prompt that everyone agrees upon that will read out one way or another. And when that reads out, then uh that's the final decision of"
+    },
+    {
+      "start": 1043.36,
+      "end": 1073.6,
+      "text": "what happens. And it most of the time I I haven't seen a case yet where it wasn't able to cut through the fluff of what was actually like said. >> Uh yeah, in the back. >> When you say we, is that your team? And does that mean that the choice of prompt is biased towards your team? >> Yeah. Uh well, we're we're the market, so we don't bias we don't necessarily care which >> you mean all the users."
+    },
+    {
+      "start": 1070.64,
+      "end": 1093.2,
+      "text": ">> Um we we meaning the people that design it. So we we publish it here. And I think it's it's fairly um it's fairly uh standard, but we you you see what it is before you bet on the market, so you know what you're getting into. And if you don't agree with this, you can email us and we can update it or you can choose not to bet on it too."
+    },
+    {
+      "start": 1092.559,
+      "end": 1122.16,
+      "text": ">> Yeah. >> Do you give each of the models when you're evaluating the same prompt or do they get a tailor? >> Each one gets the it's a great question. Each one gets the exact same prompt and gets the maximally maximal number of tools that it can get access to. So like if it has access to the web, we give it access to the web. If it has access to clinical trial.gov, we get it. We try we don't modify it or fine-tune any of the models at all. Um but we try and give each one each model the best chance of success that it can get."
+    },
+    {
+      "start": 1120.16,
+      "end": 1162.96,
+      "text": ">> Can you give us an example of the prompt and like from the beginning to the end? >> Yeah. So the prompt looks like this. Um you can read it's on uh endpoint arena.com/method if you want to read the thing but we just basically say like you are an expert biotech analyst. uh give us some give us a couple sentence of reasoning why you choose a model in one way or another. Uh here's the positions as you currently hold. Here's the price of the thing. Here's the NCT number. Here's a little bit of info about like what the trial does. Feel free to uh Google and web search as much as you want to like we try and we try and keep it relatively minimal so that it doesn't we don't bias it in one way."
+    },
+    {
+      "start": 1160.4,
+      "end": 1197.28,
+      "text": "We try and keep it very thin. But um you it's it's publicly available. But you're deciding your entire model around those prompts rather than >> Yeah, I mean the there's not we I I've tried like five different prompts. It doesn't really affect it too much. It's relatively stable. Um it's at some point we just have to the goal here isn't to um uh say that this is the best prompt or this is the best model. It's just to establish a a reasonable baseline that other people can build that other people can exceed or get do worse than. We're not trying to be the the number one here. Yeah. Go ahead."
+    },
+    {
+      "start": 1195.12,
+      "end": 1239.76,
+      "text": ">> So, usually like if you're in a biotech or bioarma, you usually know what the endpoint results are before there if the press releases out. So, some people will have access to that information beforehand. How do you >> Yeah, you you shouldn't uh you shouldn't do that. I mean this is this is for people this is for people that are scientists that I mean I think science is very interesting because science is a perfect is a full is a has per each each party has perfect information. The science is deterministic given some certain large enough n I think and so basically um this is for people that want to speculate on forecasting science in an accurate way or doing their own clinical"
+    },
+    {
+      "start": 1237.36,
+      "end": 1265.76,
+      "text": "trials hiring another type of CRO and getting a a sec a new way of discovering these types of things and not relying on that way of doing it or >> uh I'll talk about that in a second. Yeah. Uh go ahead. Doesn't the SEC have a rule that if you have a late breaking clinical trial of major clinical significance, say you present in a meeting two months from now, you're allowed to say if the trial is positive or negative, but you can't give anymore."
+    },
+    {
+      "start": 1263.039,
+      "end": 1306.159,
+      "text": ">> But yeah, there there are v the FDA is very complex and there are various triggers and uh ways to work around it and these markets we haven't gotten into these uh like edge cases as yet, but it is an issue that we have to deal with at some point. >> Yeah. >> Yeah. So I have a question about the oracle. So you just so I looked at the way you described you just say positive result. However, there are tough times where something will be positive statistically but destroys crazy amount of value for the company because the effect size is too small or yes with Abivax for example shitloads of people got cancer but now technically I'm positive here like how do you how do you >> so we we we we're very careful with how we choose our end points. So we for"
+    },
+    {
+      "start": 1304.24,
+      "end": 1328.88,
+      "text": "cancer we usually choose uh overall survivability which is the thing that the market cares about more so than like prog progress feedfree whatever consumer it is. And so we try we do a lot of work to do we did a regression to look at what impact stock which endpoints impact which types of stock prices and then we also choose endpoints that can be or that are binary that are above or below a certain thing."
+    },
+    {
+      "start": 1326.799,
+      "end": 1360.159,
+      "text": "No, no, no. I'm saying like this hit the end point, but the results of the trial make the drug pretty nonviable in the indication because it gives people cancer even though it's an INI. >> Yeah. So, this this we try and choose end points that are reflective of what will happen in the stock price. And if we do a good job of choosing endpoints, that shouldn't happen. But this is a cleaner way of betting. We're we're trying to tie the and I I'll talk about this in a second. We try and tie the end points as closely as possible to what will happen in the stock price."
+    },
+    {
+      "start": 1358.48,
+      "end": 1384.32,
+      "text": "Sometimes we might not get it right, but that's that's the goal. And this what you're what you're basically asking is can we choose endpoints that are reflective of the stock price or that are clinically significant that are that what the patient or the market cares about and we're trying to do that. It's not an easy task actually, but that's the goal. I think another way maybe asking this is are you looking at safety as well >> uh in in like like dose escalation in phase one?"
+    },
+    {
+      "start": 1383.039,
+      "end": 1418.4,
+      "text": ">> No, because what are you saying is basically that's an adverse event example. So if you look at um both efficacy and safety, you can get a better kind of balanced prediction. >> Yeah, we we're trying to choose markets that are clear and binary. Um maybe maybe there's room for adding in there's always you can always add in more markets. Maybe I think I think what's what what will end up happening is these qu these can be done in practice on this website. I think it just be kills the usability. So um it'll it'll take a little bit of time for us to get to these more complicated things. Yeah. Go ahead."
+    },
+    {
+      "start": 1415.6,
+      "end": 1450.4,
+      "text": ">> Yeah. Thank you. Uh question. So from my understanding you build that because you care about science and clinical trials, right? Have you considered what the effects of that could be on the clinical trial space that as you said is already very complicated and very hard. To give an example, we all know that sports and betting have an let's say a connection of corruption of one to the other. Don't you are afraid that what are you making is going to basically >> I think this cleans up in comparison to the status quo."
+    },
+    {
+      "start": 1447.52,
+      "end": 1490.64,
+      "text": ">> I think this is much cleaner and uh more efficacious than the than the status quo. >> Like our end points are much clearer. Uh you can read out things more quickly. you can you can get you can see which drugs are working which earlier like so like if you're a patient today and you want to like if you can only enroll in one trial our website gives you the probability of success of all the different trials there's no one else that offers that at the moment >> sure but let me give you another example I'm a patient in the clinical trial and I see what your multipliers are sabotage the trial myself to make me win money and I get >> I don't I don't I don't think that that will be significant um >> I'm just asking you"
+    },
+    {
+      "start": 1488.0,
+      "end": 1507.279,
+      "text": "I mean I think any any tool can be used in a variety of ways. I think this will be net positive. >> In what way would you think this is going to be net positive for the clinical trials? >> If you're a patient, you don't want to be churning through with your life. You don't be turnurning through a trial that you know won't be successful. I think that's the problem."
+    },
+    {
+      "start": 1504.559,
+      "end": 1544.08,
+      "text": ">> Sure. Sure. But you you started saying about all the problems of clinical trials and because I am in clinical trials. You're right. You're completely right. My question is how do you think this can have a net positive effect on clinical trials and after that because clinical trials are made for drugs and humanity how this can benefit humanity? >> I think this this will accelerate science. It'll incentivize new types of uh clinical trials to happen. I mean I'll talk a little bit more how we're going to become a CRO. Um it encourages people to do uh research on different types of drugs and and accurately predict the future of of which drugs are going to be successful without having to go into patients. Uh I think there's a lot."
+    },
+    {
+      "start": 1543.2,
+      "end": 1564.559,
+      "text": ">> Uh yeah, go ahead. >> Sorry, one other question. Um so we talked about like how Astroenics is like buying a bucket of stocks. When we look at the top trials, all of them are in more or less single asset biotech. Yeah. >> So why would you do this trial instead of betting in the stock market itself? >> Well, because this is this is a much cleaner bet. So like >> but you only have one asset."
+    },
+    {
+      "start": 1563.039,
+      "end": 1603.44,
+      "text": ">> No. So some some things have one, but some things have might. So I I actually have like a list of all the pipelines, all the drugs in all the different pipelines and like um most of these drug companies have like over 10 assets. Like there's very few that have like only one asset. >> Yeah. Go ahead. So um if I'm a patient and I'm undergoing clinical trials um and I go to your website and I see that your predictor says that the clinical trial is going to fail. You know dropout in the clinical trial is a huge problem."
+    },
+    {
+      "start": 1601.039,
+      "end": 1642.96,
+      "text": ">> Yeah. uh that's going to promote a dropout and that's going to result in a fact that the clinical trial is not going to be over because they wouldn't have enough points or people >> to read out the results. >> Doctors hate this and patients love it. So doctors want to finish their trial by any means necessary and patients don't want to be part of a machine that's churning them like a meat grinder through something that's never going to work. But you don't know your predictor says >> no but it gives it gives information to the patient who's ultimately the person that's carrying the responsibility of this. So I'm I mean I think reasonable minds can differ on this but I I I think this is a great tool for providing information to patients that they can use as part of a plethora of things"
+    },
+    {
+      "start": 1641.44,
+      "end": 1671.84,
+      "text": "consulting with their doctor consulting with chat GPT and making their own clinical decision. Yeah, go ahead. >> Yeah, I think it is really really cool. Um I'm just wondering how do you how are you deciding on expanding it to nonclinical trials like the peptides and everything you're saying? >> Uh that's the last slide out. Yeah. >> Uh go ahead. >> But to for that question on the other way if there's a patient who signed up on trial because you're saying that it's very like there's a high probability."
+    },
+    {
+      "start": 1670.0,
+      "end": 1713.52,
+      "text": ">> Yes. I mean this is one of many tools that someone can use to make their decision. It's not a silver bullet. >> Yep. At the same time, the clinical trial will be a black box up until the point where you release it. There's going to be events, protocol violations, all of that. You cannot account for that. >> But people people can try and forecast it using AI models, using related things like people try and use tools earlier on. This this encourages people to develop tools earlier on that will reduce the risks that will hopefully that will provide more information to patients in making their own decision. I am a clinical trials manager so I know on the ground like how clinical trials look like and of course you can predict it but like for a certain trial it might not be >> I I guess I I don't I I would hope that"
+    },
+    {
+      "start": 1711.919,
+      "end": 1733.76,
+      "text": "people develop AI models that are able to accurately predict this once you provide an incentive mechanism for them to do so. Um but it might take some time to get there. >> A lot of you have missed this but whether you really believe this will become a funible marketplace like a >> Yeah. Yeah. you do. So, it's kind of important. >> Uh, go ahead. We'll do a couple more."
+    },
+    {
+      "start": 1732.399,
+      "end": 1761.52,
+      "text": ">> If you want to make it like a poly market style thing, since these are all I haven't seen this yet, could you do like a uh collateral collateralized trial obligations essentially where you bundle all these together? >> Yeah. So, we'll we're going to release an ETF that has like the top 10 uh >> no at the shitty ones too. Well, basically, well, I'll talk I'll talk about it in a second, but we want to create like an ETF that has like the top 10 three top 10 phase three trials that people can use that as a predictor."
+    },
+    {
+      "start": 1759.2,
+      "end": 1789.12,
+      "text": "Yeah. Uh, go ahead. >> So, uh, what sources are you using to come up with a probability? I mean, are you trading on sentiment and you know, >> no, we just create the market like it's up to the it's up to the individual actors to figure out the probability of success. So we create a we create a liquid market that other people can and then we use something called an automated market maker that creates the market that determines the probability of success given that given what individual actors are doing. Uh go ahead."
+    },
+    {
+      "start": 1786.799,
+      "end": 1830.559,
+      "text": ">> So so in theory like a a pharma company that wants to get ahead of this and get into the world you were describing with the airlines and oil and everything like they could basically bet or hedge by using this. >> Exactly. So there's I I'll talk about it in a second, but basically there's two types of two types of people that want to bet on this. Um one is if you're the if you're the if you're the if you are the pharma company, you want to ensure that if your trial fails, you'll still get money. And the other side is actually very interesting. I didn't realize it until later on. If you are a payer, like an insurance company, you want to hedge your risk that this thing won't get approved. So if there's like a big thing like an Ompic or something"
+    },
+    {
+      "start": 1828.559,
+      "end": 1860.96,
+      "text": "that costs multip that cost millions of dollars for you or billions of dollars like it's it's crazy how big United Health is. It's crazy how big these these these uh insurance companies are but you want to hedge your risk that that won't get passed because that's going to make a major payoff for you. So that's generally the two sides of the market. Obviously there's a lot of in between with uh traders who want to trade as well but that's generally the structure of the market. Yeah. Go ahead in the back. Um, so I think you mentioned an automated market maker briefly. I'm curious about how you strap liquidity for these."
+    },
+    {
+      "start": 1859.44,
+      "end": 1887.919,
+      "text": ">> Well, we just provide the liquidity in the AMM. Eventually, we'll move to a club and move to something else, but this is an intermediary thing to get this working. >> Uh, yeah, go ahead. >> What is your monthly volume? >> Uh, we're not disclosing that yet, but it's good. In the sports world, there's lots of secondary markets like who has the most points, who like all these, you know, who's going to be the MVP. Have you ever thought about these things for this?"
+    },
+    {
+      "start": 1886.159,
+      "end": 1912.64,
+      "text": ">> Uh, say what would be an example. >> So, in the sports world, you have who wins the game, but you also have who has the most points, who >> Oh, yeah. So, we could create more markets. And I think that's a cool thing. We're trying to keep it simple for one endpoint for per trial at the moment. But yeah, you could have all sorts of derivatives and like another important one is like did they change the protocol of the trial midway through and we want to have some stuff like that. Yeah, I think it would be cool to have like a something like that. Oh yeah, go ahead."
+    },
+    {
+      "start": 1910.96,
+      "end": 1937.279,
+      "text": ">> Um you mentioned that you're using different models to um to trade or um >> have you what what patterns um have you discovered about different models? Do they suggest the same thing or like >> I'll talk about that in a second. I have a slide. I mean, it's not we have we have these nine models, but there's also a large community of people that have developed their own fine-tuned models."
+    },
+    {
+      "start": 1934.799,
+      "end": 1977.6,
+      "text": "We have an MCP and an API where people can plug in their models that have been tuned specifically for clinical trials to create a better probability of success. This is just a baseline to get started. >> Anyone else? Oh, yeah. Go ahead in the back. There's already a long history of of during mergers and acquisitions of the pharmaceutical companies of the deal being contingent on certain drugs being approved and then subsequent lawsuits about company A accuses company B of dragging their feet so that doesn't get approved. Doesn't this just exacerbate the issue of incentivizing companies to drag their feet so it doesn't get approved on a certain deadlines and maybe they'll just do it again next time they apply?"
+    },
+    {
+      "start": 1975.84,
+      "end": 2010.72,
+      "text": ">> Uh it's a it's a good it's a good point. um in in some of the models that when we look at how they bet, they start freaking out when they when there's not a readout by the claimed time. Uh I don't I don't I don't I don't know. Uh go ahead. >> Yeah, just try to think of the the positives here maybe just around I think like securitizing or increasing the liquidity for like an outcome for rare disease trials. Basically, if the the market is small, do you think that you know drug developers or maybe insurance companies will be able to sort of increase the liquidity?"
+    },
+    {
+      "start": 2009.36,
+      "end": 2037.279,
+      "text": ">> Totally. I think this makes things much more investable. So, right. So, like because you can hedge your risk and you can bundle risk together and you can get liquidity around uh getting in and out of a stock, it makes these rare diseases and these smaller types of drugs much more investable. And the fact that you can now begin to offer insurance on things makes you much more investable as a company to an investor because now they're they have a much they have downside protection. Uh quickly we're going to try and get Yeah, go ahead."
+    },
+    {
+      "start": 2034.799,
+      "end": 2066.56,
+      "text": ">> Just one more. Yeah, that's a good question. I worked at a biotech inside knowledge and all that and occasionally we see patients talk about certain things. So I'm curious about the models because some of them have access to Reddit and you might have patients talking about their clinical trial on Reddit and the stock. >> Yeah. >> How does that influence the models? >> Uh well I'll talk about that's our last slide. So I'll talk about how you can decentralize this even further besides just uh individually."
+    },
+    {
+      "start": 2064.879,
+      "end": 2106.96,
+      "text": ">> Okay. Oh yeah, go ahead. Last one. >> Uh assuming these are really thin markets, how are you planning on dealing with things like toxic flow or insider trading or companies being bad actors? And to that and what does your matching engine look like? Is it a CL or do you have an AM? >> We have an AM. We don't we're not using a co-op at the moment but we will when it becomes an issue. Okay. So we will continue on here. Um so um so we've also gotten uh so this is how we got Kremu to come. He retweeted us and we went very viral. We got like 1500 likes. um and he loved this concept"
+    },
+    {
+      "start": 2105.359,
+      "end": 2145.28,
+      "text": "and we had some other people. We also do you guys know Fierce Biotech. They recently wrote an article about it which was which was exciting. Um so we have the trials here. Um we have a lot of we have so we have the um we have a lot of people that are betting that are we have our we have our 10 models that are betting but we also have a good community of people that are betting as well using uh an MCP model that we've built. And what's cool about this is they have access to much more interesting data sources than what out of the box claude has access to. So they can have reasoning, they have web searches, all sorts of stuff like that."
+    },
+    {
+      "start": 2143.04,
+      "end": 2180.24,
+      "text": "Um, we give a common prompt. So if you guys hate it or love it, you can at least look at it and we open source it. This isn't meant to be the end- all beall prompt. It's meant to establish a solid baseline that a reasonable person would would think of. Um and basically what it says is uh you're an expert biotech analyst. Uh you you have to make a yes or no decision and you have to figure out here's your portfolio of how many stocks of how many markets exist and uh how much do you want to buy? Do you want to buy anything or do you want to sell anything and if so uh how much do you want to buy?"
+    },
+    {
+      "start": 2178.0,
+      "end": 2222.24,
+      "text": "Um we also give it access to news. So, we're scraping every single pharma company's website, classifying all their uh articles, classifying them as trial results or results calls or decision uh a trial design update, a trial start enrollment, all sorts of things. And we're giving those to the models as well. And uh this is this is we're getting one of the questions was you know how is this different than a stock? And so when you invest in far when you invest in Astroenica Novonardis you know Amgen these companies have an unbelievable number of assets that they're testing and each of these things has a different market cap associated with it. So when"
+    },
+    {
+      "start": 2219.92,
+      "end": 2247.76,
+      "text": "you do an individual readout on a specific trial you're getting a much cleaner um access to a certain market that you know that you actually care about. And often times you see like a stock uh go up or down a lot when it has when you get a positive result or a negative result. But this is just based on the endpoint which is what someone mentioned earlier is like you know sometimes we don't choose the endpoint correctly but uh you know it's pretty accurate. Yeah. Go ahead."
+    },
+    {
+      "start": 2245.68,
+      "end": 2265.599,
+      "text": ">> Uh why are you limited only to public companies or it sounds like that's >> Yeah, it's just it was just a design decision. And it just makes it easier because a lot of times the private companies, they don't they basically go out of business when they uh when they don't have a successful result and so we can never get the readout. >> Yep. >> Uh yeah, go ahead."
+    },
+    {
+      "start": 2263.28,
+      "end": 2308.8,
+      "text": ">> You may have talked about this, but um how do you deal with like information cut off like date wise >> for what? >> Like sometimes information gets leaked like as the trial is ongoing like towards the readout. uh that's included in the market like we don't >> so you just continually update the prediction is that >> we we don't we we create a market that people that agents or people bet on. We don't we don't make we make a market. We it's like NASDAQ doesn't tell you the price of Google. They tell you what the market price of Google is. Okay. Um and we have a leaderboard. So the leaderboard is very interesting because you can see who's doing well, who's who's able to accurately predict um different clinical trials."
+    },
+    {
+      "start": 2305.28,
+      "end": 2349.92,
+      "text": "And then um so this is you I think an important question is who wants to buy this risk and who wants to who who cares about this. So uh on one side you have a biotech company that has to lock up a certain amount of capital in order to uh go after different pipelines and they want they want protection in case all of their assets fail. So they want to buy insurance like you buy fire insurance uh for clinical trials so that they want to buy the no side of it. They want to they are betting that they're going to fail so that in case they and so if they if it's successful they get $10 billion but if it's if it's a failure they got a they get another $5 million to be able to uh like you know try another pipeline"
+    },
+    {
+      "start": 2346.72,
+      "end": 2367.76,
+      "text": "and have another uh another bite of the apple. Um another interesting one we talked with was a service provider. So often times when these clinical trial companies go out of business when when a pharma company goes out of business they don't pay their CRO or whatever. So they also want to bet no so that in case it fails they could get money. And then the other interest one is who wants this?"
+    },
+    {
+      "start": 2366.0,
+      "end": 2393.599,
+      "text": "Who's betting on the other side? And the health insurance companies, the employers, the people who have to pay and they're on the hook. You know, one of the questions I had is like, okay, if Ozmpic is if Ompic passes, like this makes it so that uh your medical bill will probably go down long term, right? But the problem is is these health insurance companies, they don't care what happens long term. They care that they're on the hook for an Osepic shot $2,000 a month at this individual time."
+    },
+    {
+      "start": 2390.56,
+      "end": 2432.72,
+      "text": "So, this is a problem with um the uh the the the system, but they're the ones who don't want these drugs to pass because then they're on the bill. Then they have to foot a large bill for some of these different types of drugs. And I'm sure there will um emerge many types of people who want to buy and sell different types of risk. Um so this is uh uh this is sort of an interesting thing you know we do a lot of work in which type of endpoints to choose. So you know this we we have to look at the stock and then we look at the type of end what the end point that they had. So you know on average uh you know you get a little bump um if you have a positive readout but you get a"
+    },
+    {
+      "start": 2431.28,
+      "end": 2470.56,
+      "text": "really you get almost double the bump down if you have a negative readout. So negative readouts move the stock a lot more. Phase two and three have the largest reaction, which is actually kind of funny. Like there's a lot of risk in phase two, but phase three actually sort of the thing that like moves the stock more. Um, which is unexpected. And, uh, the market often times doesn't care about what the primary endpoint is. So, a clinical trial will have a primary endpoint that they say is the thing they're going for, but that's not often times the thing that the market cares about. So, we do a lot of things to choose which market they do a lot of things to choose which market uh, is is the correct one. Yeah. Go ahead."
+    },
+    {
+      "start": 2467.92,
+      "end": 2493.119,
+      "text": ">> Was the period is this this year, last year? >> This is two years worth of data. >> Yeah. >> Yeah. Go ahead. >> Any grief given this is so close to moving a stock. Any grief from the SEC that you know this is >> this is all paper trading right now. >> But if if you were to go to real money, would they regulate you? You're worried that they >> uh we're we're talking to people about that. Yeah."
+    },
+    {
+      "start": 2491.2,
+      "end": 2526.8,
+      "text": ">> Uh yeah, go ahead. >> What's stop from something like that? closing. >> What's stopping from incorporating the >> I'll talk about that. Yeah. Go ahead. >> Which percentage of your trials don't have a readout because change along the way or you didn't finish? >> Yeah. Uh well, we try and find readouts that are going to happen in the next like month and then that are imminent and then use those. But as we do longer term studies over the course of a year or two, then it will become more of an issue. Okay, we're going to continue on."
+    },
+    {
+      "start": 2524.079,
+      "end": 2569.2,
+      "text": "Um so choosing a market is really hard. So for cancer uh basically like you know we want to go for overall survivability as opposed to like did the tumor shrink because that's what the market cares about and that's also what the patient cares about right the patient doesn't care if their tumor shrunk if they're if they died at the end of it. Um so choosing these end points is very very hard and very very critical and uh you know on average if a phase one thing passes around 50% of the time phase 2 passes around 30% of the time phase three passes around 60% of the time and this is important because uh you know this is this is our overall sort this is for season 5 um how well each model did in choosing its accuracy"
+    },
+    {
+      "start": 2566.48,
+      "end": 2609.119,
+      "text": "sensitivity specificity uh for these. So Claude Claude's doing very well along with Chachi PT um which is cool. Um how did they succeed and fail? So things did well. Each model did very well when it looked at the endpoint and tried to actually look at like the mechanism of action and tried to understand the science and tried to like get get specific on on an endpoint. Um things didn't do well when they looked to sort of like what what they thought would happen just based on prior data. So based on how many phase two trials are passed and then going with that they sort of they fail often. They'd fail often when they sort of um were too when"
+    },
+    {
+      "start": 2607.44,
+      "end": 2629.2,
+      "text": "they looked too much at the news they would often fail as well. When they when they tried to listen to what other people were doing they would fail and um when they would freak out also if they if there information wasn't disclosed they would start dumping the stock and that wasn't that often times was was a bad thing for them long term because there was just some delay in the readout."
+    },
+    {
+      "start": 2629.28,
+      "end": 2671.2,
+      "text": "And uh sizing is very important. So like a model can be confident in how in how it does, but it needs to be able to uh put the proper amount of money into it. So um you know uh models were were not super good at managing a whole portfolio. So they could they could look at one individual endpoint but then they would uh oversize into it and not look at their entire portfolio because of the way that we we conducted this. But I think this is an interesting area of research in trying to figure out how you look at a specific endpoint but then also measure the amount of risk and confidence you have that relative to the other uh things that are could be in your basket. Yeah. Go ahead."
+    },
+    {
+      "start": 2669.52,
+      "end": 2703.359,
+      "text": ">> Have you thought about preventing institutional investors from having access? Because very easy example, if I'm long a stock and I want the stock to go up and I realize that the liquidity here just takes like $5,000 to make the go up and then see that poster and then goes up. >> This is just all part of the game. This is like there's this is a markets are complicated and they're all interconnected, right? So like this is just one of the many mechanisms on which things can happen."
+    },
+    {
+      "start": 2699.52,
+      "end": 2720.48,
+      "text": "But this one where the the finances of the people that can do this are >> the same thing happens with stocks, right? So like at the end of the day like what you want is >> stocks. You cannot move a stock. >> Oh, you can absolutely lose stock. >> Not with $10,000. >> But these hedge funds have way more than there. They put $50 million into doing this."
+    },
+    {
+      "start": 2719.44,
+      "end": 2753.28,
+      "text": ">> Okay. Go ahead. >> Who won the ABVX out of yesterday? >> Uh I don't know. I was preparing for this stock. I was preparing for this. I I didn't have a chance to look. Um yeah, go ahead. >> So I was wondering how do you think about the trade-offs between like it being prediction accurate like the market being accurate for prediction and it's also being used for hedging. And so like if you have a lot of people who have exposure to the upside or downside they're not they're not making a bet based on like what they actually think is a likelihood. They're making a bet on how they hedge."
+    },
+    {
+      "start": 2751.44,
+      "end": 2779.44,
+      "text": ">> I I guess it's all just priced into the at the end of the day. So the the market will determine what is the proper price. >> Oh yeah, go ahead. >> Allow participants to buy into this. They have some sort of information. >> Yeah, we'll we'll talk about that in the last slide. Uh anybody else? Okay, we're good. >> Okay, so um this is model personalities."
+    },
+    {
+      "start": 2777.359,
+      "end": 2810.079,
+      "text": "I thought this was kind of cute. Uh Grock. I thought Grock would be excellent at this type of thing because it like would have access to all of Twitter, but it didn't do a great job. Um, you know, Kimmy was too negative. Uh, Deep Seek was good. You know, Claude was just Claude just understood the science in ways that other models didn't. And I thought Gemini because it's by Google and has AlphaFold would would be great at this. And it did it did do a good job of like looking at the specific end points, but it didn't do it it did okay overall."
+    },
+    {
+      "start": 2808.319,
+      "end": 2851.68,
+      "text": "And then um okay so this is actually a very interesting slide. So you know we think of we think of clinical we think of uh prediction markets as only forecasting what will happen and I think uh you you someone said like you know you have these different people who are participating you have hedging and you have people that are like betting based on what they know. So you can actually look it's not a prediction market isn't just a tool to measure what like a a measuring instrument. And you can actually use it to influence the world, which I think is cool. So imagine you have like someone who has a very rare disease. They could buy up a ton of the nose stock and say like if someone is able to cure this, then I will I'm willing to reward them. If Station has"
+    },
+    {
+      "start": 2849.2,
+      "end": 2893.76,
+      "text": "like multiple scerosis, they'll put like they'll 10 people will put in a million dollars and you'll have like a $10 million pool for someone who's able to cure multiple scerosis. And so this transforms uh a prediction market not into like a measuring tool but to like an outcome creation tool where you're actually starting to shape the future which I think is cool. Um uh you can use it for patients that are deciding which clinical trial to enroll in. This is a very valuable uh support tool. You can see the probability of success going into it. Um you can contribute out of one data. uh you can coordinate capital and make in make individual trials much more investable and liquid to be able to hedge their uh markets and um you can"
+    },
+    {
+      "start": 2891.359,
+      "end": 2929.44,
+      "text": "create new types of data sets which I will talk about here. So, this is an app that we just released. Um, it's called a shadow trial. And basically what you can do is if you're on REAd and you want to see any there's a currently a clinical trial where uh people are they're looking at RETA's impact on sleep and a lot of people are already on REA and a lot of people already have like a wearable device. And so what this does is it collects wearable data for around sleep, acne, psychiatric things, you know, all sorts of different things that are somewhat easy to measure. And this doesn't work for everything, of course."
+    },
+    {
+      "start": 2926.48,
+      "end": 2963.52,
+      "text": "This is very specifically tuned for um types of trials that are easy for users to report. It collects the data. There's an ondevice LLM that looks at the data and so the data never leaves the device and then it then looks at the market and looks at the probability of success based on your individual data and then creates another shadow trial and then uses that data and then people basically stake based on how confident they are in their data. So if someone's losing a lot of sleep and they're on Reddit, they're very confident that that's not going to that the the trial is going to uh fail."
+    },
+    {
+      "start": 2961.28,
+      "end": 2995.599,
+      "text": "So this is a way of incentivizing new types of data and really decentralizing the clinical trial stack while giving the user not so it's integrated with health kit it uses an ondevice uh 3B LLM lama uh LLM and then looks at the market looks at the probability of success that it calculates looks at the market and if the market if it's if it's sees that it's mispriced it'll try and fix it and it's a way of encouraging people um to go from these N of one style trials to N of 10 and of new types of trials."
+    },
+    {
+      "start": 2994.0,
+      "end": 3022.319,
+      "text": "I'm sure we have a lot of friendly questions. Yes. >> You know, people are on placebo and they don't know because the double blind studies. >> Yeah. >> How does that affect them? >> Well, this is for people that are that are this is for people that want to that have data that that is on that is their own and use and use that to um forecast what they think will happen. So it doesn't affect the model."
+    },
+    {
+      "start": 3020.8,
+      "end": 3065.839,
+      "text": ">> I mean placebo is an interesting thing because like when someone's uh it's a complic I I don't I mean I don't know. >> Yeah. This is for people outside the clinical this is a shadow trial. So this is for people that are not participating in but want to contribute to what they think will happen. And if this is successful and works, you can imagine it not just being used for the you can you can have people create new trials and and allow them to uh participate in these new trials that are outside of clinical trial.gov, which is ultimately the goal because like a lot of clinical trial.gov is for very nasty diseases and I see there's a very big future for these biohacker types and like longevity type drugs which are going to be uh more"
+    },
+    {
+      "start": 3063.2,
+      "end": 3089.839,
+      "text": "like opt in and for by the biohacker type. And this is a way to incentivize more data collection from like the end of one to the end of a 100 style things. Uh yeah, go ahead. >> A little bit earlier you mentioned there's million. >> Yeah. >> How do you how do they know that it will go towards their specific cause? >> Well, so you bet on a specific endpoint."
+    },
+    {
+      "start": 3087.599,
+      "end": 3111.68,
+      "text": "So you're able to cure this specific type of multiple sclerosis. then then the payout and you'll and it's approved by uh the FDA on that specific endpoint then the market closes on the other side and the person so the person would have to buy a lot of the other side before disclosing that they've come up with a cure and then then the market would close and they would get paid."
+    },
+    {
+      "start": 3109.92,
+      "end": 3143.92,
+      "text": ">> So how do you ensure it's not like speculators or >> that could happen too? Yeah. So I mean these markets are complicated, right? Like there's many mult there's many dynamics that happen. >> Yeah. Anyone else? Oh yeah, go ahead. >> Uh, you mentioned this potentially influencing like the behavior of like in maybe like a distant future. How do you see this incentivizing certain maybe like versus others?"
+    },
+    {
+      "start": 3141.76,
+      "end": 3172.48,
+      "text": "Because in a way it's like I mean you know people putting money and when you see money being shifted towards maybe let's say this cures for these kinds of things versus others do you believe that might incentivize those cures? >> Uh yes. >> Um anyone else? Yeah. >> I might have missed something. So for the people in the shadow trial could they sell their data to market makers on the >> they could they could sell data. Yeah."
+    },
+    {
+      "start": 3170.88,
+      "end": 3194.8,
+      "text": "Exactly. So, but they're they they come up with a market price for that data. >> Yeah. >> And then they can come up with it. Yeah. Exactly. It's a very interesting thing. I'm very excited about this actually. I think this is a way of not just trying to replicate what's on clinical trial.gov and creating a financial market around it, but this is actually adding value to the ecosystem using new types of data."
+    },
+    {
+      "start": 3194.079,
+      "end": 3238.24,
+      "text": ">> Yeah. Go ahead. >> What's stopping someone from completely hijacking the data that the wearable tracks? So they have to they have to stake um they they'd just be shooting themselves in the foot because they're staking based on how confident they are. So they if they are very certain that Redda impacts their sleep, they're not just disclosing this like they are on Twitter. They're backing it with a financial side. So they're putting $1,000 behind it. And so if they do do that, they can do that for sure. But the the genius of this is that it incentivizes accurate uh data collection because if you if you disclose something that's wrong, people will be able to see your position and you know they'll the"
+    },
+    {
+      "start": 3236.559,
+      "end": 3279.28,
+      "text": "market will eventually close it on the other side and you'll just lose your thousands. I'm curious about the like federal institutions like CFDC, FDA, like Jesus or whoever is like, you know, interested like are you what are you doing to kind of get their interest? My question is really like do they want this or is it more of like they can't stop? Uh well I mean I'm I'm talking with a lot of people about the proper way to release this and that is good for consumers and it's a very complicated question and we're talking to many people to figure that out but yeah I mean I think"
+    },
+    {
+      "start": 3277.52,
+      "end": 3299.92,
+      "text": "generally it depends on the type of person the CFTC now is very beneficial towards prediction markets because they see the value in them that could change um but you know I don't it's it's a very complicated question. >> Yeah. Go ahead. No, like following up on her question, like let's say you're on Ozic and you say it's going to mess up your sleep. Can't you submit fake data?"
+    },
+    {
+      "start": 3298.4,
+      "end": 3325.599,
+      "text": ">> Yeah, but you have to stake it with you have to stake it with uh money. >> I mean, you say like I'm only going to get an hour. You just fake data showing you only got an hour. Don't you win? >> No, because the market eventually has to close based on what the FDA what the outcome from what the FDA says. >> The whole market. >> Yeah. Wait, isn't your Oracle just a bloody LLM?"
+    },
+    {
+      "start": 3322.16,
+      "end": 3355.92,
+      "text": ">> Well, the the oracle is what's uh said by the FDA on clinical trial.gov and then we use an LLM to parse out the end point. >> Yeah. >> Yeah. Go ahead. >> How do you see like liquidity for being for these markets being like divided in? >> What was it? >> How do you see like the liquidity for these markets being like divided? So initially it's just an AMM that we fund with a certain amount of money and then eventually once we get more liquidity we'll switch to an order book."
+    },
+    {
+      "start": 3354.96,
+      "end": 3398.0,
+      "text": ">> Yeah. Go ahead. >> For the shadow market um >> shadow trials >> shadow trials rather um I I could understand like you having a set number of of trials based on clinical trials.gov but for the shadow trials anybody could create their own trial. How how would that work? >> I think eventually so that would be the hope. So eventually, you know, I you know, everyone here knows vibe coding, right? So like, you know, you have an idea and you vibe code it. In the future, I know this sounds crazy today, but people will be able to vibe drug. So you'll have a drug that you'll just tell Claude, I want to vibe code this drug for this very specific end of one disease. Maybe I want my knee to be better. Maybe I want my nose to be bigger or smaller. Whatever. You'll"
+    },
+    {
+      "start": 3395.52,
+      "end": 3418.319,
+      "text": "develop a very specific drug just for that. You'll be go you'll go to some CRO, you'll go to some lab in the cloud. You'll print it out and you'll say, \"I want to test this on a 100 people and I want to feed this into the top of this and see if it works for them.\" And then you then you'd be able to feed in new types of um drugs into this platform and then be able to test them in in that way."
+    },
+    {
+      "start": 3417.68,
+      "end": 3441.76,
+      "text": ">> Follow up. >> Yeah. >> Even this is this is far out of course. Yeah. Even for these kind of shadow trials, um you would still need some kind of uh authority to make the ultimate decision on on >> So right now we're still relying on the FDA to do that and when we go into this uh more speculative thing, I don't know exactly how we would we would do that quite yet."
+    },
+    {
+      "start": 3441.52,
+      "end": 3469.52,
+      "text": ">> Okay. >> Yeah. >> Would they potentially register like you said an end of one study of my own in this trial? Yeah, but no one's going to invest in that because it's just too small to work it. >> Yeah, go ahead. >> So, just to confirm, so the the idea behind the shadow trial is okay is going through an actual FDA process. Yes, exactly. >> Lots of people are on research only."
+    },
+    {
+      "start": 3467.28,
+      "end": 3509.92,
+      "text": ">> They're able to basically like have an onrem Oracle or whatever like making a bet for them that doesn't disclose any of their data. >> Exactly. >> Exactly. their best a make them money and then b make the market predition better. >> Exactly. >> Exactly. Exactly. That's you did a great job at >> you should well we're hiring also so there's a slide to that um >> wait sorry are you leaning into the market? Yeah, we would love to go into the biohacker market for sure because like biohacking, skin care, sleep, weight loss, uh these are things people care about and are I think are sort of underserved at the moment and uh this"
+    },
+    {
+      "start": 3507.599,
+      "end": 3533.04,
+      "text": "type of me this type of mechanism design could use could make that much more easy to like test out and also people don't want to wait 5 years to figure out if their like peptide is going to work like you want that right you want that in like a year so yeah we we we I hope to go into like more of the peptide market >> yeah it's the same that protects shadow trials from uh dishonest participants also protect from simple attacks."
+    },
+    {
+      "start": 3530.48,
+      "end": 3577.92,
+      "text": ">> Uh yeah, because you have to like stake Yeah. So a simple attack is when you have more identities than dollars here because you're you're backing each of your pieces of data with dollars, your identity doesn't really matter as much. Yeah. >> Yeah. Civil attacks are a huge problem. And I think like civil attacks happen in Reddit forums on clinical trial things. I'm sure people are posting random stuff there and like trying to mess with things. Yeah. Um, cool. Um, okay. So, um, the real vision here is to, you know, create a financial mechanism for scientific truth and, uh, you know, where you can price all sort of risk surrounding, um, science and,"
+    },
+    {
+      "start": 3573.119,
+      "end": 3614.119,
+      "text": "uh, and and drug discovery. And then, um, we're hiring. So if you would like to work on this project together, it's a small team but mighty. Uh this is the first thing here. If you want to like partnership on partner on something, maybe you're a CRO, maybe you have an AI startup that wants to trade on this, maybe you uh have another idea on something that we should be doing that we're not doing. Uh just DM us on Twitter. That's probably the best way or come up and I'll give you my email or phone number after. And then of course uh the website is at the end if you want to read about different clinical trials that are happening. So, thank you all."
+    },
+    {
+      "start": 3610.24,
+      "end": 3655.16,
+      "text": "We'll stick around for a bit. >> I know we had some questions. Any last We had a lot of questions. Is there any other questions that exist before we close? Do one. >> Yes. Go ahead. >> Yeah. Yeah. So, there's a way to submit different um submit uh different and different u trials to the website through a form and then people can actually vote Reddit style on which ones they problem these for these markets create a lot of need a lot of some amount of liquidity so we can't accept all of them but if there's enough demand"
+    },
+    {
+      "start": 3651.52,
+      "end": 3676.28,
+      "text": "we can we can do that. >> Um amazing. Well, thank you guys for coming out and uh feel free to get some drinks and food and uh oh, and then lastly uh if you if you haven't done this, this is on Thursday. We're having him come. It's going to he's a very fun guy. Uh so, make sure to come to this. Thank you guys."
+    },
+    {
+      "start": 3701.359,
+      "end": 3720.599,
+      "text": "Yeah, go ahead. >> Oh, I should introduce myself. So, I'm James. I'm actually the guy that you'd be selling this data to. So, >> Oh, yeah. >> So, I run clinical So, sorry for asking a tough question. There's actually one clinical trial strategy from California very"
+    },
+    {
+      "start": 3738.079,
+      "end": 3744.359,
+      "text": "like personally I generate because"
+    },
+    {
+      "start": 3755.92,
+      "end": 3769.48,
+      "text": "I used to do a child. So happy."
+    },
+    {
+      "start": 3802.319,
+      "end": 3805.319,
+      "text": "that's"
+    },
+    {
+      "start": 3812.64,
+      "end": 3815.96,
+      "text": ">> I was like"
+    },
+    {
+      "start": 3852.559,
+      "end": 3855.559,
+      "text": "chance."
+    },
+    {
+      "start": 3880.96,
+      "end": 3898.119,
+      "text": "I said last I Yeah."
+    },
+    {
+      "start": 3907.52,
+      "end": 3915.96,
+      "text": "Heat. Here's"
+    },
+    {
+      "start": 3932.16,
+      "end": 3943.319,
+      "text": "a book I wrote. Okay. And here"
+    },
+    {
+      "start": 3952.88,
+      "end": 3958.599,
+      "text": "like or not on my face. So, all right."
+    },
+    {
+      "start": 3970.48,
+      "end": 3973.48,
+      "text": "Bless."
+    },
+    {
+      "start": 3994.64,
+      "end": 3997.64,
+      "text": "um"
+    },
+    {
+      "start": 4032.88,
+      "end": 4035.96,
+      "text": "Thank you."
+    },
+    {
+      "start": 4044.96,
+      "end": 4049.0,
+      "text": "Yeah. Heat."
+    },
+    {
+      "start": 4056.24,
+      "end": 4059.24,
+      "text": "Hallelujah."
+    },
+    {
+      "start": 4071.839,
+      "end": 4074.839,
+      "text": "Heat. Heat."
+    },
+    {
+      "start": 4100.799,
+      "end": 4108.04,
+      "text": "really good. What's up? >> I was listening to you for about time."
+    },
+    {
+      "start": 4118.48,
+      "end": 4121.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 4160.64,
+      "end": 4163.64,
+      "text": "Everybody"
+    },
+    {
+      "start": 4190.48,
+      "end": 4193.88,
+      "text": "Oh my god."
+    },
+    {
+      "start": 4215.36,
+      "end": 4218.36,
+      "text": "very"
+    },
+    {
+      "start": 4243.679,
+      "end": 4246.679,
+      "text": "Sorry."
+    },
+    {
+      "start": 4258.719,
+      "end": 4284.0,
+      "text": ">> Guys, we can continue the discussion out into the bar, but we just have to clear out of this room. your work. Get a drink, get a beer, get a food out there. Thank you. Thank you so much for having us, >> dude. Of course. I'm I'm glad it went well. It was a lot of people for the space that we have, but I mean, that's a good thing, you know. Yeah. Yeah. And I I ran the mic through the bar."
+    },
+    {
+      "start": 4283.04,
+      "end": 4287.88,
+      "text": "So, thank you. >> Yeah, of course. No worries. Amazing."
+    },
+    {
+      "start": 4309.28,
+      "end": 4324.92,
+      "text": ">> Wait, you can also have >> Oh, wait. I'm going to put that on my laptop. sticker. Sure, sure. I'll throw one."
+    },
+    {
+      "start": 4331.36,
+      "end": 4366.76,
+      "text": "I think a lot of people really like how they see my effect and how this is different. What do you work on? >> Um, so I mean I have a background in marketing obviously as well guys. I actually want to introduce you to my friends in Poland that are actually running a lot."
+    },
+    {
+      "start": 4387.44,
+      "end": 4390.88,
+      "text": ">> I think they catch"
+    },
+    {
+      "start": 4406.4,
+      "end": 4412.12,
+      "text": "Why not? I don't think any company"
+    },
+    {
+      "start": 4441.12,
+      "end": 4446.44,
+      "text": "Awesome stuff. Like what the idea"
+    },
+    {
+      "start": 4456.32,
+      "end": 4459.32,
+      "text": "that's"
+    },
+    {
+      "start": 4468.8,
+      "end": 4480.679,
+      "text": "we're in the business of predicting One of the beautiful."
+    },
+    {
+      "start": 4512.239,
+      "end": 4518.12,
+      "text": "There's a lot of things. So you don't just"
+    },
+    {
+      "start": 4525.36,
+      "end": 4573.48,
+      "text": "help them optimize their basic we spend about $5 million a year on data. They'll double down very complex biological analysis where they help individual patients respond to therapy. But I'm now looking at the drugs that are already advanced technology really simulate trials any like. So we could do we could even help you like conceive an idea for a shadow. That would be great. We had a lot of discussions."
+    },
+    {
+      "start": 4579.84,
+      "end": 4592.92,
+      "text": "in the industry. >> I mean, we we're venturing out, so I know people,"
+    },
+    {
+      "start": 4606.64,
+      "end": 4619.56,
+      "text": "thank you so much. I'm glad you enjoyed. You know what else?"
+    },
+    {
+      "start": 4645.28,
+      "end": 4683.96,
+      "text": "Let's put in the other room. In the other room. Let's go in the other room. And this simulated few months ago we did amazing. >> Yeah. >> What is it compared to am I playing? >> We didn't do prediction. That's a good question. We actually won. We know we're our models are like"
+    },
+    {
+      "start": 4690.32,
+      "end": 4716.04,
+      "text": "biology. >> Yeah, I'll be there. Give me two seconds. Let's go into the main room. >> What are you feeling for the setup this time?"
+    },
+    {
+      "start": 4722.08,
+      "end": 4728.88,
+      "text": ">> Reset ready. I didn't know what you remember. Yeah,"
+    }
+  ]
+}

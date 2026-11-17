@@ -1,0 +1,409 @@
+{
+  "paragraphs": [
+    {
+      "start": 0.12,
+      "end": 41.7,
+      "text": "I don't even know what DSi is even like recording Fields don't know Okay so um I will just make this um very brief to begin with so this right here is the third um DSi event that we have thrown um so it's sort of growing and and being very nice um and like in a in a sentence like what is DSi so yeah decentralized science is like how to use the blockchain to accelerate science or to make science more reproducible prefer to make science more fair and it's like a community of"
+    },
+    {
+      "start": 40.559,
+      "end": 84.96,
+      "text": "people who are sort of coming together all around the world so at DSi NYC we're trying to be a little bit like of a leader in this in this space so um one of the things that we were just been putting an initiative of today um and we're starting a d side jobs for it so a lot of people are really interested in decentralized science but not knowing where to start um so if you go to like dsi.job there's like a Google form and we're just like seeding it with new information um so people who are listening to hire people and then shortly we will collate all that data together and create a um oh wait let's actually just maybe okay collate all that information together and um and start posting it"
+    },
+    {
+      "start": 83.58,
+      "end": 126.96,
+      "text": "um the second thing is that we're doing is we're starting with um this website called dsi.cafe so we got together with um New York London Tel Aviv and Tokyo and we'd like established a really strong connection with um these other decentralized communities and we're going to start sharing events sharing people that are going sharing lists and trying to create like a more uh Global uh decentralized Community here and so that's at D Side Up Cafe and we will go from there um the second thing is uh there's a this is just a separate thing we have a book launch coming up on February 21st you"
+    },
+    {
+      "start": 124.74,
+      "end": 159.2,
+      "text": "guys are interested in this book on uh how to form a company um it's going to be at launch house it will be very cool um later today there'll be free copies that are a little delayed but they will be here so you guys can take a copy um um decide number four is already in the works so um it's gonna be on March 14th uh Martin shkreli agreed to come speak about it to talk about uh drugs and Drug life which is this company that um"
+    },
+    {
+      "start": 168.2,
+      "end": 209.7,
+      "text": "drug discovery which is a very exciting thing um here's the link if you remember actually you know Grandma's law yes um if you're interested in in that and then next we have a very cool logo here of course um we have a secret DSi NYC chat so you guys can not just um be here when it goes oh I should have censored that a while it's not the secret anymore but you can apply we try and keep a little bit of a barrier here so that the group"
+    },
+    {
+      "start": 208.319,
+      "end": 250.5,
+      "text": "chat actually has some quality of information as opposed to just being like a bunch of GMS every second because it's super valuable so you guys can take a picture of that I need all advice you get out of the way um it's on the invite to the link if you like and then um we would of course like to thank Union Square Ventures for providing this amazing space in Union Square uh we're always looking for space so if you have space that you're willing to we want us to bring an amazing group of people just let us know um and then lastly uh the thing is brought To Us by DB dial which is the"
+    },
+    {
+      "start": 248.459,
+      "end": 291.54,
+      "text": "company it's like a database for web free when I started we have a bunch of people working on it we uh Power a lot of the DSi projects in allowing them to uh like collect data from their patients and then each patient like submits like how a drug is working for them and then you get an nft of your submitted data that you can then buy and sell but then you collect all those patient records together and then you can do SQL queries on top of it and do like a decentralized clinical trial which is very cool so you're able to use the power of 100 000 first in Reddit communities to do decent to do new types"
+    },
+    {
+      "start": 289.56,
+      "end": 328.759,
+      "text": "of clinical trials whereas previous things have like 100 patients that were all of a similar type person so TV dial is the one that um associate organizers okay so uh without further Ado we have two very esteemed guests here um the first is uh we're gonna start with um all right here we go so hi everybody my name is balaj uh I am calling from Budapest Hungary which is a a six hours ahead of the New York Times so it's getting completely later but not the last time excited to um give you guys a little presentation"
+    },
+    {
+      "start": 331.919,
+      "end": 371.84,
+      "text": "awesome yeah just uh take it away we have some sound looping issues okay so then I'll just go ahead um in London at a DSi conference and he was telling me about his psychedelic research that he was doing and I was uh it was very cool and he had a lot of energy and I thought he would be a perfect speaker for um Desai NYC yeah thank you Michael I'm just going to go to presentation mode so um just stay with me for a sec and okay there you go boom boom"
+    },
+    {
+      "start": 372.36,
+      "end": 415.86,
+      "text": "okay [Music] so hi Janice I said I'm I'm borage I am currently in Budapest which is my hometown but I actually work at uh the center for psychedelic research in um London and the way that I ended up there is through a study which is known as the self-blinding microdose trial um if you do not know micro losing is a new way of using psychedelic drugs and basically it involves using small doses of psychedelics but relatively uh frequently multiple times a week so don't think about the overwhelming experiences meeting God and cracking the source code of the universe kind of"
+    },
+    {
+      "start": 413.4,
+      "end": 456.9,
+      "text": "those we're talking about 10 to 20 percent of what is considered the normal recreational dose now Michael dosing has became big in the mid 2000s or somewhere around that and it has been claimed to be occurred for basically everything at this point so it is a very uh interesting phenomena that has gained a lot of attention but there is really a a scientific research just lacking all microsync we don't know a whole lot about it and um one thing that immediately comes to mind when it comes to microdosing is is the placebo effect which is one of the most robust effects in all of Medicine"
+    },
+    {
+      "start": 453.9,
+      "end": 497.24,
+      "text": "so actually when I became interested in microdosing I was working in New York at the Montana hospital I was working there as a biomedical software engineer so doing very different things and I wanted to do a placebo control study of microdosing but quickly found out that nobody is going to give me money for that because it is just way too expensive so initially I was quite frustrated by that but then I realized that hey actually I don't need a classical trial to run a placebo control study of Michael dosing and the way that we can solve this is is this concept of self-blinding now when I say blinding I"
+    },
+    {
+      "start": 494.4,
+      "end": 537.36,
+      "text": "mean it as a technical term medicine blinding means that you do not know what you are taking so in most of modern medical research what is happening is that you are taking your medicine but you do not know whether you are taking an active medication which is being tested in the trial or whether you take an inactive Placebo and this lack of knowledge we are calling it uh blinding now a self-blinding is basically a methodology how we can take this Placebo control and basically implement it at home self-blinding is a methodology that allows a self-experimenters to implement"
+    },
+    {
+      "start": 535.38,
+      "end": 579.06,
+      "text": "their own Placebo control at home without a clinical supervision and that leads to some really interesting uh questions regarding what exactly that you value in your evidence and uh and and what we consider high quality medical evidence so I'm getting a little ahead of myself so first let me just briefly explain what exactly is self-winding or rather how it works so bear in mind we tested this in the context of micro dosing so basically small pieces of blotter paper that happen to contain some LSD and the first step was is that we asked participants to hide these micro doses inside"
+    },
+    {
+      "start": 576.5,
+      "end": 618.72,
+      "text": "non-transparent your capsules now it was critical for the experiment that the capsules were non-transparent because empty capsules were used as placebos so basically how the experiment worked is that participants had to prepare two piles of capsule one of them with the microdose is the other one the empty capsules and had to put each of these capsules together with their QR code in these little zip bags and they did that one by one and what's important is that there was a specific set of QR codes for the microdose capsules and another specific set of QR codes for the placebo capsules"
+    },
+    {
+      "start": 616.62,
+      "end": 659.1,
+      "text": "so each of these capsules are put into a bag together with a QR code you seal the bag and you put it into a big ball So eventually all of the capsules made their way into this bowl but together with the QR code which is critical because that is what is going to allow us to track who is going to do what so once all of the capsules were inside these zip bags the participants just shuffled them randomly selected one and then scan the QR code which was in the back together with the capsule code now when the QR code was scanned it actually linked with the ID infrastructure of the experiment and it told you what to do with that capsule and basically it either told you to"
+    },
+    {
+      "start": 657.0,
+      "end": 701.339,
+      "text": "discard that capsule so for example if you're in the placebo group then we had had to make you to discard your microdose containing capsules we told you something that you're gonna need to use this capsule on let's say the uh second Monday of the experiment something like that but basically participants kept scanning these capsules and they ended up with half of the capsules allocated to a dose engagement that lasted one month or it was discarded according to their randomized treatment allocation so there are lots of details that I skipped over here but I wanted to give you a bird's eye view of what is uh self-blinding this is not published"
+    },
+    {
+      "start": 699.06,
+      "end": 742.62,
+      "text": "paper it was published about two years ago yes in March of 2021 so uh if you Google self-blinding microdose trial then you will find it on E-Life it's an Open Access article so uh everybody can read it um so what was really cool about this study or one of the cool aspects of this study is already shown on this figure which is basically a flowchart of the participants through the study and I have highlighted we decreeing the number that's important on this figure this study was completed by 191 participants making it one of the largest studies one of the largest"
+    },
+    {
+      "start": 740.279,
+      "end": 783.54,
+      "text": "Placebo control studies on psychedelics actually I'm just noticing that the at the top it's as large as Placebo control study of psychedelics to date it was true when the study was published but unfortunately just a few months ago there was a study published by Compass Pathways that had I think 220 participants so barely more than us but anyway ours is not the largest Placebo control study anymore however what is a very important difference between that uh the compress trial that I've mentioned before and the current trial that the costs here were about half percent of an equivalent clinical study and these uh uh a very"
+    },
+    {
+      "start": 781.2,
+      "end": 824.16,
+      "text": "significant cost reduction is something that I'm going to come back to and I'm gonna talk about uh self-blinding methodology and it's a a advantages so with this presentation I don't want to talk about microdosing too much but there is just like I want to give you like one result because I think this is important for a lot of the self-experimentation and something which I don't think people often get so what I'm showing you here this is one of the outcomes that we measured in the study and this is mindfulness but what I'm showing you here is generally true for all of the scales that we had in the study and what I'm going to focus here"
+    },
+    {
+      "start": 821.639,
+      "end": 865.98,
+      "text": "is the change between the pre-ration to the post regime so this is that four weeks where people are either taking micro doses or they are taking uh Placebo capsules and right now on this figure I'm only showing you the results from the micro dose group so people who have been taking micro doses for these uh four weeks long uh dosing period and as you can see the mindfulness actually increases and uh it does so in a statistically significant manner so what does that mean is that in a way we can confirm all of the positive anecdotes about microdosing at least the ones that claim that they think it that it increases mindfulness if you have"
+    },
+    {
+      "start": 863.82,
+      "end": 906.839,
+      "text": "experimental evidence here that it it really does so in a way this is good news for uh micro dosing but it's going to be interesting is when I add in the blue line the placebo control group to the figure as well so as you can see the placebo control group uh their mindfulness scores are also increasing from pre-regating to post regime and what's crucial is that the bitpay group difference is not significant anymore so what I want to emphasize is that there are two comparisons that we are making on this figure and generally with clinical trials and one of them is the changeover time which is basically the difference between the measurements and"
+    },
+    {
+      "start": 904.199,
+      "end": 949.199,
+      "text": "the post regime and the pre-regime and the other important one is the the other comparison that we're always making is the between treatment difference which is in this cases between the placebo control condition and the micro dose group so as I said in a way what we have found with this trial is that microdosine does have some benefits but those benefits are not larger than the placebo effect and I think this is important to to emphasize that what we find is not that micro losing does not have an effect we clearly show the opposite that microdosing does have an effect it is just that affect happens to be not larger than the placebo effect"
+    },
+    {
+      "start": 946.56,
+      "end": 989.639,
+      "text": "so when we published this study this was one of the first big study of micro dosing and then there were a lot of headlines that Imperial scientists showed that micro losing is just Placebo but that's not exactly true what we only showed is that the the magnitude of the effect is not larger than the placebo effect so I think in a way we we really validated a lot of the anecdotes about microdosing but we just added that oh yeah there are all these benefits to microdosing but these can be reproduced just if you are taking a placebo capsule thinking that it uh may be a microdose so as I said what I show you here is"
+    },
+    {
+      "start": 986.82,
+      "end": 1032.0,
+      "text": "this mindfulness scale but actually this General pattern what I explained is true for all of the other accounts that I that we have measured in the study in in the microdose group there's always a significant change over time and it is always in the direction of uh what you would consider a positive outcome so in the case of mindfulness mindfulness increases but so does the placebo control group and or not on any of the skills that we have measured there was a significant Between Difference groups a a significant between treatments difference excuse me it's getting late over here um so you know what does this argue for"
+    },
+    {
+      "start": 1029.36,
+      "end": 1073.58,
+      "text": "with respect to micro dosing is that it's it's likely that these benefits are not due to the pharmacological activity of the drug but can be explained by uh expectancy effects um the reason why I wanted to say this because the placebo effect is one of the most robust effects observed in medicine and that's why the placebo control group is what we use as a standard to evaluate medications so very often if you are a biohacker or a self-experimenter and if you're going to start a new intervention you're almost always going to see some positive improvements that's it what is surprising if you don't see any"
+    },
+    {
+      "start": 1070.039,
+      "end": 1114.14,
+      "text": "Improvement but this is why exactly the the placebo control group is measured as sort of like the threshold that an active treatment have to cross if you're a self-experimenter and you start to take I don't know some new supplement for sleeping it doesn't really so it's not really surprising that you feel like you are sleeping better what would be surprising and what is considered good evidence if you show that you are sleeping better relative to the placebo control condition um one of the things which I'm I was thinking quite a lot by doing this study is this this hierarchy of scientific"
+    },
+    {
+      "start": 1111.74,
+      "end": 1155.6,
+      "text": "evidence and and where does cell lining fits into this picture so the reason why it's in this cell blinding concept is so cool is because traditionally in Academia we are thinking about sort of like the the low level observational studies which would be on this figure the cross-sectional studies and then we have also the the high quality evidence the the randomized control trials that you see towards the top of the triangle in this uh diagram but the point being is that there is really not a whole lot in between like we tend to think that there's the low quality observational evidence and the high quality randomized controlled files"
+    },
+    {
+      "start": 1154.039,
+      "end": 1197.78,
+      "text": "and what I think is interesting about sound blinding is that it's it it sits in that Gray Zone in between those two classic study designs it is clearly not an observational study because we have a placebo control condition which by the way is the cultural condition that most people can occur about but on the other hand it is also clearly not a a clinical trial because to begin with there was no clinic in our case and also in in the case of the cell binding micro do study the participants were sourcing their their own drugs which leads to some questions with respect to the Purity and the exact quantity of the"
+    },
+    {
+      "start": 1195.02,
+      "end": 1238.4,
+      "text": "drug that was used so we cannot really consider it a control trial in in the traditional sense however I think you know what's what's what's what's important here is if you are putting the the cost of these study designs and and then I think you know uh then you can make a strong argument or cell binding because as probably many of you know clinical trials are incredibly expensive I work in the Psychedelic space and you know it's not it's not like typically if you're putting a patient through a typical clinical study then the cost per patient are going to be somewhere around 3 000 US dollars to"
+    },
+    {
+      "start": 1236.299,
+      "end": 1281.9,
+      "text": "ten thousand US Dollars somewhere in that range but with the self-blinding micro do we study like basically the the the the the costs are nothing like the entire cell lining microdos that they costed us about 10 000 US dollars so roughly equivalent of putting one patient through a a classic clinical study so while on one hand this is not a randomized control trial and it has some weaknesses relative to that but it is incredibly cheap which allows you to gather a much larger sample size which to some degree is going to counteract the lack of control uh uh in the experiment so one of the beautiful examples of this"
+    },
+    {
+      "start": 1278.9,
+      "end": 1325.7,
+      "text": "is that we have calculated what is the threshold micro dose dose when it becomes perceptible so when people can uh guess whether they have taken a placebo or a microdose at a higher than chance rate and we did the math and what we've calculated is that it's it's 12 micrograms of LSD these these threshold those and the year after we published our resource there was a classic randomized clinical trial coming out from the University of Chicago and they have calculated the exact same uh uh a threshold in what they found in their experiment that it was 13 micrograms which is practically speaking the same as our 12 micrograms"
+    },
+    {
+      "start": 1320.659,
+      "end": 1365.419,
+      "text": "so even though we we lagged really a a a a confirmation of what was the dose but because of this very very large and this very very large sample size that counteracts the the lack of control and then that's why we are very excited about uh self uh blinding foreign so as I said yes the the costs are incredibly cheap incredibly low and and that's what makes self-blinding or one of the reasons why self-blinding is a uh interesting and for this very very low price it has this Placebo control which as I said before is the most robust effect in medicine uh that you would"
+    },
+    {
+      "start": 1362.539,
+      "end": 1405.559,
+      "text": "like to control for now another big advantage of this methodology is that you're not really tied to a clinic anymore if you are running a traditional clinical trial then you can only recruit in the area where the clinic is based so that patients can come into your clinic and then you can treat them and whatnot but here everything is running through the internet there is really not like a Central Clinic where people have to be and that allows you to recruit patients globally again leading to that high sample size that is going to make your statistical inferences uh that much uh Stronger"
+    },
+    {
+      "start": 1403.52,
+      "end": 1446.299,
+      "text": "now the last point that I want to make is about external validity which is really the the technical term for uh the fact that in clinical trials uh we are often testing medications in a very artificial environment it's not uncommon that the results that we see in a clinical trial are not replicated in more naturalistic studies so very often for example what happens is that the FDA approves a new medication Based on data from phase three trials for condition X and then when that medication hits the market and then we are tracking the outcomes in real life the effect sizes"
+    },
+    {
+      "start": 1444.26,
+      "end": 1486.26,
+      "text": "are much smaller than what we have seen in the phase three trials and really the reason for that is because when you're setting up a clinical study you have a lot of little decisions that you make in how exactly you are setting up your your trial and let them go and those decisions are going to influence the outcome of the study and guess what if you're a big pharmaceutical company then you're gonna put basically you're gonna make everything that you can do to make sure that the study results are positive because you have both millions of dollars into that drug so basically the the clinical trial allows really the drug companies to to cheat a little bit"
+    },
+    {
+      "start": 1484.4,
+      "end": 1528.02,
+      "text": "but how to put it like cheating is like more like sort of like biasing the results towards the positive and if you have done a few trials then you know exactly those little tricks that you can play in order to make sure that your study designs are uh that your study results are going to be uh positive so one of the most common ones is the inclusion exclusion inclusion exclusion criteria so very often patients who are enrolled in a clinical study are much healthier relative to that population that is going to use that medication after uh the FDA approval so the point that I'm trying to make here really is"
+    },
+    {
+      "start": 1525.02,
+      "end": 1567.62,
+      "text": "that uh yes this cell binding methodology is not as well controlled as a clinical study but actually that is a pro in some ways because clinical studies are highly artificial that are sort of like controlling away the elements of real life so for example in clinical studies often they check whether you have taken the medication by a blood sample or a urine sample something like that and you can easily imagine a scenario where uh uh you know patients who are in the uh FDA data package where they uh based on which the drug is going to be approved only contain patients that have taken"
+    },
+    {
+      "start": 1565.82,
+      "end": 1610.17,
+      "text": "the medication exactly as it was prescribed but guess what the real life people often just forget to take their medication so if your medication really requires to take it every single day you know that may not be effective in real life because in practice people are just going to forget their medications that's just the that's just the way it is so that's this point of external validity that how well your results in a clinical trial are going to transfer to real life I feel that this is one of the big advantages of cell binding that it is completely naturalistic and because of that what we see in the cell blinding study the outcomes are much more likely to be transferable to a real life uh use"
+    },
+    {
+      "start": 1609.08,
+      "end": 1650.779,
+      "text": "case [Music] so as far as I know the self-winding microdose trial is the only self-blinding study that was ever uh published but I think you know we we need to appreciate that cell binding could be done with with other things as well not just with Psychedelic microdosing take any supplement that's out on the market and we could easily study it with the self-blinding methodology and what my vision is or what I would like to work towards is setting up this General self-blinding platform where if you're interested in a supplement you can just order a cell binding kit that contains all of these these gel capsules and the QR codes and the zip bags and"
+    },
+    {
+      "start": 1649.34,
+      "end": 1693.5,
+      "text": "all of these little items that you need for suppliding and then you will order it and then do the cell binding and then you will test on yourself or send n equal one trial whether that intervention is going to work better than Placebo for you and I think what's really really cool about this is that uh it allows it it in a way this is the personalized medicine like often drug but drugs are approved based on the average effect across a sample but you know you may or may not be representative of that sample but with the self-lining methodology you can run an N equal one study and figure out whether that given a supplement is"
+    },
+    {
+      "start": 1690.02,
+      "end": 1734.299,
+      "text": "helping you better than Plus or not so anyway that's that's roughly what I am working towards uh I have talked to stuff like traditional academic funding channels and and there's just no way I'm gonna get money for uh from them I also talk to companies about this companies that produce supplements but what I have learned is that they don't want to test their products obviously there is a lot of risk for them putting their trial uh putting their product through a self-binding trial because the results may be negative uh just like if you're for example in the case of a microdosing so teaming up with the companies didn't really work either"
+    },
+    {
+      "start": 1731.12,
+      "end": 1774.46,
+      "text": "um so you know I'm and then turn towards the decentralized science movement of uh trying to find um allies there I think this methodology is obviously their resonant with a a decentralizing science so I went to the decentralized science conference where I met Michael and that led me to being here um my time is up fairly soon so I'm gonna stop here but if you have any questions I would love to hear them and if you are interested in just chatting about self-blinding and how we could set up these General self-blinding platform then please feel free to reach out to me you have my comments done here"
+    },
+    {
+      "start": 1771.14,
+      "end": 1774.46,
+      "text": "um thank you for having me"
+    },
+    {
+      "start": 1781.64,
+      "end": 1825.159,
+      "text": "okay thank you um can you tell people how to follow up with you um yeah my email was on the on the last slide I mean feel free Michael you know just to uh if you have like an email it's just to put it there as well um I can uh shall I put it into the chat uh just say just say it out loud okay so the easiest one is on Twitter cyber life so p s y and then my first name which is b a l a z s if someone has a question here"
+    },
+    {
+      "start": 1826.539,
+      "end": 1869.36,
+      "text": "let's do this rapid fire so um you come up here and you can say it and you can hear it and then you can do it and let's let's try and keep it like 30 seconds for the answer yeah go ahead go ahead my question is related to um you know the talk was very interesting thank you so much but I would relate this to the centralized science and I'm wondering if the decentralization is the fact that the test was a home test basically self-administered and it's not a clinical trial and that's your like perception or understanding of of decentralization of science so something that you can do at home or if you see any other connection I mean I think like you know"
+    },
+    {
+      "start": 1867.559,
+      "end": 1911.98,
+      "text": "decentralization you know they're like multiple layers to it but I definitely feel like you know that the uh sort of like taking the the the the power away from the clinic and sort of like one clinical team doing the study that is a form of decentralization now decentralization have some other meanings for example where that data is stored but I just see that there's an additional layer of of decentralizing science so like you know this is not like you know if you are collecting data in a self-minding study but then all of the data is stored in a central database you know that that's not decentralizing it but I see these as independent variables in how we are conducting science and the way that I look at it is"
+    },
+    {
+      "start": 1909.02,
+      "end": 1952.64,
+      "text": "this self-blinding come on thank you I was just wondering if the size of the placebo effect varies by person and how you're adapting for that it is definitely variable that's actually one of the reasons why Placebo research is difficult to do because the effect sizes are notoriously variable depending on a very large number of contextual factors so one of the most important is going to be what's your perception of that treatment if you're expecting large benefits then typically the placebo effect is going to be larger so if anybody is interested in doing"
+    },
+    {
+      "start": 1950.299,
+      "end": 1993.44,
+      "text": "some supplements or trying microdosing just try to be very very positive about it and then you're gonna get at least a nice placebo effect one more question yeah okay go ahead quickly we'll do a rapid fire go ahead hey thanks so much for the talk quick question how um are you sorting out in your RCT or your sudo RCT uh always takers compliers never takers into buyers so it says again that was just feedback so I didn't catch the whole thing with takers suppliers and never takers and never for your"
+    },
+    {
+      "start": 1990.919,
+      "end": 2031.179,
+      "text": "artists for your random control trial treatments how are you sorting out always takers compliers to fires and never takers in in the scope of your trials oh just the same way as traditional clinical trials we just asked them whether they have taken the medication or not that was when we published the paper there were a lot of questions that oh how do you know that they have taken the capsules but that is true for a traditional clinical trial as well you just ask them and you know whether you believe them or not that's another question but this is this is the same as in a traditional clinical study some people are going to light there's nothing you can do about it uh"
+    },
+    {
+      "start": 2033.88,
+      "end": 2089.05,
+      "text": "just curious should we say this again okay um thank you and make sure that um and now we will have Tyler who is a PhD student at UA and studying all right [Music] yes can we hear uh say something Tyler hello can you hear me Mike isn't working but it appears to be I I hear you I hear you Tyler oh Tyler take it away okay one second sir"
+    },
+    {
+      "start": 2087.76,
+      "end": 2113.28,
+      "text": "ens [Music] sorry I need to uh just change a setting on my computer real quick okay I have to jump off and then jump back one real quick sorry about that so that I can share my screen"
+    },
+    {
+      "start": 2125.859,
+      "end": 2128.4,
+      "text": "foreign"
+    },
+    {
+      "start": 2143.38,
+      "end": 2187.96,
+      "text": "can you still hear me there we go all right can you see my screen just want to make sure yeah uh thank you guys my name is Tyler Quigley I am a PhD candidate at Arizona State uh my degree is in animal behavior and I study the honeybee blood brain barrier for my PhD so I've been studying this for the past seven years for better for worse I've learned a lot about beekeeping and insect physiology and animal behavior and animal behavior is an interesting thing to"
+    },
+    {
+      "start": 2185.26,
+      "end": 2227.619,
+      "text": "uh think about because it's um it's oh it's the ways that it's a one of the ways that animals maintain equilibrium in their environment and animal environments can be complex they can be unpredictable they are however the animals coordinate their reactions to their environment through their central nervous system so we as animals we bring our internal State towards equilibrium by reacting to the perception of our environment so we perceive a temperature and we try to regulate that we perceive um our body perceives what we might need for nutrients and we are tended to find"
+    },
+    {
+      "start": 2225.28,
+      "end": 2267.76,
+      "text": "that food source over another and this perception of the our internal state of our body like how our how the inside is doing is can be both sensory and non-sensory uh an important information about our internal state is our blood our blood flows around picking up molecules delivering molecules um disseminating hormones oxygen and other things around our body and our brain senses how our Eternal state is doing through what the blood is delivering up to it and and we have this barrier around our brain called the blood-brain barrier that modulates the interaction between the molecules in our blood and neuron of circuits um and if you think about the blood-brain barrier this way you can"
+    },
+    {
+      "start": 2265.72,
+      "end": 2309.099,
+      "text": "think of it as this Dynamic filter and lens through which the central nervous system perceives the physiological state of the animal so it's perceiving our glucose levels what hormones are going around peptides proteins and other nutrients in our body and is are affecting our Behavior or adjusting our Behavior likewise and the blood-brain barrier is essential to all animals with the central nervous system and this provides an opportunity to look at it in a variety of different environmental contexts and the one that I'm interested in and I've been studying is of course the honeybee so um the insect circulatory system exists as an open circulatory system so whereas"
+    },
+    {
+      "start": 2306.88,
+      "end": 2350.92,
+      "text": "our blood-brain barrier exists in the blood vessels that infiltrate our brain like a net like a net the insect Glover and bear exists as a shell around the brain and their blood-brain barrier is composed of two layers of glial cells which form a type Junction around the brain effectively physically separating it from the blood or which is called hemolymph and insects and this Blood repair structure is similar to The ancestral vertebrate blood-brain barrier you see in like sturgeon fish they also have a glial blood-brain barrier um and are one that's made up of these modified endothelial cells is a more derived characteristic that you see later down the line"
+    },
+    {
+      "start": 2347.16,
+      "end": 2389.5,
+      "text": "so I have been working on my PhD for a while no one studied the blood remainder and honeybees It's tricky to study because it's a very thin layer of cells but I mean I was interested for my degree to look at describing the structure of it around the brain and also its function uh just for this study I'm going to focus on the function so I'm just going to talk about two studies I did uh want to assess the uh intrinsic and how how stress affects the blood-brain barrier and the other to see how this protein vitalogen is transported into the brain through the honey blood brain barrier so the first study I'm going to talk about is this uh permeability study so"
+    },
+    {
+      "start": 2387.88,
+      "end": 2431.38,
+      "text": "there's two types of permeability that you can think about the blood-brain barrier there's molecules that can move through cells which is trans cellular transport or there's paracellular transport which is molecules that move between the cells of the blood-brain barrier so I wanted to assess these and do that I've energized that basically infiltrate these two different compartments of the blood-brain barrier and I applied some sort of stress or measure of honeybees exposed to some sort of stress to see how this permeability changed over different treatments so the two types of stress that I looked at were both aging and exposure to varroa mites which is one of the many different challenges that honeybees face in their natural environment"
+    },
+    {
+      "start": 2428.68,
+      "end": 2472.06,
+      "text": "um and the basic array of how I applaud is dye is I collect the bees that I need within the groups I cut a little piece of their head capsule off I inject some dye in there Waits a period of time dissect the brain and then measure the amount of that dye in the brain which is measured in fluorescence fluorescent units so just a little bit of an insight into what a honeybee uh what honeybee science looks like uh this first video is of me marking bees that are basically being stopped from entering the hive so what I'm doing here is I'm marking bees that are already foragers and these foraging honeybees um I'll come back in two weeks to collect them again and the ones that"
+    },
+    {
+      "start": 2470.26,
+      "end": 2512.859,
+      "text": "have still are still there are still alive with this purple marker considered old farters which I'll explain in a second um and then the other stress that they look I looked at was bromites in this picture to the right is um you can see a varroa Mite with this little brown insect that's on top of a honeybee larva and these basically go in the comb when the honeybee egg is laid and feeds on the honeybee larva throughout its development um wait I forgot I added this little meme in there um and honeybees are also when they first emerge from the cell they don't have hard stingers and they can't fly so it makes it easy to Mark newbies and I can track how old they are um through the mark that I give them in my memory which day and then this other setup is"
+    },
+    {
+      "start": 2511.42,
+      "end": 2555.52,
+      "text": "just some dye that's applied it to the head capsule so the first uh stressor that I look at is aging uh honeybees have an interesting aging structure they are born in the hive they do some work around the hive and at some point in their life they transition to becoming a forager and once that transition happens once they basically first kind of go off on their first foraging flight it initiates a 14 day timer and after that 14 days they will start to finesse rapidly and they'll start to age extremely fast so by by marking bees and tracking how old they are and how long they've been foraging I can basically separate it out into these groups of bees which are young bees bees that are foraging but not yet aging rapidly and then rapidly"
+    },
+    {
+      "start": 2553.48,
+      "end": 2596.5,
+      "text": "aging beets and I can track or I can assess the physiology in these different groups so what I found with aging is that there's no group in either type of global and Berry permeability amongst the old foragers The Young forgers and the nurse bees which are the bees that are in the hive and haven't started um aging at all yet um and what I believe is happening is that the blood-brain barrier doesn't change with age because foraging is a is a cognitively heavy task honeybees are never never need to use their brains as much as when they're going out into the environment finding flowers remembering where those flowers are and then going back to the hive to communicate that and so it doesn't make sense that a crucial"
+    },
+    {
+      "start": 2594.64,
+      "end": 2637.66,
+      "text": "structure for brain health is going to degrade even with um ex with this rapid aging it's one of those things that should be preserved to the very end so that's my height why I think that we receive that result um now the next dresser is I looked at is varroa mites so what I basically did is I um had hives at the Arizona State uh apiary set aside um not to not be treated for varroa mites and from those hives that would collect brood frames and I would wait in the lab for the Brew frames for the Beast to emerge from those frames and when they did and if they had mites on them I would count all the mites on there and take that b put it in a cage let it like grow up for a day just to kind of solidify that physiology and"
+    },
+    {
+      "start": 2635.44,
+      "end": 2678.46,
+      "text": "then assess the permeability of their blood-brain barrier um with the independent variable being how many bromites they emerge from the comb with and here I actually did find a difference so I found that um bees that emerged with two to four varroa mites they had increased trans cellular permeability so the blood-brain barrier was letting more things in through the cells whereas that rope honeybees that were stressed with the varroa mites no matter how much of a might love they had they their paracellular permeability didn't increase so those Junctions between the cells stayed tight the Pharaoh mics didn't affect that at all um what I think is happening here is has"
+    },
+    {
+      "start": 2676.359,
+      "end": 2721.24,
+      "text": "to do with the way that varroa feeds on the honeybees so uh during their development honeybees transition from this Pupa to a larval stage in between there they go through this metamorphosis where all of their guts basically liquefy and this is the time that Viral mites go in like vampires and they suck out the fat body of honeybees during this time fat body is kind of like the equivalent to a liver and an insect it holds a lot of nutrients a lot of energetic stores are stored in the fat body which is well the varroamites like them but it also hurts the honeybee in the long run because all their nutrient stores are basically depleted so the more of where these aromites feeding on this energetic tissue in these"
+    },
+    {
+      "start": 2718.3,
+      "end": 2761.02,
+      "text": "developing honeybees the less energy they have to dedicate to various physiological structures and I think it's possible that the blood-brain barrier mechanisms are one of the first things that go um which is why we see increased trans cellular permeability with a higher might load so that was an essay that I developed based on some fly studies but had never been applied in honeybees before and was cool to use these sort of environmental like non-invasive manipulations to study how the blubbering Bearer changes in these natural environments my next uh my thought my next study was looking at was a little bit more high-tech uh this is a study that was based off of some"
+    },
+    {
+      "start": 2759.4,
+      "end": 2802.839,
+      "text": "previous work done in my lab looking at this protein vitalogenin and I'll come back to this slide in a second but vitalogenin is a protein that's mostly just an egg-laying animals it helps provide nutrients into the egg honeybees worker so ever don't lay eggs they are not reproductive and so vitalogen has been co-opted in honeybee workers for a variety of different functions and one of the functions that the intelligent has is it helps to organize the social behavior in honeybees now we found vitalogen in the honeybee brain but we didn't find any mRNA transcripts so we know that it's not being made there so so one of my initial studies was just to kind of follow in the path of this ink"
+    },
+    {
+      "start": 2801.16,
+      "end": 2844.48,
+      "text": "line of inquiry in my lab to figure out if my intelligent was being transported across the blood-brain barrier now it's kind of tricky to figure out you know track a very extremely strong molecule into the brain through a structure that hasn't been described so this study is simple in how it looks but it took a lot of figuring out to figure out the best technique for it the technique that I landed on was that I I basically fed ieb's uh 13 a stable isotope 13 carbon label amino acid which they then created into vitalogen and I extracted this phytelligent out of these like kind of incubating honey bees isolated the protein labeled protein confirm the labels there and then injected it into"
+    },
+    {
+      "start": 2841.48,
+      "end": 2883.72,
+      "text": "new honeybees and that way by injecting this into new honeybees I could track this carbon 13 label into the brain using a technique called uh Nano Sims and what I would basically do is I would it allowed me to measure the carbon 13 enrichment in the brain so a nano Sims is a it's basically like an electron microscope and a mass spec combined into one you basically have a slice of tissue that you put into this machine and it rasters an ion beam over it ionizing the top layer of molecules which are then sucked into a mass spec so it allows you to get a very structurally structural integrity and integral uh image that instead of the"
+    },
+    {
+      "start": 2882.16,
+      "end": 2924.76,
+      "text": "density of matter like what you get in an electron micrograph you're actually getting like in this middle image a map of some atom so for instance this middle image is the nitrogen map of the honeybee brain like the outer limits blood remainder of the honeybee brain but it also allows and using the stable isotope it allows you to basically track enrichment of carbon 13 inside the brain to see if your labeled molecule made it into the brain and that's what I what I what I basically did in this study and so my prediction is that carbon 13 will be enriched in the blood-brain barrier and other glial cells of these honeybees that I injected with this carbon 13 labeled by telegen and protein um and after lots of uh maneuvering and"
+    },
+    {
+      "start": 2923.2,
+      "end": 2967.78,
+      "text": "lots of finicking with this kind of finicky machine I did find in Richmond in multiple uh in two different regions of the brain at multiple time scales so I had three different time exposures of the uh proteins I basically would inject it a 15 minutes 30 one hour in separate sets of bees and then process the brains for the Nano Sims and we I found that there is enrichment above are the Natural Abundance of carbon 13 in regions of the honeyb brain and it follows a different pattern in different parts of the brain so this red boxes are the central body this is kind of the processing center of the honeybee brain whereas the blue Center is these large optic lobes that"
+    },
+    {
+      "start": 2965.38,
+      "end": 3008.819,
+      "text": "process visual input to the honeybee brain and I found that basically there's different patterns of vitalogen in inside of the brain um accumulating in these areas and its likely difference is just different allocation of carrier proteins that transport in these big proteins um they I didn't get to I wanted to do a study to locate the receptor for the receptor and carrier for vitalogen on the brain but I didn't get to it during this PhD um but it's likely that this carrier protein is just heterogeneous around the brain so it's importing a difficult um and I think that the different accumulation of this protein the brain"
+    },
+    {
+      "start": 3006.24,
+      "end": 3049.44,
+      "text": "suggests its function uh I think that in the brain it might be serving a uh um a function that's associated with glial cells like cleaning up around the brain one of the things of intelligent does in the in the body of the honeybees it scavenges a free radical oxygen species and so there's lots of um Ross being produced in the brain so it's like I think it's like they have vitelligence cleaning that up in the brain allowing the honeybearing to function um efficiently so at the end of the day uh some of the things that I learned through the studies is that the honeybee blood-brain barrier is dynamic it's amenable distress uh there's changes to the structure and function that might have implications for honeybee cognition"
+    },
+    {
+      "start": 3046.98,
+      "end": 3089.22,
+      "text": "and Behavior Uh which are which which kind of our future studies down the road and that I believe that honeybee individual and Colony Health can be improved by reducing stress which seems important which seems um obvious but it's through finding the stress effects in these physiological structures let us that allows us to identify exactly where we need to focus some of our interventions like maybe brain safe pesticides or another justification to reduce varroa might load in honeybee colonies so with that I thank you guys you guys can find me on Twitter uh it's probably the best place my handles down on the bottom right um I also do funnily enough psychedelic"
+    },
+    {
+      "start": 3087.24,
+      "end": 3124.52,
+      "text": "science writing bellages micro dosing study was one of the first that I've written about and I only just met him at the same time Michael did which is awesome um and I'm happy to take any questions you have about bees Behavior blood brain barrier research Etc thank you guys thank you there was a thunderous Round of Applause for you awesome thank you guys we'll do it one more time for Tyler"
+    },
+    {
+      "start": 3128.52,
+      "end": 3171.48,
+      "text": "so what how does this trip how is this translational into humans like or is it translational into humans yeah so I think that the the clearest connection I didn't really get to do any I I didn't get to connect this as much as I wanted to during my PhD but honeybees are probably the best model organism for studying how social environment affects physiology directly um the the age demographic of a honeybee colony is super influential on how they progress through this like very plastic aging trajectory that honeybee workers can do and so it's by you can do these these social manipulations and honeybee colonies and"
+    },
+    {
+      "start": 3169.559,
+      "end": 3213.0,
+      "text": "then assess how it affects various physiological structures for instance if you take all of the young bees out of a colony the foragers that come back that have already like started on this aging trajectory they'll unage and they'll take back up in high responsibilities and some of like their immune system will ramp back up some of their learning uh cognitive features like come back up compared to the ones that continued foraging so it's really neat and it's not it's no way that insect research is going to be directly translational but at least can provide some like insight into where we can look um in human beings studying how our social environment affects uh our health physiology cognitive decline Etc"
+    },
+    {
+      "start": 3211.26,
+      "end": 3253.44,
+      "text": "all right well another round off pause for Tyler thank you and we'll be in touch shortly and I'll follow up awesome thank you very much I appreciate the opportunity and hopefully I can come to D Side New York City in person someday next time thank you guys okay that concludes this part but um thank you all for coming we can just mix and mingle and the books finally came and they're in the back so if you want a formation book this is like will literally save you fifty thousand dollars on lawyer fees um then you should uh you can have the first one yeah and come to the launch"
+    },
+    {
+      "start": 3251.64,
+      "end": 3264.38,
+      "text": "which is um which is located here the watch okay there you go and thank you guys for coming on just uh continue to chat with each other"
+    }
+  ]
+}

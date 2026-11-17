@@ -1,0 +1,2978 @@
+WEBVTT
+
+00:00:03.360 --> 00:00:05.400
+cool all right well thank you guys all
+
+00:00:05.400 --> 00:00:08.220
+for um Coming Out I appreciate you
+
+00:00:08.220 --> 00:00:10.080
+making the journey
+
+00:00:10.080 --> 00:00:11.639
+um out here
+
+00:00:11.639 --> 00:00:13.920
+um for those of you that don&#x27;t know this
+
+00:00:13.920 --> 00:00:17.400
+is a DSi NYC which is
+
+00:00:17.400 --> 00:00:17.470
+um
+
+00:00:17.470 --> 00:00:20.660
+[Applause]
+
+00:00:21.020 --> 00:00:23.340
+I think this is like the fifth one that
+
+00:00:23.340 --> 00:00:25.320
+we&#x27;ve done so far
+
+00:00:25.320 --> 00:00:29.039
+themed guests from Martin shkreli to a
+
+00:00:29.039 --> 00:00:30.900
+guy who&#x27;s indexing all of the mushrooms
+
+00:00:30.900 --> 00:00:33.300
+and the world to a guy who studies the
+
+00:00:33.300 --> 00:00:35.820
+blood brain beef area the barrier the
+
+00:00:35.820 --> 00:00:38.579
+blood-brain barrier in bees
+
+00:00:38.579 --> 00:00:40.500
+um to we&#x27;ve had so many different
+
+00:00:40.500 --> 00:00:43.140
+speakers and um we&#x27;re always looking for
+
+00:00:43.140 --> 00:00:44.700
+more speakers so if you have
+
+00:00:44.700 --> 00:00:46.260
+recommendations
+
+00:00:46.260 --> 00:00:48.059
+um let us know
+
+00:00:48.059 --> 00:00:51.059
+um DSi NYC I think is probably one of
+
+00:00:51.059 --> 00:00:53.460
+the leaders in the decentralized science
+
+00:00:53.460 --> 00:00:55.620
+movement so
+
+00:00:55.620 --> 00:00:58.500
+um we&#x27;re connected now with Desai Tokyo
+
+00:00:58.500 --> 00:01:02.399
+and the Desai London and Desai Tel Aviv
+
+00:01:02.399 --> 00:01:04.860
+and decide Berlin and we&#x27;re trying to
+
+00:01:04.860 --> 00:01:06.900
+create like a bit of a network in the
+
+00:01:06.900 --> 00:01:10.080
+decentralized science community
+
+00:01:10.080 --> 00:01:12.119
+um and it&#x27;s going well and so I was
+
+00:01:12.119 --> 00:01:14.159
+happy to have all the people all you
+
+00:01:14.159 --> 00:01:16.020
+here with us and so what is
+
+00:01:16.020 --> 00:01:17.700
+decentralized science
+
+00:01:17.700 --> 00:01:19.740
+um it sort of comes from the Insight
+
+00:01:19.740 --> 00:01:21.900
+that I think we can make science more
+
+00:01:21.900 --> 00:01:22.860
+fun
+
+00:01:22.860 --> 00:01:24.780
+um with the blockchain partially we can
+
+00:01:24.780 --> 00:01:27.479
+make science more uh reliable using the
+
+00:01:27.479 --> 00:01:30.000
+blockchain we can make science more
+
+00:01:30.000 --> 00:01:32.220
+democratic with the blockchain we can
+
+00:01:32.220 --> 00:01:34.920
+make science uh be more equally funded
+
+00:01:34.920 --> 00:01:37.140
+and giving more people the opportunity
+
+00:01:37.140 --> 00:01:39.900
+to participate in science
+
+00:01:39.900 --> 00:01:41.400
+um with the blockchain and it&#x27;s sort of
+
+00:01:41.400 --> 00:01:43.619
+rethinking is like how we had D5 which
+
+00:01:43.619 --> 00:01:45.360
+was like potential is finance took over
+
+00:01:45.360 --> 00:01:47.159
+traditional Finance
+
+00:01:47.159 --> 00:01:49.560
+maybe we can do the same thing with
+
+00:01:49.560 --> 00:01:51.899
+decentralized science where each piece
+
+00:01:51.899 --> 00:01:54.840
+of data or each researcher is a token
+
+00:01:54.840 --> 00:01:57.060
+and has a reputation and can be swapped
+
+00:01:57.060 --> 00:01:59.759
+and loaned against for the benefit that
+
+00:01:59.759 --> 00:02:01.560
+the idea is sort of like when there&#x27;s a
+
+00:02:01.560 --> 00:02:03.180
+lot of eyes on something
+
+00:02:03.180 --> 00:02:04.560
+um you have you can create something
+
+00:02:04.560 --> 00:02:05.579
+that&#x27;s sort of better and more
+
+00:02:05.579 --> 00:02:07.200
+transparent
+
+00:02:07.200 --> 00:02:09.000
+um I will talk a little bit about the
+
+00:02:09.000 --> 00:02:10.979
+projects that we&#x27;re working on which is
+
+00:02:10.979 --> 00:02:14.040
+um the DB dial and dimidao is kind of
+
+00:02:14.040 --> 00:02:16.500
+like a air table for web3 and it&#x27;s used
+
+00:02:16.500 --> 00:02:18.239
+by a lot of decentralized science
+
+00:02:18.239 --> 00:02:20.160
+projects
+
+00:02:20.160 --> 00:02:21.900
+um so I&#x27;ll just give you a quick demo of
+
+00:02:21.900 --> 00:02:23.940
+how it works here it&#x27;s very similar to
+
+00:02:23.940 --> 00:02:26.340
+like the way airtable looks so we have
+
+00:02:26.340 --> 00:02:27.780
+people that are using it to catalyze
+
+00:02:27.780 --> 00:02:29.580
+catalog every butterfly in the world
+
+00:02:29.580 --> 00:02:32.280
+which is super cool so someone creates a
+
+00:02:32.280 --> 00:02:33.300
+butterfly
+
+00:02:33.300 --> 00:02:35.459
+um species and then they send this link
+
+00:02:35.459 --> 00:02:39.120
+out to everyone in the entire world and
+
+00:02:39.120 --> 00:02:41.700
+um then the people then fill out this
+
+00:02:41.700 --> 00:02:42.720
+form
+
+00:02:42.720 --> 00:02:45.120
+and every form every road every
+
+00:02:45.120 --> 00:02:47.580
+butterfly species that&#x27;s created is
+
+00:02:47.580 --> 00:02:50.160
+actually like an nft and that person is
+
+00:02:50.160 --> 00:02:52.680
+the owner of that data that data point
+
+00:02:52.680 --> 00:02:55.140
+and what&#x27;s cool is
+
+00:02:55.140 --> 00:02:56.940
+um so now they send this form out to
+
+00:02:56.940 --> 00:02:59.220
+people and they say like oh I found a
+
+00:02:59.220 --> 00:03:00.560
+monarch because I&#x27;m from Santa Cruz
+
+00:03:00.560 --> 00:03:03.180
+monarchs and
+
+00:03:03.180 --> 00:03:04.980
+um then you can see when they created
+
+00:03:04.980 --> 00:03:07.019
+this Monarch they you can go to openc
+
+00:03:07.019 --> 00:03:09.540
+and you can buy and sell this individual
+
+00:03:09.540 --> 00:03:12.540
+piece of data and uh you can see it has
+
+00:03:12.540 --> 00:03:15.540
+provenance on Avalanche it&#x27;s stored on
+
+00:03:15.540 --> 00:03:18.360
+ipfs but so that&#x27;s an example of how
+
+00:03:18.360 --> 00:03:20.340
+it&#x27;s used but it&#x27;s also being used by
+
+00:03:20.340 --> 00:03:22.080
+like other types of people as well so
+
+00:03:22.080 --> 00:03:25.080
+here doll uses DB dial and this is like
+
+00:03:25.080 --> 00:03:27.480
+really cool because hair now is insight
+
+00:03:27.480 --> 00:03:29.220
+into decentralized science was that
+
+00:03:29.220 --> 00:03:31.319
+there&#x27;s some researchers out there who
+
+00:03:31.319 --> 00:03:33.599
+are trying to do study hair loss and
+
+00:03:33.599 --> 00:03:35.940
+there hasn&#x27;t been a lot of research in
+
+00:03:35.940 --> 00:03:38.640
+it since like 1997 and but there&#x27;s
+
+00:03:38.640 --> 00:03:40.260
+Reddit communities of hundreds of
+
+00:03:40.260 --> 00:03:42.420
+thousands of members out there that are
+
+00:03:42.420 --> 00:03:44.700
+interested interested in in this subject
+
+00:03:44.700 --> 00:03:48.019
+and the idea is like they can do
+
+00:03:48.019 --> 00:03:51.480
+clinical trials much more cheaply than
+
+00:03:51.480 --> 00:03:55.200
+Pfizer or some other things but also
+
+00:03:55.200 --> 00:03:56.879
+um the people that are participating in
+
+00:03:56.879 --> 00:03:59.940
+this are much more motivated to uh
+
+00:03:59.940 --> 00:04:01.440
+because they&#x27;re sort of they&#x27;re not just
+
+00:04:01.440 --> 00:04:02.760
+being paid they&#x27;re they&#x27;re actually they
+
+00:04:02.760 --> 00:04:04.739
+actually care about it
+
+00:04:04.739 --> 00:04:07.620
+um so uh that&#x27;s one key person who&#x27;s
+
+00:04:07.620 --> 00:04:10.980
+using it another one is so this is the
+
+00:04:10.980 --> 00:04:13.200
+interface that they built another one is
+
+00:04:13.200 --> 00:04:16.199
+Ulta Flora so they&#x27;re using uh dbdao to
+
+00:04:16.199 --> 00:04:19.380
+test out CBDs effects on kids with
+
+00:04:19.380 --> 00:04:22.019
+epilepsy so this is something that like
+
+00:04:22.019 --> 00:04:24.419
+the FDA would never probably touch but
+
+00:04:24.419 --> 00:04:26.820
+unlike some of these forums parents have
+
+00:04:26.820 --> 00:04:28.979
+found that CBD helps children with
+
+00:04:28.979 --> 00:04:31.620
+epilepsy a lot and they&#x27;re doing this
+
+00:04:31.620 --> 00:04:33.720
+like clinical trial to
+
+00:04:33.720 --> 00:04:36.000
+um just to make sure that that it works
+
+00:04:36.000 --> 00:04:38.520
+so that&#x27;s kind of it how that works and
+
+00:04:38.520 --> 00:04:40.620
+so what&#x27;s cool is like when the way it
+
+00:04:40.620 --> 00:04:42.120
+works is like everyone puts in their
+
+00:04:42.120 --> 00:04:45.180
+data and then a a drug company or
+
+00:04:45.180 --> 00:04:47.340
+someone comes to buy this entire data
+
+00:04:47.340 --> 00:04:50.340
+set and when they buy the data set for
+
+00:04:50.340 --> 00:04:52.380
+like a million dollars or something the
+
+00:04:52.380 --> 00:04:55.139
+money is then split out to everyone who
+
+00:04:55.139 --> 00:04:57.900
+contributed a piece of a row of that
+
+00:04:57.900 --> 00:05:00.360
+data set so it&#x27;s a way of democratizing
+
+00:05:00.360 --> 00:05:04.100
+how wealth is sort of distributed
+
+00:05:06.180 --> 00:05:08.460
+um we can we can encrypt things we can
+
+00:05:08.460 --> 00:05:10.199
+do the revenue if you guys are
+
+00:05:10.199 --> 00:05:11.639
+interested in working together if you
+
+00:05:11.639 --> 00:05:12.660
+have a science project we have someone
+
+00:05:12.660 --> 00:05:14.340
+here is working on nootropics we have
+
+00:05:14.340 --> 00:05:15.479
+someone here who&#x27;s interested who&#x27;s
+
+00:05:15.479 --> 00:05:18.000
+doing it for social science uh reach out
+
+00:05:18.000 --> 00:05:21.000
+here and uh and connect out so thank you
+
+00:05:21.000 --> 00:05:23.180
+guys
+
+00:05:25.320 --> 00:05:25.880
+um
+
+00:05:25.880 --> 00:05:30.840
+he had a group picture here yay
+
+00:05:30.840 --> 00:05:32.759
+oh yeah
+
+00:05:32.759 --> 00:05:35.940
+um smile everyone yay but if you want to
+
+00:05:35.940 --> 00:05:38.160
+get here can we do a selfie yes I take
+
+00:05:38.160 --> 00:05:40.440
+it what do you think
+
+00:05:40.440 --> 00:05:41.820
+okay
+
+00:05:41.820 --> 00:05:43.860
+um okay so we have this amazing space
+
+00:05:43.860 --> 00:05:44.699
+here
+
+00:05:44.699 --> 00:05:47.039
+and there&#x27;s this cool company called
+
+00:05:47.039 --> 00:05:50.220
+um free agency and uh they have this
+
+00:05:50.220 --> 00:05:52.020
+really innovative business model where
+
+00:05:52.020 --> 00:05:54.360
+each person should have their own agent
+
+00:05:54.360 --> 00:05:57.300
+uh on their behalf who works to find
+
+00:05:57.300 --> 00:05:59.160
+them the best job so join us you&#x27;re
+
+00:05:59.160 --> 00:06:01.919
+hired yeah so first thing you guys are
+
+00:06:01.919 --> 00:06:04.199
+coming I&#x27;m Joe from free agency with
+
+00:06:04.199 --> 00:06:05.880
+previously is is we bring Hollywood
+
+00:06:05.880 --> 00:06:09.000
+style representation to Tech town so
+
+00:06:09.000 --> 00:06:11.580
+just like your favorite actor actress or
+
+00:06:11.580 --> 00:06:14.039
+athlete as an agent as on the back end
+
+00:06:14.039 --> 00:06:16.620
+of their career we do the same for yours
+
+00:06:16.620 --> 00:06:19.740
+so we are the Jerry Maguire of startup
+
+00:06:19.740 --> 00:06:22.020
+and Tech Talent so what does that mean
+
+00:06:22.020 --> 00:06:24.720
+it means uh if you guys are hiring
+
+00:06:24.720 --> 00:06:26.639
+please reach out to us if you&#x27;re looking
+
+00:06:26.639 --> 00:06:29.400
+to host more events always welcome you
+
+00:06:29.400 --> 00:06:31.199
+know for the community and if you&#x27;re
+
+00:06:31.199 --> 00:06:32.759
+looking for your next opportunity feel
+
+00:06:32.759 --> 00:06:34.500
+free to reach out as well and with that
+
+00:06:34.500 --> 00:06:37.259
+that&#x27;s back to okay and Joe&#x27;s been super
+
+00:06:37.259 --> 00:06:39.419
+helpful um he&#x27;s they&#x27;ve hosted many of
+
+00:06:39.419 --> 00:06:40.860
+our events here they host a lot of
+
+00:06:40.860 --> 00:06:43.080
+Stanford alumni events and they&#x27;re
+
+00:06:43.080 --> 00:06:46.020
+always very um they&#x27;re not like it&#x27;s
+
+00:06:46.020 --> 00:06:48.000
+it&#x27;s fun to host it here like some of
+
+00:06:48.000 --> 00:06:49.319
+the other places you posted they&#x27;re like
+
+00:06:49.319 --> 00:06:51.600
+but here it&#x27;s like very chill and
+
+00:06:51.600 --> 00:06:54.120
+relaxed and it&#x27;s like a home and uh it&#x27;s
+
+00:06:54.120 --> 00:06:56.220
+like a bedroom or a dorm you know it&#x27;s
+
+00:06:56.220 --> 00:06:58.919
+kind of like a door party it&#x27;s like a
+
+00:06:58.919 --> 00:07:01.220
+lounge
+
+00:07:05.600 --> 00:07:08.799
+[Applause]
+
+00:07:13.880 --> 00:07:17.039
+thanks uh hello everyone I&#x27;m Ray and
+
+00:07:17.039 --> 00:07:20.340
+really glad you guys are here this is a
+
+00:07:20.340 --> 00:07:23.580
+tech nine for everyone and um yeah uh
+
+00:07:23.580 --> 00:07:26.580
+I&#x27;m the independent researcher for DSi
+
+00:07:26.580 --> 00:07:29.160
+and also a contributor for like um DB
+
+00:07:29.160 --> 00:07:31.800
+Dao the database and also I&#x27;m an
+
+00:07:31.800 --> 00:07:34.080
+opportunity investor right now and I met
+
+00:07:34.080 --> 00:07:36.479
+uh William like kind of last year and
+
+00:07:36.479 --> 00:07:39.180
+his father yeah he&#x27;s been like they are
+
+00:07:39.180 --> 00:07:42.539
+amazing and they&#x27;re like William is the
+
+00:07:42.539 --> 00:07:45.300
+um lead author of prc721 it&#x27;s a
+
+00:07:45.300 --> 00:07:47.819
+basically the standard of nft so I feel
+
+00:07:47.819 --> 00:07:49.620
+like it&#x27;s really special to have William
+
+00:07:49.620 --> 00:07:52.979
+here because during the nft week in
+
+00:07:52.979 --> 00:07:55.740
+acting NYC is like his birthday right so
+
+00:07:55.740 --> 00:07:59.599
+a big plus to William
+
+00:07:59.900 --> 00:08:02.900
+thank you
+
+00:08:12.660 --> 00:08:15.120
+hi everybody I&#x27;m will enter Ken
+
+00:08:15.120 --> 00:08:17.819
+uh no invest in this room for nft I&#x27;m
+
+00:08:17.819 --> 00:08:19.220
+the lead author of this document called
+
+00:08:19.220 --> 00:08:21.960
+erc721 back in the day this explains
+
+00:08:21.960 --> 00:08:24.240
+what is an nft and if you&#x27;re making nfts
+
+00:08:24.240 --> 00:08:25.740
+then you&#x27;re following the specification
+
+00:08:25.740 --> 00:08:28.199
+so thank you unboxing uh just some other
+
+00:08:28.199 --> 00:08:29.940
+boat winners out there maybe there&#x27;s
+
+00:08:29.940 --> 00:08:31.319
+some people in here so I&#x27;ll just get
+
+00:08:31.319 --> 00:08:32.459
+some introductions I worked at Google
+
+00:08:32.459 --> 00:08:33.839
+for a minute in the New York office
+
+00:08:33.839 --> 00:08:36.599
+remotely a long time ago starting my
+
+00:08:36.599 --> 00:08:38.580
+career in open source this is actually
+
+00:08:38.580 --> 00:08:39.899
+what kind of brought me into blockchain
+
+00:08:39.899 --> 00:08:41.880
+is because my experience is creating
+
+00:08:41.880 --> 00:08:44.339
+open source communities and creating
+
+00:08:44.339 --> 00:08:45.959
+mentorship programs at open source
+
+00:08:45.959 --> 00:08:47.940
+communities and then years later I found
+
+00:08:47.940 --> 00:08:50.399
+blockchain that&#x27;s how I got in I worked
+
+00:08:50.399 --> 00:08:53.100
+at the US Navy for a minute and I I do
+
+00:08:53.100 --> 00:08:56.100
+business in Philadelphia in Shanghai so
+
+00:08:56.100 --> 00:08:58.200
+just a quick Factor about me and today&#x27;s
+
+00:08:58.200 --> 00:09:01.800
+talk is nfts in science this is a broad
+
+00:09:01.800 --> 00:09:03.980
+discussion this is pretty entry level
+
+00:09:03.980 --> 00:09:06.000
+nothing&#x27;s expected of you we&#x27;re coming
+
+00:09:06.000 --> 00:09:07.500
+in here and we&#x27;re gonna have questions
+
+00:09:07.500 --> 00:09:09.959
+too at the end so I just wanted to talk
+
+00:09:09.959 --> 00:09:12.300
+about an important part of data dials
+
+00:09:12.300 --> 00:09:15.720
+nft is in science specifically data
+
+00:09:15.720 --> 00:09:17.399
+permission
+
+00:09:17.399 --> 00:09:20.399
+the permission to use data
+
+00:09:20.399 --> 00:09:21.899
+okay
+
+00:09:21.899 --> 00:09:23.580
+bear with me for a minute I&#x27;d like to
+
+00:09:23.580 --> 00:09:25.620
+show you a very close-up photo of a
+
+00:09:25.620 --> 00:09:28.470
+cervical cancer biopsy from 1951.
+
+00:09:28.470 --> 00:09:31.680
+[Music]
+
+00:09:31.680 --> 00:09:34.920
+it is scanning electron microscope photo
+
+00:09:34.920 --> 00:09:38.700
+so this photo is a biopsy
+
+00:09:38.700 --> 00:09:41.760
+um that&#x27;s an XKCD reference
+
+00:09:41.760 --> 00:09:44.640
+all right so this is the most copied
+
+00:09:44.640 --> 00:09:47.640
+cell in biology this is how you&#x27;re
+
+00:09:47.640 --> 00:09:49.860
+looking at it right here this cell is
+
+00:09:49.860 --> 00:09:51.420
+used everywhere it is a human cancer
+
+00:09:51.420 --> 00:09:55.260
+cell from 1951 and
+
+00:09:55.260 --> 00:09:57.240
+it has so many applications in biology
+
+00:09:57.240 --> 00:10:00.240
+it&#x27;s used for polio research cancer AIDS
+
+00:10:00.240 --> 00:10:02.580
+anything that has a something that&#x27;s got
+
+00:10:02.580 --> 00:10:04.320
+to be tested with DNA or whatever this
+
+00:10:04.320 --> 00:10:07.019
+is the basis across biology and because
+
+00:10:07.019 --> 00:10:10.380
+it&#x27;s a human cell and humans are often
+
+00:10:10.380 --> 00:10:12.000
+the things we&#x27;re trying to cure right
+
+00:10:12.000 --> 00:10:13.620
+this is the most important cell in
+
+00:10:13.620 --> 00:10:15.839
+biology did it come from
+
+00:10:15.839 --> 00:10:19.260
+it came from Henrietta Lacks
+
+00:10:19.260 --> 00:10:21.420
+Henrietta Lacks presented to John
+
+00:10:21.420 --> 00:10:23.700
+Hopkins University in 1951 after
+
+00:10:23.700 --> 00:10:25.800
+childbirth with some pain in the womb
+
+00:10:25.800 --> 00:10:28.920
+doctors took a biopsy from the cervix
+
+00:10:28.920 --> 00:10:31.140
+and found this cancer cell which they
+
+00:10:31.140 --> 00:10:33.600
+then passed around to other doctors and
+
+00:10:33.600 --> 00:10:35.660
+if you&#x27;ve ever done cancer cell research
+
+00:10:35.660 --> 00:10:38.339
+typically a nice warm sample will last
+
+00:10:38.339 --> 00:10:40.500
+three or four days what they found is
+
+00:10:40.500 --> 00:10:42.660
+that this sample lasted a lot longer it
+
+00:10:42.660 --> 00:10:45.839
+persisted it is the first immortal cell
+
+00:10:45.839 --> 00:10:50.600
+does anybody know telomerates foreign
+
+00:10:51.140 --> 00:10:54.240
+so when cells divide there&#x27;s this thing
+
+00:10:54.240 --> 00:10:55.620
+at the end there&#x27;s there&#x27;s code in a
+
+00:10:55.620 --> 00:10:57.180
+Cell that&#x27;s a technical as we&#x27;re getting
+
+00:10:57.180 --> 00:10:58.980
+there&#x27;s code and DNA the end of it
+
+00:10:58.980 --> 00:11:00.480
+doesn&#x27;t matter and when you cut it a
+
+00:11:00.480 --> 00:11:01.980
+bunch of times the end kind of trails
+
+00:11:01.980 --> 00:11:04.160
+off
+
+00:11:05.339 --> 00:11:07.380
+this one doesn&#x27;t you can keep cutting it
+
+00:11:07.380 --> 00:11:10.200
+and make perfect copies forever so this
+
+00:11:10.200 --> 00:11:13.140
+is the first immortal cell line really
+
+00:11:13.140 --> 00:11:14.940
+important great commercial applications
+
+00:11:14.940 --> 00:11:17.040
+people made a lot of money off of this
+
+00:11:17.040 --> 00:11:19.260
+and they found out after days weeks
+
+00:11:19.260 --> 00:11:21.180
+years this cell was just going so strong
+
+00:11:21.180 --> 00:11:23.519
+we&#x27;re still using it today billions in
+
+00:11:23.519 --> 00:11:26.339
+dollars of sales of this
+
+00:11:26.339 --> 00:11:29.880
+so now now her descendants are coming
+
+00:11:29.880 --> 00:11:31.019
+back and they&#x27;re saying well wait a
+
+00:11:31.019 --> 00:11:33.000
+minute oh key part of the story where
+
+00:11:33.000 --> 00:11:34.860
+the cell came from never got consent
+
+00:11:34.860 --> 00:11:37.440
+from her to use this or sell this cell
+
+00:11:37.440 --> 00:11:40.079
+now this was 1951 there&#x27;s a couple
+
+00:11:40.079 --> 00:11:43.320
+things you needed about 1951. one black
+
+00:11:43.320 --> 00:11:45.060
+people were given free medical care in
+
+00:11:45.060 --> 00:11:46.860
+John Hoffman University and there was a
+
+00:11:46.860 --> 00:11:48.600
+segregated system back then and they did
+
+00:11:48.600 --> 00:11:50.519
+different things then that they don&#x27;t do
+
+00:11:50.519 --> 00:11:51.180
+now
+
+00:11:51.180 --> 00:11:53.579
+two it was common practice to take the
+
+00:11:53.579 --> 00:11:55.440
+cells without permission you would never
+
+00:11:55.440 --> 00:11:57.120
+do this now and the people that are
+
+00:11:57.120 --> 00:11:59.220
+selling her cells acknowledge that they
+
+00:11:59.220 --> 00:12:00.720
+wouldn&#x27;t do this now but they&#x27;re doing
+
+00:12:00.720 --> 00:12:02.579
+this now so these are two things you
+
+00:12:02.579 --> 00:12:07.160
+need to know about history okay so now
+
+00:12:07.560 --> 00:12:09.360
+her family comes in and says well wait a
+
+00:12:09.360 --> 00:12:11.279
+minute we would like to be participating
+
+00:12:11.279 --> 00:12:14.279
+in the decision making of the usage of
+
+00:12:14.279 --> 00:12:16.380
+these cells oh and guess what they&#x27;re
+
+00:12:16.380 --> 00:12:18.600
+descendants so it&#x27;s also their cells too
+
+00:12:18.600 --> 00:12:21.240
+if you&#x27;ve ever signed up for 23 me or
+
+00:12:21.240 --> 00:12:22.920
+your dad or your mom or your grandparent
+
+00:12:22.920 --> 00:12:24.660
+that&#x27;s you too so you&#x27;re all signed up
+
+00:12:24.660 --> 00:12:27.300
+in this video together
+
+00:12:27.300 --> 00:12:30.660
+so if her family has a stakeholder if
+
+00:12:30.660 --> 00:12:33.240
+they&#x27;re stakeholders in this cell line
+
+00:12:33.240 --> 00:12:35.339
+and they&#x27;re talking about participating
+
+00:12:35.339 --> 00:12:38.220
+in science is this the first
+
+00:12:38.220 --> 00:12:40.140
+data down
+
+00:12:40.140 --> 00:12:42.779
+this is the first and largest data down
+
+00:12:42.779 --> 00:12:45.899
+it&#x27;s this cervical cancer cell from 1951
+
+00:12:45.899 --> 00:12:47.820
+they&#x27;re currently selling they&#x27;re
+
+00:12:47.820 --> 00:12:51.060
+currently suing Fisher for 250 billion
+
+00:12:51.060 --> 00:12:52.260
+dollars
+
+00:12:52.260 --> 00:12:55.620
+in back payment move back royalties on
+
+00:12:55.620 --> 00:12:57.600
+this cell and then there&#x27;s one of about
+
+00:12:57.600 --> 00:12:59.459
+47 lawsuits that they&#x27;re currently
+
+00:12:59.459 --> 00:13:02.880
+working on so you know go strong right
+
+00:13:02.880 --> 00:13:04.920
+they&#x27;ve got a great negotiator on this
+
+00:13:04.920 --> 00:13:06.600
+but I want to tell you about this
+
+00:13:06.600 --> 00:13:09.320
+because this is very this is a doubt
+
+00:13:09.320 --> 00:13:12.180
+decentralized autonomous organization
+
+00:13:12.180 --> 00:13:14.160
+who was decentralized it is the family
+
+00:13:14.160 --> 00:13:16.680
+members autonomous nobody else is
+
+00:13:16.680 --> 00:13:17.700
+telling them what to do and they&#x27;re
+
+00:13:17.700 --> 00:13:20.700
+organized they&#x27;re very organized so the
+
+00:13:20.700 --> 00:13:21.959
+best way to understand the world is to
+
+00:13:21.959 --> 00:13:23.279
+compare the things that you already know
+
+00:13:23.279 --> 00:13:25.860
+this is from 1951 no technology needed
+
+00:13:25.860 --> 00:13:28.279
+to understand here
+
+00:13:28.980 --> 00:13:33.000
+can we use nfts for data permission so I
+
+00:13:33.000 --> 00:13:35.040
+wanted to talk about
+
+00:13:35.040 --> 00:13:37.740
+let&#x27;s formalize this so we&#x27;ve got we&#x27;ve
+
+00:13:37.740 --> 00:13:39.300
+got family members and they&#x27;ve got
+
+00:13:39.300 --> 00:13:41.100
+permissions there they would like to
+
+00:13:41.100 --> 00:13:43.680
+permit usage of these they&#x27;re called
+
+00:13:43.680 --> 00:13:45.079
+um
+
+00:13:45.079 --> 00:13:47.700
+healer cells that&#x27;s the name of this
+
+00:13:47.700 --> 00:13:49.320
+this stuff they just abbreviated her
+
+00:13:49.320 --> 00:13:52.500
+name Kayla uh Henrietta blacks right
+
+00:13:52.500 --> 00:13:55.320
+tequila cells and so every time that
+
+00:13:55.320 --> 00:13:57.480
+these are used legitimately with the
+
+00:13:57.480 --> 00:14:00.839
+family&#x27;s consent they tokenize that and
+
+00:14:00.839 --> 00:14:02.700
+by tokenized that I mean they write it
+
+00:14:02.700 --> 00:14:04.260
+down in a record they put it in a ledger
+
+00:14:04.260 --> 00:14:08.040
+this is an nft it is a unique item and a
+
+00:14:08.040 --> 00:14:09.720
+pleasure I mean it can be written on
+
+00:14:09.720 --> 00:14:11.100
+this chair and it could be in Excel it
+
+00:14:11.100 --> 00:14:12.480
+could be written on a piece of paper
+
+00:14:12.480 --> 00:14:15.420
+that&#x27;s a ledger that is an nft
+
+00:14:15.420 --> 00:14:17.100
+we can also do nfts on the blockchain
+
+00:14:17.100 --> 00:14:18.720
+that&#x27;s cool too
+
+00:14:18.720 --> 00:14:20.700
+formalizing further we need to be able
+
+00:14:20.700 --> 00:14:23.339
+to prove that these tests we have to
+
+00:14:23.339 --> 00:14:24.959
+prove these attestations there&#x27;s a
+
+00:14:24.959 --> 00:14:27.360
+permission granted so if you are using
+
+00:14:27.360 --> 00:14:29.519
+this cell for research and you are
+
+00:14:29.519 --> 00:14:32.519
+permitted by the council you want to
+
+00:14:32.519 --> 00:14:34.200
+know that if you&#x27;re doing an Ethics
+
+00:14:34.200 --> 00:14:36.300
+Committee review with your school and
+
+00:14:36.300 --> 00:14:37.560
+they&#x27;re like oh yeah we don&#x27;t want to
+
+00:14:37.560 --> 00:14:40.440
+use stolen cells from somebody civil
+
+00:14:40.440 --> 00:14:42.360
+rights issues from 70 years ago and
+
+00:14:42.360 --> 00:14:44.940
+you&#x27;re like oh no they approved it how
+
+00:14:44.940 --> 00:14:46.800
+many times have you had to prove to your
+
+00:14:46.800 --> 00:14:48.420
+ethics Council where you got your stuff
+
+00:14:48.420 --> 00:14:51.300
+from right I hope no well that&#x27;s a
+
+00:14:51.300 --> 00:14:53.399
+problem guess what that&#x27;s changing and
+
+00:14:53.399 --> 00:14:54.600
+we&#x27;re going to start demanding these
+
+00:14:54.600 --> 00:14:56.279
+things now
+
+00:14:56.279 --> 00:14:59.339
+this is a pretty high profile cell so if
+
+00:14:59.339 --> 00:15:00.899
+they say it&#x27;s true and they they put on
+
+00:15:00.899 --> 00:15:03.000
+their website that&#x27;s gold but for some
+
+00:15:03.000 --> 00:15:05.459
+of these less visible projects you want
+
+00:15:05.459 --> 00:15:06.779
+to have that somewhere
+
+00:15:06.779 --> 00:15:09.360
+blockchain a website
+
+00:15:09.360 --> 00:15:11.760
+anywhere an email chain that you can
+
+00:15:11.760 --> 00:15:14.399
+copy paste and prove but you want
+
+00:15:14.399 --> 00:15:16.199
+something so I just want to formalize
+
+00:15:16.199 --> 00:15:18.300
+this
+
+00:15:18.300 --> 00:15:20.579
+uh these these attestations when you
+
+00:15:20.579 --> 00:15:23.040
+have permission to use this data it may
+
+00:15:23.040 --> 00:15:25.440
+or may not be transferable
+
+00:15:25.440 --> 00:15:27.740
+n of T is may or may not be transferable
+
+00:15:27.740 --> 00:15:30.360
+nfts can be on blockchains nfts can live
+
+00:15:30.360 --> 00:15:33.300
+in a Cell a very practical guy I want
+
+00:15:33.300 --> 00:15:35.160
+these applications to work so I&#x27;m not
+
+00:15:35.160 --> 00:15:37.320
+telling you use blockchain or ethereum
+
+00:15:37.320 --> 00:15:40.920
+or c721 I just want you to make better
+
+00:15:40.920 --> 00:15:42.959
+systems and attribute where attribution
+
+00:15:42.959 --> 00:15:44.959
+is due
+
+00:15:44.959 --> 00:15:48.600
+who do science Dallas benefit well in
+
+00:15:48.600 --> 00:15:50.880
+this situation we&#x27;ve got her family
+
+00:15:50.880 --> 00:15:53.519
+right and they want two things one is
+
+00:15:53.519 --> 00:15:55.920
+they would like money for all the money
+
+00:15:55.920 --> 00:15:58.260
+that was made off of the cells and two
+
+00:15:58.260 --> 00:16:00.660
+they want to say in where this research
+
+00:16:00.660 --> 00:16:03.480
+is used they say oh we want you to run
+
+00:16:03.480 --> 00:16:06.060
+it by us why are you using these cells
+
+00:16:06.060 --> 00:16:07.800
+what types of outcomes are you working
+
+00:16:07.800 --> 00:16:10.620
+on we want to know many people now that
+
+00:16:10.620 --> 00:16:11.579
+they&#x27;re aware of this there&#x27;s been
+
+00:16:11.579 --> 00:16:13.440
+documentaries and books on this and
+
+00:16:13.440 --> 00:16:15.360
+they&#x27;d like to give credit we want to
+
+00:16:15.360 --> 00:16:17.100
+celebrate the success of this woman who
+
+00:16:17.100 --> 00:16:19.920
+unwittingly donated
+
+00:16:19.920 --> 00:16:23.339
+unwittingly gave these cells right and
+
+00:16:23.339 --> 00:16:27.300
+helped polio AIDS vaccines all types of
+
+00:16:27.300 --> 00:16:29.160
+things were possible because of this and
+
+00:16:29.160 --> 00:16:30.680
+this family has an interest in just
+
+00:16:30.680 --> 00:16:33.660
+recognizing that so that is a
+
+00:16:33.660 --> 00:16:36.839
+beneficiary of attribution of data in
+
+00:16:36.839 --> 00:16:38.820
+science I&#x27;ve got a specific application
+
+00:16:38.820 --> 00:16:41.459
+but quick a little survey please raise
+
+00:16:41.459 --> 00:16:45.420
+your hand if you are of European descent
+
+00:16:45.420 --> 00:16:47.639
+okay please keep your hand up if you
+
+00:16:47.639 --> 00:16:49.740
+identify as white
+
+00:16:49.740 --> 00:16:51.899
+okay this is science so we can say these
+
+00:16:51.899 --> 00:16:54.300
+things okay if your hand is up you are
+
+00:16:54.300 --> 00:16:56.220
+over represented in pharmaceutical
+
+00:16:56.220 --> 00:16:58.680
+research you are overrepresented in DNA
+
+00:16:58.680 --> 00:17:00.839
+research and therapies that are based on
+
+00:17:00.839 --> 00:17:03.899
+DNA that is a problem if your hand was
+
+00:17:03.899 --> 00:17:06.720
+down you are an opportunity to improve
+
+00:17:06.720 --> 00:17:07.860
+farming
+
+00:17:07.860 --> 00:17:10.699
+that&#x27;s what I&#x27;m working on
+
+00:17:11.640 --> 00:17:13.559
+here&#x27;s an example this is something I
+
+00:17:13.559 --> 00:17:15.600
+did with a client not current client
+
+00:17:15.600 --> 00:17:18.600
+this is called somos this is a DNA test
+
+00:17:18.600 --> 00:17:20.520
+kit this they&#x27;ve got to Booth it and
+
+00:17:20.520 --> 00:17:23.160
+that&#x27;s the NSC so here&#x27;s what this is it
+
+00:17:23.160 --> 00:17:25.500
+works exactly like and it um
+
+00:17:25.500 --> 00:17:28.919
+works exactly like 23andMe you open it
+
+00:17:28.919 --> 00:17:30.540
+up
+
+00:17:30.540 --> 00:17:32.700
+there&#x27;s a test kit now there&#x27;s some laws
+
+00:17:32.700 --> 00:17:34.200
+in the US that are done that say you
+
+00:17:34.200 --> 00:17:36.059
+have to give your name when you give DNA
+
+00:17:36.059 --> 00:17:38.039
+which we
+
+00:17:38.039 --> 00:17:40.200
+interestingly work around by having a
+
+00:17:40.200 --> 00:17:41.580
+default name
+
+00:17:41.580 --> 00:17:43.740
+and when you do this your name is using
+
+00:17:43.740 --> 00:17:46.280
+this does anybody know what this is
+
+00:17:46.280 --> 00:17:49.700
+seed phrase
+
+00:17:50.039 --> 00:17:52.380
+okay these are 12 words I designed this
+
+00:17:52.380 --> 00:17:55.140
+I prayed with all this so this is a
+
+00:17:55.140 --> 00:17:57.780
+crude and well-known system but it works
+
+00:17:57.780 --> 00:18:01.919
+for creating identity digitally and when
+
+00:18:01.919 --> 00:18:04.860
+your status comes back you can decide
+
+00:18:04.860 --> 00:18:07.740
+where your data is used now this system
+
+00:18:07.740 --> 00:18:10.260
+is specifically for people of Latino
+
+00:18:10.260 --> 00:18:13.260
+descent in South America specifically
+
+00:18:13.260 --> 00:18:16.200
+indigenous folks indigenous so they have
+
+00:18:16.200 --> 00:18:18.660
+a very strong concentration of a
+
+00:18:18.660 --> 00:18:21.000
+specific gene pool which is great for
+
+00:18:21.000 --> 00:18:23.400
+farming farmer loves this they would
+
+00:18:23.400 --> 00:18:26.280
+love to have more diverse things so that
+
+00:18:26.280 --> 00:18:28.440
+when they launch their drugs they don&#x27;t
+
+00:18:28.440 --> 00:18:30.660
+just kill everybody because their sample
+
+00:18:30.660 --> 00:18:33.000
+population is so overrepresented by some
+
+00:18:33.000 --> 00:18:35.280
+Europeans they want to have more
+
+00:18:35.280 --> 00:18:38.460
+indigenous specific people this allows
+
+00:18:38.460 --> 00:18:41.100
+that now we&#x27;re not just taking our data
+
+00:18:41.100 --> 00:18:42.900
+we are allowing them to participate and
+
+00:18:42.900 --> 00:18:43.980
+they have visibility and traceability
+
+00:18:43.980 --> 00:18:45.780
+all the way down supply chain let&#x27;s go
+
+00:18:45.780 --> 00:18:48.419
+right so let&#x27;s do this type of stuff in
+
+00:18:48.419 --> 00:18:49.559
+more places
+
+00:18:49.559 --> 00:18:51.539
+um this is just one Mighty example of
+
+00:18:51.539 --> 00:18:54.720
+what is possible with data downs and
+
+00:18:54.720 --> 00:18:57.240
+supply chain traceability of data
+
+00:18:57.240 --> 00:19:01.160
+specifically DNA
+
+00:19:05.460 --> 00:19:07.740
+all right looking at another example
+
+00:19:07.740 --> 00:19:09.780
+there are other types of ways that nfts
+
+00:19:09.780 --> 00:19:12.419
+can benefit science I looked at an
+
+00:19:12.419 --> 00:19:14.400
+example molecule now there&#x27;s some
+
+00:19:14.400 --> 00:19:16.740
+specific things on here uh so I say good
+
+00:19:16.740 --> 00:19:18.480
+things I say bad things so what we&#x27;re
+
+00:19:18.480 --> 00:19:20.340
+looking at right here is different
+
+00:19:20.340 --> 00:19:22.679
+specific research projects which you can
+
+00:19:22.679 --> 00:19:25.380
+also be a stakeholder in the way this
+
+00:19:25.380 --> 00:19:26.520
+one is working is they&#x27;re more
+
+00:19:26.520 --> 00:19:28.679
+interested in in the money their mission
+
+00:19:28.679 --> 00:19:31.500
+says molecule is creating liquid and
+
+00:19:31.500 --> 00:19:34.679
+easily investable assets now I also
+
+00:19:34.679 --> 00:19:36.419
+checked the SEC website and I did not
+
+00:19:36.419 --> 00:19:38.580
+see them registered in Edgar so watch
+
+00:19:38.580 --> 00:19:39.720
+out for that
+
+00:19:39.720 --> 00:19:41.280
+um the SEC is currently five years
+
+00:19:41.280 --> 00:19:44.400
+behind on bringing lawsuits so if this
+
+00:19:44.400 --> 00:19:47.520
+was less than five years old
+
+00:19:47.520 --> 00:19:50.039
+you know be careful all right so good
+
+00:19:50.039 --> 00:19:52.860
+luck uh watch out for that but these are
+
+00:19:52.860 --> 00:19:54.419
+all I&#x27;m not saying this is a bad thing
+
+00:19:54.419 --> 00:19:56.460
+I&#x27;m just saying I&#x27;m very practical guy
+
+00:19:56.460 --> 00:19:57.780
+so I don&#x27;t want you to be in jail I
+
+00:19:57.780 --> 00:19:59.280
+haven&#x27;t been in jail does that make me
+
+00:19:59.280 --> 00:20:01.559
+not an injury so you know I want these
+
+00:20:01.559 --> 00:20:03.059
+things to work I want different types of
+
+00:20:03.059 --> 00:20:05.100
+stakeholders to be represented in
+
+00:20:05.100 --> 00:20:07.140
+science
+
+00:20:07.140 --> 00:20:10.620
+the ethics so biotech Innovations raise
+
+00:20:10.620 --> 00:20:13.320
+ethical questions every time so we need
+
+00:20:13.320 --> 00:20:15.299
+to study the different stakeholders I
+
+00:20:15.299 --> 00:20:17.400
+don&#x27;t have the answers for you but what
+
+00:20:17.400 --> 00:20:18.960
+I can say is if you have more
+
+00:20:18.960 --> 00:20:21.179
+stakeholders more diverse stakeholders
+
+00:20:21.179 --> 00:20:23.520
+you will get probably
+
+00:20:23.520 --> 00:20:26.340
+more answers maybe not even like you&#x27;ll
+
+00:20:26.340 --> 00:20:27.900
+get more answers and hopefully if you if
+
+00:20:27.900 --> 00:20:29.100
+you&#x27;re smart you can get better answers
+
+00:20:29.100 --> 00:20:32.520
+we can have ownership and permission at
+
+00:20:32.520 --> 00:20:34.260
+least visible
+
+00:20:34.260 --> 00:20:35.820
+I&#x27;m not saying it&#x27;s going to be better
+
+00:20:35.820 --> 00:20:36.780
+I&#x27;m not going to say we&#x27;re going to
+
+00:20:36.780 --> 00:20:38.340
+solve these problems but we&#x27;re not going
+
+00:20:38.340 --> 00:20:40.440
+to right but it will be a little better
+
+00:20:40.440 --> 00:20:41.880
+that&#x27;s what we&#x27;re that&#x27;s what I&#x27;m going
+
+00:20:41.880 --> 00:20:43.620
+for it&#x27;s better okay
+
+00:20:43.620 --> 00:20:46.500
+privacy and security these are things
+
+00:20:46.500 --> 00:20:48.120
+that blockchain does not specifically
+
+00:20:48.120 --> 00:20:50.580
+solve however if you have something
+
+00:20:50.580 --> 00:20:53.460
+that&#x27;s valuable like DNA access that
+
+00:20:53.460 --> 00:20:54.900
+other people don&#x27;t have and you pay for
+
+00:20:54.900 --> 00:20:56.039
+it
+
+00:20:56.039 --> 00:20:57.660
+maybe you&#x27;re going to keep it secure
+
+00:20:57.660 --> 00:20:59.460
+because you paid for it
+
+00:20:59.460 --> 00:21:01.320
+if you&#x27;re going to have something and
+
+00:21:01.320 --> 00:21:02.820
+you went through an Ethics Committee and
+
+00:21:02.820 --> 00:21:04.919
+you paid for it right you have this data
+
+00:21:04.919 --> 00:21:08.640
+why would you put it on uh lip side
+
+00:21:08.640 --> 00:21:11.580
+right when everyone else is going to
+
+00:21:11.580 --> 00:21:13.440
+publish first right so what did you
+
+00:21:13.440 --> 00:21:15.179
+publish get your stuff out there and
+
+00:21:15.179 --> 00:21:16.860
+this have this rare commodity you&#x27;re
+
+00:21:16.860 --> 00:21:20.960
+using okay and
+
+00:21:21.240 --> 00:21:23.039
+now there&#x27;s a downside when you use
+
+00:21:23.039 --> 00:21:24.299
+Downs
+
+00:21:24.299 --> 00:21:27.120
+unlike the Hella
+
+00:21:27.120 --> 00:21:29.460
+cell line when you have a lot of when
+
+00:21:29.460 --> 00:21:30.900
+you have a lot of participants with
+
+00:21:30.900 --> 00:21:32.700
+diverse opinions in it now something you
+
+00:21:32.700 --> 00:21:34.260
+need to watch out for is a lot of times
+
+00:21:34.260 --> 00:21:35.700
+we talk about doubt we&#x27;re just doing
+
+00:21:35.700 --> 00:21:39.000
+majority voted or quadratic voting which
+
+00:21:39.000 --> 00:21:41.760
+is not quadratic and these are the all
+
+00:21:41.760 --> 00:21:43.440
+right you guys know that it&#x27;s cool so
+
+00:21:43.440 --> 00:21:46.620
+we&#x27;re using this is the other one second
+
+00:21:46.620 --> 00:21:48.000
+quadratic funding that&#x27;s the other one
+
+00:21:48.000 --> 00:21:49.980
+quadratic funding right so these
+
+00:21:49.980 --> 00:21:51.360
+approaches
+
+00:21:51.360 --> 00:21:53.280
+mean if there&#x27;s if there&#x27;s a voting
+
+00:21:53.280 --> 00:21:56.280
+system which is a consensus mechanism
+
+00:21:56.280 --> 00:21:58.260
+more General awareness consensus in the
+
+00:21:58.260 --> 00:22:00.299
+way the building quadratic so if you
+
+00:22:00.299 --> 00:22:02.039
+have a consensus mechanism
+
+00:22:02.039 --> 00:22:03.480
+especially if it&#x27;s enforced on chain
+
+00:22:03.480 --> 00:22:06.120
+that means some people their vote will
+
+00:22:06.120 --> 00:22:08.100
+not be the way that this thing goes
+
+00:22:08.100 --> 00:22:11.760
+so they&#x27;re submitting there&#x27;s a they are
+
+00:22:11.760 --> 00:22:13.980
+submitting to the outcome is this a rule
+
+00:22:13.980 --> 00:22:15.900
+by committee
+
+00:22:15.900 --> 00:22:18.299
+human cooperation Robert&#x27;s Rules and
+
+00:22:18.299 --> 00:22:20.340
+committees have been studied forever and
+
+00:22:20.340 --> 00:22:21.780
+there will be some people that are not
+
+00:22:21.780 --> 00:22:23.580
+happy with the outcome that&#x27;s just
+
+00:22:23.580 --> 00:22:24.960
+something you could know that&#x27;s
+
+00:22:24.960 --> 00:22:27.120
+different than having every person
+
+00:22:27.120 --> 00:22:28.919
+individually make a decision they&#x27;re
+
+00:22:28.919 --> 00:22:31.080
+making a consensus just saying watch out
+
+00:22:31.080 --> 00:22:32.700
+for that
+
+00:22:32.700 --> 00:22:35.400
+so this is me come up here and I&#x27;ll be
+
+00:22:35.400 --> 00:22:36.780
+happy to talk about this anymore but
+
+00:22:36.780 --> 00:22:39.360
+also have a weekly call to go into
+
+00:22:39.360 --> 00:22:42.360
+these high level topics but also much
+
+00:22:42.360 --> 00:22:43.860
+deeper technically on things that you&#x27;re
+
+00:22:43.860 --> 00:22:46.140
+doing I have a little Cube that you can
+
+00:22:46.140 --> 00:22:48.659
+pick up a little Domino on the table and
+
+00:22:48.659 --> 00:22:51.419
+this is my weekly call
+
+00:22:51.419 --> 00:22:54.080
+thank you
+
+00:22:55.340 --> 00:22:59.000
+[Applause]
+
+00:22:59.000 --> 00:23:02.159
+one more thing
+
+00:23:02.159 --> 00:23:03.960
+so getting a little more technical I did
+
+00:23:03.960 --> 00:23:05.400
+want to bring some original research
+
+00:23:05.400 --> 00:23:07.200
+today and give you something that we
+
+00:23:07.200 --> 00:23:08.940
+could take them and use for data science
+
+00:23:08.940 --> 00:23:10.559
+now we&#x27;re getting nerdier all right
+
+00:23:10.559 --> 00:23:12.659
+let&#x27;s go so this is something on GitHub
+
+00:23:12.659 --> 00:23:15.299
+I&#x27;ve got code let&#x27;s talk about this this
+
+00:23:15.299 --> 00:23:17.039
+is a simple template
+
+00:23:17.039 --> 00:23:19.679
+for SQL databases who doesn&#x27;t use who
+
+00:23:19.679 --> 00:23:21.240
+does not use SQL for your data science
+
+00:23:21.240 --> 00:23:24.179
+okay let&#x27;s go who uses who uses graph
+
+00:23:24.179 --> 00:23:27.240
+for data science in medical research
+
+00:23:27.240 --> 00:23:30.000
+zero no one okay let&#x27;s see
+
+00:23:30.000 --> 00:23:32.039
+this is an example of a SQL database
+
+00:23:32.039 --> 00:23:34.440
+running sqlite did you come around
+
+00:23:34.440 --> 00:23:36.000
+locally and I&#x27;ve got a demo up here so
+
+00:23:36.000 --> 00:23:37.620
+come on up I&#x27;ll show it to you but not
+
+00:23:37.620 --> 00:23:40.140
+ones not on the screen where everything
+
+00:23:40.140 --> 00:23:42.480
+that you do creates an audit Trail
+
+00:23:42.480 --> 00:23:43.559
+result
+
+00:23:43.559 --> 00:23:45.480
+so every record that you put in every
+
+00:23:45.480 --> 00:23:48.360
+record that you modify has an ID and
+
+00:23:48.360 --> 00:23:50.400
+these ID is add up
+
+00:23:50.400 --> 00:23:52.140
+does anybody else know another type of
+
+00:23:52.140 --> 00:23:54.539
+database that has immutable records that
+
+00:23:54.539 --> 00:23:56.340
+are append only
+
+00:23:56.340 --> 00:23:59.100
+blockchain blockchain we&#x27;ve stolen the
+
+00:23:59.100 --> 00:24:01.080
+most important part of blockchain and
+
+00:24:01.080 --> 00:24:03.659
+just brought it down to SQL which is
+
+00:24:03.659 --> 00:24:05.880
+what we&#x27;re already using so this example
+
+00:24:05.880 --> 00:24:07.799
+shows you how to do that automatically
+
+00:24:07.799 --> 00:24:10.860
+with triggers to Nerdy with triggers so
+
+00:24:10.860 --> 00:24:12.179
+that you can have an append only
+
+00:24:12.179 --> 00:24:13.380
+database
+
+00:24:13.380 --> 00:24:15.600
+append only databases some of the magic
+
+00:24:15.600 --> 00:24:17.640
+things with blockchain that you know how
+
+00:24:17.640 --> 00:24:19.320
+do you quickly summarize information in
+
+00:24:19.320 --> 00:24:21.539
+a blockchain where you can expose some
+
+00:24:21.539 --> 00:24:25.039
+of the information but not all of it
+
+00:24:25.140 --> 00:24:27.120
+how do you summarize anything
+
+00:24:27.120 --> 00:24:29.820
+cash it you can hash it what is hashes
+
+00:24:29.820 --> 00:24:31.799
+of hashes
+
+00:24:31.799 --> 00:24:34.860
+Merkle root Merkel hashes Miracle trees
+
+00:24:34.860 --> 00:24:36.780
+so this allows us to have a database
+
+00:24:36.780 --> 00:24:39.179
+where we expose some of it
+
+00:24:39.179 --> 00:24:41.520
+and again you don&#x27;t need blockchain if
+
+00:24:41.520 --> 00:24:42.900
+you&#x27;re working in big Pharma you don&#x27;t
+
+00:24:42.900 --> 00:24:44.700
+need to prove you don&#x27;t need to go to
+
+00:24:44.700 --> 00:24:45.840
+legal and say we&#x27;re going to do a
+
+00:24:45.840 --> 00:24:47.460
+blockchain project you go to your data
+
+00:24:47.460 --> 00:24:48.960
+people and like we&#x27;re going to do a SQL
+
+00:24:48.960 --> 00:24:49.679
+project
+
+00:24:49.679 --> 00:24:51.900
+and that&#x27;s how you get things pissed you
+
+00:24:51.900 --> 00:24:54.659
+take the smallest knife and you you know
+
+00:24:54.659 --> 00:24:56.159
+you make an incision so I&#x27;ve got an
+
+00:24:56.159 --> 00:24:58.260
+example of that of where if you&#x27;ve got
+
+00:24:58.260 --> 00:25:00.480
+these blockchain ideas and you actually
+
+00:25:00.480 --> 00:25:01.740
+want to use them
+
+00:25:01.740 --> 00:25:03.900
+do them with your existing team don&#x27;t go
+
+00:25:03.900 --> 00:25:05.100
+through legal and reviews if you&#x27;re
+
+00:25:05.100 --> 00:25:06.720
+anybody&#x27;s in big company here you know I
+
+00:25:06.720 --> 00:25:08.340
+make these Solutions happen too so I
+
+00:25:08.340 --> 00:25:09.600
+want to give you the tools of the
+
+00:25:09.600 --> 00:25:11.280
+easiest things I&#x27;ve got a little GitHub
+
+00:25:11.280 --> 00:25:12.840
+repo but you can study that you can play
+
+00:25:12.840 --> 00:25:15.360
+it if you use Mac it has SQL three SQL
+
+00:25:15.360 --> 00:25:16.679
+Lite three built-in you don&#x27;t have to
+
+00:25:16.679 --> 00:25:18.480
+download anything anything you can show
+
+00:25:18.480 --> 00:25:21.500
+up here and you can check out yourself
+
+00:25:24.110 --> 00:25:26.600
+[Applause]
+
+00:25:26.600 --> 00:25:29.760
+wow what an amazing talk
+
+00:25:29.760 --> 00:25:31.200
+um well I think we probably have
+
+00:25:31.200 --> 00:25:33.000
+questions for I know I have a lot of
+
+00:25:33.000 --> 00:25:34.620
+questions but
+
+00:25:34.620 --> 00:25:36.720
+um does anyone have any questions
+
+00:25:36.720 --> 00:25:39.120
+on The Talk
+
+00:25:39.120 --> 00:25:40.799
+I&#x27;ll start
+
+00:25:40.799 --> 00:25:42.600
+um okay so you you hash the entire date
+
+00:25:42.600 --> 00:25:44.039
+I don&#x27;t like that last thing so you hash
+
+00:25:44.039 --> 00:25:47.039
+the entire data set and um how do you
+
+00:25:47.039 --> 00:25:49.620
+confirm that that hash hasn&#x27;t been
+
+00:25:49.620 --> 00:25:52.320
+mutated by someone else so how do you
+
+00:25:52.320 --> 00:25:54.600
+like say you replay the whole thing you
+
+00:25:54.600 --> 00:25:56.460
+still need to have you still have that
+
+00:25:56.460 --> 00:25:57.600
+hash where you need to prove that you
+
+00:25:57.600 --> 00:25:59.340
+haven&#x27;t tampered with that so we have we
+
+00:25:59.340 --> 00:26:00.720
+have attestation but we also require
+
+00:26:00.720 --> 00:26:02.340
+digital security
+
+00:26:02.340 --> 00:26:05.100
+so in stealing ideas from blockchain how
+
+00:26:05.100 --> 00:26:07.140
+does blockchain provide digital security
+
+00:26:07.140 --> 00:26:09.059
+tied to an identity
+
+00:26:09.059 --> 00:26:12.380
+consensus no
+
+00:26:14.159 --> 00:26:16.020
+how does blockchain how do you know that
+
+00:26:16.020 --> 00:26:18.480
+the blockchain records are authentic and
+
+00:26:18.480 --> 00:26:20.580
+created by the people that they say
+
+00:26:20.580 --> 00:26:22.200
+they&#x27;re created by how do you verify
+
+00:26:22.200 --> 00:26:24.539
+that feature it&#x27;s a signature we use
+
+00:26:24.539 --> 00:26:26.580
+digital signatures how do we know that
+
+00:26:26.580 --> 00:26:28.380
+those digital signatures tie back to
+
+00:26:28.380 --> 00:26:30.059
+people that we care about
+
+00:26:30.059 --> 00:26:32.120
+yeah
+
+00:26:32.120 --> 00:26:37.080
+the IDS how do you publish the IDS
+
+00:26:37.080 --> 00:26:41.720
+on blockchain but no not on blockchain
+
+00:26:41.820 --> 00:26:43.200
+how do you make the credential
+
+00:26:43.200 --> 00:26:44.460
+verifiable
+
+00:26:44.460 --> 00:26:46.320
+certificate Authority
+
+00:26:46.320 --> 00:26:48.419
+yes how do you know which website Google
+
+00:26:48.419 --> 00:26:49.500
+is on
+
+00:26:49.500 --> 00:26:53.279
+oh DNS DNS so you&#x27;re using this we use a
+
+00:26:53.279 --> 00:26:55.860
+centralized registry as these techniques
+
+00:26:55.860 --> 00:26:59.100
+are also applicable to databases we can
+
+00:26:59.100 --> 00:27:02.340
+use DNS to store signing keys and when
+
+00:27:02.340 --> 00:27:04.260
+you can use these signing keys
+
+00:27:04.260 --> 00:27:06.539
+to sign databases which we publish
+
+00:27:06.539 --> 00:27:08.279
+anywhere
+
+00:27:08.279 --> 00:27:11.340
+we can sign hashes anywhere
+
+00:27:11.340 --> 00:27:13.260
+all the technology exists and does not
+
+00:27:13.260 --> 00:27:15.779
+require blockchain use blockchain it&#x27;s
+
+00:27:15.779 --> 00:27:17.940
+great but I also want to say that these
+
+00:27:17.940 --> 00:27:20.100
+ideas are so simple that we can get them
+
+00:27:20.100 --> 00:27:21.779
+done anywhere
+
+00:27:21.779 --> 00:27:24.419
+yeah no excuses
+
+00:27:24.419 --> 00:27:27.179
+oh yeah so you were saying skip the
+
+00:27:27.179 --> 00:27:29.279
+legal review so I was wondering what you
+
+00:27:29.279 --> 00:27:32.940
+meant by that just create a product and
+
+00:27:32.940 --> 00:27:35.460
+you skip the regulatory stuff I&#x27;ve
+
+00:27:35.460 --> 00:27:37.320
+worked on a lot of projects on very big
+
+00:27:37.320 --> 00:27:40.080
+organizations I helped Ernst young work
+
+00:27:40.080 --> 00:27:42.179
+with Microsoft to change the way that
+
+00:27:42.179 --> 00:27:45.299
+they record royalties on Xbox
+
+00:27:45.299 --> 00:27:47.700
+I worked with French brands that are 200
+
+00:27:47.700 --> 00:27:50.520
+years old that make watches change how
+
+00:27:50.520 --> 00:27:51.960
+they authenticate their their
+
+00:27:51.960 --> 00:27:54.120
+merchandise they change literally change
+
+00:27:54.120 --> 00:27:56.279
+the certificate of authenticity I&#x27;ve
+
+00:27:56.279 --> 00:27:57.840
+seen watch companies that have been
+
+00:27:57.840 --> 00:28:00.600
+around for 200 years that are French you
+
+00:28:00.600 --> 00:28:02.400
+know anything about French people allow
+
+00:28:02.400 --> 00:28:04.980
+a customer to be intermediated by a
+
+00:28:04.980 --> 00:28:07.080
+third-party company
+
+00:28:07.080 --> 00:28:10.080
+these are really tough things to do you
+
+00:28:10.080 --> 00:28:11.419
+don&#x27;t want to try that hard
+
+00:28:11.419 --> 00:28:13.559
+if you can get something done faster
+
+00:28:13.559 --> 00:28:15.900
+than that the minute that you say we&#x27;re
+
+00:28:15.900 --> 00:28:18.360
+going to deploy a blockchain project at
+
+00:28:18.360 --> 00:28:20.100
+a Pharma company which I&#x27;ve also done
+
+00:28:20.100 --> 00:28:23.460
+Merck animal health uses blockchain in
+
+00:28:23.460 --> 00:28:25.799
+production for drugs they sell friends
+
+00:28:25.799 --> 00:28:28.080
+right so these things work they&#x27;re in
+
+00:28:28.080 --> 00:28:30.000
+production but when you&#x27;re selling it
+
+00:28:30.000 --> 00:28:32.340
+internally don&#x27;t be like hey we&#x27;re going
+
+00:28:32.340 --> 00:28:33.779
+to launch this thing on ethereum and be
+
+00:28:33.779 --> 00:28:35.880
+like nope
+
+00:28:35.880 --> 00:28:38.700
+you&#x27;d be like hey we&#x27;re going to add
+
+00:28:38.700 --> 00:28:40.919
+audit trails to our databases they&#x27;re
+
+00:28:40.919 --> 00:28:42.480
+going to say we don&#x27;t have Auto trials
+
+00:28:42.480 --> 00:28:44.400
+on our databases you&#x27;re like no you
+
+00:28:44.400 --> 00:28:46.380
+forgot to turn that on an sap
+
+00:28:46.380 --> 00:28:48.539
+turn it on on that same thing that&#x27;s the
+
+00:28:48.539 --> 00:28:50.520
+first step to hashing your databases
+
+00:28:50.520 --> 00:28:52.799
+providing a testation so all these
+
+00:28:52.799 --> 00:28:54.000
+things can be done with your existing
+
+00:28:54.000 --> 00:28:57.240
+resources but the magic is you know what
+
+00:28:57.240 --> 00:28:59.340
+happens when we have a database that we
+
+00:28:59.340 --> 00:29:02.100
+sub hash so that we&#x27;re not publishing
+
+00:29:02.100 --> 00:29:04.200
+databases we&#x27;re hashing the publishing
+
+00:29:04.200 --> 00:29:06.419
+hashes that we signed do you know how
+
+00:29:06.419 --> 00:29:08.039
+powerful that is we know what happens
+
+00:29:08.039 --> 00:29:09.900
+when you do that but these are very
+
+00:29:09.900 --> 00:29:11.760
+small asks hey
+
+00:29:11.760 --> 00:29:14.100
+um we want data Assurance for our
+
+00:29:14.100 --> 00:29:16.080
+internal business records
+
+00:29:16.080 --> 00:29:18.480
+that&#x27;s an easy yeah we don&#x27;t have a data
+
+00:29:18.480 --> 00:29:19.620
+insurance for our internal business no
+
+00:29:19.620 --> 00:29:21.600
+you don&#x27;t you need to Hash your
+
+00:29:21.600 --> 00:29:23.399
+databases we need to have insurance
+
+00:29:23.399 --> 00:29:25.559
+assurances for our customers when they
+
+00:29:25.559 --> 00:29:27.059
+buy our stuff but these are only we
+
+00:29:27.059 --> 00:29:28.140
+don&#x27;t have assurances for our customers
+
+00:29:28.140 --> 00:29:29.159
+when they buy our stuff these are
+
+00:29:29.159 --> 00:29:31.320
+legitimate no we need to published
+
+00:29:31.320 --> 00:29:33.179
+hashes and sign them so these are the
+
+00:29:33.179 --> 00:29:36.419
+way that you ask your operational people
+
+00:29:36.419 --> 00:29:37.980
+with the agenda that you have in the
+
+00:29:37.980 --> 00:29:38.880
+back of your mind that you&#x27;re going to
+
+00:29:38.880 --> 00:29:40.799
+be really pushing forward these ideas
+
+00:29:40.799 --> 00:29:42.240
+by the time you&#x27;re done you&#x27;ve
+
+00:29:42.240 --> 00:29:44.700
+introduced assurances for your records
+
+00:29:44.700 --> 00:29:47.880
+attestations verifiable records
+
+00:29:47.880 --> 00:29:50.460
+99 of blockchain and you get all the
+
+00:29:50.460 --> 00:29:52.080
+benefits and you&#x27;re just doing good
+
+00:29:52.080 --> 00:29:53.220
+business stuff that you should have been
+
+00:29:53.220 --> 00:29:55.520
+doing anyway
+
+00:29:56.220 --> 00:29:58.620
+just use different words and you avoid
+
+00:29:58.620 --> 00:30:00.419
+the lawyers
+
+00:30:00.419 --> 00:30:01.679
+if you if you want them to say no faster
+
+00:30:01.679 --> 00:30:03.779
+don&#x27;t say don&#x27;t say blockchain say we
+
+00:30:03.779 --> 00:30:06.500
+want to use Bitcoin
+
+00:30:06.659 --> 00:30:08.700
+so like is this all being done to like
+
+00:30:08.700 --> 00:30:11.100
+get people into uh
+
+00:30:11.100 --> 00:30:12.419
+sort of architecture where they could
+
+00:30:12.419 --> 00:30:13.919
+eventually use a public network or do
+
+00:30:13.919 --> 00:30:14.880
+you actually just think that the
+
+00:30:14.880 --> 00:30:16.559
+benefits of using a public network for
+
+00:30:16.559 --> 00:30:19.140
+these attest Nations
+
+00:30:19.140 --> 00:30:21.840
+doesn&#x27;t matter in order to deploy the
+
+00:30:21.840 --> 00:30:23.580
+public network at a large organization
+
+00:30:23.580 --> 00:30:25.559
+organizations that matter I&#x27;m not saying
+
+00:30:25.559 --> 00:30:26.880
+small doesn&#x27;t matter but
+
+00:30:26.880 --> 00:30:28.679
+that matter you know the ones that are
+
+00:30:28.679 --> 00:30:30.240
+going to be on point desk that are going
+
+00:30:30.240 --> 00:30:31.320
+to be you know on the New York Times
+
+00:30:31.320 --> 00:30:34.440
+right those organizations in order to
+
+00:30:34.440 --> 00:30:37.320
+deploy these type of data down stuff
+
+00:30:37.320 --> 00:30:39.120
+you will still have to do all these
+
+00:30:39.120 --> 00:30:40.260
+steps anyway
+
+00:30:40.260 --> 00:30:43.380
+difference is either you&#x27;re asking hey I
+
+00:30:43.380 --> 00:30:44.820
+want to
+
+00:30:44.820 --> 00:30:46.380
+make databases with audit Trails do
+
+00:30:46.380 --> 00:30:48.179
+attestations hash things and make
+
+00:30:48.179 --> 00:30:50.159
+customers be able to audit our stuff and
+
+00:30:50.159 --> 00:30:52.320
+deploy an ethereum based roll-up ZK
+
+00:30:52.320 --> 00:30:54.320
+proof Network
+
+00:30:54.320 --> 00:30:56.220
+it should all just be built into
+
+00:30:56.220 --> 00:31:00.860
+postgres at once yeah right or I want to
+
+00:31:00.860 --> 00:31:03.179
+ABCD so you&#x27;re getting the same place
+
+00:31:03.179 --> 00:31:04.440
+but I&#x27;m just getting you there faster
+
+00:31:04.440 --> 00:31:06.179
+with a way more practical and smaller
+
+00:31:06.179 --> 00:31:07.140
+steps
+
+00:31:07.140 --> 00:31:08.880
+it&#x27;s also very likely that you won&#x27;t
+
+00:31:08.880 --> 00:31:11.039
+need that last step because I&#x27;m the
+
+00:31:11.039 --> 00:31:12.299
+first person to tell you you don&#x27;t need
+
+00:31:12.299 --> 00:31:14.279
+nfts on blockchain I tell every client
+
+00:31:14.279 --> 00:31:15.899
+they&#x27;re like I want to do this they said
+
+00:31:15.899 --> 00:31:17.880
+hey we want to
+
+00:31:17.880 --> 00:31:20.399
+improve inclusion of different ethnic
+
+00:31:20.399 --> 00:31:22.260
+groups in pharmaceutical research and we
+
+00:31:22.260 --> 00:31:25.740
+want to use nfts I&#x27;m like yes maybe
+
+00:31:25.740 --> 00:31:28.440
+and you know we had to use this card yes
+
+00:31:28.440 --> 00:31:30.779
+okay they made me do it this way but you
+
+00:31:30.779 --> 00:31:32.100
+can get this to Market faster without
+
+00:31:32.100 --> 00:31:34.140
+blockchain good enough
+
+00:31:34.140 --> 00:31:36.360
+so all I care about is improving medical
+
+00:31:36.360 --> 00:31:38.460
+outcomes for a diverse population of
+
+00:31:38.460 --> 00:31:40.080
+people is that that&#x27;s it that is their
+
+00:31:40.080 --> 00:31:41.940
+mission I support that and they just
+
+00:31:41.940 --> 00:31:44.100
+happen to want to do ABCDEF all at the
+
+00:31:44.100 --> 00:31:46.080
+same time which is good too
+
+00:31:46.080 --> 00:31:47.640
+all right it&#x27;s probably a silly question
+
+00:31:47.640 --> 00:31:50.640
+nope which part of this is actually the
+
+00:31:50.640 --> 00:31:52.740
+the c721 part
+
+00:31:52.740 --> 00:31:54.480
+so where is where does that come into
+
+00:31:54.480 --> 00:31:59.059
+yep where is what is stored there
+
+00:31:59.460 --> 00:32:03.000
+the data permission is the nft
+
+00:32:03.000 --> 00:32:05.299
+so non-fungible token if you don&#x27;t know
+
+00:32:05.299 --> 00:32:08.760
+non-fungible means a number and token
+
+00:32:08.760 --> 00:32:11.220
+means worthless it is a worthless no
+
+00:32:11.220 --> 00:32:13.020
+that is what an nmt is
+
+00:32:13.020 --> 00:32:14.520
+the reason why people like nfts is
+
+00:32:14.520 --> 00:32:17.220
+because they represent other stuff I got
+
+00:32:17.220 --> 00:32:19.140
+an idea in my pocket that&#x27;s got a number
+
+00:32:19.140 --> 00:32:21.120
+I&#x27;ve got a car title that&#x27;s my car
+
+00:32:21.120 --> 00:32:23.220
+ownership I care about the car which
+
+00:32:23.220 --> 00:32:24.419
+number is it
+
+00:32:24.419 --> 00:32:26.399
+does anybody know the number on their
+
+00:32:26.399 --> 00:32:29.220
+car title registration no you don&#x27;t care
+
+00:32:29.220 --> 00:32:31.260
+it is not an important it is a worthless
+
+00:32:31.260 --> 00:32:33.659
+number but what if that number
+
+00:32:33.659 --> 00:32:35.820
+represents your ownership
+
+00:32:35.820 --> 00:32:38.760
+ownership permission to use data in a
+
+00:32:38.760 --> 00:32:42.179
+experiment or in medical research well
+
+00:32:42.179 --> 00:32:43.740
+that is the same number that you need to
+
+00:32:43.740 --> 00:32:46.140
+give to your professor to sign off on
+
+00:32:46.140 --> 00:32:47.220
+your research
+
+00:32:47.220 --> 00:32:48.720
+because if they look that number up and
+
+00:32:48.720 --> 00:32:51.240
+it doesn&#x27;t if it&#x27;s 404 not found
+
+00:32:51.240 --> 00:32:52.799
+you&#x27;re not getting fun
+
+00:32:52.799 --> 00:32:54.480
+or they&#x27;re gonna be like uh try again
+
+00:32:54.480 --> 00:32:56.340
+bro you need to
+
+00:32:56.340 --> 00:32:57.899
+give me not give me something that&#x27;s
+
+00:32:57.899 --> 00:33:00.059
+wrong so that number is going to log in
+
+00:33:00.059 --> 00:33:01.559
+somewhere it&#x27;s going to check a thing
+
+00:33:01.559 --> 00:33:03.600
+and it&#x27;s going to connect to a green
+
+00:33:03.600 --> 00:33:06.120
+check mark that says Yep this University
+
+00:33:06.120 --> 00:33:09.240
+is approved for this thing to be used on
+
+00:33:09.240 --> 00:33:10.260
+this project
+
+00:33:10.260 --> 00:33:13.019
+and you&#x27;re just going to connect
+
+00:33:13.019 --> 00:33:14.580
+does that make sense yeah that makes
+
+00:33:14.580 --> 00:33:16.860
+sense and so users get to because it&#x27;s
+
+00:33:16.860 --> 00:33:18.539
+their nft they get to
+
+00:33:18.539 --> 00:33:21.179
+like at what point do users um come
+
+00:33:21.179 --> 00:33:23.039
+through and say where do they get to
+
+00:33:23.039 --> 00:33:24.899
+send their permissions that&#x27;s something
+
+00:33:24.899 --> 00:33:27.120
+the permission comes from the so same
+
+00:33:27.120 --> 00:33:28.919
+way the permissions always come from the
+
+00:33:28.919 --> 00:33:30.240
+person that has it to the person that&#x27;s
+
+00:33:30.240 --> 00:33:32.279
+paying for it this is intellectual
+
+00:33:32.279 --> 00:33:33.899
+property this is the same exact model we
+
+00:33:33.899 --> 00:33:35.640
+use for licensing
+
+00:33:35.640 --> 00:33:38.220
+Xbox games on Microsoft platforms to
+
+00:33:38.220 --> 00:33:40.080
+people that are buying it when you don&#x27;t
+
+00:33:40.080 --> 00:33:43.019
+buy games you license games so the data
+
+00:33:43.019 --> 00:33:46.140
+the data is in the nft nope okay
+
+00:33:46.140 --> 00:33:47.820
+permission that&#x27;s the permissions just
+
+00:33:47.820 --> 00:33:49.679
+the permission okay then you can use
+
+00:33:49.679 --> 00:33:52.279
+token getting
+
+00:33:52.740 --> 00:33:54.299
+that is a very specific word you don&#x27;t
+
+00:33:54.299 --> 00:33:56.399
+have to do a token key but you will have
+
+00:33:56.399 --> 00:33:58.080
+access to the data obviously after you
+
+00:33:58.080 --> 00:34:00.659
+pay for it by whichever mechanism but
+
+00:34:00.659 --> 00:34:02.880
+your authorization which you prove to
+
+00:34:02.880 --> 00:34:05.159
+other people is this number
+
+00:34:05.159 --> 00:34:06.419
+you can look it up
+
+00:34:06.419 --> 00:34:08.820
+just like a pattern you have a pen so
+
+00:34:08.820 --> 00:34:11.220
+the pattern is the country grants you
+
+00:34:11.220 --> 00:34:14.220
+exclusive rights to commercially exploit
+
+00:34:14.220 --> 00:34:15.960
+a specific invention
+
+00:34:15.960 --> 00:34:18.119
+represented by a number so when you buy
+
+00:34:18.119 --> 00:34:20.820
+an Apple computer and this chair that&#x27;s
+
+00:34:20.820 --> 00:34:22.139
+patented for some reason there&#x27;s on the
+
+00:34:22.139 --> 00:34:25.200
+bottom it says actual number 135. you
+
+00:34:25.200 --> 00:34:26.339
+look up that patent number you&#x27;re like
+
+00:34:26.339 --> 00:34:27.359
+oh snap
+
+00:34:27.359 --> 00:34:30.119
+Apple does own the license the pen to
+
+00:34:30.119 --> 00:34:32.960
+make this shape of unibody
+
+00:34:32.960 --> 00:34:35.220
+MacBook Pro so you&#x27;re not going to do
+
+00:34:35.220 --> 00:34:37.320
+that now if you type in that number and
+
+00:34:37.320 --> 00:34:39.419
+now that shows that we don&#x27;t know why
+
+00:34:39.419 --> 00:34:41.159
+they&#x27;re actually supposed to tell you if
+
+00:34:41.159 --> 00:34:42.960
+it&#x27;s nice if it&#x27;s patented right so
+
+00:34:42.960 --> 00:34:44.220
+these are that&#x27;s the thing that&#x27;s just
+
+00:34:44.220 --> 00:34:46.379
+it&#x27;s just the pattern the patent is a
+
+00:34:46.379 --> 00:34:48.179
+extension of a permission
+
+00:34:48.179 --> 00:34:52.099
+data Dallas extension of preparation
+
+00:34:53.460 --> 00:34:55.440
+please all right one more question are
+
+00:34:55.440 --> 00:34:57.540
+you a fan of silver token
+
+00:34:57.540 --> 00:35:00.599
+yes uh unfortunately
+
+00:35:00.599 --> 00:35:02.700
+what&#x27;s your definition Does it include
+
+00:35:02.700 --> 00:35:06.000
+uh wrapable or only externally advocates
+
+00:35:06.000 --> 00:35:08.040
+sorry what what&#x27;s your definition of
+
+00:35:08.040 --> 00:35:10.280
+Southern
+
+00:35:13.339 --> 00:35:17.359
+non-transferable yeah yeah okay
+
+00:35:20.820 --> 00:35:22.859
+this is cat and mouse game
+
+00:35:22.859 --> 00:35:24.900
+people make sold-bound tokens as a
+
+00:35:24.900 --> 00:35:26.400
+restriction because they don&#x27;t want them
+
+00:35:26.400 --> 00:35:28.380
+to do something with their nft
+
+00:35:28.380 --> 00:35:30.839
+I know a great use case of somebody that
+
+00:35:30.839 --> 00:35:33.240
+wants to make nfts extremely popular
+
+00:35:33.240 --> 00:35:34.800
+artists that&#x27;s working on this right now
+
+00:35:34.800 --> 00:35:36.300
+and she says I don&#x27;t want anybody
+
+00:35:36.300 --> 00:35:38.880
+selling my nfts I want them to just
+
+00:35:38.880 --> 00:35:40.920
+do experience the thing that she does as
+
+00:35:40.920 --> 00:35:43.560
+an artist and not have a secondary
+
+00:35:43.560 --> 00:35:47.160
+market for these nfts and
+
+00:35:47.160 --> 00:35:50.099
+that&#x27;s a restriction so that&#x27;s going to
+
+00:35:50.099 --> 00:35:51.720
+be yeah she&#x27;s going to require that
+
+00:35:51.720 --> 00:35:52.859
+she&#x27;s not going to do this project but
+
+00:35:52.859 --> 00:35:55.079
+that&#x27;s not the thing right so that that
+
+00:35:55.079 --> 00:35:58.140
+is a requirement that the artist has now
+
+00:35:58.140 --> 00:36:00.900
+that is just a requirement so if that&#x27;s
+
+00:36:00.900 --> 00:36:02.339
+not going to happen she&#x27;s not going to
+
+00:36:02.339 --> 00:36:04.079
+participate in the system
+
+00:36:04.079 --> 00:36:06.540
+just like this data down for these
+
+00:36:06.540 --> 00:36:08.940
+immortable cell line they don&#x27;t want you
+
+00:36:08.940 --> 00:36:10.800
+to use it for other purposes if they
+
+00:36:10.800 --> 00:36:14.099
+Grant you this nft for doing research
+
+00:36:14.099 --> 00:36:16.560
+about uh you know cancel research and
+
+00:36:16.560 --> 00:36:17.700
+they want you to do cancer research
+
+00:36:17.700 --> 00:36:19.619
+great but if you&#x27;re going to do this
+
+00:36:19.619 --> 00:36:21.960
+research on some type of abortion and
+
+00:36:21.960 --> 00:36:23.339
+they don&#x27;t like that type of abortion
+
+00:36:23.339 --> 00:36:25.079
+then they&#x27;re going to say no
+
+00:36:25.079 --> 00:36:27.060
+it&#x27;s up to them to Grant it but you
+
+00:36:27.060 --> 00:36:28.260
+can&#x27;t go in there and be like okay I&#x27;m
+
+00:36:28.260 --> 00:36:30.240
+going to do cancer research oh psych I&#x27;m
+
+00:36:30.240 --> 00:36:31.140
+going to take that and I&#x27;m going to give
+
+00:36:31.140 --> 00:36:32.220
+it to someone else and they&#x27;re going to
+
+00:36:32.220 --> 00:36:35.099
+do whatever else well that defeats the
+
+00:36:35.099 --> 00:36:36.119
+whole purpose of them granting
+
+00:36:36.119 --> 00:36:37.980
+permission on a case-by-case basis so
+
+00:36:37.980 --> 00:36:39.660
+for them they would say sold down tokens
+
+00:36:39.660 --> 00:36:40.680
+only
+
+00:36:40.680 --> 00:36:42.780
+now there are possibly some ways to get
+
+00:36:42.780 --> 00:36:44.220
+around that and now it becomes a cat and
+
+00:36:44.220 --> 00:36:45.480
+mouse game so I won&#x27;t go too deep into
+
+00:36:45.480 --> 00:36:46.200
+that
+
+00:36:46.200 --> 00:36:50.119
+excellent well with that
+
+00:36:50.660 --> 00:36:54.119
+[Applause]
+
+00:36:54.119 --> 00:36:57.599
+um for uh oh wait we have one more thing
+
+00:36:57.599 --> 00:36:59.579
+one more one more thing
+
+00:36:59.579 --> 00:37:02.400
+one more thing as a thank you again
+
+00:37:02.400 --> 00:37:03.599
+um
+
+00:37:03.599 --> 00:37:04.800
+to this
+
+00:37:04.800 --> 00:37:08.339
+um Beaker yeah that has uh that you can
+
+00:37:08.339 --> 00:37:10.260
+measure your fluids in and it has the
+
+00:37:10.260 --> 00:37:14.359
+DSi NYC logo there so
+
+00:37:15.430 --> 00:37:16.380
+[Applause]
+
+00:37:16.380 --> 00:37:17.240
+um
+
+00:37:17.240 --> 00:37:20.579
+we have to go out of the building but
+
+00:37:20.579 --> 00:37:22.680
+um there&#x27;s plenty of other things it&#x27;s
+
+00:37:22.680 --> 00:37:25.260
+New York city so again we&#x27;ll be doing
+
+00:37:25.260 --> 00:37:26.880
+this again next month I will send you an
+
+00:37:26.880 --> 00:37:29.700
+email all with uh details on how to
+
+00:37:29.700 --> 00:37:31.619
+attend that as well and yeah thank you
+
+00:37:31.619 --> 00:37:33.920
+guys again
+

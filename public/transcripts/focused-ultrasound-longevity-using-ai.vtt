@@ -1,0 +1,7604 @@
+WEBVTT
+
+00:00:04.240 --> 00:00:07.640
+okay cool well um thank you guys for all
+
+00:00:07.640 --> 00:00:12.240
+coming to uh D NYC here and uh it&#x27;s a
+
+00:00:12.240 --> 00:00:15.679
+pleasure to have you here and um I&#x27;ll
+
+00:00:15.679 --> 00:00:17.359
+just tell you a little bit about like
+
+00:00:17.359 --> 00:00:21.640
+what is D NYC um it&#x27;s a monthly Meetup
+
+00:00:21.640 --> 00:00:23.240
+that we talk about all different things
+
+00:00:23.240 --> 00:00:26.439
+about the intersection of blockchain and
+
+00:00:26.439 --> 00:00:29.480
+Science and uh we get a lot of people we
+
+00:00:29.480 --> 00:00:32.360
+have a site um it&#x27;s about speakers it&#x27;s
+
+00:00:32.360 --> 00:00:34.320
+about Community it&#x27;s about pizza we
+
+00:00:34.320 --> 00:00:35.879
+record all our talks and make them
+
+00:00:35.879 --> 00:00:38.360
+accessible online um we have a group
+
+00:00:38.360 --> 00:00:40.520
+chat application here where you can like
+
+00:00:40.520 --> 00:00:43.079
+have like a little like after the um
+
+00:00:43.079 --> 00:00:46.280
+party is over you can still continue to
+
+00:00:46.280 --> 00:00:48.960
+uh chat with people um so you can fill
+
+00:00:48.960 --> 00:00:51.480
+that form
+
+00:00:52.520 --> 00:00:56.800
+out cool um here&#x27;s some of our previous
+
+00:00:56.800 --> 00:00:58.960
+speakers we started off with like a
+
+00:00:58.960 --> 00:01:00.840
+distributed mushroom collecting and then
+
+00:01:00.840 --> 00:01:02.760
+this guy who was doing self-administered
+
+00:01:02.760 --> 00:01:04.879
+psychedelic experiments and then someone
+
+00:01:04.879 --> 00:01:06.560
+who talked about bees and then we had
+
+00:01:06.560 --> 00:01:09.200
+Martin scy with AI in medicine we had
+
+00:01:09.200 --> 00:01:11.200
+the guy that invented the nfts we had
+
+00:01:11.200 --> 00:01:12.920
+the person with from research Hub who
+
+00:01:12.920 --> 00:01:15.320
+started that um we had this side
+
+00:01:15.320 --> 00:01:18.360
+combinator demo day we had um people on
+
+00:01:18.360 --> 00:01:21.560
+longevity from codow from age one we had
+
+00:01:21.560 --> 00:01:24.640
+a professor from um Albert Einstein
+
+00:01:24.640 --> 00:01:27.320
+medicine on longevity and tissue
+
+00:01:27.320 --> 00:01:29.920
+replacement and um if you guys took pict
+
+00:01:29.920 --> 00:01:32.479
+pictures um make sure to tag us on
+
+00:01:32.479 --> 00:01:35.520
+Twitter or Instagram it&#x27;s really we love
+
+00:01:35.520 --> 00:01:38.240
+it when people uh retweet it sort of
+
+00:01:38.240 --> 00:01:39.960
+sucks to uh have to beg for it but
+
+00:01:39.960 --> 00:01:42.320
+whatever um it was very helpful if you
+
+00:01:42.320 --> 00:01:45.040
+follow us and uh if you took pictures we
+
+00:01:45.040 --> 00:01:47.880
+I&#x27;ll I&#x27;ll retweet them and would greatly
+
+00:01:47.880 --> 00:01:50.360
+appreciate
+
+00:01:51.960 --> 00:01:54.479
+it can you send this point out
+
+00:01:54.479 --> 00:01:57.200
+afterwards so we have are the talks
+
+00:01:57.200 --> 00:01:59.240
+recorded yes should be here they
+
+00:01:59.240 --> 00:02:01.920
+recorded yes it is okay where do you uh
+
+00:02:01.920 --> 00:02:04.840
+put them um on D
+
+00:02:04.840 --> 00:02:08.079
+DCI do
+
+00:02:10.360 --> 00:02:16.640
+NC okay um so take pictures tag us um so
+
+00:02:16.640 --> 00:02:19.879
+our what is decentralized science um
+
+00:02:19.879 --> 00:02:21.480
+it&#x27;s like the emergence so it
+
+00:02:21.480 --> 00:02:24.400
+decentralized science came from uh sort
+
+00:02:24.400 --> 00:02:26.760
+of Defi and defi was like everyone was
+
+00:02:26.760 --> 00:02:28.280
+trading tokens everyone&#x27;s creating
+
+00:02:28.280 --> 00:02:30.400
+tokens and exchanging value but what&#x27;s
+
+00:02:30.400 --> 00:02:33.120
+really cool about dii is that people are
+
+00:02:33.120 --> 00:02:34.680
+trying to use the blockchain instead of
+
+00:02:34.680 --> 00:02:36.560
+just sort of swapping tokens people are
+
+00:02:36.560 --> 00:02:38.720
+adding data on chain people are doing
+
+00:02:38.720 --> 00:02:40.480
+analysis collaboratively people are
+
+00:02:40.480 --> 00:02:42.519
+splitting up the IP between people that
+
+00:02:42.519 --> 00:02:44.480
+started projects and so there&#x27;s like
+
+00:02:44.480 --> 00:02:47.280
+exogenic information coming into the
+
+00:02:47.280 --> 00:02:49.440
+blockchain and then we&#x27;re using like
+
+00:02:49.440 --> 00:02:51.599
+this distributed Ledger technology to
+
+00:02:51.599 --> 00:02:55.519
+try and um make it more of a meritocracy
+
+00:02:55.519 --> 00:02:57.519
+around who&#x27;s credited For What and
+
+00:02:57.519 --> 00:02:59.519
+incentivizing scientific research in new
+
+00:02:59.519 --> 00:03:00.840
+ways
+
+00:03:00.840 --> 00:03:02.560
+and there&#x27;s all sorts of reasons why
+
+00:03:02.560 --> 00:03:05.720
+you&#x27;d want to do this like um you know
+
+00:03:05.720 --> 00:03:07.200
+traditional science has a lot of
+
+00:03:07.200 --> 00:03:08.920
+problems in in
+
+00:03:08.920 --> 00:03:09.960
+funding
+
+00:03:09.960 --> 00:03:11.200
+[Music]
+
+00:03:11.200 --> 00:03:13.799
+um in funding like there&#x27;s like there&#x27;s
+
+00:03:13.799 --> 00:03:15.519
+only so much funding to go around and
+
+00:03:15.519 --> 00:03:17.360
+it&#x27;s typically granted by a government
+
+00:03:17.360 --> 00:03:19.560
+agency and uh decentralized science
+
+00:03:19.560 --> 00:03:22.360
+offers a way to crowdsource the funding
+
+00:03:22.360 --> 00:03:24.560
+uh peer review can sometimes be slow and
+
+00:03:24.560 --> 00:03:26.280
+distributed Ledger Technologies can
+
+00:03:26.280 --> 00:03:29.519
+offer a way for people to um crowdsource
+
+00:03:29.519 --> 00:03:32.439
+um um uh pure
+
+00:03:32.439 --> 00:03:34.959
+Publications and um I think one of the
+
+00:03:34.959 --> 00:03:37.760
+more interesting things is like um
+
+00:03:37.760 --> 00:03:40.640
+allowing people to incentivize science
+
+00:03:40.640 --> 00:03:42.879
+in new ways So currently science is
+
+00:03:42.879 --> 00:03:47.000
+incentivized using sort of uh Academia
+
+00:03:47.000 --> 00:03:48.560
+and you have to get a postto or you have
+
+00:03:48.560 --> 00:03:49.959
+to get a professorship or you&#x27;re trying
+
+00:03:49.959 --> 00:03:52.879
+to get into a good graduate school but
+
+00:03:52.879 --> 00:03:55.040
+and then you you didn&#x27;t start a company
+
+00:03:55.040 --> 00:03:56.799
+but all these sort of incentives can
+
+00:03:56.799 --> 00:03:58.480
+sometimes be a little bit misaligned and
+
+00:03:58.480 --> 00:04:00.840
+create uh Mis and create sort of
+
+00:04:00.840 --> 00:04:02.599
+amalgamations that you weren&#x27;t expecting
+
+00:04:02.599 --> 00:04:04.920
+to begin with what&#x27;s cool around
+
+00:04:04.920 --> 00:04:07.360
+decentralized science is like uh you
+
+00:04:07.360 --> 00:04:09.239
+you&#x27;re you when you start a project
+
+00:04:09.239 --> 00:04:10.640
+you&#x27;re you&#x27;re creating like sort of like
+
+00:04:10.640 --> 00:04:13.959
+a company and that company holds IP and
+
+00:04:13.959 --> 00:04:15.720
+then everyone that sort of participates
+
+00:04:15.720 --> 00:04:18.440
+in the company um it gets tokens in
+
+00:04:18.440 --> 00:04:20.919
+reward for the data that they contribute
+
+00:04:20.919 --> 00:04:23.280
+in rewards for the research in the
+
+00:04:23.280 --> 00:04:27.440
+rewards for like the um uh numerical
+
+00:04:27.440 --> 00:04:29.400
+analysis that they do do work writing it
+
+00:04:29.400 --> 00:04:33.120
+up and those tokens Can then be used to
+
+00:04:33.120 --> 00:04:36.080
+uh buy whatever or as a status or for
+
+00:04:36.080 --> 00:04:38.440
+lots of different things so it makes the
+
+00:04:38.440 --> 00:04:41.120
+like the the beginning to the end
+
+00:04:41.120 --> 00:04:42.759
+process of doing science a little bit
+
+00:04:42.759 --> 00:04:44.639
+more open and a little bit more clear
+
+00:04:44.639 --> 00:04:47.000
+from the
+
+00:04:47.320 --> 00:04:49.800
+GetGo
+
+00:04:49.800 --> 00:04:53.759
+um so I&#x27;ll just talk about and then for
+
+00:04:53.759 --> 00:04:55.440
+our next talk so we&#x27;re going to do
+
+00:04:55.440 --> 00:04:56.840
+another one and this one came out
+
+00:04:56.840 --> 00:04:59.880
+relatively quickly so this one&#x27;s on uh
+
+00:04:59.880 --> 00:05:02.919
+February 22nd and we have the founder or
+
+00:05:02.919 --> 00:05:07.160
+the president of uh the enhanced games
+
+00:05:07.160 --> 00:05:08.800
+so the enhanced games are a really
+
+00:05:08.800 --> 00:05:11.880
+interesting idea of using um like the
+
+00:05:11.880 --> 00:05:14.639
+Olympic type Sports in competition and
+
+00:05:14.639 --> 00:05:16.440
+it&#x27;s like the Olympics but instead of
+
+00:05:16.440 --> 00:05:18.479
+the Olympics being where they check
+
+00:05:18.479 --> 00:05:20.479
+people for doping very carefully it&#x27;s
+
+00:05:20.479 --> 00:05:22.319
+like un un there&#x27;s no checking you&#x27;re
+
+00:05:22.319 --> 00:05:24.880
+supposed to dope and
+
+00:05:24.880 --> 00:05:27.560
+uh and uh what I think is interesting
+
+00:05:27.560 --> 00:05:30.319
+about it from a scientific perspective
+
+00:05:30.319 --> 00:05:34.680
+is um it&#x27;s like a way into looking into
+
+00:05:34.680 --> 00:05:37.400
+performance enhancing drugs can help
+
+00:05:37.400 --> 00:05:40.160
+with medicine or help with sports and
+
+00:05:40.160 --> 00:05:42.520
+right now medicine is very a little bit
+
+00:05:42.520 --> 00:05:43.840
+retrospective looking where it&#x27;s like
+
+00:05:43.840 --> 00:05:45.840
+someone gets sick and then they come
+
+00:05:45.840 --> 00:05:47.759
+into a doctor and they&#x27;re like okay we
+
+00:05:47.759 --> 00:05:49.440
+have all these different things but
+
+00:05:49.440 --> 00:05:50.639
+what&#x27;s interesting about this is they
+
+00:05:50.639 --> 00:05:52.039
+taking a healthy person and either
+
+00:05:52.039 --> 00:05:53.360
+making them even more sick and get
+
+00:05:53.360 --> 00:05:57.240
+cancer at 25 or um trying to enhance
+
+00:05:57.240 --> 00:06:00.360
+their life uh and maybe maybe prevent
+
+00:06:00.360 --> 00:06:02.479
+death give them more muscle mass and
+
+00:06:02.479 --> 00:06:04.199
+sort of seeing what happens so I think
+
+00:06:04.199 --> 00:06:06.520
+it&#x27;ll be interesting to see what happens
+
+00:06:06.520 --> 00:06:08.840
+uh where where they go with this and to
+
+00:06:08.840 --> 00:06:11.680
+look at it from a point of from the
+
+00:06:11.680 --> 00:06:13.240
+point of view of like a science
+
+00:06:13.240 --> 00:06:16.400
+perspective so uh the link to do that is
+
+00:06:16.400 --> 00:06:19.039
+here um does anyone have any questions
+
+00:06:19.039 --> 00:06:21.319
+around decentralized
+
+00:06:21.319 --> 00:06:23.039
+science
+
+00:06:23.039 --> 00:06:25.840
+yes I guess uh would you mind comparing
+
+00:06:25.840 --> 00:06:30.120
+and contrasting it to AR yeah so archive
+
+00:06:30.120 --> 00:06:33.199
+is around the final publishing of it and
+
+00:06:33.199 --> 00:06:35.120
+there you&#x27;re still not you&#x27;re not
+
+00:06:35.120 --> 00:06:36.880
+getting any like you&#x27;ve done all the
+
+00:06:36.880 --> 00:06:38.319
+research it&#x27;s been funded by the
+
+00:06:38.319 --> 00:06:41.039
+government it&#x27;s been funded by uh it&#x27;s
+
+00:06:41.039 --> 00:06:43.680
+the research happens within a university
+
+00:06:43.680 --> 00:06:45.599
+through a pi through graduate students
+
+00:06:45.599 --> 00:06:48.400
+through research assistance um they then
+
+00:06:48.400 --> 00:06:50.440
+send out surveys to people that don&#x27;t
+
+00:06:50.440 --> 00:06:52.639
+necessarily uh care about taking the
+
+00:06:52.639 --> 00:06:53.599
+survey and are just trying to get
+
+00:06:53.599 --> 00:06:54.800
+through it as quickly as possible to get
+
+00:06:54.800 --> 00:06:57.639
+their $20 Amazon gift card um and then
+
+00:06:57.639 --> 00:07:01.120
+they uh go take all the research up and
+
+00:07:01.120 --> 00:07:02.680
+write it and publish it an archive where
+
+00:07:02.680 --> 00:07:05.440
+there&#x27;s either no peer review or uh Open
+
+00:07:05.440 --> 00:07:07.360
+Access quickly but you don&#x27;t you can&#x27;t
+
+00:07:07.360 --> 00:07:09.400
+see like necessarily who contributed
+
+00:07:09.400 --> 00:07:12.479
+what to the science project and uh if
+
+00:07:12.479 --> 00:07:13.960
+you contribute you don&#x27;t get any sort of
+
+00:07:13.960 --> 00:07:15.759
+credit Beyond like your name at the top
+
+00:07:15.759 --> 00:07:18.560
+of the paper whereas but it is a good
+
+00:07:18.560 --> 00:07:19.960
+step in the right direction whereas
+
+00:07:19.960 --> 00:07:21.479
+maybe a decentralized science approach
+
+00:07:21.479 --> 00:07:22.879
+would be someone comes up with a
+
+00:07:22.879 --> 00:07:25.440
+hypothesis that people can participate
+
+00:07:25.440 --> 00:07:27.680
+in and then multiple people add their
+
+00:07:27.680 --> 00:07:29.639
+data to the blockchain so there&#x27;s Prov
+
+00:07:29.639 --> 00:07:31.680
+for every part of the data um everyone
+
+00:07:31.680 --> 00:07:34.479
+that contributes as part owner of the IP
+
+00:07:34.479 --> 00:07:36.599
+and Equity of the project and then they
+
+00:07:36.599 --> 00:07:39.639
+can sell their IP or Equity um for money
+
+00:07:39.639 --> 00:07:43.319
+for use it as a way to get a job or any
+
+00:07:43.319 --> 00:07:45.919
+other number of
+
+00:07:47.240 --> 00:07:51.919
+things anyone else one more yes like my
+
+00:07:51.919 --> 00:07:53.759
+question with decentralized SCI that I
+
+00:07:53.759 --> 00:07:56.520
+always wonder is like when citations are
+
+00:07:56.520 --> 00:07:59.840
+the primary driver of funding currently
+
+00:07:59.840 --> 00:08:01.520
+what do you think would incentivize like
+
+00:08:01.520 --> 00:08:03.520
+a promising young scientist to say I&#x27;d
+
+00:08:03.520 --> 00:08:05.560
+want to contribute to a decentralized
+
+00:08:05.560 --> 00:08:08.840
+project if it potentially like takes
+
+00:08:08.840 --> 00:08:11.360
+away from the method of growth that are
+
+00:08:11.360 --> 00:08:12.960
+career currently yeah I mean I think you
+
+00:08:12.960 --> 00:08:14.360
+can make more money in decentralized
+
+00:08:14.360 --> 00:08:16.199
+science because you might be limited to
+
+00:08:16.199 --> 00:08:18.960
+a certain salary and so there might be a
+
+00:08:18.960 --> 00:08:21.639
+possibility of making more money in a uh
+
+00:08:21.639 --> 00:08:23.479
+unbounded way where you&#x27;re sort of
+
+00:08:23.479 --> 00:08:25.280
+working more for yourself as opposed to
+
+00:08:25.280 --> 00:08:27.400
+working within a traditional academic
+
+00:08:27.400 --> 00:08:28.560
+setting of course it comes with you can
+
+00:08:28.560 --> 00:08:30.319
+make no money as well
+
+00:08:30.319 --> 00:08:32.760
+um and it&#x27;s for people I think it&#x27;s not
+
+00:08:32.760 --> 00:08:34.440
+trying to compete for those types of
+
+00:08:34.440 --> 00:08:36.279
+things honestly I think it&#x27;s for people
+
+00:08:36.279 --> 00:08:38.719
+who are looking to go a separate path in
+
+00:08:38.719 --> 00:08:42.320
+trying to do research as opposed to um
+
+00:08:42.320 --> 00:08:44.200
+trying to compete with things so like
+
+00:08:44.200 --> 00:08:46.200
+decentralized science projects aren&#x27;t
+
+00:08:46.200 --> 00:08:49.160
+the type of thing that um aren&#x27;t people
+
+00:08:49.160 --> 00:08:50.720
+aren&#x27;t trying to do like basic research
+
+00:08:50.720 --> 00:08:52.640
+right now whereas in like traditional
+
+00:08:52.640 --> 00:08:54.040
+universities there&#x27;s a lot of basic
+
+00:08:54.040 --> 00:08:55.440
+research being done but there&#x27;s also a
+
+00:08:55.440 --> 00:08:57.440
+lot of non-basic research being done in
+
+00:08:57.440 --> 00:08:59.720
+universities which I think can be better
+
+00:08:59.720 --> 00:09:01.720
+done in the decentralized science
+
+00:09:01.720 --> 00:09:05.839
+approach than through the traditional
+
+00:09:05.839 --> 00:09:10.000
+Academia cool okay so we have um we have
+
+00:09:10.000 --> 00:09:12.519
+two amazing speakers tonight um the
+
+00:09:12.519 --> 00:09:15.680
+first is Vincent who uh is a professor
+
+00:09:15.680 --> 00:09:18.120
+at Columbia University in the
+
+00:09:18.120 --> 00:09:21.240
+Neuroscience department and uh he&#x27;s been
+
+00:09:21.240 --> 00:09:22.959
+doing this very interesting thing which
+
+00:09:22.959 --> 00:09:25.160
+we&#x27;re going to talk about on focused
+
+00:09:25.160 --> 00:09:28.360
+ultrasound and focused ultrasound has
+
+00:09:28.360 --> 00:09:31.360
+been uh as of late become very very
+
+00:09:31.360 --> 00:09:33.519
+popular because it is completely
+
+00:09:33.519 --> 00:09:35.720
+non-invasive and it&#x27;s uh pretty
+
+00:09:35.720 --> 00:09:38.120
+generalizable around the body and very
+
+00:09:38.120 --> 00:09:42.000
+cheap to administer so uh it&#x27;ll he&#x27;s
+
+00:09:42.000 --> 00:09:43.800
+been but he has been doing this for 12
+
+00:09:43.800 --> 00:09:46.440
+years so we&#x27;re excited to uh hear what
+
+00:09:46.440 --> 00:09:47.800
+he has to say thank you and we thank you
+
+00:09:47.800 --> 00:09:50.640
+for coming out tonight as
+
+00:09:51.530 --> 00:09:55.590
+[Applause]
+
+00:09:56.800 --> 00:09:59.680
+well I think it might be better
+
+00:09:59.680 --> 00:10:02.120
+yeah let me just make sure it works to
+
+00:10:02.120 --> 00:10:07.079
+get to Stage okay all right okay um well
+
+00:10:07.079 --> 00:10:09.040
+thank you very much for inviting me and
+
+00:10:09.040 --> 00:10:11.240
+thank you all for coming out this is
+
+00:10:11.240 --> 00:10:13.640
+really exciting I fully support
+
+00:10:13.640 --> 00:10:16.600
+decentralized science we um you know
+
+00:10:16.600 --> 00:10:18.399
+we&#x27;re putting a lot of data sets on the
+
+00:10:18.399 --> 00:10:21.279
+internet and you know publishing on bio
+
+00:10:21.279 --> 00:10:23.839
+archive and stuff like that um it&#x27;s a
+
+00:10:23.839 --> 00:10:27.000
+really great concept um and you know
+
+00:10:27.000 --> 00:10:29.160
+freeing ourselves from the shackles of
+
+00:10:29.160 --> 00:10:32.519
+traditional science um you know can only
+
+00:10:32.519 --> 00:10:37.000
+benefit everybody I think um also I have
+
+00:10:37.000 --> 00:10:38.800
+to say this is the first time I&#x27;ve ever
+
+00:10:38.800 --> 00:10:41.760
+given a talk in
+
+00:10:42.480 --> 00:10:44.839
+socks and that&#x27;s perfectly fitting
+
+00:10:44.839 --> 00:10:46.240
+because this is going to be a little bit
+
+00:10:46.240 --> 00:10:49.120
+casual so um you know bear with me a
+
+00:10:49.120 --> 00:10:49.839
+little
+
+00:10:49.839 --> 00:10:53.920
+bit uh so yeah that&#x27;s me um I&#x27;m at
+
+00:10:53.920 --> 00:10:57.399
+Columbia uh my disclosures are I&#x27;m just
+
+00:10:57.399 --> 00:11:01.200
+a poor scientist I have no Financial
+
+00:11:01.200 --> 00:11:04.320
+relationships um who is this guy uh so
+
+00:11:04.320 --> 00:11:06.000
+I&#x27;m a cognitive neuroscientist I&#x27;m
+
+00:11:06.000 --> 00:11:08.279
+interested in learning memory attention
+
+00:11:08.279 --> 00:11:11.079
+decision- making in prefrontal cortex
+
+00:11:11.079 --> 00:11:14.560
+and in the basal ganglia um of primates
+
+00:11:14.560 --> 00:11:17.000
+uh which includes monkeys and humans um
+
+00:11:17.000 --> 00:11:19.560
+the tools that I use I heavily rely on
+
+00:11:19.560 --> 00:11:22.360
+behavioral methods electrophysiological
+
+00:11:22.360 --> 00:11:24.200
+methods uh these neat new
+
+00:11:24.200 --> 00:11:26.519
+neurotransmitter reporters which is a
+
+00:11:26.519 --> 00:11:28.480
+whole other story that I&#x27;d love to tell
+
+00:11:28.480 --> 00:11:30.920
+you about but no time uh chemogenetics
+
+00:11:30.920 --> 00:11:32.600
+which you might know something about and
+
+00:11:32.600 --> 00:11:35.079
+what I&#x27;m going to focus on uh no pun
+
+00:11:35.079 --> 00:11:38.040
+intended is focused ultrasound and so
+
+00:11:38.040 --> 00:11:39.639
+you know at this stage in my life you
+
+00:11:39.639 --> 00:11:41.680
+know I&#x27;m a full Professor my kids are
+
+00:11:41.680 --> 00:11:44.480
+grown I&#x27;m an empty nester I have a real
+
+00:11:44.480 --> 00:11:47.560
+personal interest in this topic of
+
+00:11:47.560 --> 00:11:50.440
+healthy cognitive aging um throughout
+
+00:11:50.440 --> 00:11:53.360
+the lifespan so from childhood to you
+
+00:11:53.360 --> 00:11:57.120
+know Cradle to the Grave as they say um
+
+00:11:57.120 --> 00:12:00.560
+and the field as a whole I think um you
+
+00:12:00.560 --> 00:12:03.079
+know we we love our tools we love our
+
+00:12:03.079 --> 00:12:05.760
+optogenetics and chemogenetics and all
+
+00:12:05.760 --> 00:12:07.560
+this invasive kind of stuff and deep
+
+00:12:07.560 --> 00:12:10.720
+brain stimulation but you know we really
+
+00:12:10.720 --> 00:12:12.959
+as a colleague of mine said nobody wants
+
+00:12:12.959 --> 00:12:16.040
+a whole drill in their head right and we
+
+00:12:16.040 --> 00:12:17.680
+want
+
+00:12:17.680 --> 00:12:21.199
+non-invasive Technologies and ultimately
+
+00:12:21.199 --> 00:12:23.440
+you know a 100 years from now or you
+
+00:12:23.440 --> 00:12:27.880
+know star date 2347 whenever it happens
+
+00:12:27.880 --> 00:12:32.240
+um we do want to get to a fully
+
+00:12:32.240 --> 00:12:35.680
+non-invasive kind of you know Star Trek
+
+00:12:35.680 --> 00:12:38.320
+sick Bas scenario so
+
+00:12:38.320 --> 00:12:41.240
+that&#x27;s you know I hope you know we&#x27;re
+
+00:12:41.240 --> 00:12:43.120
+taking some small steps in that
+
+00:12:43.120 --> 00:12:45.360
+direction now so that&#x27;s a little bit
+
+00:12:45.360 --> 00:12:46.480
+what I&#x27;m going to talk about so we&#x27;re
+
+00:12:46.480 --> 00:12:48.000
+talking about ultrasound what is
+
+00:12:48.000 --> 00:12:50.279
+ultrasound well it&#x27;s really any sound
+
+00:12:50.279 --> 00:12:53.519
+frequency above 20 khz 20 kerz is the
+
+00:12:53.519 --> 00:12:56.839
+limit of human uh auditory perception
+
+00:12:56.839 --> 00:12:58.680
+and so we just sort of arbitrarily say
+
+00:12:58.680 --> 00:13:00.959
+that anything above that um but the kind
+
+00:13:00.959 --> 00:13:04.240
+of ultrasound we&#x27;re doing is actually uh
+
+00:13:04.240 --> 00:13:07.680
+10 times higher it&#x27;s in the 200 khz to 2
+
+00:13:07.680 --> 00:13:11.639
+megahertz uh range generally
+
+00:13:11.639 --> 00:13:14.600
+um and the way we produce that is we
+
+00:13:14.600 --> 00:13:17.040
+have a Paso Electric device that&#x27;s
+
+00:13:17.040 --> 00:13:19.839
+embedded in this ceramic it&#x27;s basically
+
+00:13:19.839 --> 00:13:23.639
+just a shallow ceramic Bowl um and this
+
+00:13:23.639 --> 00:13:26.480
+can um do two things one is it can
+
+00:13:26.480 --> 00:13:28.240
+produce very high frequencies like I
+
+00:13:28.240 --> 00:13:30.760
+talked about but also it can focus the
+
+00:13:30.760 --> 00:13:33.680
+ultrasound down to um we like to talk
+
+00:13:33.680 --> 00:13:36.040
+about the grain of sand or sorry the
+
+00:13:36.040 --> 00:13:39.720
+grain of rice whatever so you know we
+
+00:13:39.720 --> 00:13:41.199
+talk about the focus being about the
+
+00:13:41.199 --> 00:13:43.120
+size of grain of rice maybe it&#x27;s a
+
+00:13:43.120 --> 00:13:45.519
+little bit bigger you know um that&#x27;s
+
+00:13:45.519 --> 00:13:48.000
+something we can talk about
+
+00:13:48.000 --> 00:13:52.800
+um so this is you know different but
+
+00:13:52.800 --> 00:13:55.240
+complimentary to the traditional Imaging
+
+00:13:55.240 --> 00:13:57.399
+B mode ultrasound that you&#x27;re all
+
+00:13:57.399 --> 00:14:00.040
+familiar with um
+
+00:14:00.040 --> 00:14:03.600
+um and so what does um you know what
+
+00:14:03.600 --> 00:14:05.759
+does ultrasound do well lower
+
+00:14:05.759 --> 00:14:08.360
+frequencies you know so ultrasound can
+
+00:14:08.360 --> 00:14:10.720
+penetrate into the brain and the reason
+
+00:14:10.720 --> 00:14:13.199
+it can do that is because the pressures
+
+00:14:13.199 --> 00:14:14.800
+at the face of what we call the
+
+00:14:14.800 --> 00:14:16.920
+transducer so that little bll shaped
+
+00:14:16.920 --> 00:14:18.519
+thing I showed you we call it a
+
+00:14:18.519 --> 00:14:21.199
+transducer the pressures at the face are
+
+00:14:21.199 --> 00:14:23.399
+very low and then the pressure increases
+
+00:14:23.399 --> 00:14:27.199
+as you get towards the focus um we can
+
+00:14:27.199 --> 00:14:29.519
+vary the frequency low frequency ques
+
+00:14:29.519 --> 00:14:31.680
+have deeper penetration but a bit uh you
+
+00:14:31.680 --> 00:14:34.000
+know the focus is more spread out higher
+
+00:14:34.000 --> 00:14:36.240
+frequencies have less penetration but a
+
+00:14:36.240 --> 00:14:39.880
+smaller uh tighter Focus so T we tend to
+
+00:14:39.880 --> 00:14:41.519
+use higher frequencies in smaller
+
+00:14:41.519 --> 00:14:44.399
+animals like mice and lower frequencies
+
+00:14:44.399 --> 00:14:46.720
+in you know primates and
+
+00:14:46.720 --> 00:14:49.160
+humans um what are the effects on
+
+00:14:49.160 --> 00:14:51.360
+biological tissue well basically I mean
+
+00:14:51.360 --> 00:14:53.160
+there&#x27;s a mechanical effect of course it
+
+00:14:53.160 --> 00:14:56.199
+sound is a pressure wave and and it&#x27;s um
+
+00:14:56.199 --> 00:14:58.440
+you know causes vibration as we all know
+
+00:14:58.440 --> 00:15:00.120
+there&#x27;s there&#x27;s also a thermal effect so
+
+00:15:00.120 --> 00:15:02.839
+there&#x27;s heating at the focus because of
+
+00:15:02.839 --> 00:15:06.199
+the energy that&#x27;s being deposited um and
+
+00:15:06.199 --> 00:15:08.399
+something that you probably might never
+
+00:15:08.399 --> 00:15:10.560
+never have heard of is something called
+
+00:15:10.560 --> 00:15:13.959
+um the radiation Force so the sound wave
+
+00:15:13.959 --> 00:15:15.880
+actually pushes and causes a
+
+00:15:15.880 --> 00:15:18.000
+displacement of tissue and that&#x27;s
+
+00:15:18.000 --> 00:15:20.519
+something that you can actually image
+
+00:15:20.519 --> 00:15:22.360
+you can image it with MRI you can also
+
+00:15:22.360 --> 00:15:25.160
+image it with ultrasound itself uh like
+
+00:15:25.160 --> 00:15:27.040
+I said on the B mode
+
+00:15:27.040 --> 00:15:30.120
+Imaging and so the the displacement can
+
+00:15:30.120 --> 00:15:33.480
+give you sort of a readout um of the
+
+00:15:33.480 --> 00:15:37.000
+pressure wave inside the vessel in this
+
+00:15:37.000 --> 00:15:40.000
+case the skull that we&#x27;re introducing it
+
+00:15:40.000 --> 00:15:44.000
+and so that&#x27;s really exciting because um
+
+00:15:44.000 --> 00:15:45.639
+I mean we do have this thick skull to
+
+00:15:45.639 --> 00:15:47.880
+deal with it&#x27;s it&#x27;s a bit of a problem
+
+00:15:47.880 --> 00:15:50.240
+but we do have the sort of crazy idea
+
+00:15:50.240 --> 00:15:52.839
+that we can have a completely um
+
+00:15:52.839 --> 00:15:54.800
+self-contained system where we have
+
+00:15:54.800 --> 00:15:58.800
+focused ultrasound um going in and and
+
+00:15:58.800 --> 00:16:01.120
+stimulating and we can read out with
+
+00:16:01.120 --> 00:16:02.399
+imaging
+
+00:16:02.399 --> 00:16:06.360
+ultrasound um this is sort of Cutting
+
+00:16:06.360 --> 00:16:08.319
+Edge stuff
+
+00:16:08.319 --> 00:16:11.319
+um but this uh this field goes way back
+
+00:16:11.319 --> 00:16:13.480
+so the earliest study that people
+
+00:16:13.480 --> 00:16:16.759
+generally refer to was uh by Harvey in
+
+00:16:16.759 --> 00:16:19.720
+1929 almost 100 years ago and he just
+
+00:16:19.720 --> 00:16:22.319
+did the you know the Luigi galvani
+
+00:16:22.319 --> 00:16:25.639
+experiment basically of causing a frog
+
+00:16:25.639 --> 00:16:28.639
+leg to Twitch with ultrasound and then
+
+00:16:28.639 --> 00:16:30.079
+he showed that you could block that with
+
+00:16:30.079 --> 00:16:34.199
+kurari so it was mediated by the
+
+00:16:34.199 --> 00:16:38.279
+Nerds um then about 30 years later um
+
+00:16:38.279 --> 00:16:41.639
+Fry at all did an experiment um in a
+
+00:16:41.639 --> 00:16:42.680
+living
+
+00:16:42.680 --> 00:16:46.120
+animal where they uh focused ultrasound
+
+00:16:46.120 --> 00:16:49.040
+into the uh brain stem in particular the
+
+00:16:49.040 --> 00:16:51.560
+visual Thalamus and they were able to
+
+00:16:51.560 --> 00:16:53.959
+measure electrical potentials on the
+
+00:16:53.959 --> 00:16:56.639
+surface of the brain the visual cortex
+
+00:16:56.639 --> 00:16:59.000
+okay so that&#x27;s some evidence that
+
+00:16:59.000 --> 00:17:00.959
+the ultrasound was actually stimulating
+
+00:17:00.959 --> 00:17:03.160
+the thalamus and stimulating the you
+
+00:17:03.160 --> 00:17:04.400
+know the fibers that go from the
+
+00:17:04.400 --> 00:17:07.720
+thalamus to the cortex and causing a
+
+00:17:07.720 --> 00:17:10.319
+response um and now we can actually uh
+
+00:17:10.319 --> 00:17:12.439
+induce what are called phosphines the
+
+00:17:12.439 --> 00:17:14.240
+phosphine is just a flash of light that
+
+00:17:14.240 --> 00:17:16.640
+you see um you know sometimes when
+
+00:17:16.640 --> 00:17:18.799
+you&#x27;re laded or when you get hit on the
+
+00:17:18.799 --> 00:17:21.280
+head you know that can be induced um
+
+00:17:21.280 --> 00:17:23.439
+with
+
+00:17:23.760 --> 00:17:26.919
+ultrasound uh so I&#x27;m going to talk about
+
+00:17:26.919 --> 00:17:28.720
+basically you know if you&#x27;re at the
+
+00:17:28.720 --> 00:17:30.400
+field there there are basically four
+
+00:17:30.400 --> 00:17:34.640
+ways that ultrasound is being used um
+
+00:17:34.640 --> 00:17:36.600
+neurom modulation which is a direct
+
+00:17:36.600 --> 00:17:39.200
+mechanical or thermal effect that
+
+00:17:39.200 --> 00:17:41.520
+directly stimulates the brain uh bloodb
+
+00:17:41.520 --> 00:17:43.280
+brain barrier opening which I&#x27;m going to
+
+00:17:43.280 --> 00:17:45.799
+talk about where we combine Ultrasound
+
+00:17:45.799 --> 00:17:47.520
+with intravenous
+
+00:17:47.520 --> 00:17:50.799
+microbubbles um then there&#x27;s a thermal
+
+00:17:50.799 --> 00:17:52.400
+oblation which is a purely thermal
+
+00:17:52.400 --> 00:17:54.880
+effect and is actually FDA approved as a
+
+00:17:54.880 --> 00:17:56.919
+treatment for essential tremor but I&#x27;m
+
+00:17:56.919 --> 00:17:58.880
+not really going to talk about that a
+
+00:17:58.880 --> 00:18:01.720
+lot of uh medical centers now uh have
+
+00:18:01.720 --> 00:18:04.679
+these devices and are doing ultrasound
+
+00:18:04.679 --> 00:18:07.320
+ablations as a service people come in
+
+00:18:07.320 --> 00:18:09.120
+with a central Tremor they have the
+
+00:18:09.120 --> 00:18:11.320
+procedure they walk out without a
+
+00:18:11.320 --> 00:18:14.720
+central Tremor it&#x27;s really amazing but
+
+00:18:14.720 --> 00:18:16.960
+I&#x27;m not really involved in that research
+
+00:18:16.960 --> 00:18:19.480
+U and finally functional ultrasound is a
+
+00:18:19.480 --> 00:18:23.000
+way it&#x27;s a novel Imaging modality where
+
+00:18:23.000 --> 00:18:24.679
+you can actually image blood flow so you
+
+00:18:24.679 --> 00:18:27.480
+can actually image like an MRI you can
+
+00:18:27.480 --> 00:18:29.080
+image the function of the brain in real
+
+00:18:29.080 --> 00:18:31.159
+time and people are using this really
+
+00:18:31.159 --> 00:18:34.679
+cool ways like to read out um you know
+
+00:18:34.679 --> 00:18:36.799
+movement and tension and things like
+
+00:18:36.799 --> 00:18:39.840
+that and the parial cortex
+
+00:18:39.840 --> 00:18:42.280
+um but I&#x27;m going to talk about mainly
+
+00:18:42.280 --> 00:18:45.400
+these first two um in terms of the
+
+00:18:45.400 --> 00:18:47.080
+biophysical mechanism people are
+
+00:18:47.080 --> 00:18:50.840
+interested in uh these uh trip channels
+
+00:18:50.840 --> 00:18:53.720
+um which are present in the brain and uh
+
+00:18:53.720 --> 00:18:55.520
+are temperature sensitive and probably
+
+00:18:55.520 --> 00:18:57.480
+have something to do with the response
+
+00:18:57.480 --> 00:18:59.320
+we don&#x27;t really know lot about this or I
+
+00:18:59.320 --> 00:19:00.640
+should say I don&#x27;t know a lot about this
+
+00:19:00.640 --> 00:19:02.919
+it&#x27;s not my area of research but this is
+
+00:19:02.919 --> 00:19:05.080
+something to um keep an eye on in the
+
+00:19:05.080 --> 00:19:07.679
+future uh this is what you know got arum
+
+00:19:07.679 --> 00:19:10.480
+PTI and the Nobel Prize a couple years
+
+00:19:10.480 --> 00:19:14.120
+ago um okay so I&#x27;m going to talk mainly
+
+00:19:14.120 --> 00:19:17.200
+about you know not biophysical but the
+
+00:19:17.200 --> 00:19:18.480
+whole other end of the spectrum we going
+
+00:19:18.480 --> 00:19:21.320
+talk about behavior um in
+
+00:19:21.320 --> 00:19:23.520
+primates and how that can be modulated
+
+00:19:23.520 --> 00:19:25.760
+with ultrasound and specifically you
+
+00:19:25.760 --> 00:19:28.400
+know how we can you know you know change
+
+00:19:28.400 --> 00:19:30.679
+their uh cognitive performance on
+
+00:19:30.679 --> 00:19:33.039
+certain tasks so I&#x27;m going to show you
+
+00:19:33.039 --> 00:19:35.919
+uh so this is the setup we have a monkey
+
+00:19:35.919 --> 00:19:37.799
+and he&#x27;s uh interacting with a touch
+
+00:19:37.799 --> 00:19:39.960
+panel and he&#x27;s doing a little task he
+
+00:19:39.960 --> 00:19:44.000
+touches the panel and um you know he
+
+00:19:44.000 --> 00:19:46.280
+gets uh he gets apple juice when he does
+
+00:19:46.280 --> 00:19:48.120
+it right he doesn&#x27;t get apple juice when
+
+00:19:48.120 --> 00:19:50.400
+he does it wrong that&#x27;s very motivating
+
+00:19:50.400 --> 00:19:52.400
+and he loves to do that and he&#x27;ll sit
+
+00:19:52.400 --> 00:19:54.960
+there for a couple hours every day and
+
+00:19:54.960 --> 00:19:57.880
+so our first question was okay if if you
+
+00:19:57.880 --> 00:20:01.080
+have an animal in awake animal what is
+
+00:20:01.080 --> 00:20:03.080
+their reaction to Ultrasound when you
+
+00:20:03.080 --> 00:20:05.760
+apply it to the brain um you know we
+
+00:20:05.760 --> 00:20:06.720
+didn&#x27;t
+
+00:20:06.720 --> 00:20:09.760
+know anything could happen right I I
+
+00:20:09.760 --> 00:20:10.960
+can&#x27;t even go through all the
+
+00:20:10.960 --> 00:20:13.960
+possibilities so the first thing we
+
+00:20:13.960 --> 00:20:16.960
+wanted to see is is uh you know the
+
+00:20:16.960 --> 00:20:19.080
+first question is what happens really
+
+00:20:19.080 --> 00:20:21.559
+just pretty basic so we&#x27;ve got him doing
+
+00:20:21.559 --> 00:20:23.520
+this task and I&#x27;ll show you exactly what
+
+00:20:23.520 --> 00:20:26.320
+he&#x27;s doing in a second
+
+00:20:26.320 --> 00:20:30.159
+here okay so here&#x27;s a little move
+
+00:20:30.799 --> 00:20:32.880
+and um so there&#x27;s these two motion
+
+00:20:32.880 --> 00:20:36.320
+patches and one one of the patches has
+
+00:20:36.320 --> 00:20:39.400
+motion that&#x27;s a little more coherent uh
+
+00:20:39.400 --> 00:20:41.159
+than the other and you can sort of sense
+
+00:20:41.159 --> 00:20:44.240
+what the direction is so uh this one is
+
+00:20:44.240 --> 00:20:48.159
+moving uh coherently to the right um and
+
+00:20:48.159 --> 00:20:49.840
+the other one&#x27;s just kind of random so
+
+00:20:49.840 --> 00:20:51.600
+he has to pick the patch that looks like
+
+00:20:51.600 --> 00:20:53.679
+it has more coherent motion and they get
+
+00:20:53.679 --> 00:20:55.080
+really good at this and you can make the
+
+00:20:55.080 --> 00:20:57.480
+task easier and harder just by varying
+
+00:20:57.480 --> 00:20:59.679
+this parameter
+
+00:20:59.679 --> 00:21:05.120
+okay um next slide uh we&#x27;re targeting um
+
+00:21:05.120 --> 00:21:07.200
+the basil ganglia specifically so this
+
+00:21:07.200 --> 00:21:11.000
+is uh a slice like this it&#x27;s an MRI
+
+00:21:11.000 --> 00:21:14.919
+slice what we call a coronal slice um
+
+00:21:14.919 --> 00:21:17.600
+this is all cortex um it&#x27;s not a great
+
+00:21:17.600 --> 00:21:20.640
+MRI so I apologize for the low contrast
+
+00:21:20.640 --> 00:21:23.120
+U this is what we call the striatum it&#x27;s
+
+00:21:23.120 --> 00:21:26.200
+a part of the basal ganglia um that we
+
+00:21:26.200 --> 00:21:28.760
+think is involved in learning attention
+
+00:21:28.760 --> 00:21:30.320
+memory and decision
+
+00:21:30.320 --> 00:21:32.600
+making um and divided into two
+
+00:21:32.600 --> 00:21:35.640
+structures the kodate nucleus and the
+
+00:21:35.640 --> 00:21:37.799
+paman um and that&#x27;s as much neuro
+
+00:21:37.799 --> 00:21:40.400
+Anatomy as you&#x27;re going to get so um and
+
+00:21:40.400 --> 00:21:42.880
+then this is a simulation of the
+
+00:21:42.880 --> 00:21:45.440
+pressure wave inside the brain that
+
+00:21:45.440 --> 00:21:46.880
+we&#x27;re hoping to produce so the
+
+00:21:46.880 --> 00:21:49.840
+transducer is sitting here and this is
+
+00:21:49.840 --> 00:21:51.799
+um this is the pressure and so here
+
+00:21:51.799 --> 00:21:53.360
+we&#x27;re targeting the structure called the
+
+00:21:53.360 --> 00:21:55.640
+CATE nucleus and here we&#x27;re targeting
+
+00:21:55.640 --> 00:21:56.559
+the
+
+00:21:56.559 --> 00:21:59.799
+putam and so
+
+00:21:59.799 --> 00:22:02.679
+um so the subject is sitting and he&#x27;s
+
+00:22:02.679 --> 00:22:06.240
+doing this task and we give him um a few
+
+00:22:06.240 --> 00:22:08.120
+minutes to warm up so this is kind of
+
+00:22:08.120 --> 00:22:09.880
+like the warmup period and he just gets
+
+00:22:09.880 --> 00:22:11.880
+into a rhythm of you know hitting the
+
+00:22:11.880 --> 00:22:13.840
+touchcreen and getting his juice and
+
+00:22:13.840 --> 00:22:15.120
+then this is where we turn on the
+
+00:22:15.120 --> 00:22:16.919
+ultrasound and we turn it on Just for 2
+
+00:22:16.919 --> 00:22:21.679
+minutes and um this is at 500 khz and
+
+00:22:21.679 --> 00:22:23.960
+it&#x27;s pulsed so we don&#x27;t want to you know
+
+00:22:23.960 --> 00:22:25.159
+we don&#x27;t want to cook his brain and
+
+00:22:25.159 --> 00:22:28.080
+we&#x27;re using a low pressure um so the
+
+00:22:28.080 --> 00:22:31.039
+pressures are on the order of 200
+
+00:22:31.039 --> 00:22:34.640
+kilopascals to 1.2 so what&#x27;s a pascal uh
+
+00:22:34.640 --> 00:22:38.200
+one pascal is uh 1 Newton per meter
+
+00:22:38.200 --> 00:22:42.559
+squar um 100,000 or yeah 100,000 pascals
+
+00:22:42.559 --> 00:22:45.520
+is roughly one atmosphere for people who
+
+00:22:45.520 --> 00:22:48.080
+are into physics okay so that&#x27;s that&#x27;s
+
+00:22:48.080 --> 00:22:50.640
+as much uh it&#x27;s it would translate into
+
+00:22:50.640 --> 00:22:53.520
+194 debels if you could hear it but you
+
+00:22:53.520 --> 00:22:55.679
+can&#x27;t because it&#x27;s way too high uh but
+
+00:22:55.679 --> 00:22:58.120
+that&#x27;s like a rocket launch basically uh
+
+00:22:58.120 --> 00:22:59.720
+so it&#x27;s a pretty high
+
+00:22:59.720 --> 00:23:02.640
+pressure um and so you know we&#x27;re
+
+00:23:02.640 --> 00:23:04.320
+worried about what it&#x27;s going to do to
+
+00:23:04.320 --> 00:23:07.440
+their brain obviously but um you know
+
+00:23:07.440 --> 00:23:09.159
+the animal started working we turned on
+
+00:23:09.159 --> 00:23:12.039
+the ultrasound for 2 minutes um it
+
+00:23:12.039 --> 00:23:15.360
+didn&#x27;t bother him he just sat there you
+
+00:23:15.360 --> 00:23:17.559
+know punching the screen and doing his
+
+00:23:17.559 --> 00:23:19.840
+thing you know as if nothing was
+
+00:23:19.840 --> 00:23:21.919
+happening and we checked you know to
+
+00:23:21.919 --> 00:23:23.360
+make sure that we actually turned the
+
+00:23:23.360 --> 00:23:24.320
+thing
+
+00:23:24.320 --> 00:23:27.039
+on you know and and did all the kind of
+
+00:23:27.039 --> 00:23:29.080
+Sanity checks do and we measur the
+
+00:23:29.080 --> 00:23:31.120
+output and this and that and indeed the
+
+00:23:31.120 --> 00:23:33.480
+device was on but the uh animal kept
+
+00:23:33.480 --> 00:23:36.120
+working um and not only did he keep
+
+00:23:36.120 --> 00:23:38.200
+working but he actually got better and
+
+00:23:38.200 --> 00:23:40.440
+better um so this is just showing his
+
+00:23:40.440 --> 00:23:43.000
+response time um and his response times
+
+00:23:43.000 --> 00:23:45.080
+are actually getting faster after we
+
+00:23:45.080 --> 00:23:46.799
+turned down the ultrasound so that was
+
+00:23:46.799 --> 00:23:47.880
+actually a good sign it was like the
+
+00:23:47.880 --> 00:23:50.159
+first thing we ever did uh with this and
+
+00:23:50.159 --> 00:23:51.440
+we were like I said we were really
+
+00:23:51.440 --> 00:23:52.840
+worried we didn&#x27;t know it was going to
+
+00:23:52.840 --> 00:23:55.120
+happen if be there&#x27;d be some weird
+
+00:23:55.120 --> 00:23:57.679
+reaction or or whatever so so this is a
+
+00:23:57.679 --> 00:24:00.880
+good sign and you know we felt like
+
+00:24:00.880 --> 00:24:02.400
+we&#x27;re kind kind of on the right track
+
+00:24:02.400 --> 00:24:04.360
+this task gives us a lot of things we
+
+00:24:04.360 --> 00:24:07.320
+can uh measure so we can look at
+
+00:24:07.320 --> 00:24:10.159
+motivation um in terms of response times
+
+00:24:10.159 --> 00:24:12.080
+and things like that and we found that
+
+00:24:12.080 --> 00:24:14.080
+the ultrasound actually improved its
+
+00:24:14.080 --> 00:24:16.440
+motivation when we turned it on we found
+
+00:24:16.440 --> 00:24:19.080
+that his performance was better in terms
+
+00:24:19.080 --> 00:24:21.880
+of he had more correct responses and he
+
+00:24:21.880 --> 00:24:25.080
+was faster at producing those
+
+00:24:25.080 --> 00:24:28.679
+responses so the you know we were
+
+00:24:28.679 --> 00:24:31.799
+enhancing his his uh his processing
+
+00:24:31.799 --> 00:24:34.000
+speed a little bit by turning on the
+
+00:24:34.000 --> 00:24:36.760
+ultrasound so that was interesting um
+
+00:24:36.760 --> 00:24:40.279
+that&#x27;s promis we did this experiment so
+
+00:24:40.279 --> 00:24:43.919
+clinicians always you know get on my
+
+00:24:43.919 --> 00:24:46.720
+case because basic scientists like to do
+
+00:24:46.720 --> 00:24:47.919
+you know they like to do proof of
+
+00:24:47.919 --> 00:24:50.399
+principle and just get stuff you know
+
+00:24:50.399 --> 00:24:52.440
+published as quick as possible and
+
+00:24:52.440 --> 00:24:54.520
+long-term studies just aren&#x27;t done and
+
+00:24:54.520 --> 00:24:57.039
+clinicians really hate that because you
+
+00:24:57.039 --> 00:24:59.120
+know it turns so you know stuff will get
+
+00:24:59.120 --> 00:25:00.840
+approved for human use and it turns out
+
+00:25:00.840 --> 00:25:03.240
+the long-term studies were never done
+
+00:25:03.240 --> 00:25:06.240
+and and it&#x27;s a problem so we did a long
+
+00:25:06.240 --> 00:25:11.120
+over a period of two years um we did 140
+
+00:25:11.120 --> 00:25:13.880
+um sonications in two animals and then
+
+00:25:13.880 --> 00:25:16.240
+we looked at their MRIs and their MRIs
+
+00:25:16.240 --> 00:25:17.840
+were
+
+00:25:17.840 --> 00:25:22.480
+um as if they had never been treated um
+
+00:25:22.480 --> 00:25:24.279
+basically there&#x27;s no difference in the
+
+00:25:24.279 --> 00:25:28.200
+pre and the post MRI after two years and
+
+00:25:28.200 --> 00:25:31.080
+140 of these treatments so again that&#x27;s
+
+00:25:31.080 --> 00:25:33.320
+that&#x27;s a good sign it means we&#x27;re you
+
+00:25:33.320 --> 00:25:36.080
+know we&#x27;re doing we&#x27;re having an effect
+
+00:25:36.080 --> 00:25:38.159
+on Behavior we&#x27;re not destroying the
+
+00:25:38.159 --> 00:25:40.760
+brain and you know that that&#x27;s kind of
+
+00:25:40.760 --> 00:25:42.640
+important if you&#x27;re going to do this
+
+00:25:42.640 --> 00:25:44.960
+stuff in humans uh we&#x27;re also interested
+
+00:25:44.960 --> 00:25:47.520
+in memory so here&#x27;s a little memory uh
+
+00:25:47.520 --> 00:25:49.279
+experiment and see if you can figure out
+
+00:25:49.279 --> 00:25:54.919
+what&#x27;s going on here um I&#x27;ll give you a
+
+00:25:56.679 --> 00:25:59.679
+minute
+
+00:26:09.120 --> 00:26:11.799
+okay so anybody get it yeah what what
+
+00:26:11.799 --> 00:26:14.200
+shape St throughout each trial right
+
+00:26:14.200 --> 00:26:16.799
+right so there&#x27;s an array of shapes and
+
+00:26:16.799 --> 00:26:18.600
+then there&#x27;s a little delay and then
+
+00:26:18.600 --> 00:26:20.360
+another array and one of them is changed
+
+00:26:20.360 --> 00:26:21.440
+and you just have to figure out which
+
+00:26:21.440 --> 00:26:24.960
+one change um and it turns out that&#x27;s a
+
+00:26:24.960 --> 00:26:27.080
+fairly effective way of measuring what&#x27;s
+
+00:26:27.080 --> 00:26:28.720
+called working memory or short-term
+
+00:26:28.720 --> 00:26:30.320
+memory
+
+00:26:30.320 --> 00:26:33.679
+um and uh so we did that and we had a
+
+00:26:33.679 --> 00:26:35.919
+control condition where there was no
+
+00:26:35.919 --> 00:26:40.039
+memory requirement and um these are the
+
+00:26:40.039 --> 00:26:42.880
+controls the Shams without ultrasound
+
+00:26:42.880 --> 00:26:45.159
+and this is the error rate as a function
+
+00:26:45.159 --> 00:26:47.120
+of how long of a delay there was between
+
+00:26:47.120 --> 00:26:49.279
+the two things and we you know we
+
+00:26:49.279 --> 00:26:51.200
+measured the Baseline error rate and
+
+00:26:51.200 --> 00:26:53.440
+then with uh with ultrasound and we
+
+00:26:53.440 --> 00:26:55.600
+found that the error rates went down
+
+00:26:55.600 --> 00:26:59.360
+actually in both conditions um so we
+
+00:26:59.360 --> 00:27:02.240
+think that uh you know possibly you know
+
+00:27:02.240 --> 00:27:04.039
+there could be some benefit uh to
+
+00:27:04.039 --> 00:27:07.679
+short-term memory of doing this um do
+
+00:27:07.679 --> 00:27:09.440
+you know the underlying cause that&#x27;s
+
+00:27:09.440 --> 00:27:11.080
+like is it increasing the blood flow in
+
+00:27:11.080 --> 00:27:13.279
+the area or
+
+00:27:13.279 --> 00:27:15.600
+like so we think we&#x27;re just it&#x27;s
+
+00:27:15.600 --> 00:27:17.880
+basically just stimulation so we we&#x27;re
+
+00:27:17.880 --> 00:27:20.080
+we&#x27;re actually doing experiments now to
+
+00:27:20.080 --> 00:27:22.399
+compare Ultrasound with you know basic
+
+00:27:22.399 --> 00:27:25.480
+like deep brain stimulation got it um
+
+00:27:25.480 --> 00:27:27.039
+and so we think we think but we don&#x27;t
+
+00:27:27.039 --> 00:27:28.559
+know we haven&#x27;t really measured the
+
+00:27:28.559 --> 00:27:30.360
+neural neural activity which is
+
+00:27:30.360 --> 00:27:32.360
+something we have to do but there when
+
+00:27:32.360 --> 00:27:34.399
+we get to the end I&#x27;ll show you another
+
+00:27:34.399 --> 00:27:36.840
+possibility which is um that we&#x27;re
+
+00:27:36.840 --> 00:27:37.919
+actually altering functional
+
+00:27:37.919 --> 00:27:41.039
+conductivity in the brain okay um which
+
+00:27:41.039 --> 00:27:43.120
+we&#x27;ve shown with MRI so the next thing
+
+00:27:43.120 --> 00:27:44.480
+I&#x27;m going to talk about so that&#x27;s just
+
+00:27:44.480 --> 00:27:46.679
+ultrasound alone next is we&#x27;re going to
+
+00:27:46.679 --> 00:27:48.799
+combine Ultrasound with microbubbles and
+
+00:27:48.799 --> 00:27:50.120
+use that to open the bloodb brain
+
+00:27:50.120 --> 00:27:52.159
+barrier and the way it works is that we
+
+00:27:52.159 --> 00:27:54.799
+have these microbubbles they&#x27;re little
+
+00:27:54.799 --> 00:27:57.519
+um they&#x27;re little uh lipid spheres
+
+00:27:57.519 --> 00:28:00.000
+they&#x27;re filled with a gas and they&#x27;re
+
+00:28:00.000 --> 00:28:02.440
+about five microns in diameter five
+
+00:28:02.440 --> 00:28:03.880
+microns turns out to be about the
+
+00:28:03.880 --> 00:28:06.679
+diameter of a capillary and so when they
+
+00:28:06.679 --> 00:28:10.080
+go through the capillary um and they
+
+00:28:10.080 --> 00:28:13.480
+interact with the ultrasound they just
+
+00:28:13.480 --> 00:28:15.279
+oscillate a little bit and that
+
+00:28:15.279 --> 00:28:17.080
+oscillation puts a little bit of
+
+00:28:17.080 --> 00:28:19.240
+pressure on the capillary walls and
+
+00:28:19.240 --> 00:28:21.519
+makes the capillaries a little bit leaky
+
+00:28:21.519 --> 00:28:22.919
+because the capillaries on the brain
+
+00:28:22.919 --> 00:28:26.960
+have very tight uh uh Junctions in their
+
+00:28:26.960 --> 00:28:30.200
+endoth cells that prevent uh things like
+
+00:28:30.200 --> 00:28:31.679
+you know things that are dangerous like
+
+00:28:31.679 --> 00:28:34.679
+poisons and toxins and and viruses and
+
+00:28:34.679 --> 00:28:37.159
+so forth from getting into your brain um
+
+00:28:37.159 --> 00:28:41.039
+but we can use this method to um to to
+
+00:28:41.039 --> 00:28:42.399
+make the capillaries a little bit
+
+00:28:42.399 --> 00:28:44.600
+leakier this was first done in mice and
+
+00:28:44.600 --> 00:28:46.440
+then my lab I think was the first to do
+
+00:28:46.440 --> 00:28:49.600
+this in primate model um but now it&#x27;s
+
+00:28:49.600 --> 00:28:51.279
+done in humans and so forth in their
+
+00:28:51.279 --> 00:28:55.080
+clinical trials and so forth um this is
+
+00:28:55.080 --> 00:28:59.039
+actually showing um this resolution
+
+00:28:59.039 --> 00:29:00.360
+isn&#x27;t great here but this is a little
+
+00:29:00.360 --> 00:29:03.559
+tube filled with micro Bubbles and this
+
+00:29:03.559 --> 00:29:06.159
+is showing the ultrasound pressure and
+
+00:29:06.159 --> 00:29:08.960
+you can see when the pressure comes on
+
+00:29:08.960 --> 00:29:12.240
+right there you can see that change did
+
+00:29:12.240 --> 00:29:15.240
+you see that okay so we&#x27;ll go one more
+
+00:29:15.240 --> 00:29:19.480
+cycle okay ultrasound comes on there and
+
+00:29:19.480 --> 00:29:21.480
+you can see the little bit of expansion
+
+00:29:21.480 --> 00:29:23.399
+of this is just a plastic tube it&#x27;s not
+
+00:29:23.399 --> 00:29:26.320
+a real capillary but um that&#x27;s the basic
+
+00:29:26.320 --> 00:29:29.320
+principle
+
+00:29:29.440 --> 00:29:31.720
+so again you know the question is is it
+
+00:29:31.720 --> 00:29:34.159
+is it actually safe to do this or you
+
+00:29:34.159 --> 00:29:36.039
+know does it even work at all in a large
+
+00:29:36.039 --> 00:29:37.840
+animal I mean it works in mice but mice
+
+00:29:37.840 --> 00:29:41.080
+have a very thin skull uh humans have a
+
+00:29:41.080 --> 00:29:43.559
+fairly thick skull and not only do we
+
+00:29:43.559 --> 00:29:45.200
+have thick skulls but are you know every
+
+00:29:45.200 --> 00:29:47.000
+human has a different shape and
+
+00:29:47.000 --> 00:29:48.840
+thickness to their skull and so there
+
+00:29:48.840 --> 00:29:52.360
+are a lot of challenges there um so
+
+00:29:52.360 --> 00:29:53.840
+again this is the pressure wave
+
+00:29:53.840 --> 00:29:55.880
+simulated and then we combine this with
+
+00:29:55.880 --> 00:29:58.200
+the micro Bubbles and and what we found
+
+00:29:58.200 --> 00:30:01.200
+was that uh we did a contrast enhanced
+
+00:30:01.200 --> 00:30:04.200
+MRI and we found that the blood brain
+
+00:30:04.200 --> 00:30:07.519
+barrier was um you know permeabilized a
+
+00:30:07.519 --> 00:30:10.880
+little bit in the regen of the highest
+
+00:30:10.880 --> 00:30:14.320
+uh ultrasound intensity um and then
+
+00:30:14.320 --> 00:30:17.320
+that&#x27;s here and we&#x27;ve done this now uh I
+
+00:30:17.320 --> 00:30:19.559
+want to say hundreds of times um we&#x27;ve
+
+00:30:19.559 --> 00:30:22.000
+done it a lot uh and it&#x27;s extremely
+
+00:30:22.000 --> 00:30:23.840
+reliable and you know one of the main
+
+00:30:23.840 --> 00:30:25.320
+things that we&#x27;re working on is is just
+
+00:30:25.320 --> 00:30:29.559
+making it more precise and and
+
+00:30:29.559 --> 00:30:32.880
+um and uh
+
+00:30:32.880 --> 00:30:35.080
+controllable anyway this is just showing
+
+00:30:35.080 --> 00:30:37.760
+this is this is a penny these are some
+
+00:30:37.760 --> 00:30:40.200
+openings um and you can see the size so
+
+00:30:40.200 --> 00:30:41.720
+we can control we have pretty good
+
+00:30:41.720 --> 00:30:44.399
+control of over the size you know by
+
+00:30:44.399 --> 00:30:46.559
+varying the pressure we can you know
+
+00:30:46.559 --> 00:30:48.960
+choose different targets and so forth
+
+00:30:48.960 --> 00:30:51.679
+and we can uh construct you know actual
+
+00:30:51.679 --> 00:30:53.799
+physical models of the pressure wave
+
+00:30:53.799 --> 00:30:55.639
+inside the head and predict what&#x27;s going
+
+00:30:55.639 --> 00:30:58.639
+to happen you trying and um Target like
+
+00:30:58.639 --> 00:31:01.440
+density as opposed to
+
+00:31:01.440 --> 00:31:03.679
+volumes so if you have like a resonant
+
+00:31:03.679 --> 00:31:06.039
+frequency you could possibly
+
+00:31:06.039 --> 00:31:07.960
+oscillate some
+
+00:31:07.960 --> 00:31:10.360
+density yeah it&#x27;s an interesting idea so
+
+00:31:10.360 --> 00:31:12.919
+it tends to um it tends to work better
+
+00:31:12.919 --> 00:31:15.559
+in Gray matter than white matter uh we
+
+00:31:15.559 --> 00:31:17.240
+don&#x27;t know exactly why it could just
+
+00:31:17.240 --> 00:31:19.360
+have to do with the amount of
+
+00:31:19.360 --> 00:31:21.320
+capillaries or it could just have to do
+
+00:31:21.320 --> 00:31:22.840
+with the structure of the tissue but I
+
+00:31:22.840 --> 00:31:25.320
+mean it&#x27;s a good point we we need to
+
+00:31:25.320 --> 00:31:27.480
+have simulations that take into account
+
+00:31:27.480 --> 00:31:29.600
+variations in the structure in the
+
+00:31:29.600 --> 00:31:31.600
+actual tissue structure and you know
+
+00:31:31.600 --> 00:31:34.799
+whether it&#x27;s fat or neurons or whatever
+
+00:31:34.799 --> 00:31:37.080
+um could like Target a certain like type
+
+00:31:37.080 --> 00:31:39.039
+of thing right like if you hit the
+
+00:31:39.039 --> 00:31:40.600
+resonant frequen if some if there was
+
+00:31:40.600 --> 00:31:42.120
+like a really like a piece of paper is
+
+00:31:42.120 --> 00:31:43.039
+going to have the same resonant
+
+00:31:43.039 --> 00:31:47.000
+frequency as like a as a yeah it&#x27;s an
+
+00:31:47.000 --> 00:31:48.720
+interesting idea I have to think about
+
+00:31:48.720 --> 00:31:52.559
+that more um how we could do that it&#x27;s I
+
+00:31:52.559 --> 00:31:55.720
+don&#x27;t know if the tool is really that
+
+00:31:55.720 --> 00:31:58.080
+precise um anyway people ask how long
+
+00:31:58.080 --> 00:32:00.039
+does it stay open so we did an
+
+00:32:00.039 --> 00:32:02.440
+experiment and we measured you know we
+
+00:32:02.440 --> 00:32:05.399
+opened on Day Zero and then we measured
+
+00:32:05.399 --> 00:32:08.399
+um one days one two and four after that
+
+00:32:08.399 --> 00:32:11.720
+and it took about two days for so so
+
+00:32:11.720 --> 00:32:13.240
+when you open the blood brain barrier
+
+00:32:13.240 --> 00:32:14.559
+actually you&#x27;re you know you&#x27;re causing
+
+00:32:14.559 --> 00:32:16.880
+the vessels to become leaky um you&#x27;re
+
+00:32:16.880 --> 00:32:18.120
+also causing a little bit of
+
+00:32:18.120 --> 00:32:20.880
+inflammation U but that seems to to
+
+00:32:20.880 --> 00:32:25.200
+close up um within about 48 hours which
+
+00:32:25.200 --> 00:32:27.240
+is good and bad I mean it&#x27;s it gives you
+
+00:32:27.240 --> 00:32:29.799
+window sort of a therapeutic window uh
+
+00:32:29.799 --> 00:32:32.360
+to work with um because you&#x27;re going to
+
+00:32:32.360 --> 00:32:33.919
+have the barrier that&#x27;s you know it&#x27;s
+
+00:32:33.919 --> 00:32:35.679
+open for a period of time where you
+
+00:32:35.679 --> 00:32:38.919
+could you know do the procedure take the
+
+00:32:38.919 --> 00:32:40.799
+patient back you know to their hospital
+
+00:32:40.799 --> 00:32:43.600
+room and then give them uh drugs and and
+
+00:32:43.600 --> 00:32:46.039
+really monitor monitor closely what&#x27;s
+
+00:32:46.039 --> 00:32:50.120
+happening um but it doesn&#x27;t stay open uh
+
+00:32:50.120 --> 00:32:53.039
+indefinitely so um that means that you
+
+00:32:53.039 --> 00:32:54.320
+know if you&#x27;re going to do this
+
+00:32:54.320 --> 00:32:56.039
+therapeutically you&#x27;d probably have to
+
+00:32:56.039 --> 00:32:58.720
+do it repeatedly and then that raises
+
+00:32:58.720 --> 00:33:01.039
+some real safety issues that have to be
+
+00:33:01.039 --> 00:33:06.600
+dealt with um again we did this um and
+
+00:33:06.600 --> 00:33:08.799
+we didn&#x27;t know what was going to happen
+
+00:33:08.799 --> 00:33:13.320
+uh you know in an awake subject um but
+
+00:33:13.320 --> 00:33:15.360
+we did it and we got the same result
+
+00:33:15.360 --> 00:33:18.799
+that the uh in this case um we could
+
+00:33:18.799 --> 00:33:21.200
+apply the ultrasound and we could give
+
+00:33:21.200 --> 00:33:22.679
+the micro bubbles
+
+00:33:22.679 --> 00:33:24.720
+intervenous uh open the bloodb brain
+
+00:33:24.720 --> 00:33:27.159
+barrier and it didn&#x27;t disrupt the
+
+00:33:27.159 --> 00:33:29.799
+animals Behavior at all in fact the
+
+00:33:29.799 --> 00:33:31.960
+animals performance was a little bit
+
+00:33:31.960 --> 00:33:34.480
+better on days when we disrupted the
+
+00:33:34.480 --> 00:33:36.679
+blood brain bear here and we don&#x27;t know
+
+00:33:36.679 --> 00:33:39.600
+we don&#x27;t know why but um they don&#x27;t they
+
+00:33:39.600 --> 00:33:41.639
+don&#x27;t react to it it&#x27;s not painful it&#x27;s
+
+00:33:41.639 --> 00:33:44.159
+not um you know it doesn&#x27;t cause
+
+00:33:44.159 --> 00:33:46.360
+disorientation or anything like that
+
+00:33:46.360 --> 00:33:48.600
+which is all good things and and stuff
+
+00:33:48.600 --> 00:33:50.600
+that we really needed to know before we
+
+00:33:50.600 --> 00:33:52.639
+started doing this in
+
+00:33:52.639 --> 00:33:55.200
+humans
+
+00:33:55.200 --> 00:33:58.360
+um and then uh so in terms of mechanism
+
+00:33:58.360 --> 00:33:59.679
+I mean we&#x27;re really just scratching the
+
+00:33:59.679 --> 00:34:02.000
+surface right now we don&#x27;t know what&#x27;s
+
+00:34:02.000 --> 00:34:03.519
+going on I mean when you open the blood
+
+00:34:03.519 --> 00:34:06.039
+brain barrier you could be changing um
+
+00:34:06.039 --> 00:34:08.919
+oxygenation of the tissue access to
+
+00:34:08.919 --> 00:34:11.919
+glucose access to electrolytes uh we&#x27;re
+
+00:34:11.919 --> 00:34:14.359
+we&#x27;re looking at these things using some
+
+00:34:14.359 --> 00:34:15.879
+MRI methods so we&#x27;re looking at
+
+00:34:15.879 --> 00:34:18.520
+oxygenation using something called cuold
+
+00:34:18.520 --> 00:34:21.639
+which is a quantitative uh form of MRI
+
+00:34:21.639 --> 00:34:25.079
+to look at oxygen levels in the brain um
+
+00:34:25.079 --> 00:34:28.280
+but this is another Finding um that that
+
+00:34:28.280 --> 00:34:31.679
+came up which is that uh when you target
+
+00:34:31.679 --> 00:34:34.399
+one region you can actually change the
+
+00:34:34.399 --> 00:34:37.560
+functional connectivity of that of the
+
+00:34:37.560 --> 00:34:39.960
+targeted region with with other regions
+
+00:34:39.960 --> 00:34:42.359
+so the ultrasound can actually you know
+
+00:34:42.359 --> 00:34:45.040
+so so functional conductivity is it&#x27;s a
+
+00:34:45.040 --> 00:34:47.480
+you know it&#x27;s a method to look at
+
+00:34:47.480 --> 00:34:51.399
+correlated activity using MRI um and you
+
+00:34:51.399 --> 00:34:53.399
+can sort of you know tease out networks
+
+00:34:53.399 --> 00:34:55.960
+and so forth and so the ultrasound can
+
+00:34:55.960 --> 00:34:57.599
+actually change the functional
+
+00:34:57.599 --> 00:34:58.960
+connectivity I want to be clear we&#x27;re
+
+00:34:58.960 --> 00:35:01.240
+not changing the actual structural
+
+00:35:01.240 --> 00:35:02.720
+connectivity of the brain we&#x27;re not
+
+00:35:02.720 --> 00:35:05.640
+growing axons and things like that but
+
+00:35:05.640 --> 00:35:07.920
+we are changing how brain you know
+
+00:35:07.920 --> 00:35:10.640
+remote brain regions interact with the
+
+00:35:10.640 --> 00:35:13.400
+region where the focus ultrasound was
+
+00:35:13.400 --> 00:35:15.359
+targeted how long does it take for the
+
+00:35:15.359 --> 00:35:16.680
+change
+
+00:35:16.680 --> 00:35:18.880
+to uh we haven&#x27;t actually measured the
+
+00:35:18.880 --> 00:35:20.280
+time course but typically we&#x27;ll do the
+
+00:35:20.280 --> 00:35:22.800
+ultrasound procedure wait about an hour
+
+00:35:22.800 --> 00:35:24.920
+and then do the MRI and we can see the
+
+00:35:24.920 --> 00:35:27.400
+changes and if you don&#x27;t
+
+00:35:27.400 --> 00:35:30.599
+uh stimulate again do the changes
+
+00:35:30.599 --> 00:35:33.280
+stay uh good question we haven&#x27;t done
+
+00:35:33.280 --> 00:35:36.119
+that experiment exactly um why wouldn&#x27;t
+
+00:35:36.119 --> 00:35:38.920
+you expect some heavy in idea of like
+
+00:35:38.920 --> 00:35:42.599
+the axons Android firing together firing
+
+00:35:42.599 --> 00:35:44.480
+together more more intensive than they
+
+00:35:44.480 --> 00:35:47.680
+did before uh that&#x27;s that&#x27;s a certainly
+
+00:35:47.680 --> 00:35:51.160
+a potential mechanism for this um yeah I
+
+00:35:51.160 --> 00:35:52.680
+mean that&#x27;s a good idea we would you
+
+00:35:52.680 --> 00:35:54.079
+know then want to go and actually
+
+00:35:54.079 --> 00:35:56.560
+measure that you know physiologically
+
+00:35:56.560 --> 00:35:58.599
+and and see if that&#x27;s the case are the
+
+00:35:58.599 --> 00:36:00.560
+results path dependent like presumably
+
+00:36:00.560 --> 00:36:02.040
+there&#x27;s some gradient of action
+
+00:36:02.040 --> 00:36:04.040
+potential that&#x27;s happen as the wave
+
+00:36:04.040 --> 00:36:06.200
+coales and become stronger so if you
+
+00:36:06.200 --> 00:36:07.960
+target the same area from like different
+
+00:36:07.960 --> 00:36:09.839
+angles like you still see the same
+
+00:36:09.839 --> 00:36:11.640
+results oh that&#x27;s a good question we
+
+00:36:11.640 --> 00:36:14.000
+haven&#x27;t actually tried that but uh it
+
+00:36:14.000 --> 00:36:15.839
+affects different networks
+
+00:36:15.839 --> 00:36:18.560
+differently um we know that you know we
+
+00:36:18.560 --> 00:36:20.520
+we published papers looking at you know
+
+00:36:20.520 --> 00:36:22.680
+the default mode Network the you know
+
+00:36:22.680 --> 00:36:25.319
+attention Network and so forth so um
+
+00:36:25.319 --> 00:36:27.599
+they&#x27;re affected differently this is you
+
+00:36:27.599 --> 00:36:30.480
+know this is early days and um you know
+
+00:36:30.480 --> 00:36:33.000
+actually figuring out what networks are
+
+00:36:33.000 --> 00:36:34.800
+affected and how they&#x27;re affected and
+
+00:36:34.800 --> 00:36:37.160
+and all that kind of stuff um you know
+
+00:36:37.160 --> 00:36:40.200
+there&#x27;s a lot of work to be done um you
+
+00:36:40.200 --> 00:36:43.640
+know a long road ahead of us um but it&#x27;s
+
+00:36:43.640 --> 00:36:45.240
+you know it&#x27;s exciting this is actually
+
+00:36:45.240 --> 00:36:45.960
+a
+
+00:36:45.960 --> 00:36:48.319
+connectivity um map I forgot what they
+
+00:36:48.319 --> 00:36:50.640
+call it but
+
+00:36:50.640 --> 00:36:54.200
+um uh you know and we we&#x27;ve done this
+
+00:36:54.200 --> 00:36:55.400
+we&#x27;ve shown changes in functional
+
+00:36:55.400 --> 00:36:57.800
+connectivity both with ultrasound alone
+
+00:36:57.800 --> 00:37:01.119
+and ultrasound combined with the
+
+00:37:01.119 --> 00:37:04.040
+microbubbles um another thing that we
+
+00:37:04.040 --> 00:37:07.280
+found uh was so this was all this is all
+
+00:37:07.280 --> 00:37:09.960
+done without drugs and and one thing
+
+00:37:09.960 --> 00:37:12.040
+that we&#x27;re interested in is using uh
+
+00:37:12.040 --> 00:37:13.599
+this technique for targeted drug
+
+00:37:13.599 --> 00:37:16.400
+delivery so we did some experiments um
+
+00:37:16.400 --> 00:37:18.880
+I&#x27;m not going to show the videos but we
+
+00:37:18.880 --> 00:37:22.400
+did um uh we targeted the cod8 nucleus
+
+00:37:22.400 --> 00:37:24.599
+we opened the blood brain barrier uh we
+
+00:37:24.599 --> 00:37:27.079
+administered a drug called down paradon
+
+00:37:27.079 --> 00:37:29.680
+which is a dopamine antagonist that&#x27;s
+
+00:37:29.680 --> 00:37:32.040
+used for nausea it doesn&#x27;t cross the
+
+00:37:32.040 --> 00:37:35.920
+blood brain barrier naturally um and so
+
+00:37:35.920 --> 00:37:37.440
+when we open the blood brain barrier we
+
+00:37:37.440 --> 00:37:42.640
+saw an attentional deficit um which you
+
+00:37:42.640 --> 00:37:44.160
+know we weren&#x27;t that happy about getting
+
+00:37:44.160 --> 00:37:46.440
+a deficit but it it showed that the drug
+
+00:37:46.440 --> 00:37:48.760
+was working so this antagonist could
+
+00:37:48.760 --> 00:37:53.040
+actually um cause uh an attentional
+
+00:37:53.040 --> 00:37:55.400
+um uh you know it&#x27;s called hemilateral
+
+00:37:55.400 --> 00:37:58.760
+neglect and it&#x27;s basically it&#x27;s a very
+
+00:37:58.760 --> 00:38:01.240
+common uh commonly seen after right
+
+00:38:01.240 --> 00:38:03.520
+prial Strokes you&#x27;ll have patients that
+
+00:38:03.520 --> 00:38:06.200
+sort of just ignore the left side of
+
+00:38:06.200 --> 00:38:09.880
+space they don&#x27;t Orient to it visually
+
+00:38:09.880 --> 00:38:12.880
+um their body representation has changed
+
+00:38:12.880 --> 00:38:16.280
+and so forth um and we saw a a very
+
+00:38:16.280 --> 00:38:19.480
+clear transient example that when we use
+
+00:38:19.480 --> 00:38:22.040
+down paranome we also used a serotonin
+
+00:38:22.040 --> 00:38:24.599
+antagonist called andanson again this is
+
+00:38:24.599 --> 00:38:27.839
+a nausea medication to taken by C cancer
+
+00:38:27.839 --> 00:38:29.680
+patients uh when we gave it to the
+
+00:38:29.680 --> 00:38:31.760
+monkeys after the blood brain barrier
+
+00:38:31.760 --> 00:38:33.160
+opening they had a little bit of a
+
+00:38:33.160 --> 00:38:36.040
+neglect syndrome um and it went away
+
+00:38:36.040 --> 00:38:40.800
+after like 12 hours or something what
+
+00:38:41.359 --> 00:38:43.800
+is uh so it&#x27;s a it&#x27;s an attention
+
+00:38:43.800 --> 00:38:47.720
+syndrome where um the subject basically
+
+00:38:47.720 --> 00:38:52.119
+doesn&#x27;t Orient to one/ half of
+
+00:38:52.119 --> 00:38:56.160
+space um so they will if you you know if
+
+00:38:56.160 --> 00:38:59.680
+you show them a piece of food in the um
+
+00:38:59.680 --> 00:39:01.920
+intact Hemi field they&#x27;ll reach out and
+
+00:39:01.920 --> 00:39:04.040
+grab it if you show it in the impaired
+
+00:39:04.040 --> 00:39:07.319
+Hemy field they have no reaction um and
+
+00:39:07.319 --> 00:39:10.000
+this happened during and after the BBD
+
+00:39:10.000 --> 00:39:13.079
+opening yeah okay so there was improved
+
+00:39:13.079 --> 00:39:16.000
+performance in some ways and then
+
+00:39:16.000 --> 00:39:18.440
+dramatically worse than others right but
+
+00:39:18.440 --> 00:39:20.480
+using the these are antagonists so
+
+00:39:20.480 --> 00:39:22.640
+presumably if we used Agonist we might
+
+00:39:22.640 --> 00:39:24.319
+get the
+
+00:39:24.319 --> 00:39:27.480
+opposite yeah beside our um enhancing
+
+00:39:27.480 --> 00:39:30.240
+delivery of the drugs in Alzheimer
+
+00:39:30.240 --> 00:39:32.040
+disease did you do any testing on
+
+00:39:32.040 --> 00:39:34.119
+delivery on drugs and also the
+
+00:39:34.119 --> 00:39:36.280
+antibodies do you any test on the
+
+00:39:36.280 --> 00:39:39.319
+antibodies as well so my colleague has a
+
+00:39:39.319 --> 00:39:42.079
+clinical trial on Alzheimer&#x27;s uh
+
+00:39:42.079 --> 00:39:44.119
+happening now and I think they&#x27;re
+
+00:39:44.119 --> 00:39:46.720
+looking at some of those things
+
+00:39:46.720 --> 00:39:48.359
+um
+
+00:39:48.359 --> 00:39:50.599
+uh you know we don&#x27;t really have a good
+
+00:39:50.599 --> 00:39:53.440
+primate model of of Alzheimer&#x27;s right
+
+00:39:53.440 --> 00:39:56.599
+now so uh you know that that were is
+
+00:39:56.599 --> 00:39:59.560
+mostly being done in humans
+
+00:39:59.560 --> 00:40:03.440
+okay um and I think um so I&#x27;m happy to
+
+00:40:03.440 --> 00:40:04.920
+talk about future directions I don&#x27;t
+
+00:40:04.920 --> 00:40:06.040
+know if
+
+00:40:06.040 --> 00:40:09.680
+I it okay
+
+00:40:09.680 --> 00:40:11.680
+um
+
+00:40:11.680 --> 00:40:14.599
+so you know the future of ultrasound in
+
+00:40:14.599 --> 00:40:17.680
+terms of um research I mean there&#x27;s just
+
+00:40:17.680 --> 00:40:20.480
+a huge number of avenues that are being
+
+00:40:20.480 --> 00:40:23.040
+pursued um my lab is interested in
+
+00:40:23.040 --> 00:40:26.400
+optimizing the efficiency and the safety
+
+00:40:26.400 --> 00:40:30.520
+of the method um we&#x27;re doing for example
+
+00:40:30.520 --> 00:40:33.520
+targeting uh based on individual Anatomy
+
+00:40:33.520 --> 00:40:36.200
+because um you know human heads come in
+
+00:40:36.200 --> 00:40:38.680
+all shapes and sizes and skull
+
+00:40:38.680 --> 00:40:41.240
+thicknesses um and we&#x27;re actually using
+
+00:40:41.240 --> 00:40:44.960
+um AI methods to try to predict how
+
+00:40:44.960 --> 00:40:46.480
+that&#x27;s you know the skull is actually
+
+00:40:46.480 --> 00:40:48.680
+going to affect the pressure we inside
+
+00:40:48.680 --> 00:40:49.520
+the
+
+00:40:49.520 --> 00:40:51.800
+skull um something we&#x27;re not really
+
+00:40:51.800 --> 00:40:53.319
+we&#x27;re sort of thinking about not really
+
+00:40:53.319 --> 00:40:54.560
+doing but this is really cool it&#x27;s
+
+00:40:54.560 --> 00:40:56.440
+called acoustic lensing and you you
+
+00:40:56.440 --> 00:40:59.760
+basically 3D print uh something that
+
+00:40:59.760 --> 00:41:02.440
+goes outside the head and then this can
+
+00:41:02.440 --> 00:41:04.520
+compensate for the shape and thickness
+
+00:41:04.520 --> 00:41:07.200
+of the skull and there&#x27;s this kind of
+
+00:41:07.200 --> 00:41:08.680
+idea that you could actually create like
+
+00:41:08.680 --> 00:41:12.960
+a 3D pressure hologram inside the skull
+
+00:41:12.960 --> 00:41:14.560
+and so you wouldn&#x27;t have a single Focus
+
+00:41:14.560 --> 00:41:17.079
+you would have many fosi and you could
+
+00:41:17.079 --> 00:41:20.119
+like really you know get fancy with that
+
+00:41:20.119 --> 00:41:23.720
+um and that would be really fun to do um
+
+00:41:23.720 --> 00:41:26.280
+emerging field of sonog genetics which
+
+00:41:26.280 --> 00:41:28.839
+which is where we combine um you know
+
+00:41:28.839 --> 00:41:32.480
+virally introduced uh mechano receptors
+
+00:41:32.480 --> 00:41:35.119
+like the trp channels or there&#x27;s a
+
+00:41:35.119 --> 00:41:37.319
+bacterial mechanical receptor called
+
+00:41:37.319 --> 00:41:40.480
+mscl um there&#x27;s mech4 which is found in
+
+00:41:40.480 --> 00:41:43.760
+cgans and so you could introduce this is
+
+00:41:43.760 --> 00:41:45.839
+this is not fully noninvasive so there&#x27;s
+
+00:41:45.839 --> 00:41:47.160
+a little bit of a downside but you could
+
+00:41:47.160 --> 00:41:49.920
+introduce a virus into a particular
+
+00:41:49.920 --> 00:41:52.280
+brain Target have it express the mechano
+
+00:41:52.280 --> 00:41:54.920
+receptor and then activate it with
+
+00:41:54.920 --> 00:41:56.880
+ultrasound um so that&#x27;s something we&#x27;re
+
+00:41:56.880 --> 00:41:59.200
+looking into people are trying to do
+
+00:41:59.200 --> 00:42:02.000
+like visual prostheses with this and you
+
+00:42:02.000 --> 00:42:04.640
+know creating patterns of activity in
+
+00:42:04.640 --> 00:42:07.520
+the visual cortex it&#x27;s pretty science
+
+00:42:07.520 --> 00:42:11.560
+fictiony kind of stuff um in terms of
+
+00:42:11.560 --> 00:42:13.400
+commercialization I think you know we&#x27;re
+
+00:42:13.400 --> 00:42:16.200
+seeing more and more every year more
+
+00:42:16.200 --> 00:42:19.000
+companies coming out um in all the
+
+00:42:19.000 --> 00:42:22.079
+different you know in clinical Arena
+
+00:42:22.079 --> 00:42:25.040
+there&#x27;s already you know the Insite um
+
+00:42:25.040 --> 00:42:27.599
+device which many medical centers are
+
+00:42:27.599 --> 00:42:30.040
+using and running a service to treat
+
+00:42:30.040 --> 00:42:32.960
+essential tremor um there are research
+
+00:42:32.960 --> 00:42:35.960
+systems that are uh pretty much TurnKey
+
+00:42:35.960 --> 00:42:38.240
+so if you want to do mouse research with
+
+00:42:38.240 --> 00:42:40.640
+ultrasound um you know fous instruments
+
+00:42:40.640 --> 00:42:43.200
+will will build one of these for
+
+00:42:43.200 --> 00:42:45.599
+$50,000 um and they also have an MR
+
+00:42:45.599 --> 00:42:48.720
+compatible uh system for 100,000 that
+
+00:42:48.720 --> 00:42:51.800
+will work with a um I sound like I&#x27;m
+
+00:42:51.800 --> 00:42:53.119
+selling
+
+00:42:53.119 --> 00:42:55.720
+this I have no relationship with this
+
+00:42:55.720 --> 00:42:56.880
+company
+
+00:42:56.880 --> 00:42:59.880
+um but they have a NMR compatible system
+
+00:42:59.880 --> 00:43:03.200
+that&#x27;ll work with a 9.4t system um and
+
+00:43:03.200 --> 00:43:05.319
+then some people are are working on
+
+00:43:05.319 --> 00:43:09.160
+wearable um ultrasound uh transducers
+
+00:43:09.160 --> 00:43:11.280
+and you know it&#x27;s all very interesting I
+
+00:43:11.280 --> 00:43:13.720
+I think that we really need to get to
+
+00:43:13.720 --> 00:43:15.920
+something that&#x27;s probably wearable but
+
+00:43:15.920 --> 00:43:17.079
+also with
+
+00:43:17.079 --> 00:43:20.119
+multiple um transducers so that we have
+
+00:43:20.119 --> 00:43:24.319
+more control um over what&#x27;s actually
+
+00:43:24.319 --> 00:43:27.359
+happening so that&#x27;s it um and I&#x27;m happy
+
+00:43:27.359 --> 00:43:31.119
+to take questions more
+
+00:43:31.860 --> 00:43:33.200
+[Applause]
+
+00:43:33.200 --> 00:43:36.480
+questions I have a question oh yeah so
+
+00:43:36.480 --> 00:43:39.000
+with the slide with the Hemi neglect I&#x27;m
+
+00:43:39.000 --> 00:43:41.400
+just um kind of confused because if
+
+00:43:41.400 --> 00:43:44.160
+you&#x27;re targeting the basil ganglia um
+
+00:43:44.160 --> 00:43:46.280
+and if there&#x27;s a parietal dysfunction
+
+00:43:46.280 --> 00:43:49.040
+where hem neglect would happen how does
+
+00:43:49.040 --> 00:43:50.520
+that
+
+00:43:50.520 --> 00:43:54.240
+correlate um right so attention spatial
+
+00:43:54.240 --> 00:43:56.359
+attention is controlled by many
+
+00:43:56.359 --> 00:43:58.400
+structures in the brain um the
+
+00:43:58.400 --> 00:44:01.359
+prefrontal cortex the prial cortex the
+
+00:44:01.359 --> 00:44:03.359
+basal ganglia and parts of the brain
+
+00:44:03.359 --> 00:44:07.400
+stem all all control so there&#x27;s you know
+
+00:44:07.400 --> 00:44:09.280
+there&#x27;s a there&#x27;s a nucleus in the brain
+
+00:44:09.280 --> 00:44:11.880
+stem called The Superior calculus which
+
+00:44:11.880 --> 00:44:14.920
+controls eye movements um but it also
+
+00:44:14.920 --> 00:44:19.839
+controls attention um so so spatial
+
+00:44:19.839 --> 00:44:21.559
+attention is one of these functions
+
+00:44:21.559 --> 00:44:23.760
+that&#x27;s so important that a lot of your
+
+00:44:23.760 --> 00:44:26.680
+brain is doing it um including
+
+00:44:26.680 --> 00:44:29.280
+uh the cod8 nucleus and the cod8 is also
+
+00:44:29.280 --> 00:44:31.880
+involved in controlling eye movements so
+
+00:44:31.880 --> 00:44:35.480
+both overt and covert
+
+00:44:36.280 --> 00:44:39.720
+attention uh how did you decide on the
+
+00:44:39.720 --> 00:44:43.200
+frequency duty cycle uh parameters for
+
+00:44:43.200 --> 00:44:45.319
+your alround at the the private
+
+00:44:45.319 --> 00:44:47.559
+experiments really good question I mean
+
+00:44:47.559 --> 00:44:49.359
+we just we haven&#x27;t really explored that
+
+00:44:49.359 --> 00:44:53.599
+space and we need to um it&#x27;s just what
+
+00:44:53.599 --> 00:44:56.599
+sort of happened to work um
+
+00:44:56.599 --> 00:44:58.960
+and and it worked and it&#x27;s like did you
+
+00:44:58.960 --> 00:45:00.960
+try a lot of things that didn&#x27;t first or
+
+00:45:00.960 --> 00:45:03.280
+we we actually know um but there&#x27;s
+
+00:45:03.280 --> 00:45:05.240
+there&#x27;s no I&#x27;m not saying that any of
+
+00:45:05.240 --> 00:45:07.440
+this has been optimized so there&#x27;s
+
+00:45:07.440 --> 00:45:09.200
+there&#x27;s still like I said there&#x27;s a long
+
+00:45:09.200 --> 00:45:12.559
+road ahead of us um to actually
+
+00:45:12.559 --> 00:45:16.000
+optimize um all of those parameters uh
+
+00:45:16.000 --> 00:45:18.559
+there is this idea that certain
+
+00:45:18.559 --> 00:45:22.040
+frequencies um cause excitation and
+
+00:45:22.040 --> 00:45:24.680
+other frequencies and pressure regimes
+
+00:45:24.680 --> 00:45:27.440
+cause inhibition and so we can sort of
+
+00:45:27.440 --> 00:45:28.720
+you know change the excitatory
+
+00:45:28.720 --> 00:45:31.760
+inhibitory balance um by manipulating
+
+00:45:31.760 --> 00:45:33.240
+pressure and
+
+00:45:33.240 --> 00:45:36.040
+frequency uh but again early days and
+
+00:45:36.040 --> 00:45:37.880
+all that really needs to be expl I saw
+
+00:45:37.880 --> 00:45:39.440
+some of the stuff from the Korean lab
+
+00:45:39.440 --> 00:45:41.920
+that said that from from Korean studies
+
+00:45:41.920 --> 00:45:44.040
+that said that they that they knew which
+
+00:45:44.040 --> 00:45:46.440
+were excitatory versus inhibitory you
+
+00:45:46.440 --> 00:45:49.760
+play stock in that well you know it&#x27;s
+
+00:45:49.760 --> 00:45:51.520
+it&#x27;s an interesting hypothesis it needs
+
+00:45:51.520 --> 00:45:54.880
+to be tested more carefully
+
+00:45:54.880 --> 00:45:57.880
+okay
+
+00:45:58.400 --> 00:46:02.760
+oh yeah um I saw a little bit ago that
+
+00:46:02.760 --> 00:46:06.319
+ultr was used to zap addictions away
+
+00:46:06.319 --> 00:46:09.200
+which seems very promising use case
+
+00:46:09.200 --> 00:46:10.800
+would it be the same methodology or was
+
+00:46:10.800 --> 00:46:13.079
+that just like P sciencefiction I
+
+00:46:13.079 --> 00:46:16.599
+haven&#x27;t seen that study we um we tried
+
+00:46:16.599 --> 00:46:18.440
+to get a study funded where we were
+
+00:46:18.440 --> 00:46:22.400
+going to um look at
+
+00:46:22.400 --> 00:46:25.920
+ultrasound uh targeted to the you know
+
+00:46:25.920 --> 00:46:28.280
+certain reward centers as a treatment
+
+00:46:28.280 --> 00:46:29.880
+for
+
+00:46:29.880 --> 00:46:34.559
+alcoholism um so chronic alcoholism is
+
+00:46:34.559 --> 00:46:35.720
+extremely
+
+00:46:35.720 --> 00:46:38.640
+refractory um as you
+
+00:46:38.640 --> 00:46:41.559
+know if you have a relative or something
+
+00:46:41.559 --> 00:46:45.720
+you probably know about this um so you
+
+00:46:45.720 --> 00:46:47.640
+know there there there was some interest
+
+00:46:47.640 --> 00:46:49.240
+but we never really got that study
+
+00:46:49.240 --> 00:46:52.800
+funded uh the the idea was it&#x27;s a it&#x27;s a
+
+00:46:52.800 --> 00:46:55.200
+structure called the ventral straum or
+
+00:46:55.200 --> 00:46:58.319
+the nucleus cumbent and it gets a lot of
+
+00:46:58.319 --> 00:47:01.319
+dopamine um and you know people think
+
+00:47:01.319 --> 00:47:04.720
+it&#x27;s involved in um in addiction and in
+
+00:47:04.720 --> 00:47:08.200
+alcoholism so we&#x27;re going to try that um
+
+00:47:08.200 --> 00:47:09.760
+never got funded so we never did the
+
+00:47:09.760 --> 00:47:13.640
+study but I&#x27;d be interested in the sub
+
+00:47:13.760 --> 00:47:16.480
+stud yeah so this is more about
+
+00:47:16.480 --> 00:47:18.720
+decentralized science and kind so it
+
+00:47:18.720 --> 00:47:21.559
+seems like you have a massive uh search
+
+00:47:21.559 --> 00:47:23.880
+space that you could explore exactly uh
+
+00:47:23.880 --> 00:47:26.680
+for this and presumably resources I
+
+00:47:26.680 --> 00:47:27.599
+don&#x27;t know how many people you have in
+
+00:47:27.599 --> 00:47:29.160
+your lab
+
+00:47:29.160 --> 00:47:33.480
+but um and then simultaneously there are
+
+00:47:33.480 --> 00:47:36.839
+probably many other labs that have trans
+
+00:47:36.839 --> 00:47:38.880
+similar transducers and access to
+
+00:47:38.880 --> 00:47:41.760
+similar you know um animals that they
+
+00:47:41.760 --> 00:47:44.920
+can experiment with
+
+00:47:44.920 --> 00:47:47.559
+um what is the feasibility of
+
+00:47:47.559 --> 00:47:49.599
+parallelizing a lot of these experiment
+
+00:47:49.599 --> 00:47:50.960
+because even if you did have the
+
+00:47:50.960 --> 00:47:53.040
+resources you you would be you would be
+
+00:47:53.040 --> 00:47:55.359
+limited by this by the sequential nature
+
+00:47:55.359 --> 00:47:56.800
+of like working in a single lab in a
+
+00:47:56.800 --> 00:48:00.760
+single place human beings um and so how
+
+00:48:00.760 --> 00:48:03.480
+realistically do you see any possib like
+
+00:48:03.480 --> 00:48:06.720
+um any possibility of parallelization of
+
+00:48:06.720 --> 00:48:10.280
+these experiments uh and aeration of
+
+00:48:10.280 --> 00:48:13.680
+their results yeah so I&#x27;m going to say
+
+00:48:13.680 --> 00:48:16.040
+something Politically Incorrect not in
+
+00:48:16.040 --> 00:48:18.040
+this country because that&#x27;s just not the
+
+00:48:18.040 --> 00:48:21.839
+way the NIH fund sence
+
+00:48:21.839 --> 00:48:25.440
+um if someone who wasn&#x27;t right it might
+
+00:48:25.440 --> 00:48:28.880
+have in China oh okay you um because
+
+00:48:28.880 --> 00:48:31.960
+they do things big scale
+
+00:48:31.960 --> 00:48:34.160
+um yeah it&#x27;s
+
+00:48:34.160 --> 00:48:36.720
+uh no I mean what you want is something
+
+00:48:36.720 --> 00:48:38.960
+like the Allen Institute but Allen
+
+00:48:38.960 --> 00:48:41.720
+Institute is focused entirely on on
+
+00:48:41.720 --> 00:48:43.880
+rodents but you know if we had an allen
+
+00:48:43.880 --> 00:48:47.040
+Institute for human Neuroscience I mean
+
+00:48:47.040 --> 00:48:48.119
+I think they do a little bit of human
+
+00:48:48.119 --> 00:48:50.319
+Neuroscience there as well but that&#x27;s
+
+00:48:50.319 --> 00:48:53.440
+the scale that you kind of need and
+
+00:48:53.440 --> 00:48:57.520
+that&#x27;s you know you&#x27;re talking about you
+
+00:48:57.520 --> 00:49:00.880
+know um I mean the entire NIH budget is
+
+00:49:00.880 --> 00:49:02.319
+about $50
+
+00:49:02.319 --> 00:49:05.160
+billion and you know to really do this
+
+00:49:05.160 --> 00:49:06.599
+at
+
+00:49:06.599 --> 00:49:10.839
+scale yeah you&#x27;re talking about you know
+
+00:49:10.839 --> 00:49:15.200
+a billion or so so um and then what are
+
+00:49:15.200 --> 00:49:17.480
+the I try quickly what are
+
+00:49:17.480 --> 00:49:19.760
+like commercially like how much money
+
+00:49:19.760 --> 00:49:21.400
+would there be to make assuming this
+
+00:49:21.400 --> 00:49:23.839
+were Technologies be successful yeah
+
+00:49:23.839 --> 00:49:24.880
+that&#x27;s a question like how much like
+
+00:49:24.880 --> 00:49:26.240
+would it be more than billion I guess
+
+00:49:26.240 --> 00:49:28.480
+would it be more than T well no I mean
+
+00:49:28.480 --> 00:49:29.839
+you can build these systems you can
+
+00:49:29.839 --> 00:49:32.160
+build uh you know a colleague of mine is
+
+00:49:32.160 --> 00:49:33.920
+building a phased array system he&#x27;s
+
+00:49:33.920 --> 00:49:36.040
+getting components from China and it&#x27;s
+
+00:49:36.040 --> 00:49:39.480
+about on the order of 50,000 per system
+
+00:49:39.480 --> 00:49:43.280
+um so if you wanted to have like tens of
+
+00:49:43.280 --> 00:49:47.119
+these systems you know say 50,000 time
+
+00:49:47.119 --> 00:49:51.119
+10 or times 100 you know so it&#x27;s you
+
+00:49:51.119 --> 00:49:54.640
+know it&#x27;s within the um you know few
+
+00:49:54.640 --> 00:49:56.079
+Mill few million
+
+00:49:56.079 --> 00:49:59.319
+basically you could have a pretty robust
+
+00:49:59.319 --> 00:50:02.319
+Enterprise and start doing these studies
+
+00:50:02.319 --> 00:50:05.119
+so a lot there&#x27;s a part the cap of D is
+
+00:50:05.119 --> 00:50:07.920
+like super biof focused and particularly
+
+00:50:07.920 --> 00:50:09.440
+around this and um there&#x27;s a lot of
+
+00:50:09.440 --> 00:50:11.359
+focus around um intellectual property
+
+00:50:11.359 --> 00:50:14.200
+and of these and so I&#x27;m I&#x27;m wondering if
+
+00:50:14.200 --> 00:50:15.799
+you had a bunch of scientists from all
+
+00:50:15.799 --> 00:50:16.680
+these different because I know you&#x27;re
+
+00:50:16.680 --> 00:50:18.480
+saying it can&#x27;t be done by the NIH like
+
+00:50:18.480 --> 00:50:20.400
+I completely agree that&#x27;s one of the
+
+00:50:20.400 --> 00:50:21.680
+limitations that Michael was talking
+
+00:50:21.680 --> 00:50:24.680
+about earlier but suppose for example
+
+00:50:24.680 --> 00:50:27.599
+that um we focus bit on the supply side
+
+00:50:27.599 --> 00:50:29.280
+and we just have the scientist do these
+
+00:50:29.280 --> 00:50:32.040
+things anyways for free or whatever but
+
+00:50:32.040 --> 00:50:34.319
+we kept the tracker attract their
+
+00:50:34.319 --> 00:50:37.240
+contributions to um their this project
+
+00:50:37.240 --> 00:50:40.920
+and like uh basically allocated them a
+
+00:50:40.920 --> 00:50:43.000
+portion of the inal property that was
+
+00:50:43.000 --> 00:50:46.920
+created out of it do you think that it&#x27;s
+
+00:50:46.920 --> 00:50:49.000
+realistic that um because then again
+
+00:50:49.000 --> 00:50:50.920
+that Inu property would have value you
+
+00:50:50.920 --> 00:50:53.799
+know probably very valuable maybe um it
+
+00:50:53.799 --> 00:50:55.079
+could be reward all the scientists who
+
+00:50:55.079 --> 00:50:56.200
+parti
+
+00:50:56.200 --> 00:51:00.200
+do do you think that that is possible in
+
+00:51:00.200 --> 00:51:01.200
+any
+
+00:51:01.200 --> 00:51:04.280
+way uh it&#x27;s possible you got some legal
+
+00:51:04.280 --> 00:51:08.040
+hurdles because uh the two
+
+00:51:08.040 --> 00:51:10.640
+institutions um that are involved here
+
+00:51:10.640 --> 00:51:13.000
+are the universities and the NIH and
+
+00:51:13.000 --> 00:51:15.119
+both of them have intellectual property
+
+00:51:15.119 --> 00:51:17.680
+interests that you would have to deal
+
+00:51:17.680 --> 00:51:20.760
+with and so Columbia owns technically
+
+00:51:20.760 --> 00:51:22.920
+they own all of my intellectual property
+
+00:51:22.920 --> 00:51:24.400
+and if I want to license something or
+
+00:51:24.400 --> 00:51:26.440
+patent something have to go through
+
+00:51:26.440 --> 00:51:30.880
+their lawyers um that&#x27;s that&#x27;s a real
+
+00:51:30.880 --> 00:51:33.400
+issue I can&#x27;t really do things on my own
+
+00:51:33.400 --> 00:51:35.839
+unless I sever that relationship I think
+
+00:51:35.839 --> 00:51:37.319
+I don&#x27;t know if people try to get around
+
+00:51:37.319 --> 00:51:40.119
+that I I haven&#x27;t done that I mean I have
+
+00:51:40.119 --> 00:51:42.640
+in the past you know licens some
+
+00:51:42.640 --> 00:51:46.000
+products through them but it&#x27;s you know
+
+00:51:46.000 --> 00:51:48.319
+it&#x27;s an issue as soon as you license
+
+00:51:48.319 --> 00:51:50.599
+something ni wants to know if that was
+
+00:51:50.599 --> 00:51:52.160
+supported by a grant and then you have
+
+00:51:52.160 --> 00:51:54.599
+to go through their patent process and
+
+00:51:54.599 --> 00:51:55.920
+so forth and
+
+00:51:55.920 --> 00:51:59.200
+and you know these are limitations but
+
+00:51:59.200 --> 00:52:00.760
+um you
+
+00:52:00.760 --> 00:52:04.880
+know universities have a lot of uh a lot
+
+00:52:04.880 --> 00:52:08.559
+of power and you know and a lot of
+
+00:52:08.559 --> 00:52:10.599
+legal
+
+00:52:10.599 --> 00:52:14.000
+um I&#x27;m not going to say too much about
+
+00:52:14.000 --> 00:52:17.520
+tce that&#x27;s why you need like Dows to uh
+
+00:52:17.520 --> 00:52:19.799
+like fund initial research with like
+
+00:52:19.799 --> 00:52:22.599
+grants so that people can have like the
+
+00:52:22.599 --> 00:52:25.960
+amount to live but then also go the IP
+
+00:52:25.960 --> 00:52:27.280
+that would go into the grant that would
+
+00:52:27.280 --> 00:52:29.359
+go into the Dow instead of having the IP
+
+00:52:29.359 --> 00:52:32.400
+go into like the IP licensing department
+
+00:52:32.400 --> 00:52:35.119
+of the University right right but you
+
+00:52:35.119 --> 00:52:37.799
+know changing that model is going to
+
+00:52:37.799 --> 00:52:40.400
+require you know a
+
+00:52:40.400 --> 00:52:43.200
+lot um I mean I think
+
+00:52:43.200 --> 00:52:45.079
+institutes that are like fully
+
+00:52:45.079 --> 00:52:47.520
+self-contained like the Allen Institute
+
+00:52:47.520 --> 00:52:49.359
+you know where you just have a you know
+
+00:52:49.359 --> 00:52:50.319
+huge
+
+00:52:50.319 --> 00:52:54.200
+endowment um but they also get ni money
+
+00:52:54.200 --> 00:52:55.480
+and they also have University
+
+00:52:55.480 --> 00:52:58.520
+partnership so um you know you have to
+
+00:52:58.520 --> 00:53:01.400
+deal with that at some
+
+00:53:01.400 --> 00:53:03.599
+level Yeah you mentioned before that you
+
+00:53:03.599 --> 00:53:05.839
+are targeting viruses so here a
+
+00:53:05.839 --> 00:53:08.200
+practical experience and people have a
+
+00:53:08.200 --> 00:53:12.559
+chronic bbpb which is a recuring Leo
+
+00:53:12.559 --> 00:53:14.640
+they are trying to heal it with you know
+
+00:53:14.640 --> 00:53:17.760
+vable treatments I had this chronic Leo
+
+00:53:17.760 --> 00:53:19.520
+for one hour every doctor told me you&#x27;re
+
+00:53:19.520 --> 00:53:20.559
+going to have it for the rest of your
+
+00:53:20.559 --> 00:53:22.480
+life I did a lot of resarch study from
+
+00:53:22.480 --> 00:53:25.680
+that and I find out when you have the
+
+00:53:25.680 --> 00:53:28.359
+basically viruses are bunkered in the
+
+00:53:28.359 --> 00:53:30.839
+Vesti ner and you have to go after the
+
+00:53:30.839 --> 00:53:34.920
+viruses not just m already go with anti
+
+00:53:34.920 --> 00:53:37.079
+vetical drugs they give you you know
+
+00:53:37.079 --> 00:53:39.480
+volume they give you Clum that is going
+
+00:53:39.480 --> 00:53:42.680
+to improve vable treatment with ever
+
+00:53:42.680 --> 00:53:45.200
+going to help that the crystals which
+
+00:53:45.200 --> 00:53:47.119
+get release there they&#x27;re going to
+
+00:53:47.119 --> 00:53:49.680
+vanish on but the problem is that in the
+
+00:53:49.680 --> 00:53:53.000
+rest the viruses are curing so you
+
+00:53:53.000 --> 00:53:55.359
+actually Target the viruses in order to
+
+00:53:55.359 --> 00:53:57.359
+get rid of the vertical so now your
+
+00:53:57.359 --> 00:53:59.119
+application is perfect for that you can
+
+00:53:59.119 --> 00:54:02.119
+actually Target the Val system n to see
+
+00:54:02.119 --> 00:54:04.400
+what is happening and then you can use
+
+00:54:04.400 --> 00:54:08.680
+like aob Dr to go after it you know
+
+00:54:08.680 --> 00:54:11.359
+that&#x27;s an interesting idea that&#x27;s a very
+
+00:54:11.359 --> 00:54:13.680
+anatomically it&#x27;s a very complicated
+
+00:54:13.680 --> 00:54:15.920
+structure because you&#x27;ve got the you
+
+00:54:15.920 --> 00:54:17.520
+know it&#x27;s called the Bony Labyrinth and
+
+00:54:17.520 --> 00:54:19.799
+it&#x27;s embedded in in the base of the
+
+00:54:19.799 --> 00:54:20.880
+skull
+
+00:54:20.880 --> 00:54:25.480
+basically um so targeting ultrasound
+
+00:54:25.480 --> 00:54:28.400
+would be really pretty tricky there but
+
+00:54:28.400 --> 00:54:30.119
+I I see what you&#x27;re saying I mean you
+
+00:54:30.119 --> 00:54:32.520
+can have vertigo from acoustic neuromas
+
+00:54:32.520 --> 00:54:35.400
+from viruses from the the little ear
+
+00:54:35.400 --> 00:54:38.520
+Stones the otoconia get displaced
+
+00:54:38.520 --> 00:54:40.799
+sometimes um and there&#x27;s sort of a
+
+00:54:40.799 --> 00:54:43.960
+maneuver you can do to uh get back into
+
+00:54:43.960 --> 00:54:45.839
+place and things like that um I mean
+
+00:54:45.839 --> 00:54:48.000
+ultrasound could potentially play a role
+
+00:54:48.000 --> 00:54:52.440
+there but um it it&#x27;s a very an uh
+
+00:54:52.440 --> 00:54:54.280
+complicated anatomical structure so it&#x27;
+
+00:54:54.280 --> 00:54:56.760
+be kind of of difficult it&#x27;s easier to
+
+00:54:56.760 --> 00:54:58.440
+go things after things in the center of
+
+00:54:58.440 --> 00:55:00.680
+the brain you know because it&#x27;s just a
+
+00:55:00.680 --> 00:55:02.880
+big
+
+00:55:04.520 --> 00:55:08.119
+melon question so for like the micro
+
+00:55:08.119 --> 00:55:10.400
+like uh why five
+
+00:55:10.400 --> 00:55:13.680
+Micron uh five microns is roughly the
+
+00:55:13.680 --> 00:55:16.680
+size of the capillaries so you have a a
+
+00:55:16.680 --> 00:55:19.440
+micro going through and it&#x27;s like just
+
+00:55:19.440 --> 00:55:21.000
+fitting through the capillary and then
+
+00:55:21.000 --> 00:55:23.160
+you make it expand a little bit and then
+
+00:55:23.160 --> 00:55:27.079
+you can you know get the capillary to to
+
+00:55:27.079 --> 00:55:28.640
+you know loosen up a
+
+00:55:28.640 --> 00:55:31.480
+little so uh could you potentially like
+
+00:55:31.480 --> 00:55:35.119
+make it smaller or oh yeah yeah um I
+
+00:55:35.119 --> 00:55:36.799
+mean they make these micro bubbles in
+
+00:55:36.799 --> 00:55:38.440
+all sizes they&#x27;re originally developed I
+
+00:55:38.440 --> 00:55:41.440
+think as uh contrast agents for heart
+
+00:55:41.440 --> 00:55:43.000
+Imaging so when you get an echo
+
+00:55:43.000 --> 00:55:45.119
+cardiogram and they want to do a flow
+
+00:55:45.119 --> 00:55:46.680
+study or something they can use these
+
+00:55:46.680 --> 00:55:48.079
+microbes so they come in all different
+
+00:55:48.079 --> 00:55:50.319
+sizes we actually make them in different
+
+00:55:50.319 --> 00:55:53.720
+sizes and then we use a a filter we call
+
+00:55:53.720 --> 00:55:55.599
+a sizer but it&#x27;s a filter
+
+00:55:55.599 --> 00:56:00.599
+to uh select the five micr
+
+00:56:00.599 --> 00:56:02.520
+size um thinking about the like
+
+00:56:02.520 --> 00:56:05.880
+wearables and home use how big is the I
+
+00:56:05.880 --> 00:56:07.520
+guess like margin of error for where you
+
+00:56:07.520 --> 00:56:10.559
+would put the device like if you have it
+
+00:56:10.559 --> 00:56:12.440
+off a little bit will you still get the
+
+00:56:12.440 --> 00:56:14.880
+results that you want well that&#x27;s why we
+
+00:56:14.880 --> 00:56:16.200
+it would have to be packaged with a
+
+00:56:16.200 --> 00:56:19.000
+navigation system you know so you could
+
+00:56:19.000 --> 00:56:21.039
+sort of move it around and see in real
+
+00:56:21.039 --> 00:56:23.480
+time you know you&#x27;d have a a computer
+
+00:56:23.480 --> 00:56:24.640
+that would show you in real time where
+
+00:56:24.640 --> 00:56:26.799
+the Focus was and then you could kind of
+
+00:56:26.799 --> 00:56:30.520
+like you know scrap it down or whatever
+
+00:56:30.520 --> 00:56:32.839
+um uh I think in terms of the tolerance
+
+00:56:32.839 --> 00:56:34.640
+it depends on you know what you&#x27;re going
+
+00:56:34.640 --> 00:56:36.880
+after what the structure is if you&#x27;re
+
+00:56:36.880 --> 00:56:40.319
+going after say like um a Target like
+
+00:56:40.319 --> 00:56:44.559
+for um uh you know the the anterior
+
+00:56:44.559 --> 00:56:46.839
+singlet um a particular part of the
+
+00:56:46.839 --> 00:56:49.280
+anterior singul is now a target for mood
+
+00:56:49.280 --> 00:56:53.480
+disorders and uh OCD and it&#x27;s a fairly
+
+00:56:53.480 --> 00:56:55.599
+large structure so there&#x27;s a good margin
+
+00:56:55.599 --> 00:56:58.039
+there but if you&#x27;re trying to Target the
+
+00:56:58.039 --> 00:57:01.960
+um you know the acous the uh you know
+
+00:57:01.960 --> 00:57:05.319
+the eighth nerve that&#x27;s that&#x27;s you know
+
+00:57:05.319 --> 00:57:06.520
+that&#x27;s a
+
+00:57:06.520 --> 00:57:09.480
+different issue Al
+
+00:57:09.480 --> 00:57:13.119
+together all right um why do the lower
+
+00:57:13.119 --> 00:57:16.079
+frequencies penetrate penetrate deeper
+
+00:57:16.079 --> 00:57:18.400
+than the higher frequencies uh it&#x27;s just
+
+00:57:18.400 --> 00:57:20.839
+the physics um it&#x27;s the same with light
+
+00:57:20.839 --> 00:57:24.039
+low frequency light goes deeper than
+
+00:57:24.039 --> 00:57:26.160
+than high frequency when you&#x27;re doing
+
+00:57:26.160 --> 00:57:28.599
+microscopy um it just has to do with the
+
+00:57:28.599 --> 00:57:31.559
+way it&#x27;s absorbed and the you know the
+
+00:57:31.559 --> 00:57:33.640
+mechanical compliance of the tissue and
+
+00:57:33.640 --> 00:57:36.960
+things like that um it&#x27;s it&#x27;s a physics
+
+00:57:36.960 --> 00:57:40.160
+problem and I&#x27;m not a good
+
+00:57:40.640 --> 00:57:44.440
+physicist um does age play a factor in
+
+00:57:44.440 --> 00:57:47.960
+this uh yes age is a very important
+
+00:57:47.960 --> 00:57:49.720
+factor and something that has to be
+
+00:57:49.720 --> 00:57:53.160
+looked at um and you know animal studies
+
+00:57:53.160 --> 00:57:54.799
+are almost always done on young health
+
+00:57:54.799 --> 00:57:56.839
+healthy animals but if we&#x27;re going to
+
+00:57:56.839 --> 00:57:58.559
+apply this you know to
+
+00:57:58.559 --> 00:58:01.799
+geriatric um populations we we need to
+
+00:58:01.799 --> 00:58:03.920
+do and that&#x27;s a that&#x27;s a scarce and
+
+00:58:03.920 --> 00:58:07.359
+precious resource um you know animals
+
+00:58:07.359 --> 00:58:10.799
+because it costs money right to to feed
+
+00:58:10.799 --> 00:58:13.520
+and house the animals and so the older
+
+00:58:13.520 --> 00:58:16.079
+they are the more expensive they are or
+
+00:58:16.079 --> 00:58:18.000
+the more that they they&#x27;ve cost you so
+
+00:58:18.000 --> 00:58:20.640
+there aren&#x27;t many places with geriatric
+
+00:58:20.640 --> 00:58:23.200
+populations of primates for example
+
+00:58:23.200 --> 00:58:25.079
+there are only a few places in the unit
+
+00:58:25.079 --> 00:58:26.880
+States but I think it&#x27;s really important
+
+00:58:26.880 --> 00:58:29.839
+to do those studies before we um you
+
+00:58:29.839 --> 00:58:33.319
+know develop this for for you know aging
+
+00:58:33.319 --> 00:58:36.280
+humans of which I&#x27;m one
+
+00:58:36.280 --> 00:58:39.640
+so we&#x27;re all aging just different
+
+00:58:39.640 --> 00:58:41.480
+excellent all right is there any more
+
+00:58:41.480 --> 00:58:42.359
+any more
+
+00:58:42.359 --> 00:58:44.359
+questions well thank you so much let&#x27;s
+
+00:58:44.359 --> 00:58:47.160
+give another round of
+
+00:58:48.039 --> 00:58:53.200
+applause amazing okay so next up we have
+
+00:58:53.200 --> 00:58:58.480
+uh Sage and um little bio on Sage is
+
+00:58:58.480 --> 00:59:01.839
+like a couple years ago I was uh I was
+
+00:59:01.839 --> 00:59:03.640
+doing the PHD in computer science so I
+
+00:59:03.640 --> 00:59:06.480
+guess I was doing a lot of Googling on
+
+00:59:06.480 --> 00:59:08.119
+YouTube and just in general and Google
+
+00:59:08.119 --> 00:59:11.960
+knew that I was interested in Ai and uh
+
+00:59:11.960 --> 00:59:14.240
+SJ would always come up on like the
+
+00:59:14.240 --> 00:59:17.640
+front page of my YouTube channel and uh
+
+00:59:17.640 --> 00:59:18.720
+he has over
+
+00:59:18.720 --> 00:59:21.400
+750,000 YouTube subscribers and
+
+00:59:21.400 --> 00:59:24.839
+literally a plethora of like any topic
+
+00:59:24.839 --> 00:59:28.440
+you could want like whether it be uh
+
+00:59:28.440 --> 00:59:30.319
+word to back
+
+00:59:30.319 --> 00:59:33.400
+glove uh Transformers like any sort of
+
+00:59:33.400 --> 00:59:35.200
+topic that you could think of he has
+
+00:59:35.200 --> 00:59:37.599
+like he&#x27;s the modern day Donald can with
+
+00:59:37.599 --> 00:59:39.960
+the art of computer science uh for
+
+00:59:39.960 --> 00:59:42.400
+YouTube he&#x27;s and um and now you&#x27;re
+
+00:59:42.400 --> 00:59:43.680
+working
+
+00:59:43.680 --> 00:59:46.520
+on uh sports betting AI sports betting
+
+00:59:46.520 --> 00:59:49.480
+AI yeah and um so I mean I&#x27;m just he&#x27;s a
+
+00:59:49.480 --> 00:59:55.359
+he&#x27;s a great um uh digital YouTube AI
+
+00:59:55.359 --> 00:59:58.319
+educator and um you guys should all
+
+00:59:58.319 --> 00:59:59.680
+definitely check him out on YouTube he
+
+00:59:59.680 --> 01:00:02.240
+hasn&#x27;t he really has an amazing channel
+
+01:00:02.240 --> 01:00:04.240
+so I&#x27;m very excited to hear his your
+
+01:00:04.240 --> 01:00:08.359
+talk on um Ai and Longevity and the sort
+
+01:00:08.359 --> 01:00:10.760
+of science experiments that he has been
+
+01:00:10.760 --> 01:00:12.359
+conducting and I I think you&#x27;re also
+
+01:00:12.359 --> 01:00:14.160
+going to talk about AI intersection of
+
+01:00:14.160 --> 01:00:16.480
+science which I think is like probably
+
+01:00:16.480 --> 01:00:18.079
+like one of the frontiers of science
+
+01:00:18.079 --> 01:00:20.160
+right now because you know all the sort
+
+01:00:20.160 --> 01:00:22.720
+of research assistants um they could
+
+01:00:22.720 --> 01:00:24.559
+probably be replaced by AI in many
+
+01:00:24.559 --> 01:00:26.880
+anyways and uh like we&#x27;re just sort of
+
+01:00:26.880 --> 01:00:29.160
+scratching the surface on what does it
+
+01:00:29.160 --> 01:00:31.680
+mean for an AI to be a scientist so
+
+01:00:31.680 --> 01:00:34.760
+without further Ado take it away
+
+01:00:34.760 --> 01:00:37.119
+AB right thank you Michael thank you
+
+01:00:37.119 --> 01:00:38.440
+everybody for being here I know it&#x27;s
+
+01:00:38.440 --> 01:00:39.960
+super late but I&#x27;m going to try to keep
+
+01:00:39.960 --> 01:00:41.599
+everybody awake for the next 15 minutes
+
+01:00:41.599 --> 01:00:43.000
+so stay with me we have a lot of
+
+01:00:43.000 --> 01:00:45.559
+information to cover in this 15minute
+
+01:00:45.559 --> 01:00:47.039
+talk I&#x27;m going to try to keep it at 15
+
+01:00:47.039 --> 01:00:48.839
+minutes we&#x27;re going to first go over
+
+01:00:48.839 --> 01:00:51.240
+what is AI for longevity very important
+
+01:00:51.240 --> 01:00:53.319
+topic one of the hottest topics of the
+
+01:00:53.319 --> 01:00:55.119
+next decade then I&#x27;m going to go over my
+
+01:00:55.119 --> 01:00:57.119
+own journey in AI for longevity and at
+
+01:00:57.119 --> 01:00:59.720
+the end we together are going to build
+
+01:00:59.720 --> 01:01:02.880
+our own AI or longevity drug in 10 lines
+
+01:01:02.880 --> 01:01:04.960
+of python code all right ready ready for
+
+01:01:04.960 --> 01:01:08.440
+this all right let&#x27;s get started
+
+01:01:08.440 --> 01:01:11.039
+so what&#x27;s the problem here everybody&#x27;s
+
+01:01:11.039 --> 01:01:13.319
+dying left and right right so the top 10
+
+01:01:13.319 --> 01:01:15.760
+causes of death are all related to
+
+01:01:15.760 --> 01:01:17.319
+different systems in the body whether
+
+01:01:17.319 --> 01:01:18.799
+it&#x27;s the digestive system whether it&#x27;s
+
+01:01:18.799 --> 01:01:20.640
+the heart whether it&#x27;s the lungs whether
+
+01:01:20.640 --> 01:01:22.640
+it&#x27;s the brain so you might be thinking
+
+01:01:22.640 --> 01:01:24.119
+that these are all disperate systems
+
+01:01:24.119 --> 01:01:25.640
+that they not interconnected that they
+
+01:01:25.640 --> 01:01:27.599
+have nothing to do with each other but
+
+01:01:27.599 --> 01:01:29.880
+the reality is that all of these
+
+01:01:29.880 --> 01:01:32.079
+diseases are interl and that they are
+
+01:01:32.079 --> 01:01:35.079
+all Downstream of the root cause of all
+
+01:01:35.079 --> 01:01:38.119
+disease which is aging and that
+
+01:01:38.119 --> 01:01:40.079
+statement has gotten me laughed out of
+
+01:01:40.079 --> 01:01:41.520
+Hospitals and Clinics and different
+
+01:01:41.520 --> 01:01:43.520
+Healthcare facilities when I say it
+
+01:01:43.520 --> 01:01:45.400
+because this is a multi-billion dollar
+
+01:01:45.400 --> 01:01:47.119
+industry and I&#x27;m sure Vincent knows what
+
+01:01:47.119 --> 01:01:49.079
+I&#x27;m talking about but this is something
+
+01:01:49.079 --> 01:01:51.319
+that people&#x27;s livelihoods is against
+
+01:01:51.319 --> 01:01:53.359
+they&#x27;re paid to not say that aging is a
+
+01:01:53.359 --> 01:01:55.400
+disease but in fact Alzheimer&#x27;s is a
+
+01:01:55.400 --> 01:01:57.160
+disease and you should perpetually take
+
+01:01:57.160 --> 01:01:58.440
+this drug to cure yourself of
+
+01:01:58.440 --> 01:02:00.240
+Alzheimer&#x27;s forever so that me and my
+
+01:02:00.240 --> 01:02:02.000
+shareholders make money like everything
+
+01:02:02.000 --> 01:02:04.079
+else in this country but the reality is
+
+01:02:04.079 --> 01:02:06.200
+that aging is the root cause of all
+
+01:02:06.200 --> 01:02:08.520
+disease and as radical a statement as
+
+01:02:08.520 --> 01:02:09.920
+that might seem there are three
+
+01:02:09.920 --> 01:02:12.000
+different sources that I was inspired by
+
+01:02:12.000 --> 01:02:14.039
+to come to this conclusion the first one
+
+01:02:14.039 --> 01:02:15.640
+is a book that I highly recommend you
+
+01:02:15.640 --> 01:02:17.799
+check out it&#x27;s called the gene and it&#x27;s
+
+01:02:17.799 --> 01:02:20.559
+by Dr sart muker and I got the privilege
+
+01:02:20.559 --> 01:02:23.880
+of working with Dr Sid in La at the LA
+
+01:02:23.880 --> 01:02:25.279
+Children&#x27;s Hospital Hospital on a bunch
+
+01:02:25.279 --> 01:02:28.559
+of genomics data and uh also for the US
+
+01:02:28.559 --> 01:02:31.119
+Veterans Administration and I got to see
+
+01:02:31.119 --> 01:02:34.039
+firsthand how incredible a time we live
+
+01:02:34.039 --> 01:02:36.880
+in uh it is right now because we are
+
+01:02:36.880 --> 01:02:39.359
+seeing an explosion of omix data omix
+
+01:02:39.359 --> 01:02:41.319
+stands for molecular biology data that
+
+01:02:41.319 --> 01:02:43.799
+includes Gene data so you know what
+
+01:02:43.799 --> 01:02:46.680
+encodes who you are transcript omix data
+
+01:02:46.680 --> 01:02:48.319
+all these different omix we&#x27;ll get into
+
+01:02:48.319 --> 01:02:50.520
+that later on but uh it&#x27;s an incredible
+
+01:02:50.520 --> 01:02:52.279
+time to be alive to see all this
+
+01:02:52.279 --> 01:02:55.000
+explosion in molecular biology data data
+
+01:02:55.000 --> 01:02:57.319
+that did not exist more than a decade
+
+01:02:57.319 --> 01:02:59.960
+ago now exists and the second book is
+
+01:02:59.960 --> 01:03:01.680
+called lifespan why we age and why we
+
+01:03:01.680 --> 01:03:03.440
+don&#x27;t have to by Dr David Sinclair
+
+01:03:03.440 --> 01:03:04.480
+actually people might know this guy
+
+01:03:04.480 --> 01:03:05.720
+raise your hand if you know Dr David
+
+01:03:05.720 --> 01:03:07.960
+Sinclair yeah he&#x27;s he&#x27;s he&#x27;s gone on
+
+01:03:07.960 --> 01:03:09.480
+social media a lot but this is a great
+
+01:03:09.480 --> 01:03:11.599
+book he also has a podcast highly
+
+01:03:11.599 --> 01:03:14.039
+recommend it um this Sinclair lab for
+
+01:03:14.039 --> 01:03:15.400
+genetics they&#x27;ve done Decades of
+
+01:03:15.400 --> 01:03:16.960
+research if you remember from the early
+
+01:03:16.960 --> 01:03:18.520
+2000s there was this craze around you
+
+01:03:18.520 --> 01:03:20.319
+know red wine and reservatrol that came
+
+01:03:20.319 --> 01:03:22.319
+from their lab as well but all that
+
+01:03:22.319 --> 01:03:23.880
+antioxidant stuff it wasn&#x27;t as
+
+01:03:23.880 --> 01:03:26.079
+impressive as what they later f found
+
+01:03:26.079 --> 01:03:27.440
+which is what I&#x27;m going to talk about
+
+01:03:27.440 --> 01:03:30.079
+the third uh I guess resource is my
+
+01:03:30.079 --> 01:03:31.559
+friend Brian Johnson who&#x27;s been my
+
+01:03:31.559 --> 01:03:33.440
+friend for you know a few years now we
+
+01:03:33.440 --> 01:03:34.599
+used to hang out in Santa Monica and
+
+01:03:34.599 --> 01:03:36.599
+talk about Colonel which was his startup
+
+01:03:36.599 --> 01:03:38.039
+back in the day which was a brain
+
+01:03:38.039 --> 01:03:39.760
+interface startup and he was super into
+
+01:03:39.760 --> 01:03:42.279
+that um but nowadays you know I think
+
+01:03:42.279 --> 01:03:43.799
+everybody here has heard of Brian now
+
+01:03:43.799 --> 01:03:46.200
+he&#x27;s working on longevity full-time and
+
+01:03:46.200 --> 01:03:47.839
+Brian and I have two different trains of
+
+01:03:47.839 --> 01:03:49.279
+thought here which I&#x27;m also excited to
+
+01:03:49.279 --> 01:03:51.839
+go into and what longevity means for you
+
+01:03:51.839 --> 01:03:54.000
+so that&#x27;s kind of my background so
+
+01:03:54.000 --> 01:03:55.279
+before before you and I get into
+
+01:03:55.279 --> 01:03:57.359
+building this in 10 lines of python uh
+
+01:03:57.359 --> 01:03:58.920
+we need to have some context here of how
+
+01:03:58.920 --> 01:04:00.279
+are we going to do this how are we going
+
+01:04:00.279 --> 01:04:02.000
+to build an anti-aging drug in Python in
+
+01:04:02.000 --> 01:04:04.599
+10 lines in Python sounds ridiculous
+
+01:04:04.599 --> 01:04:08.000
+until you consider the context in that
+
+01:04:08.000 --> 01:04:09.880
+we can consider everything information
+
+01:04:09.880 --> 01:04:11.279
+for a second just bear with me for a
+
+01:04:11.279 --> 01:04:12.640
+second it&#x27;s a little hypothetical
+
+01:04:12.640 --> 01:04:14.400
+experiment let&#x27;s consider everything
+
+01:04:14.400 --> 01:04:16.359
+information for a second well the most
+
+01:04:16.359 --> 01:04:18.079
+fundamental unit of information then is
+
+01:04:18.079 --> 01:04:19.680
+the atom and what do we use with the
+
+01:04:19.680 --> 01:04:21.359
+atom we build things we build this desk
+
+01:04:21.359 --> 01:04:23.240
+we build this computer we build cars
+
+01:04:23.240 --> 01:04:25.440
+trains planes all these with the atom um
+
+01:04:25.440 --> 01:04:26.839
+and one of the things that we built with
+
+01:04:26.839 --> 01:04:28.720
+the atom was the computer and the
+
+01:04:28.720 --> 01:04:30.799
+computer gave us a secondary unit of
+
+01:04:30.799 --> 01:04:32.839
+information the bite the bite is
+
+01:04:32.839 --> 01:04:35.559
+represented as a one or a zero
+
+01:04:35.559 --> 01:04:38.000
+right there actually happens to be a
+
+01:04:38.000 --> 01:04:40.039
+tertiary unit of information that people
+
+01:04:40.039 --> 01:04:41.839
+have been sleeping on and that is the
+
+01:04:41.839 --> 01:04:44.520
+gene it&#x27;s not encoded as ones and zeros
+
+01:04:44.520 --> 01:04:48.440
+it&#x27;s encoded as A&#x27;s C&#x27;s T&#x27;s and G&#x27;s and
+
+01:04:48.440 --> 01:04:50.559
+gez who here has had your DNA sequence
+
+01:04:50.559 --> 01:04:51.880
+before by show of hands just out of
+
+01:04:51.880 --> 01:04:53.760
+curiosity it&#x27;s actually a large number
+
+01:04:53.760 --> 01:04:55.400
+of people given the privacy issues which
+
+01:04:55.400 --> 01:04:57.480
+we&#x27;re also going to go into um I&#x27;ve had
+
+01:04:57.480 --> 01:04:59.799
+my genome sequence and it&#x27;s literally a
+
+01:04:59.799 --> 01:05:02.440
+txt file on your computer you can double
+
+01:05:02.440 --> 01:05:04.039
+click on it and it literally just looks
+
+01:05:04.039 --> 01:05:05.640
+like
+
+01:05:05.640 --> 01:05:07.920
+AC literally everything about you is
+
+01:05:07.920 --> 01:05:10.760
+encoded in these numbers and so that&#x27;s
+
+01:05:10.760 --> 01:05:12.799
+just something to think about okay so
+
+01:05:12.799 --> 01:05:15.599
+biology is information physical matter
+
+01:05:15.599 --> 01:05:19.599
+is information everything is information
+
+01:05:19.599 --> 01:05:22.160
+okay so what evidence do I have here
+
+01:05:22.160 --> 01:05:23.279
+other than these books that I&#x27;ve read
+
+01:05:23.279 --> 01:05:24.319
+and these people that I&#x27;ve talked to
+
+01:05:24.319 --> 01:05:25.640
+that aging is a disease and that it&#x27;s
+
+01:05:25.640 --> 01:05:27.359
+treatable well two years ago out of
+
+01:05:27.359 --> 01:05:30.640
+Spain there was this gene therapy uh
+
+01:05:30.640 --> 01:05:32.640
+that was applied to lung cancer patients
+
+01:05:32.640 --> 01:05:35.079
+it was a gene therapy specifically for
+
+01:05:35.079 --> 01:05:37.240
+lung cancer but as a side effect some of
+
+01:05:37.240 --> 01:05:38.920
+the patients actually experienced age
+
+01:05:38.920 --> 01:05:41.000
+reversal they experienced repigmentation
+
+01:05:41.000 --> 01:05:43.200
+of the hair their wrinkles went away so
+
+01:05:43.200 --> 01:05:45.920
+different body parts ex differentiated
+
+01:05:45.920 --> 01:05:48.359
+is the actual term for this right where
+
+01:05:48.359 --> 01:05:50.480
+ex differentiation is a term in the
+
+01:05:50.480 --> 01:05:52.760
+longevity community that means that
+
+01:05:52.760 --> 01:05:54.720
+different systems of the body lose their
+
+01:05:54.720 --> 01:05:57.000
+flavor or their distinction over time
+
+01:05:57.000 --> 01:05:58.799
+which causes aging whether it&#x27;s in the
+
+01:05:58.799 --> 01:06:00.640
+you know theal cells or whether it&#x27;s in
+
+01:06:00.640 --> 01:06:02.520
+you know blood cells whatever it is and
+
+01:06:02.520 --> 01:06:04.000
+these these patients experience a
+
+01:06:04.000 --> 01:06:06.400
+reversal of it as a side effect they did
+
+01:06:06.400 --> 01:06:08.760
+not expect that but often in science the
+
+01:06:08.760 --> 01:06:11.559
+most crucial discoveries are accidents
+
+01:06:11.559 --> 01:06:13.079
+right Watson and Crick that&#x27;s how they
+
+01:06:13.079 --> 01:06:15.400
+discovered DNA and so my point here is
+
+01:06:15.400 --> 01:06:18.039
+that this is a wide open space and if
+
+01:06:18.039 --> 01:06:20.079
+people are reversing aging by accident
+
+01:06:20.079 --> 01:06:21.760
+with Gene therapies and there&#x27;s
+
+01:06:21.760 --> 01:06:23.520
+something about Gene therapies that we
+
+01:06:23.520 --> 01:06:25.400
+should look at now I am a computer
+
+01:06:25.400 --> 01:06:27.160
+scientist well I actually dropped out of
+
+01:06:27.160 --> 01:06:29.079
+Columbia three years ago when I was
+
+01:06:29.079 --> 01:06:30.440
+studying computer science as every
+
+01:06:30.440 --> 01:06:32.520
+Silicon Valley person should do right
+
+01:06:32.520 --> 01:06:35.480
+and what I came to terms with after
+
+01:06:35.480 --> 01:06:37.039
+dropping out of Columbia I didn&#x27;t really
+
+01:06:37.039 --> 01:06:38.640
+have an interest in biology when I was a
+
+01:06:38.640 --> 01:06:40.760
+student what I came to terms with after
+
+01:06:40.760 --> 01:06:42.559
+is we should use all of this computer
+
+01:06:42.559 --> 01:06:43.839
+science knowledge to figure out
+
+01:06:43.839 --> 01:06:46.279
+ourselves and how we work and that&#x27;s
+
+01:06:46.279 --> 01:06:48.240
+what this explosion of biological data
+
+01:06:48.240 --> 01:06:50.079
+is going to allow us to do as people
+
+01:06:50.079 --> 01:06:51.839
+like myself who don&#x27;t have any business
+
+01:06:51.839 --> 01:06:54.000
+being in biology I don&#x27;t have a degreee
+
+01:06:54.000 --> 01:06:56.720
+or PhD but I will affect biology and I
+
+01:06:56.720 --> 01:06:59.200
+think you can too one of the ways that
+
+01:06:59.200 --> 01:07:01.119
+we can affect biology is by creating
+
+01:07:01.119 --> 01:07:03.720
+Gene therapies Gene therapies are
+
+01:07:03.720 --> 01:07:05.839
+essentially bits of information remember
+
+01:07:05.839 --> 01:07:07.839
+all this is information designed on a
+
+01:07:07.839 --> 01:07:10.000
+computer you and I can design this in
+
+01:07:10.000 --> 01:07:11.200
+python or a different programming
+
+01:07:11.200 --> 01:07:13.559
+language this information once we design
+
+01:07:13.559 --> 01:07:16.760
+it is then printed to a DNA sequence
+
+01:07:16.760 --> 01:07:18.200
+another way of thinking about this is
+
+01:07:18.200 --> 01:07:21.839
+that it is uh it is a you know just like
+
+01:07:21.839 --> 01:07:23.680
+you would a 3D printer with pla or
+
+01:07:23.680 --> 01:07:25.920
+something plastic you can print out DNA
+
+01:07:25.920 --> 01:07:29.720
+material and U once this DNA is printed
+
+01:07:29.720 --> 01:07:31.720
+it is put into a transportation vehicle
+
+01:07:31.720 --> 01:07:34.160
+like an aav or some sort of virro vector
+
+01:07:34.160 --> 01:07:35.440
+or something and then you could take it
+
+01:07:35.440 --> 01:07:36.920
+as a pill or as an injection or
+
+01:07:36.920 --> 01:07:39.079
+something like that now if we just have
+
+01:07:39.079 --> 01:07:41.039
+a laptop and we want to you know hack on
+
+01:07:41.039 --> 01:07:42.799
+something we don&#x27;t have access to all
+
+01:07:42.799 --> 01:07:44.559
+this molecular material we don&#x27;t have
+
+01:07:44.559 --> 01:07:46.960
+access to a PCR machine or any of that
+
+01:07:46.960 --> 01:07:48.839
+and that&#x27;s where Cloud bioinformatics
+
+01:07:48.839 --> 01:07:50.520
+comes into play there are companies like
+
+01:07:50.520 --> 01:07:52.480
+twist biosciences that allow you as a
+
+01:07:52.480 --> 01:07:54.440
+developer to then push your code to the
+
+01:07:54.440 --> 01:07:56.200
+cloud and print out DNA that they will
+
+01:07:56.200 --> 01:07:58.160
+then send to you for you to test out on
+
+01:07:58.160 --> 01:07:59.760
+different organisms with which we&#x27;ll
+
+01:07:59.760 --> 01:08:00.920
+talk about as
+
+01:08:00.920 --> 01:08:03.680
+well so where do we begin in biology
+
+01:08:03.680 --> 01:08:06.119
+this space is super complicated and as
+
+01:08:06.119 --> 01:08:09.039
+New Yorkers one way that we can look at
+
+01:08:09.039 --> 01:08:11.480
+data and understand it is in terms of a
+
+01:08:11.480 --> 01:08:14.119
+metro map what you&#x27;re looking at here is
+
+01:08:14.119 --> 01:08:17.120
+a metabolic metro map it is a map of all
+
+01:08:17.120 --> 01:08:19.279
+the different path Pathways in a system
+
+01:08:19.279 --> 01:08:21.600
+of the body known as the metabone and
+
+01:08:21.600 --> 01:08:23.120
+we&#x27;ll talk about all the different hes
+
+01:08:23.120 --> 01:08:25.759
+in a second um but as you can see nobody
+
+01:08:25.759 --> 01:08:27.400
+should understand this from you know
+
+01:08:27.400 --> 01:08:28.679
+right off the bat this is super
+
+01:08:28.679 --> 01:08:30.520
+complicated and you can see all these
+
+01:08:30.520 --> 01:08:32.319
+different processes happening here you
+
+01:08:32.319 --> 01:08:34.159
+know P glycer rates going up to the
+
+01:08:34.159 --> 01:08:36.120
+glycerol and the glycogenesis going
+
+01:08:36.120 --> 01:08:38.319
+downwards and all this stuff um this is
+
+01:08:38.319 --> 01:08:41.440
+super complicated and entire researchers
+
+01:08:41.440 --> 01:08:43.279
+who I respect and admire dedicate their
+
+01:08:43.279 --> 01:08:45.960
+entire lives to one small part of this
+
+01:08:45.960 --> 01:08:49.000
+Subway M so it&#x27;s super complicated but
+
+01:08:49.000 --> 01:08:51.040
+what we have learned in the past decade
+
+01:08:51.040 --> 01:08:54.000
+is that there&#x27;s three Pathways in this
+
+01:08:54.000 --> 01:08:56.600
+metabolome that are super useful for
+
+01:08:56.600 --> 01:08:59.400
+longevity those pathways are bear with
+
+01:08:59.400 --> 01:09:01.400
+me for a second number one mtor which
+
+01:09:01.400 --> 01:09:03.920
+stands for Maman Target of rapamycin
+
+01:09:03.920 --> 01:09:06.279
+we&#x27;ll go into that number two is cin
+
+01:09:06.279 --> 01:09:08.239
+which stands for a set of a subset of
+
+01:09:08.239 --> 01:09:10.400
+proteins dedicated to longevity and
+
+01:09:10.400 --> 01:09:13.159
+number three is amk which sounds sounds
+
+01:09:13.159 --> 01:09:15.600
+like a punk band but actually it stands
+
+01:09:15.600 --> 01:09:19.120
+for adenine monophosphate Kines which is
+
+01:09:19.120 --> 01:09:21.759
+another longevity pathway in the in the
+
+01:09:21.759 --> 01:09:24.480
+metabolic pathway map now why are these
+
+01:09:24.480 --> 01:09:26.159
+three important well Dr David Sinclair
+
+01:09:26.159 --> 01:09:27.920
+in his book why we age and what why we
+
+01:09:27.920 --> 01:09:29.799
+don&#x27;t have to in his lab you found that
+
+01:09:29.799 --> 01:09:31.520
+these three longevity Pathways when
+
+01:09:31.520 --> 01:09:34.560
+activated actually reverse and stop
+
+01:09:34.560 --> 01:09:37.239
+Aging in mice and in humans through
+
+01:09:37.239 --> 01:09:39.480
+these methods those methods include
+
+01:09:39.480 --> 01:09:42.199
+caloric restriction exercise reservatrol
+
+01:09:42.199 --> 01:09:44.799
+some of you might also know about cold
+
+01:09:44.799 --> 01:09:47.359
+water therapy ice showers all this stuff
+
+01:09:47.359 --> 01:09:49.359
+what&#x27;s the relationship between all of
+
+01:09:49.359 --> 01:09:51.279
+these different seemingly unrelated
+
+01:09:51.279 --> 01:09:54.040
+activities they all cause stress in the
+
+01:09:54.040 --> 01:09:57.120
+body it goes back to Xeno Oris that
+
+01:09:57.120 --> 01:09:59.000
+which doesn&#x27;t kill you makes you
+
+01:09:59.000 --> 01:10:00.600
+stronger and all of these things
+
+01:10:00.600 --> 01:10:03.199
+activate amk so every time your body is
+
+01:10:03.199 --> 01:10:05.440
+under stress it&#x27;s like you&#x27;re telling it
+
+01:10:05.440 --> 01:10:07.480
+you need to survive you need to actually
+
+01:10:07.480 --> 01:10:10.080
+bunker down take what little energy
+
+01:10:10.080 --> 01:10:12.560
+sources that you have and have it last
+
+01:10:12.560 --> 01:10:16.239
+over time and um ampk is also related to
+
+01:10:16.239 --> 01:10:18.600
+mtor which is also activated when you
+
+01:10:18.600 --> 01:10:20.960
+take too much protein and protein
+
+01:10:20.960 --> 01:10:22.719
+actually increases your muscle mass so
+
+01:10:22.719 --> 01:10:24.360
+when you&#x27;re lifting you actually feel
+
+01:10:24.360 --> 01:10:25.320
+great when you have a lot of
+
+01:10:25.320 --> 01:10:27.800
+testosterone you feel great but actually
+
+01:10:27.800 --> 01:10:29.560
+that&#x27;s burning the candle faster so
+
+01:10:29.560 --> 01:10:31.480
+you&#x27;re got you&#x27;re actually going to die
+
+01:10:31.480 --> 01:10:34.040
+faster I know that sounds kind of
+
+01:10:34.040 --> 01:10:35.760
+counterintuitive but it&#x27;s it&#x27;s kind of
+
+01:10:35.760 --> 01:10:37.920
+like burning a candle too fast and so
+
+01:10:37.920 --> 01:10:39.280
+these things are all interrelated now
+
+01:10:39.280 --> 01:10:41.080
+these are just three Pathways in that
+
+01:10:41.080 --> 01:10:43.120
+metabolic map and they&#x27;re just the first
+
+01:10:43.120 --> 01:10:45.199
+three that we&#x27;ve discovered um another
+
+01:10:45.199 --> 01:10:47.920
+drug that is great for targeting ampk is
+
+01:10:47.920 --> 01:10:50.520
+metformin this is an FDA approved drug
+
+01:10:50.520 --> 01:10:52.719
+it was actually approved for diabetes
+
+01:10:52.719 --> 01:10:54.800
+and as a side effect helps people live
+
+01:10:54.800 --> 01:10:56.800
+longer um so there&#x27;s something with
+
+01:10:56.800 --> 01:10:59.960
+insulin as well so there&#x27;s a lot of
+
+01:10:59.960 --> 01:11:02.159
+uh discoveries to be made in this field
+
+01:11:02.159 --> 01:11:04.560
+now to me let&#x27;s get to me for a second
+
+01:11:04.560 --> 01:11:06.840
+so what have I done here I am just a
+
+01:11:06.840 --> 01:11:09.360
+mere mortal again I don&#x27;t have a PhD I&#x27;m
+
+01:11:09.360 --> 01:11:11.480
+your College Dropout I&#x27;m your YouTuber
+
+01:11:11.480 --> 01:11:13.520
+but I happen to reverse my age eight
+
+01:11:13.520 --> 01:11:15.480
+years in 11 months which actually beat
+
+01:11:15.480 --> 01:11:17.560
+my friend Brian Johnson in the Olympics
+
+01:11:17.560 --> 01:11:18.560
+by the way don&#x27;t tell him that he&#x27;s not
+
+01:11:18.560 --> 01:11:21.120
+going to like that but the way that I
+
+01:11:21.120 --> 01:11:23.080
+did this is not by creating a list of
+
+01:11:23.080 --> 01:11:25.120
+supplements to sell on the internet um
+
+01:11:25.120 --> 01:11:26.640
+I&#x27;m selling a sports betting bom that&#x27;s
+
+01:11:26.640 --> 01:11:28.960
+what I&#x27;m sing um the way I did that is
+
+01:11:28.960 --> 01:11:30.760
+just a simple tried andrue method that
+
+01:11:30.760 --> 01:11:32.920
+has been working for decades diet
+
+01:11:32.920 --> 01:11:35.400
+exercise sleep and healthy relationship
+
+01:11:35.400 --> 01:11:38.360
+SL mental health there&#x27;s really nothing
+
+01:11:38.360 --> 01:11:40.280
+complicated about that but what taking
+
+01:11:40.280 --> 01:11:43.080
+blood tests three times in 11 months did
+
+01:11:43.080 --> 01:11:45.159
+do for me that I measured on inside
+
+01:11:45.159 --> 01:11:46.480
+tracker but you could do this on any
+
+01:11:46.480 --> 01:11:48.400
+website I&#x27;m I&#x27;m not I&#x27;m not saying
+
+01:11:48.400 --> 01:11:50.080
+inside tracker is the one you should use
+
+01:11:50.080 --> 01:11:52.639
+what it did do for me is it showed me
+
+01:11:52.639 --> 01:11:54.760
+what I was doing and if it was good or
+
+01:11:54.760 --> 01:11:57.920
+bad like for example just you know sleep
+
+01:11:57.920 --> 01:12:00.719
+more don&#x27;t eat out so many times like
+
+01:12:00.719 --> 01:12:02.120
+you know a lot of sugar or you know
+
+01:12:02.120 --> 01:12:03.560
+don&#x27;t eat burgers and fries every day
+
+01:12:03.560 --> 01:12:05.520
+like simple stuff I really don&#x27;t think
+
+01:12:05.520 --> 01:12:07.239
+this is too complicated for people like
+
+01:12:07.239 --> 01:12:09.639
+this has been going on for hundreds of
+
+01:12:09.639 --> 01:12:10.840
+years like there&#x27;s a study called the
+
+01:12:10.840 --> 01:12:12.600
+Blue zones right and all of these places
+
+01:12:12.600 --> 01:12:15.239
+Okinawa Japan Sardinia Italy Linda
+
+01:12:15.239 --> 01:12:16.960
+California NOOA Costa Rica they have
+
+01:12:16.960 --> 01:12:18.480
+nothing to do with each other other than
+
+01:12:18.480 --> 01:12:20.920
+the fact that they all live past 100
+
+01:12:20.920 --> 01:12:23.239
+regularly and their diets are totally
+
+01:12:23.239 --> 01:12:24.440
+different right youve got fruits and
+
+01:12:24.440 --> 01:12:26.239
+vegetables you got fish you got meat you
+
+01:12:26.239 --> 01:12:28.800
+got red meat you got Dairy everything
+
+01:12:28.800 --> 01:12:30.520
+that people say that they you know not
+
+01:12:30.520 --> 01:12:31.440
+into these people have been eating
+
+01:12:31.440 --> 01:12:32.600
+forever and they live longer and they&#x27;re
+
+01:12:32.600 --> 01:12:34.840
+happier than all of us and so I think
+
+01:12:34.840 --> 01:12:37.000
+the reality of what we as near mortals
+
+01:12:37.000 --> 01:12:40.280
+can do to live longer is to a take blood
+
+01:12:40.280 --> 01:12:42.639
+tests regularly and B just try to eat
+
+01:12:42.639 --> 01:12:45.360
+Whole Foods you know regular moderation
+
+01:12:45.360 --> 01:12:48.480
+diets um and this is just kind of a
+
+01:12:48.480 --> 01:12:51.280
+snapshot at my data at you know some of
+
+01:12:51.280 --> 01:12:53.400
+the different of the 42 different biom
+
+01:12:53.400 --> 01:12:55.480
+markers that they measured calcium sex
+
+01:12:55.480 --> 01:12:57.360
+hormone binding globulin alamin levels
+
+01:12:57.360 --> 01:12:59.520
+it&#x27;s a liver protein and what it does is
+
+01:12:59.520 --> 01:13:04.120
+it measures that level um against a a
+
+01:13:04.120 --> 01:13:06.080
+threshold that is you know somebody of a
+
+01:13:06.080 --> 01:13:08.239
+given age and it tells me the Delta like
+
+01:13:08.239 --> 01:13:11.000
+oh you&#x27;re your levels are plus 1.2 years
+
+01:13:11.000 --> 01:13:13.480
+older than somebody of say 18 which is
+
+01:13:13.480 --> 01:13:15.800
+kind of the Baseline and what you can do
+
+01:13:15.800 --> 01:13:16.920
+you can change your nutrients and
+
+01:13:16.920 --> 01:13:19.199
+mineral levels in your diet to try to uh
+
+01:13:19.199 --> 01:13:20.639
+make that better that number better and
+
+01:13:20.639 --> 01:13:22.679
+look we&#x27;re all going to die this is not
+
+01:13:22.679 --> 01:13:25.199
+going to fix anything diet exercise
+
+01:13:25.199 --> 01:13:27.040
+sleep that&#x27;s just a reality but it&#x27;s a
+
+01:13:27.040 --> 01:13:28.920
+fun Challenge and it&#x27;s a better way it&#x27;s
+
+01:13:28.920 --> 01:13:31.400
+a more holistic preventative way of
+
+01:13:31.400 --> 01:13:34.040
+thinking about health and wellness that
+
+01:13:34.040 --> 01:13:36.360
+being said I do want to have a side note
+
+01:13:36.360 --> 01:13:38.600
+here and that is to be weary because the
+
+01:13:38.600 --> 01:13:40.320
+US federal government is going to spend
+
+01:13:40.320 --> 01:13:41.960
+more on Healthcare than the military in
+
+01:13:41.960 --> 01:13:43.159
+the coming years because everybody&#x27;s
+
+01:13:43.159 --> 01:13:44.920
+going to get old right and so we have an
+
+01:13:44.920 --> 01:13:46.600
+aging population just like Japan if you
+
+01:13:46.600 --> 01:13:48.159
+go to Tokyo now you can see exactly what
+
+01:13:48.159 --> 01:13:49.639
+we&#x27;re going to be which is that a bunch
+
+01:13:49.639 --> 01:13:52.199
+of old people and uh that means that
+
+01:13:52.199 --> 01:13:53.719
+there&#x27;s going to be a huge industry to
+
+01:13:53.719 --> 01:13:55.920
+sell longevity drugs to you so I just
+
+01:13:55.920 --> 01:13:57.360
+want you to be wary I don&#x27;t actually
+
+01:13:57.360 --> 01:13:58.840
+have a longevity drug to sell to you
+
+01:13:58.840 --> 01:14:01.320
+just yet but I want you to be weary
+
+01:14:01.320 --> 01:14:05.600
+that&#x27;s all I&#x27;m say here okay um so what
+
+01:14:05.600 --> 01:14:07.520
+can we do right this goes to building
+
+01:14:07.520 --> 01:14:09.159
+the thing in 10 lines of python code
+
+01:14:09.159 --> 01:14:11.360
+what can we do if we don&#x27;t if we don&#x27;t
+
+01:14:11.360 --> 01:14:13.239
+like have a PhD and we don&#x27;t work at one
+
+01:14:13.239 --> 01:14:15.600
+of these companies well you we could get
+
+01:14:15.600 --> 01:14:17.760
+a job that&#x27;s always an option and there
+
+01:14:17.760 --> 01:14:20.159
+are 20 biotech companies that are hiring
+
+01:14:20.159 --> 01:14:22.639
+right now uh for people data scientist
+
+01:14:22.639 --> 01:14:25.600
+bioinformation people into space um new
+
+01:14:25.600 --> 01:14:27.000
+limit is one I was talking with one of
+
+01:14:27.000 --> 01:14:28.480
+the people here earlier about my friend
+
+01:14:28.480 --> 01:14:30.520
+Brian Armstrong who started coinbase now
+
+01:14:30.520 --> 01:14:31.800
+he&#x27;s working on that this is a really
+
+01:14:31.800 --> 01:14:33.719
+cool one I would highly recommend new
+
+01:14:33.719 --> 01:14:35.560
+limit you know Google started Calico 10
+
+01:14:35.560 --> 01:14:37.280
+years ago you&#x27;ve got Jeff Bezos spending
+
+01:14:37.280 --> 01:14:40.679
+all his money on you know aging very
+
+01:14:40.679 --> 01:14:42.159
+billionaire thing to do these things
+
+01:14:42.159 --> 01:14:44.800
+right so that&#x27;s one option but if you&#x27;re
+
+01:14:44.800 --> 01:14:45.960
+like me and you don&#x27;t want want to
+
+01:14:45.960 --> 01:14:47.400
+necessarily go work for the man and you
+
+01:14:47.400 --> 01:14:49.520
+want to start something of yourself
+
+01:14:49.520 --> 01:14:51.000
+let&#x27;s let&#x27;s talk about what that looks
+
+01:14:51.000 --> 01:14:54.199
+like so what I have here is a is a is a
+
+01:14:54.199 --> 01:14:55.280
+small little
+
+01:14:55.280 --> 01:14:58.480
+video of what&#x27;s happening in the cell
+
+01:14:58.480 --> 01:14:59.760
+and it&#x27;s actually not going to play
+
+01:14:59.760 --> 01:15:01.040
+because I&#x27;m not connected to the Wi-Fi
+
+01:15:01.040 --> 01:15:05.159
+but I&#x27;ll explain connect we connect
+
+01:15:10.960 --> 01:15:13.960
+okay
+
+01:15:22.199 --> 01:15:25.199
+one
+
+01:15:29.639 --> 01:15:31.840
+okay so basically it&#x27;s not going to play
+
+01:15:31.840 --> 01:15:33.960
+it&#x27;s okay no no no it&#x27;s not the Wi-Fi I
+
+01:15:33.960 --> 01:15:35.800
+just I I did something wrong it&#x27;s not
+
+01:15:35.800 --> 01:15:39.520
+you uh describe it I&#x27;m going to describe
+
+01:15:39.520 --> 01:15:41.480
+it so if you go to the smallest scale if
+
+01:15:41.480 --> 01:15:43.000
+you go to YouTube and you type in
+
+01:15:43.000 --> 01:15:45.800
+biological Machinery first video what&#x27;s
+
+01:15:45.800 --> 01:15:47.080
+happening at the smallest scales when
+
+01:15:47.080 --> 01:15:48.960
+you really zoom in using equipment that
+
+01:15:48.960 --> 01:15:51.239
+was created in the past 30 years is it&#x27;s
+
+01:15:51.239 --> 01:15:53.520
+a bunch of robots and they&#x27;re going on
+
+01:15:53.520 --> 01:15:55.560
+these levers and pulleys and all these
+
+01:15:55.560 --> 01:15:58.360
+complex physical Machinery all this is
+
+01:15:58.360 --> 01:16:00.600
+happening at this molecular scale in a
+
+01:16:00.600 --> 01:16:02.719
+Pico second hundreds of thousands of
+
+01:16:02.719 --> 01:16:04.639
+petabytes of data are being generated
+
+01:16:04.639 --> 01:16:06.400
+scales that you and I could not even
+
+01:16:06.400 --> 01:16:08.400
+dream of being able to fit into our
+
+01:16:08.400 --> 01:16:10.360
+threedimensional head this is
+
+01:16:10.360 --> 01:16:12.040
+multi-dimensional data hundreds of
+
+01:16:12.040 --> 01:16:13.880
+thousands of Dimensions so all I&#x27;m
+
+01:16:13.880 --> 01:16:15.000
+trying to say is that it&#x27;s super
+
+01:16:15.000 --> 01:16:17.480
+complicated that being said as
+
+01:16:17.480 --> 01:16:20.280
+complicated as it is it is still
+
+01:16:20.280 --> 01:16:22.719
+information and like all information it
+
+01:16:22.719 --> 01:16:25.000
+can be organized and I&#x27;m going to try to
+
+01:16:25.000 --> 01:16:26.760
+organize it as best as I&#x27;ve understood
+
+01:16:26.760 --> 01:16:29.000
+it while working on it for you
+
+01:16:29.000 --> 01:16:32.639
+today one way to think about life at the
+
+01:16:32.639 --> 01:16:35.360
+smallest scales is a stack of layers
+
+01:16:35.360 --> 01:16:37.360
+just like a software stack in a computer
+
+01:16:37.360 --> 01:16:39.000
+at the bottom of the stack you have the
+
+01:16:39.000 --> 01:16:41.880
+genome the DNA this is what has the
+
+01:16:41.880 --> 01:16:43.639
+storage the hard drive all the
+
+01:16:43.639 --> 01:16:45.000
+information about you stored in the
+
+01:16:45.000 --> 01:16:48.199
+genome now every disc reader needs every
+
+01:16:48.199 --> 01:16:50.120
+dis needs a reader some way to read the
+
+01:16:50.120 --> 01:16:52.280
+disc that&#x27;s what the epome is and that&#x27;s
+
+01:16:52.280 --> 01:16:53.360
+where you&#x27;re seeing a lot of of the
+
+01:16:53.360 --> 01:16:55.480
+Innovation today data that&#x27;s coming from
+
+01:16:55.480 --> 01:16:58.480
+the epigenome tells the body how to turn
+
+01:16:58.480 --> 01:17:00.639
+on and off all of these switches in the
+
+01:17:00.639 --> 01:17:02.719
+genome all the A&#x27;s C&#x27;s T&#x27;s and G&#x27;s when
+
+01:17:02.719 --> 01:17:04.480
+and when when and where to turn them on
+
+01:17:04.480 --> 01:17:07.120
+and off now there&#x27;s also another layer
+
+01:17:07.120 --> 01:17:08.480
+on top of that it&#x27;s called the
+
+01:17:08.480 --> 01:17:10.360
+transcriptome what the transcriptome
+
+01:17:10.360 --> 01:17:13.000
+does is it translates all of those onoff
+
+01:17:13.000 --> 01:17:14.560
+switches to
+
+01:17:14.560 --> 01:17:17.400
+different sections of the body and all
+
+01:17:17.400 --> 01:17:19.440
+of those translations need to be turned
+
+01:17:19.440 --> 01:17:21.520
+into applications there needs to be an
+
+01:17:21.520 --> 01:17:23.639
+app store for the body and that app
+
+01:17:23.639 --> 01:17:26.320
+store is called the proteum proteins are
+
+01:17:26.320 --> 01:17:28.719
+the apps in the body proteins there are
+
+01:17:28.719 --> 01:17:30.480
+thousands of proteins and each of them
+
+01:17:30.480 --> 01:17:33.639
+does an individual task really well and
+
+01:17:33.639 --> 01:17:35.800
+one way to monitor all of the actions of
+
+01:17:35.800 --> 01:17:37.960
+these proteins is with a process monitor
+
+01:17:37.960 --> 01:17:39.159
+just like we would on a computer what
+
+01:17:39.159 --> 01:17:41.159
+are all the processes happening and that
+
+01:17:41.159 --> 01:17:44.239
+process monitor is called the Metabo and
+
+01:17:44.239 --> 01:17:45.800
+that&#x27;s what that&#x27;s that metabolic subway
+
+01:17:45.800 --> 01:17:47.199
+map that we saw earlier that&#x27;s called
+
+01:17:47.199 --> 01:17:49.800
+metabol which monitors the actions of
+
+01:17:49.800 --> 01:17:51.840
+all these applications the proteins that
+
+01:17:51.840 --> 01:17:53.920
+are created through the this translation
+
+01:17:53.920 --> 01:17:56.320
+process by the transcripton that comes
+
+01:17:56.320 --> 01:17:58.440
+from the onoff switches in the epigenome
+
+01:17:58.440 --> 01:18:01.080
+that comes from the hard disk of all
+
+01:18:01.080 --> 01:18:04.760
+biological beings which is their DNA now
+
+01:18:04.760 --> 01:18:07.040
+that we understand the stack of how
+
+01:18:07.040 --> 01:18:08.080
+biology
+
+01:18:08.080 --> 01:18:10.960
+Works how can we change
+
+01:18:10.960 --> 01:18:16.280
+it now bear with me for a second
+
+01:18:16.280 --> 01:18:20.760
+so DNA is a sequence of A&#x27;s C&#x27;s T&#x27;s and
+
+01:18:20.760 --> 01:18:23.639
+G&#x27;s right and in Compu computer science
+
+01:18:23.639 --> 01:18:25.679
+we learned that computers operate on
+
+01:18:25.679 --> 01:18:28.560
+sequences of ones and zeros so one thing
+
+01:18:28.560 --> 01:18:30.719
+is certain here well two things both
+
+01:18:30.719 --> 01:18:33.360
+computers and biology are both computers
+
+01:18:33.360 --> 01:18:35.000
+right that&#x27;s for certain the other thing
+
+01:18:35.000 --> 01:18:37.159
+is that they both operate on sequences
+
+01:18:37.159 --> 01:18:39.320
+so there&#x27;s some similarity there what if
+
+01:18:39.320 --> 01:18:41.159
+we could convert the sequences on a
+
+01:18:41.159 --> 01:18:42.880
+computer into the sequences of biology
+
+01:18:42.880 --> 01:18:44.600
+what would that look like well what it
+
+01:18:44.600 --> 01:18:47.280
+would look like is a map of gates of
+
+01:18:47.280 --> 01:18:50.800
+logic gates of conditionals if if then
+
+01:18:50.800 --> 01:18:53.199
+statements if this happens do this and
+
+01:18:53.199 --> 01:18:54.800
+then do this and then go back and do
+
+01:18:54.800 --> 01:18:56.800
+this how do we do that well we&#x27;re going
+
+01:18:56.800 --> 01:18:59.320
+to design a logic gate and the way that
+
+01:18:59.320 --> 01:19:01.920
+I we we&#x27;re going to design this is a
+
+01:19:01.920 --> 01:19:05.480
+library called cello it&#x27;s called cello
+
+01:19:05.480 --> 01:19:07.280
+on GitHub and I&#x27;ll talk about it more in
+
+01:19:07.280 --> 01:19:09.760
+a second but cello allows for genetic
+
+01:19:09.760 --> 01:19:12.560
+circuit design in Python and once we
+
+01:19:12.560 --> 01:19:13.840
+design this and there&#x27;s there&#x27;s a couple
+
+01:19:13.840 --> 01:19:15.600
+examples this is one of them once we
+
+01:19:15.600 --> 01:19:17.560
+design this gate um and we&#x27;re going to
+
+01:19:17.560 --> 01:19:20.520
+you know basically design it to create a
+
+01:19:20.520 --> 01:19:23.400
+new type of small molecule drug that is
+
+01:19:23.400 --> 01:19:25.360
+going to pull from a database of what
+
+01:19:25.360 --> 01:19:28.239
+are called lians and lians are sequences
+
+01:19:28.239 --> 01:19:30.080
+of molecules that they come from
+
+01:19:30.080 --> 01:19:32.440
+different drug databases and we&#x27;re going
+
+01:19:32.440 --> 01:19:34.199
+to tell it what machine to run on as a
+
+01:19:34.199 --> 01:19:35.760
+parameter the CPU number we&#x27;re going to
+
+01:19:35.760 --> 01:19:37.639
+run it on our CPU because it only needs
+
+01:19:37.639 --> 01:19:39.960
+a CPU really to generate all these
+
+01:19:39.960 --> 01:19:42.320
+different uh variations of the base
+
+01:19:42.320 --> 01:19:44.440
+liend we&#x27;re going to set these four
+
+01:19:44.440 --> 01:19:45.719
+different parameters the charge
+
+01:19:45.719 --> 01:19:47.600
+multiplicity solvent and then where to
+
+01:19:47.600 --> 01:19:49.760
+save it now these three parameters can
+
+01:19:49.760 --> 01:19:51.320
+be changed we can play around with them
+
+01:19:51.320 --> 01:19:53.719
+and we can use an optimiz ation strategy
+
+01:19:53.719 --> 01:19:57.760
+namely drum roll please AI we can use AI
+
+01:19:57.760 --> 01:19:59.880
+That&#x27;s where AI comes in remember this
+
+01:19:59.880 --> 01:20:02.280
+data is way too complex for you and I to
+
+01:20:02.280 --> 01:20:04.320
+understand but that&#x27;s where AI comes in
+
+01:20:04.320 --> 01:20:06.040
+and so AI is going to help us understand
+
+01:20:06.040 --> 01:20:08.199
+which parameters to use to generate the
+
+01:20:08.199 --> 01:20:11.000
+optimal molecule given this liand
+
+01:20:11.000 --> 01:20:13.840
+database and this is all going to
+
+01:20:13.840 --> 01:20:16.520
+construct uh a molecule using a series
+
+01:20:16.520 --> 01:20:18.440
+of logic gates that are written in this
+
+01:20:18.440 --> 01:20:20.800
+cello programming language now this
+
+01:20:20.800 --> 01:20:23.000
+should be confusing which is why I have
+
+01:20:23.000 --> 01:20:24.840
+one more example from a different angle
+
+01:20:24.840 --> 01:20:26.639
+to give you a different view of it and a
+
+01:20:26.639 --> 01:20:28.239
+more holistic view of what we&#x27;re trying
+
+01:20:28.239 --> 01:20:30.639
+to do here now I said that cello was one
+
+01:20:30.639 --> 01:20:32.159
+library but there&#x27;s two other libraries
+
+01:20:32.159 --> 01:20:33.520
+that I want you to know about the first
+
+01:20:33.520 --> 01:20:35.920
+one is called coral and that&#x27;s even more
+
+01:20:35.920 --> 01:20:37.480
+recent the second one is called
+
+01:20:37.480 --> 01:20:39.880
+biopython actually Great Name by the way
+
+01:20:39.880 --> 01:20:42.520
+they should have uh that&#x27;s a great name
+
+01:20:42.520 --> 01:20:44.920
+so what we can do with these libraries I
+
+01:20:44.920 --> 01:20:46.639
+talked about cello another one is coral
+
+01:20:46.639 --> 01:20:48.639
+is once we import that Library we can
+
+01:20:48.639 --> 01:20:50.639
+create what&#x27;s called a primer and the
+
+01:20:50.639 --> 01:20:51.679
+first thing that people do in a
+
+01:20:51.679 --> 01:20:53.520
+molecular biology La is create what&#x27;s
+
+01:20:53.520 --> 01:20:55.639
+called a primer and what a primer can do
+
+01:20:55.639 --> 01:20:58.159
+is it can you know inhibit or say
+
+01:20:58.159 --> 01:21:00.719
+amplify a certain Gene and in this case
+
+01:21:00.719 --> 01:21:02.199
+it&#x27;s going to amplify this Gene
+
+01:21:02.199 --> 01:21:03.920
+basically it&#x27;s going to make it uh so
+
+01:21:03.920 --> 01:21:05.360
+that it&#x27;s going to be activated in
+
+01:21:05.360 --> 01:21:06.840
+whatever organism that we&#x27;re going to
+
+01:21:06.840 --> 01:21:07.880
+insert this
+
+01:21:07.880 --> 01:21:10.440
+into and it&#x27;s going to read DNA from a
+
+01:21:10.440 --> 01:21:12.679
+file that was uh sequenced from some
+
+01:21:12.679 --> 01:21:14.639
+organism maybe a human and then it&#x27;s
+
+01:21:14.639 --> 01:21:16.320
+going to show you the sequence of a c&#x27;s
+
+01:21:16.320 --> 01:21:18.800
+T&#x27;s and G it&#x27;s the code of biology right
+
+01:21:18.800 --> 01:21:21.120
+and so once we have that we can run a
+
+01:21:21.120 --> 01:21:23.719
+design process using coral on that data
+
+01:21:23.719 --> 01:21:26.159
+to create a bunch of variations and we
+
+01:21:26.159 --> 01:21:29.040
+can just test them out and right now um
+
+01:21:29.040 --> 01:21:31.360
+the process of testing it out takes a
+
+01:21:31.360 --> 01:21:33.760
+decade right the drug design process we
+
+01:21:33.760 --> 01:21:36.520
+have clinical trials you know phase one
+
+01:21:36.520 --> 01:21:40.080
+two three and it&#x27;s a huge huge uh choker
+
+01:21:40.080 --> 01:21:41.840
+on the drug Discovery process it slows
+
+01:21:41.840 --> 01:21:44.159
+it down way more than it needs to which
+
+01:21:44.159 --> 01:21:46.159
+is why Quantum Computing is very
+
+01:21:46.159 --> 01:21:49.760
+exciting and Richard finan said in 1965
+
+01:21:49.760 --> 01:21:51.199
+that the way we&#x27;re going to simulate
+
+01:21:51.199 --> 01:21:52.840
+quantum mechanics is through quantum
+
+01:21:52.840 --> 01:21:55.280
+Computing and imagine if we could
+
+01:21:55.280 --> 01:21:57.719
+simulate this on a biological organism
+
+01:21:57.719 --> 01:21:59.360
+that lived on a digital machine
+
+01:21:59.360 --> 01:22:01.920
+essentially simulating a drug trial on a
+
+01:22:01.920 --> 01:22:04.400
+computer in silico avoiding the need for
+
+01:22:04.400 --> 01:22:06.199
+the entire clinical trial process and
+
+01:22:06.199 --> 01:22:09.400
+being able to print a drug from idea to
+
+01:22:09.400 --> 01:22:13.120
+patient in you know n of one uh a day
+
+01:22:13.120 --> 01:22:15.040
+that&#x27;s the future that I foresee with
+
+01:22:15.040 --> 01:22:16.840
+this technology but we need a lot more
+
+01:22:16.840 --> 01:22:19.280
+attention on it for us to get there now
+
+01:22:19.280 --> 01:22:20.719
+let&#x27;s say we have this algorithm you and
+
+01:22:20.719 --> 01:22:22.159
+I we we&#x27;ve done this we&#x27;ve got this 10
+
+01:22:22.159 --> 01:22:24.360
+line code great where are we going to
+
+01:22:24.360 --> 01:22:27.440
+deploy this thing it turns out Amazon of
+
+01:22:27.440 --> 01:22:30.120
+all people they have a health omix
+
+01:22:30.120 --> 01:22:32.560
+platform when did when did this happen
+
+01:22:32.560 --> 01:22:34.000
+it happened two years ago under
+
+01:22:34.000 --> 01:22:36.880
+everybody&#x27;s nose it&#x27;s called AWS Health
+
+01:22:36.880 --> 01:22:39.960
+omix transform genomic transcript omic
+
+01:22:39.960 --> 01:22:42.480
+and other omix data into insights very
+
+01:22:42.480 --> 01:22:44.360
+cool stuff I really already want to get
+
+01:22:44.360 --> 01:22:46.400
+started with this don&#x27;t you very cool
+
+01:22:46.400 --> 01:22:48.400
+stuff so that&#x27;s one way that we could
+
+01:22:48.400 --> 01:22:51.159
+deploy this Amazon right that&#x27;s one way
+
+01:22:51.159 --> 01:22:53.199
+that we could deploy this but there&#x27;s
+
+01:22:53.199 --> 01:22:54.440
+other ways as well we could deploy to
+
+01:22:54.440 --> 01:22:57.120
+our own server we could create a paid
+
+01:22:57.120 --> 01:22:59.800
+subscription service for omix data
+
+01:22:59.800 --> 01:23:02.000
+because of how valuable it is which
+
+01:23:02.000 --> 01:23:04.840
+brings me to me selling my genome as an
+
+01:23:04.840 --> 01:23:07.760
+nft which is kind of the you know
+
+01:23:07.760 --> 01:23:11.199
+gimmick for this talk right um
+
+01:23:11.199 --> 01:23:14.000
+this uh is actually a really important
+
+01:23:14.000 --> 01:23:16.480
+moment um in the history of web through
+
+01:23:16.480 --> 01:23:18.120
+because well first of all somebody
+
+01:23:18.120 --> 01:23:20.920
+bought my genome for one e and they
+
+01:23:20.920 --> 01:23:23.199
+resold it twice and they flipped my
+
+01:23:23.199 --> 01:23:26.120
+genome for three e so somebody made
+
+01:23:26.120 --> 01:23:28.000
+money and then made money and then made
+
+01:23:28.000 --> 01:23:30.639
+money again now if I would have uploaded
+
+01:23:30.639 --> 01:23:33.280
+my genome to any normal website forget
+
+01:23:33.280 --> 01:23:34.840
+blockchain you know blockchain&#x27;s a Stam
+
+01:23:34.840 --> 01:23:36.960
+I&#x27;m not going to do that someone would
+
+01:23:36.960 --> 01:23:38.199
+have resold it and I wouldn&#x27;t have made
+
+01:23:38.199 --> 01:23:41.080
+it done but because it was encoded on
+
+01:23:41.080 --> 01:23:43.760
+this public transnational Ledger
+
+01:23:43.760 --> 01:23:45.920
+ethereum is blockchain that nobody
+
+01:23:45.920 --> 01:23:48.760
+controls every time it was resold guess
+
+01:23:48.760 --> 01:23:50.719
+who made a percentage cut of that pretty
+
+01:23:50.719 --> 01:23:53.400
+penny me and guess whose data it was in
+
+01:23:53.400 --> 01:23:55.520
+the first place mine so don&#x27;t you think
+
+01:23:55.520 --> 01:23:58.239
+I deserve to get paid for that data and
+
+01:23:58.239 --> 01:24:00.800
+I think you do too the way to make that
+
+01:24:00.800 --> 01:24:03.320
+happen without one entity controlling it
+
+01:24:03.320 --> 01:24:06.400
+is through some tool that nobody
+
+01:24:06.400 --> 01:24:08.960
+controls 23 and me is the biggest
+
+01:24:08.960 --> 01:24:10.400
+American company that&#x27;s where I sequence
+
+01:24:10.400 --> 01:24:12.520
+my genome that you know has the biggest
+
+01:24:12.520 --> 01:24:13.800
+database and it&#x27;s already being sold to
+
+01:24:13.800 --> 01:24:16.320
+the highest bitter internationally right
+
+01:24:16.320 --> 01:24:18.800
+so we have a huge problem with Health
+
+01:24:18.800 --> 01:24:20.480
+Data in this country and centralized
+
+01:24:20.480 --> 01:24:22.080
+Solutions are not cutting it right
+
+01:24:22.080 --> 01:24:23.600
+they&#x27;re they&#x27;re just not cutting it and
+
+01:24:23.600 --> 01:24:26.239
+so we need a way for people to first of
+
+01:24:26.239 --> 01:24:28.199
+all make money and one of the things
+
+01:24:28.199 --> 01:24:30.719
+that you and I all of us have that no
+
+01:24:30.719 --> 01:24:33.080
+robot or machine has is our biological
+
+01:24:33.080 --> 01:24:35.199
+data in fact it is our most valuable
+
+01:24:35.199 --> 01:24:37.320
+asset and we should make money from that
+
+01:24:37.320 --> 01:24:38.679
+we should not just give that away for
+
+01:24:38.679 --> 01:24:41.520
+free and the way to have a type of
+
+01:24:41.520 --> 01:24:43.600
+digital ownership where we don&#x27;t have to
+
+01:24:43.600 --> 01:24:46.440
+become a surf to some server owner is to
+
+01:24:46.440 --> 01:24:50.360
+take that data and create a patent that
+
+01:24:50.360 --> 01:24:53.480
+lives across countries that patent is
+
+01:24:53.480 --> 01:24:55.320
+called an nft so while everybody else
+
+01:24:55.320 --> 01:24:58.520
+was Lo losing money with nfts biodata
+
+01:24:58.520 --> 01:25:00.639
+was making money so I think that this is
+
+01:25:00.639 --> 01:25:02.440
+really the Black Swan for where
+
+01:25:02.440 --> 01:25:05.280
+blockchain meets AI meets science we&#x27;re
+
+01:25:05.280 --> 01:25:07.159
+going to see this convergence of three
+
+01:25:07.159 --> 01:25:08.159
+different Technologies we&#x27;re going to
+
+01:25:08.159 --> 01:25:10.040
+see genomics data we&#x27;re going to see the
+
+01:25:10.040 --> 01:25:11.880
+blockchain to monetize this data for
+
+01:25:11.880 --> 01:25:13.679
+ambitious researchers who live outside
+
+01:25:13.679 --> 01:25:16.040
+the bounds of Academia who want to push
+
+01:25:16.040 --> 01:25:18.719
+forward the space who are willing to say
+
+01:25:18.719 --> 01:25:21.600
+no to the existing health status quo and
+
+01:25:21.600 --> 01:25:24.119
+want to create new innovations that
+
+01:25:24.119 --> 01:25:25.560
+those are the people who are going to
+
+01:25:25.560 --> 01:25:28.040
+make money from this and I look forward
+
+01:25:28.040 --> 01:25:29.880
+to helping them on that
+
+01:25:29.880 --> 01:25:33.760
+Journey um and I also want to say that
+
+01:25:33.760 --> 01:25:36.560
+Gene therapies that is designing
+
+01:25:36.560 --> 01:25:39.840
+information for living organisms with
+
+01:25:39.840 --> 01:25:42.960
+computers is not limited to just ending
+
+01:25:42.960 --> 01:25:45.960
+disease we can create new types of
+
+01:25:45.960 --> 01:25:48.400
+abundant food we can create crops that
+
+01:25:48.400 --> 01:25:51.480
+have 100x yield um most of the fruits
+
+01:25:51.480 --> 01:25:52.760
+and vegetables that we eat today are
+
+01:25:52.760 --> 01:25:54.679
+already genetically modified right they
+
+01:25:54.679 --> 01:25:56.920
+didn&#x27;t exist even 100 years ago human
+
+01:25:56.920 --> 01:25:58.199
+enhancement right and this is what we
+
+01:25:58.199 --> 01:25:59.360
+were talking about about the enhanced
+
+01:25:59.360 --> 01:26:01.920
+Olympics so that&#x27;s already a topic clean
+
+01:26:01.920 --> 01:26:04.000
+energy um you know biofuel things like
+
+01:26:04.000 --> 01:26:06.239
+this and I also want to just end the
+
+01:26:06.239 --> 01:26:10.080
+talk on a very kind of out there idea to
+
+01:26:10.080 --> 01:26:14.199
+to end it with and that is plants are
+
+01:26:14.199 --> 01:26:16.880
+computers and if you&#x27;ve ever had a plant
+
+01:26:16.880 --> 01:26:18.679
+that might not have been apparent to you
+
+01:26:18.679 --> 01:26:20.480
+but I group plants I grouped tomatoes
+
+01:26:20.480 --> 01:26:21.719
+for a little bit and they were my little
+
+01:26:21.719 --> 01:26:22.800
+computers
+
+01:26:22.800 --> 01:26:25.199
+and I really love them because they were
+
+01:26:25.199 --> 01:26:27.280
+able to take sunlight and convert that
+
+01:26:27.280 --> 01:26:29.080
+into energy and I did a little bit of
+
+01:26:29.080 --> 01:26:30.760
+research onto how they were able to do
+
+01:26:30.760 --> 01:26:33.960
+that and it turns out that they use a
+
+01:26:33.960 --> 01:26:37.239
+form of quantum superposition to perform
+
+01:26:37.239 --> 01:26:39.080
+photosynthesis and that means that
+
+01:26:39.080 --> 01:26:41.760
+that&#x27;s a form of computing in a sense
+
+01:26:41.760 --> 01:26:44.159
+biology like we talked about is
+
+01:26:44.159 --> 01:26:46.840
+Computing and what if we could repurpose
+
+01:26:46.840 --> 01:26:49.199
+that Computing for not just you know
+
+01:26:49.199 --> 01:26:52.600
+individual a actions for regulation and
+
+01:26:52.600 --> 01:26:55.040
+disregulation inside of an organism but
+
+01:26:55.040 --> 01:26:56.800
+perhaps for everything else that we want
+
+01:26:56.800 --> 01:26:59.280
+to do with computers why do we have to
+
+01:26:59.280 --> 01:27:01.840
+have data Cent that look like the way
+
+01:27:01.840 --> 01:27:04.159
+they do what if data centers look like
+
+01:27:04.159 --> 01:27:07.000
+green houses that would much be much
+
+01:27:07.000 --> 01:27:09.280
+more aligned with how the Earth is and
+
+01:27:09.280 --> 01:27:11.800
+in that way we are using AI not just for
+
+01:27:11.800 --> 01:27:13.960
+the longevity of humanity but for Earth
+
+01:27:13.960 --> 01:27:16.679
+itself so I think that synthetic biology
+
+01:27:16.679 --> 01:27:20.320
+is probably the most exciting topic um
+
+01:27:20.320 --> 01:27:22.360
+for the next decade it is where AI is
+
+01:27:22.360 --> 01:27:25.800
+headed and if you are interested um it&#x27;s
+
+01:27:25.800 --> 01:27:28.560
+time to build um I&#x27;m a part of yes I&#x27;m a
+
+01:27:28.560 --> 01:27:31.480
+YouTuber and I I&#x27;m CEO of wager GPT and
+
+01:27:31.480 --> 01:27:35.119
+we&#x27;re building sports betting AI uh but
+
+01:27:35.119 --> 01:27:37.119
+this is really my long-term goal and I
+
+01:27:37.119 --> 01:27:39.400
+and I and I a part of a venture capital
+
+01:27:39.400 --> 01:27:41.679
+firm as well mod VC I don&#x27;t talk about
+
+01:27:41.679 --> 01:27:43.840
+it too much but you know I&#x27;m not very
+
+01:27:43.840 --> 01:27:45.360
+active but
+
+01:27:45.360 --> 01:27:47.960
+any excellent Founders in the space I
+
+01:27:47.960 --> 01:27:49.400
+just hand over to them and uh we&#x27;re
+
+01:27:49.400 --> 01:27:50.560
+going to get you funded if you got a
+
+01:27:50.560 --> 01:27:53.760
+great idea and I&#x27;m happy to do that and
+
+01:27:53.760 --> 01:27:56.610
+uh yeah thank you everybody any
+
+01:27:56.610 --> 01:27:59.740
+[Applause]
+
+01:28:00.040 --> 01:28:02.760
+questions how much did you win
+
+01:28:02.760 --> 01:28:05.040
+yesterday uh my members won a lot I
+
+01:28:05.040 --> 01:28:07.199
+actually didn&#x27;t bet but they they were
+
+01:28:07.199 --> 01:28:10.719
+happy with the CH
+
+01:28:11.880 --> 01:28:14.960
+yeah so I guess what&#x27;s interesting is
+
+01:28:14.960 --> 01:28:16.800
+you know the uh the pitch on gene
+
+01:28:16.800 --> 01:28:18.760
+therapy the analogy you make for the
+
+01:28:18.760 --> 01:28:21.000
+computer is like I guess you don&#x27;t go
+
+01:28:21.000 --> 01:28:22.960
+right into the hardware
+
+01:28:22.960 --> 01:28:26.480
+to update you know find optimizations in
+
+01:28:26.480 --> 01:28:28.000
+in the iPhone so when you go back to the
+
+01:28:28.000 --> 01:28:30.800
+omix tab like why focus on the team
+
+01:28:30.800 --> 01:28:33.400
+versus stuff that&#x27;s more of the software
+
+01:28:33.400 --> 01:28:34.800
+higher level
+
+01:28:34.800 --> 01:28:37.480
+component that question this one yeah
+
+01:28:37.480 --> 01:28:39.639
+yeah like why focus on genomics versus
+
+01:28:39.639 --> 01:28:42.000
+the ones at the top no I I this is what
+
+01:28:42.000 --> 01:28:44.560
+I this is so much of the opportunity
+
+01:28:44.560 --> 01:28:46.520
+live right here I think genomics was
+
+01:28:46.520 --> 01:28:47.840
+really just the first data set that we
+
+01:28:47.840 --> 01:28:51.239
+got right you know found DNA but this
+
+01:28:51.239 --> 01:28:53.480
+these are new fields proteomic is like
+
+01:28:53.480 --> 01:28:55.280
+one of the hottest topics right now in
+
+01:28:55.280 --> 01:28:57.719
+molecular biology just from like a
+
+01:28:57.719 --> 01:29:00.040
+sideline looking in the subreddit and
+
+01:29:00.040 --> 01:29:02.440
+stuff like
+
+01:29:02.719 --> 01:29:06.000
+that you mentioned a couple of solutions
+
+01:29:06.000 --> 01:29:08.000
+um or like studies or whatever where
+
+01:29:08.000 --> 01:29:09.880
+like oh this drug was meant to do this
+
+01:29:09.880 --> 01:29:11.520
+but it turns out it also people live
+
+01:29:11.520 --> 01:29:14.440
+longer um and do also in an earlier
+
+01:29:14.440 --> 01:29:16.280
+slide were like here look look at all
+
+01:29:16.280 --> 01:29:18.520
+these arrows all all these things are
+
+01:29:18.520 --> 01:29:20.480
+thought by aging
+
+01:29:20.480 --> 01:29:24.159
+so um think that some of those uh drugs
+
+01:29:24.159 --> 01:29:26.800
+were um capturing like a small part of
+
+01:29:26.800 --> 01:29:29.679
+the solution to aging uh and then like
+
+01:29:29.679 --> 01:29:31.800
+we kind of like we&#x27;re we&#x27;re only seeing
+
+01:29:31.800 --> 01:29:34.159
+like a part like a par view of it
+
+01:29:34.159 --> 01:29:35.280
+because we&#x27;re trying to solve a
+
+01:29:35.280 --> 01:29:36.719
+different problem that&#x27;s Downstream of
+
+01:29:36.719 --> 01:29:39.119
+the original problem like what do the
+
+01:29:39.119 --> 01:29:42.880
+inter play with that and like being Dev
+
+01:29:42.880 --> 01:29:45.880
+yeah I mean I have no idea but if I were
+
+01:29:45.880 --> 01:29:47.800
+to make a guess like based on what I&#x27;ve
+
+01:29:47.800 --> 01:29:49.520
+seen in AI so much of the progress
+
+01:29:49.520 --> 01:29:51.080
+that&#x27;s happened has been from taking
+
+01:29:51.080 --> 01:29:52.480
+away ideas
+
+01:29:52.480 --> 01:29:54.560
+rather than adding them for example
+
+01:29:54.560 --> 01:29:56.760
+attention is all youi was a SE paper
+
+01:29:56.760 --> 01:29:59.280
+2017 right all these other recurrent
+
+01:29:59.280 --> 01:30:01.840
+networks all these different schemes to
+
+01:30:01.840 --> 01:30:04.800
+get data to reverse back into itself and
+
+01:30:04.800 --> 01:30:06.800
+you know none of it mattered you just
+
+01:30:06.800 --> 01:30:08.400
+remove all of that and attention which
+
+01:30:08.400 --> 01:30:10.480
+was just a mechanism deciding what parts
+
+01:30:10.480 --> 01:30:11.840
+of the input were most relevant that&#x27;s
+
+01:30:11.840 --> 01:30:13.560
+all you need so I suspect something
+
+01:30:13.560 --> 01:30:15.800
+similar is in biology where it&#x27;s just
+
+01:30:15.800 --> 01:30:17.920
+something of course it would have been
+
+01:30:17.920 --> 01:30:19.600
+right that&#x27;s how turtles do it or this
+
+01:30:19.600 --> 01:30:20.840
+animal does
+
+01:30:20.840 --> 01:30:23.840
+it
+
+01:30:24.119 --> 01:30:27.440
+when you sold your nft did you sell the
+
+01:30:27.440 --> 01:30:29.040
+like how did that work did you put the
+
+01:30:29.040 --> 01:30:31.080
+NF did you put your genome on chain or
+
+01:30:31.080 --> 01:30:33.400
+did you get the rights to it like how
+
+01:30:33.400 --> 01:30:35.040
+how did it work logistic wise that&#x27;s a
+
+01:30:35.040 --> 01:30:36.840
+great question so like I said it&#x27;s a.txt
+
+01:30:36.840 --> 01:30:39.719
+file AC&#x27;s TS and G&#x27;s what I did was I
+
+01:30:39.719 --> 01:30:41.280
+uploaded it to What&#x27;s called the
+
+01:30:41.280 --> 01:30:44.840
+interplanetary file system ipfs um and
+
+01:30:44.840 --> 01:30:47.920
+what ipfs is is it&#x27;s a database layer
+
+01:30:47.920 --> 01:30:50.760
+for blockchains and so you can basically
+
+01:30:50.760 --> 01:30:53.239
+think of ipfs as a blockchain but for
+
+01:30:53.239 --> 01:30:55.040
+storage when you upload something to
+
+01:30:55.040 --> 01:30:57.280
+ipfs it&#x27;s not stored in one computer
+
+01:30:57.280 --> 01:30:59.000
+it&#x27;s stored in a network of computers so
+
+01:30:59.000 --> 01:31:01.239
+your data is split into many parts and
+
+01:31:01.239 --> 01:31:02.960
+it&#x27;s stored in bits and pieces across
+
+01:31:02.960 --> 01:31:06.119
+the world in what are called miners for
+
+01:31:06.119 --> 01:31:08.119
+ipfs and they&#x27;re paid in what&#x27;s called
+
+01:31:08.119 --> 01:31:09.480
+file coin but you don&#x27;t have to
+
+01:31:09.480 --> 01:31:10.920
+interface with that it&#x27;s it&#x27;s kind of
+
+01:31:10.920 --> 01:31:13.679
+complicated but it&#x27;s it&#x27;s actually not
+
+01:31:13.679 --> 01:31:17.639
+step one upload data to ipfs step
+
+01:31:17.639 --> 01:31:21.000
+two imprint nft on that data with
+
+01:31:21.000 --> 01:31:22.560
+ethereum
+
+01:31:22.560 --> 01:31:25.159
+and that process is just a transaction
+
+01:31:25.159 --> 01:31:29.159
+with the ERC 721 signature as all nfts
+
+01:31:29.159 --> 01:31:31.040
+have so but then anyone who had access
+
+01:31:31.040 --> 01:31:33.320
+anyone who went to openc could see that
+
+01:31:33.320 --> 01:31:38.159
+ipfs upload to your genomic data no so
+
+01:31:38.159 --> 01:31:41.000
+you had to unlock that nft by
+
+01:31:41.000 --> 01:31:43.239
+purchasing it and then you got to see
+
+01:31:43.239 --> 01:31:45.360
+the link oh okay got it got it and do do
+
+01:31:45.360 --> 01:31:47.679
+you worry about previous owners when
+
+01:31:47.679 --> 01:31:50.719
+when you sell it you could copy it but
+
+01:31:50.719 --> 01:31:52.719
+is that not a worry
+
+01:31:52.719 --> 01:31:56.560
+it you would think it&#x27;s a worry but the
+
+01:31:56.560 --> 01:31:59.119
+they would first have to buy it and if
+
+01:31:59.119 --> 01:32:02.119
+they decided to buy it and
+
+01:32:02.119 --> 01:32:05.560
+then they could technically find a way
+
+01:32:05.560 --> 01:32:08.960
+around it
+
+01:32:08.960 --> 01:32:12.320
+but there&#x27;s schemes of basically
+
+01:32:12.320 --> 01:32:15.679
+blotting the data unless it has like an
+
+01:32:15.679 --> 01:32:17.920
+encoding like a key signature basically
+
+01:32:17.920 --> 01:32:20.000
+a hashing Alm I didn&#x27;t get that far or
+
+01:32:20.000 --> 01:32:21.719
+you can Watermark it yeah basically yeah
+
+01:32:21.719 --> 01:32:24.000
+that&#x27;s a better word for it yeah got it
+
+01:32:24.000 --> 01:32:25.639
+so okay and it&#x27;s not a big of a deal if
+
+01:32:25.639 --> 01:32:27.600
+only like 10 people have it they&#x27;re
+
+01:32:27.600 --> 01:32:30.000
+probably not going to or I mean maybe
+
+01:32:30.000 --> 01:32:32.239
+just owning that genomic like many
+
+01:32:32.239 --> 01:32:33.679
+people have owned the Mona Lisa but
+
+01:32:33.679 --> 01:32:36.679
+still owning the one that like like the
+
+01:32:36.679 --> 01:32:38.400
+actual one is the most important thing
+
+01:32:38.400 --> 01:32:41.000
+versus like making photo copies of it
+
+01:32:41.000 --> 01:32:43.840
+yeah and then most importantly getting
+
+01:32:43.840 --> 01:32:46.320
+independent scientists to make money
+
+01:32:46.320 --> 01:32:47.760
+that&#x27;s I think that&#x27;s the primary
+
+01:32:47.760 --> 01:32:49.199
+motivation for me in this space that&#x27;s
+
+01:32:49.199 --> 01:32:51.119
+what matters the most because it&#x27;s
+
+01:32:51.119 --> 01:32:53.080
+really hard you know to get funding for
+
+01:32:53.080 --> 01:32:55.880
+your crazy scientific ideas
+
+01:32:55.880 --> 01:32:58.000
+and the more comfortable we make
+
+01:32:58.000 --> 01:33:02.320
+scientists with basically blockchains uh
+
+01:33:02.320 --> 01:33:04.000
+the better the easier it&#x27;s going to be
+
+01:33:04.000 --> 01:33:05.480
+for them to get funding because there&#x27;s
+
+01:33:05.480 --> 01:33:07.719
+a lot of money to be made here still
+
+01:33:07.719 --> 01:33:09.520
+especially for science it just it just
+
+01:33:09.520 --> 01:33:11.480
+makes a lot of sense to just get on
+
+01:33:11.480 --> 01:33:13.679
+board with this and if your project
+
+01:33:13.679 --> 01:33:16.000
+Works um your token&#x27;s going to accr in
+
+01:33:16.000 --> 01:33:17.920
+value as well um actually there&#x27;s a
+
+01:33:17.920 --> 01:33:19.440
+great example of this like a legit
+
+01:33:19.440 --> 01:33:22.440
+example um out of coinbase it&#x27;s called
+
+01:33:22.440 --> 01:33:24.840
+scub uh it&#x27;s it&#x27;s it&#x27;s essentially like
+
+01:33:24.840 --> 01:33:27.840
+Brian Armstrong&#x27;s uh science token
+
+01:33:27.840 --> 01:33:29.280
+project it&#x27;s been going on for four
+
+01:33:29.280 --> 01:33:32.360
+years research up sorry research is
+
+01:33:32.360 --> 01:33:35.440
+where all the papers are uploaded they
+
+01:33:35.440 --> 01:33:38.040
+were a speaker here once yeah research
+
+01:33:38.040 --> 01:33:41.440
+up is a great example
+
+01:33:43.800 --> 01:33:46.400
+yeah how did you uh did you need a
+
+01:33:46.400 --> 01:33:48.840
+prescription or some sort of thing to
+
+01:33:48.840 --> 01:33:50.520
+get your blood drawn or how did that
+
+01:33:50.520 --> 01:33:52.520
+work logistically yeah so I just went to
+
+01:33:52.520 --> 01:33:54.639
+insid tracker.com and then I bought
+
+01:33:54.639 --> 01:33:56.239
+their premium plant it&#x27;s way too
+
+01:33:56.239 --> 01:33:59.760
+expensive literally like um and it&#x27;s
+
+01:33:59.760 --> 01:34:04.239
+like 400 bucks and then I went to quest
+
+01:34:04.239 --> 01:34:06.760
+uh Nutri quest uh not nutrition but I
+
+01:34:06.760 --> 01:34:08.800
+think it&#x27;s Quest Nutrition diagnos
+
+01:34:08.800 --> 01:34:10.960
+Diagnostics and then yeah I scheduled a
+
+01:34:10.960 --> 01:34:13.280
+blood test like a Walgreens and it
+
+01:34:13.280 --> 01:34:14.760
+sucked like I don&#x27;t like taking blood
+
+01:34:14.760 --> 01:34:18.000
+tests right it&#x27;s like a lot of blood and
+
+01:34:18.000 --> 01:34:19.600
+the lady like didn&#x27;t
+
+01:34:19.600 --> 01:34:22.320
+care that&#x27;s even worse and it&#x27;s a lot
+
+01:34:22.320 --> 01:34:23.920
+too because it&#x27;s 42 biomarkers because
+
+01:34:23.920 --> 01:34:25.159
+they got their premiums it&#x27;s like four
+
+01:34:25.159 --> 01:34:28.320
+vials about that big um it&#x27;s you know
+
+01:34:28.320 --> 01:34:30.199
+it&#x27;s uncomfortable but it&#x27;s also really
+
+01:34:30.199 --> 01:34:32.119
+exciting like you know nothing happened
+
+01:34:32.119 --> 01:34:34.880
+and then uh I got my data in five days
+
+01:34:34.880 --> 01:34:37.679
+after I got the blood test and it it was
+
+01:34:37.679 --> 01:34:39.679
+just basically a chart of all these
+
+01:34:39.679 --> 01:34:41.600
+things and honestly inside trackers like
+
+01:34:41.600 --> 01:34:44.119
+whole AI thing is a is a joke I don&#x27;t
+
+01:34:44.119 --> 01:34:46.159
+even use that it&#x27;s totally wrong I just
+
+01:34:46.159 --> 01:34:47.480
+took the data downloaded it and then
+
+01:34:47.480 --> 01:34:49.199
+with python just visualized it different
+
+01:34:49.199 --> 01:34:51.239
+ways and it&#x27;s just really interesting
+
+01:34:51.239 --> 01:34:52.440
+for me you could also probably just
+
+01:34:52.440 --> 01:34:54.480
+upload it to chat GPT and it would
+
+01:34:54.480 --> 01:34:56.119
+probably tell you exactly what a doctor
+
+01:34:56.119 --> 01:34:58.719
+would say exactly right I think you can
+
+01:34:58.719 --> 01:35:00.639
+do it for like 100 bucks just without
+
+01:35:00.639 --> 01:35:02.679
+the inside tracker part just go to Quest
+
+01:35:02.679 --> 01:35:05.360
+get a blood test and
+
+01:35:05.360 --> 01:35:07.840
+uh you can do a chat GPT exactly that&#x27;s
+
+01:35:07.840 --> 01:35:10.360
+the most cost- effective way like how do
+
+01:35:10.360 --> 01:35:13.000
+I reverse my age given this yeah give me
+
+01:35:13.000 --> 01:35:14.960
+like the foods and diet exercise oh what
+
+01:35:14.960 --> 01:35:18.360
+do you do here okay here&#x27;s what you do
+
+01:35:18.360 --> 01:35:20.400
+yeah
+
+01:35:20.400 --> 01:35:23.400
+exactly
+
+01:35:24.119 --> 01:35:27.239
+yes um can you explain for the ins
+
+01:35:27.239 --> 01:35:30.000
+tracker the algorithm that was used to
+
+01:35:30.000 --> 01:35:32.600
+calculate the amount of years plus or
+
+01:35:32.600 --> 01:35:34.400
+minus that generated and I think you
+
+01:35:34.400 --> 01:35:36.520
+mentioned that it was based on standard
+
+01:35:36.520 --> 01:35:38.800
+of 18 years old how was that calculate
+
+01:35:38.800 --> 01:35:41.800
+does that an aggregation of data or what
+
+01:35:41.800 --> 01:35:44.639
+is that based on yeah so what they use
+
+01:35:44.639 --> 01:35:47.080
+they have a proprietary algorithm for
+
+01:35:47.080 --> 01:35:48.560
+computing that and it&#x27;s you know they
+
+01:35:48.560 --> 01:35:50.440
+call it the inner age score and they
+
+01:35:50.440 --> 01:35:53.560
+recently updated it to to 2.0 and they
+
+01:35:53.560 --> 01:35:56.080
+updated that score between me taking
+
+01:35:56.080 --> 01:35:59.199
+this test and this test so it&#x27;s actually
+
+01:35:59.199 --> 01:36:01.560
+unclear if it was even me or their score
+
+01:36:01.560 --> 01:36:03.719
+changed right but I don&#x27;t like to say
+
+01:36:03.719 --> 01:36:04.800
+that too often I guess I&#x27;m saying that
+
+01:36:04.800 --> 01:36:06.679
+now right so but my point in saying that
+
+01:36:06.679 --> 01:36:08.080
+is that is important is that it&#x27;s
+
+01:36:08.080 --> 01:36:09.960
+proprietary so we can&#x27;t actually know
+
+01:36:09.960 --> 01:36:11.800
+how accurate this is which goes back to
+
+01:36:11.800 --> 01:36:13.440
+show how important it is to have an open
+
+01:36:13.440 --> 01:36:14.960
+source algorithm that if you&#x27;re going to
+
+01:36:14.960 --> 01:36:16.119
+take a blood test you have to know how
+
+01:36:16.119 --> 01:36:18.760
+it works and the most popular open-
+
+01:36:18.760 --> 01:36:20.560
+Source clock and there&#x27;s several what
+
+01:36:20.560 --> 01:36:22.280
+are called Ang clocks that you can use
+
+01:36:22.280 --> 01:36:23.880
+to compute your Agee giv your biological
+
+01:36:23.880 --> 01:36:26.679
+data the most uh popular one is called
+
+01:36:26.679 --> 01:36:29.159
+the Horvath clock by Steve Horvath out
+
+01:36:29.159 --> 01:36:32.280
+of UCLA and yeah the orb CL is the main
+
+01:36:32.280 --> 01:36:35.560
+one and that&#x27;s the one I would probably
+
+01:36:37.000 --> 01:36:39.520
+use yeah now when you do the Computing
+
+01:36:39.520 --> 01:36:41.600
+with the data and because we are using
+
+01:36:41.600 --> 01:36:44.840
+generative AI you know uh CPU is not
+
+01:36:44.840 --> 01:36:47.560
+enough you need to now use GPU and for
+
+01:36:47.560 --> 01:36:50.520
+these are special platforms which where
+
+01:36:50.520 --> 01:36:53.560
+you can move the data from s to peles
+
+01:36:53.560 --> 01:36:55.840
+you can visualize you can store it and
+
+01:36:55.840 --> 01:36:57.800
+they have the very powerful platform
+
+01:36:57.800 --> 01:37:01.080
+with a big GPU on it I&#x27;m using it
+
+01:37:01.080 --> 01:37:04.719
+actually it&#x27;s also yeah no I mean way
+
+01:37:04.719 --> 01:37:07.320
+this was just like a smaller example a
+
+01:37:07.320 --> 01:37:09.800
+serious need on G for
+
+01:37:09.800 --> 01:37:13.320
+sure or one of Sam alman&#x27;s uh you know
+
+01:37:13.320 --> 01:37:15.920
+proprietary 77
+
+01:37:15.920 --> 01:37:18.920
+trillion
+
+01:37:20.199 --> 01:37:21.920
+about
+
+01:37:21.920 --> 01:37:24.880
+application to and then do you think
+
+01:37:24.880 --> 01:37:27.199
+there is
+
+01:37:28.080 --> 01:37:31.080
+someti
+
+01:37:41.390 --> 01:37:44.469
+[Music]
+
+01:37:45.080 --> 01:37:46.960
+Sol
+
+01:37:46.960 --> 01:37:49.920
+besides yeah so I think first things
+
+01:37:49.920 --> 01:37:51.480
+first is we all need to be student of
+
+01:37:51.480 --> 01:37:53.040
+History right so I was working at
+
+01:37:53.040 --> 01:37:55.719
+polygon in 2021 which is you know top
+
+01:37:55.719 --> 01:37:56.599
+five
+
+01:37:56.599 --> 01:37:59.440
+cryptocurrency um at the time before FTX
+
+01:37:59.440 --> 01:38:01.599
+happened so I was working there as head
+
+01:38:01.599 --> 01:38:03.000
+of developer education and it was a lot
+
+01:38:03.000 --> 01:38:04.480
+of fun and I got a lot of insight but
+
+01:38:04.480 --> 01:38:06.639
+what but what we saw was a complete
+
+01:38:06.639 --> 01:38:10.159
+failure in the what was called the
+
+01:38:10.159 --> 01:38:12.679
+health to earn space you saw these
+
+01:38:12.679 --> 01:38:14.320
+startups that were saying like yeah
+
+01:38:14.320 --> 01:38:16.239
+you&#x27;re going to earn this coin if you
+
+01:38:16.239 --> 01:38:18.239
+get healthy if you play this health game
+
+01:38:18.239 --> 01:38:20.599
+and the biggest example was sweatcoin it
+
+01:38:20.599 --> 01:38:22.199
+was called sweat coin and sweatcoin was
+
+01:38:22.199 --> 01:38:24.000
+around for about 3 years and it sounds
+
+01:38:24.000 --> 01:38:25.960
+just exactly it is exactly how it sounds
+
+01:38:25.960 --> 01:38:28.639
+in that you earn sweatcoin if you
+
+01:38:28.639 --> 01:38:30.480
+run and then you could exchange
+
+01:38:30.480 --> 01:38:32.159
+sweatcoin for different gifts in a gift
+
+01:38:32.159 --> 01:38:34.360
+shop and actually you know sweatcoin did
+
+01:38:34.360 --> 01:38:36.480
+ACR in value and people were making some
+
+01:38:36.480 --> 01:38:39.760
+money um but then for whatever reason
+
+01:38:39.760 --> 01:38:41.760
+they just the tokenomics it wasn&#x27;t
+
+01:38:41.760 --> 01:38:44.159
+sustainable which is almost always the
+
+01:38:44.159 --> 01:38:46.000
+case the tokenomics is not sustainable
+
+01:38:46.000 --> 01:38:48.639
+in the long run and I&#x27;m just waiting for
+
+01:38:48.639 --> 01:38:50.560
+the crew that&#x27;s able to actually make it
+
+01:38:50.560 --> 01:38:52.679
+work now who did make it work openc kind
+
+01:38:52.679 --> 01:38:54.719
+of made it work openc is kind of this
+
+01:38:54.719 --> 01:38:57.159
+hybrid centralized decentralized model
+
+01:38:57.159 --> 01:38:59.480
+where there is a dedicated team and they
+
+01:38:59.480 --> 01:39:01.480
+are you know in one office but they
+
+01:39:01.480 --> 01:39:04.199
+don&#x27;t own the U art the nfts that are
+
+01:39:04.199 --> 01:39:05.599
+posted on their platform they don&#x27;t own
+
+01:39:05.599 --> 01:39:07.480
+my genome but they help me list it and
+
+01:39:07.480 --> 01:39:09.400
+they were a discovery service for other
+
+01:39:09.400 --> 01:39:12.560
+decentralized buyers so I think that is
+
+01:39:12.560 --> 01:39:15.159
+something that is a signal a Marketplace
+
+01:39:15.159 --> 01:39:17.480
+for Health Data it&#x27;s something that I&#x27;ve
+
+01:39:17.480 --> 01:39:20.040
+actually thought about for years
+
+01:39:20.040 --> 01:39:23.040
+but
+
+01:39:23.320 --> 01:39:27.520
+you see eight yeah or
+
+01:39:28.119 --> 01:39:31.520
+maybe but then none of them are super
+
+01:39:31.520 --> 01:39:34.040
+successful yeah I think it&#x27;s really hard
+
+01:39:34.040 --> 01:39:36.320
+to make the tokenomics work for this no
+
+01:39:36.320 --> 01:39:40.360
+they don&#x27;t have token just trying
+
+01:39:40.560 --> 01:39:42.159
+to
+
+01:39:42.159 --> 01:39:46.119
+to owner
+
+01:39:50.040 --> 01:39:53.520
+Inc so
+
+01:39:59.119 --> 01:40:02.280
+it&#x27;s to
+
+01:40:04.440 --> 01:40:07.440
+Sol
+
+01:40:12.590 --> 01:40:15.760
+[Music]
+
+01:40:15.760 --> 01:40:19.119
+there well they say that you know
+
+01:40:19.119 --> 01:40:21.599
+seasoned biotech investors like me they
+
+01:40:21.599 --> 01:40:23.320
+say that it takes like 20 years for a
+
+01:40:23.320 --> 01:40:25.360
+biotech startup to be successful that&#x27;s
+
+01:40:25.360 --> 01:40:26.719
+a
+
+01:40:26.719 --> 01:40:28.360
+centralized it
+
+01:40:28.360 --> 01:40:31.199
+is it should it should be faster I I
+
+01:40:31.199 --> 01:40:34.599
+totally agree with that uh you know
+
+01:40:34.599 --> 01:40:37.040
+there&#x27;s always one Golden Goose in the
+
+01:40:37.040 --> 01:40:39.599
+pile of C right like coinbase is our
+
+01:40:39.599 --> 01:40:41.560
+shining American example of a crypto
+
+01:40:41.560 --> 01:40:43.679
+exchange that is reputable that you can
+
+01:40:43.679 --> 01:40:45.440
+trust with your money it&#x27;s not going to
+
+01:40:45.440 --> 01:40:48.080
+collapse like FTX did uh and they&#x27;re
+
+01:40:48.080 --> 01:40:51.440
+fully regulated right so uh and every
+
+01:40:51.440 --> 01:40:52.760
+everybody else was a scammer at the end
+
+01:40:52.760 --> 01:40:54.400
+of the day right FTX everybody else
+
+01:40:54.400 --> 01:40:56.719
+Gemini everybody else F so I think
+
+01:40:56.719 --> 01:40:57.840
+that&#x27;s what&#x27;s going to be the case with
+
+01:40:57.840 --> 01:40:59.360
+like bioh Health Data like there&#x27;s going
+
+01:40:59.360 --> 01:41:01.800
+to be one company that does it Well if I
+
+01:41:01.800 --> 01:41:04.159
+knew the answer I&#x27;d be working on I
+
+01:41:04.159 --> 01:41:05.560
+don&#x27;t know the answer
+
+01:41:05.560 --> 01:41:08.560
+yet
+
+01:41:19.840 --> 01:41:22.840
+ipto
+
+01:41:24.480 --> 01:41:27.080
+yeah no I mean you know bitcoin&#x27;s going
+
+01:41:27.080 --> 01:41:28.239
+up right now
+
+01:41:28.239 --> 01:41:31.000
+so people are coming back crypto as it
+
+01:41:31.000 --> 01:41:35.280
+as it always does the 10th cycle here we
+
+01:41:35.280 --> 01:41:38.159
+go
+
+01:41:38.159 --> 01:41:41.639
+on any other questions well thank you
+
+01:41:41.639 --> 01:41:44.440
+that was an amazing
+
+01:41:44.880 --> 01:41:49.159
+Applause uh fantastic fantastic um and
+
+01:41:49.159 --> 01:41:51.440
+yeah just enjoy uh thank you all for
+
+01:41:51.440 --> 01:41:54.000
+coming out we have the other
+
+01:41:54.000 --> 01:41:57.280
+one on February 22nd with the enhanced
+
+01:41:57.280 --> 01:41:59.040
+games president of the enhanced games
+
+01:41:59.040 --> 01:42:02.159
+Ain also fun fact about Aaron um I don&#x27;t
+
+01:42:02.159 --> 01:42:03.480
+know if any of you guys followed the
+
+01:42:03.480 --> 01:42:06.719
+Hulk Hogan Gawker situation with Peter
+
+01:42:06.719 --> 01:42:09.159
+teal but he was actually the one that
+
+01:42:09.159 --> 01:42:12.800
+came up with that idea to uh shut Gawker
+
+01:42:12.800 --> 01:42:14.239
+out of business he was the guy that
+
+01:42:14.239 --> 01:42:16.040
+actually pitched it to Peter teal to
+
+01:42:16.040 --> 01:42:19.760
+fund it to find Hulk Hogan to
+
+01:42:19.760 --> 01:42:24.520
+sue Gawker to get back at Gawker for
+
+01:42:24.520 --> 01:42:27.639
+outing Peter te&#x27;s G so very roundabout
+
+01:42:27.639 --> 01:42:29.080
+but he came up with that idea so he&#x27;s a
+
+01:42:29.080 --> 01:42:31.560
+very interesting person um and you guys
+
+01:42:31.560 --> 01:42:33.520
+are all welcome to come so uh thank you
+
+01:42:33.520 --> 01:42:36.290
+guys for showing me up show
+
+01:42:36.290 --> 01:42:39.420
+[Applause]
+
+01:42:48.760 --> 01:42:51.440
+up cool
+
+01:42:51.440 --> 01:42:54.540
+[Music]
+
+01:42:56.119 --> 01:43:00.199
+yeah walk out and I have my
+
+01:43:09.280 --> 01:43:12.480
+two so
+
+01:43:17.230 --> 01:43:19.679
+[Music]
+
+01:43:19.679 --> 01:43:21.940
+much
+
+01:43:21.940 --> 01:43:31.370
+[Music]
+
+01:43:41.510 --> 01:43:44.639
+[Music]
+
+01:43:44.639 --> 01:43:49.080
+djbl DJ that&#x27;s
+
+01:43:49.679 --> 01:43:51.940
+longevity
+
+01:43:51.940 --> 01:43:55.040
+[Music]
+
+01:44:01.460 --> 01:44:05.010
+[Music]
+
+01:44:09.680 --> 01:44:19.599
+[Music]
+
+01:44:19.599 --> 01:44:22.599
+am
+
+01:44:26.920 --> 01:44:29.560
+[Music]
+
+01:44:29.560 --> 01:44:32.560
+how
+

@@ -1,0 +1,4061 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:05.080
+[Music]
+
+00:00:10.719 --> 00:00:13.679
+Everyone come forward.
+
+00:00:13.679 --> 00:00:17.000
+Come forward.
+
+00:00:23.119 --> 00:00:28.519
+&gt;&gt; Hello. Hi. Good to see you.
+
+00:00:28.640 --> 00:00:30.080
+And then T.
+
+00:00:30.080 --> 00:00:33.800
+play to the camera.
+
+00:00:40.079 --> 00:00:43.120
+&gt;&gt; All right, cool. Hey everyone, I&#x27;m Ela.
+
+00:00:43.120 --> 00:00:46.320
+I&#x27;m head of DIY here at Sage the Sage.
+
+00:00:46.320 --> 00:00:48.000
+Thank you very much for coming and super
+
+00:00:48.000 --> 00:00:50.879
+excited to be hosting the Dite NYC.
+
+00:00:50.879 --> 00:00:52.719
+We&#x27;re going to be hosting an exciting
+
+00:00:52.719 --> 00:00:55.840
+talk on Salem metabolism. Uh so that&#x27;ll
+
+00:00:55.840 --> 00:00:58.320
+be coming up very shortly. Um a little
+
+00:00:58.320 --> 00:01:01.199
+bit about SAGE. So we&#x27;re in layer 1 um
+
+00:01:01.199 --> 00:01:03.840
+fastest EVM paralyzed blockchain and
+
+00:01:03.840 --> 00:01:06.080
+we&#x27;re also dedicated to decentralized
+
+00:01:06.080 --> 00:01:07.920
+science. So as well as other
+
+00:01:07.920 --> 00:01:11.600
+applications in crypto but but also a
+
+00:01:11.600 --> 00:01:14.960
+focus on the application of crypto in
+
+00:01:14.960 --> 00:01:17.680
+the sciences, AI, frontier technology,
+
+00:01:17.680 --> 00:01:21.040
+robotics etc. Um we also have a fund so
+
+00:01:21.040 --> 00:01:24.320
+65 million in capitals called Sapion uh
+
+00:01:24.320 --> 00:01:27.200
+dedicated towards building projects on
+
+00:01:27.200 --> 00:01:29.759
+SA. Um
+
+00:01:29.759 --> 00:01:32.880
+yeah so I mean that is pretty much
+
+00:01:32.880 --> 00:01:35.840
+everything. Um I hope you enjoy the talk
+
+00:01:35.840 --> 00:01:38.079
+and uh Mike will hand over to you for a
+
+00:01:38.079 --> 00:01:42.920
+couple of notes on DI and PC.
+
+00:01:45.040 --> 00:01:46.880
+Guys, let&#x27;s give it up for SE. They gave
+
+00:01:46.880 --> 00:01:49.280
+us this beautiful office and it was so
+
+00:01:49.280 --> 00:01:52.240
+appreciated for them. And thank you to
+
+00:01:52.240 --> 00:01:54.640
+Eleanor and the entire SE team. Look at
+
+00:01:54.640 --> 00:01:56.479
+this. We have a koi pond over here. How
+
+00:01:56.479 --> 00:01:59.680
+cool is that? Okay. Um, let&#x27;s go to the
+
+00:01:59.680 --> 00:02:02.920
+next slide.
+
+00:02:04.320 --> 00:02:07.880
+&gt;&gt; How do I do it?
+
+00:02:07.920 --> 00:02:11.800
+Who wants a sleep mask?
+
+00:02:12.239 --> 00:02:13.599
+Okay, while we&#x27;re waiting for the next
+
+00:02:13.599 --> 00:02:18.000
+slide, do a sleep mask. A sleep mask.
+
+00:02:18.000 --> 00:02:22.400
+A sleep mask. Oh, sorry. A sleep mask.
+
+00:02:22.400 --> 00:02:25.120
+Sleep mask. Sorry. In the far back.
+
+00:02:25.120 --> 00:02:28.720
+Sorry. Sorry. Oh, is this Oh, where&#x27;s
+
+00:02:28.720 --> 00:02:31.959
+the slide?
+
+00:02:33.280 --> 00:02:34.800
+Okay.
+
+00:02:34.800 --> 00:02:37.800
+Okay.
+
+00:02:39.200 --> 00:02:42.200
+Um,
+
+00:02:49.440 --> 00:02:51.280
+&gt;&gt; okay. So guys, welcome to st welcome to
+
+00:02:51.280 --> 00:02:53.360
+DCYC. We host these events like once a
+
+00:02:53.360 --> 00:02:56.480
+month. Um, and you know, we have a one
+
+00:02:56.480 --> 00:02:58.640
+coming up next time on quantum computing
+
+00:02:58.640 --> 00:03:01.840
+which is going to be very very cool. And
+
+00:03:01.840 --> 00:03:05.760
+um, I&#x27;m going to give it to a Nesh right
+
+00:03:05.760 --> 00:03:07.200
+here. Yes.
+
+00:03:07.200 --> 00:03:09.680
+He&#x27;s going to talk about a new type of
+
+00:03:09.680 --> 00:03:11.360
+um clinical trial that we&#x27;re going to be
+
+00:03:11.360 --> 00:03:13.840
+working on.
+
+00:03:13.840 --> 00:03:16.400
+&gt;&gt; Thank you, Michael. Hello, everyone. You
+
+00:03:16.400 --> 00:03:18.400
+probably are aware that the microbiome
+
+00:03:18.400 --> 00:03:20.239
+can impact all sorts of aspects of
+
+00:03:20.239 --> 00:03:21.760
+health, but it&#x27;s still the very early
+
+00:03:21.760 --> 00:03:23.760
+stages of figuring out how and most of
+
+00:03:23.760 --> 00:03:26.720
+that focuses on the negatives of how
+
+00:03:26.720 --> 00:03:28.400
+certain strains of bad bacteria can
+
+00:03:28.400 --> 00:03:31.360
+cause problems. But there was recently a
+
+00:03:31.360 --> 00:03:33.360
+lab in MIT that decided to go and look
+
+00:03:33.360 --> 00:03:36.640
+at a bunch of elite athletes and look at
+
+00:03:36.640 --> 00:03:38.959
+their microbiomes and try to figure out
+
+00:03:38.959 --> 00:03:41.840
+which species might be common amongst a
+
+00:03:41.840 --> 00:03:43.760
+lot of elite performers that could
+
+00:03:43.760 --> 00:03:46.720
+potentially link like lead towards part
+
+00:03:46.720 --> 00:03:49.519
+of their actual success. They were able
+
+00:03:49.519 --> 00:03:51.599
+to isolate a bunch of different strains
+
+00:03:51.599 --> 00:03:54.480
+right now. They ran some animal trials,
+
+00:03:54.480 --> 00:03:56.080
+some human trials that are on the
+
+00:03:56.080 --> 00:03:57.920
+market. I have no actual association
+
+00:03:57.920 --> 00:03:59.200
+with this company in terms of like
+
+00:03:59.200 --> 00:04:01.120
+there&#x27;s no financial link. I just like
+
+00:04:01.120 --> 00:04:02.959
+them. And we&#x27;re partnering together with
+
+00:04:02.959 --> 00:04:06.640
+Michael to basically take 200 of you and
+
+00:04:06.640 --> 00:04:09.120
+whoever decides to join, give you free
+
+00:04:09.120 --> 00:04:11.920
+access to two different types of these
+
+00:04:11.920 --> 00:04:14.720
+probiotics and figure out at a larger
+
+00:04:14.720 --> 00:04:18.000
+scale, can that impact sleep, digestion,
+
+00:04:18.000 --> 00:04:19.359
+exercise performance. These are all
+
+00:04:19.359 --> 00:04:20.799
+things that have been validated fairly
+
+00:04:20.799 --> 00:04:22.800
+well within the rodent studies and the
+
+00:04:22.800 --> 00:04:25.440
+early human trials. And we&#x27;re not ones
+
+00:04:25.440 --> 00:04:27.919
+to take anything with small amounts of
+
+00:04:27.919 --> 00:04:29.360
+data and say it absolutely works. So
+
+00:04:29.360 --> 00:04:31.199
+instead, we want to get our own larger
+
+00:04:31.199 --> 00:04:33.440
+amounts of data, run our own trials in a
+
+00:04:33.440 --> 00:04:35.360
+decentralized way, and figure out, can
+
+00:04:35.360 --> 00:04:37.840
+we take this and measure its impact on
+
+00:04:37.840 --> 00:04:39.280
+human performance in terms of sleep and
+
+00:04:39.280 --> 00:04:40.720
+physical activity. So if you are
+
+00:04:40.720 --> 00:04:42.240
+interested in getting free access to
+
+00:04:42.240 --> 00:04:44.800
+this fairly expensive probiotic and are
+
+00:04:44.800 --> 00:04:46.240
+willing to do the work to try and test
+
+00:04:46.240 --> 00:04:47.919
+it in yourself and measure the outcomes,
+
+00:04:47.919 --> 00:04:49.919
+come and talk to me or Michael or
+
+00:04:49.919 --> 00:04:51.280
+there&#x27;s a QR code somewhere where you
+
+00:04:51.280 --> 00:04:52.160
+can sign up.
+
+00:04:52.160 --> 00:04:55.919
+&gt;&gt; Yes. Excellent. Find us afterwards.
+
+00:04:55.919 --> 00:04:58.000
+&gt;&gt; But what what&#x27;s cool about this is um
+
+00:04:58.000 --> 00:05:00.639
+Decentral like DIY NYC for so long has
+
+00:05:00.639 --> 00:05:02.800
+been just about um looking at content
+
+00:05:02.800 --> 00:05:04.720
+and learning about content. But this is
+
+00:05:04.720 --> 00:05:07.199
+one of the first times that a group like
+
+00:05:07.199 --> 00:05:09.680
+this is going to actually be creating
+
+00:05:09.680 --> 00:05:11.840
+new types of science and like uh
+
+00:05:11.840 --> 00:05:14.720
+contributing to the cannon of knowledge.
+
+00:05:14.720 --> 00:05:16.639
+So this is going to be very very cool.
+
+00:05:16.639 --> 00:05:19.120
+Um you&#x27;ve helped design the study as
+
+00:05:19.120 --> 00:05:19.840
+well.
+
+00:05:19.840 --> 00:05:20.240
+&gt;&gt; Yeah.
+
+00:05:20.240 --> 00:05:22.479
+&gt;&gt; Yeah. And this this I don&#x27;t know if you
+
+00:05:22.479 --> 00:05:24.720
+know but he&#x27;s like an influencer on on
+
+00:05:24.720 --> 00:05:26.320
+science and you know you should give a
+
+00:05:26.320 --> 00:05:27.680
+talk at some point. I think I think at
+
+00:05:27.680 --> 00:05:30.160
+some point you will and um maybe you
+
+00:05:30.160 --> 00:05:31.520
+could even talk about the results and
+
+00:05:31.520 --> 00:05:33.759
+how like doing it in a decentralized way
+
+00:05:33.759 --> 00:05:35.280
+is uh possible now.
+
+00:05:35.280 --> 00:05:36.240
+&gt;&gt; Yeah, that&#x27;d be fun.
+
+00:05:36.240 --> 00:05:39.520
+&gt;&gt; Cool. Um do we do we have the link
+
+00:05:39.520 --> 00:05:41.440
+&gt;&gt; oh
+
+00:05:41.440 --> 00:05:45.960
+&gt;&gt; I just want to get the signup link here
+
+00:05:48.720 --> 00:05:50.160
+&gt;&gt; in case I downplay it. A lot of people
+
+00:05:50.160 --> 00:05:51.600
+have been reporting really cool results
+
+00:05:51.600 --> 00:05:53.600
+from it, but you know, it&#x27;s always hard
+
+00:05:53.600 --> 00:05:55.840
+to tell from placebo. So that&#x27;s why you
+
+00:05:55.840 --> 00:05:57.440
+want to get good at it.
+
+00:05:57.440 --> 00:05:59.120
+&gt;&gt; Okay. And then we&#x27;re getting the link up
+
+00:05:59.120 --> 00:06:00.880
+here
+
+00:06:00.880 --> 00:06:03.120
+and then people that are interested in
+
+00:06:03.120 --> 00:06:05.440
+it. So this is part of DIN NYC and it&#x27;s
+
+00:06:05.440 --> 00:06:07.440
+going to be one of the first um like
+
+00:06:07.440 --> 00:06:10.319
+trials that&#x27;s ever been done um in in a
+
+00:06:10.319 --> 00:06:12.400
+new way. So I&#x27;m very excited about this.
+
+00:06:12.400 --> 00:06:15.039
+I don&#x27;t I don&#x27;t think that um you know
+
+00:06:15.039 --> 00:06:17.600
+people crypto and tokens and
+
+00:06:17.600 --> 00:06:19.360
+democratization of science has been done
+
+00:06:19.360 --> 00:06:23.120
+in this way. So um very excited. Okay.
+
+00:06:23.120 --> 00:06:27.199
+So without further ado, we are going to
+
+00:06:27.199 --> 00:06:31.759
+bring Kenny on st Timothy on stage.
+
+00:06:31.759 --> 00:06:33.680
+&gt;&gt; Okay. So let&#x27;s let&#x27;s give a round of
+
+00:06:33.680 --> 00:06:36.160
+applause for Timothy. Um Timothy is a
+
+00:06:36.160 --> 00:06:39.039
+postto at the Rockefeller University
+
+00:06:39.039 --> 00:06:41.520
+studying cellular metabolism. So let&#x27;s
+
+00:06:41.520 --> 00:06:44.840
+give it up.
+
+00:06:46.080 --> 00:06:48.080
+Thank you guys very much. Um I&#x27;m super
+
+00:06:48.080 --> 00:06:50.720
+excited to be here and present the work
+
+00:06:50.720 --> 00:06:52.080
+that I&#x27;ve been working on in my post
+
+00:06:52.080 --> 00:06:54.000
+talk and I&#x27;m starting my own laboratory
+
+00:06:54.000 --> 00:06:56.639
+at Mount Si in January. So I&#x27;m going to
+
+00:06:56.639 --> 00:06:58.960
+be talking a little bit about the stuff
+
+00:06:58.960 --> 00:07:01.039
+that keep me up at night and um I&#x27;m
+
+00:07:01.039 --> 00:07:02.479
+excited to have a different audience to
+
+00:07:02.479 --> 00:07:04.800
+talk to than a normal academic audience.
+
+00:07:04.800 --> 00:07:06.400
+Um, and I think too one of the cool
+
+00:07:06.400 --> 00:07:09.199
+things about this uh about DI and about
+
+00:07:09.199 --> 00:07:11.680
+decentralizing science is finding new
+
+00:07:11.680 --> 00:07:14.000
+revenue streams to fund science to fund
+
+00:07:14.000 --> 00:07:16.160
+basic science that companies necessarily
+
+00:07:16.160 --> 00:07:18.479
+aren&#x27;t going to be funding. It&#x27;s very
+
+00:07:18.479 --> 00:07:20.160
+important research for us to be doing. I
+
+00:07:20.160 --> 00:07:22.400
+hope I can convince you of some of that
+
+00:07:22.400 --> 00:07:24.000
+um through my talk and kind of the stuff
+
+00:07:24.000 --> 00:07:26.000
+that I&#x27;ve been working.
+
+00:07:26.000 --> 00:07:30.080
+Okay. So I will be um so the focus of my
+
+00:07:30.080 --> 00:07:32.400
+talk is really cellular metabolism and
+
+00:07:32.400 --> 00:07:35.199
+what is metabolism? Metabolism is the
+
+00:07:35.199 --> 00:07:37.919
+sum of all chemical reactions within a
+
+00:07:37.919 --> 00:07:40.960
+biological system. And this is a map
+
+00:07:40.960 --> 00:07:42.800
+showing kind of the central metabolic
+
+00:07:42.800 --> 00:07:45.440
+pathways in mamlian cells. And I know it
+
+00:07:45.440 --> 00:07:46.960
+looks quite complicated, but this is
+
+00:07:46.960 --> 00:07:49.919
+actually a gross oversimplification of
+
+00:07:49.919 --> 00:07:51.759
+metabolism.
+
+00:07:51.759 --> 00:07:54.639
+So we know that there&#x27;s over 220,000
+
+00:07:54.639 --> 00:07:57.919
+reported human metabolites in humans.
+
+00:07:57.919 --> 00:08:00.080
+And just in human serum for example,
+
+00:08:00.080 --> 00:08:03.520
+there&#x27;s over 4,500 serum metabolites.
+
+00:08:03.520 --> 00:08:05.440
+And so one of the questions that that
+
+00:08:05.440 --> 00:08:08.479
+that I and so many people for centuries
+
+00:08:08.479 --> 00:08:10.400
+and millennia have been interested in is
+
+00:08:10.400 --> 00:08:13.039
+how is metabolism regulated and
+
+00:08:13.039 --> 00:08:15.440
+controlled? And how do humans and living
+
+00:08:15.440 --> 00:08:18.720
+organisms maintain metabolism to sustain
+
+00:08:18.720 --> 00:08:22.000
+life? And so Aristotle became started
+
+00:08:22.000 --> 00:08:23.680
+thinking about this in the 4th century
+
+00:08:23.680 --> 00:08:25.840
+BC. and he made the observation that the
+
+00:08:25.840 --> 00:08:28.800
+food that we eat must be what provides
+
+00:08:28.800 --> 00:08:30.720
+the energy and the building blocks that
+
+00:08:30.720 --> 00:08:33.599
+we need to grow and sustain life in uh
+
+00:08:33.599 --> 00:08:37.599
+humans. And a couple centuries later,
+
+00:08:37.599 --> 00:08:41.360
+Santorius of Padawa um actually expanded
+
+00:08:41.360 --> 00:08:43.360
+upon this and took very detailed
+
+00:08:43.360 --> 00:08:46.080
+measurements of his consumption and
+
+00:08:46.080 --> 00:08:48.399
+excretion over 30 years and made the
+
+00:08:48.399 --> 00:08:51.200
+observation that for every 8 pounds of
+
+00:08:51.200 --> 00:08:54.480
+food he ate only 3 lb of waste was consu
+
+00:08:54.480 --> 00:08:56.480
+was produced. So therefore he said this
+
+00:08:56.480 --> 00:09:00.560
+must be going somewhere and um uh that
+
+00:09:00.560 --> 00:09:02.320
+principle has really been expanded at
+
+00:09:02.320 --> 00:09:04.160
+the cellular level. So in the 19th
+
+00:09:04.160 --> 00:09:06.399
+century, Ernest Overbertton
+
+00:09:06.399 --> 00:09:09.120
+studied how metabolites get in and out
+
+00:09:09.120 --> 00:09:12.399
+of cells and how they um are transported
+
+00:09:12.399 --> 00:09:14.000
+into the cell and how that enables them
+
+00:09:14.000 --> 00:09:15.600
+to be used for different cellular
+
+00:09:15.600 --> 00:09:18.320
+metabolic pathways and processes.
+
+00:09:18.320 --> 00:09:21.200
+And so really the key player of cellular
+
+00:09:21.200 --> 00:09:23.680
+metabolism is transporters. And
+
+00:09:23.680 --> 00:09:26.000
+transporters are protein proteins that
+
+00:09:26.000 --> 00:09:28.240
+sit on the cell membrane that bring
+
+00:09:28.240 --> 00:09:30.480
+nutrients in and out of the cells. And
+
+00:09:30.480 --> 00:09:32.720
+this is a really fundamental process for
+
+00:09:32.720 --> 00:09:35.279
+cellular biology and organismal biology
+
+00:09:35.279 --> 00:09:38.320
+in general. And the fact that this is so
+
+00:09:38.320 --> 00:09:40.000
+important is highlighted by the fact
+
+00:09:40.000 --> 00:09:42.720
+that over 10% of the human genome, all
+
+00:09:42.720 --> 00:09:45.519
+genes that humans encode, they encode
+
+00:09:45.519 --> 00:09:47.200
+for proteins that have transport
+
+00:09:47.200 --> 00:09:50.240
+function. So it&#x27;s a very key function of
+
+00:09:50.240 --> 00:09:51.920
+cellular homeostasis, but also
+
+00:09:51.920 --> 00:09:55.279
+organismal homeostasis.
+
+00:09:55.279 --> 00:09:58.000
+And one of the largest families of these
+
+00:09:58.000 --> 00:10:01.279
+um uh these uh solute carriers are or is
+
+00:10:01.279 --> 00:10:02.800
+known as the solute carrier super
+
+00:10:02.800 --> 00:10:05.920
+family, the SLC&#x27;s. And there&#x27;s over 450
+
+00:10:05.920 --> 00:10:09.279
+of these different um transporters which
+
+00:10:09.279 --> 00:10:11.040
+range in diversity of where they&#x27;re
+
+00:10:11.040 --> 00:10:12.720
+located within the cell, what they
+
+00:10:12.720 --> 00:10:14.480
+transport, what affinity they have for
+
+00:10:14.480 --> 00:10:16.399
+their substrates.
+
+00:10:16.399 --> 00:10:19.519
+And um throughout evolution, these
+
+00:10:19.519 --> 00:10:21.519
+different transporters have evolved to
+
+00:10:21.519 --> 00:10:24.160
+enable organisms and cells to tightly
+
+00:10:24.160 --> 00:10:26.640
+regulate their metabolism. So for
+
+00:10:26.640 --> 00:10:29.440
+example, if we take glucose as an
+
+00:10:29.440 --> 00:10:30.800
+example, which is a very abundant
+
+00:10:30.800 --> 00:10:32.800
+metabolite, there&#x27;s at least four
+
+00:10:32.800 --> 00:10:35.040
+different glucose transporters and they
+
+00:10:35.040 --> 00:10:36.640
+change in where they are expressed in
+
+00:10:36.640 --> 00:10:39.360
+the human body. So for example uh in the
+
+00:10:39.360 --> 00:10:41.040
+brain you have this transporter called
+
+00:10:41.040 --> 00:10:43.120
+glute 3 and that has very very high
+
+00:10:43.120 --> 00:10:45.279
+affinity meaning it really really wants
+
+00:10:45.279 --> 00:10:47.760
+to transport glucose and that makes
+
+00:10:47.760 --> 00:10:50.079
+sense because the brain has a high
+
+00:10:50.079 --> 00:10:52.880
+energetic demands. In other tissues such
+
+00:10:52.880 --> 00:10:57.839
+as um in pancreatic beta cells, gl the
+
+00:10:57.839 --> 00:11:01.519
+affinity of uh the transporter glute 2
+
+00:11:01.519 --> 00:11:03.360
+has very low affinity for glucose and
+
+00:11:03.360 --> 00:11:05.360
+that allows it to act as a sensor so
+
+00:11:05.360 --> 00:11:07.440
+your pancreas can understand whether or
+
+00:11:07.440 --> 00:11:10.480
+not you&#x27;ve recently fed and and induced
+
+00:11:10.480 --> 00:11:13.760
+the types of organismal u metabolism
+
+00:11:13.760 --> 00:11:16.000
+that your body needs to regulate uh
+
+00:11:16.000 --> 00:11:19.279
+glucose levels. And so what do we know
+
+00:11:19.279 --> 00:11:21.279
+about other transporters other than
+
+00:11:21.279 --> 00:11:24.079
+glucose? Well, surprisingly very little.
+
+00:11:24.079 --> 00:11:27.040
+So of the 456 transporters that I told
+
+00:11:27.040 --> 00:11:29.200
+you about, if we just survey them and
+
+00:11:29.200 --> 00:11:32.160
+ask what what is transported by that
+
+00:11:32.160 --> 00:11:35.360
+transporter, almost half of them, we
+
+00:11:35.360 --> 00:11:37.360
+have very little evidence for what it
+
+00:11:37.360 --> 00:11:39.120
+transports. About a quarter of them, we
+
+00:11:39.120 --> 00:11:41.120
+have absolutely no idea whatsoever what
+
+00:11:41.120 --> 00:11:42.959
+it transports. And if we look on the
+
+00:11:42.959 --> 00:11:44.959
+opposite end where we consider gold
+
+00:11:44.959 --> 00:11:47.440
+standard proof where we have a structure
+
+00:11:47.440 --> 00:11:49.920
+of of the protein bound to its substrate
+
+00:11:49.920 --> 00:11:52.240
+and cellular and biochemical evidence of
+
+00:11:52.240 --> 00:11:54.640
+what it does, that&#x27;s only 5% of this
+
+00:11:54.640 --> 00:11:56.240
+whole family of transporters. And I told
+
+00:11:56.240 --> 00:11:57.760
+you this is the biggest and most
+
+00:11:57.760 --> 00:11:59.600
+important family of metabolite
+
+00:11:59.600 --> 00:12:02.880
+transporters in humans. And the fact
+
+00:12:02.880 --> 00:12:05.920
+that we know so little is is um even
+
+00:12:05.920 --> 00:12:07.680
+more striking when you have take into
+
+00:12:07.680 --> 00:12:10.320
+account that over 50% of SLC
+
+00:12:10.320 --> 00:12:12.079
+transporters are associated with human
+
+00:12:12.079 --> 00:12:13.920
+disease.
+
+00:12:13.920 --> 00:12:16.160
+And so when I started my postto and some
+
+00:12:16.160 --> 00:12:17.360
+of the work that I&#x27;m doing in my
+
+00:12:17.360 --> 00:12:21.680
+laboratory now is can we systematically
+
+00:12:21.680 --> 00:12:24.160
+identify the physiological substrates of
+
+00:12:24.160 --> 00:12:26.160
+metabolite transporters and by doing
+
+00:12:26.160 --> 00:12:28.079
+that understand biology and understand
+
+00:12:28.079 --> 00:12:32.160
+potentially human disease. So we took
+
+00:12:32.160 --> 00:12:34.399
+this G-W was based approach. So G-W was
+
+00:12:34.399 --> 00:12:36.639
+genomewide association studies. So they
+
+00:12:36.639 --> 00:12:39.279
+are studies in which they you look at
+
+00:12:39.279 --> 00:12:42.160
+the different snips or varants in the
+
+00:12:42.160 --> 00:12:44.560
+genome of people and then you can
+
+00:12:44.560 --> 00:12:46.240
+associate that with phenotypes or
+
+00:12:46.240 --> 00:12:48.959
+clinical outcomes that those patients
+
+00:12:48.959 --> 00:12:51.440
+have. And so we took this data set for
+
+00:12:51.440 --> 00:12:55.440
+which they had both the um the the
+
+00:12:55.440 --> 00:12:57.440
+genetic information for 6,000 people,
+
+00:12:57.440 --> 00:12:59.680
+but they also measured serum metabolite
+
+00:12:59.680 --> 00:13:01.279
+levels for these patients. And we
+
+00:13:01.279 --> 00:13:02.800
+thought we could use this as a discovery
+
+00:13:02.800 --> 00:13:05.200
+platform to try to identify associations
+
+00:13:05.200 --> 00:13:08.000
+genetically and statistically between
+
+00:13:08.000 --> 00:13:10.639
+metabolites in circulating serum and
+
+00:13:10.639 --> 00:13:12.800
+potential variance in those trans in
+
+00:13:12.800 --> 00:13:15.120
+potential transporters in people and
+
+00:13:15.120 --> 00:13:18.639
+kind of use human biology as a way as a
+
+00:13:18.639 --> 00:13:20.000
+discovery platform to kind of
+
+00:13:20.000 --> 00:13:23.200
+deorphanize these transporters. And so
+
+00:13:23.200 --> 00:13:25.120
+normally when people do G-W was they&#x27;re
+
+00:13:25.120 --> 00:13:27.040
+looking for genetic variations that are
+
+00:13:27.040 --> 00:13:30.399
+associated with human disease. And what
+
+00:13:30.399 --> 00:13:32.000
+we&#x27;re trying to do here is the opposite
+
+00:13:32.000 --> 00:13:33.680
+where we&#x27;re actually looking for
+
+00:13:33.680 --> 00:13:36.880
+associations in uh the circulating
+
+00:13:36.880 --> 00:13:39.200
+levels of metabolites of these patients
+
+00:13:39.200 --> 00:13:42.160
+with variance in potential uh uh
+
+00:13:42.160 --> 00:13:45.040
+transporters to try to deorganize who is
+
+00:13:45.040 --> 00:13:48.320
+transporting what in an unbiased way.
+
+00:13:48.320 --> 00:13:50.639
+And so the idea of looking at
+
+00:13:50.639 --> 00:13:52.880
+differences in serum metabolites to
+
+00:13:52.880 --> 00:13:55.920
+inform uh physiology is not new. So
+
+00:13:55.920 --> 00:13:58.480
+there are a number of metabolites for
+
+00:13:58.480 --> 00:14:00.399
+which there&#x27;s human diseases caused by
+
+00:14:00.399 --> 00:14:03.040
+elevated levels of metabolites. So this
+
+00:14:03.040 --> 00:14:05.600
+isn&#x27;t a a foreign concept, but it was a
+
+00:14:05.600 --> 00:14:07.680
+a unique approach that we took to to
+
+00:14:07.680 --> 00:14:10.399
+deorganize these transporters.
+
+00:14:10.399 --> 00:14:13.199
+And we we first were able to show that
+
+00:14:13.199 --> 00:14:14.560
+things that you would expect from the
+
+00:14:14.560 --> 00:14:15.920
+literature that you could pick up. So
+
+00:14:15.920 --> 00:14:17.360
+for example, cholesterol is a very
+
+00:14:17.360 --> 00:14:19.199
+important metabolite and the transporter
+
+00:14:19.199 --> 00:14:21.519
+that takes up cholesterol is LDLR. And
+
+00:14:21.519 --> 00:14:23.199
+we were able to find that variance in
+
+00:14:23.199 --> 00:14:26.320
+this transporter are associated with uh
+
+00:14:26.320 --> 00:14:29.120
+changes in serum levels of that metaph.
+
+00:14:29.120 --> 00:14:31.040
+And so we next turned our attention to
+
+00:14:31.040 --> 00:14:32.480
+what was unknown, what&#x27;s previously
+
+00:14:32.480 --> 00:14:34.480
+unreported. And the one transport that
+
+00:14:34.480 --> 00:14:35.600
+I&#x27;m going to tell you about that I&#x27;ve
+
+00:14:35.600 --> 00:14:37.519
+been working on is this transporter
+
+00:14:37.519 --> 00:14:39.360
+called FVCR1.
+
+00:14:39.360 --> 00:14:41.839
+It&#x27;s a expressed on the plasma membrane
+
+00:14:41.839 --> 00:14:44.000
+of cells. And we found that it was
+
+00:14:44.000 --> 00:14:45.600
+associated with this metabolite called
+
+00:14:45.600 --> 00:14:47.920
+phospholine.
+
+00:14:47.920 --> 00:14:49.920
+And we were interested in this metab in
+
+00:14:49.920 --> 00:14:52.240
+this association because it was not only
+
+00:14:52.240 --> 00:14:54.560
+associated with phosphocoline but also
+
+00:14:54.560 --> 00:14:56.000
+the downstream metabolite of
+
+00:14:56.000 --> 00:14:58.399
+phosphocoline phospatidylcholine which
+
+00:14:58.399 --> 00:15:00.399
+led us to believe that maybe this is a
+
+00:15:00.399 --> 00:15:02.880
+real bonafide hit that has something to
+
+00:15:02.880 --> 00:15:05.360
+do with choline metabolism.
+
+00:15:05.360 --> 00:15:07.120
+Okay, taking a step back. What is
+
+00:15:07.120 --> 00:15:09.040
+choline? I&#x27;m sure most of you have
+
+00:15:09.040 --> 00:15:10.399
+probably heard of it before, but it&#x27;s
+
+00:15:10.399 --> 00:15:13.360
+this fivecarbon essential nutrient that
+
+00:15:13.360 --> 00:15:16.560
+we have to take up from our diet. And it
+
+00:15:16.560 --> 00:15:19.120
+has once choline goes into the cell it
+
+00:15:19.120 --> 00:15:21.360
+has multiple metabolic fates of what it
+
+00:15:21.360 --> 00:15:23.680
+can become. So probably most wellknown
+
+00:15:23.680 --> 00:15:25.839
+is it can become acetylcholine and
+
+00:15:25.839 --> 00:15:27.519
+acetylcholine is a very important
+
+00:15:27.519 --> 00:15:29.839
+neurotransmitter.
+
+00:15:29.839 --> 00:15:31.519
+It can also be used to make
+
+00:15:31.519 --> 00:15:33.279
+phospatidylcholine which I just
+
+00:15:33.279 --> 00:15:35.440
+discussed before but phospatidylcholine
+
+00:15:35.440 --> 00:15:38.320
+is the most abundant phospholipid in
+
+00:15:38.320 --> 00:15:40.320
+mamalian membrane. So this is really
+
+00:15:40.320 --> 00:15:42.800
+what makes a cell a cell this layer of
+
+00:15:42.800 --> 00:15:45.040
+phospatidylcholine.
+
+00:15:45.040 --> 00:15:47.120
+Additionally, it can be used to make
+
+00:15:47.120 --> 00:15:49.040
+baiting, this other metabolite that&#x27;s
+
+00:15:49.040 --> 00:15:51.120
+important in one carbon metabolism,
+
+00:15:51.120 --> 00:15:52.800
+which plays a role in epigenetic
+
+00:15:52.800 --> 00:15:54.720
+regulation and transcription and other
+
+00:15:54.720 --> 00:15:57.199
+things that I won&#x27;t touch upon today.
+
+00:15:57.199 --> 00:15:59.279
+But what I want to emphasize is that we
+
+00:15:59.279 --> 00:16:01.120
+know and I&#x27;ll I&#x27;ll talk I&#x27;ll walk
+
+00:16:01.120 --> 00:16:02.639
+through this in a second, but we know
+
+00:16:02.639 --> 00:16:04.320
+that choline must be obtained from the
+
+00:16:04.320 --> 00:16:06.160
+diet and we know that it&#x27;s a pretty
+
+00:16:06.160 --> 00:16:09.920
+abundant metabolite in human serum. And
+
+00:16:09.920 --> 00:16:11.440
+so
+
+00:16:11.440 --> 00:16:15.360
+the uh association of choline and um
+
+00:16:15.360 --> 00:16:17.120
+physiology really came about in the
+
+00:16:17.120 --> 00:16:19.440
+1930s. So Frederick Banting and Charles
+
+00:16:19.440 --> 00:16:22.959
+Best were the first to show that if you
+
+00:16:22.959 --> 00:16:24.800
+have dogs that were uh had a
+
+00:16:24.800 --> 00:16:26.880
+pancreattomy. So they removed their
+
+00:16:26.880 --> 00:16:28.639
+pancreas, they had fatty liver disease.
+
+00:16:28.639 --> 00:16:30.240
+And they found that if you gave these
+
+00:16:30.240 --> 00:16:32.959
+dogs choline, it reversed the fatty
+
+00:16:32.959 --> 00:16:35.040
+liver that these dogs had. again showing
+
+00:16:35.040 --> 00:16:36.240
+for the first time that there was an
+
+00:16:36.240 --> 00:16:38.480
+association between the levels of a
+
+00:16:38.480 --> 00:16:40.639
+given metabolite in the diet, choline in
+
+00:16:40.639 --> 00:16:43.519
+this case, and disease in an animal
+
+00:16:43.519 --> 00:16:47.120
+model. And really in the 1970s,
+
+00:16:47.120 --> 00:16:49.199
+before the 1970s, it really wasn&#x27;t even
+
+00:16:49.199 --> 00:16:52.000
+clear if choline was an essential
+
+00:16:52.000 --> 00:16:54.240
+nutrient for humans. It was thought that
+
+00:16:54.240 --> 00:16:56.480
+animals needed to eat choline, but
+
+00:16:56.480 --> 00:16:58.079
+humans didn&#x27;t need to eat choline. And
+
+00:16:58.079 --> 00:16:59.680
+plants, for example, can make their own
+
+00:16:59.680 --> 00:17:01.839
+choline. But really, that came about in
+
+00:17:01.839 --> 00:17:04.319
+the 1970s. that dogma started to change
+
+00:17:04.319 --> 00:17:08.000
+and that really came about from studying
+
+00:17:08.000 --> 00:17:10.799
+um nursing mothers and the contents of
+
+00:17:10.799 --> 00:17:12.559
+breast milk. So choline is very very
+
+00:17:12.559 --> 00:17:14.799
+high in breast milk and choline is
+
+00:17:14.799 --> 00:17:16.959
+passed from mothers through the placenta
+
+00:17:16.959 --> 00:17:20.240
+to developing adults and kind of that
+
+00:17:20.240 --> 00:17:22.400
+body of literature in the &#x27;9s finally
+
+00:17:22.400 --> 00:17:24.240
+came to the conclusion and
+
+00:17:24.240 --> 00:17:25.839
+recommendation from governmental bodies
+
+00:17:25.839 --> 00:17:27.839
+that choline is in fact an essential
+
+00:17:27.839 --> 00:17:30.160
+human nutrient that you have to take in
+
+00:17:30.160 --> 00:17:32.640
+your diet um in order to have normal
+
+00:17:32.640 --> 00:17:34.720
+physiology and homeostasis. And they
+
+00:17:34.720 --> 00:17:37.360
+really observed this for the first time
+
+00:17:37.360 --> 00:17:39.520
+by doing studies in the 80s and 90s
+
+00:17:39.520 --> 00:17:41.679
+where they gave people choline deficient
+
+00:17:41.679 --> 00:17:43.280
+diets and then asked what happened to
+
+00:17:43.280 --> 00:17:45.200
+these people. And these people end up
+
+00:17:45.200 --> 00:17:47.280
+developing fatty liver disease. They
+
+00:17:47.280 --> 00:17:48.880
+have muscle wasting and they have liver
+
+00:17:48.880 --> 00:17:51.919
+wasting liver uh degeneration.
+
+00:17:51.919 --> 00:17:53.280
+But one of the coolest things about
+
+00:17:53.280 --> 00:17:54.799
+those studies is that when you
+
+00:17:54.799 --> 00:17:56.799
+reintroduce choline into the diet of
+
+00:17:56.799 --> 00:17:58.320
+people who if you&#x27;ve taken choline away
+
+00:17:58.320 --> 00:18:00.720
+from those phenotypes and those diseases
+
+00:18:00.720 --> 00:18:02.720
+all go away. again showing this tight
+
+00:18:02.720 --> 00:18:04.960
+link between uh the nutrients that you
+
+00:18:04.960 --> 00:18:07.440
+take up uh in your diet and your health
+
+00:18:07.440 --> 00:18:09.360
+options.
+
+00:18:09.360 --> 00:18:11.679
+Okay, so
+
+00:18:11.679 --> 00:18:13.760
+we know that choline because of its
+
+00:18:13.760 --> 00:18:15.679
+structure must be transported into
+
+00:18:15.679 --> 00:18:17.760
+cells. It cannot just passively diffuse
+
+00:18:17.760 --> 00:18:21.039
+across the membrane and get into cells.
+
+00:18:21.039 --> 00:18:22.720
+And going back to kind of the
+
+00:18:22.720 --> 00:18:24.240
+association studies that I showed you
+
+00:18:24.240 --> 00:18:26.480
+before, we hypothesized that maybe this
+
+00:18:26.480 --> 00:18:29.440
+transporter that I discovered, FOVCR1,
+
+00:18:29.440 --> 00:18:32.080
+is a transporter of choline and allows
+
+00:18:32.080 --> 00:18:35.039
+choline to get into cells. Okay, now
+
+00:18:35.039 --> 00:18:37.360
+getting into some actual science. How do
+
+00:18:37.360 --> 00:18:39.200
+we show this? So we can take cells and
+
+00:18:39.200 --> 00:18:40.799
+genetically engineer them. So we knock
+
+00:18:40.799 --> 00:18:43.120
+out a gene and then add it back with an
+
+00:18:43.120 --> 00:18:44.960
+expression system. And we did this in
+
+00:18:44.960 --> 00:18:47.280
+cells. And then we just did metabolomics
+
+00:18:47.280 --> 00:18:49.039
+where we can look at all metabolites
+
+00:18:49.039 --> 00:18:50.799
+detected in the cell and ask what goes
+
+00:18:50.799 --> 00:18:53.360
+up what goes down. And when we did that
+
+00:18:53.360 --> 00:18:55.919
+we found that in cells that don&#x27;t have
+
+00:18:55.919 --> 00:18:58.640
+ethylr1 this transporter they have very
+
+00:18:58.640 --> 00:19:01.039
+low levels of phosphocoline this choline
+
+00:19:01.039 --> 00:19:03.039
+derived metabolite as well as choline
+
+00:19:03.039 --> 00:19:04.799
+and another choline derived metabolite
+
+00:19:04.799 --> 00:19:06.640
+beta.
+
+00:19:06.640 --> 00:19:08.080
+And there&#x27;s another approach that we can
+
+00:19:08.080 --> 00:19:10.160
+use especially in metabolomics which is
+
+00:19:10.160 --> 00:19:12.160
+using carbon tracing. So we can take
+
+00:19:12.160 --> 00:19:14.559
+advantage of the fact that some carbons
+
+00:19:14.559 --> 00:19:16.880
+are naturally occurring to have uh
+
+00:19:16.880 --> 00:19:18.799
+they&#x27;re heavy naturally occurring. So we
+
+00:19:18.799 --> 00:19:21.520
+can feed these heavy carbons in a in a
+
+00:19:21.520 --> 00:19:23.679
+metabolite such as cold to cells and
+
+00:19:23.679 --> 00:19:25.600
+then trace how those carbons move
+
+00:19:25.600 --> 00:19:27.919
+through the metabolism and ask where did
+
+00:19:27.919 --> 00:19:30.080
+that carbon go when we fed it to the
+
+00:19:30.080 --> 00:19:31.919
+cells. And so when we do that we see
+
+00:19:31.919 --> 00:19:35.200
+that cells without FLCR1 cannot
+
+00:19:35.200 --> 00:19:37.840
+incorporate choline into the downstream
+
+00:19:37.840 --> 00:19:40.240
+metabolites of choline metabolism like
+
+00:19:40.240 --> 00:19:43.120
+phospholine in baby.
+
+00:19:43.120 --> 00:19:46.240
+Okay. Now to really demonstrate that
+
+00:19:46.240 --> 00:19:49.679
+ethylvcr1 was a choline transporter we
+
+00:19:49.679 --> 00:19:51.760
+used radioactive choline and again
+
+00:19:51.760 --> 00:19:53.840
+similar types of experiments gave it to
+
+00:19:53.840 --> 00:19:56.559
+cells with and without ethylcr1. And the
+
+00:19:56.559 --> 00:19:58.720
+hypothesis being that if FLVCR1
+
+00:19:58.720 --> 00:20:00.960
+transports choline, you should need
+
+00:20:00.960 --> 00:20:03.919
+FLVCR1 to see a radioactive signal of
+
+00:20:03.919 --> 00:20:06.720
+choline. And that&#x27;s in case in fact what
+
+00:20:06.720 --> 00:20:08.640
+we saw. So in the orange you see here,
+
+00:20:08.640 --> 00:20:11.840
+we saw both time and dose dependent
+
+00:20:11.840 --> 00:20:14.160
+uptake of choline through the
+
+00:20:14.160 --> 00:20:16.400
+transporter FOV.
+
+00:20:16.400 --> 00:20:19.280
+And really the gold standard in terms of
+
+00:20:19.280 --> 00:20:21.039
+metabolite transport is showing that in
+
+00:20:21.039 --> 00:20:24.240
+a liposome system. So a liposome is a
+
+00:20:24.240 --> 00:20:27.280
+cell-free system. It&#x27;s a fake membrane,
+
+00:20:27.280 --> 00:20:29.039
+circular membrane in which you put in
+
+00:20:29.039 --> 00:20:30.960
+your protein of interest. And so without
+
+00:20:30.960 --> 00:20:32.640
+any other components, just your
+
+00:20:32.640 --> 00:20:34.640
+transporter of interest, do you see
+
+00:20:34.640 --> 00:20:36.640
+uptake of that metabolite? And that&#x27;s in
+
+00:20:36.640 --> 00:20:38.960
+fact what we do see with FOVC1. So
+
+00:20:38.960 --> 00:20:41.760
+FOVCR1 alone can transport choline into
+
+00:20:41.760 --> 00:20:44.000
+lipos.
+
+00:20:44.000 --> 00:20:46.080
+We also then did some work doing the
+
+00:20:46.080 --> 00:20:48.799
+cryoM structure where we resolved a
+
+00:20:48.799 --> 00:20:51.760
+structure of Ethyl VCR1 bound to its
+
+00:20:51.760 --> 00:20:54.240
+substrate choline. So I&#x27;m showing you
+
+00:20:54.240 --> 00:20:56.320
+here too. This protein exists in these
+
+00:20:56.320 --> 00:21:01.760
+two six hetero um pseudo bundles that
+
+00:21:01.760 --> 00:21:03.520
+rock back and forth to transport
+
+00:21:03.520 --> 00:21:05.760
+choline. And this is just zooming in on
+
+00:21:05.760 --> 00:21:08.240
+the pocket where we found choline bound
+
+00:21:08.240 --> 00:21:10.320
+to the protein. And there&#x27;s these
+
+00:21:10.320 --> 00:21:12.640
+specific residues or specific parts of
+
+00:21:12.640 --> 00:21:15.520
+the protein which bind and stabilize
+
+00:21:15.520 --> 00:21:17.600
+choline so that it can be transported.
+
+00:21:17.600 --> 00:21:19.520
+And when we mutate some of these
+
+00:21:19.520 --> 00:21:21.520
+residues, specifically this tryptophan
+
+00:21:21.520 --> 00:21:24.880
+W125, we can completely block choline
+
+00:21:24.880 --> 00:21:26.559
+transport. So again, we&#x27;ve really kind
+
+00:21:26.559 --> 00:21:28.320
+of nailed down from a biochemical point
+
+00:21:28.320 --> 00:21:31.360
+of view, this is the substrate of FVCR,
+
+00:21:31.360 --> 00:21:34.000
+FLVR1, it&#x27;s choline.
+
+00:21:34.000 --> 00:21:36.799
+Um, okay. So this is all well and good.
+
+00:21:36.799 --> 00:21:38.720
+Like you found a transporter, it
+
+00:21:38.720 --> 00:21:41.120
+transports something. Do cells even care
+
+00:21:41.120 --> 00:21:43.760
+about having this? And surprisingly, not
+
+00:21:43.760 --> 00:21:46.799
+really. So only when we really really
+
+00:21:46.799 --> 00:21:49.120
+deplete choline do we see a difference
+
+00:21:49.120 --> 00:21:51.520
+in cells ability to grow in culture
+
+00:21:51.520 --> 00:21:53.760
+conditions. In normal conditions these
+
+00:21:53.760 --> 00:21:55.919
+cells grow completely fine. And if you
+
+00:21:55.919 --> 00:21:57.280
+think about it I just told you choline
+
+00:21:57.280 --> 00:21:58.720
+is super important. So how is that the
+
+00:21:58.720 --> 00:22:02.720
+case? So we used um that&#x27;s a question.
+
+00:22:02.720 --> 00:22:04.320
+So how does cell sustain choline
+
+00:22:04.320 --> 00:22:06.240
+metabolism and proliferate without
+
+00:22:06.240 --> 00:22:07.919
+FODV1?
+
+00:22:07.919 --> 00:22:10.559
+And we use crisper based genetic screens
+
+00:22:10.559 --> 00:22:13.440
+to uncover some possible ways that the
+
+00:22:13.440 --> 00:22:14.880
+cells are using to cope this. And this
+
+00:22:14.880 --> 00:22:17.039
+is a technically a little challenging
+
+00:22:17.039 --> 00:22:19.120
+but conceptually very simple. You take
+
+00:22:19.120 --> 00:22:21.280
+cells with and without your gene of
+
+00:22:21.280 --> 00:22:22.799
+interest
+
+00:22:22.799 --> 00:22:24.960
+and then you just grow them and we use
+
+00:22:24.960 --> 00:22:27.520
+this pool genetic crisper system that
+
+00:22:27.520 --> 00:22:29.200
+each cell has a different gene knocked
+
+00:22:29.200 --> 00:22:31.039
+out in it. And then over time in a
+
+00:22:31.039 --> 00:22:33.280
+poolled fashion you ask if that gene
+
+00:22:33.280 --> 00:22:35.360
+that got knocked out is essential for
+
+00:22:35.360 --> 00:22:38.559
+cells in your condition not having FOBR1
+
+00:22:38.559 --> 00:22:40.640
+for example to grow then at the end of
+
+00:22:40.640 --> 00:22:42.720
+your experiment you should see that
+
+00:22:42.720 --> 00:22:44.640
+cells in which you&#x27;ve knocked out that
+
+00:22:44.640 --> 00:22:47.280
+gene are no longer there and you can do
+
+00:22:47.280 --> 00:22:48.880
+these types of experiments and it&#x27;s the
+
+00:22:48.880 --> 00:22:51.840
+power of unbiased genetic screens and
+
+00:22:51.840 --> 00:22:54.640
+what we&#x27;re able to find is that I don&#x27;t
+
+00:22:54.640 --> 00:22:55.919
+want to walk through the details very
+
+00:22:55.919 --> 00:22:57.840
+carefully but we were able to find that
+
+00:22:57.840 --> 00:22:59.679
+there were other ways that cells were
+
+00:22:59.679 --> 00:23:01.600
+able to compensate for not having
+
+00:23:01.600 --> 00:23:04.320
+choline transported through FOVCR1. So,
+
+00:23:04.320 --> 00:23:06.880
+one of them is the salvage pathway. So,
+
+00:23:06.880 --> 00:23:09.039
+cells can actually take up lipids
+
+00:23:09.039 --> 00:23:11.760
+extracellularly which contain choline
+
+00:23:11.760 --> 00:23:13.520
+and they can take that up and break it
+
+00:23:13.520 --> 00:23:15.919
+down and recycle it. So we&#x27;re able to
+
+00:23:15.919 --> 00:23:18.400
+find out new biology in this respect and
+
+00:23:18.400 --> 00:23:20.640
+also we were able to see that one of the
+
+00:23:20.640 --> 00:23:22.080
+hits in our screen was this other
+
+00:23:22.080 --> 00:23:23.760
+transporter which is a family member of
+
+00:23:23.760 --> 00:23:27.120
+LDCR1 called FLDR2 and we were able to
+
+00:23:27.120 --> 00:23:29.679
+show that that itself also can transport
+
+00:23:29.679 --> 00:23:31.600
+choline.
+
+00:23:31.600 --> 00:23:33.919
+Okay, again this is cool. This is in
+
+00:23:33.919 --> 00:23:35.919
+mice, but what happens or this is in
+
+00:23:35.919 --> 00:23:37.760
+cells, but what happens in an organismal
+
+00:23:37.760 --> 00:23:39.679
+context? What happens if you don&#x27;t have
+
+00:23:39.679 --> 00:23:42.400
+apple one and no choline transport in
+
+00:23:42.400 --> 00:23:45.600
+mice, for example? What happens? Well,
+
+00:23:45.600 --> 00:23:48.080
+consistent with the idea that it&#x27;s
+
+00:23:48.080 --> 00:23:52.880
+essential, mice without FOVCR1 don&#x27;t
+
+00:23:52.880 --> 00:23:54.960
+make it to birth. So, they end up dying
+
+00:23:54.960 --> 00:23:58.159
+at embryionic stage E12.5
+
+00:23:58.159 --> 00:24:00.320
+in mice. So you can see there&#x27;s the wild
+
+00:24:00.320 --> 00:24:02.720
+type mice or the mice that only have one
+
+00:24:02.720 --> 00:24:05.520
+copy of ethylcr1 gone completely fine.
+
+00:24:05.520 --> 00:24:07.440
+They&#x27;re born they&#x27;re normal. The ones
+
+00:24:07.440 --> 00:24:09.919
+that have both copies of is gone
+
+00:24:09.919 --> 00:24:11.600
+developmentally have defects. You can
+
+00:24:11.600 --> 00:24:14.640
+see that you don&#x27;t have to be a
+
+00:24:14.640 --> 00:24:16.720
+an embryologist to see this. The head is
+
+00:24:16.720 --> 00:24:19.200
+different size. You see the eyes in the
+
+00:24:19.200 --> 00:24:21.039
+wild type and the hetererozygous that
+
+00:24:21.039 --> 00:24:23.120
+you don&#x27;t see in the knockouts and even
+
+00:24:23.120 --> 00:24:25.200
+their the size of the embryo is
+
+00:24:25.200 --> 00:24:27.600
+different. Um, so this really shows that
+
+00:24:27.600 --> 00:24:29.840
+this transporter is actually necessary
+
+00:24:29.840 --> 00:24:32.799
+for mamalian development. And when we
+
+00:24:32.799 --> 00:24:35.039
+did metabolomics on these embryos, we
+
+00:24:35.039 --> 00:24:37.279
+found that the knockout embryos do in
+
+00:24:37.279 --> 00:24:39.520
+fact have decreased levels of choline
+
+00:24:39.520 --> 00:24:41.520
+and these downstream metabolites. Again,
+
+00:24:41.520 --> 00:24:43.520
+showing that the problem with these is
+
+00:24:43.520 --> 00:24:44.720
+probably that they don&#x27;t have enough
+
+00:24:44.720 --> 00:24:46.559
+choline to for their downstream
+
+00:24:46.559 --> 00:24:49.600
+metabolic functions. And then we tried
+
+00:24:49.600 --> 00:24:52.159
+to ask could we actually rescue these
+
+00:24:52.159 --> 00:24:55.840
+mice that don&#x27;t have FOB the1 by giving
+
+00:24:55.840 --> 00:24:58.000
+super physiological amounts of chine so
+
+00:24:58.000 --> 00:25:00.480
+very very high doses of choline to the
+
+00:25:00.480 --> 00:25:03.039
+pregnant mothers during pregnancy to try
+
+00:25:03.039 --> 00:25:05.440
+to extend the lifespan of these knockout
+
+00:25:05.440 --> 00:25:07.760
+embryos. And what we found is that we
+
+00:25:07.760 --> 00:25:11.440
+could significantly extend the lifespan
+
+00:25:11.440 --> 00:25:13.520
+of these knockout embryos. So, for
+
+00:25:13.520 --> 00:25:17.360
+example, in a the control arm, knockout
+
+00:25:17.360 --> 00:25:20.480
+embryos at day E15.5, we don&#x27;t see any
+
+00:25:20.480 --> 00:25:22.720
+of them. I told you they die at E12.5,
+
+00:25:22.720 --> 00:25:24.640
+that&#x27;s 3 days earlier. You don&#x27;t see any
+
+00:25:24.640 --> 00:25:27.200
+of them. But the knockout ones, when we
+
+00:25:27.200 --> 00:25:29.039
+give really high levels of choline, we
+
+00:25:29.039 --> 00:25:31.679
+can still see live embryos at this time
+
+00:25:31.679 --> 00:25:32.960
+point. Again, there&#x27;s still a lot of
+
+00:25:32.960 --> 00:25:34.720
+developmental problems with them, so
+
+00:25:34.720 --> 00:25:36.240
+we&#x27;re not able to fully rescue it. I
+
+00:25:36.240 --> 00:25:38.559
+think this is very strong proof in mice
+
+00:25:38.559 --> 00:25:40.320
+that the thing that these mice are
+
+00:25:40.320 --> 00:25:41.679
+feeling these embryos during development
+
+00:25:41.679 --> 00:25:44.640
+is that they don&#x27;t have enough cold.
+
+00:25:44.640 --> 00:25:49.039
+Okay. So why is FOVCR1 loss
+
+00:25:49.039 --> 00:25:51.600
+embryionically lethal? The truth is we
+
+00:25:51.600 --> 00:25:53.039
+still don&#x27;t have a clear answer for that
+
+00:25:53.039 --> 00:25:54.799
+but I want to show a little bit of data
+
+00:25:54.799 --> 00:25:56.960
+from this. Um and what we think is
+
+00:25:56.960 --> 00:25:59.200
+happening is that the mice that don&#x27;t
+
+00:25:59.200 --> 00:26:01.520
+have FLBC1 during development their
+
+00:26:01.520 --> 00:26:03.520
+mitochondria which you guys probably
+
+00:26:03.520 --> 00:26:04.960
+know the powerhouse of the cell. this
+
+00:26:04.960 --> 00:26:07.120
+important metabolic this important
+
+00:26:07.120 --> 00:26:10.080
+metabolic uh organel is very messed up
+
+00:26:10.080 --> 00:26:12.640
+and dysfunctional in the knockouts and
+
+00:26:12.640 --> 00:26:14.240
+you can see I think just appreciating
+
+00:26:14.240 --> 00:26:16.400
+through these EM images what the
+
+00:26:16.400 --> 00:26:18.400
+mitochondria look like they&#x27;re dark and
+
+00:26:18.400 --> 00:26:20.320
+dense the the darkness comes from the
+
+00:26:20.320 --> 00:26:22.640
+electrons in them and they have these
+
+00:26:22.640 --> 00:26:24.559
+beautiful structures of this double
+
+00:26:24.559 --> 00:26:26.480
+membrane bound structure and you can see
+
+00:26:26.480 --> 00:26:28.000
+that in the knockout embryos on the
+
+00:26:28.000 --> 00:26:30.240
+furthest right you have the christe
+
+00:26:30.240 --> 00:26:32.080
+which is the the the folds of the
+
+00:26:32.080 --> 00:26:34.080
+mitochondria are messed up they&#x27;re
+
+00:26:34.080 --> 00:26:36.240
+swollen And we know from other data that
+
+00:26:36.240 --> 00:26:37.440
+I&#x27;m now showing here that they&#x27;re not
+
+00:26:37.440 --> 00:26:39.440
+actually behaving properly. And what we
+
+00:26:39.440 --> 00:26:41.600
+think is happening is that the uh
+
+00:26:41.600 --> 00:26:43.679
+phosphodal choline, one of the the
+
+00:26:43.679 --> 00:26:44.880
+lipids that I talked about in the
+
+00:26:44.880 --> 00:26:47.440
+beginning, is a really important lipid
+
+00:26:47.440 --> 00:26:50.080
+for mitochondria. And perhaps by
+
+00:26:50.080 --> 00:26:52.880
+restricting choline through FOVCR1 not
+
+00:26:52.880 --> 00:26:54.240
+being there, they&#x27;re not able to have
+
+00:26:54.240 --> 00:26:57.039
+enough phosphatidoline to make effective
+
+00:26:57.039 --> 00:26:59.360
+um mitochondria. And maybe that&#x27;s why
+
+00:26:59.360 --> 00:27:00.640
+they&#x27;re dying. And we we&#x27;re working on
+
+00:27:00.640 --> 00:27:03.520
+this to try to figure it out.
+
+00:27:03.520 --> 00:27:06.159
+Okay, what about in humans? And I think
+
+00:27:06.159 --> 00:27:08.880
+the beauty of basic science is that if
+
+00:27:08.880 --> 00:27:11.600
+you find something truly fundamental to
+
+00:27:11.600 --> 00:27:14.000
+basic science in biology, it usually is
+
+00:27:14.000 --> 00:27:15.600
+implicated in some type of human
+
+00:27:15.600 --> 00:27:17.600
+disease. And that&#x27;s the case that we
+
+00:27:17.600 --> 00:27:20.320
+found as well. So they&#x27;re actually rare,
+
+00:27:20.320 --> 00:27:22.720
+but there are dozens of people that have
+
+00:27:22.720 --> 00:27:25.520
+varants in ethylcier1 that causes this
+
+00:27:25.520 --> 00:27:27.200
+ultra rare disease called pecarp
+
+00:27:27.200 --> 00:27:29.360
+disease. And that stands for posterior
+
+00:27:29.360 --> 00:27:32.000
+columnar atexia with retinitis
+
+00:27:32.000 --> 00:27:34.159
+pigmentotosa. It&#x27;s a long name, but it&#x27;s
+
+00:27:34.159 --> 00:27:35.840
+a debilitating disease in which they
+
+00:27:35.840 --> 00:27:38.559
+have degeneration of the retina. So they
+
+00:27:38.559 --> 00:27:40.880
+eventually become blind and they also
+
+00:27:40.880 --> 00:27:42.960
+develop problems walking and ambulating
+
+00:27:42.960 --> 00:27:44.320
+because they have degeneration of their
+
+00:27:44.320 --> 00:27:47.440
+spinal cord. And before our work, they
+
+00:27:47.440 --> 00:27:49.840
+had made the association that this
+
+00:27:49.840 --> 00:27:51.760
+variants of this gene were associated
+
+00:27:51.760 --> 00:27:53.919
+with this disease. But what this gene
+
+00:27:53.919 --> 00:27:55.840
+transported and what potentially was the
+
+00:27:55.840 --> 00:27:59.360
+ideology of this of this uh uh the
+
+00:27:59.360 --> 00:28:01.520
+pathophysiology of this disease was not
+
+00:28:01.520 --> 00:28:04.480
+clear. And also this other transporter
+
+00:28:04.480 --> 00:28:06.159
+that we discovered in our genetic
+
+00:28:06.159 --> 00:28:09.520
+strains, the cousin of FLCR1, FLVCR2 is
+
+00:28:09.520 --> 00:28:12.000
+also associated with this less rare
+
+00:28:12.000 --> 00:28:14.880
+human disease called Fowlers. um
+
+00:28:14.880 --> 00:28:16.399
+syndrome.
+
+00:28:16.399 --> 00:28:19.440
+And um kind of the the point of this
+
+00:28:19.440 --> 00:28:21.440
+work is that
+
+00:28:21.440 --> 00:28:24.799
+we you could hypothesize that given that
+
+00:28:24.799 --> 00:28:27.120
+these patients have variance in these
+
+00:28:27.120 --> 00:28:29.120
+transporters and I think we have pretty
+
+00:28:29.120 --> 00:28:30.480
+convincing evidence that what they&#x27;re
+
+00:28:30.480 --> 00:28:32.320
+missing is choline, you can imagine
+
+00:28:32.320 --> 00:28:35.200
+devising very easy dietary interventions
+
+00:28:35.200 --> 00:28:36.880
+to help these patients by giving them
+
+00:28:36.880 --> 00:28:38.640
+more choline. And that&#x27;s work that we&#x27;re
+
+00:28:38.640 --> 00:28:40.240
+doing right now with clinicians to try
+
+00:28:40.240 --> 00:28:42.240
+to understand or try to help these
+
+00:28:42.240 --> 00:28:43.760
+patients. But also we&#x27;re trying to
+
+00:28:43.760 --> 00:28:46.960
+understand too choline itself exists in
+
+00:28:46.960 --> 00:28:48.640
+this form furthest on the left. But
+
+00:28:48.640 --> 00:28:50.399
+there&#x27;s other metabolites as I told you
+
+00:28:50.399 --> 00:28:52.640
+about in the genetic screens from which
+
+00:28:52.640 --> 00:28:54.880
+metabolite cells are very thrifty in the
+
+00:28:54.880 --> 00:28:56.799
+ways that they can regenerate choline.
+
+00:28:56.799 --> 00:28:58.159
+And really the important part they need
+
+00:28:58.159 --> 00:28:59.440
+is this part that&#x27;s highlighted in
+
+00:28:59.440 --> 00:29:01.120
+yellow. So, we&#x27;re playing around with
+
+00:29:01.120 --> 00:29:03.279
+different formulations of different
+
+00:29:03.279 --> 00:29:04.960
+choline derived metabolites that we can
+
+00:29:04.960 --> 00:29:07.440
+give these patients to try to provide
+
+00:29:07.440 --> 00:29:09.520
+them with more choline so that they can
+
+00:29:09.520 --> 00:29:12.799
+um have a better expectancy in terms of
+
+00:29:12.799 --> 00:29:14.960
+lifespan but also in terms of uh their
+
+00:29:14.960 --> 00:29:16.720
+the pathologies that they&#x27;re suffering
+
+00:29:16.720 --> 00:29:20.159
+from and uh the disease that they that
+
+00:29:20.159 --> 00:29:22.559
+they have. And finally, one of the
+
+00:29:22.559 --> 00:29:24.080
+things that I&#x27;m interested in as a basic
+
+00:29:24.080 --> 00:29:26.799
+biologist is that when we identify what
+
+00:29:26.799 --> 00:29:28.720
+a transporter does, that gives us a
+
+00:29:28.720 --> 00:29:30.880
+genetic handle that we can then go ask
+
+00:29:30.880 --> 00:29:33.360
+very fundamental biological questions.
+
+00:29:33.360 --> 00:29:36.000
+So now that we know that FOVCR1 is a
+
+00:29:36.000 --> 00:29:38.240
+choline transporter, we can go knock it
+
+00:29:38.240 --> 00:29:40.720
+out in very specific cell types and ask
+
+00:29:40.720 --> 00:29:42.720
+what is the role of choline in the
+
+00:29:42.720 --> 00:29:44.720
+nervous system in mice and when we knock
+
+00:29:44.720 --> 00:29:46.240
+it out, what happens in these mice? And
+
+00:29:46.240 --> 00:29:47.600
+that&#x27;s kind of the work that I&#x27;m doing
+
+00:29:47.600 --> 00:29:50.000
+now. Um, it&#x27;s really going full circle
+
+00:29:50.000 --> 00:29:51.919
+and really understanding new biology
+
+00:29:51.919 --> 00:29:53.840
+based on a very fundamental
+
+00:29:53.840 --> 00:29:55.600
+deorphanization of these metabolic
+
+00:29:55.600 --> 00:29:58.240
+transporters. And I want to highlight
+
+00:29:58.240 --> 00:30:00.399
+this is just one of these 450
+
+00:30:00.399 --> 00:30:02.000
+transporters, there&#x27;s a ton of work to
+
+00:30:02.000 --> 00:30:03.840
+do to deorphanize these. But by
+
+00:30:03.840 --> 00:30:06.399
+understanding how nutrients get in and
+
+00:30:06.399 --> 00:30:08.880
+out of cells and organisms, we can start
+
+00:30:08.880 --> 00:30:10.399
+to build a better understanding of how
+
+00:30:10.399 --> 00:30:12.960
+cellular metabolism really works. and it
+
+00:30:12.960 --> 00:30:14.399
+can point us into directions of
+
+00:30:14.399 --> 00:30:16.640
+potential therapies for patients that
+
+00:30:16.640 --> 00:30:18.399
+have uh variance in in these
+
+00:30:18.399 --> 00:30:20.000
+transporters.
+
+00:30:20.000 --> 00:30:22.880
+And uh with that, I want to thank my lab
+
+00:30:22.880 --> 00:30:24.240
+and all the people that I work with and
+
+00:30:24.240 --> 00:30:25.760
+I&#x27;d be happy to take any questions.
+
+00:30:25.760 --> 00:30:28.650
+Thank you guys so much for listening.
+
+00:30:28.650 --> 00:30:38.799
+[Applause]
+
+00:30:38.799 --> 00:30:39.919
+All right. Does anyone have any
+
+00:30:39.919 --> 00:30:41.600
+questions?
+
+00:30:41.600 --> 00:30:44.880
+Yeah, I take the mic so the people in VR
+
+00:30:44.880 --> 00:30:48.600
+studio land can hear.
+
+00:30:51.120 --> 00:30:52.880
+&gt;&gt; Awesome. Thank thanks so much for the
+
+00:30:52.880 --> 00:30:57.039
+talk. Um is like Alzheimer&#x27;s other
+
+00:30:57.039 --> 00:30:59.600
+dementias or disease of acetylcholine
+
+00:30:59.600 --> 00:31:01.760
+deficit. So you got like uh
+
+00:31:01.760 --> 00:31:04.000
+antiolinsterase inhibitors like ariscept
+
+00:31:04.000 --> 00:31:06.559
+amongst drugs. Just curious like you
+
+00:31:06.559 --> 00:31:09.840
+know research or or maybe maybe um I
+
+00:31:09.840 --> 00:31:12.240
+guess research you&#x27;ve done into that
+
+00:31:12.240 --> 00:31:15.600
+class of disease and FLC1 dynamics
+
+00:31:15.600 --> 00:31:18.600
+there.
+
+00:31:18.960 --> 00:31:21.440
+&gt;&gt; No, this is Thank you. That&#x27;s that&#x27;s a
+
+00:31:21.440 --> 00:31:22.720
+very good question and that&#x27;s exactly
+
+00:31:22.720 --> 00:31:24.960
+what we&#x27;re doing now. So we have
+
+00:31:24.960 --> 00:31:27.200
+knockouts of these mice that have some
+
+00:31:27.200 --> 00:31:30.320
+very Alzheimer&#x27;s neurodeenerative like
+
+00:31:30.320 --> 00:31:32.880
+symptoms when we&#x27;ve made new knockout
+
+00:31:32.880 --> 00:31:34.399
+animals of these. So that&#x27;s exactly what
+
+00:31:34.399 --> 00:31:36.320
+we&#x27;re trying to do and try to understand
+
+00:31:36.320 --> 00:31:38.880
+the interplay of if choline is really
+
+00:31:38.880 --> 00:31:42.960
+necessary uh through FOVCR1 for the
+
+00:31:42.960 --> 00:31:45.679
+function of making acetylcholine and in
+
+00:31:45.679 --> 00:31:47.440
+these patients for example with colon
+
+00:31:47.440 --> 00:31:49.120
+eststerase inhibitors as you suggested
+
+00:31:49.120 --> 00:31:51.519
+be beneficial and I think they so that&#x27;s
+
+00:31:51.519 --> 00:31:53.360
+that&#x27;s work we&#x27;re ongoing and working on
+
+00:31:53.360 --> 00:31:57.720
+yeah thanks for your question
+
+00:31:59.519 --> 00:32:01.279
+so what in the example you were showing
+
+00:32:01.279 --> 00:32:04.159
+earlier when you had the knockout mice
+
+00:32:04.159 --> 00:32:05.919
+that they they were able to go and
+
+00:32:05.919 --> 00:32:08.720
+inject larger amounts of choline to sort
+
+00:32:08.720 --> 00:32:11.600
+of overcome that. How does that
+
+00:32:11.600 --> 00:32:13.360
+translate into the amount that the human
+
+00:32:13.360 --> 00:32:14.799
+body can actually handle? Like if you&#x27;re
+
+00:32:14.799 --> 00:32:16.640
+trying to think about in humans for
+
+00:32:16.640 --> 00:32:18.880
+those two diseases they discussed,
+
+00:32:18.880 --> 00:32:21.200
+what&#x27;s the upper limit on choline intake
+
+00:32:21.200 --> 00:32:23.039
+that would be able to potentially exist
+
+00:32:23.039 --> 00:32:25.120
+and not cause other problems and how
+
+00:32:25.120 --> 00:32:26.799
+does that balance happen? And also if
+
+00:32:26.799 --> 00:32:29.039
+you&#x27;re talking about recycling mechanism
+
+00:32:29.039 --> 00:32:32.159
+is that could potentially go and be the
+
+00:32:32.159 --> 00:32:34.799
+alternative uh ways of making use of the
+
+00:32:34.799 --> 00:32:37.840
+choline you said that&#x27;s the way the
+
+00:32:37.840 --> 00:32:39.440
+modifications of the choline molecule
+
+00:32:39.440 --> 00:32:41.919
+molecule are the ways that you are going
+
+00:32:41.919 --> 00:32:45.440
+to try and get sorry versions of choline
+
+00:32:45.440 --> 00:32:46.720
+that can actually work for people who
+
+00:32:46.720 --> 00:32:48.480
+have these sorts of knockouts. Are there
+
+00:32:48.480 --> 00:32:49.840
+particular ones that you have found so
+
+00:32:49.840 --> 00:32:51.519
+far in these knockout mice that are
+
+00:32:51.519 --> 00:32:52.880
+looking to be more promising just
+
+00:32:52.880 --> 00:32:55.679
+&gt;&gt; yeah yeah no that&#x27;s a great question. So
+
+00:32:55.679 --> 00:32:58.480
+first off, so in terms of the the amount
+
+00:32:58.480 --> 00:33:00.000
+of supplementation that we&#x27;re able to do
+
+00:33:00.000 --> 00:33:01.919
+in mice, this is not necessarily the
+
+00:33:01.919 --> 00:33:04.880
+most directly transmittable. So you can
+
+00:33:04.880 --> 00:33:07.039
+so we&#x27;re giving these mice dietary
+
+00:33:07.039 --> 00:33:09.039
+amounts of choline, but I think that the
+
+00:33:09.039 --> 00:33:11.360
+limit for that is the intestinal
+
+00:33:11.360 --> 00:33:13.840
+absorption. So you can eat bucket loads
+
+00:33:13.840 --> 00:33:15.600
+of choline. It&#x27;s very hard to overdose
+
+00:33:15.600 --> 00:33:17.519
+in terms of eating choline. The biggest
+
+00:33:17.519 --> 00:33:19.360
+side effect is that you smell fishy
+
+00:33:19.360 --> 00:33:22.080
+because you make this trimethylamine.
+
+00:33:22.080 --> 00:33:24.080
+your gut microbiota actually breaks down
+
+00:33:24.080 --> 00:33:25.679
+the choline. So what we&#x27;re doing in
+
+00:33:25.679 --> 00:33:28.080
+these mice is actually injecting IP
+
+00:33:28.080 --> 00:33:30.640
+choline and so I wouldn&#x27;t suggest doing
+
+00:33:30.640 --> 00:33:32.240
+that in patients because if you inject
+
+00:33:32.240 --> 00:33:33.919
+too much choline you can cause a
+
+00:33:33.919 --> 00:33:35.840
+colonergic crisis and the mice for
+
+00:33:35.840 --> 00:33:38.640
+examples seize and die. So we found like
+
+00:33:38.640 --> 00:33:40.720
+the absolute level that the pregnant
+
+00:33:40.720 --> 00:33:42.080
+mice can take and that&#x27;s what we were
+
+00:33:42.080 --> 00:33:44.720
+using. So in terms of the therapeutic
+
+00:33:44.720 --> 00:33:46.640
+benefit I think as he suggested over
+
+00:33:46.640 --> 00:33:48.799
+here maybe acetyloline eststerase
+
+00:33:48.799 --> 00:33:50.559
+inhibitors would be a good approach. So
+
+00:33:50.559 --> 00:33:53.440
+for people who don&#x27;t know acetylcholine
+
+00:33:53.440 --> 00:33:55.279
+is a neurotransmitter it gets released
+
+00:33:55.279 --> 00:33:59.039
+in the syninnapse of between neurons and
+
+00:33:59.039 --> 00:34:01.279
+normally there&#x27;s this protein called
+
+00:34:01.279 --> 00:34:03.840
+acetyloline eststerase that breaks down
+
+00:34:03.840 --> 00:34:06.799
+acetylcholine into choline and acetate
+
+00:34:06.799 --> 00:34:08.639
+and it&#x27;s the same principle as like an
+
+00:34:08.639 --> 00:34:10.720
+SSRI for example that increases the
+
+00:34:10.720 --> 00:34:13.040
+level of serotonin in the syninnapse by
+
+00:34:13.040 --> 00:34:15.599
+blocking the breakdown of acetyloline
+
+00:34:15.599 --> 00:34:17.760
+eststerase of acetylcholine you&#x27;re
+
+00:34:17.760 --> 00:34:20.079
+increasing the amount in the syninnapse
+
+00:34:20.079 --> 00:34:21.679
+So that would be a therapeutic benefit
+
+00:34:21.679 --> 00:34:22.960
+that you could go through and then like
+
+00:34:22.960 --> 00:34:25.679
+you suggested about the other forms of
+
+00:34:25.679 --> 00:34:28.720
+choline potentially some of those would
+
+00:34:28.720 --> 00:34:31.760
+have less of a choleergic effect if you
+
+00:34:31.760 --> 00:34:33.520
+were to give intravenous amounts. So I
+
+00:34:33.520 --> 00:34:35.359
+know for example I&#x27;ve seen like when
+
+00:34:35.359 --> 00:34:37.760
+paltro says she takes uh
+
+00:34:37.760 --> 00:34:39.359
+lysophospatidylcholine
+
+00:34:39.359 --> 00:34:42.800
+in in IV drips. So potentially you could
+
+00:34:42.800 --> 00:34:46.320
+think about ways of doing other types of
+
+00:34:46.320 --> 00:34:48.560
+colon containing molecule or metabolites
+
+00:34:48.560 --> 00:34:51.440
+that would be less averse in the
+
+00:34:51.440 --> 00:34:53.839
+patients that have the variants of ethyl
+
+00:34:53.839 --> 00:34:56.240
+one and two but it&#x27;s it&#x27;s hard we still
+
+00:34:56.240 --> 00:34:59.280
+don&#x27;t even know how choline is absorbed
+
+00:34:59.280 --> 00:35:02.560
+in the intestine. So, we know that you
+
+00:35:02.560 --> 00:35:05.040
+have to get I think for women it&#x27;s like
+
+00:35:05.040 --> 00:35:09.280
+425 milligrams per day. Men it&#x27;s like
+
+00:35:09.280 --> 00:35:12.160
+550 milligrams. But we don&#x27;t even know
+
+00:35:12.160 --> 00:35:14.880
+what the main dietary source of choline
+
+00:35:14.880 --> 00:35:16.480
+is. Like we know for example that it&#x27;s
+
+00:35:16.480 --> 00:35:19.760
+in fish, meat, spinach, eggs, things
+
+00:35:19.760 --> 00:35:21.040
+like that. But we don&#x27;t actually know is
+
+00:35:21.040 --> 00:35:23.440
+that coming from free choline that&#x27;s in
+
+00:35:23.440 --> 00:35:25.359
+those or is it coming from choline
+
+00:35:25.359 --> 00:35:27.440
+containing metabolites like lysop
+
+00:35:27.440 --> 00:35:29.680
+phospatidylcholine? and are is the
+
+00:35:29.680 --> 00:35:31.680
+absorption that&#x27;s happening in the gut
+
+00:35:31.680 --> 00:35:34.480
+of lysophospitylcoline or is that being
+
+00:35:34.480 --> 00:35:36.160
+broken down into choline and then being
+
+00:35:36.160 --> 00:35:38.400
+taken up into the gut. So there&#x27;s very
+
+00:35:38.400 --> 00:35:40.000
+it&#x27;s a very important metabolite but
+
+00:35:40.000 --> 00:35:41.520
+there&#x27;s very fundamental things that we
+
+00:35:41.520 --> 00:35:44.240
+don&#x27;t even know how it gets into
+
+00:35:44.240 --> 00:35:46.000
+circulation but that&#x27;s the kind of thing
+
+00:35:46.000 --> 00:35:49.720
+we&#x27;re playing around with.
+
+00:35:51.280 --> 00:35:53.520
+&gt;&gt; And how long does it takes? Let&#x27;s say if
+
+00:35:53.520 --> 00:35:55.200
+hypothetically speaking
+
+00:35:55.200 --> 00:35:58.640
+&gt;&gt; if there was a a timing for for
+
+00:35:58.640 --> 00:36:02.320
+recovering the system let&#x27;s say the mice
+
+00:36:02.320 --> 00:36:04.240
+for example how long did it took you to
+
+00:36:04.240 --> 00:36:06.800
+make it back to normal level after you
+
+00:36:06.800 --> 00:36:10.160
+try the steroid thing number one and
+
+00:36:10.160 --> 00:36:13.200
+number two um what was the threshold and
+
+00:36:13.200 --> 00:36:15.520
+what would be the again hypothetically
+
+00:36:15.520 --> 00:36:17.359
+speaking what would be the threshold for
+
+00:36:17.359 --> 00:36:20.240
+a human you said 550
+
+00:36:20.240 --> 00:36:22.640
+for male 425 for
+
+00:36:22.640 --> 00:36:25.040
+If you wanted to compensate in more for
+
+00:36:25.040 --> 00:36:26.640
+it, yes, of course, we have to evaluate
+
+00:36:26.640 --> 00:36:28.800
+how low is it and then take it back. But
+
+00:36:28.800 --> 00:36:31.280
+let&#x27;s say you&#x27;re recovering from a
+
+00:36:31.280 --> 00:36:32.640
+disease or something like that. It
+
+00:36:32.640 --> 00:36:35.520
+happened. Say you went down to 50%.
+
+00:36:35.520 --> 00:36:37.839
+&gt;&gt; Again, hypothetically speaking,
+
+00:36:37.839 --> 00:36:40.640
+&gt;&gt; um how long would it will it take it to
+
+00:36:40.640 --> 00:36:42.560
+let&#x27;s say we&#x27;ll take it up and we&#x27;ll
+
+00:36:42.560 --> 00:36:44.240
+leave it there and it say like two
+
+00:36:44.240 --> 00:36:45.760
+months, three months or have you tried
+
+00:36:45.760 --> 00:36:48.880
+something like that? We&#x27;ve so the mouse
+
+00:36:48.880 --> 00:36:50.880
+experiments I&#x27;ve shown so far we&#x27;re
+
+00:36:50.880 --> 00:36:53.280
+doing the pre we&#x27;re treating them from
+
+00:36:53.280 --> 00:36:54.960
+conception. So they&#x27;ve always had
+
+00:36:54.960 --> 00:36:58.320
+elevated levels of colon. The amount
+
+00:36:58.320 --> 00:37:00.320
+that&#x27;s the amount that we inject into
+
+00:37:00.320 --> 00:37:02.560
+the mice is like equivalent to a human.
+
+00:37:02.560 --> 00:37:04.800
+So it&#x27;s very very high amounts. And the
+
+00:37:04.800 --> 00:37:06.800
+thing I want to emphasize too is in
+
+00:37:06.800 --> 00:37:09.920
+cells that don&#x27;t have epcr they cannot
+
+00:37:09.920 --> 00:37:11.920
+take up free choline. So I think the way
+
+00:37:11.920 --> 00:37:13.440
+that we&#x27;re getting choline into these
+
+00:37:13.440 --> 00:37:16.240
+cells is there&#x27;s just so much outside of
+
+00:37:16.240 --> 00:37:18.240
+the cell that some of it&#x27;s like leaking
+
+00:37:18.240 --> 00:37:20.160
+into the cell. So that&#x27;s the other thing
+
+00:37:20.160 --> 00:37:22.560
+is like even if you were to make the
+
+00:37:22.560 --> 00:37:24.640
+choline level back to what a normal
+
+00:37:24.640 --> 00:37:27.599
+patient had that has a variant with PC1,
+
+00:37:27.599 --> 00:37:29.920
+they still can&#x27;t take up that colon. Do
+
+00:37:29.920 --> 00:37:32.240
+you know what I mean? Because choline so
+
+00:37:32.240 --> 00:37:33.920
+&gt;&gt; the cell is actually damaged.
+
+00:37:33.920 --> 00:37:35.520
+&gt;&gt; The cell is not able to take up that
+
+00:37:35.520 --> 00:37:38.480
+free choline. So a a better approach
+
+00:37:38.480 --> 00:37:40.880
+would maybe be using a different choline
+
+00:37:40.880 --> 00:37:42.400
+containing metabolite because it&#x27;s
+
+00:37:42.400 --> 00:37:44.640
+probably a different transporter for
+
+00:37:44.640 --> 00:37:46.880
+that metabolite. So patients that have
+
+00:37:46.880 --> 00:37:50.000
+variance in ethylcr1 may be okay at
+
+00:37:50.000 --> 00:37:52.160
+taking up glycerospholine. So if you
+
+00:37:52.160 --> 00:37:54.000
+give them that, you&#x27;re still giving them
+
+00:37:54.000 --> 00:37:56.960
+the same molecular toolkit that they can
+
+00:37:56.960 --> 00:37:58.880
+then work with to do their metabolism,
+
+00:37:58.880 --> 00:38:00.320
+but you&#x27;re circumventing the problem
+
+00:38:00.320 --> 00:38:02.240
+they have in getting into the cell. If
+
+00:38:02.240 --> 00:38:03.920
+that makes sense.
+
+00:38:03.920 --> 00:38:06.240
+And in terms of timing,
+
+00:38:06.240 --> 00:38:08.160
+&gt;&gt; I would think the problem with any
+
+00:38:08.160 --> 00:38:10.400
+neurodeenerative disease is like once
+
+00:38:10.400 --> 00:38:12.240
+the horse has left the stable, it will
+
+00:38:12.240 --> 00:38:14.720
+make. So you it would be preventative
+
+00:38:14.720 --> 00:38:16.560
+would be the best case scenario if you
+
+00:38:16.560 --> 00:38:18.480
+were to screen people that had variance
+
+00:38:18.480 --> 00:38:20.480
+in this the longer the more you can give
+
+00:38:20.480 --> 00:38:22.880
+them excess amounts of coding the better
+
+00:38:22.880 --> 00:38:25.280
+because it&#x27;s very hard to once neurons
+
+00:38:25.280 --> 00:38:28.079
+have generated remake those neurons.
+
+00:38:28.079 --> 00:38:30.560
+They&#x27;re gone. So that&#x27;s what I would say
+
+00:38:30.560 --> 00:38:31.680
+about that and it would have to be
+
+00:38:31.680 --> 00:38:35.720
+probably a forever thing.
+
+00:38:37.920 --> 00:38:39.200
+&gt;&gt; Thank you for the talk. Found it very
+
+00:38:39.200 --> 00:38:41.520
+interesting. Um curious about the
+
+00:38:41.520 --> 00:38:44.000
+funding from that. So what&#x27;s the end
+
+00:38:44.000 --> 00:38:46.000
+goal of the research? Does it lead to
+
+00:38:46.000 --> 00:38:47.839
+something which is translational and
+
+00:38:47.839 --> 00:38:50.960
+what are the applications in industry?
+
+00:38:50.960 --> 00:38:53.680
+&gt;&gt; Yes. So the funding that I have from MER
+
+00:38:53.680 --> 00:38:55.920
+is just they fund a certain number of
+
+00:38:55.920 --> 00:38:58.400
+postal fellows at Rockefeller. So I had
+
+00:38:58.400 --> 00:38:59.680
+that funding for a year. So it&#x27;s not
+
+00:38:59.680 --> 00:39:01.839
+even like project based. So there are
+
+00:39:01.839 --> 00:39:03.599
+ways of course that that pharma
+
+00:39:03.599 --> 00:39:05.680
+companies will work with investigators
+
+00:39:05.680 --> 00:39:06.960
+but that wasn&#x27;t really the case for
+
+00:39:06.960 --> 00:39:09.440
+this. Um in terms of the therapeutic
+
+00:39:09.440 --> 00:39:12.800
+benefit like I think the these would be
+
+00:39:12.800 --> 00:39:15.119
+considered ultra rare diseases that I
+
+00:39:15.119 --> 00:39:16.560
+don&#x27;t think many pharma companies would
+
+00:39:16.560 --> 00:39:20.000
+touch uh this type of work. The one good
+
+00:39:20.000 --> 00:39:21.520
+thing is when you&#x27;re working with
+
+00:39:21.520 --> 00:39:24.400
+metabolites and nutrient supplements, a
+
+00:39:24.400 --> 00:39:26.320
+lot of that is not considered a drug,
+
+00:39:26.320 --> 00:39:28.400
+right? You could tell a patient that you
+
+00:39:28.400 --> 00:39:30.720
+should go get nature made choline to try
+
+00:39:30.720 --> 00:39:32.960
+that. You don&#x27;t even need to file an IND
+
+00:39:32.960 --> 00:39:35.520
+or to do those types of trials. So, that
+
+00:39:35.520 --> 00:39:37.040
+would be a way that we could help these
+
+00:39:37.040 --> 00:39:39.040
+patients without going through typical
+
+00:39:39.040 --> 00:39:41.599
+pharmaceutical trials. But I think big
+
+00:39:41.599 --> 00:39:45.040
+picture understanding how choline is
+
+00:39:45.040 --> 00:39:47.200
+taken up and what that plays a role in
+
+00:39:47.200 --> 00:39:49.040
+in different diseases going to
+
+00:39:49.040 --> 00:39:50.560
+Alzheimer&#x27;s or something like that could
+
+00:39:50.560 --> 00:39:52.240
+be something where a pharmaceutical
+
+00:39:52.240 --> 00:39:53.920
+company would be interested. And I can
+
+00:39:53.920 --> 00:39:57.440
+say for example prostate cancer they use
+
+00:39:57.440 --> 00:39:59.760
+choline PET scans to stage prostate
+
+00:39:59.760 --> 00:40:01.920
+cancer because prostate cancer really
+
+00:40:01.920 --> 00:40:04.560
+takes up a lot of choline. So like
+
+00:40:04.560 --> 00:40:06.640
+potentially if you had an inhibitor that
+
+00:40:06.640 --> 00:40:08.720
+blocked FOVR1
+
+00:40:08.720 --> 00:40:10.880
+that really you have found a therapeutic
+
+00:40:10.880 --> 00:40:13.200
+window that hit cancer cells but not
+
+00:40:13.200 --> 00:40:14.480
+normal cells that would be a good
+
+00:40:14.480 --> 00:40:16.400
+therapy. We haven&#x27;t talked to any pharma
+
+00:40:16.400 --> 00:40:17.440
+companies about that kind of stuff but
+
+00:40:17.440 --> 00:40:18.880
+that that&#x27;s kind of what we&#x27;re thinking.
+
+00:40:18.880 --> 00:40:20.640
+So hopefully that answers the question.
+
+00:40:20.640 --> 00:40:25.560
+&gt;&gt; Okay. Thank you. Any more questions?
+
+00:40:30.160 --> 00:40:31.920
+&gt;&gt; Uh so two quick questions. So you
+
+00:40:31.920 --> 00:40:33.440
+mentioned for example choline can be
+
+00:40:33.440 --> 00:40:35.359
+absorbed into multiple ways in the body.
+
+00:40:35.359 --> 00:40:37.599
+So how does the body know which way to
+
+00:40:37.599 --> 00:40:40.480
+kind of uh which which would be the best
+
+00:40:40.480 --> 00:40:42.560
+use and two is there a way to kind of
+
+00:40:42.560 --> 00:40:45.440
+for neurodeenerative diseases to screen
+
+00:40:45.440 --> 00:40:48.480
+for whether um the problem is for
+
+00:40:48.480 --> 00:40:52.240
+example it&#x27;s like the inability to
+
+00:40:52.240 --> 00:40:55.520
+absorb certain um
+
+00:40:55.520 --> 00:40:57.359
+uh uh metabolic
+
+00:40:57.359 --> 00:40:57.760
+&gt;&gt; Yeah.
+
+00:40:57.760 --> 00:40:59.599
+&gt;&gt; Um
+
+00:40:59.599 --> 00:41:02.079
+&gt;&gt; I yeah it&#x27;s a good question. So I would
+
+00:41:02.079 --> 00:41:05.599
+say that probably there&#x27;s no in terms of
+
+00:41:05.599 --> 00:41:08.720
+the association of the uh problems in
+
+00:41:08.720 --> 00:41:10.640
+absorption and disease like nerve
+
+00:41:10.640 --> 00:41:12.880
+degeneration. I doubt there&#x27;s probably
+
+00:41:12.880 --> 00:41:14.880
+genetic
+
+00:41:14.880 --> 00:41:17.599
+defects in transport in patients that
+
+00:41:17.599 --> 00:41:19.680
+cause common diseases like nerve
+
+00:41:19.680 --> 00:41:22.720
+degeneration. It&#x27;s possible that
+
+00:41:22.720 --> 00:41:24.800
+deficiencies in diet could be
+
+00:41:24.800 --> 00:41:26.560
+associated. So they have done studies in
+
+00:41:26.560 --> 00:41:28.960
+mice for example that if you manipulate
+
+00:41:28.960 --> 00:41:30.480
+the amount of choline that they have in
+
+00:41:30.480 --> 00:41:32.240
+their diet and it&#x27;s a mouse model that
+
+00:41:32.240 --> 00:41:34.160
+gets Alzheimer&#x27;s already they get
+
+00:41:34.160 --> 00:41:36.240
+Alzheimer&#x27;s even worse and even earlier.
+
+00:41:36.240 --> 00:41:38.720
+So um that&#x27;s that&#x27;s a possibility. And
+
+00:41:38.720 --> 00:41:40.079
+then in terms of your first question
+
+00:41:40.079 --> 00:41:42.800
+like very interesting how does it&#x27;s not
+
+00:41:42.800 --> 00:41:44.720
+just for choline for any metabolite. How
+
+00:41:44.720 --> 00:41:46.560
+does the cell know what it should go to
+
+00:41:46.560 --> 00:41:49.280
+make and how does it do that? The way it
+
+00:41:49.280 --> 00:41:50.480
+usually works for most of these
+
+00:41:50.480 --> 00:41:52.079
+metabolic pathways is it&#x27;s kind of a
+
+00:41:52.079 --> 00:41:54.800
+funnel. So it comes in and it has
+
+00:41:54.800 --> 00:41:56.640
+multiple routes of where it can go. And
+
+00:41:56.640 --> 00:41:59.040
+the way that the cell usually changes
+
+00:41:59.040 --> 00:42:01.440
+the rate or the flux from which it goes
+
+00:42:01.440 --> 00:42:03.680
+down this path or this path is the
+
+00:42:03.680 --> 00:42:05.520
+amount of the enzymes that do the work
+
+00:42:05.520 --> 00:42:07.520
+to make it go down this side or down
+
+00:42:07.520 --> 00:42:09.599
+that. So example, you would shut down
+
+00:42:09.599 --> 00:42:11.920
+the enzyme that makes this so that in
+
+00:42:11.920 --> 00:42:13.520
+this cell type, you&#x27;re not making the
+
+00:42:13.520 --> 00:42:16.240
+metabolite that you didn&#x27;t want to make.
+
+00:42:16.240 --> 00:42:18.160
+But how it&#x27;s it&#x27;s a very good broad
+
+00:42:18.160 --> 00:42:20.800
+question. How do cells sense and know
+
+00:42:20.800 --> 00:42:22.319
+what metabolites they have? How do they
+
+00:42:22.319 --> 00:42:24.319
+regulate that? That&#x27;s a wide open field
+
+00:42:24.319 --> 00:42:26.160
+and something we and other people are
+
+00:42:26.160 --> 00:42:29.800
+very interested in.
+
+00:42:33.599 --> 00:42:35.200
+&gt;&gt; Here
+
+00:42:35.200 --> 00:42:37.119
+&gt;&gt; one last question.
+
+00:42:37.119 --> 00:42:40.000
+&gt;&gt; Yeah. Uh just a quick question in the
+
+00:42:40.000 --> 00:42:42.079
+heck case where they have one copy
+
+00:42:42.079 --> 00:42:43.680
+what&#x27;s happening there is like half the
+
+00:42:43.680 --> 00:42:45.359
+cells are getting it up or down.
+
+00:42:45.359 --> 00:42:48.319
+&gt;&gt; No. So the hat would be all cells have
+
+00:42:48.319 --> 00:42:52.400
+one copy of FLV. So they&#x27;re not it&#x27;s not
+
+00:42:52.400 --> 00:42:54.160
+a mosaic where some are knockout, some
+
+00:42:54.160 --> 00:42:56.079
+are wild type. It&#x27;s all of them have one
+
+00:42:56.079 --> 00:42:58.640
+copy. But what you can tell from that is
+
+00:42:58.640 --> 00:43:01.599
+that having one copy of FOP is
+
+00:43:01.599 --> 00:43:03.680
+sufficient to do the job. And that
+
+00:43:03.680 --> 00:43:05.040
+actually is what we see in some patients
+
+00:43:05.040 --> 00:43:07.280
+that we&#x27;ve been working with where their
+
+00:43:07.280 --> 00:43:10.560
+parent has one copy gone and the other
+
+00:43:10.560 --> 00:43:13.359
+parent has another copy gone in a
+
+00:43:13.359 --> 00:43:14.800
+different place and only when they&#x27;re
+
+00:43:14.800 --> 00:43:16.560
+together does their child have a
+
+00:43:16.560 --> 00:43:19.839
+problem. So having half is enough. But
+
+00:43:19.839 --> 00:43:21.839
+that&#x27;s not the case for every gene. But
+
+00:43:21.839 --> 00:43:23.200
+in this case, it is.
+
+00:43:23.200 --> 00:43:24.960
+&gt;&gt; And how does it render like on the cell
+
+00:43:24.960 --> 00:43:27.599
+memory? Like do they have what path is
+
+00:43:27.599 --> 00:43:28.800
+transporter
+
+00:43:28.800 --> 00:43:30.720
+&gt;&gt; usually, but it depends. Some that&#x27;s
+
+00:43:30.720 --> 00:43:32.240
+also controlled at the level of
+
+00:43:32.240 --> 00:43:34.400
+transcription. So some of some of some
+
+00:43:34.400 --> 00:43:36.560
+genes you don&#x27;t need to have both copies
+
+00:43:36.560 --> 00:43:39.200
+to have the same number of protein. And
+
+00:43:39.200 --> 00:43:40.480
+it could be that the cell we don&#x27;t know
+
+00:43:40.480 --> 00:43:41.920
+this. This is speculation. It could be
+
+00:43:41.920 --> 00:43:43.920
+that the cell senses that they don&#x27;t
+
+00:43:43.920 --> 00:43:46.560
+have enough of it and they tell the cell
+
+00:43:46.560 --> 00:43:48.240
+to make more of that. And there&#x27;s the
+
+00:43:48.240 --> 00:43:50.240
+compensatory mechanism that maybe they
+
+00:43:50.240 --> 00:43:52.480
+have the same amount.
+
+00:43:52.480 --> 00:43:55.119
+&gt;&gt; Cool. Thanks.
+
+00:43:55.119 --> 00:43:58.920
+&gt;&gt; How many questions are left?
+
+00:43:59.280 --> 00:44:01.599
+&gt;&gt; You
+
+00:44:01.599 --> 00:44:04.640
+wait. So are you are you proposing for
+
+00:44:04.640 --> 00:44:07.119
+prostate cancer they knock out the gene?
+
+00:44:07.119 --> 00:44:09.040
+&gt;&gt; No, I wouldn&#x27;t propose to knock it out,
+
+00:44:09.040 --> 00:44:12.160
+but in theory like a lot of these
+
+00:44:12.160 --> 00:44:15.200
+uh a lot of these drugs would be to
+
+00:44:15.200 --> 00:44:16.960
+inhibit the function of it. So if you
+
+00:44:16.960 --> 00:44:19.440
+could find something that could stick in
+
+00:44:19.440 --> 00:44:22.079
+the middle of the transporter and block
+
+00:44:22.079 --> 00:44:24.720
+it so that it can&#x27;t do that, can&#x27;t take
+
+00:44:24.720 --> 00:44:26.720
+up choline, that would be the
+
+00:44:26.720 --> 00:44:29.440
+&gt;&gt; So you would be suggesting to take up
+
+00:44:29.440 --> 00:44:31.440
+less choline for prostate cancer.
+
+00:44:31.440 --> 00:44:32.480
+&gt;&gt; That would be the idea.
+
+00:44:32.480 --> 00:44:33.920
+&gt;&gt; I see. But wouldn&#x27;t that come with other
+
+00:44:33.920 --> 00:44:34.960
+side effects?
+
+00:44:34.960 --> 00:44:37.200
+&gt;&gt; That&#x27;s every drug. That&#x27;s every drug. So
+
+00:44:37.200 --> 00:44:38.800
+it&#x27;s always looking for a therapeutic
+
+00:44:38.800 --> 00:44:42.000
+window in which having
+
+00:44:42.000 --> 00:44:44.319
+that drug would hit the cells that you
+
+00:44:44.319 --> 00:44:46.240
+want to hit and cause an effect there
+
+00:44:46.240 --> 00:44:47.920
+without causing some other to do. But
+
+00:44:47.920 --> 00:44:48.960
+that&#x27;s with every drug.
+
+00:44:48.960 --> 00:44:51.040
+&gt;&gt; Did uh did the drug company show
+
+00:44:51.040 --> 00:44:52.000
+interest in that?
+
+00:44:52.000 --> 00:44:53.760
+&gt;&gt; We&#x27;ve never pitched it to them and I&#x27;ve
+
+00:44:53.760 --> 00:44:56.960
+never really I I did cancer in my PhD.
+
+00:44:56.960 --> 00:44:58.480
+Planning to do more of it in the future,
+
+00:44:58.480 --> 00:45:00.640
+but that&#x27;s not something we&#x27;ve it&#x27;s just
+
+00:45:00.640 --> 00:45:02.000
+kind of throwing it out there.
+
+00:45:02.000 --> 00:45:02.640
+&gt;&gt; Oh, I see.
+
+00:45:02.640 --> 00:45:03.760
+&gt;&gt; But something that would be interest,
+
+00:45:03.760 --> 00:45:05.119
+but you&#x27;d have to find a molecule that
+
+00:45:05.119 --> 00:45:07.359
+can inhibit it. And I would be a little
+
+00:45:07.359 --> 00:45:09.440
+concerned given the phenotypes that we
+
+00:45:09.440 --> 00:45:10.880
+see in the mice that the therapeutic
+
+00:45:10.880 --> 00:45:13.359
+window we have to hit cancer but not hit
+
+00:45:13.359 --> 00:45:15.440
+any other cells might be too tight. It&#x27;s
+
+00:45:15.440 --> 00:45:16.880
+not even worth doing.
+
+00:45:16.880 --> 00:45:20.480
+&gt;&gt; Okay. So next question
+
+00:45:20.480 --> 00:45:23.280
+&gt;&gt; just uh quickly I the first sort of
+
+00:45:23.280 --> 00:45:24.720
+thought that I think probably most
+
+00:45:24.720 --> 00:45:26.160
+people have when they see the G-W was
+
+00:45:26.160 --> 00:45:28.160
+with the metabolites thing is wow that&#x27;s
+
+00:45:28.160 --> 00:45:30.000
+a lot of hits and then you chose one and
+
+00:45:30.000 --> 00:45:32.079
+this was really great job like
+
+00:45:32.079 --> 00:45:34.079
+tremendous amount of work though. So are
+
+00:45:34.079 --> 00:45:36.160
+there any sort of thoughts or like
+
+00:45:36.160 --> 00:45:37.839
+initiatives to sort of parallelize
+
+00:45:37.839 --> 00:45:39.680
+parallelize this process?
+
+00:45:39.680 --> 00:45:41.839
+&gt;&gt; Yeah. So so for example the other work
+
+00:45:41.839 --> 00:45:44.319
+that I didn&#x27;t present now we publish all
+
+00:45:44.319 --> 00:45:46.720
+the associations that we found and so
+
+00:45:46.720 --> 00:45:48.000
+one of the things and I think it goes
+
+00:45:48.000 --> 00:45:49.839
+back to TAI is decentralizing and
+
+00:45:49.839 --> 00:45:52.240
+putting back out there and I think my
+
+00:45:52.240 --> 00:45:53.920
+whole career I hope to have a long
+
+00:45:53.920 --> 00:45:56.160
+career. I can probably do I don&#x27;t know
+
+00:45:56.160 --> 00:45:58.160
+tens of these but I can&#x27;t do hundreds of
+
+00:45:58.160 --> 00:46:00.400
+these. So it&#x27;s a big open project and
+
+00:46:00.400 --> 00:46:02.319
+again you have to choose what you&#x27;re
+
+00:46:02.319 --> 00:46:04.800
+interested in and the way we did it is
+
+00:46:04.800 --> 00:46:06.720
+like for me it&#x27;s like if it&#x27;s
+
+00:46:06.720 --> 00:46:08.800
+evolutionary conserve that&#x27;s more
+
+00:46:08.800 --> 00:46:11.440
+interesting for me. if there&#x27;s patients
+
+00:46:11.440 --> 00:46:12.960
+that have variants in this that have a
+
+00:46:12.960 --> 00:46:14.720
+disease, that&#x27;s interesting to me. But
+
+00:46:14.720 --> 00:46:16.880
+again, whenever you do these large types
+
+00:46:16.880 --> 00:46:18.880
+of um
+
+00:46:18.880 --> 00:46:20.079
+fishing expeditions,
+
+00:46:20.079 --> 00:46:20.800
+&gt;&gt; yeah,
+
+00:46:20.800 --> 00:46:22.319
+&gt;&gt; how you choose what to go after is
+
+00:46:22.319 --> 00:46:23.680
+always difficult. But I think one of the
+
+00:46:23.680 --> 00:46:25.280
+important things and the push that there
+
+00:46:25.280 --> 00:46:27.119
+is, I think, in the scientific community
+
+00:46:27.119 --> 00:46:29.040
+to make all that data accessible. So
+
+00:46:29.040 --> 00:46:31.040
+maybe some investigator really really
+
+00:46:31.040 --> 00:46:33.280
+cares about glutamine or some other
+
+00:46:33.280 --> 00:46:34.960
+metabolite, they can go find
+
+00:46:34.960 --> 00:46:38.000
+associations and they can work on them.
+
+00:46:38.000 --> 00:46:42.839
+&gt;&gt; Cool. Thank you. All right. So,
+
+00:46:44.800 --> 00:46:47.839
+&gt;&gt; brought you a H science grade man hat
+
+00:46:47.839 --> 00:46:50.960
+for your wonderful talk and thank you
+
+00:46:50.960 --> 00:46:53.280
+again to say and thank you. We have more
+
+00:46:53.280 --> 00:46:55.280
+people to drink. It&#x27;s feel free to chat
+
+00:46:55.280 --> 00:46:56.800
+and mingle. So, thank you all for
+
+00:46:56.800 --> 00:46:59.520
+coming.
+
+00:46:59.520 --> 00:47:03.880
+[Applause]
+
+00:47:17.040 --> 00:47:20.599
+Grab some pizza.
+
+00:47:36.020 --> 00:47:39.059
+[Music]
+
+00:47:39.280 --> 00:47:42.520
+We don&#x27;t
+
+00:48:37.180 --> 00:48:40.370
+[Music]
+
+00:48:58.170 --> 00:49:01.280
+[Music]
+
+00:49:12.480 --> 00:49:15.480
+Biscuits
+
+00:49:19.040 --> 00:49:21.440
+competition.
+
+00:49:27.130 --> 00:49:30.340
+[Music]
+
+00:50:00.079 --> 00:50:02.319
+It&#x27;s basically
+
+00:50:02.319 --> 00:50:05.319
+like
+
+00:50:36.800 --> 00:50:40.130
+Yeah. Like
+
+00:50:40.130 --> 00:50:43.179
+[Music]
+
+00:50:46.570 --> 00:50:49.679
+[Music]
+
+00:51:27.190 --> 00:51:32.750
+[Music]
+
+00:51:35.990 --> 00:51:39.120
+[Music]
+
+00:52:32.800 --> 00:52:36.440
+Wow. Thank you.
+
+00:52:37.070 --> 00:52:40.159
+[Music]
+
+00:52:56.200 --> 00:53:02.449
+[Music]
+
+00:54:30.480 --> 00:54:33.720
+Good afternoon.
+
+00:54:49.680 --> 00:54:55.960
+If anyone needs a QR code, go.
+
+00:54:58.890 --> 00:55:02.020
+[Music]
+
+00:55:40.000 --> 00:55:43.240
+Oh my god.
+
+00:56:00.400 --> 00:56:04.200
+You know what you guys are using?
+
+00:56:20.960 --> 00:56:23.960
+Yeah.
+
+00:56:36.360 --> 00:56:39.409
+[Music]
+
+00:56:56.319 --> 00:56:59.640
+It&#x27;s really
+
+00:57:21.000 --> 00:57:24.079
+[Music]
+
+00:57:27.150 --> 00:57:30.249
+[Music]
+
+00:57:40.010 --> 00:57:43.119
+[Music]
+
+00:57:55.140 --> 00:58:00.790
+[Music]
+
+00:58:08.240 --> 00:58:11.480
+Good job.
+
+00:58:14.730 --> 00:58:17.849
+[Music]
+
+00:58:44.960 --> 00:58:48.119
+I don&#x27;t know.
+
+00:59:16.079 --> 00:59:18.960
+Sorry.
+
+00:59:26.280 --> 00:59:28.960
+[Music]
+
+00:59:28.960 --> 00:59:31.960
+Yes.
+
+01:00:05.839 --> 01:00:08.920
+Thank you.
+
+01:00:09.940 --> 01:00:13.039
+[Music]
+
+01:00:32.079 --> 01:00:35.160
+Thank you.
+
+01:01:02.720 --> 01:01:05.960
+This way.
+
+01:01:12.030 --> 01:01:15.129
+[Music]
+
+01:01:34.000 --> 01:01:37.319
+Someone else
+
+01:01:44.720 --> 01:01:47.720
+impressive.
+
+01:02:04.240 --> 01:02:07.480
+I don&#x27;t think
+
+01:02:12.799 --> 01:02:16.280
+It&#x27;s like
+
+01:02:17.340 --> 01:02:20.389
+[Music]
+
+01:02:46.880 --> 01:02:51.480
+So if you&#x27;re not drinking
+
+01:03:36.720 --> 01:03:40.039
+Good Yeah.
+
+01:03:54.319 --> 01:03:58.359
+Deep down there.
+
+01:04:08.960 --> 01:04:12.440
+I want to interrupt.
+
+01:04:14.630 --> 01:04:19.629
+[Music]
+
+01:04:24.510 --> 01:04:27.649
+[Music]
+
+01:04:37.290 --> 01:04:45.309
+[Music]
+
+01:04:58.960 --> 01:05:01.359
+Don&#x27;t
+
+01:05:01.359 --> 01:05:04.359
+Beautiful.
+
+01:05:41.130 --> 01:05:44.219
+[Music]
+
+01:05:45.200 --> 01:05:48.200
+Okay.
+
+01:05:51.039 --> 01:05:52.520
+Two.
+
+01:05:52.520 --> 01:05:55.670
+[Music]
+
+01:06:08.000 --> 01:06:11.160
+Don&#x27;t wait.
+
+01:06:23.460 --> 01:06:26.519
+[Music]
+
+01:06:33.839 --> 01:06:37.000
+You know
+
+01:06:46.120 --> 01:06:51.010
+[Music]
+
+01:07:23.440 --> 01:07:26.839
+No, they&#x27;re not.
+
+01:07:32.079 --> 01:07:35.319
+It&#x27;s not
+
+01:07:55.760 --> 01:07:58.760
+good.
+
+01:08:16.000 --> 01:08:18.239
+Oh, I
+
+01:08:18.600 --> 01:08:21.679
+[Music]
+
+01:08:47.660 --> 01:08:50.560
+[Music]
+
+01:08:50.560 --> 01:08:52.770
+I probably
+
+01:08:52.770 --> 01:08:55.869
+[Music]
+
+01:09:13.979 --> 01:09:17.139
+[Music]
+
+01:09:40.000 --> 01:09:43.159
+Good job.
+
+01:09:48.380 --> 01:09:51.470
+[Music]
+
+01:10:01.600 --> 01:10:04.600
+Oh,
+
+01:10:23.320 --> 01:10:26.439
+[Music]
+
+01:10:47.360 --> 01:10:51.880
+Did I take I thought this
+
+01:10:57.520 --> 01:11:00.840
+Oh my god.
+
+01:11:04.960 --> 01:11:07.999
+[Music]
+
+01:11:41.720 --> 01:11:44.080
+[Music]
+
+01:11:44.080 --> 01:11:46.880
+Coming up.
+
+01:11:51.450 --> 01:11:54.600
+[Music]
+
+01:12:02.570 --> 01:12:05.689
+[Music]
+
+01:12:07.920 --> 01:12:09.870
+It&#x27;s amazing.
+
+01:12:09.870 --> 01:12:12.930
+[Music]
+
+01:12:13.920 --> 01:12:16.080
+Thanks for
+
+01:12:16.080 --> 01:12:18.430
+telling Yes, we really
+
+01:12:18.430 --> 01:12:21.529
+[Music]
+
+01:12:33.320 --> 01:12:36.450
+[Music]
+
+01:12:48.880 --> 01:12:51.880
+Everyone
+
+01:13:25.360 --> 01:13:28.800
+[Music]
+
+01:13:28.800 --> 01:13:32.600
+talking to the wrong people.
+
+01:13:36.880 --> 01:13:41.560
+&gt;&gt; Uh, anyone else to talk to me?
+
+01:13:43.970 --> 01:13:47.009
+[Music]
+
+01:14:24.480 --> 01:14:27.760
+That was like 256
+
+01:14:27.760 --> 01:14:30.920
+years later.
+
+01:14:52.640 --> 01:14:57.480
+I worked in that last long time ago.
+
+01:15:00.080 --> 01:15:03.080
+What?
+
+01:15:08.960 --> 01:15:11.960
+&gt;&gt; Yeah.
+
+01:15:35.440 --> 01:15:38.760
+Love you.
+
+01:16:06.970 --> 01:16:10.089
+[Music]
+
+01:16:29.280 --> 01:16:32.440
+Good job.
+
+01:16:35.180 --> 01:16:38.319
+[Music]
+
+01:16:38.719 --> 01:16:41.880
+Thank you.
+
+01:17:38.330 --> 01:17:41.439
+[Music]
+
+01:17:50.880 --> 01:17:54.520
+I&#x27;ll take Yeah.
+
+01:18:10.800 --> 01:18:13.800
+Creation.
+
+01:18:14.880 --> 01:18:17.979
+[Music]
+
+01:19:00.719 --> 01:19:04.120
+Oh, it&#x27;s working.
+
+01:19:15.920 --> 01:19:18.920
+about
+
+01:19:27.450 --> 01:19:30.910
+[Music]
+
+01:19:42.660 --> 01:19:47.199
+[Music]
+
+01:19:47.440 --> 01:19:50.150
+become friends.
+
+01:19:50.150 --> 01:19:55.060
+[Music]
+
+01:19:55.600 --> 01:19:57.679
+Yeah, we&#x27;ve been at this office for a
+
+01:19:57.679 --> 01:20:01.880
+very long time and
+
+01:20:01.920 --> 01:20:05.120
+thank you so much.
+
+01:20:38.960 --> 01:20:42.159
+Hi, thank you to everyone who joined us.
+
+01:20:42.159 --> 01:20:44.239
+This was an amazing event. We are
+
+01:20:44.239 --> 01:20:47.360
+wrapping up. So, if you guys could just
+
+01:20:47.360 --> 01:20:49.760
+head to the exit. Elevators and
+
+01:20:49.760 --> 01:20:52.880
+staircases are right ahead. Bathrooms
+
+01:20:52.880 --> 01:20:55.360
+are all along the left wall. Thank you
+
+01:20:55.360 --> 01:20:58.600
+guys again.
+
+01:21:08.400 --> 01:21:11.830
+[Music]
+
+01:21:17.280 --> 01:21:20.280
+Oh
+
+01:21:21.360 --> 01:21:24.360
+my
+
+01:21:42.640 --> 01:21:45.640
+Sorry.
+
+01:21:50.400 --> 01:21:53.400
+petition.
+
+01:22:18.960 --> 01:22:20.800
+Yes.
+
+01:22:20.800 --> 01:22:23.690
+Okay.
+
+01:22:23.690 --> 01:22:42.400
+[Music]
+
+01:22:42.400 --> 01:22:44.719
+&gt;&gt; And
+
+01:22:44.719 --> 01:22:46.320
+&gt;&gt; hey Mike, you want to help?
+
+01:22:46.320 --> 01:22:47.280
+&gt;&gt; Oh, good.
+
+01:22:47.280 --> 01:22:52.280
+&gt;&gt; Yeah. Yeah. Yeah. I think I mean
+
+01:22:53.070 --> 01:22:55.199
+[Music]
+
+01:22:55.199 --> 01:23:00.360
+&gt;&gt; I didn&#x27;t need to be like mess
+
+01:23:01.520 --> 01:23:04.000
+and pulling this table to the front.
+
+01:23:04.000 --> 01:23:07.000
+&gt;&gt; Perfect.
+
+01:23:15.199 --> 01:23:17.520
+&gt;&gt; Yep. Um,
+
+01:23:17.520 --> 01:23:21.159
+Congress to the far
+
+01:23:37.679 --> 01:23:39.830
+&gt;&gt; is it all?
+
+01:23:39.830 --> 01:23:42.960
+[Music]
+
+01:23:47.920 --> 01:23:51.639
+Oh, that&#x27;s not
+
+01:24:23.679 --> 01:24:28.199
+I guess it&#x27;s true. That&#x27;s true.
+
+01:24:29.040 --> 01:24:32.040
+tattoo.
+
+01:24:32.710 --> 01:24:36.380
+[Music]
+
+01:25:11.280 --> 01:25:13.600
+I don&#x27;t
+

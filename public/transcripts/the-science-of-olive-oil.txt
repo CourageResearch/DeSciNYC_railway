@@ -1,0 +1,373 @@
+The Science of Olive Oil
+Beatrice Karp
+https://desci.nyc/transcripts/the-science-of-olive-oil
+
+Automatically generated transcript. May contain errors.
+
+[0:00] [Music] One, two. Okay, guys. We're going to get the left. Find your chair. All right. The noise. I hope not. Okay, we're just going to get started. So, if you're talking, just quiet down and we will um
+
+[0:48] um welcome to DIN NYC. Thank you for coming. Um we're going to talk a little bit about us. You can follow us on uh Twitter over here and Instagram over here. We have all our pictures that we put in from the event. Um and um like the next events that we're doing are also there.
+
+[1:25] Um, so at DI NYC, we've had over 10,000 people come to these different events, which has been really cool. Um, I it's amazing to see DIY grow um, both on the internet and uh, in New York. Uh, this is, I think, our 30th event that we've done. We've had everyone from Brian Johnson to Martin Skrey to the Queen of Olive Oil today. So, it's really exciting to see different types of science um get popular um with the help of crypto. So, here are some of the speakers we've had. Oh, and if people have ideas for speakers, um definitely let us know. Uh we're always looking for new speakers, and we're trying to increase the cadence slightly of the events. Right now, we do them like once
+
+[2:05] a month, but it would be wonderful to be able to do them uh maybe once or twice a month instead. Um here's the next one coming up. It's on nutrient transportation and cell metabolism. So the metabolism and circadian rhythm are both super fascinating things and um we found this uh Timothy D. Kenny who's a posttock at Rockefeller University to come give a talk on August 12th. So come check him out and if you want to sign up for that the RSVP is here. And then we have this one's really cool. Uh this one's embryo genome editing. Um so we had one talk
+
+[2:45] previously on this on super babies and super babies is where you are um selecting for certain embryos to get a certain outcome for the child but here and now you're able to edit those embryos. So you're not just uh selecting for embryos, you're actually starting to change change what they are. All right. So what is DIY? Does anyone here know what DIY is? decentralized science. Yeah, you go ahead. Say what I was saying. That's what I was going to say. Decentralized science. So when we say decentralized that maybe that it uses crypto or that it uses the blockchain. Um so we're we're talking about um this new it's
+
+[3:26] it's been around for maybe 3 or 4 years and uh it's basically a way to do science outside of a university setting. So what that means is instead of just like a research lab doing uh a research study, what's happening is people around the internet are contributing their data or contributing analysis or contributing um scientific thought and in exchange for that they're getting a reward. So uh there's this thing called citizen science and citizen science is where people just upload all their data for free and people surprisingly didn't unsurprisingly didn't weren't really excited about that. But when you actually change how the incentive structure works so that people are renumerated for their contributions, uh
+
+[4:08] you get you get science that can actually work and that has that align the incentives of sort of the general public with the people that are doing the work and are contributing the data. And by the way, if you guys could in the back uh be quiet in the back in the back in the back. You're not obviously not listening. Can you judge them guys? Can you be quiet? Sorry.
+
+[4:35] Okay. Um, so what this means is, um, right now science is being changed and it's being, uh, there's a lot of defunding going on. So this is like the new way of funding science. Okay. So you can do new types of things with this like you can do prediction markets using data. So how many people use poly market during the election? you you okay a lot of people and what was cool about it is that people were actually like incentivized to uh to do work and to figure out what was correct.
+
+[5:08] So it was a much more accurate representation of um of what was forecasting who was going to win the election. And what's really cool with decentralized science is you can do sort of the same thing with uh crypto. So what that means is like instead of just like putting your papers towards peer review, you can actually uh you can bet on which type of research is going to be interesting and useful. And so this is very very cool and this is like the new way in which science is going to be done. So one of the really cool things is uh as part of DINYC we've started this new um distributed sleep study to understand how people in New York sleep.
+
+[5:50] And uh already there's 3,000 people that are participating in this. So each night we're tracking 3,000 different people's sleep score and figuring out what is contributing to them sleeping well and what is contributing to them sleeping badly. And sleep is so important, right? Because like Brian Johnson says in terms of order of importance, sleep is the number one thing that you first can can try and solve and and optimize for and then after that you try and optimize for exercise. Exercise really is important.
+
+[6:21] Uh as of like a couple days ago, uh there was a research study that found that people with uh colon cancer when they had when they had when they exercised a lot, their mortality, their chance of dying went significantly down. So this was like a very interesting study. And then if you exercise, you can sort of uh optimize your food after that. But sleep is really important. So we really want to try and figure out can distributed science can desolve sleep. And uh this isn't sort of the first study. There's there's been hints of this type of thing working already.
+
+[6:51] So during the open AI drama, uh this sleep 8 CEO tweeted out that they found that people slept a lot worse um during the when Sam Walton was fired. And the way they did this is they looked at uh the people's sleep scores on their Sleep bed and found that their sleep quality decreased. Um, in a bit more of a ethical study, uh, the Whoop CEO, uh, they published a paper in Nature where they found that when you exercise close to bedtime, uh, you're able to, uh, you're able to, um, it decreases your sleep score. So, that that's pretty interesting also. But the point I'm trying to make here is that these wearables and sleep and distributed
+
+[7:31] science are able to come up with sort of these types of insights that maybe have been outside the scope of traditional academia right now. So, we built this uh app that allows people to track their sleep um using an Apple Watch, Garmin, we Whoop, or whatever, or if they just have a phone and no device at all. And so, we normalize. So, if you have a a score of like a n an 80 on your Whoop, but a 90 on your Garmin, it's really hard to compare those scores. So, we came up with a way to normalize all different data sets. And um we came up with this idea of like sleep to earn. So for every data point that you contribute to this sleep corpus and we hope to make this the largest sleep study in the entire world,
+
+[8:13] you earn equity in the data set. So you're given tokens in contribute in con in commiserate to how much useful data you contribute to the app to the data set. Um and there's leaderboards and tracking. It's almost like Dolingo meets Strava meets like Aura Ram. Um we have top sleepers. A lot of people here are already using the app. Um, and we've already found in this study that uh people who are eating close to bedtime uh like their sleep quality decreases by around uh 1.2 points for every hour that they are close every hour that they say
+
+[8:53] they ate next to their bedtime if that makes sense. And what's really cool about this is like we're generating this data set and it's open and many pe many different types of people can contribute to it and uh and can also analyze the data. So we're starting to start these small pilot studies around sleep around uh alcohol around eating around magnesium around mouth tape um around uh eye masks and starting these small end of one studies to figure out which types of interventions work well for which types of people. And this is very different because like in a traditional research study you have to like get a grant and get funding but here it's very bottom up and it's very
+
+[9:35] grassroots. Um ultimately I think the goal here is to create like a prediction market for life. So if you imagine um the Aura ring gives you a sleep score or a health score and you tied that to a prediction market, you could actually figure out like oh if I do this sort of intervention, what does the market determine uh how much time I will die? So you could scope out ahead of time if these types of things are good or bad.
+
+[10:00] Um, if you're interested in participating in this research study, um, we have the Apple version, the Android version, and if you're interested in working together with us, we're we're a team right now, a tight cohort, but we're also hiring pretty rapidly. So, if you're interested in working together on this, uh, there's a job application over there. Um, does anybody have any questions on decentralized science or sleep?
+
+[10:34] Yes, go ahead. You mentioned about 1.2 points. What does it You mentioned about 1.2 points. What does it really mean? The points, how are they calculated? I just want Yeah. So that's a great question is um coming up with an optimization for these types of things like how well someone slept is pretty hard, right? So if you I ask someone in the morning like how well did you sleep on a scale of 0 to 100 it's it's a little tricky like some days you might be feeling good some days you might be feeling bad. So we sort of based our score of from zero to 100
+
+[11:16] based on what we found to be sort of a a composite of a garment whoop um sleep numbers and a couple different apps. So we trained a model based on their data sets by having people wear a couple different things and then came up with a new score that's sort of a composite of those. So that's a we developed our own score of what we believe to be someone there a rating of how well people slept and then based on that score we then try and look to see how different types of interventions affect that score. Now I think that score could be wrong or could be changed or could be different depending on the type of person. For the sake of this here, for the sake of that
+
+[11:57] micro study, I would call it um we're assuming that score is right. But I think longer term there's going to be a lot of um research into figuring out what is the correct way to judge if someone slept well or not. Any other questions? Yeah. Tell us your sleep stack. My sleep stack is uh yeah is eating earlier, like crazy early, like 5:00, so I ate before I came here. Um sleeping in a cold room, sleeping with an eye mask, and sometimes taking magnesium, but I'm not really I'm still trying to figure out using this uh inter this thing to to figure out if it actually works or if it's just like a
+
+[12:37] placebo. Amazing. Okay. Well, without further ado, I am pleased to introduce Beatrice, who is going to uh she is the queen of New York City's olive oil scene. Um, uncontested and uh I'm pleased to introduce her to tell us about olive oil. [Applause] Hi everybody. Uh, thanks Mikey and Vai for having me. My name is Beatatric Park and I am building an olive oil company based on three observations that I made while I was working as an olive picker in Italy.
+
+[13:19] Um but so in this presentation I'll talk about how I got to an olive grove in the first place. um what it means to produce high quality olive oil and the science behind the soil and other common questions that people tend to have have when you uh approach olive oil not just as a thing to cook in but also a longevity tool and and the sorts. Uh then we'll do a Q&A and uh we will also have an olive oil.
+
+[13:52] Okay. So, how did I get to an olive grove in the first place? So, I went to Penn. I graduated in 2022. Um, and while I was there, I during uh undergrad, I knew I was going to be in cyber security. Um, so I took the liberty to have a liberal arts education. I studied science, technology, society, which was the history and the future of science. So, a lot of thinking about PhD side themes.
+
+[14:22] Um, and I think that really that was the study of of people and their decisions. So, not just of science, but actually like the organizations and the political affiliations that make up systems. Um, and that in tandem with my Buddhist studies really taught me that um, organizations aren't a black box that are unapproachable or unmenable. They're actually just a collection of people and what we make. and that is always up for grabs. Um I also studied engineering entrepreneurship and what I learned most from that is that I would never try to be an entrepreneur. Um and so the culmination of of those forces led me to
+
+[15:06] defer my job in cyber security and um like for a year at solo travel. So, I um took a back path and I um actually wanted to go to Southeast Asia. It fell through, but my dad is a chef and so I ended up connecting with uh one of his clients who had a farm in Italy and there I was. Um, the closest town was about a three-hour walk away, but I would go every day because there's really nothing else for me to do after I would water the uh flowers and give people olive oil tastings and um do wine
+
+[15:47] tours. And there were strangely a ton of shamans in this town and I lived in a yurt with them and we did yoga and then they told me that my energy was in alignment with the olive harvest which I thought was really interesting. So I ended up leaving Italy for other plans. Um but come the fall and come the harvest I I wanted to help some of the people who I had met pick their olives.
+
+[16:14] Um, I went on to an app called Work Away where you can um, work for a family and live with them for free room and board in exchange for a cultural immersion and learning a ecosystem and way of life. And so I became an olive picker for 3 months. I lived in people's vans and their barns. I'm quite obsessive. And so I became very obsessed with um, uh, how to make high quality olive oil. Um but really the reason why I'm doing this is because um the first observation that I made is that many smallcale uh either farms or just families who are
+
+[16:56] making olive oil for their own families uh but aren't selling it. They often have some left over that they want to share but they don't have the infrastructure or the resources to get it beyond their villages. It's difficult to do customs. It's difficult to do FDA. Um, and so a lot of olive oil was either going to waste or they were ceasing to cultivate much of their land because it's expensive to harvest. You need a lot of labor. Um, and you know there's really no point of cultivating the land if you know the oil is is going to waste anyway. Um the second observation that I made is that
+
+[17:36] um olive oil is unfortunately the most counterfeit food in the world. It's estimated that around 80% of what's on the US shelf is counterfeited either by cutting it with seed oils and dying it with chlorophyll or mislabeling it entirely. Um and and that is what I was observing. There was a specific instance where a farmer came over to our production and he said, "I'm getting a shipment of olives in from Tunisia and does anyone want to be in on that shipment?" And after he left, I said to the farmer like, "What does that mean?
+
+[18:13] He's an olive farmer. Why is he getting olives in from Tunisia?" And essentially, he had signed a contract to fulfill um a luxury olive oil company's um quota for the year. who was to provide the oil, but he didn't have the yield that year. So, what was he to do? So, he had signed the contract. He used the olive, so he was getting it in from Tunisia.
+
+[18:36] Um, and I'll talk about like a slew of issues that that come when you're sourcing olives from a different country. Uh, one of them being is that you really want to pick and press right away. Um, an olive is like a fruit. is coming off of a branch and you want to squeeze it immediately in order to capture the polyphenols and the antioxidants that make olive oil not just fat but highly healthy for you. Um also in that sort of context um typically when money is trying to be made in a production of that sort uh oftentimes they won't even hire labor to pick the olives. will just wait for the
+
+[19:17] olives to fall at the end of the season. By that point, they've acreded rainwater and worms and pesticides, then they're on a boat for many months um and and pressed in Italy and therefore you can say that it's made in Italy. And so I said to myself, if that's going to a luxury olive oil brand in Florence, then what's on the US shelf? Um, so this idea was birthed just by a series of observations. Um, I'm still actually like not even sure if it's a you know big company or headed in that direction or anything like that. Um, but I have since uh left cyber security and
+
+[19:58] uh have become an olive picker. Okay. So by a series of observations, um, what's going on here?
+
+[20:35] Yes. Okay. So, one of the first things that I observed um when I was trying to Google search how do I get a random farm in Tuscany FDA approved. Um, I realized that one of the main barriers, a highly significant barrier of why a small farmer is not able to sell his or her olive oil in the states is because when you Google search how to get FDA approved, what populates the results are thousands of options to pay a third party agency 20 to 40 to 50k just to get FDA approved. And at the time that was not an option for me for
+
+[21:15] my bootstrapped olive oil project. Um, so I just said I have to learn all the laws myself. And what I found is that as some of us can imagine, the UIUX experience for a government uh agency such as the FDA is just some of like the worst design to be worked with ever. Um, so if it was difficult for me to figure out, then how is a farmer who doesn't even really speak much English supposed to go through with this process? And so that's what I found is that a lot of them don't. And so I when I when I went back to Italy and I said, "I think I figured it out. I think we can do it."
+
+[21:52] The first thing that they said to me was, "We would love to do this, but we can't afford the FDA fine." So this is like a common like truism over there that they just think that that's how much it costs to be able to sell olive oil in America, which is an issue because America can account for 5% of US domestic demand for olive oil. So 5% can be provided by California, Georgia and other states. Um but the reality is that 95% of the olive oil that we consume is coming from Italy, Tunisia, Spain, Greece and other arid Mediterranean regions.
+
+[22:33] Um,
+
+[22:52] so okay. So, one thing that I like to highlight when you're sourcing olives or really any agriculture in particular, um, one of the main ways that this, um, industry works is that you are told, you know, when you're first entering the industry, much of what I heard, much of the advice that I received was to place an order from the same factory that most olive oil companies place their factories and work on the label, work on the marketing, make sure it looks beautiful. Come up with your taglines uh and and don't worry about where the olives are actually coming from. I had realized though previously that
+
+[23:33] unfortunately unless you're actually there picking the olives, there's really no way to guarantee um their quality. And so I speak about the spirit of adventure a lot and that most of the time I'm like pretty unsure where we're getting the olives from. I'm often on a wild goose chase around Tuskanyany with farmers. It's hot. You know, going into this year's harvest, um, I got a call from the main farmer that I had spent all summer getting FDA approved and he said, "So sorry, Bea, but there's just been a massive windstorm. We cannot uh provide the olives for, you know, your project.
+
+[24:12] We could, but a lot of them are smooshed, and that's probably not what you're going for." So, that was good news and bad news. It was good news because it's really honest farmer, but bad news was that there just weren't any olives. Um, and so we've sort of navigated that based on things like wind patterns and soil quality and essentially diversifying where we are growing olive. So right now we have two different regions in Tuscanyany. One is in Florence and one is in Sienna. Um and that is because like the angle of the sunlight that's hitting certain groves uh should be different because each village will
+
+[24:53] really um have a different harvest depending on specific factors such as that. Okay. But just to dive more deeply into what it's um what it's like and and what you should really be thinking about if you want to obsess over the highest quality olive oil that there is. The first one is where you're growing your olives. So we're growing our olives in Italy, which is exciting, and even more so Tuscanyany, which is fantastic for olive quality because that means that Tuscany is a very hilly area. So when you have hills, you have a natural
+
+[25:35] barrier that's blocking uh wind from the groves. And so as we had seen before in the harvest, wind is one of like the main enemies um of an olive early or later in its stage of production. So these hilly areas sort of protect the trees from from being passed through and and the olives are falling. Um in addition, Tuscanyany has a bural um like weather pattern and so it has very cool evenings and hot days and that is essential for the maturity of a polyphenol to to be like as healthy as
+
+[26:17] possible. So you can have a high polyphenol level, but the polyphenols themselves may not be as rich if this flip-flop of cool evenings and hot days um didn't grow them. Um and that's the same with very hot summers and cool winters. Another thing that's special about where we're growing is that we're growing in residential groves. Um, so we're only sourcing from farmers who are actually like growing olives in their backyard, which is very special because normally in large scale productions, you have groves that are, you know, they could be certified organic, but if they're an industrial area, then then
+
+[27:00] you risk um runoff from pesticides, not just via the soil, but also by air. Um, so where you grow is super important. Um, and olives are a really difficult plant to grow. It takes about 9 years for a tree to start fruing and then another 5 years for that fruit to start producing really flavorful, healthy olive oil. So when you hear about things like olive oil shortages or um you know high quality olive oil being hard to get, that's because the plant itself just grows under very specific conditions. So
+
+[27:43] you want fertile land, but you also want a dry place. And so that's sort of a weird combination, which is why we see olives coming out of California, Georgia, and then mainly desert or Mediterranean areas. If you think about grapes, for example, when you squeeze a grape, 75% of that liquid will turn into wine. On a good harvest, 5 to 15% of an olive will become oil. So, it's it's just, you know, it exists way less and there's actually more olive oil being sold in the world than amount of olives that could ever make that oil, unfortunately.
+
+[28:26] Um, okay. So, when you pick your olives is a really essential part of the journey. You want to have an early harvest. When you hear the term early harvest, it depends on the region, but in Tuscanyany that means early to mid October is when you're beginning to pick. And that is a direct tradeoff between quality and quantity. The longer you allow your olives to grow for, the more liquid that it accrrews inside of the olive. And so you will be able to extract more oil and sell more oil. But the oil that you are getting has less flavor and it has a smaller polyphenol content. By the way, polyphenols are the
+
+[29:08] antioxidant in olive oil that that makes it um anti-cancer, anti-liver disease and things like that. So we pick just as the olives are turning from green to purple. Um and and there are other factors. For example, California deals with irrigation issues and and droughts and water issues in a way that Tuscany may not. But Tuscany deals with the fly. So if your olives aren't quite ready, but the fly is out, your olives need to be ready. Um, and so various factors such as wind, rain, there can be too much
+
+[29:50] rain that year, there can be not enough rain that year, and you may have a later pick. That all depends on the timing, how we pick. So, when you're picking olives, you want to be as gentle as possible because when you think of a fruit, when a fruit cracks open, it's it's going to start rotting. You wouldn't want to make a juice out of like an apple that's, you know, cracked open and has been on the counter all day. But unfortunately, like that is what happens a lot with olive oil.
+
+[30:18] Um, but in order to to protect like a somewhat fragile fruit as olives, uh, you want to hand pick or use scrapers, which essentially like will comb the trees in a in an electronic way. uh they'll sort of like buzz and zoom through the trees and the olives will drop onto a net and then we manually um move the nets. We bring the nets into baskets and they're onto the next tree.
+
+[30:48] Unfortunately, what's like very common and and very efficient is using tractors. Just sort of like bulldoze through olive groves. They shake the trees, the olives will fall onto the um to the nets. often they will crack and then that will be um what makes the olive oil. So you just want to think as gently as possible um is how you want to handle olives. Um when you press olive oil is probably like my favorite indicator of quality that typically doesn't make it onto the label. Hopefully a label will indicate like extra virgin, whether it's organic,
+
+[31:30] um, and the harvest date so that you can know if it was an early harvest or not, which by the way will vary based on country. So like a Greek production will be later in the year than Italy. And even within Italy, southern regions will begin their harvest first and then um as early as like late September and then um and then Tuscanyany and then even further north. Um, but so when you press, so we press our olives twice a day, typically within two hours of picking the olives, which is really special. Typically, again, like when you're in a big large scale production
+
+[32:12] and you're trying to make money, you may wait until the end of the week or the end of the season or the end of the month to bring your olives to the frantoo or the the press. Uh, that's the Italian word for press. um because there's overhead costs associated with going to the press. So if you're um pressing twice a day, you're able to capture the polyphenols, again, the flavor. Um and you know, that's a little more expensive. You're using more fuel, you're taking away from labor, but that's one of the best indicators of knowing how uh fresh your olive oil is and how long the polyphenols will last.
+
+[32:53] Um, so we're getting a bit obsessive here, but um, but that's super fun. Um, okay. Um, so where we press. So when you're in Italy, uh, for the olive season, it's kind of like being in New York with apple picking. Um, everyone's at the press. There's hundreds and hundreds of families and people and people in the village going to the presses bringing their olives and um you know it's quite the scene. It's a cultural moment but that means that everyone else's olives will affect your olive oil because you can't clean the machine with soap. So what happens is if
+
+[33:34] you've treated your olives really well but your neighbor hasn't for example or if they said that it was organic but they're not. um that's all passing through the same machinery. Um so in my case, I go to a private press. Basically, the mayor of the village caught wind of this project and was very excited about it and wanted to set us up with someone who had like their own machinery. And so we know in that instance it's their olives and our olives and and no one else's.
+
+[34:08] Um okay. And then how you press is also a really important factor. So if you've seen um you know olden day imagery of olive oil making in Italy, you may see like the large stone grinders that sort of like spin in a circle and crush olives and the olives will like emit their juice that way. Um but a more modern way is using uh a mechanical machine or using a two-phase con system called continua which essentially means that you are able to extract the liquid without using excess water which again
+
+[34:50] water um in that instance will further along the oxidation process of the oil which then disrupts the the polyphenol count. Um, storing olive oil is also a really important factor. So, the enemy of olive oil is air and sunlight. So, you never want to store your olive oil near anything having to do with heat in a factory. You don't want to be near actually too close to the machinery because of the heat that it will emit.
+
+[35:24] Um, and you want to use like these thick, heavy, expensive stainless steel containers, um, which are hard to find, but that's what will protect the oil in the 2 days that you want to hold off from bottling so that some of the sediments can separate from um, from the oil and and not make it into the bottles. Um, so shipping is another really big uh factor for quality. So if you're dealing with um boats and shipping by sea, then a big concern is where your cargo is on
+
+[36:04] the boat because whether it's below the water line or above the water line will affect the heat of the olive oil and therefore the quality, how quickly it's arriving. Um, so we overnight air freight our olive oil so that people can try it like straight off the branch. So it's exciting that uh what the oil that you'll be trying tonight is about 5 months off of the branch. Typically by the time olive oil moves through the supply chain, it's already 1 to two years old once like it's marketed as fresh.
+
+[36:40] Um, so you can work all season to ensure that you know your machinery is clean and you're organic and you picked early, but really by the time it gets to people, it just may not be what it originally was anymore. Um, and then olive varietals. So, olive oil, a lot of people don't expect is really similar to like wine or grapes in that every single variety will make the oil tastes and feel a really different way. So, in the olive oil that you'll try today, it's made mainly with or the the filtered from Florence is
+
+[37:21] made mainly with rantoo and morio olives. So those olives are prized for their like grassy flavor, their high polyphenol count. Um so they're more expensive and actually a lot of the farmers laughed at me when I said like those are the olives that I wanted to use because they were like why would you we're going to charge you more for that and Americans really don't know the difference. Um but that's sort of you know the point of this and what I'm going for. every single varietal um has a different flavor and every varietal also has its role in the field. So in the olive oil industry, it's very trendy to have like a mono cultivar or using a
+
+[38:03] single type of olive in the oil. Um but that's actually not ideal for the grove. The grove wants um a a diverse amount of olives. For example, the pendolino olive is the cross-pollinator olive. So if one tree is struggling uh during the season, the pendolino olive will actually send nutrients through the wind to other trees. And so each varietal has a certain role in that regard. And in the um second olive oil that we have tonight, the unfiltered olive oil from
+
+[38:43] Sienna, that olive varietal. We mainly use Lucino. There's five other types, but the main one is Lucino, which is a very buttery olive oil. So, sometimes you have olive oils that have like a kick and you can really taste the polyphenols and the grassy flavor. Lucino is a buttery olive, so that's going to taste more like bread and butter. It may have a lower polyphenol count, but it honestly is also like very regional dependent. So, um, in the south of Italy, like that's going to naturally just produce more spicy, bitter flavors, whereas in Tuscany, you're going to get a fruity, um, grassy sort of olive oil.
+
+[39:26] Okay. And then the bottle. So, these bottles are very thick um, dark glass, and that's to pro protect from sunlight and also from heat. So, you don't definitely don't want a glass that's clear because the sunlight will oxidize the oil uh via the clear glass. Big no is plastic because olive oil is like a sponge, it's going to soak up its surroundings. So, if what's encasing the oil is plastic, that will then like take on a lot of its chemical um attributions unfortunately. And especially like if it's near heat, which would be typical while you're cooking,
+
+[40:08] that's when a lot of the um the fusion happens. Okay. So, if you're ever wondering like what is actually in my olive oil, can I trust the marketing, the marketing, etc., you can just ask the company for the lab test because the lab test is going to have two really important indicators about uh whether you know the claims about the oil are true. So the first one is the polyphenol count. Um it's like quite an expensive lab test to get when you're in
+
+[40:48] Italy to to know actually how many polyphenols you have in your oil and and exactly which types. But if a company like really is into the quality, they'll do that. So this year, uh, this olive oil had a polyphenol count of 494. Um, which is very high. If you're in the 2 to 400 range, that's typically considered a high polyphenol count. You also see companies that have like 1,000.
+
+[41:16] And that basically means they're not going for flavor at all. they're harvesting like way way earlier in the season. Um the olive oil won't become as fatty. It won't become as round. Like those are some characteristics that you probably would enjoy when you're cooking olive oil. So really depends on what you're after. Like if you just want the highest number possible, you could technically harvest in September and that may be more of like a shot rather than like a yummy thing to cook with. Um but again this even with a lab test could have some sorts of inflation scenarios because a lot of um productions will test their polyphenols
+
+[41:57] on their first day of harvest. So another question should ask would that you could ask if you're like really into this would be when did you actually take your test? So this test was taken on the last day of harvest which means that at minimum the oil has 494.174 polyphenols. Um but the first day you can expect to have a 30% uh increase in the number. Okay. And then the if you just scroll down the second really important um number is the acidity. So acidity is a direct reflection of how well the olives were treated. Acidity will measure the
+
+[42:39] chemical composition to the extent that the olives have broken open and begun their oxidation process early on. So to be characterized as extra virgin you need an acidity level below.8. Um and this year ours was 06. So that's really almost perfect. If it's zero, that means like the olives were being pressed as it was still on the tree. It's sort of impossible. Um but but anything below, you know, 06 is really low. Um and again, a lot of this labeling is that's like one of the main
+
+[43:21] reasons why counter like the counterfeit stat is so high for olive oils because it's just so common to say it's extra virgin and it's not. Um, another thing that will affects uh that will affect that number is how well it's passing through the fantoyo or the machinery. So if the uh stainless steel tanks are open that number will be higher just because of the air exposure. So like again that machinery that has these heavy vats that's really protecting the olives from the outside world as they crack open to release their oil. um is a is another big factor. Um so there's a lot of negative
+
+[44:05] rhetoric surrounding olive oil like oh it's so counterfeit this and that. Um but I actually have like a very positive outlook on where this industry may be headed. I think like the future of luxury and quality just is transparency and I think it like won't take long with where AI is right now with like image recognition and there's the apps right now that can look at the food to count the macros and know the calories just by a photo. Like I think the same thing will happen for things like olive oil or other food products where you'll just be able to read beyond the label or not need any
+
+[44:45] like marketing stories and just be able to know things like how long the oil was exposed to air for and things like that. Um people are sort of starting to make like at home test kits so you can just um basically be your own lab. Um these are, you know, some of the things that I think about. Um maybe they're further away than than I think, but um but yeah, that's the there's just sort of like this obsession with transparency at every step of the supply chain and and yeah, that would be a dream if if we
+
+[45:26] could just look at olive oil and and not really need to like believe anyone per se. Okay. Okay. So, um after olives are crushed, they turn into this like sandy material called nochiola in Italian. And that material, which is right here, um can be used for a variety of things. So, 95% of the polyphenols that are in an olive actually don't make it into the oil. they stay in this material. Um, and so
+
+[46:06] I've heard of people putting that in like their smoothies on their breakfast. Um, and when you think about skin care and skin cell rejuvenation or or hair care and and clean beauty, that's like a definitely a big front runner in that space. Um the photo on the left is an encounter that I had uh during the harvest this year which was that a farmer came over to myself and my friends and started crying and said I've never seen people this young be you know in the harvest.
+
+[46:41] He asked he also asked to take a photo of me cuz he'd never seen a chick picking olives but that's a different story. Um but basically Italy and a lot of different agricultural zones not just you know over there but also over here is facing an abandoned groves issue. So as younger generations urbanize and older generations phase out of manual labor, it's getting more and more difficult to find the people who are going to pick olives. And when a rural family isn't um you know experiencing that much demand and increasingly unstable weather patterns are making you know tools more expensive um there there
+
+[47:24] are now unfortunately a lot of growths that are going unkempt. So the entire purpose of what I'm trying to do is just redirect demand away from like big oil counterfeiting and to the people who like with demand will um will cultivate more of the land. It's a shame that olive groves are going like uncultivated just because like it's some of the healthiest soil in the world, but it's also like a biodiversity hazard for a grove to be unckempt.
+
+[47:56] A grove wants to be pruned in the springtime, cutting off of the branches to send energy like through the branches into the air for oxidation levels and helping the health of the ecosystem that way. It's also a biodiversity hazard for a grove to go unkempt. It'll essentially just keep growing and growing and growing and become this like really dry bush that can catch fire quite easily. So those are the issues I'm trying to solve.
+
+[48:28] Um can you go to the next slide? Thanks. Uh and then just one, this is actually the same slideshow that I use in other scenarios, but I guess I'll talk about this too. Um the logo of this brand olive oil is each bottle is hand um painted from each farmer. So each farmer has dipped their finger in half green, half purple. So the logo on each bottle appears as an olive but also a direct fingerprint. And uh next slide. Uh this was everybody who helped make the oil that we'll try tonight.
+
+[49:10] Okay. So if someone wants to help me pass around the trays or I'll just hand it to one person. Yeah. Okay. So, thanks. So, um this first type of olive oil is filtered olive oil. So, um the filtered olive oil has been um it's from it's from a farmer named Francesco. It's from Florence and it's made mainly with Frantoon Morio olives. Um, so I'll just walk you through like
+
+[49:51] the official way that a Somalia will try the olive oil and then be able to determine it was picked and pressed within 2 hours of harvest, if the machine was dirty, etc. So, what you want to do first, and it can seem like a little pretentious or silly, but it actually really does help you enjoy like the the quality of the olive oil really well. So, first you want to smell the oil.
+
+[50:16] Just give it a little sniff. Um, and then you want to heat up the oil in your hand. So, you go, you put the uh cup in one hand and you place the other hand and you sort of rub like this so that you can generate heat and that's how the oil will loosen and um help emit more of its flavors. Then you're going, it's sort of like wine. You're going to swish it around in your mouth, but before you swallow, you want to suck air through the oil. And that's what allows um the oil to airate in your mouth and really like release everything it has. So, I'll demonstrate.
+
+[50:57] Um you just sort of go like, and you want to do like five to 10 of those. So, in a in a room full of people, this gets really fun. Um, and there's a saying in Tuscanyany that says if the oil isn't making you cough, it's not fresh. So, a lot of the um, thanks. So, a lot of the um the polyphenols actually can be caught in your throat and and no worries if you cough. That's just a sign that it's really good. Wait, could you repeat the stuff again?
+
+[51:34] Yes. Okay. So, first we're going to smell it. Then you're going to take the cup and heat the oil up in your hand. Then you're going to swish it around in your mouth. But before you swallow it, you want to suck air through the oil. So I'll just demonstrate. Wait, can you do it again? Like actually. Yeah. Which part of it? The last part. Okay.
+
+[52:27] Sure. Thank you. Yeah. So, the burning is that coughing tingly flavor. That's that's the freshness. So that was that saying that the Tuscans are saying like you're not feeling some sort it should feel alive. You know, olive oil should never feel dull. It shouldn't be taking the backseat flavor of a meal. It should be the front runner. Like it should be it should feel like it's alive. Um okay. The second flavor of olive oil um is the unfiltered.
+
+[53:03] Thanks. So the unfiltered olive. So okay. So what is unfiltered olive oil? So basically in the US a lot of uh grocery stores will require that your oil is filtered so that you can elongate shelf life. Um filtration is also a mechanism used to mask the flavor of poorly treated olives. So if your olives, you know, have been treated with pesticides or they, you know, just oxidized early, um, a somalier will be able to taste that, but filtration will mask that treatment sort of flavor. Um,
+
+[53:44] but Giorgio and Alis, two of the farmers who are from Sienna, basically they gave me two rules. One was you won't use a plastic container to store the olive oil and the second was that you won't filter the olive oil because basically when you filter it you're also extracting a lot of the nutrients. Um so this actually has like a slightly cloudier consistency. It's thicker in texture. You can if you hold it up to your eye you can like see some of the sediments. And this olive oil was made mainly with leino olives. So that's that's the buttery one I was talking about. When you're cooking with olive
+
+[54:24] oil, you want to match the energy of the strength of the olive to the strength of the dish. So because the filtered olive oil was made with very strong olives that pairs better with like a roast or um or a meat, you know, like a a tomato sauce, a stronger dish. Whereas this is buttery, so it actually tastes like bread and butter when you pair it with a baguette. It goes well with white flaky fish, a sauté, something lighter. Um, but it's the same process uh to try this one as well.
+
+[55:02] So when you say filtration, it's like process, right? Good question. Thanks. I didn't describe that. So there's three different types of filtration. One is mechanical, which if you're really interested in quality, you wouldn't do, but again, less manual labor, so it's um often chosen. Or you have the option to either use a thick slab of cotton or paper. And essentially, the oil will pass through like various different slabs of either paper or cotton and just come out on the other side without the sediment. Um so
+
+[55:44] even in that scenario um even in that scenario you're still you know it's not perfect but you're extracting a lot of what otherwise in a year and a half time this bottle the square bottle will start to acrue a layer of sediment after like a year and a half and then it'll start climbing really quickly to the point where you wouldn't consume it anymore. So that's why there's only 450 bottles of of the unfiltered is because like this is my first year and it would be a real shame for oil to go to waste. Um but yeah, that's a great question.
+
+[56:22] Um, also Bea olive oil bea olive oil on Instagram if you guys are uh interested in following along in the in the journey because in September one of the farmers is coming to New York and leaving Italy for the first time and giving a big speech uh on his olive oil. So I'll be like posting about the events there. Uh I have bottles here tonight. Makes a great father's day gift etc. I always discount it in person. Uh, but really like I remain a resource for you guys. I live in uh downtown Manhattan and a lot of people will DM the Instagram account and ask questions about olive oil or they want to pick some up and I always offer
+
+[57:04] complimentary tastings in my apartment. So if anyone just wants to chat or talk olive oil, I'm here. And um yeah, does anyone else have any questions? You talked a lot about the people listen. You talked a lot about the the damage that can happen to the polyphenols in the process of getting here. Um are they damaged further when we might use them in cooking something? Um, or like do we
+
+[57:44] get more from using your olive oil in a salad, for example, than we would if we were cooking salmon or something? Cool. Thank you. So, yeah, that's a common question is like what's the smoke point of olive oil? Like at what point does it start smoking and the chemical composition is actually changed at that point? So, um, olive oil in a very high quality scenario has a smoke point of about 410 to 500 range. So, that's high. That's like avocado oil. But if it's low quality, if the olives were exposed to a
+
+[58:25] large amount of oxidation, that's a completely different scenario. Could be in the 300s. Um, however, I will say that like the whole like only use this olive oil for frying and only use this olive oil for drizzling is more of like a a marketing tactic. If anything else really that's code for this is high higher quality olive oil, so you should drizzle it and this one is not as high quality. Um, that being said, there is interesting research going on right now in Sweden. in the sky seems to think that heating up olive oil to a certain extent in combination with food uh
+
+[59:06] allows food to pass through your dig digestive tract uh more easily uh and therefore like the olives are able to like emit more of their nutrients in like a softer calmer way. I don't know if that's true. if I had to assume like you heat food up, you extract some of the nutrients, but like we do that with oatmeal, we do that with kale. It's just sort of something that um is a price you pay when you're using heat with cooking to some extent. Um but if it's a high quality olive oil, it's very safe to cook with. There's no such thing as only for frying, only for eggs
+
+[59:47] in Italy, with the exception that if you're using an oil from the south, again, that's like a that's a bitter um spicy olive oil. So, in that scenario, you actually may just want to drizzle with that. Um but but that's the only thing I I would really recommend. Thanks for the question, Michael. Come on. Come on. For this. Um, so the provenence of olive oil is fascinating. I was shocked to learn that 80% of the olive oil that are on shelves potentially in the US, maybe more comfort. Um, I know in Israel they found in Mada barrels that were in salt
+
+[1:00:28] containers that seen over 2,000 years old. They're able to grow I think they called the plantula an olive tree from a variety of olive that was probably extinct probably the same today and the Roman soldiers used to drink the olive oil. I mean such provenence but how do we verify or certify that the olive oil we're getting on the shelves? I mean is whole foods sufficient in doing its verification or you buy directly from you. What would you recommend? Like I mean it's not like an 80% potential to cut really cut other things but olive oil shock.
+
+[1:01:00] Yeah, it is shocking just because like if you are somewhat of a health person and like you're buying organic food but then you're cooking it in chemicals, like that's really not ideal. I think that if there's one ingredient to get right in your kitchen, it's the one that's touching every other food. And people have that mindset for wine. And a lot of the farmers talk about this.
+
+[1:01:23] They're like, you should market it as a a wine sort of thing because it's really no different except that with wine, you go through a bottle a night. Like that's four glasses. You're with other people, it's done. This sort of thing can last, you know, it'll last you a month, maybe more. Um, actually, that's only me. it'll last you more than a month. But um um so yeah, it's like why isn't it seen as more of like a high-end product, which is like pretty curious in terms of verification. Like as I said before, unless you're there, there's there's unfortunately not a way to guarantee it, which is why I just said like, okay, I'm
+
+[1:02:03] going to be there and pick and press and bottle and label and load myself alongside the farmers. And I am, by the way, also the truck driver. Like I cuz that is that can become an issue, too. So at 2:00 a.m. uh this past winter for many days in a row, I was at JFK back and forth unloading and unloading myself. Um cuz you know, but I'm obsessed with it. And so I would say the second layer down is just like know your farmer. If if there's someone who is doing that sort of thing that you trust, um then that's amazing.
+
+[1:02:39] Um, I would say I I I don't want to say this for certain because like I don't think it's so helpful for the industry, but in general, if it's a smaller production, like you are just able to control for many factors that a larger production can't. But like more so large versus small, I would just look like what's the motivation of this person? like does this person want to start a company to make a ton of money and they sat around a circle and like that's what they're doing and they're like the importer and they're, you know, pouring a ton of money into marketing or is this um yeah, just like what why is this person doing what they're doing is
+
+[1:03:19] something I think about a lot with food. And funny enough, when I'm in the grocery store, I actually like prefer products that are uh not beautiful or like you can tell like a good artist wasn't hired to make the label cuz it's just my way of knowing that maybe resources went elsewhere. Um but ask ask the brand for the lab test. Like if there's a price point that you're comfortable with and you think it tastes good, like I think it's worth an email.
+
+[1:03:48] Uh you by the way can send a sample to a to a lab like it just as I did with this oil. Um so uh University of Berkeley has a lot of research. I think so does Princeton on olive oil. Um so maybe there's labs in those areas. Um but yeah, it doesn't have to be a mystery. Like you can just get a lab result like that. Um, if the bottle has a harvest date, that's a big one. Uh, because then you know, okay, this person is like sort of attuned to timing.
+
+[1:04:23] Um, yeah, I I hope that helps. Is taste price a better quality? Interesting. Is taste or price more of a marker of quality? Uh well like if you have a refined palette then like go for it. I think um unfortunately like price is pretty congruent with quality like if you are able to make very high quality olive oil like you typically will charge a lot for it. I think that's just one of those products where like the more expensive it it is the better. But if you are also
+
+[1:05:05] like a Somalia or you take a course, uh you can know like how old the olive oil is just by the like slurping that we did. So hard to like pick one over the other. I guess it just depends who you are. But if if you're in the dark about how it should taste, then price would be a pretty good indicator. What are the most um for the FDA? What sorts of requirements or regulations are there?
+
+[1:05:41] Good question. So for FDA, um so the way that I'm doing this is I'm open sourcing the FDA approval process to any of the farmers who want to sell through me. But we've also done it for farmers who I've met and they're just like, can you help me with this? So the process in itself isn't as difficult once you know it. But I would say like the the initial demystifying is tough because if you want to import goods or foods into the US, you need a Dun's number. And you that number can take like 6 months to acquire. It's literally just like a social security number
+
+[1:06:21] before like imports and exports and that number is what you use to sign up to sign up to get an FDA number. So that right there I think just loses a lot of people. Um but the FDA number itself isn't difficult like as long as you have um a health inspector come sanitation people for who's doing the pressing. Uh so it's paperwork. So in that way it does feel daunting and it's just like the bureaucratic things that people don't really want to deal with. Um I would say beyond just FDA though there is um the organic certification the kosher certification. So kosher like a
+
+[1:07:02] rabbi has to be on site and and vouch for uh the oil. If it's organic then someone actually needs to come to the olive grove itself. So people ask me about the scalability of this and what's interesting is that for the FDA they care more about who is the last mild facility meaning who who touches the oil last which in our case is the bottler. So if the bottler is the same place as the press and multiple people in one village can use the same press then that is very scalable because you could you would just geographically then do that
+
+[1:07:43] from village to village. Um so yeah it the short answer is that it's actually mainly focused on who's pressing the olives and that's just like sanitation. Um, you also have to have what's called a um FSVP plan, which is more of a customsoriented um bureaucratic step. So like if they at random just halt you and say, you know, we find something suspicious about your oil, you have to have a plan that has like uh every step of traceability ready to present. Um, but it's not difficult.
+
+[1:08:23] It's just not something that like if you're a farmer and that's your world, you're going to do. What do you think of uh Costco olive oil and Brian Johnson's olive oil? Um, so Brian Johnson does not harvest his olives himself, so tough for him even to know what it is. And I will say that my acidity levels are better than his. Um, but no, I'm sure like I'm sure it's good olive oil. I'm sure it's better than most. And like the fun thing
+
+[1:09:04] about this industry is that if you are in it for the right reasons and you're making good olive oil and you're sourcing from the right people, then like you always help out other brands. like I know so many other olive oil founders in New York and we're actually like all friends cuz we sort of care about the same thing. So I'm sure his olive oil is great and better than Costco honestly.
+
+[1:09:28] Um Costco I don't know a ton about. Um we could do a lab analysis in another DI moment and see. Um but yeah, when I think of like mass production um and the amount of uh steps removed that that uh organization is from the branches like I personally wouldn't but but yeah not going to like speak to it without the facts either. Um I was wondering about scalability. Um, if I know you you said you were uncertain of, you know, the
+
+[1:10:09] scale, but if it were to become a bigger company, how would you manage disruption? Would you withhold, you know, have it a little bit more exclusive? I know the price point is, you know, going to filter out some people. Um, but if you do get to that point where you're going to need to produce much more, how will you combat that and and keep the quality? So we actually already have a waiting list of farmers in Tuscanyany who have heard about this um concept and they want to do it next year. So the hope is that demand will increase and we can
+
+[1:10:50] help more farmers sell their olives. Um, in terms of the the quality controls in those scenarios, like fortunately it's coming from groves where they are making olive oil for their own families and they have some left over to share. Um, so it's it's a nice control I would say because it's not like they're just going to like buy up more plots of lands and and and do weird things with it. Like it's just their backyards. Um, but the hope is that, you know, like I'm there at all of the harvest. If if there is a a year where it grows beyond that, um, then, you know, it it's really just
+
+[1:11:32] that like you're not getting someone who had this like intrinsic motivation to make money off of crops and that's the reason why they planted and that's how they've been treating their fields, etc. So, like this is something I feel really good about. Um and in terms of scaling also as I said like um it would be by like I'm trying to scale based on village and so one village in Sienna where like now the mayor is involved has actually like started making a list of people who want to do it next year and also in the fall we started mapping the surrounding abandoned groves. So, one thing that I
+
+[1:12:15] think about a lot is age. Like, if there's a farmer who is nearing the point where he or she like won't be able to do the manual labor and doesn't have anyone to take it over, I take that into account. But on the opposite end of the spectrum in Florence, I picked that farmer first because he's young. So, it's like you sort of want to keep that person in the scene, too, because how many like late 20 30 year old guys are like coming back to the groves and doing this? Not that many. So, I try to keep it diverse, but that's like one of the things that I think about.
+
+[1:12:47] Um, and and and it's quicker to scale like if we have multiple neighbors and just one place that we press because it means less regulation. So, just like the fewer the steps, the better. Thanks. I've heard that if you put it in the fridge, it some of it solidified, some of the olive oil. Is it an indicator of anything? Yes, that's a great point. One of the um one of the ways that you can test quality is that you can put it in the
+
+[1:13:27] refrigerator and if the oil does not harden, then that would be strange. Um but yeah, if you put it in the fridge and then you take it out, it also should melt again. So that's another one. Um yes. [Music] Can you tell a little bit more about that one we tasted? What re region is it from and I feel like it had a very distinctive flavor and how does the flavor change from different fragrances?
+
+[1:14:01] Thanks. So the first one um the first one is from Florence. So that's this round bottle. Um, and this grove is interesting because his gro his trees are organized by type of olive. So that's rare. Like in in the other guys's groves, they're like, "Yeah, I don't know. There's some here, some there, whatever. We don't really care." But in this one, his groves are highly organized. So, we were able to hand select exactly how we wanted that oil to taste because every day we would harvest a different plot of that grove um and just say we want 40% to be moriolo
+
+[1:14:43] olives, 40% fonttoyo, 10% leino, etc. If you have all morio and fonttoyo olives, like that's a very very coughing inducing like grassy olive oil. So, you still want to round it out with like some of the more buttery olives, even though you're going for like the grassy flavor. Um, what else can I say? Uh, again, like pairs really well with uh salads, meats, stronger flavors. Um, the notes are like artichoke, fruity, and grassy, whereas the second one is actually nutty. Like
+
+[1:15:23] that's what a Somalia says is that you're supposed to like experience those uh flavor notes. But yeah, the second one is from Sienna. Their groves are not organized. So we just, you know, do the whole harvest, put everything into the the press and then you what comes out is the oil. But we still know that like x% of his trees are that mainly most of his trees were liino probably like 50% and then like 30% funtoyo olives 10% minola etc. Um so it it's just like wild how different those taste. They're only those groves are only like an hour and a half away
+
+[1:16:04] from each other. So this is like a very concentrated region at this point. uh if you try olive oil from Tunisia, like I did that the first time a few weeks ago and I was like, "Wow, this is I've never tried anything like this before." So, it just goes to show like how so many environmental factors do affect the flavor. All right, last question. All right, both of you at the same time.
+
+[1:16:32] Thank you. Thank you so much. It was so insightful. Um my question is about the nutrition value of oil. You've mentioned about the antioxidants. Uh what are the other researches that you are aware of that helps you know to support the health and is there a limit of how much olive oil one should consume? All right. And you go too at the same time. Uh yeah. I just Is there something we should look for in store to make sure like the olive oil is like 100% olive oil and not like cut with other oils or something? Cool.
+
+[1:17:07] Okay. So question. Thank you. Yes. Okay. Um the question was about health. Okay. So a lot of um research about longevity with olive oil. So they say if you want to reap the benefits of that research that it would be two tablespoons a day. Hence the whole trend about like taking a shot of olive oil, which I don't do. I just sort of cook with it and I leave it at that. Um, but yeah, like heart disease disease, inflammation in the body, brain health, anti-cancer. This this is research that's just been like highly highly proven again and again. Uh, which they say is probably why um the Mediterranean
+
+[1:17:50] diet is is one of the best. So there's there's so much research out there. if you like Google or on our website there's more um but yes that that polyphenols and specifically olium canthol which is a type of antioxidant is is why it is viewed as gold in the health world and then in terms of knowing um I would say harvest date uh extra virgin and organic don't guarantee it but if it's not there like I would say that that's strange um And uh you want to know the product of the region and specifically in Europe like
+
+[1:18:30] you'd want a DOP which is like certified origin even more specifically than Europe. So like the more details they're willing to give up uh in the specifics I would say the better. Yeah. Thanks. Thanks so much. I'll stay if you guys want to ask more. Thank you. And feel free to come up and get a bottle purchase a bottle of olive oil after as well. So, and follow her on Instagram and what was it? FIA. Yeah, BEA olive oil. Thank you guys. All right. Thank you. Bye.
+
+[1:19:12] [Music] No, definitely.
+
+[1:19:34] really. [Music] Yeah, I'll take the [Music] um lower No. [Music] as [Music] well. And the
+
+[1:20:32] graph was going to ask
+
+[1:21:03] lower boundaries. myself.
+
+[1:21:31] [Music] Yeah.
+
+[1:21:45] Sorry, you have ideas.
+
+[1:22:07] [Music] [Music] Andrew [Music] Impressive work. impressive work. [Music]
+
+[1:23:01] [Music] [Music] I love [Music] I love olive oil.
+
+[1:23:43] [Music]
+
+[1:23:57] [Music] Sorry about What's the traffic? Okay.
+
+[1:24:51] Let's get a question.
+
+[1:25:04] [Music] [Music] Facebook.
+
+[1:25:31] So adorable.
+
+[1:25:45] [Music] Those are it. [Music]
+
+[1:26:15] YouTube
+
+[1:26:31] [Music]
+
+[1:26:48] time.
+
+[1:27:00] [Music] [Music]
+
+[1:27:27] [Music] [Music] I Oh, it was a bit of a
+
+[1:27:49] [Music] [Music] Yeah, like this. I broke the I broke the tripod. Yeah, it all it [Music] all but Oh, no. I think
+
+[1:28:46] [Music]
+
+[1:28:55] [Music] here I can look [Music] They [Music] have Yeah.
+
+[1:29:39] But when I personally
+
+[1:29:53] [Music]
+
+[1:30:03] [Applause] [Music]
+
+[1:30:20] Oh, I love [Music] [Music] Hey, I think you're on the way.
+
+[1:30:45] No, you guys can text now, but like
+
+[1:31:04] starters. Um, but now like I'm currently focused on like our
+
+[1:31:30] [Music] like okay. Thank you. That was awesome. [Music] [Music] Wait, I don't get the point. We [Music] [Music] got a good
+
+[1:32:49] [Music] [Music] And you're recording. Uh, you can leave it. It's fine. Thank you. Thanks for coming. July. Yeah. Yeah. I need a I need a bank of break. I've done way too many in a row. Well, it's been 30, but I've just done like three and a half weeks and I'm just like final speakers. Yeah, we skipped our first long. It's our first time we ever It just feels like it's been so long
+
+[1:33:41] now. This is really good. Yeah, you're going to be just like and also the studio science thing is requiring more attention. So, I need to I'm trying to find someone to run this or like distribute this and um but yeah, until until then, if you ever want we also want to do a hackathon. If you want to like do a hackathon together, I think that would be really fun.
+
+[1:34:07] Yeah, maybe we could like do a hackathon. If we could do like a hackathon at data works like hack it off of your like I want to do like a science hackathon instead of like a normal hackathon. You think so? Okay. But I But you have the connection. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Okay. Let's do it. I'm definitely not because we've wanted to be doing hackathon for like a really long and cuz it's like right now I feel it's going to keep a lot of people absorbing but it's no one creating right
+
+[1:34:48] and so like we need to start and um Yeah. [Music]
+
+[1:35:04] Yeah. On a data set of NYC open data and sleep data like weather data like genome like whatever whatever like an AI agent for science like I'm sure like there's a lot of uh Exploring data with an AI agent. Not really. So fun. You just like we don't even if you don't tell anything, you just like create a data set, make 10 plots for you, show me things that are actually interested.
+
+[1:35:37] Very cool. That is that is cool. I I have uploaded like a giant JSON or CSV and Yeah, it's cool. Cool. Perfect. All right. See you. Anything else?
+
+[1:36:09] [Music]
+
+[1:36:19] [Music] This is the US world. It's got to suck it up.
+
+[1:36:41] We're not [Music] I
+
+[1:37:11] [Music] mean, but then it just [Music] [Music] Um, I apologize. [Music] [Music]
+
+[1:38:10] [Music] You might have thought I would All [Music] right. It's okay. [Music] [Music] [Applause] [Music]
+
+[1:39:08] [Music]
+
+[1:39:26] Okay. [Music] like so many
+
+[1:40:01] [Music] Well, we [Music]
+
+[1:40:37] [Applause] um period of excitement. [Music]
+
+[1:41:02] [Music] [Applause] living it too. [Music]
+
+[1:41:27] Yeah. Are you so [Music] what? Oh, you can just put it in here. Yeah. Yeah. Oh, not the [Music] liquid. Okay, thanks for coming. Yes, of course. I had a couple questions.
+
+[1:42:16] Okay. Yeah. Yeah.
+
+[1:42:26] How long do you keep it
+
+[1:42:40] matter? No. So tastes better. It's like a fruit. So, it's going to change everything like slightly, but like it's over time, which means that every flavor less strong. Um, but yeah, once you open it,
+
+[1:43:20] [Music] And then another factor is [Music] really issue. So even if it's already because it'll reduce any Yeah, that's good to know. And I was literally like, "Oh my god." I had a plastic bottle, like a super old plastic bottle from that was like, "Oh my god, I [Music] need my [Music] Did you start getting start? Yeah, that's amazing. Now there's a huge breakfast. Yeah.
+
+[1:45:17] Yeah. I was going to say like how is it doing? I hear people talking.
+
+[1:45:41] [Music]
+
+[1:45:55] [Music] Yeah. girl.
+
+[1:46:13] [Music]
+
+[1:46:23] Sarah. Yeah, I just like started getting I went down the actual path instead of honestly kind of [Music] I just started I think a lot of I feel like a lot of people like oil. It's [Music]
+
+[1:47:20] like crazy. No, they're from the bar downstairs.
+
+[1:47:38] [Music] I feel like social media in general. I don't know. [Music] [Music] Now watch and it's like they're making more money because they're selling the product and they're making actual [Music] [Applause]
+
+[1:48:39] [Music] Okay. Where it's like
+
+[1:48:57] [Music]
+
+[1:49:08] Yeah, it's exciting. 10,000 [Music] You are And the flavor.

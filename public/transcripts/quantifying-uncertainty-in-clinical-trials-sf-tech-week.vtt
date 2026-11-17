@@ -1,0 +1,4574 @@
+WEBVTT
+
+00:00:10.880 --> 00:00:12.400
+Um, thank you guys all for coming
+
+00:00:12.400 --> 00:00:15.920
+tonight. Um, this is the first ever uh
+
+00:00:15.920 --> 00:00:17.440
+DSISF.
+
+00:00:17.440 --> 00:00:19.840
+So, I started this I started a club in
+
+00:00:19.840 --> 00:00:23.279
+uh New York called DIN NYC. And we&#x27;ve
+
+00:00:23.279 --> 00:00:24.960
+had lots and lots of speakers. We&#x27;ve had
+
+00:00:24.960 --> 00:00:26.960
+like Brian Johnson, we&#x27;ve had the
+
+00:00:26.960 --> 00:00:31.039
+enhanced games, we&#x27;ve had um gene
+
+00:00:31.039 --> 00:00:33.040
+editing, we&#x27;ve had things on super
+
+00:00:33.040 --> 00:00:35.280
+babies, we&#x27;ve had things on ketamine.
+
+00:00:35.280 --> 00:00:38.320
+And so we try and do like edgy science
+
+00:00:38.320 --> 00:00:41.520
+um that people find interesting. 99% of
+
+00:00:41.520 --> 00:00:43.520
+the time it&#x27;s other people who are uh
+
+00:00:43.520 --> 00:00:45.600
+who are giving the talk. Uh I don&#x27;t
+
+00:00:45.600 --> 00:00:47.120
+really give the talk, but I&#x27;m I am
+
+00:00:47.120 --> 00:00:49.280
+excited to give the talk uh this time in
+
+00:00:49.280 --> 00:00:52.079
+San Francisco. And we have some upcoming
+
+00:00:52.079 --> 00:00:53.760
+talks in San Francisco which are going
+
+00:00:53.760 --> 00:00:56.879
+to be exciting. We have one on uh dating
+
+00:00:56.879 --> 00:00:58.559
+who uh by a guy which is going to be
+
+00:00:58.559 --> 00:01:00.640
+fun. He&#x27;s like did he studied the
+
+00:01:00.640 --> 00:01:03.680
+science of dating and like uh what works
+
+00:01:03.680 --> 00:01:06.080
+and he take he takes a very very
+
+00:01:06.080 --> 00:01:08.640
+scientific almost sociological approach
+
+00:01:08.640 --> 00:01:11.920
+to it. Um and then we have another one
+
+00:01:11.920 --> 00:01:15.280
+on um uh the climate and we have one on
+
+00:01:15.280 --> 00:01:17.360
+quantum computing also. So it&#x27;s going to
+
+00:01:17.360 --> 00:01:20.000
+be an exciting uh couple months. Uh so
+
+00:01:20.000 --> 00:01:21.840
+and if anyone wants to speak or knows
+
+00:01:21.840 --> 00:01:23.040
+someone who is doing something
+
+00:01:23.040 --> 00:01:25.439
+interesting either as a professor or as
+
+00:01:25.439 --> 00:01:27.680
+a grad student in academia as something
+
+00:01:27.680 --> 00:01:30.000
+that&#x27;s interesting in the startup world
+
+00:01:30.000 --> 00:01:32.079
+uh I&#x27;ll give you my contact info at the
+
+00:01:32.079 --> 00:01:34.240
+end and you can feel free to uh reach
+
+00:01:34.240 --> 00:01:39.360
+out. Okay. So um uh this presentation is
+
+00:01:39.360 --> 00:01:41.200
+going to be on uh something called
+
+00:01:41.200 --> 00:01:45.200
+endpoint arena which is basically um a
+
+00:01:45.200 --> 00:01:46.880
+pro a progressive approach to
+
+00:01:46.880 --> 00:01:49.439
+understanding and quantifying uh
+
+00:01:49.439 --> 00:01:52.240
+uncertainty within clinical trials. So
+
+00:01:52.240 --> 00:01:54.799
+clinical trials are incredibly important
+
+00:01:54.799 --> 00:01:58.479
+um today because uh you know people are
+
+00:01:58.479 --> 00:02:01.280
+developing these drugs and um at the end
+
+00:02:01.280 --> 00:02:02.799
+of at the end of the day you have to
+
+00:02:02.799 --> 00:02:05.520
+test them in humans and this introduces
+
+00:02:05.520 --> 00:02:09.200
+a lot of uh problems because uh you know
+
+00:02:09.200 --> 00:02:11.440
+there&#x27;s there&#x27;s varying levels. There&#x27;s
+
+00:02:11.440 --> 00:02:12.879
+it could really hurt someone. It could
+
+00:02:12.879 --> 00:02:14.879
+really save someone. Uh could have a
+
+00:02:14.879 --> 00:02:17.040
+very bad side effect. Um, but they&#x27;re
+
+00:02:17.040 --> 00:02:18.560
+also very important because you could
+
+00:02:18.560 --> 00:02:20.239
+test something in a mouse or you could
+
+00:02:20.239 --> 00:02:23.040
+test something in a fly, but when you go
+
+00:02:23.040 --> 00:02:26.160
+up in order of magnitude in uh the
+
+00:02:26.160 --> 00:02:29.280
+complexity of the evolution of things,
+
+00:02:29.280 --> 00:02:31.040
+often times things don&#x27;t apply. So, you
+
+00:02:31.040 --> 00:02:33.200
+can make a bacteria live longer by
+
+00:02:33.200 --> 00:02:35.360
+knocking out a certain gene or you can
+
+00:02:35.360 --> 00:02:38.480
+make a mouse live longer by um
+
+00:02:38.480 --> 00:02:40.400
+restricting its calories, but these
+
+00:02:40.400 --> 00:02:42.400
+these changes when you when you do the
+
+00:02:42.400 --> 00:02:44.720
+same thing uh at a higher level don&#x27;t
+
+00:02:44.720 --> 00:02:47.760
+they don&#x27;t work. So the the uh until we
+
+00:02:47.760 --> 00:02:50.319
+can figure out how to perfectly model uh
+
+00:02:50.319 --> 00:02:52.800
+a human uh we&#x27;re going to need to keep
+
+00:02:52.800 --> 00:02:55.040
+trying to do we&#x27;re going to keep doing
+
+00:02:55.040 --> 00:02:58.160
+these clinical trials. Um but we we want
+
+00:02:58.160 --> 00:03:00.000
+to start making taking steps there
+
+00:03:00.000 --> 00:03:03.280
+towards um understanding uh you know the
+
+00:03:03.280 --> 00:03:05.760
+risks involved with it and and how both
+
+00:03:05.760 --> 00:03:08.319
+humans and AIs are able to quantify the
+
+00:03:08.319 --> 00:03:11.200
+risk associated with these.
+
+00:03:11.200 --> 00:03:14.080
+So this this is like a three-part um
+
+00:03:14.080 --> 00:03:17.440
+thing. So uh the first part is around uh
+
+00:03:17.440 --> 00:03:20.239
+like uh clinical trials and uncertainty.
+
+00:03:20.239 --> 00:03:22.560
+Um the next one is then we kind of go
+
+00:03:22.560 --> 00:03:25.200
+into using prediction markets to
+
+00:03:25.200 --> 00:03:27.920
+quantify uncertainty. So like in looking
+
+00:03:27.920 --> 00:03:30.400
+at um clinical trials through a
+
+00:03:30.400 --> 00:03:34.000
+financial lens. So I&#x27;m sure a lot of
+
+00:03:34.000 --> 00:03:38.720
+people here are familiar with um and
+
+00:03:38.720 --> 00:03:40.879
+poly market. Are you guys have you who
+
+00:03:40.879 --> 00:03:42.879
+who here has placed a bet on or poly
+
+00:03:42.879 --> 00:03:46.480
+market? I can&#x27;t see anything, but I&#x27;m
+
+00:03:46.480 --> 00:03:48.159
+just gonna Oh, it&#x27;s actually a lot.
+
+00:03:48.159 --> 00:03:50.480
+Okay, you guys are all gambling addicts.
+
+00:03:50.480 --> 00:03:52.000
+Um [laughter]
+
+00:03:52.000 --> 00:03:54.400
+um
+
+00:03:54.400 --> 00:03:56.000
+so
+
+00:03:56.000 --> 00:03:58.000
+um so then we&#x27;re going to look at it
+
+00:03:58.000 --> 00:04:00.000
+through the financial lens. Um then
+
+00:04:00.000 --> 00:04:01.599
+we&#x27;re going to say like, okay, this is
+
+00:04:01.599 --> 00:04:03.200
+really interesting through the financial
+
+00:04:03.200 --> 00:04:05.840
+lens. Uh how can we how can we add how
+
+00:04:05.840 --> 00:04:08.319
+can we not just uh take existing data?
+
+00:04:08.319 --> 00:04:10.000
+How can we add data to it and create
+
+00:04:10.000 --> 00:04:12.080
+better evidence with with more like
+
+00:04:12.080 --> 00:04:14.159
+instead of with the like instead of N of
+
+00:04:14.159 --> 00:04:16.000
+one tri how can we take a lot of N of
+
+00:04:16.000 --> 00:04:18.959
+one trials and add new data to give uh
+
+00:04:18.959 --> 00:04:20.639
+people more context on predicting
+
+00:04:20.639 --> 00:04:23.040
+clinical trial outcomes. And then lastly
+
+00:04:23.040 --> 00:04:25.199
+we&#x27;re going to talk about um these this
+
+00:04:25.199 --> 00:04:29.280
+idea of a gym. So um AIs are you know as
+
+00:04:29.280 --> 00:04:31.840
+AI the AIs are sort of very close to
+
+00:04:31.840 --> 00:04:34.800
+becoming uh recursively self-improving
+
+00:04:34.800 --> 00:04:37.040
+and the models are just going to grow
+
+00:04:37.040 --> 00:04:39.440
+and get smarter but they only grow and
+
+00:04:39.440 --> 00:04:41.520
+get smarter within sort of the confines
+
+00:04:41.520 --> 00:04:43.840
+of the quest of the gyms and the
+
+00:04:43.840 --> 00:04:47.360
+environments that we give them. So for a
+
+00:04:47.360 --> 00:04:49.840
+lot of things like terminal bench,
+
+00:04:49.840 --> 00:04:52.960
+humanities last exam, agents last exam,
+
+00:04:52.960 --> 00:04:56.160
+they&#x27;re already uh uh GDP bench, they&#x27;re
+
+00:04:56.160 --> 00:04:57.600
+already very much they&#x27;re already
+
+00:04:57.600 --> 00:04:59.680
+saturating a lot of these um these
+
+00:04:59.680 --> 00:05:03.199
+benchmarks because um you know their AI
+
+00:05:03.199 --> 00:05:05.520
+is getting very good. And so at the end
+
+00:05:05.520 --> 00:05:08.560
+I&#x27;m going to propose um probably a new
+
+00:05:08.560 --> 00:05:11.120
+benchmark called endpoint bench which
+
+00:05:11.120 --> 00:05:12.800
+will basically be like the clinical
+
+00:05:12.800 --> 00:05:17.440
+trial benchmark to allow AI agents to um
+
+00:05:17.440 --> 00:05:20.960
+use science as a way to ask new types of
+
+00:05:20.960 --> 00:05:22.720
+questions and it has a very good
+
+00:05:22.720 --> 00:05:25.199
+property clinical trial ben uh endpoint
+
+00:05:25.199 --> 00:05:27.680
+bench in that um a lot of problems with
+
+00:05:27.680 --> 00:05:29.840
+clinical with these benchmarks is they
+
+00:05:29.840 --> 00:05:32.320
+become saturated and people and AI
+
+00:05:32.320 --> 00:05:34.400
+agents sort of tend to benchmark max
+
+00:05:34.400 --> 00:05:36.240
+which means like you train on the data,
+
+00:05:36.240 --> 00:05:38.000
+you learn the questions, you learn how
+
+00:05:38.000 --> 00:05:40.400
+to answer the questions and it no longer
+
+00:05:40.400 --> 00:05:42.960
+becomes an accurate representation of uh
+
+00:05:42.960 --> 00:05:44.400
+is the agent actually getting smarter
+
+00:05:44.400 --> 00:05:45.440
+because there&#x27;s a lot of like
+
+00:05:45.440 --> 00:05:47.440
+memorization going on. But with a
+
+00:05:47.440 --> 00:05:49.280
+clinical trial, what&#x27;s so great is that
+
+00:05:49.280 --> 00:05:51.280
+you always you there&#x27;s 7,000 clinical
+
+00:05:51.280 --> 00:05:53.759
+trials a year. So uh there&#x27;s you&#x27;re
+
+00:05:53.759 --> 00:05:55.440
+going to have lots and lots of new
+
+00:05:55.440 --> 00:05:58.240
+pristine evergreen data that that like
+
+00:05:58.240 --> 00:06:00.080
+gives them these agents new things to
+
+00:06:00.080 --> 00:06:02.479
+train on all the time. So that&#x27;s very
+
+00:06:02.479 --> 00:06:04.160
+exciting. So that&#x27;s kind of the outline
+
+00:06:04.160 --> 00:06:07.280
+of the talk. Um so just to give like a
+
+00:06:07.280 --> 00:06:08.960
+brief overview here is like for people
+
+00:06:08.960 --> 00:06:10.960
+that don&#x27;t that for this is your first
+
+00:06:10.960 --> 00:06:13.840
+try time uh understanding what a
+
+00:06:13.840 --> 00:06:16.080
+clinical trial is. There&#x27;s basically um
+
+00:06:16.080 --> 00:06:19.280
+the FDA regulates this and there&#x27;s like
+
+00:06:19.280 --> 00:06:22.720
+four important um components to it. Um
+
+00:06:22.720 --> 00:06:24.479
+there are three there&#x27;s three or four.
+
+00:06:24.479 --> 00:06:26.720
+The first is uh phase one and this is
+
+00:06:26.720 --> 00:06:28.000
+where you&#x27;re trying to figure out the
+
+00:06:28.000 --> 00:06:30.160
+right dosing. So dosing is very
+
+00:06:30.160 --> 00:06:32.800
+important and like the um and if it&#x27;s
+
+00:06:32.800 --> 00:06:33.759
+going to hurt you is very important.
+
+00:06:33.759 --> 00:06:34.880
+Like the first thing you want to do is
+
+00:06:34.880 --> 00:06:36.000
+make sure that you&#x27;re not going to have
+
+00:06:36.000 --> 00:06:38.639
+any adverse side effects. Um in phase
+
+00:06:38.639 --> 00:06:41.039
+two uh it&#x27;s they&#x27;re looking for efficacy
+
+00:06:41.039 --> 00:06:42.960
+which means like does this thing work?
+
+00:06:42.960 --> 00:06:44.560
+Uh does it do the thing it&#x27;s supposed to
+
+00:06:44.560 --> 00:06:46.319
+do. So phase two is very tricky because
+
+00:06:46.319 --> 00:06:47.680
+that&#x27;s actually you know you can give
+
+00:06:47.680 --> 00:06:49.680
+anyone anything but uh it won&#x27;t harm
+
+00:06:49.680 --> 00:06:52.080
+them but does it working is much harder.
+
+00:06:52.080 --> 00:06:53.919
+And then at a high and there&#x27;s also
+
+00:06:53.919 --> 00:06:56.560
+phase a there&#x27;s phase 1 a phase one two.
+
+00:06:56.560 --> 00:06:59.280
+So this is just like a uh a high level
+
+00:06:59.280 --> 00:07:00.880
+overview, but there&#x27;s there&#x27;s a lot of
+
+00:07:00.880 --> 00:07:02.720
+books on on there&#x27;s a lot of you could
+
+00:07:02.720 --> 00:07:04.560
+read up on you could you could do a
+
+00:07:04.560 --> 00:07:06.240
+whole research topic on this and still
+
+00:07:06.240 --> 00:07:08.960
+want to understand it. Um and then phase
+
+00:07:08.960 --> 00:07:10.960
+three is sort of how the it&#x27;s like a
+
+00:07:10.960 --> 00:07:12.639
+combination of phase one, phase two, and
+
+00:07:12.639 --> 00:07:14.560
+then how it compares to like the gold
+
+00:07:14.560 --> 00:07:16.319
+standard. So like you could have a new
+
+00:07:16.319 --> 00:07:18.000
+drug, but if it&#x27;s worse or introduces
+
+00:07:18.000 --> 00:07:20.000
+new side effects or doesn&#x27;t have any uh
+
+00:07:20.000 --> 00:07:22.080
+incremental benefits, then that&#x27;s not
+
+00:07:22.080 --> 00:07:24.560
+really great. Um and then phase four is
+
+00:07:24.560 --> 00:07:27.039
+sort of like the longer term. Okay. So,
+
+00:07:27.039 --> 00:07:28.960
+um this is sort of how this is sort of
+
+00:07:28.960 --> 00:07:30.720
+how these these different cases work.
+
+00:07:30.720 --> 00:07:33.599
+And why that&#x27;s important is because um
+
+00:07:33.599 --> 00:07:35.360
+what I really like about clinical trials
+
+00:07:35.360 --> 00:07:37.120
+is that like there&#x27;s a lot of people who
+
+00:07:37.120 --> 00:07:39.360
+are doing pseudocience out there and the
+
+00:07:39.360 --> 00:07:41.520
+FDA is pretty good at what they do. And
+
+00:07:41.520 --> 00:07:43.440
+so what that means is they&#x27;re making
+
+00:07:43.440 --> 00:07:45.360
+sure everything is um they&#x27;re making
+
+00:07:45.360 --> 00:07:46.639
+sure everything is legit. There&#x27;s no
+
+00:07:46.639 --> 00:07:50.240
+charlatans uh coming about. And um
+
+00:07:50.240 --> 00:07:52.319
+they&#x27;re also they got these big drug
+
+00:07:52.319 --> 00:07:53.759
+companies that are doing a lot of work
+
+00:07:53.759 --> 00:07:55.680
+recruiting all these different patients
+
+00:07:55.680 --> 00:07:59.520
+and these um uh CR these these uh CRO
+
+00:07:59.520 --> 00:08:01.360
+who who are helping to conduct these
+
+00:08:01.360 --> 00:08:04.160
+studies. So um this is like a really
+
+00:08:04.160 --> 00:08:05.520
+good data set and the other thing that&#x27;s
+
+00:08:05.520 --> 00:08:07.039
+great about it is there&#x27;s like a binary
+
+00:08:07.039 --> 00:08:09.440
+outcome at the end of this. So this
+
+00:08:09.440 --> 00:08:12.319
+makes this like a very good um test bed
+
+00:08:12.319 --> 00:08:15.120
+to be able to do uh clinical to do do
+
+00:08:15.120 --> 00:08:16.960
+prediction markets and to do training
+
+00:08:16.960 --> 00:08:21.840
+for um for training for AIS. Um
+
+00:08:21.840 --> 00:08:24.160
+so that&#x27;s that&#x27;s great.
+
+00:08:24.160 --> 00:08:28.319
+Um and um so uh the other thing that&#x27;s
+
+00:08:28.319 --> 00:08:30.560
+good is about a clinical trial is that
+
+00:08:30.560 --> 00:08:32.320
+if you&#x27;ve ever done like a uh like a
+
+00:08:32.320 --> 00:08:33.919
+research project, sometimes you might
+
+00:08:33.919 --> 00:08:36.320
+change the change the project as you go
+
+00:08:36.320 --> 00:08:37.919
+along or you might change your
+
+00:08:37.919 --> 00:08:40.399
+hypothesis. But with a clinical trial,
+
+00:08:40.399 --> 00:08:42.080
+you have to like pre-register your
+
+00:08:42.080 --> 00:08:44.320
+hypothesis before you start or do
+
+00:08:44.320 --> 00:08:47.200
+anything. And so you can&#x27;t change it and
+
+00:08:47.200 --> 00:08:48.800
+you have to stick to your plan for the
+
+00:08:48.800 --> 00:08:51.440
+most part. Um and the FDA sort of
+
+00:08:51.440 --> 00:08:52.720
+watches over this. still you can change
+
+00:08:52.720 --> 00:08:55.360
+it but it&#x27;s a little bit harder.
+
+00:08:55.360 --> 00:08:58.720
+Um so why why is understanding
+
+00:08:58.720 --> 00:09:01.360
+um risk associated with clinical trials
+
+00:09:01.360 --> 00:09:03.600
+so important? Um how many people here
+
+00:09:03.600 --> 00:09:04.480
+have you seen the movie when we
+
+00:09:04.480 --> 00:09:07.120
+Moneyball a lot of times people were
+
+00:09:07.120 --> 00:09:09.200
+like you know like before before this
+
+00:09:09.200 --> 00:09:10.399
+came along before they were using
+
+00:09:10.399 --> 00:09:12.480
+statistics people were just sort of like
+
+00:09:12.480 --> 00:09:15.200
+going along um with how they felt. So
+
+00:09:15.200 --> 00:09:16.640
+you could have someone at a big drug
+
+00:09:16.640 --> 00:09:19.120
+company just like, &quot;Oh, I feel this drug
+
+00:09:19.120 --> 00:09:20.959
+is going to be successful.&quot; You know,
+
+00:09:20.959 --> 00:09:22.320
+they&#x27;re not using any sort of like
+
+00:09:22.320 --> 00:09:24.959
+metrics or any hard science. Um they&#x27;re
+
+00:09:24.959 --> 00:09:27.120
+just kind of like doing it by feel.
+
+00:09:27.120 --> 00:09:29.600
+Whereas like the the method, you know,
+
+00:09:29.600 --> 00:09:32.880
+it uses uh you know, numbers and uh
+
+00:09:32.880 --> 00:09:34.640
+statistics to be able to predict which
+
+00:09:34.640 --> 00:09:38.160
+clinical trials is important. So um you
+
+00:09:38.160 --> 00:09:39.920
+know understanding this uncertainty
+
+00:09:39.920 --> 00:09:40.800
+around these things is very important
+
+00:09:40.800 --> 00:09:42.080
+because clinical trials could cost
+
+00:09:42.080 --> 00:09:44.160
+anywhere from like 10 to like a hundred
+
+00:09:44.160 --> 00:09:46.240
+million dollars in order to to run a
+
+00:09:46.240 --> 00:09:48.000
+trial. So you have to recruit patients
+
+00:09:48.000 --> 00:09:49.920
+which is very expensive and you also
+
+00:09:49.920 --> 00:09:52.640
+have to pay for their um for their
+
+00:09:52.640 --> 00:09:55.279
+treatment which is also very expensive.
+
+00:09:55.279 --> 00:09:59.120
+Um it&#x27;s also being able to understand uh
+
+00:09:59.120 --> 00:10:01.360
+proactively if a clinical trial is going
+
+00:10:01.360 --> 00:10:03.600
+to be successful helps clinicians
+
+00:10:03.600 --> 00:10:05.920
+determine which types of uh trials they
+
+00:10:05.920 --> 00:10:07.920
+might want to enroll patients in. So if
+
+00:10:07.920 --> 00:10:10.160
+you know early on that a trial isn&#x27;t
+
+00:10:10.160 --> 00:10:11.760
+going to be good, you as a clinician
+
+00:10:11.760 --> 00:10:13.360
+might not want to enroll that person in
+
+00:10:13.360 --> 00:10:17.040
+that trial. or as people are um doing
+
+00:10:17.040 --> 00:10:19.440
+more uh becoming more active in their
+
+00:10:19.440 --> 00:10:21.519
+own healthcare, you might want to know
+
+00:10:21.519 --> 00:10:23.040
+before you enroll in a trial, you might
+
+00:10:23.040 --> 00:10:26.240
+not want to blindly trust if a uh if you
+
+00:10:26.240 --> 00:10:28.320
+might want to know like beforehand how
+
+00:10:28.320 --> 00:10:30.079
+likely a clinical trial is to work
+
+00:10:30.079 --> 00:10:32.399
+because I&#x27;ve seen a lot of patients
+
+00:10:32.399 --> 00:10:34.560
+being overly optimistic around if a
+
+00:10:34.560 --> 00:10:36.320
+clinical trial is going to work, but in
+
+00:10:36.320 --> 00:10:38.399
+fact, they&#x27;re much more closer to like a
+
+00:10:38.399 --> 00:10:40.560
+lab in an experiment and the likelihood
+
+00:10:40.560 --> 00:10:41.680
+that some of these things is going to
+
+00:10:41.680 --> 00:10:46.320
+work is pretty slim. Um uh so it allows
+
+00:10:46.320 --> 00:10:48.160
+it also if you can understand the risk
+
+00:10:48.160 --> 00:10:49.680
+associated with these you could price
+
+00:10:49.680 --> 00:10:53.040
+them these clinical trials to allow uh
+
+00:10:53.040 --> 00:10:55.200
+to people to get get insurance on if a
+
+00:10:55.200 --> 00:10:56.880
+clinical trial is going to work and this
+
+00:10:56.880 --> 00:10:59.680
+is good this could be good for um uh
+
+00:10:59.680 --> 00:11:01.519
+forecasting how much you can spend on
+
+00:11:01.519 --> 00:11:03.279
+each trial or how many trials you can do
+
+00:11:03.279 --> 00:11:05.120
+simultaneously
+
+00:11:05.120 --> 00:11:07.600
+um and then lastly you know you can use
+
+00:11:07.600 --> 00:11:10.079
+it as a training environment for AIS so
+
+00:11:10.079 --> 00:11:11.760
+this is why it&#x27;s very important to know
+
+00:11:11.760 --> 00:11:13.760
+sort of the how likely a clinical trial
+
+00:11:13.760 --> 00:11:17.040
+is to to succeed. So what is one
+
+00:11:17.040 --> 00:11:20.079
+possible way to do that is to use uh a
+
+00:11:20.079 --> 00:11:22.000
+thing called like a prediction market.
+
+00:11:22.000 --> 00:11:24.880
+So a prediction market basically allows
+
+00:11:24.880 --> 00:11:27.760
+people to bet based on how confidently
+
+00:11:27.760 --> 00:11:31.360
+confident they are uh in a in something.
+
+00:11:31.360 --> 00:11:35.519
+So in if you look at like a normal uh
+
+00:11:35.519 --> 00:11:36.880
+something let&#x27;s see let&#x27;s take a good
+
+00:11:36.880 --> 00:11:39.839
+example. If you look at like um you know
+
+00:11:39.839 --> 00:11:41.279
+if I ask people like what is your
+
+00:11:41.279 --> 00:11:42.720
+favorite ice cream people could raise
+
+00:11:42.720 --> 00:11:44.640
+their hand and but you have no skin in
+
+00:11:44.640 --> 00:11:46.240
+the game right so but when you have a
+
+00:11:46.240 --> 00:11:48.399
+prediction market what happens is you
+
+00:11:48.399 --> 00:11:50.640
+are incentivized to do a lot more
+
+00:11:50.640 --> 00:11:52.640
+research because you&#x27;re actually betting
+
+00:11:52.640 --> 00:11:55.040
+money so you personally will earn money
+
+00:11:55.040 --> 00:11:57.839
+if you are correct and you will you will
+
+00:11:57.839 --> 00:12:00.480
+lose money if you&#x27;re wrong and then also
+
+00:12:00.480 --> 00:12:02.320
+if you&#x27;re more confident in something
+
+00:12:02.320 --> 00:12:03.920
+you will bet more money and if you&#x27;re
+
+00:12:03.920 --> 00:12:05.920
+less confident in something you will bet
+
+00:12:05.920 --> 00:12:08.639
+zero money. So, it&#x27;s a very good uh
+
+00:12:08.639 --> 00:12:11.839
+aggregator of information in determining
+
+00:12:11.839 --> 00:12:13.839
+if uh you know what is what is going to
+
+00:12:13.839 --> 00:12:16.560
+work and it incentivizes people to do uh
+
+00:12:16.560 --> 00:12:18.639
+very deep research because they&#x27;re they
+
+00:12:18.639 --> 00:12:20.720
+have a they have a monetary incentive to
+
+00:12:20.720 --> 00:12:22.399
+do it. You know, you could compare and
+
+00:12:22.399 --> 00:12:25.040
+contrast this with um how the journal
+
+00:12:25.040 --> 00:12:27.760
+system is today. So, uh if you&#x27;ve ever
+
+00:12:27.760 --> 00:12:29.680
+like submitted a paper for peer review
+
+00:12:29.680 --> 00:12:32.320
+or you&#x27;ve uh you&#x27;ve reviewed a paper for
+
+00:12:32.320 --> 00:12:34.399
+peer review, uh the reviewers aren&#x27;t
+
+00:12:34.399 --> 00:12:36.800
+paid. So oftentimes what happens is they
+
+00:12:36.800 --> 00:12:38.959
+will just sort of uh gloss over
+
+00:12:38.959 --> 00:12:40.959
+something but you could imagine another
+
+00:12:40.959 --> 00:12:43.040
+type of system where if they&#x27;re correct
+
+00:12:43.040 --> 00:12:45.839
+in estimating like how many citations a
+
+00:12:45.839 --> 00:12:47.920
+paper to get they would earn more money.
+
+00:12:47.920 --> 00:12:49.519
+So they said oh this paper&#x27;s really good
+
+00:12:49.519 --> 00:12:52.000
+and if it gets 10 if it gets 100
+
+00:12:52.000 --> 00:12:54.399
+citations within 3 years I&#x27;m going to
+
+00:12:54.399 --> 00:12:56.079
+earn a payout and I&#x27;m going to stake
+
+00:12:56.079 --> 00:12:59.279
+five $500 on that. um they might be much
+
+00:12:59.279 --> 00:13:01.760
+more careful about uh if if they accept
+
+00:13:01.760 --> 00:13:03.680
+or reject a paper because now they have
+
+00:13:03.680 --> 00:13:05.839
+an incentive to actually do a good job
+
+00:13:05.839 --> 00:13:07.200
+whereas the current system sort of
+
+00:13:07.200 --> 00:13:09.760
+doesn&#x27;t really incentivize that.
+
+00:13:09.760 --> 00:13:14.600
+Um is there any questions by the way?
+
+00:13:14.720 --> 00:13:19.120
+&gt;&gt; Oh yeah, go ahead. So is there current
+
+00:13:19.120 --> 00:13:21.360
+talks or is the goal to get CFTC
+
+00:13:21.360 --> 00:13:22.959
+regulated in the future? I know
+
+00:13:22.959 --> 00:13:26.240
+currently that it&#x27;s currently not the
+
+00:13:26.240 --> 00:13:28.240
+case but is that
+
+00:13:28.240 --> 00:13:30.560
+&gt;&gt; uh well this is outside the US right now
+
+00:13:30.560 --> 00:13:33.680
+so uh people you you can&#x27;t do it with an
+
+00:13:33.680 --> 00:13:36.959
+IP address within the US and uh perhaps
+
+00:13:36.959 --> 00:13:39.279
+in the future we will do like CFTC
+
+00:13:39.279 --> 00:13:42.680
+things for sure.
+
+00:13:43.360 --> 00:13:44.240
+&gt;&gt; Yeah. Go ahead.
+
+00:13:44.240 --> 00:13:45.839
+&gt;&gt; So who are trading these? These are
+
+00:13:45.839 --> 00:13:48.000
+traders or these are bots or these are
+
+00:13:48.000 --> 00:13:50.320
+&gt;&gt; Yeah. So, it&#x27;s it&#x27;s basically like 30%
+
+00:13:50.320 --> 00:13:53.760
+humans and like uh 70% AI agents that
+
+00:13:53.760 --> 00:13:55.680
+are trained.
+
+00:13:55.680 --> 00:13:57.519
+It&#x27;s a good question because I think
+
+00:13:57.519 --> 00:13:59.199
+it&#x27;s it&#x27;s it&#x27;s an interesting thing
+
+00:13:59.199 --> 00:14:01.920
+because basically you could you could
+
+00:14:01.920 --> 00:14:03.920
+look at a clinical trial and spend a
+
+00:14:03.920 --> 00:14:06.560
+whole PhD researching it and it&#x27;s sort
+
+00:14:06.560 --> 00:14:08.639
+of outside the scope of what a human is
+
+00:14:08.639 --> 00:14:11.120
+able to to do. It&#x27;s so complicated like
+
+00:14:11.120 --> 00:14:14.240
+these things have uh you know five two
+
+00:14:14.240 --> 00:14:16.800
+or three primary endpoints and so many
+
+00:14:16.800 --> 00:14:18.560
+secondary end points and are very
+
+00:14:18.560 --> 00:14:20.320
+complicated and it&#x27;s sort of outside
+
+00:14:20.320 --> 00:14:22.079
+it&#x27;s a very different type of thing than
+
+00:14:22.079 --> 00:14:25.040
+like someone betting based on if they
+
+00:14:25.040 --> 00:14:26.720
+think a sports team is going to win. It
+
+00:14:26.720 --> 00:14:28.399
+t it requires like a much you don&#x27;t
+
+00:14:28.399 --> 00:14:30.160
+you&#x27;re not sort of betting on oh my
+
+00:14:30.160 --> 00:14:32.240
+neighbor is going to vote for Trump or
+
+00:14:32.240 --> 00:14:34.240
+Kamala and you know I pulled a bunch of
+
+00:14:34.240 --> 00:14:35.600
+people. you have to have really deep
+
+00:14:35.600 --> 00:14:37.920
+understanding and these types of bets I
+
+00:14:37.920 --> 00:14:41.360
+think are more optimized for um AIS than
+
+00:14:41.360 --> 00:14:43.360
+they are for humans which is a kind of
+
+00:14:43.360 --> 00:14:45.120
+an interesting distinction between like
+
+00:14:45.120 --> 00:14:46.720
+couch or poly market where I&#x27;m sure they
+
+00:14:46.720 --> 00:14:49.279
+have like a lot of algorithmic trading
+
+00:14:49.279 --> 00:14:52.240
+but their majority of their stuff is um
+
+00:14:52.240 --> 00:14:53.600
+uh humans
+
+00:14:53.600 --> 00:14:55.199
+&gt;&gt; um for these kind of markets do you
+
+00:14:55.199 --> 00:14:56.560
+think there&#x27;ll be a lot of insider
+
+00:14:56.560 --> 00:14:58.639
+trading uh especially with clinical
+
+00:14:58.639 --> 00:15:00.639
+trials like I would imagine that people
+
+00:15:00.639 --> 00:15:02.480
+who are familiar with the process and
+
+00:15:02.480 --> 00:15:05.440
+who work in these companies uh you might
+
+00:15:05.440 --> 00:15:08.000
+have some you know inside information
+
+00:15:08.000 --> 00:15:10.160
+but apart from that like I think that
+
+00:15:10.160 --> 00:15:12.079
+that is more important for training than
+
+00:15:12.079 --> 00:15:13.839
+like what you would get out of you know
+
+00:15:13.839 --> 00:15:16.399
+understanding the entire research on on
+
+00:15:16.399 --> 00:15:17.440
+the topic.
+
+00:15:17.440 --> 00:15:20.639
+&gt;&gt; Yeah. Um well I would hope actually that
+
+00:15:20.639 --> 00:15:24.000
+um in the future that patients are the
+
+00:15:24.000 --> 00:15:25.600
+ones who are training. So they&#x27;re
+
+00:15:25.600 --> 00:15:27.600
+submitting their own data and betting
+
+00:15:27.600 --> 00:15:29.360
+based on how confident they are that the
+
+00:15:29.360 --> 00:15:31.279
+drug is working for them. And so it
+
+00:15:31.279 --> 00:15:34.560
+moves up the incentive outside of um
+
+00:15:34.560 --> 00:15:37.440
+like uh like a CEO who have who might
+
+00:15:37.440 --> 00:15:40.320
+have information and giving the ability
+
+00:15:40.320 --> 00:15:42.079
+to profit off of these things to the
+
+00:15:42.079 --> 00:15:44.000
+people who are taking the risk of doing
+
+00:15:44.000 --> 00:15:48.720
+the trial. Um I like uh I&#x27;m not too
+
+00:15:48.720 --> 00:15:50.320
+worried about it because I think the
+
+00:15:50.320 --> 00:15:52.959
+goal here is to go is to move outside of
+
+00:15:52.959 --> 00:15:55.040
+the CRO system eventually, but maybe
+
+00:15:55.040 --> 00:15:57.120
+along the way there could be some bumps.
+
+00:15:57.120 --> 00:15:59.279
+Um it&#x27;s not a perfect system and there
+
+00:15:59.279 --> 00:16:01.040
+are some like logistic things that have
+
+00:16:01.040 --> 00:16:02.160
+to happen along the way but it is
+
+00:16:02.160 --> 00:16:04.959
+something to be careful of.
+
+00:16:04.959 --> 00:16:07.199
+&gt;&gt; Yeah. So could you explain how this
+
+00:16:07.199 --> 00:16:09.920
+actually affect
+
+00:16:09.920 --> 00:16:12.560
+so I&#x27;m just I struggle to see how like
+
+00:16:12.560 --> 00:16:14.880
+so for a patient who say they have a
+
+00:16:14.880 --> 00:16:16.959
+type of cancer whatever and you know
+
+00:16:16.959 --> 00:16:19.440
+they are trying to look at that. I
+
+00:16:19.440 --> 00:16:20.959
+struggle to try to draw a connection as
+
+00:16:20.959 --> 00:16:23.279
+to why
+
+00:16:23.279 --> 00:16:25.680
+trading market and how that affect their
+
+00:16:25.680 --> 00:16:28.000
+travel. Um well they could choose to
+
+00:16:28.000 --> 00:16:30.480
+enroll in a trial or not because so they
+
+00:16:30.480 --> 00:16:32.560
+could they right now if someone&#x27;s
+
+00:16:32.560 --> 00:16:34.240
+enrolling in a trial they might not know
+
+00:16:34.240 --> 00:16:36.079
+how likely the thing is to succeed. So
+
+00:16:36.079 --> 00:16:38.240
+there might be two options like trial A
+
+00:16:38.240 --> 00:16:40.800
+and trial B and they might you know plug
+
+00:16:40.800 --> 00:16:42.959
+it into the chat GBT each of them and
+
+00:16:42.959 --> 00:16:44.560
+say like which of these is better suited
+
+00:16:44.560 --> 00:16:46.880
+for me and this is another piece of
+
+00:16:46.880 --> 00:16:49.440
+information to be able to say like how
+
+00:16:49.440 --> 00:16:51.839
+likely this drug is for and so they
+
+00:16:51.839 --> 00:16:54.160
+could choose which trial tool. So does
+
+00:16:54.160 --> 00:16:56.000
+this consider
+
+00:16:56.000 --> 00:16:57.360
+like the actual because I guess I&#x27;m just
+
+00:16:57.360 --> 00:16:58.959
+like if the patient is going to roll the
+
+00:16:58.959 --> 00:17:01.440
+trial if it&#x27;s going to work for them
+
+00:17:01.440 --> 00:17:03.040
+assume it&#x27;s most of the criteria of the
+
+00:17:03.040 --> 00:17:05.280
+trial itself that&#x27;s going to determine
+
+00:17:05.280 --> 00:17:07.520
+how well the trial for them actually
+
+00:17:07.520 --> 00:17:10.160
+design
+
+00:17:10.160 --> 00:17:11.520
+&gt;&gt; but there&#x27;s still uncertainty right so
+
+00:17:11.520 --> 00:17:13.120
+when you&#x27;re when you enroll in it you
+
+00:17:13.120 --> 00:17:15.520
+might only have a 20% chance that it
+
+00:17:15.520 --> 00:17:17.839
+works and there&#x27;s another one that you
+
+00:17:17.839 --> 00:17:19.280
+could have like a 40% chance that it
+
+00:17:19.280 --> 00:17:20.640
+works and you could then you would then
+
+00:17:20.640 --> 00:17:23.360
+enroll in the one that&#x27;s more likely you
+
+00:17:23.360 --> 00:17:25.919
+might be eligible for two.
+
+00:17:25.919 --> 00:17:27.360
+&gt;&gt; You use it as a touch.
+
+00:17:27.360 --> 00:17:27.839
+&gt;&gt; What?
+
+00:17:27.839 --> 00:17:28.559
+&gt;&gt; You can use it.
+
+00:17:28.559 --> 00:17:30.240
+&gt;&gt; You can you can also use it as a head.
+
+00:17:30.240 --> 00:17:32.880
+So someone um was like, &quot;Oh, maybe I
+
+00:17:32.880 --> 00:17:35.760
+want to like uh be taller or something.&quot;
+
+00:17:35.760 --> 00:17:37.840
+And you But you would also So you you
+
+00:17:37.840 --> 00:17:40.400
+might there&#x27;s there&#x27;s all sorts of like
+
+00:17:40.400 --> 00:17:42.000
+weird.
+
+00:17:42.000 --> 00:17:43.360
+Do you want this?
+
+00:17:43.360 --> 00:17:45.200
+&gt;&gt; Yeah. I mean like for a patient patient
+
+00:17:45.200 --> 00:17:47.200
+could be uh you know bet whatever
+
+00:17:47.200 --> 00:17:49.840
+$50,000
+
+00:17:49.840 --> 00:17:51.919
+would be gets the trial and if you know
+
+00:17:51.919 --> 00:17:53.679
+if it works then they live then great if
+
+00:17:53.679 --> 00:17:55.120
+they pass away then at least their
+
+00:17:55.120 --> 00:17:57.520
+family gets you know a payout.
+
+00:17:57.520 --> 00:17:59.919
+&gt;&gt; Yeah. Exactly.
+
+00:17:59.919 --> 00:18:01.440
+&gt;&gt; Yeah. Go ahead.
+
+00:18:01.440 --> 00:18:02.240
+&gt;&gt; So
+
+00:18:02.240 --> 00:18:03.840
+&gt;&gt; I know it sounds morbid but I think it&#x27;s
+
+00:18:03.840 --> 00:18:06.080
+actually a good example. Yeah.
+
+00:18:06.080 --> 00:18:09.440
+So you&#x27;re talking about the potential
+
+00:18:09.440 --> 00:18:12.240
+benefit of a trial that 20% outcome
+
+00:18:12.240 --> 00:18:15.200
+might be positive versus 40%. But most
+
+00:18:15.200 --> 00:18:17.120
+of the trials tend to be randomized and
+
+00:18:17.120 --> 00:18:20.559
+randomized with placebo. So be it 40, be
+
+00:18:20.559 --> 00:18:24.400
+it 20, your I&#x27;m sorry.
+
+00:18:24.400 --> 00:18:26.080
+&gt;&gt; Oh, in the back, can you be quiet or can
+
+00:18:26.080 --> 00:18:27.520
+you close the door or just tell them to
+
+00:18:27.520 --> 00:18:28.480
+be quiet?
+
+00:18:28.480 --> 00:18:31.679
+&gt;&gt; So in a randomized trial, the chances
+
+00:18:31.679 --> 00:18:34.080
+you could get the drug or you could get
+
+00:18:34.080 --> 00:18:34.720
+placebo.
+
+00:18:34.720 --> 00:18:37.200
+&gt;&gt; Yeah. Yeah, but assuming assuming both
+
+00:18:37.200 --> 00:18:39.039
+assuming both have a 50% chance of
+
+00:18:39.039 --> 00:18:40.480
+getting a drug or placebo, you could
+
+00:18:40.480 --> 00:18:42.799
+then so your your your expected value
+
+00:18:42.799 --> 00:18:45.200
+might be then 10 and 20%. But at least
+
+00:18:45.200 --> 00:18:46.960
+then you&#x27;d know that. So there there&#x27;s
+
+00:18:46.960 --> 00:18:48.720
+it&#x27;s another source of information. It&#x27;s
+
+00:18:48.720 --> 00:18:50.720
+not supposed to be the primary source of
+
+00:18:50.720 --> 00:18:51.840
+information. So you could use it
+
+00:18:51.840 --> 00:18:54.720
+alongside your doctor and judge.
+
+00:18:54.720 --> 00:18:55.679
+&gt;&gt; Okay.
+
+00:18:55.679 --> 00:18:56.799
+&gt;&gt; Uh yeah, go ahead.
+
+00:18:56.799 --> 00:19:01.200
+&gt;&gt; Sorry. Uh I know you stated that
+
+00:19:01.200 --> 00:19:03.840
+intelligence results. How are you
+
+00:19:03.840 --> 00:19:06.400
+introduced in the early stages of
+
+00:19:06.400 --> 00:19:09.120
+spoofing that sometimes
+
+00:19:09.120 --> 00:19:12.080
+coordination to manipulate the market
+
+00:19:12.080 --> 00:19:15.080
+itself.
+
+00:19:15.440 --> 00:19:17.280
+&gt;&gt; Yeah, I mean that hasn&#x27;t been a primary
+
+00:19:17.280 --> 00:19:21.200
+thing but that&#x27;s only sort of true if um
+
+00:19:21.200 --> 00:19:23.760
+I mean there is a readout. We basically
+
+00:19:23.760 --> 00:19:25.520
+create like a market like 60 days ahead
+
+00:19:25.520 --> 00:19:27.440
+of time when we expect a readout to
+
+00:19:27.440 --> 00:19:31.520
+happen on an end point on a trial and um
+
+00:19:31.520 --> 00:19:34.559
+you know if a bot is maybe doing um
+
+00:19:34.559 --> 00:19:36.240
+paper or whatever it&#x27;s called fake
+
+00:19:36.240 --> 00:19:38.400
+trading uh in order to create more
+
+00:19:38.400 --> 00:19:40.799
+volume and like drive demand they they
+
+00:19:40.799 --> 00:19:42.559
+might be able to do that now but I don&#x27;t
+
+00:19:42.559 --> 00:19:44.000
+think it hasn&#x27;t been something that I&#x27;ve
+
+00:19:44.000 --> 00:19:45.360
+really seen and they&#x27;re going to be left
+
+00:19:45.360 --> 00:19:47.280
+holding the bag anyway like when the
+
+00:19:47.280 --> 00:19:48.960
+when the actual trial comes out it&#x27;s not
+
+00:19:48.960 --> 00:19:51.120
+like a stock market where like you there
+
+00:19:51.120 --> 00:19:52.640
+isn&#x27;t sort of like a definitive end
+
+00:19:52.640 --> 00:19:54.000
+point. It makes it makes it I think it
+
+00:19:54.000 --> 00:19:56.320
+makes it a bit harder to like spook the
+
+00:19:56.320 --> 00:19:59.120
+results here.
+
+00:19:59.120 --> 00:20:00.080
+&gt;&gt; Yeah. Go ahead.
+
+00:20:00.080 --> 00:20:02.640
+&gt;&gt; Yeah. So, my only issue with markets and
+
+00:20:02.640 --> 00:20:04.480
+clinical trials, right, is it&#x27;s a binary
+
+00:20:04.480 --> 00:20:06.160
+market and I didn&#x27;t realize that you&#x27;re
+
+00:20:06.160 --> 00:20:08.160
+expecting the agents to trade. If you&#x27;re
+
+00:20:08.160 --> 00:20:10.240
+expecting agents to trade, there has to
+
+00:20:10.240 --> 00:20:11.760
+be another agent on the other side
+
+00:20:11.760 --> 00:20:14.000
+taking, right? And if you&#x27;re the
+
+00:20:14.000 --> 00:20:15.520
+&gt;&gt; Oh, no. No. So, we use an automated
+
+00:20:15.520 --> 00:20:17.679
+market maker. So there&#x27;s a pool of money
+
+00:20:17.679 --> 00:20:19.840
+to uh that has so an automated market
+
+00:20:19.840 --> 00:20:21.840
+maker basically means like there&#x27;s a
+
+00:20:21.840 --> 00:20:23.600
+pool of yes tokens and a pool of no
+
+00:20:23.600 --> 00:20:25.360
+tokens and there&#x27;s a certain amount of
+
+00:20:25.360 --> 00:20:28.480
+liquidity say like $5,000 and from that
+
+00:20:28.480 --> 00:20:31.280
+liquidity um when someone buys yes it it
+
+00:20:31.280 --> 00:20:33.039
+sort of exponentially causes the no
+
+00:20:33.039 --> 00:20:34.320
+tokens to go up in price.
+
+00:20:34.320 --> 00:20:35.440
+&gt;&gt; Well, of course you&#x27;re going to squeeze
+
+00:20:35.440 --> 00:20:37.120
+the market maker if nobody&#x27;s buying from
+
+00:20:37.120 --> 00:20:37.600
+their side.
+
+00:20:37.600 --> 00:20:39.280
+&gt;&gt; Well, there is there is no market maker.
+
+00:20:39.280 --> 00:20:41.360
+It&#x27;s a it&#x27;s it just gets exponentially
+
+00:20:41.360 --> 00:20:43.600
+more expensive until so there&#x27;s always
+
+00:20:43.600 --> 00:20:46.320
+enough liquidity but it it just drives
+
+00:20:46.320 --> 00:20:49.200
+demand on the other side. The there is
+
+00:20:49.200 --> 00:20:50.559
+no market maker in this. There&#x27;s not
+
+00:20:50.559 --> 00:20:52.799
+like a sash kohana who&#x27;s always
+
+00:20:52.799 --> 00:20:54.400
+providing trade like things just get
+
+00:20:54.400 --> 00:20:56.720
+infinitely more expensive as demand on
+
+00:20:56.720 --> 00:20:58.960
+one side balances out.
+
+00:20:58.960 --> 00:21:01.440
+&gt;&gt; Yeah. And I have another question like
+
+00:21:01.440 --> 00:21:03.039
+your primary use case you want the
+
+00:21:03.039 --> 00:21:05.360
+consumer right to be like on these
+
+00:21:05.360 --> 00:21:07.600
+markets but have you thought about
+
+00:21:07.600 --> 00:21:09.520
+looking at like the liability like
+
+00:21:09.520 --> 00:21:11.760
+internal case that they had back in like
+
+00:21:11.760 --> 00:21:13.600
+three rights
+
+00:21:13.600 --> 00:21:16.720
+and it was more like the science
+
+00:21:16.720 --> 00:21:18.880
+that showed more accuracy.
+
+00:21:18.880 --> 00:21:20.400
+&gt;&gt; Yeah. I mean I I think it&#x27;s a great
+
+00:21:20.400 --> 00:21:22.480
+example. Um there&#x27;s this guy named Robin
+
+00:21:22.480 --> 00:21:24.720
+Hansen who&#x27;s and um there&#x27;s this other
+
+00:21:24.720 --> 00:21:27.280
+guy who I&#x27;m forgetting the name of. Um,
+
+00:21:27.280 --> 00:21:28.640
+if someone emails me, there&#x27;s like
+
+00:21:28.640 --> 00:21:30.159
+someone who who has a whole article on
+
+00:21:30.159 --> 00:21:32.320
+this and it works pretty well and I
+
+00:21:32.320 --> 00:21:34.640
+think they&#x27;d be they could potenti uh
+
+00:21:34.640 --> 00:21:36.159
+there&#x27;s pros and cons to each. I I
+
+00:21:36.159 --> 00:21:38.320
+actually heard that people didn&#x27;t use it
+
+00:21:38.320 --> 00:21:40.720
+internally from what I remember, but I
+
+00:21:40.720 --> 00:21:43.280
+might have to double check on that.
+
+00:21:43.280 --> 00:21:45.120
+&gt;&gt; Oh yeah, go ahead.
+
+00:21:45.120 --> 00:21:46.000
+&gt;&gt; Okay.
+
+00:21:46.000 --> 00:21:48.400
+&gt;&gt; What is the um the question the binary
+
+00:21:48.400 --> 00:21:51.280
+question is that does that mean is the
+
+00:21:51.280 --> 00:21:54.000
+important or the customer?
+
+00:21:54.000 --> 00:21:56.240
+&gt;&gt; No. So it&#x27;s uh ahead of time I&#x27;ll talk
+
+00:21:56.240 --> 00:21:57.840
+about in a second but ahead of time we
+
+00:21:57.840 --> 00:22:00.240
+choose a primary endpoint and sometime
+
+00:22:00.240 --> 00:22:01.760
+we choose an endpoint that is
+
+00:22:01.760 --> 00:22:05.120
+representative of um what moves the
+
+00:22:05.120 --> 00:22:08.720
+stock the most and um we use that as the
+
+00:22:08.720 --> 00:22:12.559
+goal. And so if it&#x27;s if it gets yes then
+
+00:22:12.559 --> 00:22:14.320
+it resolves yes and if it&#x27;s anything
+
+00:22:14.320 --> 00:22:16.640
+besides yes it resolves no. So if it
+
+00:22:16.640 --> 00:22:18.400
+doesn&#x27;t complete or something changes or
+
+00:22:18.400 --> 00:22:20.880
+whatever um it resolves no.
+
+00:22:20.880 --> 00:22:24.000
+&gt;&gt; Yeah. Go ahead.
+
+00:22:24.000 --> 00:22:27.720
+the resistance.
+
+00:22:33.600 --> 00:22:36.960
+&gt;&gt; We we create the we we scan all the um
+
+00:22:36.960 --> 00:22:39.679
+websites for the drug companies and we
+
+00:22:39.679 --> 00:22:42.559
+try and look to they give some sort of
+
+00:22:42.559 --> 00:22:44.320
+um expectation around when they&#x27;re going
+
+00:22:44.320 --> 00:22:46.159
+to announce something and we try and
+
+00:22:46.159 --> 00:22:50.080
+open a market like 60 daysish before the
+
+00:22:50.080 --> 00:22:52.799
+expected release time. And so there&#x27;s
+
+00:22:52.799 --> 00:22:56.400
+lists of things that have like H1, H2,
+
+00:22:56.400 --> 00:22:58.799
+Q3, Q4 when they&#x27;re about to announce
+
+00:22:58.799 --> 00:23:01.039
+these things and we then create the
+
+00:23:01.039 --> 00:23:03.280
+market ahead of that. But we but there&#x27;s
+
+00:23:03.280 --> 00:23:05.039
+7,000 trials a year. So there&#x27;s a big
+
+00:23:05.039 --> 00:23:07.039
+pipeline of things. So we don&#x27;t track it
+
+00:23:07.039 --> 00:23:08.480
+from the beginning. We track it as
+
+00:23:08.480 --> 00:23:12.280
+things are coming through.
+
+00:23:16.000 --> 00:23:19.280
+&gt;&gt; Depend. So right there is Yeah. So, um,
+
+00:23:19.280 --> 00:23:21.200
+we we should be opening markets earlier,
+
+00:23:21.200 --> 00:23:23.520
+but we are currently moving later. Maybe
+
+00:23:23.520 --> 00:23:27.200
+we&#x27;ll push that further.
+
+00:23:27.200 --> 00:23:29.760
+&gt;&gt; Yeah. Go ahead. Do you worry that I mean
+
+00:23:29.760 --> 00:23:31.520
+there&#x27;s a lot of financial incentives
+
+00:23:31.520 --> 00:23:34.080
+beyond just the patients in enrolling
+
+00:23:34.080 --> 00:23:36.400
+their trials. For example, speeding up
+
+00:23:36.400 --> 00:23:39.360
+the trial enrollment for pharma has huge
+
+00:23:39.360 --> 00:23:42.000
+financial implications. So, in these
+
+00:23:42.000 --> 00:23:43.919
+markets, I think you can have a lot of
+
+00:23:43.919 --> 00:23:45.760
+players that have a lot of different
+
+00:23:45.760 --> 00:23:48.559
+interests. maybe mixing the patients. I
+
+00:23:48.559 --> 00:23:50.159
+wonder if you think that would poison
+
+00:23:50.159 --> 00:23:52.640
+the bell a little bit around enrolling
+
+00:23:52.640 --> 00:23:55.919
+for trials and how people perceive
+
+00:23:55.919 --> 00:23:58.320
+participating in trials which you need
+
+00:23:58.320 --> 00:24:01.120
+for
+
+00:24:01.120 --> 00:24:01.919
+things.
+
+00:24:01.919 --> 00:24:04.320
+&gt;&gt; Yeah, I mean when you introduce a new
+
+00:24:04.320 --> 00:24:06.559
+market into anything um it causes
+
+00:24:06.559 --> 00:24:10.960
+issues. So um but I think uh I I think
+
+00:24:10.960 --> 00:24:12.400
+it&#x27;s something that we have to look into
+
+00:24:12.400 --> 00:24:13.840
+more. I don&#x27;t know exactly what&#x27;s going
+
+00:24:13.840 --> 00:24:15.360
+to happen but it&#x27;s something we have to
+
+00:24:15.360 --> 00:24:17.919
+look at. Yeah,
+
+00:24:17.919 --> 00:24:19.200
+&gt;&gt; we&#x27;ll do two more questions. Yeah, and
+
+00:24:19.200 --> 00:24:21.840
+I&#x27;ll keep them short my answers. So, who
+
+00:24:21.840 --> 00:24:23.840
+is this for? Like, is it for the patient
+
+00:24:23.840 --> 00:24:27.279
+or the sponsor? Because like trials fail
+
+00:24:27.279 --> 00:24:28.960
+for a lot of reasons and a lot of
+
+00:24:28.960 --> 00:24:31.520
+reasons that would never likely
+
+00:24:31.520 --> 00:24:34.000
+show up on paper. So, like I&#x27;m trying to
+
+00:24:34.000 --> 00:24:36.080
+figure out like who is I guess who is
+
+00:24:36.080 --> 00:24:37.279
+this product for?
+
+00:24:37.279 --> 00:24:38.559
+&gt;&gt; Yeah. And I&#x27;ll say briefly I have a
+
+00:24:38.559 --> 00:24:40.559
+slide. It&#x27;s for pharma companies and I
+
+00:24:40.559 --> 00:24:42.720
+think for like um people then for
+
+00:24:42.720 --> 00:24:45.039
+financial or AIS who want to bet on it.
+
+00:24:45.039 --> 00:24:47.120
+Yeah. Go ahead. Last question.
+
+00:24:47.120 --> 00:24:48.480
+&gt;&gt; That is kind of my question.
+
+00:24:48.480 --> 00:24:51.760
+&gt;&gt; Great. Okay. So,
+
+00:24:51.760 --> 00:24:53.279
+um this is just kind of what it looks
+
+00:24:53.279 --> 00:24:55.919
+like. So, um the data comes from
+
+00:24:55.919 --> 00:24:59.039
+clinical trial.gov. Um and you know, we
+
+00:24:59.039 --> 00:25:00.720
+so we pull all that stuff. It also comes
+
+00:25:00.720 --> 00:25:03.039
+from the websites. Uh we use an AMM
+
+00:25:03.039 --> 00:25:05.039
+which is an automated market maker for
+
+00:25:05.039 --> 00:25:08.240
+with some liquidity to um be able to
+
+00:25:08.240 --> 00:25:11.679
+place these trades. Um we also pull in a
+
+00:25:11.679 --> 00:25:13.440
+lot of news for the thing. we get some
+
+00:25:13.440 --> 00:25:15.600
+information about the clinical trial
+
+00:25:15.600 --> 00:25:19.520
+like how many people it affects um and
+
+00:25:19.520 --> 00:25:21.919
+uh stuff like that. Um if you want to
+
+00:25:21.919 --> 00:25:24.640
+check it out endpoint arena.com
+
+00:25:24.640 --> 00:25:28.720
+um humans made up you know 20 to 30% by
+
+00:25:28.720 --> 00:25:32.039
+dollar amount.
+
+00:25:32.320 --> 00:25:36.080
+Um and then agents are are loving to
+
+00:25:36.080 --> 00:25:38.799
+bet. Um so what happens is basically
+
+00:25:38.799 --> 00:25:41.919
+agents review each trial and um they
+
+00:25:41.919 --> 00:25:43.679
+have the we give them like a common
+
+00:25:43.679 --> 00:25:45.840
+prompt which I&#x27;ll show you in a second
+
+00:25:45.840 --> 00:25:48.080
+and um we have or we&#x27;re just currently
+
+00:25:48.080 --> 00:25:49.760
+benchmarking sort of all the main ones
+
+00:25:49.760 --> 00:25:53.279
+like claw GPT groi
+
+00:25:53.279 --> 00:25:55.840
+um sort of the top models and they
+
+00:25:55.840 --> 00:25:57.840
+figure out how they figure out they
+
+00:25:57.840 --> 00:25:59.600
+generate like a confidence interval of
+
+00:25:59.600 --> 00:26:01.279
+how confident they are that they&#x27;re
+
+00:26:01.279 --> 00:26:02.960
+correct. they have like a chain of
+
+00:26:02.960 --> 00:26:04.960
+thought of to explain like their
+
+00:26:04.960 --> 00:26:07.520
+reasoning um why they chose to either
+
+00:26:07.520 --> 00:26:09.039
+why they think the trial is going to be
+
+00:26:09.039 --> 00:26:11.840
+successful or not. Um some models have
+
+00:26:11.840 --> 00:26:14.080
+access to the web and some models don&#x27;t.
+
+00:26:14.080 --> 00:26:16.080
+Um this is a big advantage obviously but
+
+00:26:16.080 --> 00:26:17.840
+these are all forward fixing things so
+
+00:26:17.840 --> 00:26:20.000
+it&#x27;s like a real time benchmark. So you
+
+00:26:20.000 --> 00:26:21.760
+could have access to the web, but that
+
+00:26:21.760 --> 00:26:23.360
+doesn&#x27;t necessarily mean you&#x27;re going to
+
+00:26:23.360 --> 00:26:25.840
+be better, even though uh most of the
+
+00:26:25.840 --> 00:26:29.520
+time it did. Um because you you might be
+
+00:26:29.520 --> 00:26:31.760
+looking at like news articles on uh
+
+00:26:31.760 --> 00:26:35.440
+endpoint news or uh fierce biotech to to
+
+00:26:35.440 --> 00:26:37.200
+try and figure out what what experts are
+
+00:26:37.200 --> 00:26:39.840
+saying. And then um you know, you can
+
+00:26:39.840 --> 00:26:41.360
+click into each one of these things and
+
+00:26:41.360 --> 00:26:44.640
+see um u you know, its reasoning as
+
+00:26:44.640 --> 00:26:47.520
+well.
+
+00:26:47.520 --> 00:26:50.320
+Okay. Um, so this is the common prompt.
+
+00:26:50.320 --> 00:26:53.120
+So all the models have a common prompt.
+
+00:26:53.120 --> 00:26:55.200
+Um, and it basically says you&#x27;re an
+
+00:26:55.200 --> 00:26:57.679
+expert biotech investor. Uh, this is
+
+00:26:57.679 --> 00:26:59.679
+your portfolio of of things that you
+
+00:26:59.679 --> 00:27:01.600
+currently own. Here&#x27;s how much money you
+
+00:27:01.600 --> 00:27:04.799
+have in your account. Um, come up with a
+
+00:27:04.799 --> 00:27:07.440
+structured JSON to describe how you want
+
+00:27:07.440 --> 00:27:11.679
+to bet. And um, then it says yes, no, or
+
+00:27:11.679 --> 00:27:13.840
+or hold. uh for each of these different
+
+00:27:13.840 --> 00:27:15.760
+things. You can find the prompt on our
+
+00:27:15.760 --> 00:27:19.760
+website endpoint arena.com/method.
+
+00:27:19.760 --> 00:27:23.039
+Um and then uh we also try and provide
+
+00:27:23.039 --> 00:27:25.919
+some uh news and context for both
+
+00:27:25.919 --> 00:27:29.039
+humans. So this is how we determine um
+
+00:27:29.039 --> 00:27:31.440
+when new trials are coming out. We look
+
+00:27:31.440 --> 00:27:34.000
+at all sort of the top pharma companies
+
+00:27:34.000 --> 00:27:37.039
+like uh news sites and pull in uh when
+
+00:27:37.039 --> 00:27:38.799
+things are coming out. Like if it&#x27;s a
+
+00:27:38.799 --> 00:27:41.120
+phase 2 trial coming out, you can search
+
+00:27:41.120 --> 00:27:43.120
+by different things. And the models do
+
+00:27:43.120 --> 00:27:45.520
+have access to this and uh it tells them
+
+00:27:45.520 --> 00:27:47.840
+about like trial design changes or
+
+00:27:47.840 --> 00:27:50.640
+updates in enrollment or um you know
+
+00:27:50.640 --> 00:27:53.360
+when a new abstract is coming out um as
+
+00:27:53.360 --> 00:27:56.159
+well.
+
+00:27:56.159 --> 00:27:59.679
+And um then we are able to uh rank the
+
+00:27:59.679 --> 00:28:02.720
+the agents as well um so you based on
+
+00:28:02.720 --> 00:28:04.000
+how much money they have. So they each
+
+00:28:04.000 --> 00:28:06.159
+have a portfolio of money and they&#x27;re
+
+00:28:06.159 --> 00:28:08.799
+each trading it within themselves and uh
+
+00:28:08.799 --> 00:28:10.799
+they&#x27;re able to you&#x27;re able to see which
+
+00:28:10.799 --> 00:28:14.080
+model is the best um using who has the
+
+00:28:14.080 --> 00:28:16.880
+most money which is a very simple way of
+
+00:28:16.880 --> 00:28:19.039
+uh understanding which model is the
+
+00:28:19.039 --> 00:28:22.039
+best.
+
+00:28:24.320 --> 00:28:27.320
+Um
+
+00:28:30.480 --> 00:28:32.399
+okay so who are this who is this sort of
+
+00:28:32.399 --> 00:28:35.760
+market for? Um uh the first one is like
+
+00:28:35.760 --> 00:28:37.600
+a biotech company who wants to like
+
+00:28:37.600 --> 00:28:40.640
+hedge failure. This is your question. So
+
+00:28:40.640 --> 00:28:42.880
+um you know you&#x27;re a biotech company.
+
+00:28:42.880 --> 00:28:44.480
+You might be running three or four
+
+00:28:44.480 --> 00:28:46.240
+clinical trials. You might want to take
+
+00:28:46.240 --> 00:28:48.799
+out an insurance policy on it. So if you
+
+00:28:48.799 --> 00:28:50.559
+if you were running three now you could
+
+00:28:50.559 --> 00:28:52.000
+insure it and you could actually run
+
+00:28:52.000 --> 00:28:53.840
+four because you don&#x27;t have to maintain
+
+00:28:53.840 --> 00:28:56.000
+as much money in case it fails. So
+
+00:28:56.000 --> 00:28:57.440
+that&#x27;s sort of one side of the market
+
+00:28:57.440 --> 00:29:00.559
+who&#x27;s betting that they want it to um
+
+00:29:00.559 --> 00:29:02.320
+ironic that they on one side of the
+
+00:29:02.320 --> 00:29:06.080
+market and um on they&#x27;re hedging failure
+
+00:29:06.080 --> 00:29:07.760
+and then so they&#x27;re worried about it
+
+00:29:07.760 --> 00:29:09.279
+failing. Now who&#x27;s worried about it
+
+00:29:09.279 --> 00:29:11.279
+succeeding? Um there&#x27;s actually two
+
+00:29:11.279 --> 00:29:13.440
+people. One is um this is just sort of
+
+00:29:13.440 --> 00:29:15.679
+the general structure of it. uh people
+
+00:29:15.679 --> 00:29:17.600
+just like to bet and find out things
+
+00:29:17.600 --> 00:29:19.760
+that are mispriced. But structurally, it
+
+00:29:19.760 --> 00:29:21.840
+I think it&#x27;s mostly going to be
+
+00:29:21.840 --> 00:29:23.760
+insurance people. So, if you&#x27;re an
+
+00:29:23.760 --> 00:29:25.279
+insurance company, you&#x27;re very scared
+
+00:29:25.279 --> 00:29:26.559
+about those out bigger things because
+
+00:29:26.559 --> 00:29:27.840
+these things, even though they make
+
+00:29:27.840 --> 00:29:29.679
+people healthier, they&#x27;re extremely
+
+00:29:29.679 --> 00:29:32.399
+expensive in the short term. So, uh you
+
+00:29:32.399 --> 00:29:34.000
+don&#x27;t want that because you&#x27;re now you
+
+00:29:34.000 --> 00:29:36.880
+have to pay like 3,000 or like $500 a
+
+00:29:36.880 --> 00:29:39.600
+month for a drug that you might not have
+
+00:29:39.600 --> 00:29:41.520
+had to pay otherwise. So you&#x27;re you want
+
+00:29:41.520 --> 00:29:43.679
+to bet that OAPIC will won&#x27;t get
+
+00:29:43.679 --> 00:29:45.520
+approved because now if it does get
+
+00:29:45.520 --> 00:29:47.520
+approved now you have to pay for it. So
+
+00:29:47.520 --> 00:29:49.679
+that&#x27;s sort of like the how things work
+
+00:29:49.679 --> 00:29:53.399
+um like structurally
+
+00:29:53.520 --> 00:29:56.640
+and um how do we choose the markets? So
+
+00:29:56.640 --> 00:29:58.240
+um we try to look at different
+
+00:29:58.240 --> 00:29:59.679
+endpoints. So if you go to
+
+00:29:59.679 --> 00:30:01.200
+clinicaltrial.gov
+
+00:30:01.200 --> 00:30:03.120
+you&#x27;ll see something like that like this
+
+00:30:03.120 --> 00:30:05.919
+which has like a primary outcome and a
+
+00:30:05.919 --> 00:30:07.279
+primary endpoint and a bunch of
+
+00:30:07.279 --> 00:30:10.000
+secondary out uh endpoints. And often
+
+00:30:10.000 --> 00:30:13.120
+times the secondary endpoints um like
+
+00:30:13.120 --> 00:30:15.039
+are are are more important than the
+
+00:30:15.039 --> 00:30:16.720
+primary one or the things and by say
+
+00:30:16.720 --> 00:30:18.159
+when I say more important I mean the
+
+00:30:18.159 --> 00:30:19.600
+things that will like move the stock
+
+00:30:19.600 --> 00:30:21.679
+price more. So sometimes what will
+
+00:30:21.679 --> 00:30:23.679
+happen is a drug will hit its primary
+
+00:30:23.679 --> 00:30:27.840
+end point u but it will uh it will it
+
+00:30:27.840 --> 00:30:29.840
+will miss its secondary end point and
+
+00:30:29.840 --> 00:30:32.159
+then their stock will tank. And the
+
+00:30:32.159 --> 00:30:33.600
+reason is is because the primary
+
+00:30:33.600 --> 00:30:35.279
+endpoint really wasn&#x27;t indicative of
+
+00:30:35.279 --> 00:30:37.840
+what&#x27;s aligned with what investors think
+
+00:30:37.840 --> 00:30:40.399
+is important which is aligned with more
+
+00:30:40.399 --> 00:30:41.840
+or less with what patients think is
+
+00:30:41.840 --> 00:30:44.080
+important. So for like cancer drugs in
+
+00:30:44.080 --> 00:30:47.360
+particular um like these things matter a
+
+00:30:47.360 --> 00:30:50.799
+lot. Um and so we try and pick the best
+
+00:30:50.799 --> 00:30:53.279
+uh endpoint that will that is relative
+
+00:30:53.279 --> 00:30:55.840
+to the stock.
+
+00:30:55.840 --> 00:31:01.120
+&gt;&gt; Yeah. Go ahead. run just like big
+
+00:31:01.120 --> 00:31:02.640
+&gt;&gt; um because that doesn&#x27;t so if you&#x27;re
+
+00:31:02.640 --> 00:31:04.720
+like Fizer you might be running 200
+
+00:31:04.720 --> 00:31:07.440
+different clinical trials at a time and
+
+00:31:07.440 --> 00:31:09.360
+so each it&#x27;s you&#x27;re you&#x27;re basically
+
+00:31:09.360 --> 00:31:11.919
+like getting like an ETF of all the
+
+00:31:11.919 --> 00:31:16.240
+different trials and maybe like Fizer is
+
+00:31:16.240 --> 00:31:18.159
+a many billion dollar company one
+
+00:31:18.159 --> 00:31:20.399
+individual drug just isn&#x27;t going to move
+
+00:31:20.399 --> 00:31:23.200
+the needle um in that in that big
+
+00:31:23.200 --> 00:31:25.760
+portfolio of drugs especially relative
+
+00:31:25.760 --> 00:31:27.520
+to like Trump announces some sort of
+
+00:31:27.520 --> 00:31:29.039
+tariff or something like that which is a
+
+00:31:29.039 --> 00:31:30.480
+thing. So this gives you like a much
+
+00:31:30.480 --> 00:31:32.880
+clear cleaner exposure to a particular
+
+00:31:32.880 --> 00:31:34.960
+trial as opposed to just like a basket
+
+00:31:34.960 --> 00:31:38.120
+of everything.
+
+00:31:39.440 --> 00:31:40.559
+&gt;&gt; Yeah. Go ahead.
+
+00:31:40.559 --> 00:31:43.679
+&gt;&gt; So I guess I&#x27;m missing a sequencing
+
+00:31:43.679 --> 00:31:47.200
+this. So prior to any data being
+
+00:31:47.200 --> 00:31:49.200
+released is when you&#x27;re opening the
+
+00:31:49.200 --> 00:31:52.799
+market and trying to get a sense of what
+
+00:31:52.799 --> 00:31:55.440
+the market feel is going to be a yes or
+
+00:31:55.440 --> 00:31:56.320
+no.
+
+00:31:56.320 --> 00:31:57.120
+&gt;&gt; Yeah.
+
+00:31:57.120 --> 00:31:59.360
+&gt;&gt; Well, there&#x27;s some like there&#x27;s people
+
+00:31:59.360 --> 00:32:01.600
+have speculation. You see that it&#x27;s
+
+00:32:01.600 --> 00:32:03.440
+taken longer to close. It&#x27;s taking
+
+00:32:03.440 --> 00:32:06.880
+shorter to close. There&#x27;s rumors. You&#x27;ve
+
+00:32:06.880 --> 00:32:09.679
+read a new academic paper on it. It just
+
+00:32:09.679 --> 00:32:11.679
+doesn&#x27;t ex exist in the abstract. I
+
+00:32:11.679 --> 00:32:13.760
+mean, there&#x27;s lots of secondary sources
+
+00:32:13.760 --> 00:32:17.640
+of information out there.
+
+00:32:17.760 --> 00:32:19.760
+Anyone else?
+
+00:32:19.760 --> 00:32:22.760
+Okay,
+
+00:32:23.200 --> 00:32:26.399
+so um here&#x27;s some results. Uh I&#x27;ll send
+
+00:32:26.399 --> 00:32:29.360
+this out later of how well um sort of
+
+00:32:29.360 --> 00:32:33.840
+each of the models did. Keep going. Um
+
+00:32:33.840 --> 00:32:34.960
+so [clears throat] the success and
+
+00:32:34.960 --> 00:32:37.120
+failure modes of these things is a lot
+
+00:32:37.120 --> 00:32:40.240
+of times um when they did very well um
+
+00:32:40.240 --> 00:32:42.320
+when some of these agents did very well
+
+00:32:42.320 --> 00:32:45.120
+they uh tried to uh they they looked
+
+00:32:45.120 --> 00:32:46.880
+closely at the end point that they were
+
+00:32:46.880 --> 00:32:49.120
+trying to predict and uh you know
+
+00:32:49.120 --> 00:32:50.799
+developed their chain of thought and
+
+00:32:50.799 --> 00:32:52.960
+reasoning based on that. Um they looked
+
+00:32:52.960 --> 00:32:54.320
+carefully at the mechanism and they
+
+00:32:54.320 --> 00:32:56.320
+balanced their risk well between all the
+
+00:32:56.320 --> 00:32:58.640
+different things. So they didn&#x27;t spend
+
+00:32:58.640 --> 00:33:02.000
+all of their money in one particular um
+
+00:33:02.000 --> 00:33:03.679
+on one particular thing. Sometimes when
+
+00:33:03.679 --> 00:33:05.679
+they when these things tanked, they just
+
+00:33:05.679 --> 00:33:07.200
+all put their money in one thing and
+
+00:33:07.200 --> 00:33:09.840
+then that thing died and the that thing
+
+00:33:09.840 --> 00:33:11.840
+didn&#x27;t succeed and then the whole thing
+
+00:33:11.840 --> 00:33:15.039
+then their basket was bad. Um so they
+
+00:33:15.039 --> 00:33:17.200
+did good portfolio management basically.
+
+00:33:17.200 --> 00:33:20.399
+um when they didn&#x27;t succeed is um when
+
+00:33:20.399 --> 00:33:21.679
+they sort of just they looked to see
+
+00:33:21.679 --> 00:33:24.000
+like how likely is a phase two thing to
+
+00:33:24.000 --> 00:33:26.799
+work and then said, &quot;Oh, this is a this
+
+00:33:26.799 --> 00:33:29.200
+has a 50% chance because phase 2 has a
+
+00:33:29.200 --> 00:33:31.919
+50% chance.&quot; That wasn&#x27;t good. Um when
+
+00:33:31.919 --> 00:33:34.320
+they looked too much at news articles,
+
+00:33:34.320 --> 00:33:36.480
+um these models didn&#x27;t very these models
+
+00:33:36.480 --> 00:33:40.640
+didn&#x27;t do well. And um when they looked
+
+00:33:40.640 --> 00:33:43.760
+they were trying to read too much into
+
+00:33:43.760 --> 00:33:46.240
+um you know sort of smoke signals like
+
+00:33:46.240 --> 00:33:48.799
+maybe uh a clinical trial was taking too
+
+00:33:48.799 --> 00:33:51.360
+long one one model started panicking
+
+00:33:51.360 --> 00:33:54.000
+when a trial wasn&#x27;t released in time and
+
+00:33:54.000 --> 00:33:55.840
+it started thinking that this was a very
+
+00:33:55.840 --> 00:33:58.159
+bad signal and started to panic cells.
+
+00:33:58.159 --> 00:33:59.760
+So when they looked at sort of when they
+
+00:33:59.760 --> 00:34:01.279
+didn&#x27;t stick to the science and they
+
+00:34:01.279 --> 00:34:04.640
+sort of tried to do new things. Um so
+
+00:34:04.640 --> 00:34:06.399
+some of these these like indirect
+
+00:34:06.399 --> 00:34:09.200
+signals are very bad. So um for this
+
+00:34:09.200 --> 00:34:11.599
+this next part of the talk this is still
+
+00:34:11.599 --> 00:34:14.480
+very this is this is a little newer
+
+00:34:14.480 --> 00:34:17.119
+stuff but um we were trying to develop
+
+00:34:17.119 --> 00:34:21.119
+this uh app called uh anecdotal and
+
+00:34:21.119 --> 00:34:23.520
+basically people can upload um small
+
+00:34:23.520 --> 00:34:25.760
+samples of data around how well things
+
+00:34:25.760 --> 00:34:28.639
+work for them. So um an example would be
+
+00:34:28.639 --> 00:34:30.480
+like someone who&#x27;s taking if there&#x27;s an
+
+00:34:30.480 --> 00:34:33.200
+acne trial that&#x27;s exists and someone
+
+00:34:33.200 --> 00:34:35.679
+else has like a similar acne medication
+
+00:34:35.679 --> 00:34:38.480
+at home they can upload their data on
+
+00:34:38.480 --> 00:34:40.800
+how well that works for them and use
+
+00:34:40.800 --> 00:34:44.320
+that to vet. So within this um app it
+
+00:34:44.320 --> 00:34:47.919
+uses a very small uh ondevice LLM to
+
+00:34:47.919 --> 00:34:49.599
+look at the data and calculate a
+
+00:34:49.599 --> 00:34:51.599
+probability and success given your data
+
+00:34:51.599 --> 00:34:55.599
+and um the expected the and then it
+
+00:34:55.599 --> 00:34:58.720
+compares that to the data on the website
+
+00:34:58.720 --> 00:35:01.680
+and we&#x27;ll place a small bet for you um
+
+00:35:01.680 --> 00:35:03.839
+if if there&#x27;s any sort of difference. So
+
+00:35:03.839 --> 00:35:05.359
+it&#x27;s it&#x27;s allowing you to use your own
+
+00:35:05.359 --> 00:35:07.359
+data to bet. So you&#x27;re not so this is
+
+00:35:07.359 --> 00:35:09.040
+sort of in your question is like there&#x27;s
+
+00:35:09.040 --> 00:35:10.480
+no information out there but people
+
+00:35:10.480 --> 00:35:12.320
+actually have can generate their own
+
+00:35:12.320 --> 00:35:14.960
+data and this gives people an incentive
+
+00:35:14.960 --> 00:35:17.920
+to do uh n of one trials where they
+
+00:35:17.920 --> 00:35:19.680
+might just it gives them an incentive to
+
+00:35:19.680 --> 00:35:21.040
+aggregate that together because they
+
+00:35:21.040 --> 00:35:22.960
+might say like oh I&#x27;m doing something
+
+00:35:22.960 --> 00:35:24.880
+similar around sleep around mental
+
+00:35:24.880 --> 00:35:26.960
+health around GLPs or peptides that
+
+00:35:26.960 --> 00:35:28.960
+might have some relationship to an
+
+00:35:28.960 --> 00:35:31.599
+existing clinical trial uh that&#x27;s being
+
+00:35:31.599 --> 00:35:34.079
+run right now I can use that information
+
+00:35:34.079 --> 00:35:36.880
+to bet Any
+
+00:35:36.880 --> 00:35:37.920
+questions?
+
+00:35:37.920 --> 00:35:39.359
+&gt;&gt; Yeah, go ahead.
+
+00:35:39.359 --> 00:35:42.000
+&gt;&gt; In the case that you can kind of bring
+
+00:35:42.000 --> 00:35:44.079
+in your own data, how are you verifying
+
+00:35:44.079 --> 00:35:46.320
+whether or not this is in fact correct?
+
+00:35:46.320 --> 00:35:48.800
+Because it also just be my own hot
+
+00:35:48.800 --> 00:35:49.760
+table.
+
+00:35:49.760 --> 00:35:51.119
+&gt;&gt; Correct. And I think this is the beauty
+
+00:35:51.119 --> 00:35:53.359
+of prediction markets is that if you
+
+00:35:53.359 --> 00:35:55.359
+bet, you only bet if you think that
+
+00:35:55.359 --> 00:35:56.880
+you&#x27;re correct. So you could be
+
+00:35:56.880 --> 00:35:59.680
+uploading fake data, but you&#x27;re and I
+
+00:35:59.680 --> 00:36:01.920
+could then see like, oh, you could. So
+
+00:36:01.920 --> 00:36:04.000
+you you buy data based on how likely it
+
+00:36:04.000 --> 00:36:06.160
+is you think it is to work, but if it&#x27;s
+
+00:36:06.160 --> 00:36:08.400
+not if if it&#x27;s not correct, you&#x27;re just
+
+00:36:08.400 --> 00:36:10.480
+going to be left holding the bag on this
+
+00:36:10.480 --> 00:36:13.599
+like fake data.
+
+00:36:13.599 --> 00:36:15.040
+So you might have some insight that a
+
+00:36:15.040 --> 00:36:17.200
+drug is working for you. You then place
+
+00:36:17.200 --> 00:36:20.000
+a very big bet on that. And
+
+00:36:20.000 --> 00:36:22.160
+&gt;&gt; fair I mean if I had good intentions but
+
+00:36:22.160 --> 00:36:23.920
+I&#x27;m thinking of like people who may not
+
+00:36:23.920 --> 00:36:25.839
+or have ulterior motives where they may
+
+00:36:25.839 --> 00:36:28.079
+not want a specific drug or molecule to
+
+00:36:28.079 --> 00:36:30.240
+actually work. You know like you see
+
+00:36:30.240 --> 00:36:32.720
+this quite often especially with big
+
+00:36:32.720 --> 00:36:34.560
+pharma is that there&#x27;s certain drugs or
+
+00:36:34.560 --> 00:36:36.400
+molecules that are not yet out in the
+
+00:36:36.400 --> 00:36:38.640
+market and they&#x27;re holding back to
+
+00:36:38.640 --> 00:36:40.400
+they&#x27;re essentially holding on to it.
+
+00:36:40.400 --> 00:36:42.400
+And so I wonder in this situation why
+
+00:36:42.400 --> 00:36:44.320
+you create a platform that is meant for
+
+00:36:44.320 --> 00:36:46.079
+the better than everyone else there
+
+00:36:46.079 --> 00:36:47.839
+still may be some people that are going
+
+00:36:47.839 --> 00:36:49.920
+to be inputting their own information
+
+00:36:49.920 --> 00:36:52.079
+whether or not that is possible to
+
+00:36:52.079 --> 00:36:56.320
+verify for their own purposes.
+
+00:36:56.320 --> 00:36:57.760
+&gt;&gt; Well, eventually the readout comes from
+
+00:36:57.760 --> 00:37:00.400
+clinical trial.gov on what is correct
+
+00:37:00.400 --> 00:37:03.280
+and incorrect. And um so if someone is
+
+00:37:03.280 --> 00:37:06.640
+uploading a lot of fake data and betting
+
+00:37:06.640 --> 00:37:09.040
+in and betting similarly to what they&#x27;re
+
+00:37:09.040 --> 00:37:10.480
+uploading, they&#x27;re eventually going to
+
+00:37:10.480 --> 00:37:13.280
+be left holding this bag of no tokens
+
+00:37:13.280 --> 00:37:15.520
+when the yes signal comes out and
+
+00:37:15.520 --> 00:37:17.599
+they&#x27;re going to lose money. So like the
+
+00:37:17.599 --> 00:37:19.520
+the the platform is trying to make it so
+
+00:37:19.520 --> 00:37:21.520
+that like the economic systems are
+
+00:37:21.520 --> 00:37:23.680
+aligned so that people aren&#x27;t
+
+00:37:23.680 --> 00:37:26.079
+incentivized to do that and then also I
+
+00:37:26.079 --> 00:37:27.440
+think at some point there will be like a
+
+00:37:27.440 --> 00:37:29.040
+reputation system where you can like
+
+00:37:29.040 --> 00:37:30.800
+click back with the per user&#x27;s
+
+00:37:30.800 --> 00:37:33.119
+permission you can see their trail of of
+
+00:37:33.119 --> 00:37:34.880
+trades and their data that they&#x27;ve
+
+00:37:34.880 --> 00:37:36.640
+uploaded and you can say like oh this
+
+00:37:36.640 --> 00:37:38.480
+person is a real person they&#x27;ve uploaded
+
+00:37:38.480 --> 00:37:40.720
+a lot of times they&#x27;ve been correct a
+
+00:37:40.720 --> 00:37:42.320
+lot of times I tend to believe that
+
+00:37:42.320 --> 00:37:42.880
+they&#x27;re correct.
+
+00:37:42.880 --> 00:37:46.240
+&gt;&gt; Gotcha. Thank you. Right, let&#x27;s zoom
+
+00:37:46.240 --> 00:37:47.760
+back.
+
+00:37:47.760 --> 00:37:48.480
+&gt;&gt; Um,
+
+00:37:48.480 --> 00:37:51.520
+&gt;&gt; so why not why why not paid them for the
+
+00:37:51.520 --> 00:37:54.079
+data? Why have this prediction?
+
+00:37:54.079 --> 00:37:55.440
+&gt;&gt; Well, yeah. So, if you pay them for the
+
+00:37:55.440 --> 00:37:57.680
+data, they might be incentivized to just
+
+00:37:57.680 --> 00:38:00.160
+um civil attack it and just like upload
+
+00:38:00.160 --> 00:38:01.760
+all the fake data. I think the cool part
+
+00:38:01.760 --> 00:38:03.599
+of this is like when you don&#x27;t pay them
+
+00:38:03.599 --> 00:38:05.520
+for the data and you&#x27;re paying them for
+
+00:38:05.520 --> 00:38:07.599
+their like accuracy of their data, it
+
+00:38:07.599 --> 00:38:09.520
+actually incentivizes them to upload
+
+00:38:09.520 --> 00:38:11.359
+accurate data and monetize it if they&#x27;re
+
+00:38:11.359 --> 00:38:13.200
+correct.
+
+00:38:13.200 --> 00:38:14.720
+But then they still able to make a
+
+00:38:14.720 --> 00:38:16.240
+choice whether they want to wait on yes
+
+00:38:16.240 --> 00:38:17.200
+or no. Right.
+
+00:38:17.200 --> 00:38:20.240
+&gt;&gt; Well, they can also use the LLM either
+
+00:38:20.240 --> 00:38:23.520
+locally or or um or a remote one in the
+
+00:38:23.520 --> 00:38:25.280
+future to be able to bet on that.
+
+00:38:25.280 --> 00:38:27.839
+&gt;&gt; But how will you know exactly like let&#x27;s
+
+00:38:27.839 --> 00:38:29.599
+say I have only one data, right?
+
+00:38:29.599 --> 00:38:31.920
+&gt;&gt; Um how will I know the data that I have
+
+00:38:31.920 --> 00:38:34.960
+will uh make the job work or not, right?
+
+00:38:34.960 --> 00:38:36.720
+Because you need like thousands of data.
+
+00:38:36.720 --> 00:38:37.040
+So
+
+00:38:37.040 --> 00:38:39.440
+&gt;&gt; Oh, yeah. But this isn&#x27;t N of one. So it
+
+00:38:39.440 --> 00:38:41.520
+just your your your your variance and
+
+00:38:41.520 --> 00:38:44.320
+your error bars are somewhat measurable.
+
+00:38:44.320 --> 00:38:48.240
+And so it&#x27;s not perfect, but um like how
+
+00:38:48.240 --> 00:38:50.000
+do you it&#x27;s like if you do it enough
+
+00:38:50.000 --> 00:38:51.440
+times and you and you&#x27;re uploading good
+
+00:38:51.440 --> 00:38:53.200
+data, you should be on the right side of
+
+00:38:53.200 --> 00:38:54.800
+things.
+
+00:38:54.800 --> 00:38:56.480
+It&#x27;s not a for sure bet, right? It&#x27;s
+
+00:38:56.480 --> 00:38:58.480
+like you&#x27;re you are still like but I
+
+00:38:58.480 --> 00:39:00.560
+would have the incentive to wait because
+
+00:39:00.560 --> 00:39:02.880
+I can see other people uploading the
+
+00:39:02.880 --> 00:39:06.480
+data and see it&#x27;s going right.
+
+00:39:06.480 --> 00:39:08.160
+&gt;&gt; What was it? uh I&#x27;ll wait for other
+
+00:39:08.160 --> 00:39:10.160
+people to upload their data and
+
+00:39:10.160 --> 00:39:12.640
+understand whether a particular kind of
+
+00:39:12.640 --> 00:39:15.520
+sleeping pattern uh is helped by you
+
+00:39:15.520 --> 00:39:17.280
+know like a particular d right instead
+
+00:39:17.280 --> 00:39:20.240
+of me being the first person to make the
+
+00:39:20.240 --> 00:39:22.560
+&gt;&gt; well I think also the earlier you are if
+
+00:39:22.560 --> 00:39:25.440
+something is like madly mispriced
+
+00:39:25.440 --> 00:39:28.240
+um you you&#x27;ll you&#x27;ll earn more too so if
+
+00:39:28.240 --> 00:39:30.240
+something is like maybe you have a hunch
+
+00:39:30.240 --> 00:39:31.520
+or something that something is mispriced
+
+00:39:31.520 --> 00:39:33.359
+and you like try it and you see that it
+
+00:39:33.359 --> 00:39:35.200
+is mispriced then you upload your
+
+00:39:35.200 --> 00:39:36.800
+individual piece of data and then you
+
+00:39:36.800 --> 00:39:38.400
+you.
+
+00:39:38.400 --> 00:39:39.280
+&gt;&gt; Oh yeah, go ahead.
+
+00:39:39.280 --> 00:39:43.640
+&gt;&gt; So I understand this is not like an
+
+00:39:44.720 --> 00:39:48.760
+individual really.
+
+00:39:49.680 --> 00:39:51.440
+It&#x27;s not like so so how does the
+
+00:39:51.440 --> 00:39:54.707
+reputation system
+
+00:39:54.707 --> 00:39:56.400
+[clears throat] lie about my results?
+
+00:39:56.400 --> 00:39:59.520
+I&#x27;m like penalized for that.
+
+00:39:59.520 --> 00:40:00.960
+&gt;&gt; Yeah. So I think this is a great
+
+00:40:00.960 --> 00:40:02.640
+question. So I think right now we think
+
+00:40:02.640 --> 00:40:04.960
+of clinical trials as being someone is
+
+00:40:04.960 --> 00:40:06.800
+very sickly and they might enroll in one
+
+00:40:06.800 --> 00:40:08.800
+because they have one very rare disease.
+
+00:40:08.800 --> 00:40:11.599
+But what we&#x27;re seeing is that people are
+
+00:40:11.599 --> 00:40:13.040
+clinical trials should be used for
+
+00:40:13.040 --> 00:40:14.960
+things like looks maxing and peptides
+
+00:40:14.960 --> 00:40:16.640
+and things that are for healthy people.
+
+00:40:16.640 --> 00:40:18.079
+And I think we&#x27;re going to see a lot
+
+00:40:18.079 --> 00:40:20.160
+like for longevity and these markets are
+
+00:40:20.160 --> 00:40:22.640
+huge and you could enroll in many
+
+00:40:22.640 --> 00:40:24.240
+perhaps many looks maxing clinical
+
+00:40:24.240 --> 00:40:26.480
+trials or many longevity trials or many
+
+00:40:26.480 --> 00:40:28.560
+sleep trials as opposed to thinking
+
+00:40:28.560 --> 00:40:31.040
+around like all clinical trials are for
+
+00:40:31.040 --> 00:40:33.440
+very rare diseases that you only that
+
+00:40:33.440 --> 00:40:35.280
+are for elderly people who are going to
+
+00:40:35.280 --> 00:40:39.440
+die in like six months no matter what.
+
+00:40:39.440 --> 00:40:41.520
+So I think I think if you you look at it
+
+00:40:41.520 --> 00:40:43.440
+through the lens of like today clinical
+
+00:40:43.440 --> 00:40:45.440
+trials are like the way they are. You&#x27;re
+
+00:40:45.440 --> 00:40:47.280
+right. But I think if you perhaps think
+
+00:40:47.280 --> 00:40:48.720
+about clinical trials as being more
+
+00:40:48.720 --> 00:40:51.520
+broad and like potentially uh someone be
+
+00:40:51.520 --> 00:40:53.040
+constantly enrolling in clinical trials
+
+00:40:53.040 --> 00:40:54.880
+based on all sorts of things. I think
+
+00:40:54.880 --> 00:40:56.560
+maybe they could have a more reputation
+
+00:40:56.560 --> 00:40:58.480
+based on okay but like at the current
+
+00:40:58.480 --> 00:41:01.200
+time like all the 6,000
+
+00:41:01.200 --> 00:41:03.200
+&gt;&gt; yeah you might be eligible for very few.
+
+00:41:03.200 --> 00:41:06.200
+Yeah.
+
+00:41:06.960 --> 00:41:10.079
+Okay. So that&#x27;s that and then this gets
+
+00:41:10.079 --> 00:41:11.680
+into the last part of the talk which is
+
+00:41:11.680 --> 00:41:14.800
+around like benchmarking. Um so I think
+
+00:41:14.800 --> 00:41:17.119
+RSI so recursive self-improving models
+
+00:41:17.119 --> 00:41:19.760
+are coming very quickly and um a lot of
+
+00:41:19.760 --> 00:41:22.319
+the benchmarks that we&#x27;re using today um
+
+00:41:22.319 --> 00:41:25.359
+to test them are uh becoming saturated.
+
+00:41:25.359 --> 00:41:27.440
+So there&#x27;s like terminal bench there&#x27;s
+
+00:41:27.440 --> 00:41:31.359
+like a last exam humanity&#x27;s last exam um
+
+00:41:31.359 --> 00:41:34.720
+the arc test and they&#x27;re all like at 99
+
+00:41:34.720 --> 00:41:39.280
+95 or 80 or 90 99%. Um, so we need we
+
+00:41:39.280 --> 00:41:41.680
+need more. And so what do you do like
+
+00:41:41.680 --> 00:41:43.440
+what is a model to do when it when it&#x27;s
+
+00:41:43.440 --> 00:41:44.960
+already maxing out the benchmarks? It&#x27;s
+
+00:41:44.960 --> 00:41:46.720
+very hard to create models that are
+
+00:41:46.720 --> 00:41:48.480
+going to get smarter if they&#x27;re already
+
+00:41:48.480 --> 00:41:51.760
+saturating all of these. So it&#x27;s very
+
+00:41:51.760 --> 00:41:53.680
+important that we uh come up with new
+
+00:41:53.680 --> 00:41:56.000
+benchmarks that are harder. Um and I
+
+00:41:56.000 --> 00:41:58.000
+think science just in general is a great
+
+00:41:58.000 --> 00:42:00.400
+way is a is a new type of benchmark that
+
+00:42:00.400 --> 00:42:02.000
+and there are science benchmarks of
+
+00:42:02.000 --> 00:42:04.960
+course um existing but um I think this
+
+00:42:04.960 --> 00:42:06.400
+is like in general like a good
+
+00:42:06.400 --> 00:42:08.880
+unexplored field that uh where there
+
+00:42:08.880 --> 00:42:11.599
+could be more and uh in particular
+
+00:42:11.599 --> 00:42:12.880
+clinical trials are great because
+
+00:42:12.880 --> 00:42:14.800
+there&#x27;s a lot of evergreen clinical
+
+00:42:14.800 --> 00:42:17.440
+trials. So there&#x27;s constant there&#x27;s
+
+00:42:17.440 --> 00:42:19.200
+7,000 new ones that are coming and
+
+00:42:19.200 --> 00:42:20.880
+they&#x27;re very high quality data which is
+
+00:42:20.880 --> 00:42:22.480
+another problem. They are harder to run.
+
+00:42:22.480 --> 00:42:23.520
+Also, one of the things that&#x27;s nice
+
+00:42:23.520 --> 00:42:25.440
+around Terminal Bench is like you build
+
+00:42:25.440 --> 00:42:28.480
+a program and you can run it 10,000
+
+00:42:28.480 --> 00:42:30.160
+times because you&#x27;re just like setting
+
+00:42:30.160 --> 00:42:31.920
+up an environment and running it on a
+
+00:42:31.920 --> 00:42:33.839
+computer and it&#x27;s relatively simple to
+
+00:42:33.839 --> 00:42:36.800
+do. Um, and so there&#x27;s there&#x27;s new ones
+
+00:42:36.800 --> 00:42:40.640
+and you can&#x27;t benchmark it at all. Um so
+
+00:42:40.640 --> 00:42:42.960
+um we&#x27;re we&#x27;re we&#x27;re we&#x27;re having this
+
+00:42:42.960 --> 00:42:44.720
+thing called endpoint bench which is
+
+00:42:44.720 --> 00:42:47.440
+like a benchmark for uh clinical trials
+
+00:42:47.440 --> 00:42:50.240
+and uh it&#x27;s an open benchmark for um
+
+00:42:50.240 --> 00:42:53.680
+forecasting. Um and it&#x27;s sort of
+
+00:42:53.680 --> 00:42:57.200
+composed of two parts. Um one is um
+
+00:42:57.200 --> 00:42:58.880
+around like the static part and one is
+
+00:42:58.880 --> 00:43:01.040
+like around the live update part. Um
+
+00:43:01.040 --> 00:43:03.040
+it&#x27;s it&#x27;s an extension of trial bench
+
+00:43:03.040 --> 00:43:05.280
+and harbor and we&#x27;re sort of developing
+
+00:43:05.280 --> 00:43:08.880
+it um to be within that framework.
+
+00:43:08.880 --> 00:43:11.920
+Um and uh there&#x27;s there&#x27;s sort of two
+
+00:43:11.920 --> 00:43:14.079
+parts which is the historical archive.
+
+00:43:14.079 --> 00:43:15.760
+So you need something for them to train
+
+00:43:15.760 --> 00:43:18.319
+on actively so that you can iterate and
+
+00:43:18.319 --> 00:43:19.920
+run these like thousands and thousands
+
+00:43:19.920 --> 00:43:21.920
+and thousands of times. But then you
+
+00:43:21.920 --> 00:43:25.200
+also need um the new stuff to hold out
+
+00:43:25.200 --> 00:43:28.640
+for your um test cases and um you know
+
+00:43:28.640 --> 00:43:30.640
+it and that they can&#x27;t be trained on and
+
+00:43:30.640 --> 00:43:32.240
+to be able to test these things
+
+00:43:32.240 --> 00:43:35.119
+actively. Um we&#x27;ve identified a number
+
+00:43:35.119 --> 00:43:37.920
+of tasks. Um we&#x27;re starting with um
+
+00:43:37.920 --> 00:43:40.480
+endpoint prediction and trial outcome
+
+00:43:40.480 --> 00:43:43.119
+and then we want to get into uh this is
+
+00:43:43.119 --> 00:43:45.280
+the first priority. Um we want to get
+
+00:43:45.280 --> 00:43:47.440
+into eligibility like if a patient is
+
+00:43:47.440 --> 00:43:49.839
+eligible, if a if a trial fails, why
+
+00:43:49.839 --> 00:43:52.079
+does it fail? Uh how long will a trial
+
+00:43:52.079 --> 00:43:54.560
+last um how how much people will drop
+
+00:43:54.560 --> 00:43:56.960
+out? If there&#x27;s any adverse side effects
+
+00:43:56.960 --> 00:43:59.920
+or mortality and then uh dose finding
+
+00:43:59.920 --> 00:44:01.599
+which is a very hard thing to predict as
+
+00:44:01.599 --> 00:44:04.000
+well. So we want to eventually go
+
+00:44:04.000 --> 00:44:05.680
+through these but this is the the top
+
+00:44:05.680 --> 00:44:08.640
+priority just given um our domain of
+
+00:44:08.640 --> 00:44:11.440
+expertise
+
+00:44:11.440 --> 00:44:15.440
+and uh lastly a summary. Um so we sort
+
+00:44:15.440 --> 00:44:18.160
+of started with endpoint arena which is
+
+00:44:18.160 --> 00:44:20.720
+a rec which allows people to like bet on
+
+00:44:20.720 --> 00:44:22.160
+their beliefs and uses financial
+
+00:44:22.160 --> 00:44:24.480
+incentives to figure out uncertainty
+
+00:44:24.480 --> 00:44:27.520
+around clinical trials. Um then we uh
+
+00:44:27.520 --> 00:44:29.599
+introduced anecdote which is a way to
+
+00:44:29.599 --> 00:44:31.359
+actually like uh allow people to
+
+00:44:31.359 --> 00:44:33.359
+monetize their own clinical trials and
+
+00:44:33.359 --> 00:44:36.079
+to add to add evidence uh if a clinical
+
+00:44:36.079 --> 00:44:37.920
+trial is going to be successful. And
+
+00:44:37.920 --> 00:44:41.119
+then lastly um we uh we have endpoint
+
+00:44:41.119 --> 00:44:44.079
+bench which is a uh an environment for
+
+00:44:44.079 --> 00:44:48.400
+to train state-of-the-art uh AIs to be
+
+00:44:48.400 --> 00:44:51.119
+able to uh expand their capacity with
+
+00:44:51.119 --> 00:44:53.760
+with respect to science. Um, thank you
+
+00:44:53.760 --> 00:44:56.011
+very much.
+
+00:44:56.011 --> 00:44:58.031
+[applause]
+
+00:45:00.400 --> 00:45:03.200
+Any questions?
+
+00:45:03.200 --> 00:45:03.520
+&gt;&gt; Yeah.
+
+00:45:03.520 --> 00:45:05.520
+&gt;&gt; So, where are you getting all this trial
+
+00:45:05.520 --> 00:45:06.160
+data from?
+
+00:45:06.160 --> 00:45:08.720
+&gt;&gt; Uh, clinical trial.gov has it all.
+
+00:45:08.720 --> 00:45:10.720
+&gt;&gt; And you get like 7,000 years.
+
+00:45:10.720 --> 00:45:13.359
+&gt;&gt; Yeah. Yeah. Exactly.
+
+00:45:13.359 --> 00:45:14.640
+&gt;&gt; Yeah.
+
+00:45:14.640 --> 00:45:15.280
+&gt;&gt; Yeah. Go ahead.
+
+00:45:15.280 --> 00:45:18.079
+&gt;&gt; So, um, you can train on the every every
+
+00:45:18.079 --> 00:45:20.400
+data from
+
+00:45:20.400 --> 00:45:22.880
+you can never get like
+
+00:45:22.880 --> 00:45:24.880
+You can&#x27;t unless you do the anecdote bio
+
+00:45:24.880 --> 00:45:26.400
+unless you do the anecdote thing. But
+
+00:45:26.400 --> 00:45:28.000
+yes, you you can&#x27;t do that and that is
+
+00:45:28.000 --> 00:45:29.359
+that is a weakness. But we&#x27;re trying to
+
+00:45:29.359 --> 00:45:31.440
+figure out ways to get around that.
+
+00:45:31.440 --> 00:45:34.720
+&gt;&gt; Yeah. Yeah.
+
+00:45:34.720 --> 00:45:37.359
+&gt;&gt; Uh well, you the patient has the choice
+
+00:45:37.359 --> 00:45:41.359
+and you can uh you have a local LMER
+
+00:45:41.359 --> 00:45:43.200
+um which it does now, which is very bad.
+
+00:45:43.200 --> 00:45:44.800
+But you can also imagine that in the
+
+00:45:44.800 --> 00:45:46.319
+future you could run it on your own
+
+00:45:46.319 --> 00:45:47.920
+private computer or you could choose to
+
+00:45:47.920 --> 00:45:49.680
+upload it to cloud on the cloud or
+
+00:45:49.680 --> 00:45:51.599
+something like that.
+
+00:45:51.599 --> 00:45:53.359
+Are you guys are you are you scrolling
+
+00:45:53.359 --> 00:45:53.920
+pictures?
+
+00:45:53.920 --> 00:45:56.000
+&gt;&gt; No, no, it&#x27;s all on the phone. So, it&#x27;s
+
+00:45:56.000 --> 00:45:57.520
+like and this is a very this is that&#x27;s
+
+00:45:57.520 --> 00:45:59.359
+the test pilot. There&#x27;s many things that
+
+00:45:59.359 --> 00:46:01.920
+you can tweak to figure out the level of
+
+00:46:01.920 --> 00:46:03.440
+privacy that you want.
+
+00:46:03.440 --> 00:46:05.599
+&gt;&gt; That&#x27;s a good question. Yeah. Go ahead.
+
+00:46:05.599 --> 00:46:10.400
+&gt;&gt; What is the hardness agent? Like earlier
+
+00:46:10.400 --> 00:46:12.240
+you just had a bunch of models on the
+
+00:46:12.240 --> 00:46:12.800
+screen.
+
+00:46:12.800 --> 00:46:15.359
+&gt;&gt; Oh, that was the common prompt here.
+
+00:46:15.359 --> 00:46:18.800
+&gt;&gt; Yeah. So, but like um you can&#x27;t just
+
+00:46:18.800 --> 00:46:22.480
+like one shot the this and just ask it
+
+00:46:22.480 --> 00:46:24.880
+to or are you doing like a deep research
+
+00:46:24.880 --> 00:46:25.119
+thing?
+
+00:46:25.119 --> 00:46:27.040
+&gt;&gt; Yeah, exactly. So, you we we basically
+
+00:46:27.040 --> 00:46:30.560
+max out the um the thinking capacity on
+
+00:46:30.560 --> 00:46:31.520
+it all.
+
+00:46:31.520 --> 00:46:34.000
+&gt;&gt; So, we say like use this many tokens
+
+00:46:34.000 --> 00:46:35.680
+which is like reasonable. So, you use
+
+00:46:35.680 --> 00:46:37.520
+like a million tokens. Well, not a
+
+00:46:37.520 --> 00:46:38.880
+million, but yeah, there&#x27;s so there we
+
+00:46:38.880 --> 00:46:40.880
+have the spec. We basically give it as
+
+00:46:40.880 --> 00:46:44.079
+good of Yeah, we basically give it like
+
+00:46:44.079 --> 00:46:47.760
+the uh the extra version of all. So, so
+
+00:46:47.760 --> 00:46:49.119
+my intuition though is that like I don&#x27;t
+
+00:46:49.119 --> 00:46:50.720
+know if you want to do an actual
+
+00:46:50.720 --> 00:46:52.240
+accurate prediction, you probably are
+
+00:46:52.240 --> 00:46:55.440
+going to need to do like run some I
+
+00:46:55.440 --> 00:46:56.960
+don&#x27;t know maybe say you want to do like
+
+00:46:56.960 --> 00:46:59.359
+some Monte Carlo simulation of all these
+
+00:46:59.359 --> 00:47:01.440
+different paths or whatever and like you
+
+00:47:01.440 --> 00:47:02.880
+can&#x27;t really just do that in like a
+
+00:47:02.880 --> 00:47:04.480
+simple prompt. So tin needs to be like
+
+00:47:04.480 --> 00:47:07.440
+some a system that like has multiple
+
+00:47:07.440 --> 00:47:08.720
+components, right?
+
+00:47:08.720 --> 00:47:11.920
+&gt;&gt; Totally. That probably is more important
+
+00:47:11.920 --> 00:47:14.640
+than just the choice of
+
+00:47:14.640 --> 00:47:16.319
+right. I mean that that&#x27;s my guess,
+
+00:47:16.319 --> 00:47:16.640
+right?
+
+00:47:16.640 --> 00:47:18.720
+&gt;&gt; Yeah. So I&#x27;d say this is a good first
+
+00:47:18.720 --> 00:47:21.760
+step on it like of a baseline to
+
+00:47:21.760 --> 00:47:24.240
+establish how good these models are. In
+
+00:47:24.240 --> 00:47:26.960
+the future, maybe people could uh upload
+
+00:47:26.960 --> 00:47:28.240
+their could come up with different ones
+
+00:47:28.240 --> 00:47:30.800
+and just bet on the site and we wouldn&#x27;t
+
+00:47:30.800 --> 00:47:32.480
+be necessarily benchmarking them, but it
+
+00:47:32.480 --> 00:47:34.240
+would be, you know, someone might do a
+
+00:47:34.240 --> 00:47:35.920
+lot more pre-training, someone might do
+
+00:47:35.920 --> 00:47:38.319
+more thinking, someone might uh, you
+
+00:47:38.319 --> 00:47:40.400
+know, give it some patient data or
+
+00:47:40.400 --> 00:47:41.839
+something like that. And so this is like
+
+00:47:41.839 --> 00:47:43.359
+a baseline of how well the models do,
+
+00:47:43.359 --> 00:47:44.480
+but it&#x27;s certainly maybe not. It&#x27;s
+
+00:47:44.480 --> 00:47:48.040
+certainly not the best.
+
+00:47:48.800 --> 00:47:50.400
+&gt;&gt; Anybody else? Yeah. Go ahead.
+
+00:47:50.400 --> 00:47:52.560
+&gt;&gt; Yeah. So are you settling your lines
+
+00:47:52.560 --> 00:47:54.720
+with protocols or is it a
+
+00:47:54.720 --> 00:47:58.400
+&gt;&gt; uh no we basically use GPT5
+
+00:47:58.400 --> 00:48:03.520
+to uh set to as the oracle here and we
+
+00:48:03.520 --> 00:48:05.760
+say was this resolved on this we
+
+00:48:05.760 --> 00:48:07.839
+basically for all the open markets we
+
+00:48:07.839 --> 00:48:10.319
+say were any of these resolved with
+
+00:48:10.319 --> 00:48:13.280
+confidence more than like 95% based on
+
+00:48:13.280 --> 00:48:15.760
+the trial inut based on the trial input
+
+00:48:15.760 --> 00:48:18.079
+and like the announced thing and it uses
+
+00:48:18.079 --> 00:48:19.520
+like web search to be able to figure
+
+00:48:19.520 --> 00:48:21.760
+that
+
+00:48:23.040 --> 00:48:23.680
+Yeah.
+
+00:48:23.680 --> 00:48:25.520
+&gt;&gt; What is stopping people from just
+
+00:48:25.520 --> 00:48:27.920
+spending on market?
+
+00:48:27.920 --> 00:48:29.599
+&gt;&gt; Uh we have more volume than they do
+
+00:48:29.599 --> 00:48:31.119
+actually.
+
+00:48:31.119 --> 00:48:32.559
+&gt;&gt; Is this real money?
+
+00:48:32.559 --> 00:48:35.880
+&gt;&gt; Uh yeah.
+
+00:48:36.093 --> 00:48:36.240
+[laughter]
+
+00:48:36.240 --> 00:48:39.280
+&gt;&gt; You already was it? You you already have
+
+00:48:39.280 --> 00:48:40.319
+real volume.
+
+00:48:40.319 --> 00:48:42.319
+&gt;&gt; Real volume. It&#x27;s okay. It&#x27;s not like
+
+00:48:42.319 --> 00:48:44.480
+amazing. Yeah.
+
+00:48:44.480 --> 00:48:47.359
+She said these are like non US
+
+00:48:47.359 --> 00:48:48.960
+and there are big companies or like the
+
+00:48:48.960 --> 00:48:51.680
+small companies people
+
+00:48:51.680 --> 00:48:53.920
+&gt;&gt; I mean like the the pharma companies
+
+00:48:53.920 --> 00:48:54.960
+&gt;&gt; well the farmer you don&#x27;t need the
+
+00:48:54.960 --> 00:48:56.400
+permission of the farmer company to put
+
+00:48:56.400 --> 00:48:58.319
+them on here you&#x27;re just betting on the
+
+00:48:58.319 --> 00:49:00.079
+outcome of their market you don&#x27;t have
+
+00:49:00.079 --> 00:49:03.800
+to sign them up directly
+
+00:49:04.800 --> 00:49:07.839
+&gt;&gt; oh yeah go ahead do these watch sales
+
+00:49:07.839 --> 00:49:11.359
+&gt;&gt; or volume yeah don&#x27;t it doesn&#x27;t seem to
+
+00:49:11.359 --> 00:49:14.559
+be a problem but we don&#x27;t we
+
+00:49:14.880 --> 00:49:15.680
+Someone else asked that.
+
+00:49:15.680 --> 00:49:16.640
+&gt;&gt; Yeah, go ahead.
+
+00:49:16.640 --> 00:49:18.079
+&gt;&gt; Uh, you mentioned that there&#x27;s actual
+
+00:49:18.079 --> 00:49:19.839
+people trading on this and you mentioned
+
+00:49:19.839 --> 00:49:21.359
+that there&#x27;s a fake market maker
+
+00:49:21.359 --> 00:49:23.359
+essentially that provides liquidity.
+
+00:49:23.359 --> 00:49:25.280
+&gt;&gt; It&#x27;s not a fake one. It&#x27;s an
+
+00:49:25.280 --> 00:49:27.920
+&gt;&gt; So then who&#x27;s like who&#x27;s paying the
+
+00:49:27.920 --> 00:49:30.920
+&gt;&gt; we
+
+00:49:34.160 --> 00:49:36.160
+&gt;&gt; Yeah.
+
+00:49:36.160 --> 00:49:40.359
+&gt;&gt; I mean you have to do some stuff.
+
+00:49:41.200 --> 00:49:42.640
+I&#x27;m just curious like if you&#x27;re creating
+
+00:49:42.640 --> 00:49:45.200
+this whole model structure with AI to
+
+00:49:45.200 --> 00:49:49.079
+find the best AI to trade
+
+00:49:51.280 --> 00:49:54.680
+and trade on
+
+00:49:55.760 --> 00:50:00.400
+if you&#x27;re data to find predictable
+
+00:50:00.400 --> 00:50:03.839
+happens why would you not just
+
+00:50:03.839 --> 00:50:04.880
+yourself
+
+00:50:04.880 --> 00:50:07.119
+&gt;&gt; oh because our goal here is to become a
+
+00:50:07.119 --> 00:50:09.359
+platform not necessarily like you could
+
+00:50:09.359 --> 00:50:11.440
+do that I think the goal the goal here
+
+00:50:11.440 --> 00:50:14.800
+is a platform on for like for the
+
+00:50:14.800 --> 00:50:17.440
+financial incentive for
+
+00:50:17.440 --> 00:50:21.119
+science for financial
+
+00:50:21.119 --> 00:50:22.240
+&gt;&gt; uh yeah
+
+00:50:22.240 --> 00:50:24.400
+&gt;&gt; you may have mentioned this but um
+
+00:50:24.400 --> 00:50:26.079
+without deidentifying how are you
+
+00:50:26.079 --> 00:50:29.920
+planning to access participants
+
+00:50:29.920 --> 00:50:32.240
+&gt;&gt; oh if they if they use the app so we
+
+00:50:32.240 --> 00:50:33.599
+have a we would have a connection to
+
+00:50:33.599 --> 00:50:36.079
+them as like a as a way to predict more
+
+00:50:36.079 --> 00:50:38.079
+accurately uh if the trial is going to
+
+00:50:38.079 --> 00:50:40.240
+work or not But we wouldn&#x27;t we wouldn&#x27;t
+
+00:50:40.240 --> 00:50:41.920
+have access to the actual patient. It&#x27;s
+
+00:50:41.920 --> 00:50:44.720
+just patients who choose to augment the
+
+00:50:44.720 --> 00:50:47.720
+data.
+
+00:50:47.839 --> 00:50:51.520
+&gt;&gt; Yeah. So patients in these trials
+
+00:50:51.520 --> 00:50:56.000
+uploading information from those trials
+
+00:50:56.000 --> 00:51:00.480
+like basically get from
+
+00:51:00.480 --> 00:51:01.920
+&gt;&gt; Well, this would be this this would be
+
+00:51:01.920 --> 00:51:03.680
+for like people that aren&#x27;t
+
+00:51:03.680 --> 00:51:05.119
+&gt;&gt; Okay. Yeah. Yeah. So, what better
+
+00:51:05.119 --> 00:51:05.920
+result?
+
+00:51:05.920 --> 00:51:06.480
+&gt;&gt; What?
+
+00:51:06.480 --> 00:51:08.319
+&gt;&gt; No. So, maybe it&#x27;s a sleep trial and
+
+00:51:08.319 --> 00:51:10.160
+there&#x27;s like a certain they&#x27;re they&#x27;re
+
+00:51:10.160 --> 00:51:12.559
+taking magnesium to help them sleep. It
+
+00:51:12.559 --> 00:51:14.160
+would help. They could upload their
+
+00:51:14.160 --> 00:51:17.160
+results.
+
+00:51:18.559 --> 00:51:20.559
+&gt;&gt; So, something that&#x27;s like a similar
+
+00:51:20.559 --> 00:51:22.800
+there there&#x27;s a trial for drugs. Maybe
+
+00:51:22.800 --> 00:51:24.800
+there&#x27;s a they&#x27;re taking a similar drug
+
+00:51:24.800 --> 00:51:27.040
+that they got from a compound pharmacy.
+
+00:51:27.040 --> 00:51:31.200
+So I guess how does that how
+
+00:51:31.200 --> 00:51:32.800
+is that information how are you using
+
+00:51:32.800 --> 00:51:34.400
+that information? You don&#x27;t actually
+
+00:51:34.400 --> 00:51:38.960
+know the end of that trius like how are
+
+00:51:38.960 --> 00:51:41.200
+you
+
+00:51:41.200 --> 00:51:45.119
+or I guess a yes or no trial you don&#x27;t
+
+00:51:45.119 --> 00:51:46.720
+know
+
+00:51:46.720 --> 00:51:50.160
+deeply how are you comparing? So maybe
+
+00:51:50.160 --> 00:51:52.880
+maybe so there&#x27;s a compounding pharmacy
+
+00:51:52.880 --> 00:51:55.040
+where you&#x27;re able to get a similar drug
+
+00:51:55.040 --> 00:51:56.720
+&gt;&gt; you take that drug say how well it works
+
+00:51:56.720 --> 00:51:57.520
+for you
+
+00:51:57.520 --> 00:52:00.640
+&gt;&gt; and there&#x27;s already an existing trial of
+
+00:52:00.640 --> 00:52:03.119
+that same or similar drug
+
+00:52:03.119 --> 00:52:04.559
+&gt;&gt; how do you know
+
+00:52:04.559 --> 00:52:07.040
+&gt;&gt; oh because you know what the trial is
+
+00:52:07.040 --> 00:52:08.800
+&gt;&gt; you can look at the clinical trial page
+
+00:52:08.800 --> 00:52:14.319
+and see what you have data problem
+
+00:52:14.319 --> 00:52:18.000
+&gt;&gt; but I you can see I go but like if I&#x27;m
+
+00:52:18.000 --> 00:52:20.559
+just if took my sleep. I guess it&#x27;s kind
+
+00:52:20.559 --> 00:52:21.760
+like what am I getting out of it? Like
+
+00:52:21.760 --> 00:52:25.880
+is it just for my financial gain?
+
+00:52:26.960 --> 00:52:30.319
+&gt;&gt; Okay. All right. Any last questions?
+
+00:52:30.319 --> 00:52:34.119
+Three. Oh, yeah. Go ahead.
+
+00:52:35.760 --> 00:52:37.200
+&gt;&gt; All right. Well, thank you guys for
+
+00:52:37.200 --> 00:52:40.200
+coming.
+
+00:52:40.411 --> 00:52:42.431
+[applause]
+
+00:52:55.920 --> 00:52:58.920
+Hallelujah.
+
+00:53:09.886 --> 00:53:11.906
+&gt;&gt; [music]
+
+00:53:21.119 --> 00:53:24.280
+&gt;&gt; I got
+
+00:53:27.680 --> 00:53:30.192
+Wait,
+
+00:53:30.192 --> 00:53:32.212
+[music]
+
+00:53:53.359 --> 00:53:55.680
+one last thing. Um, if you guys want to
+
+00:53:55.680 --> 00:53:58.480
+work with us, um, here&#x27;s our contact
+
+00:53:58.480 --> 00:54:01.480
+info.
+
+00:54:02.287 --> 00:54:04.307
+[music]
+
+00:54:24.557 --> 00:54:26.577
+&gt;&gt; [music]
+
+00:54:29.142 --> 00:54:31.162
+[music]
+
+00:54:38.312 --> 00:54:38.800
+[music]
+
+00:54:38.800 --> 00:54:41.119
+&gt;&gt; You&#x27;re not
+
+00:54:49.839 --> 00:54:53.000
+You are
+
+00:55:07.359 --> 00:55:09.359
+so
+
+00:55:09.359 --> 00:55:12.440
+Heat. Heat.
+
+00:55:18.268 --> 00:55:20.288
+[music]
+
+00:55:23.599 --> 00:55:27.240
+Heat. [music] Heat.
+
+00:55:35.920 --> 00:55:39.000
+Heat. Heat.
+
+00:55:43.158 --> 00:55:45.178
+[music]
+
+00:55:46.000 --> 00:55:49.000
+Heat. Heat.
+
+00:55:57.200 --> 00:56:00.280
+Heat. Heat.
+
+00:56:04.773 --> 00:56:06.793
+[music]
+
+00:56:07.359 --> 00:56:10.359
+Yeah.
+
+00:56:11.200 --> 00:56:13.943
+Heat.
+
+00:56:13.943 --> 00:56:15.963
+[music]
+
+00:56:21.280 --> 00:56:24.280
+Heat. Heat.
+
+00:56:31.440 --> 00:56:34.680
+That&#x27;s one.
+
+00:56:41.454 --> 00:56:43.474
+[music]
+
+00:57:00.720 --> 00:57:03.720
+Heat. Heat.
+
+00:57:13.200 --> 00:57:16.200
+Yeah.
+
+00:57:25.040 --> 00:57:28.119
+Heat. Heat.
+
+00:58:06.880 --> 00:58:10.280
+We have like
+
+00:58:24.400 --> 00:58:28.119
+I And we&#x27;re not
+
+00:58:54.720 --> 00:58:57.799
+Heat. Heat.
+
+00:59:16.400 --> 00:59:19.400
+party.
+
+00:59:35.920 --> 00:59:39.160
+My Heat. Heat.
+
+00:59:46.319 --> 00:59:49.480
+I know.
+
+01:00:15.839 --> 01:00:19.480
+There&#x27;s one.
+
+01:00:45.040 --> 01:00:48.040
+Heat. Heat.
+
+01:01:11.920 --> 01:01:15.240
+I love you.
+
+01:01:24.960 --> 01:01:27.960
+Heat. Heat.
+
+01:01:34.960 --> 01:01:37.960
+Heat. Heat.
+
+01:01:50.640 --> 01:01:53.640
+Heat. Heat.
+
+01:02:00.640 --> 01:02:03.640
+Heat. Heat.
+
+01:02:15.280 --> 01:02:18.280
+Heat. Heat.
+
+01:02:25.280 --> 01:02:28.280
+Heat. Heat.
+
+01:02:42.079 --> 01:02:45.079
+Heat. Heat.
+
+01:02:52.079 --> 01:02:55.079
+Heat. Heat.
+
+01:03:02.079 --> 01:03:05.079
+Heat.
+
+01:03:10.160 --> 01:03:13.160
+Heat.
+
+01:03:20.160 --> 01:03:23.160
+Heat.
+
+01:03:39.440 --> 01:03:42.440
+Heat.
+
+01:03:46.960 --> 01:03:50.920
+Heat. Heat.
+
+01:03:57.920 --> 01:04:00.920
+Heat. Heat.
+
+01:04:10.400 --> 01:04:13.400
+Heat. Heat.
+
+01:04:20.400 --> 01:04:23.400
+Heat. Heat.
+
+01:04:30.480 --> 01:04:34.599
+Yeah. Heat.
+
+01:04:41.680 --> 01:04:44.680
+Yeah.
+
+01:04:45.200 --> 01:04:48.200
+Heat.
+
+01:04:55.280 --> 01:04:58.680
+Yeah. Heat.
+
+01:05:05.920 --> 01:05:08.920
+Oh,
+
+01:05:18.160 --> 01:05:22.200
+heat, heat.
+
+01:05:27.359 --> 01:05:30.359
+Heat.
+
+01:05:41.359 --> 01:05:44.359
+Heat.
+
+01:05:49.200 --> 01:05:52.200
+Heat.
+
+01:05:53.119 --> 01:05:56.119
+Heat.
+
+01:06:09.440 --> 01:06:12.520
+Heat. Heat.
+
+01:06:19.520 --> 01:06:22.520
+Heat. Heat.
+
+01:06:29.599 --> 01:06:31.760
+Yeah.
+
+01:06:31.760 --> 01:06:34.760
+Heat.
+
+01:06:43.119 --> 01:06:46.119
+Heat.
+
+01:06:46.960 --> 01:06:49.960
+Heat.
+
+01:06:56.960 --> 01:06:59.960
+Heat. Heat.
+
+01:07:06.960 --> 01:07:09.960
+Heat. Heat.
+
+01:07:31.839 --> 01:07:35.480
+Happy birthday.
+
+01:07:41.920 --> 01:07:44.799
+Yeah.
+
+01:07:48.906 --> 01:07:50.926
+&gt;&gt; [music]
+
+01:08:02.640 --> 01:08:06.520
+&gt;&gt; You don&#x27;t understand
+
+01:08:11.200 --> 01:08:13.680
+it.
+
+01:08:13.680 --> 01:08:16.680
+Yeah.
+
+01:08:35.120 --> 01:08:38.359
+What is it?
+
+01:08:40.000 --> 01:08:43.000
+Congratulations.
+
+01:08:58.480 --> 01:09:02.120
+Holy Spirit.
+
+01:09:48.880 --> 01:09:50.960
+obvious.
+
+01:09:59.120 --> 01:10:02.440
+I&#x27;m winning.
+
+01:10:16.800 --> 01:10:19.800
+Amazing.
+
+01:10:57.600 --> 01:11:00.600
+forever.
+
+01:11:09.600 --> 01:11:12.920
+Very rare.
+
+01:11:18.320 --> 01:11:21.480
+Hell yeah.
+
+01:11:40.800 --> 01:11:43.800
+Yeah.
+
+01:11:54.960 --> 01:11:58.120
+Make sure
+
+01:12:02.640 --> 01:12:06.840
+Yeah, not enough.
+
+01:12:26.159 --> 01:12:29.480
+I don&#x27;t know.
+
+01:12:41.679 --> 01:12:45.080
+You cannot
+
+01:13:16.560 --> 01:13:20.040
+Oh, that&#x27;s right.
+
+01:13:27.280 --> 01:13:29.280
+All
+
+01:13:41.840 --> 01:13:44.840
+right.
+
+01:13:49.760 --> 01:13:52.920
+I love
+
+01:14:18.320 --> 01:14:20.960
+me.
+
+01:14:23.199 --> 01:14:26.199
+Everybody
+
+01:14:45.760 --> 01:14:48.760
+strong.
+
+01:14:49.920 --> 01:14:53.480
+There you are.
+
+01:15:10.960 --> 01:15:13.960
+people.
+
+01:15:26.320 --> 01:15:30.280
+Maybe that&#x27;s the We&#x27;re probably
+
+01:16:05.840 --> 01:16:09.080
+My name is
+
+01:16:12.000 --> 01:16:15.000
+YouTube.
+
+01:16:21.600 --> 01:16:24.920
+Even Even
+
+01:16:33.280 --> 01:16:36.280
+Mercury.
+
+01:16:55.920 --> 01:17:00.199
+You want to face
+
+01:17:12.400 --> 01:17:15.280
+yourself?
+
+01:17:31.840 --> 01:17:35.159
+How are you?
+
+01:17:39.068 --> 01:17:40.640
+[music]
+
+01:17:40.640 --> 01:17:44.400
+&gt;&gt; Oh, what&#x27;s your name?
+
+01:17:44.400 --> 01:17:47.800
+First question
+
+01:17:56.719 --> 01:17:59.719
+still
+
+01:18:11.199 --> 01:18:16.199
+out here. I&#x27;m here for a month. So,
+
+01:18:44.640 --> 01:18:47.440
+This is a hard
+
+01:18:47.440 --> 01:18:50.239
+&gt;&gt; Yeah, I went to I went to Boston with
+
+01:18:50.239 --> 01:18:53.920
+their actually technically in
+
+01:18:53.920 --> 01:19:00.760
+Um, so I I came here for like yeah,
+
+01:19:01.280 --> 01:19:03.120
+&gt;&gt; so I came here like a week and a half
+
+01:19:03.120 --> 01:19:06.320
+ago in two days. I&#x27;m like, I&#x27;m not going
+
+01:19:06.320 --> 01:19:08.804
+back to
+
+01:19:08.804 --> 01:19:10.824
+[music]
+
+01:19:10.880 --> 01:19:14.000
+I&#x27;ll figure out
+
+01:19:14.000 --> 01:19:17.800
+&gt;&gt; I&#x27;m not going back to
+
+01:19:22.800 --> 01:19:25.800
+CF3.
+
+01:19:51.360 --> 01:19:54.360
+T7.
+
+01:20:18.159 --> 01:20:21.320
+&gt;&gt; Yeah. Yeah.
+
+01:20:26.560 --> 01:20:29.719
+Are you
+
+01:20:40.080 --> 01:20:43.640
+going to buy a healthare?
+
+01:20:47.710 --> 01:20:49.730
+&gt;&gt; [music]
+
+01:20:50.159 --> 01:20:53.159
+&gt;&gt; like
+
+01:21:08.960 --> 01:21:11.280
+charge
+
+01:21:37.760 --> 01:21:41.159
+Hi everyone. Sure.
+
+01:21:55.831 --> 01:21:57.851
+[music]
+
+01:22:02.800 --> 01:22:06.199
+&gt;&gt; Short stock.
+
+01:22:19.440 --> 01:22:22.600
+I remember
+
+01:22:22.800 --> 01:22:26.280
+we should do like
+
+01:22:37.840 --> 01:22:40.840
+Yeah.
+
+01:22:45.612 --> 01:22:47.632
+[music]
+
+01:22:54.239 --> 01:22:57.560
+&gt;&gt; Are you guys
+
+01:23:03.520 --> 01:23:06.520
+good?
+
+01:23:28.480 --> 01:23:30.000
+years.
+
+01:23:30.000 --> 01:23:34.280
+I love you.
+
+01:23:36.702 --> 01:23:38.080
+&gt;&gt; [music]
+
+01:23:38.080 --> 01:23:41.080
+&gt;&gt; heard
+
+01:24:14.239 --> 01:24:15.120
+Thank you. Bye.
+
+01:24:15.120 --> 01:24:15.920
+&gt;&gt; Bye.
+
+01:24:15.920 --> 01:24:17.360
+&gt;&gt; I&#x27;m going to text you about events this
+
+01:24:17.360 --> 01:24:18.560
+week. Just send them to me.
+
+01:24:18.560 --> 01:24:19.920
+&gt;&gt; Perfect. We&#x27;ll do. Nice to meet you
+
+01:24:19.920 --> 01:24:20.080
+guys.
+
+01:24:20.080 --> 01:24:23.480
+&gt;&gt; Nice to meet you.
+
+01:24:38.928 --> 01:24:40.948
+&gt;&gt; [music]
+
+01:24:44.168 --> 01:24:46.188
+[music]
+
+01:24:53.920 --> 01:24:57.480
+&gt;&gt; I didn&#x27;t go to
+
+01:25:01.520 --> 01:25:04.560
+I put a device around the end.
+

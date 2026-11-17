@@ -7,6 +7,7 @@ import { getEventMedia } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 import { MARKO_TALK } from "@/lib/marko-talk";
+import { getEventTranscript } from "@/lib/transcripts";
 
 const PastEvents = async () => {
   const pastEvents = await getPastEvents();
@@ -55,6 +56,7 @@ const PastEvents = async () => {
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
           const isMarkoTalk = event.luma_id === MARKO_TALK.lumaId;
+          const transcript = getEventTranscript(event);
           const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
           const watchUrl = isMarkoTalk ? MARKO_TALK.pagePath : videoUrl;
           const eventLinkLabel = /^https?:\/\/(?:www\.)?partiful\.com(?:\/|$)/i.test(event.luma_url)
@@ -149,6 +151,14 @@ const PastEvents = async () => {
                         Transcript
                       </Link>
                     </>
+                  )}
+                  {transcript && (
+                    <Link
+                      href={`${transcript.pagePath}#transcript`}
+                      className="text-sm uppercase text-white hover:underline"
+                    >
+                      Transcript
+                    </Link>
                   )}
                   {event.slides && (
                     <Link
