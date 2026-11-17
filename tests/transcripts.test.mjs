@@ -4,6 +4,22 @@ import test from "node:test";
 
 const index = JSON.parse(await readFile("data/transcripts/index.json", "utf8"));
 
+test("each recorded talk has a concise overview and three distinct takeaways", async () => {
+  const summaries = JSON.parse(await readFile("data/talks/summaries.json", "utf8"));
+  const { MARKO_TALK } = await import("../lib/marko-talk.ts");
+  assert.deepEqual(Object.keys(summaries).sort(), [...index.map((item) => item.key), MARKO_TALK.videoId].sort());
+  for (const [key, overview] of Object.entries(summaries)) {
+    assert.ok(overview.summary.trim().length > 0, key);
+    assert.ok(overview.summary.split(/\s+/).length <= 65, key);
+    assert.equal(overview.takeaways.length, 3, key);
+    assert.equal(new Set(overview.takeaways).size, 3, key);
+    for (const takeaway of overview.takeaways) {
+      assert.ok(takeaway.trim().length > 0, key);
+      assert.ok(takeaway.split(/\s+/).length <= 45, key);
+    }
+  }
+});
+
 test("transcripts have unique routes and exclude breakfast recordings", () => {
   assert.ok(index.length > 0);
   for (const field of ["key", "slug", "pagePath", "downloadPath"]) {

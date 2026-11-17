@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getEventMediaByPagePath, getMediaUrl } from "@/lib/media";
 import { withUtmSource } from "@/lib/tracking";
 import TalkTranscript from "@/components/TalkTranscript";
+import TalkSummary from "@/components/TalkSummary";
+import { getTalkOverview } from "@/lib/talk-summaries";
 import { transcripts } from "@/lib/transcripts";
 import { getTranscriptParagraphs } from "@/lib/transcript-content";
 
@@ -11,7 +13,7 @@ const eventMedia = getEventMediaByPagePath(pagePath);
 
 export const metadata: Metadata = {
   title: "Biological Futures: CRISPR",
-  description: "Watch Dr. Jo Zayner's CRISPR talk at DeSciNYC and read the timestamped transcript.",
+  description: getTalkOverview("crispr").summary,
   alternates: {
     canonical: pagePath,
   },
@@ -47,7 +49,10 @@ export default async function BiologicalFuturesPage() {
         </header>
 
         {transcript && (
-          <a href="#transcript" className="w-fit text-sm text-[#5cdb68] underline underline-offset-4">Read transcript</a>
+          <nav aria-label="Talk resources" className="flex flex-wrap gap-5 text-sm text-[#5cdb68]">
+            <a href="#summary" className="underline underline-offset-4">Summary &amp; takeaways</a>
+            <a href="#transcript" className="underline underline-offset-4">Read transcript</a>
+          </nav>
         )}
         <div className="overflow-hidden border border-[#202020] border-b-4 border-r-4 bg-black">
           <div className="aspect-video w-full bg-black">
@@ -78,7 +83,10 @@ export default async function BiologicalFuturesPage() {
         >
           View Luma event
         </Link>
-        {transcript && <TalkTranscript transcript={transcript} paragraphs={paragraphs} />}
+        {transcript && <>
+          <TalkSummary talkKey={transcript.key} />
+          <TalkTranscript transcript={transcript} paragraphs={paragraphs} />
+        </>}
       </div>
     </main>
   );

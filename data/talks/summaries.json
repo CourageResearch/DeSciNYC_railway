@@ -1,0 +1,346 @@
+{
+  "bqDch_aXFWY": {
+    "summary": "Michael Fischer introduces Endpoint Arena as a way to quantify uncertainty about clinical-trial outcomes. The LA discussion connects prediction markets, AI benchmarking, and incentives for collecting better scientific data.",
+    "takeaways": [
+      "A useful market needs a clearly defined clinical outcome and a reliable way to determine the result.",
+      "Forecasting upcoming trials offers a practical test of AI models’ scientific reasoning and confidence.",
+      "Financial incentives could encourage people to share evidence, but the best balance between better data and better models remains an open question."
+    ]
+  },
+  "fmqS1DKiHf4": {
+    "summary": "Michael Fischer presents Endpoint Arena’s approach to forecasting clinical trials through prediction markets and AI. The SF talk explores who could use those forecasts and why continuously arriving trial results make a useful benchmark.",
+    "takeaways": [
+      "Trial forecasts could provide additional information for patients, researchers, and other people making decisions under uncertainty.",
+      "New clinical-trial outcomes can keep benchmarks challenging as older AI tests become saturated.",
+      "The proposed scope extends beyond success or failure to questions such as eligibility, trial duration, dropout, and dose finding."
+    ]
+  },
+  "HSf_6ZIhjA0": {
+    "summary": "Julius Ritter explains what peptides are and how they move from manufacturing to the consumer market. He compares familiar peptide medicines with experimental compounds, focusing on evidence, product quality, and the limits of longevity claims.",
+    "takeaways": [
+      "Peptides are built from amino acids, and their stability and delivery route affect how they behave in the body.",
+      "Human evidence varies substantially across compounds; anecdotes about research peptides are different from large clinical studies.",
+      "Understanding suppliers and laboratory analysis is central to evaluating product quality, rather than relying on marketing alone."
+    ]
+  },
+  "s4gX7dunx8c": {
+    "summary": "Jack Klein shares a citizen-science investigation into heat and air quality on New York City’s subway. Measurements, visualizations, and conversations with transit staff frame a discussion of how stations could become cooler and healthier.",
+    "takeaways": [
+      "Station-level measurements reveal differences that citywide weather readings and personal impressions can miss.",
+      "Heat, humidity, and particulate pollution are separate conditions worth measuring rather than treating comfort as a single number.",
+      "Better public data and communication can help evaluate cooling proposals and connect riders’ concerns with transit planning."
+    ]
+  },
+  "W9bFAvFpv70": {
+    "summary": "Crémieux argues that China’s growing role in clinical trials reflects changes in regulation, costs, and pharmaceutical incentives. The talk compares approaches to drug development and asks what the United States could learn from them.",
+    "takeaways": [
+      "Crémieux links faster drug development to regulatory reform and the ability to run trials at lower cost.",
+      "Recognition of evidence generated abroad is presented as one way to avoid repeating early development work.",
+      "The discussion separates scientific questions about trial results from policy questions about pricing, approval, and industry incentives."
+    ]
+  },
+  "0Fl3XLXmUIA": {
+    "summary": "Michael Fischer explores prediction markets for clinical-trial outcomes and their potential uses beyond trading. The NYC discussion covers AI evaluation, patient information, and the idea of rewarding research that changes a forecasted outcome.",
+    "takeaways": [
+      "Forecasting unresolved trials can reduce the problem of testing AI on outcomes it may already have seen.",
+      "Market participation tests both the direction of a prediction and how confidently a participant backs it.",
+      "Fischer proposes using markets as research incentives as well as forecasting tools, while noting the practical need for liquidity."
+    ]
+  },
+  "L17vCfpGQko": {
+    "summary": "Michael Fischer discusses how clinical-trial prediction markets can combine scientific forecasting with financial incentives. The Boston talk emphasizes outcome selection, market mechanics, and what AI agents reveal through their predictions and portfolio choices.",
+    "takeaways": [
+      "Choosing the right endpoint matters: a trial’s reported results and the market’s reaction are not interchangeable measures.",
+      "An AI forecaster needs calibrated confidence and sensible position sizing, not just correct guesses.",
+      "Markets require participation and liquidity; their proposed role in rewarding discoveries goes beyond simply predicting events."
+    ]
+  },
+  "z-JP8QYILPw": {
+    "summary": "Timothy Kenny explains how membrane transporters control which nutrients cells can use. His research on FLVCR1 and choline illustrates how genetic associations can lead to experiments that uncover a transporter’s biological role.",
+    "takeaways": [
+      "Nutrient availability depends on transport into cells as well as on what an organism consumes.",
+      "FLVCR1 research connects choline transport with downstream metabolism, development, and disease-related genetic variation.",
+      "Alternative nutrient forms or transport routes are research possibilities for bypassing a transport defect, rather than assuming more of the same nutrient will solve it."
+    ]
+  },
+  "zLdo4xhJGgI": {
+    "summary": "Diego Marin examines experiments using CRISPR-Cas9 in early human embryos and the difficulty of confirming that an edit did what researchers intended. He distinguishes embryo selection from editing and discusses both the promise and the unresolved risks of preventing disease before pregnancy.",
+    "takeaways": [
+      "A mutation disappearing from a test does not by itself prove a successful repair; chromosome loss can produce a misleading result.",
+      "Embryo studies need detailed checks for unintended changes, including chromosome abnormalities and mosaicism.",
+      "Selecting embryos and editing their genomes are different technologies with different capabilities and barriers to clinical use."
+    ]
+  },
+  "Ea2c_mf6ijo": {
+    "summary": "Sean Raspet explores scent through molecular design, receptor modeling, and an audience smell-testing exercise. His “Olfactory RGB” idea asks whether a more systematic understanding of smell could support new fragrances and other applications.",
+    "takeaways": [
+      "Small changes in molecular structure can change a scent, making chemistry and sensory testing complementary tools.",
+      "Pleasantness and familiarity are separate dimensions: a useful new scent need not simply reproduce something people already recognize.",
+      "Receptor modeling helps generate hypotheses, while olfactory receptors outside the nose suggest further research opportunities."
+    ]
+  },
+  "-_zPXIO9r9s": {
+    "summary": "Beatrice Karp follows olive oil from the grove to the bottle, explaining how varieties, harvest timing, processing, and storage influence quality. An accompanying tasting connects production choices with flavor and polyphenol content.",
+    "takeaways": [
+      "Harvest timing and the time between picking and pressing are important parts of an oil’s production history.",
+      "Polyphenol measurements provide one quality signal, alongside flavor, freshness, and knowledge of the producer.",
+      "Packaging and storage matter because exposure to light and heat can degrade oil after it has been produced."
+    ]
+  },
+  "Qm3UI-VlLTk": {
+    "summary": "Alex Bores explains the role of state government in AI policy and presents the RAISE Act proposal as discussed at the event. The conversation examines frontier-model oversight, company safety plans, and the tension between state action and a federal framework.",
+    "takeaways": [
+      "State legislatures are an important venue for technology policy, even when national debates receive more attention.",
+      "Bores describes an approach focused on frontier developers’ safety practices and accountability rather than prescribing every technical choice.",
+      "Questions about independent review, enforcement, and federal preemption are central to whether such a framework can work."
+    ]
+  },
+  "eUKn6MFCMCk": {
+    "summary": "Alexander Lozano surveys biomarkers used to study aging, from established clinical measurements to methylation clocks and wearable data. He asks how to interpret a biological-age estimate and whether improvements in a measurement translate into better health.",
+    "takeaways": [
+      "Chronological age and biomarker-predicted age measure different things; the gap needs careful interpretation.",
+      "Different biomarkers have different levels of validation, and newer measurements should not automatically outrank established clinical indicators.",
+      "The meaningful test is whether a biomarker helps predict or improve health outcomes and quality of life."
+    ]
+  },
+  "7p9i5yXxlxc": {
+    "summary": "RenderMan describes the Internet of Dongs project’s security research into connected intimate devices. The talk shows how ordinary failures in authentication, software design, and data handling can create unusually personal privacy risks.",
+    "takeaways": [
+      "Adding connectivity creates new security responsibilities for manufacturers, even when the product is not marketed as a computer.",
+      "Usage records and account information can reveal sensitive patterns when combined, even without an elaborate attack.",
+      "Established authentication practices, careful data handling, and responsive vulnerability disclosure can prevent many recurring problems."
+    ]
+  },
+  "D4sn86LGF-Y": {
+    "summary": "Jonathan Anomaly discusses embryo selection, polygenic prediction, and the ethical questions raised by genetic enhancement. The talk and Q&A examine what genetic scores can estimate and how parental choices might interact with broader social interests.",
+    "takeaways": [
+      "Polygenic scores combine many variants into probabilistic estimates; they do not guarantee a child’s future traits.",
+      "The discussion highlights the importance of distinguishing genetic prediction from environmental influences, including through sibling-based studies.",
+      "Anomaly’s case for enhancement raises further questions about access, tradeoffs, and possible conflicts between individual and collective interests."
+    ]
+  },
+  "LnB9SEUxhac": {
+    "summary": "Zeke King Phillips and Cody Herrmann explain how the Billion Oyster Project combines ecological restoration with public participation in New York Harbor. The presentation follows oyster reefs from cultivation and deployment to the ecosystems and communities they support.",
+    "takeaways": [
+      "Oyster reefs provide habitat as well as filtration, making restoration about an ecosystem rather than a single species.",
+      "Shell collection, reef construction, monitoring, education, and volunteering all contribute to the restoration effort.",
+      "Restoring reefs is connected to wider water-quality and wastewater challenges; oysters are one part of that work."
+    ]
+  },
+  "frjBENRvmF8": {
+    "summary": "Kirten Parekh presents his approach to supplements within a broader discussion of nutrition, the microbiome, and health. He reviews several supplement categories while emphasizing that choices should address a specific problem rather than follow a universal stack.",
+    "takeaways": [
+      "Parekh organizes supplementation around a person’s needs, deficiencies, and health context rather than a fixed number of products.",
+      "The talk distinguishes prebiotics, probiotics, and other approaches to the gut microbiome.",
+      "Tracking relevant outcomes and examining the evidence behind a product are recurring themes in evaluating whether it is useful."
+    ]
+  },
+  "zV69vEQKuRI": {
+    "summary": "Mu Yang shares experiences investigating questionable scientific images, data, and publishing practices. She connects individual examples to institutional incentives and explains why correcting the scientific record requires more than accepting a replacement figure.",
+    "takeaways": [
+      "Repeated images and implausible patterns can be starting points for a careful, evidence-based investigation.",
+      "A correction needs scrutiny of its own; replacing a problematic image does not necessarily resolve the underlying concern.",
+      "Reports should describe observable evidence, avoid personal attacks, and use channels such as PubPeer and journal ethics teams."
+    ]
+  },
+  "YCOKfc53TXo": {
+    "summary": "Dan Kras explains how he used speed-dating events to collect real-world data and build romantic-compatibility models. The talk moves from attraction and mutual-interest patterns to the practical challenge of making a matchmaking service work.",
+    "takeaways": [
+      "Speed dating can generate many observed interactions from a relatively small group of participants.",
+      "Group-level patterns are not predictions about every individual, and expressed preferences are only part of the data.",
+      "A matchmaking product needs a sufficiently large local pool of available, mutually interested people—not just a promising model."
+    ]
+  },
+  "mxRgbciNdO8": {
+    "summary": "Siraj Raval explores whether AI can accelerate scientific discovery by combining generative models with more reliable ways to check their outputs. He focuses on hallucinations, self-play, synthetic data, and formal theorem proving.",
+    "takeaways": [
+      "Generating a plausible scientific answer is different from establishing that the answer is correct.",
+      "Formal tools such as theorem provers offer a way to check mathematical claims against explicit rules.",
+      "Raval presents self-play and synthetic-data generation as promising routes to improvement beyond simply collecting more human examples."
+    ]
+  },
+  "rsZkxYIfbtc": {
+    "summary": "Daniele Mattei examines the biological mechanisms that help tardigrades survive extreme conditions. He connects cryptobiosis, protective proteins, and cellular stabilization to possible applications in preservation and other areas of research.",
+    "takeaways": [
+      "Tardigrade survival depends in part on entering protective states rather than remaining normally active through every stress.",
+      "Protecting proteins, membranes, and genetic material offers clues for improving preservation techniques.",
+      "Resistance to extreme stress is different from rejuvenation or unlimited lifespan; these are distinct biological problems."
+    ]
+  },
+  "q5yXfrq1zjs": {
+    "summary": "Robin Hanson asks whether prediction markets could challenge how academia assigns prestige and resources. His proposal uses forecasts of future historical assessments to create an alternative signal of a researcher’s long-term importance.",
+    "takeaways": [
+      "Hanson argues that current prestige systems are partly self-reinforcing and deserve an independent comparison.",
+      "His proposed markets would forecast later assessments of researchers’ importance rather than simply count current publications or citations.",
+      "Participation, credible resolution, and liquidity are difficult design problems; a useful forecasting idea does not automatically create a functioning market."
+    ]
+  },
+  "HKFLjcyZlSo": {
+    "summary": "Ryan Rossner presents Minicircle’s experimental plasmid-based gene-therapy approach and its work on follistatin. He discusses the delivery system, proposed ways to reverse its effects, and early measurements from the company’s research.",
+    "takeaways": [
+      "The approach described uses modified cells to produce a secreted protein, rather than relying on a viral delivery system.",
+      "Reversibility is a central design goal, with several proposed methods for reducing or stopping expression.",
+      "The reported body-composition and methylation-clock results were preliminary; Rossner notes that the work had not yet been submitted for peer review."
+    ]
+  },
+  "eRYe_7FUmzM": {
+    "summary": "Isaac Kauvar investigates dissociation through brainwide recording, ketamine experiments, and observations in a human epilepsy patient. The talk connects an unusual cortical rhythm with changes in how sensory experience and the sense of self fit together.",
+    "takeaways": [
+      "Brainwide measurements helped identify a distinctive ketamine-associated rhythm in mouse retrosplenial cortex.",
+      "Targeted stimulation experiments tested whether the rhythm could contribute to dissociation-like behavior rather than merely accompany it.",
+      "Findings in human posteromedial cortex provide a connection to the mouse work while leaving further questions about mechanism and experience."
+    ]
+  },
+  "eVOHaQgM8Ls": {
+    "summary": "Teams present prototypes that use NYC Open Data to investigate urban climate and resilience challenges. Projects connect street trees, environmental conditions, flooding, and neighborhood vulnerability with more targeted local action.",
+    "takeaways": [
+      "Combining datasets can reveal relationships that a single map misses, such as overlaps between trees, traffic, and air quality.",
+      "Dataset coverage matters: a street-tree inventory, for example, should not be mistaken for a complete inventory of park trees.",
+      "Flood-response ideas combine local vulnerability and language information with changing conditions to improve outreach and evacuation planning."
+    ]
+  },
+  "crispr": {
+    "summary": "Jo Zayner reflects on biohacking, genetic engineering, and the possibility of doing ambitious biological work outside conventional institutions. CRISPR and hands-on projects serve as examples in a broader argument for experimentation, imagination, and scientific agency.",
+    "takeaways": [
+      "Zayner advocates learning through building and experimentation, including developing tools outside a traditional laboratory career.",
+      "Accessible equipment and educational tools are presented as ways to broaden participation in biotechnology.",
+      "The talk challenges inherited assumptions about what a scientific career or project should look like; it is a personal vision rather than a clinical guide."
+    ]
+  },
+  "FrIaTV23ZO0": {
+    "summary": "Bryan Johnson discusses Blueprint and his “Don’t Die” philosophy in an audience-led conversation about health and longevity. The discussion combines personal measurement, everyday habits, emerging technology, and the social norms that shape behavior.",
+    "takeaways": [
+      "Johnson emphasizes sleep, diet, exercise, and consistent routines alongside his interest in experimental interventions.",
+      "His personal measurements illustrate an approach to self-experimentation, while the Q&A raises questions about validation and wider accessibility.",
+      "He frames healthier behavior as a social project in which communities and shared norms can reinforce individual choices."
+    ]
+  },
+  "AcRNChfcw-I": {
+    "summary": "David Shor explains how polling and message testing inform his work on elections. The talk examines the gap between politically engaged groups and the broader electorate, then discusses persuasion, candidate performance, and forecasting.",
+    "takeaways": [
+      "Testing messages can reveal large differences between what campaign participants like and what persuades voters.",
+      "Issue importance and trust matter together: being favored on an issue is less useful if voters are focused elsewhere.",
+      "The Q&A distinguishes winning elections, personal approval of a politician, and policy goals rather than treating them as the same measure."
+    ]
+  },
+  "nhfCkI6jvzA": {
+    "summary": "Scott Hickle describes a 30-day personal experiment with ultra-processed food, tracked through wearable, glucose, blood, and gut-health measurements. He uses the experience to explore the gut–brain connection and the value of more frequent health data.",
+    "takeaways": [
+      "Continuous measurements can reveal fluctuations that an average or a single laboratory test misses.",
+      "Hickle reports connections among diet, glucose swings, mood, and gut observations in his own experience.",
+      "The experiment is an individual case with changing conditions, useful for generating questions rather than establishing a universal dietary effect."
+    ]
+  },
+  "N4uE5jIG1Co": {
+    "summary": "Michael Levin presents bioelectricity as a way to understand how cells coordinate anatomy, repair, and collective behavior. Experiments involving regeneration and living constructs illustrate his view that tissues have capabilities beyond what a parts-only description reveals.",
+    "takeaways": [
+      "Cells coordinate through electrical and other signals to build and maintain larger anatomical structures.",
+      "Levin frames regeneration as a goal-directed process in which tissues work toward a target form and stop when it is reached.",
+      "Changing cellular coordination offers experimental routes toward regeneration without requiring every detail of a new structure to be specified manually."
+    ]
+  },
+  "NsPC6rodw8U": {
+    "summary": "Eric Wollberg presents Prophetic’s proposed approach to inducing and sustaining lucid dreams. The talk brings together brain-state modeling, focused ultrasound, and a wearable-device concept while exploring possible uses of controlled dream experiences.",
+    "takeaways": [
+      "The proposed system aims to recognize relevant brain states and adapt stimulation as those states change.",
+      "Wollberg describes combining neural data and machine learning with targeted ultrasound, rather than applying one fixed stimulation pattern.",
+      "Creative and productive uses are part of the project’s ambition; the presentation describes a developing research program, not a demonstrated universal capability."
+    ]
+  },
+  "WXOhKieQocY": {
+    "summary": "Aron D’Souza outlines his vision for the Enhanced Games and challenges the assumptions behind conventional elite sport. The Q&A examines performance enhancement, athlete compensation, medical oversight, fairness, and the organization of a new competition.",
+    "takeaways": [
+      "D’Souza proposes a competition that permits enhancement and evaluates athletes through a different framework from traditional anti-doping rules.",
+      "Disclosure, medical supervision, and athlete incentives are central to his case for the model.",
+      "Questions about eligibility, competitive fairness, and participation in other sporting bodies remain important parts of the proposal."
+    ]
+  },
+  "fRuC5uNzPuw": {
+    "summary": "Vincent Ferrera presents focused-ultrasound research, followed by Siraj Raval’s exploration of computation and longevity. The two talks span experimental brain stimulation, blood–brain barrier research, and ways to think about biological design through software tools.",
+    "takeaways": [
+      "Focused ultrasound has distinct research and clinical uses; stimulation, barrier opening, and thermal ablation should not be conflated.",
+      "Ferrera discusses experimental effects on task performance and memory while noting that the underlying mechanisms need further investigation.",
+      "Raval uses biological pathways, data layers, and Python examples to explore computational design; those examples are starting points for research rather than validated anti-aging treatments."
+    ]
+  },
+  "KTpbTopiX64": {
+    "summary": "Jean Hébert explores whether progressive tissue replacement could repair the aging brain while preserving its functions. He discusses neural plasticity, engineered precursor tissue, and the practical obstacles between that vision and an effective treatment.",
+    "takeaways": [
+      "The proposal relies on gradual replacement and the brain’s capacity to redistribute and learn functions, rather than replacing everything at once.",
+      "Developing tissue must integrate structurally and functionally with the existing brain.",
+      "Engineering suitable tissue and dealing with inflammation, scarring, and the transplant environment remain major research challenges."
+    ]
+  },
+  "Zlq2tXRm_RI": {
+    "summary": "Matt Kaeberlein, Kai Micah Mills, and Alex Colville offer three perspectives on longevity: aging research, cryopreservation, and biotechnology investment. The event connects questions about measuring health with efforts to scale experiments and support new therapeutic approaches.",
+    "takeaways": [
+      "Kaeberlein emphasizes clearer thinking about lifespan and healthspan, alongside larger-scale testing of longevity interventions.",
+      "Mills discusses cryopreservation as a separate strategy with its own technical and ethical questions, including the unresolved challenge of revival.",
+      "Colville argues for a broader longevity field that supports regenerative approaches and a more diverse set of founders."
+    ]
+  },
+  "lyf_x1mtlU0": {
+    "summary": "Psi Combinator teams demonstrate early projects built during a short research program. The presentations range from participant recruitment and scientific software to community-led cannabis and supplement research and exploratory sensing projects.",
+    "takeaways": [
+      "The program’s model favors small teams and short project cycles as a way to start research and test ideas quickly.",
+      "Several projects address shared research infrastructure, including finding participants, collecting data, and building open-source tools.",
+      "The demos show prototypes and research directions; turning them into useful systems still requires evidence, participation, and further development."
+    ]
+  },
+  "i26zF9SeMSU": {
+    "summary": "Patrick Joyce presents ResearchHub’s attempt to reward useful scientific contributions beyond traditional publication metrics. Examples include paid questions, research help, and open peer review, followed by a discussion of whether new incentives can avoid old academic problems.",
+    "takeaways": [
+      "Publication and citation incentives can diverge from the work that most improves scientific understanding.",
+      "ResearchHub uses bounties and token rewards to encourage knowledge sharing, feedback, and other concrete contributions.",
+      "Changing the payment mechanism alone is not enough; the discussion asks how contribution quality and credibility should be judged."
+    ]
+  },
+  "oYUB_ALbW3Y": {
+    "summary": "William Entriken takes a practical look at NFTs and scientific data, emphasizing permissions, provenance, and verifiable records. He argues that the useful starting point is the problem being solved, which may not require a blockchain at all.",
+    "takeaways": [
+      "Clear records of consent and permission help establish how scientific data may be used and shared.",
+      "An attestation can be useful without being a tradable asset or living on a blockchain.",
+      "Start with the simplest working system and add blockchain infrastructure only when it serves a concrete need."
+    ]
+  },
+  "j-A6uu22QYQ": {
+    "summary": "Martin Shkreli discusses AI in healthcare and presents Dr. Gupta as an example of a conversational medical-information tool. His vision of wider access prompts questions about clinician roles, reliability, and the limits of automated advice.",
+    "takeaways": [
+      "Shkreli argues that software could expand access to medical information in a system with constrained clinical capacity.",
+      "The discussion distinguishes tasks an automated system might handle from the human care and procedures that still require clinicians.",
+      "Conversational memory, answer quality, and integration into real care are practical challenges beyond making a convincing chatbot demonstration."
+    ]
+  },
+  "BvL1BfY8i9I": {
+    "summary": "Andrew Bakst and Andrew Verbinnen introduce HairDAO’s community-led approach to hair-loss research. They discuss connecting online contributors with laboratory researchers, funding neglected work, and exploring ways for resulting intellectual property to support further research.",
+    "takeaways": [
+      "The founders see a gap between demand for better hair-loss treatments and the research resources directed toward them.",
+      "Online communities can contribute knowledge and coordination while working with researchers who have laboratory expertise and access to tissue.",
+      "Research funding, ownership, and potential commercialization are connected parts of HairDAO’s proposed model."
+    ]
+  },
+  "_XAoMJFEEEk": {
+    "summary": "Balázs Szigeti presents self-blinding as a way to strengthen evidence from personal experiments, followed by Tyler Quigley’s research on honeybee brain barriers and aging. The paired talks examine how study design and model organisms can make difficult biological questions more tractable.",
+    "takeaways": [
+      "Self-blinding aims to reduce expectation effects while making participant-led studies more informative than unblinded observation.",
+      "That approach involves a tradeoff between experimental control and studying behavior in everyday conditions.",
+      "Quigley uses honeybees to study age-related changes in barrier function and the movement of proteins such as vitellogenin into the brain."
+    ]
+  },
+  "QVZPy7AvuuA": {
+    "summary": "Nathan Wilson tells the story of Mushroom Observer, a collaborative platform for recording and identifying fungi. He explores how community expertise, open observations, and sustained stewardship can turn a shared interest into a scientific resource.",
+    "takeaways": [
+      "Observation records and photographs become more useful when a community can propose and refine identifications.",
+      "Contributions from enthusiasts and specialists can support species discovery and broader public knowledge.",
+      "Maintaining a scientific platform depends on its developer and curator communities as well as on the underlying software."
+    ]
+  },
+  "vOMeEN-qGh0": {
+    "summary": "Marko Jukic argues that pursuing space expansion could drive the renewal of industrial civilization on Earth. He connects energy use, population, automation, and institutional ambition to a case for treating an interstellar future as a motivating project rather than a distant reward.",
+    "takeaways": [
+      "Jukic presents space expansion as a demanding goal that could organize technological and institutional development.",
+      "He emphasizes adaptable human labor and judgment alongside automation, rather than assuming progress will happen automatically through AI.",
+      "The lecture links long-term industrial capacity to energy, demographic trends, and institutions capable of sustaining ambitious projects."
+    ]
+  }
+}

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import TalkTranscript from "@/components/TalkTranscript";
+import TalkSummary from "@/components/TalkSummary";
+import { getTalkOverview } from "@/lib/talk-summaries";
 import { transcripts } from "@/lib/transcripts";
 import { getTranscriptParagraphs } from "@/lib/transcript-content";
 
@@ -18,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const transcript = transcripts.find((item) => item.slug === slug && item.videoId);
   if (!transcript) notFound();
   return {
-    title: `${transcript.title} — Transcript`,
-    description: `Read the timestamped transcript of ${transcript.title} with ${transcript.speaker} at DeSciNYC. Watch the recording and download the text.`,
+    title: `${transcript.title} — Summary & Transcript`,
+    description: getTalkOverview(transcript.key).summary,
     alternates: { canonical: `https://desci.nyc${transcript.pagePath}` },
   };
 }
@@ -40,6 +42,7 @@ export default async function TranscriptPage({ params }: Props) {
           <p className="mt-3 text-lg text-stone-400">{transcript.speaker}</p>
         </header>
         <nav aria-label="Talk resources" className="flex flex-wrap gap-5 text-sm text-[#5cdb68]">
+          <a href="#summary" className="underline underline-offset-4">Summary &amp; takeaways</a>
           <a href="#transcript" className="underline underline-offset-4">Read transcript</a>
           <a href={transcript.downloadPath} download className="underline underline-offset-4">Download text</a>
           <a href={`https://www.youtube.com/watch?v=${transcript.videoId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Watch on YouTube</a>
@@ -47,6 +50,7 @@ export default async function TranscriptPage({ params }: Props) {
         <div className="aspect-video overflow-hidden border border-[#303030] bg-black">
           <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${transcript.videoId}`} title={transcript.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
         </div>
+        <TalkSummary talkKey={transcript.key} />
         <TalkTranscript transcript={transcript} paragraphs={paragraphs} />
       </div>
     </main>

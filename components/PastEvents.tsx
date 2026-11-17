@@ -134,6 +134,14 @@ const PastEvents = async () => {
                       {isMarkoTalk ? "Full video" : "Video"}
                     </Link>
                   )}
+                  {(isMarkoTalk || transcript) && (
+                    <Link
+                      href={`${isMarkoTalk ? MARKO_TALK.pagePath : transcript!.pagePath}#summary`}
+                      className="text-sm uppercase text-white hover:underline"
+                    >
+                      Summary
+                    </Link>
+                  )}
                   {isMarkoTalk && (
                     <>
                       <Link

@@ -3,6 +3,7 @@ import Link from "next/link";
 import transcript from "@/data/talks/marko-jukic.json";
 import { MARKO_TALK } from "@/lib/marko-talk";
 import { getSlidesHref } from "@/lib/slides";
+import TalkSummary from "@/components/TalkSummary";
 
 const pageUrl = `https://desci.nyc${MARKO_TALK.pagePath}`;
 const videoUrl = `https://www.youtube.com/watch?v=${MARKO_TALK.videoId}`;
@@ -104,6 +105,7 @@ export default function MarkoJukicTalkPage() {
 
       <nav aria-label="Talk resources" className="mb-8 flex flex-wrap gap-3">
         <a href="#full-talk" className={resourceClass}>Full video</a>
+        <a href="#summary" className={resourceClass}>Summary &amp; takeaways</a>
         <a href="#one-minute-summary" className={resourceClass}>1 min video</a>
         <a href="#transcript" className={resourceClass}>Transcript</a>
         <a href={getSlidesHref(MARKO_TALK.slides)} target="_blank" rel="noopener noreferrer" className={resourceClass}>Slides (PDF)</a>
@@ -122,6 +124,10 @@ export default function MarkoJukicTalkPage() {
         </div>
         <a href={videoUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-sans text-sm text-stone-400 underline hover:text-white">Watch on YouTube</a>
       </section>
+
+      <div className="mt-12">
+        <TalkSummary talkKey={MARKO_TALK.videoId} />
+      </div>
 
       <section id="one-minute-summary" className="mt-16 scroll-mt-24 border-t border-[#303030] pt-10">
         <h2 className="mb-6 font-Jersey25 text-3xl md:text-4xl">The talk in one minute</h2>
