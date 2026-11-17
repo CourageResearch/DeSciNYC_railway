@@ -128,7 +128,7 @@ const PastEvents = async () => {
                       target={isMarkoTalk ? undefined : "_blank"}
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
-                      Video
+                      {isMarkoTalk ? "Full video" : "Video"}
                     </Link>
                   )}
                   <Link
@@ -154,13 +154,13 @@ const PastEvents = async () => {
                         href={`${MARKO_TALK.pagePath}#one-minute-summary`}
                         className="text-sm uppercase text-white hover:underline"
                       >
-                        1-minute video summary
+                        1 min video
                       </Link>
                       <Link
                         href={`${MARKO_TALK.pagePath}#transcript`}
                         className="text-sm uppercase text-white hover:underline"
                       >
-                        Read transcript
+                        Transcript
                       </Link>
                     </>
                   )}

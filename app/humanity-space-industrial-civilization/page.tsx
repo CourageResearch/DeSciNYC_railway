@@ -103,9 +103,9 @@ export default function MarkoJukicTalkPage() {
       </header>
 
       <nav aria-label="Talk resources" className="mb-8 flex flex-wrap gap-3">
-        <a href="#full-talk" className={resourceClass}>Full talk</a>
-        <a href="#one-minute-summary" className={resourceClass}>1-minute video</a>
-        <a href="#transcript" className={resourceClass}>Read transcript</a>
+        <a href="#full-talk" className={resourceClass}>Full video</a>
+        <a href="#one-minute-summary" className={resourceClass}>1 min video</a>
+        <a href="#transcript" className={resourceClass}>Transcript</a>
         <a href={getSlidesHref(MARKO_TALK.slides)} target="_blank" rel="noopener noreferrer" className={resourceClass}>Slides (PDF)</a>
       </nav>
 
