@@ -124,8 +124,9 @@ const PastEvents = async () => {
                     </Link>
                   ) : (
                     <Link
-                      href={watchUrl}
-                      target={isMarkoTalk ? undefined : "_blank"}
+                      href={isMarkoTalk ? `https://www.youtube.com/watch?v=${MARKO_TALK.videoId}` : videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
                       {isMarkoTalk ? "Full video" : "Video"}

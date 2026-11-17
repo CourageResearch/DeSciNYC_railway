@@ -124,8 +124,7 @@ export default function MarkoJukicTalkPage() {
       </section>
 
       <section id="one-minute-summary" className="mt-16 scroll-mt-24 border-t border-[#303030] pt-10">
-        <h2 className="font-Jersey25 text-3xl md:text-4xl">The talk in one minute</h2>
-        <p className="mb-6 mt-2 font-sans text-stone-400">A 60-second edit from the recording, in Marko’s own voice.</p>
+        <h2 className="mb-6 font-Jersey25 text-3xl md:text-4xl">The talk in one minute</h2>
         <div className="aspect-[9/16] w-full max-w-[400px] overflow-hidden border border-[#303030] bg-black">
           <iframe
             className="h-full w-full"
