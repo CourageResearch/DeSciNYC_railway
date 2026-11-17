@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import transcript from "@/data/talks/marko-jukic.json";
 import { MARKO_TALK } from "@/lib/marko-talk";
-import { getMediaUrl } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 
 const pageUrl = `https://desci.nyc${MARKO_TALK.pagePath}`;
@@ -34,7 +33,8 @@ const resourceClass =
   "rounded-sm border border-[#303030] px-4 py-3 text-sm uppercase transition-colors hover:border-[#0FA711] hover:text-[#5cdb68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0FA711]";
 
 export default function MarkoJukicTalkPage() {
-  const summaryUrl = getMediaUrl(MARKO_TALK.summaryVideoKey);
+  const summaryUrl = `https://www.youtube.com/shorts/${MARKO_TALK.summaryVideoId}`;
+  const summaryEmbedUrl = `https://www.youtube-nocookie.com/embed/${MARKO_TALK.summaryVideoId}`;
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -74,11 +74,11 @@ export default function MarkoJukicTalkPage() {
         "@id": `${pageUrl}#summary-video`,
         name: `${MARKO_TALK.title} — one-minute video summary`,
         description: "A 60-second edit of Marko Jukic's original lecture, in his own voice, with captions.",
-        thumbnailUrl: [`https://desci.nyc${MARKO_TALK.summaryPoster}`],
+        thumbnailUrl: [`https://i.ytimg.com/vi/${MARKO_TALK.summaryVideoId}/hqdefault.jpg`],
         uploadDate: MARKO_TALK.summaryPublishedAt,
         duration: "PT1M",
-        contentUrl: `https://desci.nyc${summaryUrl}`,
-        url: `${pageUrl}#one-minute-summary`,
+        embedUrl: summaryEmbedUrl,
+        url: summaryUrl,
         inLanguage: "en",
         creator: { "@type": "Person", name: MARKO_TALK.speaker },
         isBasedOn: { "@id": `${pageUrl}#full-video` },
@@ -126,18 +126,18 @@ export default function MarkoJukicTalkPage() {
       <section id="one-minute-summary" className="mt-16 scroll-mt-24 border-t border-[#303030] pt-10">
         <h2 className="font-Jersey25 text-3xl md:text-4xl">The talk in one minute</h2>
         <p className="mb-6 mt-2 font-sans text-stone-400">A 60-second edit from the recording, in Marko’s own voice.</p>
-        <video
-          className="aspect-video w-full max-w-[800px] border border-[#303030] bg-black"
-          controls
-          playsInline
-          preload="metadata"
-          poster={MARKO_TALK.summaryPoster}
-          aria-label="One-minute video summary of Marko Jukic's talk"
-        >
-          <source src={summaryUrl} type="video/mp4" />
-          <track kind="captions" src={MARKO_TALK.summaryCaptions} srcLang="en" label="English" />
-          <a href={summaryUrl}>Open the one-minute video summary</a>
-        </video>
+        <div className="aspect-[9/16] w-full max-w-[400px] overflow-hidden border border-[#303030] bg-black">
+          <iframe
+            className="h-full w-full"
+            src={summaryEmbedUrl}
+            title="One-minute video summary of Marko Jukic's talk"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            loading="lazy"
+            allowFullScreen
+          />
+        </div>
+        <a href={summaryUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-sans text-sm text-stone-400 underline hover:text-white">Watch on YouTube</a>
       </section>
 
       <article id="transcript" className="mt-16 scroll-mt-24 border-t border-[#303030] pt-10 font-sans">
