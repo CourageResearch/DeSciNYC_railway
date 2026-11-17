@@ -59,7 +59,7 @@ export default async function BiologicalFuturesPage() {
             <video
               id="recording"
               tabIndex={0}
-              className="h-full w-full object-contain"
+              className="h-full w-full scroll-mt-24 object-contain"
               controls
               playsInline
               preload="metadata"
@@ -84,7 +84,7 @@ export default async function BiologicalFuturesPage() {
           View Luma event
         </Link>
         {transcript && <>
-          <TalkSummary talkKey={transcript.key} />
+          <TalkSummary talkKey={transcript.key} videoId={null} />
           <TalkTranscript transcript={transcript} paragraphs={paragraphs} />
         </>}
       </div>

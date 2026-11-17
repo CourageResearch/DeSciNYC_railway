@@ -48,9 +48,9 @@ export default async function TranscriptPage({ params }: Props) {
           <a href={`https://www.youtube.com/watch?v=${transcript.videoId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Watch on YouTube</a>
         </nav>
         <div className="aspect-video overflow-hidden border border-[#303030] bg-black">
-          <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${transcript.videoId}`} title={transcript.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
+          <iframe id="recording" tabIndex={0} className="h-full w-full scroll-mt-24" src={`https://www.youtube-nocookie.com/embed/${transcript.videoId}`} title={transcript.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
         </div>
-        <TalkSummary talkKey={transcript.key} />
+        <TalkSummary talkKey={transcript.key} videoId={transcript.videoId} />
         <TalkTranscript transcript={transcript} paragraphs={paragraphs} />
       </div>
     </main>

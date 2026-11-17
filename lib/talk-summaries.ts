@@ -2,7 +2,7 @@ import summaries from "@/data/talks/summaries.json";
 
 export type TalkOverview = {
   summary: string;
-  takeaways: string[];
+  takeaways: { text: string; start: number }[];
 };
 
 export function getTalkOverview(key: string): TalkOverview {

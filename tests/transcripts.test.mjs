@@ -12,10 +12,15 @@ test("each recorded talk has a concise overview and three distinct takeaways", a
     assert.ok(overview.summary.trim().length > 0, key);
     assert.ok(overview.summary.split(/\s+/).length <= 65, key);
     assert.equal(overview.takeaways.length, 3, key);
-    assert.equal(new Set(overview.takeaways).size, 3, key);
+    assert.equal(new Set(overview.takeaways.map((item) => item.text)).size, 3, key);
+    const source = key === MARKO_TALK.videoId
+      ? JSON.parse(await readFile("data/talks/marko-jukic.json", "utf8")).chapters.flatMap((chapter) => chapter.paragraphs)
+      : JSON.parse(await readFile(`data/transcripts/${key}.json`, "utf8")).paragraphs;
     for (const takeaway of overview.takeaways) {
-      assert.ok(takeaway.trim().length > 0, key);
-      assert.ok(takeaway.split(/\s+/).length <= 45, key);
+      assert.ok(takeaway.text.trim().length > 0, key);
+      assert.ok(takeaway.text.split(/\s+/).length <= 45, key);
+      assert.ok(Number.isInteger(takeaway.start) && takeaway.start >= 0, key);
+      assert.ok(source.some((paragraph) => Math.floor(paragraph.start) === takeaway.start), `Timestamp must match a source passage: ${key}`);
     }
   }
 });

@@ -114,7 +114,9 @@ export default function MarkoJukicTalkPage() {
       <section id="full-talk" aria-label="Full talk video" className="scroll-mt-24">
         <div className="aspect-video overflow-hidden border border-[#303030] bg-black">
           <iframe
-            className="h-full w-full"
+            id="recording"
+            tabIndex={0}
+            className="h-full w-full scroll-mt-24"
             src={`https://www.youtube-nocookie.com/embed/${MARKO_TALK.videoId}`}
             title={`${MARKO_TALK.title} — full talk by Marko Jukic`}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -126,7 +128,7 @@ export default function MarkoJukicTalkPage() {
       </section>
 
       <div className="mt-12">
-        <TalkSummary talkKey={MARKO_TALK.videoId} />
+        <TalkSummary talkKey={MARKO_TALK.videoId} videoId={MARKO_TALK.videoId} />
       </div>
 
       <section id="one-minute-summary" className="mt-16 scroll-mt-24 border-t border-[#303030] pt-10">
