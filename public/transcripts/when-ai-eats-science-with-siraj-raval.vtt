@@ -181,16 +181,16 @@ and everyone in between and uh we have
 like lots and lots of people as you can
 
 00:03:10.959 --> 00:03:13.799
-see here um we&#x27;ve had Brian Johnson
+see here um we&#x27;ve had Bryan Johnson
 
 00:03:13.799 --> 00:03:16.720
-we&#x27;ve had uh Miche 11 from toughs we&#x27;ve
+we&#x27;ve had uh Michael Levin from Tufts we&#x27;ve
 
 00:03:16.720 --> 00:03:20.760
-had uh Jean her from Einstein on F
+had uh Jean Hébert from Einstein on tissue replacement
 
 00:03:20.760 --> 00:03:22.239
-replacement so we do a lot of like
+so we do a lot of like
 
 00:03:22.239 --> 00:03:25.159
 Cutting Edge stuff uh ideally like 50%
@@ -2089,7 +2089,7 @@ this they want this to happen and that
 brings us to the next
 
 00:28:12.720 --> 00:28:15.880
-slide which is Alpha fold 3 this came
+slide which is AlphaFold 3 this came
 
 00:28:15.880 --> 00:28:20.279
 out this year which is built on I think
@@ -2134,7 +2134,7 @@ is for us to be able to move so much of
 what existed in vitro to in silicone and
 
 00:28:50.240 --> 00:28:52.720
-that&#x27;s what Alpha fold did it moved so
+that&#x27;s what AlphaFold did it moved so
 
 00:28:52.720 --> 00:28:55.279
 much of the experimentation that
@@ -2218,7 +2218,7 @@ of 200 million proteins that they were
 able to generate the model for with
 
 00:29:51.399 --> 00:29:53.399
-Alpha fold and it&#x27;s already being used
+AlphaFold and it&#x27;s already being used
 
 00:29:53.399 --> 00:29:57.279
 to cure a to treat a bunch of cancers so
@@ -2245,10 +2245,10 @@ next one uh but before we get to the
 next one let me just briefly in two
 
 00:30:13.760 --> 00:30:15.880
-sentences explain more about how alpha
+sentences explain more about how AlphaFold
 
 00:30:15.880 --> 00:30:19.320
-fold 3 works the way it works is a slide
+3 works the way it works is a slide
 
 00:30:19.320 --> 00:30:21.840
 no no this this was the perfect slide oh
@@ -2296,7 +2296,7 @@ the right parameters through back
 propagation in this input process they
 
 00:30:47.799 --> 00:30:49.960
-was given even more data than Alpha fold
+was given even more data than AlphaFold
 
 00:30:49.960 --> 00:30:52.000
 1 and two in that it&#x27;s not just able to
@@ -2338,10 +2338,10 @@ learning being able to find the features
 and important Connections in this data
 
 00:31:18.000 --> 00:31:20.440
-set but the part that made Alpha fold 3
+set but the part that made AlphaFold 3
 
 00:31:20.440 --> 00:31:22.159
-unique from alpha fold 1 and two was
+unique from AlphaFold 1 and two was
 
 00:31:22.159 --> 00:31:24.279
 this diffusion model and who gear has
@@ -3163,7 +3163,7 @@ other one and lean is the one that I
 want to use it was actually created by
 
 00:42:22.440 --> 00:42:24.880
-Microsoft and it&#x27;s used by the ethereum
+Microsoft and it&#x27;s used by the Ethereum
 
 00:42:24.880 --> 00:42:29.599
 community to secure smart cont tracks uh
@@ -3172,10 +3172,10 @@ community to secure smart cont tracks uh
 there&#x27;s a huge history of automated
 
 00:42:32.200 --> 00:42:33.599
-theorum proving which is what the
+theorem proving which is what the
 
 00:42:33.599 --> 00:42:36.040
-subfield is called in ethereum in
+subfield is called in Ethereum in
 
 00:42:36.040 --> 00:42:37.920
 blockchain if you guys have heard of ZK
@@ -3589,7 +3589,7 @@ about and that is a law involving these
 algebraic relations that I&#x27;m talking
 
 00:48:05.119 --> 00:48:07.400
-about automated theorum proving it
+about automated theorem proving it
 
 00:48:07.400 --> 00:48:09.920
 doesn&#x27;t matter how long 01 thinks it&#x27;s

@@ -68,7 +68,7 @@
     {
       "start": 515.12,
       "end": 540.82,
-      "text": "And it's very hard to get the granularity and the specificity that you would actually want to be able to make these very precise predictions on which types of scientific outcome are going to work. So how do we go about pricing some of this risk is we use prediction markets. So prediction markets are really, you know, as many of you are here know about Polymarket. We know about CalShe."
+      "text": "And it's very hard to get the granularity and the specificity that you would actually want to be able to make these very precise predictions on which types of scientific outcome are going to work. So how do we go about pricing some of this risk is we use prediction markets. So prediction markets are really, you know, as many of you are here know about Polymarket. We know about Kalshi."
     },
     {
       "start": 540.82,
@@ -133,7 +133,7 @@
     {
       "start": 1131.54,
       "end": 1194.16,
-      "text": "So, you know, on CalShe or on Polymarket, they use like UMA and things like that. But these things also are hackable. I think actually the correct thing to do is for everyone to agree on a prompt and a model and then have that be the final adjudicator. Because a lot of times like these things, let me show you here. So the way we resolve these markets is we have this Oracle and then it basically, one of the models, We use like GPT-5. Scrapes the web and looks for any sort of publication around it. So this was looking to see a positive result for PFS in patients with this. And so it found this and rated it 93% that based on this press release from the sponsor that it was above 93% for PFS. And so it gives its whole reasoning"
+      "text": "So, you know, on Kalshi or on Polymarket, they use like UMA and things like that. But these things also are hackable. I think actually the correct thing to do is for everyone to agree on a prompt and a model and then have that be the final adjudicator. Because a lot of times like these things, let me show you here. So the way we resolve these markets is we have this Oracle and then it basically, one of the models, We use like GPT-5. Scrapes the web and looks for any sort of publication around it. So this was looking to see a positive result for PFS in patients with this. And so it found this and rated it 93% that based on this press release from the sponsor that it was above 93% for PFS. And so it gives its whole reasoning"
     },
     {
       "start": 1194.7,
@@ -438,7 +438,7 @@
     {
       "start": 3465.14,
       "end": 3496.29,
-      "text": "And the Oracles will be different. So it could happen, but I'm not too... And it's also a very different market. So the people... CalShe for the most part is going after, like, you know, CME style stuff. And, you know, Polymarket is going after, like, Teenage Boys and DGEN stuff like that. I don't think it's... The type of markets that exist for these... I think there's just like a big customer difference also. Yeah, you were just talking about, like, generating data. I mean, would you ever consider having, like, sort of..."
+      "text": "And the Oracles will be different. So it could happen, but I'm not too... And it's also a very different market. So the people... Kalshi for the most part is going after, like, you know, CME style stuff. And, you know, Polymarket is going after, like, Teenage Boys and DGEN stuff like that. I don't think it's... The type of markets that exist for these... I think there's just like a big customer difference also. Yeah, you were just talking about, like, generating data. I mean, would you ever consider having, like, sort of..."
     },
     {
       "start": 3496.29,

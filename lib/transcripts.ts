@@ -11,6 +11,7 @@ export type TranscriptInfo = {
   downloadPath: string;
   captionsPath: string;
   generated: boolean;
+  edited?: boolean;
   source: string;
   paragraphCount: number;
   wordCount: number;

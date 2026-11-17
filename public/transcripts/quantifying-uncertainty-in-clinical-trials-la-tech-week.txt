@@ -2,9 +2,9 @@ Quantifying Uncertainty in Clinical Trials (LA Tech Week)
 Dr. Michael Fischer
 https://desci.nyc/transcripts/quantifying-uncertainty-in-clinical-trials-la-tech-week
 
-Automatically generated transcript. May contain errors.
+Automatically generated transcript, lightly edited for names, scientific terms, and obvious transcription errors. Some errors may remain.
 
-[0:04] Cool. All right. Well, thank you guys for coming. Um appreciate you everyone for coming out. Hope it's been a good LA Tech Week. So, I started this I think everyone here is sort of interested in like clinical trials. And um before I did a PhD, I was studying computer science and like natural language processing. And uh I I think that like I'm from New York. It was started this group called Decentralized Science New York and we've had like a bunch of speakers and we've had like Brian Johnson, we've had uh these people who do um the enhanced games, we've had people do talk about gene editing. So, if you guys are ever in New York, um drop your email onto this website called dsci.nyc
+[0:04] Cool. All right. Well, thank you guys for coming. Um appreciate you everyone for coming out. Hope it's been a good LA Tech Week. So, I started this I think everyone here is sort of interested in like clinical trials. And um before I did a PhD, I was studying computer science and like natural language processing. And uh I I think that like I'm from New York. It was started this group called Decentralized Science New York and we've had like a bunch of speakers and we've had like Bryan Johnson, we've had uh these people who do um the enhanced games, we've had people do talk about gene editing. So, if you guys are ever in New York, um drop your email onto this website called desci.nyc
 
 [0:46] and um add your email address and you'll be on our our email list. We are also starting one in um San Francisco as well. And it's just kind of like a a speaker series where people who are interested in science come together. There's like a speaker and then people chat afterwards. So, normally I don't speak at the event, but I organize it, but uh today I'm I'm going to speak on this project that I've been working on called um Endpoint Arena.
 

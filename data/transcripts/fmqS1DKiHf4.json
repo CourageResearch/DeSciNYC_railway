@@ -3,7 +3,7 @@
     {
       "start": 10.88,
       "end": 53.76,
-      "text": "Um, thank you guys all for coming tonight. Um, this is the first ever uh DSISF. So, I started this I started a club in uh New York called DIN NYC. And we've had lots and lots of speakers. We've had like Brian Johnson, we've had the enhanced games, we've had um gene editing, we've had things on super babies, we've had things on ketamine. And so we try and do like edgy science um that people find interesting. 99% of the time it's other people who are uh who are giving the talk. Uh I don't really give the talk, but I'm I am excited to give the talk uh this time in San Francisco. And we have some upcoming"
+      "text": "Um, thank you guys all for coming tonight. Um, this is the first ever uh DSISF. So, I started this I started a club in uh New York called DeSciNYC. And we've had lots and lots of speakers. We've had like Bryan Johnson, we've had the enhanced games, we've had um gene editing, we've had things on super babies, we've had things on ketamine. And so we try and do like edgy science um that people find interesting. 99% of the time it's other people who are uh who are giving the talk. Uh I don't really give the talk, but I'm I am excited to give the talk uh this time in San Francisco. And we have some upcoming"
     },
     {
       "start": 52.079,
@@ -13,7 +13,7 @@
     {
       "start": 94.24,
       "end": 137.04,
-      "text": "out. Okay. So um uh this presentation is going to be on uh something called endpoint arena which is basically um a pro a progressive approach to understanding and quantifying uh uncertainty within clinical trials. So clinical trials are incredibly important um today because uh you know people are developing these drugs and um at the end of at the end of the day you have to test them in humans and this introduces a lot of uh problems because uh you know there's there's varying levels. There's it could really hurt someone. It could really save someone. Uh could have a"
+      "text": "out. Okay. So um uh this presentation is going to be on uh something called Endpoint Arena which is basically um a pro a progressive approach to understanding and quantifying uh uncertainty within clinical trials. So clinical trials are incredibly important um today because uh you know people are developing these drugs and um at the end of at the end of the day you have to test them in humans and this introduces a lot of uh problems because uh you know there's there's varying levels. There's it could really hurt someone. It could really save someone. Uh could have a"
     },
     {
       "start": 134.879,
@@ -28,7 +28,7 @@
     {
       "start": 218.72,
       "end": 250.0,
-      "text": "poly market. Are you guys have you who who here has placed a bet on or poly market? I can't see anything, but I'm just gonna Oh, it's actually a lot. Okay, you guys are all gambling addicts. Um [laughter] um so um so then we're going to look at it through the financial lens. Um then we're going to say like, okay, this is really interesting through the financial lens. Uh how can we how can we add how can we not just uh take existing data?"
+      "text": "Polymarket. Are you guys have you who who here has placed a bet on or Polymarket? I can't see anything, but I'm just gonna Oh, it's actually a lot. Okay, you guys are all gambling addicts. Um [laughter] um so um so then we're going to look at it through the financial lens. Um then we're going to say like, okay, this is really interesting through the financial lens. Uh how can we how can we add how can we not just uh take existing data?"
     },
     {
       "start": 248.319,
@@ -118,7 +118,7 @@
     {
       "start": 865.04,
       "end": 908.0,
-      "text": "think a sports team is going to win. It t it requires like a much you don't you're not sort of betting on oh my neighbor is going to vote for Trump or Kamala and you know I pulled a bunch of people. you have to have really deep understanding and these types of bets I think are more optimized for um AIS than they are for humans which is a kind of an interesting distinction between like couch or poly market where I'm sure they have like a lot of algorithmic trading but their majority of their stuff is um uh humans >> um for these kind of markets do you think there'll be a lot of insider trading uh especially with clinical trials like I would imagine that people who are familiar with the process and who work in these companies uh you might"
+      "text": "think a sports team is going to win. It t it requires like a much you don't you're not sort of betting on oh my neighbor is going to vote for Trump or Kamala and you know I pulled a bunch of people. you have to have really deep understanding and these types of bets I think are more optimized for um AIS than they are for humans which is a kind of an interesting distinction between like couch or Polymarket where I'm sure they have like a lot of algorithmic trading but their majority of their stuff is um uh humans >> um for these kind of markets do you think there'll be a lot of insider trading uh especially with clinical trials like I would imagine that people who are familiar with the process and who work in these companies uh you might"
     },
     {
       "start": 905.44,
@@ -178,7 +178,7 @@
     {
       "start": 1258.96,
       "end": 1303.28,
-      "text": ">> Yeah. And I have another question like your primary use case you want the consumer right to be like on these markets but have you thought about looking at like the liability like internal case that they had back in like three rights and it was more like the science that showed more accuracy. >> Yeah. I mean I I think it's a great example. Um there's this guy named Robin Hansen who's and um there's this other guy who I'm forgetting the name of. Um, if someone emails me, there's like someone who who has a whole article on this and it works pretty well and I think they'd be they could potenti uh there's pros and cons to each. I I actually heard that people didn't use it internally from what I remember, but I"
+      "text": ">> Yeah. And I have another question like your primary use case you want the consumer right to be like on these markets but have you thought about looking at like the liability like internal case that they had back in like three rights and it was more like the science that showed more accuracy. >> Yeah. I mean I I think it's a great example. Um there's this guy named Robin Hanson who's and um there's this other guy who I'm forgetting the name of. Um, if someone emails me, there's like someone who who has a whole article on this and it works pretty well and I think they'd be they could potenti uh there's pros and cons to each. I I actually heard that people didn't use it internally from what I remember, but I"
     },
     {
       "start": 1300.72,
@@ -208,7 +208,7 @@
     {
       "start": 1485.039,
       "end": 1532.039,
-      "text": "Yeah. Go ahead. Last question. >> That is kind of my question. >> Great. Okay. So, um this is just kind of what it looks like. So, um the data comes from clinical trial.gov. Um and you know, we so we pull all that stuff. It also comes from the websites. Uh we use an AMM which is an automated market maker for with some liquidity to um be able to place these trades. Um we also pull in a lot of news for the thing. we get some information about the clinical trial like how many people it affects um and uh stuff like that. Um if you want to check it out endpoint arena.com um humans made up you know 20 to 30% by"
+      "text": "Yeah. Go ahead. Last question. >> That is kind of my question. >> Great. Okay. So, um this is just kind of what it looks like. So, um the data comes from clinical trial.gov. Um and you know, we so we pull all that stuff. It also comes from the websites. Uh we use an AMM which is an automated market maker for with some liquidity to um be able to place these trades. Um we also pull in a lot of news for the thing. we get some information about the clinical trial like how many people it affects um and uh stuff like that. Um if you want to check it out Endpoint Arena.com um humans made up you know 20 to 30% by"
     },
     {
       "start": 1528.72,
@@ -223,7 +223,7 @@
     {
       "start": 1607.52,
       "end": 1643.039,
-      "text": "Okay. Um, so this is the common prompt. So all the models have a common prompt. Um, and it basically says you're an expert biotech investor. Uh, this is your portfolio of of things that you currently own. Here's how much money you have in your account. Um, come up with a structured JSON to describe how you want to bet. And um, then it says yes, no, or or hold. uh for each of these different things. You can find the prompt on our website endpoint arena.com/method."
+      "text": "Okay. Um, so this is the common prompt. So all the models have a common prompt. Um, and it basically says you're an expert biotech investor. Uh, this is your portfolio of of things that you currently own. Here's how much money you have in your account. Um, come up with a structured JSON to describe how you want to bet. And um, then it says yes, no, or or hold. uh for each of these different things. You can find the prompt on our website Endpoint Arena.com/method."
     },
     {
       "start": 1639.76,
@@ -258,7 +258,7 @@
     {
       "start": 1855.84,
       "end": 1898.12,
-      "text": ">> Yeah. Go ahead. run just like big >> um because that doesn't so if you're like Fizer you might be running 200 different clinical trials at a time and so each it's you're you're basically like getting like an ETF of all the different trials and maybe like Fizer is a many billion dollar company one individual drug just isn't going to move the needle um in that in that big portfolio of drugs especially relative to like Trump announces some sort of tariff or something like that which is a thing. So this gives you like a much clear cleaner exposure to a particular trial as opposed to just like a basket of everything."
+      "text": ">> Yeah. Go ahead. run just like big >> um because that doesn't so if you're like Pfizer you might be running 200 different clinical trials at a time and so each it's you're you're basically like getting like an ETF of all the different trials and maybe like Pfizer is a many billion dollar company one individual drug just isn't going to move the needle um in that in that big portfolio of drugs especially relative to like Trump announces some sort of tariff or something like that which is a thing. So this gives you like a much clear cleaner exposure to a particular trial as opposed to just like a basket of everything."
     },
     {
       "start": 1899.44,
@@ -368,7 +368,7 @@
     {
       "start": 2623.119,
       "end": 2667.52,
-      "text": "the first priority. Um we want to get into eligibility like if a patient is eligible, if a if a trial fails, why does it fail? Uh how long will a trial last um how how much people will drop out? If there's any adverse side effects or mortality and then uh dose finding which is a very hard thing to predict as well. So we want to eventually go through these but this is the the top priority just given um our domain of expertise and uh lastly a summary. Um so we sort of started with endpoint arena which is a rec which allows people to like bet on their beliefs and uses financial incentives to figure out uncertainty"
+      "text": "the first priority. Um we want to get into eligibility like if a patient is eligible, if a if a trial fails, why does it fail? Uh how long will a trial last um how how much people will drop out? If there's any adverse side effects or mortality and then uh dose finding which is a very hard thing to predict as well. So we want to eventually go through these but this is the the top priority just given um our domain of expertise and uh lastly a summary. Um so we sort of started with Endpoint Arena which is a rec which allows people to like bet on their beliefs and uses financial incentives to figure out uncertainty"
     },
     {
       "start": 2664.48,
@@ -858,7 +858,7 @@
     {
       "start": 4840.08,
       "end": 4853.159,
-      "text": "going to buy a healthare? >> [music] >> like"
+      "text": "going to buy a healthcare? >> [music] >> like"
     },
     {
       "start": 4868.96,

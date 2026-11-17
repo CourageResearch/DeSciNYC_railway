@@ -28,7 +28,7 @@
     {
       "start": 167.879,
       "end": 212.28,
-      "text": "slide um so dite NYC has probably like the 5,000 numb is a little small I think it's closer to 6,000 now and uh people have come to one of our events um we've had Founders we have people from uh the science Community we have uh crypto people we have random people everyone in and everyone in between and uh we have like lots and lots of people as you can see here um we've had Brian Johnson we've had uh Miche 11 from toughs we've had uh Jean her from Einstein on F replacement so we do a lot of like Cutting Edge stuff uh ideally like 50% of the people should you should like and 50% of the people should think for any"
+      "text": "slide um so dite NYC has probably like the 5,000 numb is a little small I think it's closer to 6,000 now and uh people have come to one of our events um we've had Founders we have people from uh the science Community we have uh crypto people we have random people everyone in and everyone in between and uh we have like lots and lots of people as you can see here um we've had Bryan Johnson we've had uh Michael Levin from Tufts we've had uh Jean Hébert from Einstein on tissue replacement so we do a lot of like Cutting Edge stuff uh ideally like 50% of the people should you should like and 50% of the people should think for any"
     },
     {
       "start": 210.159,
@@ -213,7 +213,7 @@
     {
       "start": 1691.039,
       "end": 1735.279,
-      "text": "brings us to the next slide which is Alpha fold 3 this came out this year which is built on I think five years of work from Google and Deep Mind on trying to predict how a protein will fold and if we are able to predict how a protein will fold we can design drugs to help Target these proteins and essentially cure a bunch of diseases that's what it comes down to the reason protein folding is important is because it helps us design drugs to cure diseases potentially um not potentially it actually does that but the potential is for us to be able to move so much of what existed in vitro to in silicone and that's what Alpha fold did it moved so"
+      "text": "brings us to the next slide which is AlphaFold 3 this came out this year which is built on I think five years of work from Google and Deep Mind on trying to predict how a protein will fold and if we are able to predict how a protein will fold we can design drugs to help Target these proteins and essentially cure a bunch of diseases that's what it comes down to the reason protein folding is important is because it helps us design drugs to cure diseases potentially um not potentially it actually does that but the potential is for us to be able to move so much of what existed in vitro to in silicone and that's what AlphaFold did it moved so"
     },
     {
       "start": 1732.72,
@@ -223,17 +223,17 @@
     {
       "start": 1772.96,
       "end": 1815.88,
-      "text": "out all sorts of combinations of how proteins are going to fold how they're going to interact with all of these uh targets and it does that in silico so this was a huge deal and using this Google was able to generate a database of 200 million proteins that they were able to generate the model for with Alpha fold and it's already being used to cure a to treat a bunch of cancers so this was a great example of a world changing Cutting Edge example of moving science to a laptop out of the lab onto the laptop but there was another what's the next one uh but before we get to the next one let me just briefly in two"
+      "text": "out all sorts of combinations of how proteins are going to fold how they're going to interact with all of these uh targets and it does that in silico so this was a huge deal and using this Google was able to generate a database of 200 million proteins that they were able to generate the model for with AlphaFold and it's already being used to cure a to treat a bunch of cancers so this was a great example of a world changing Cutting Edge example of moving science to a laptop out of the lab onto the laptop but there was another what's the next one uh but before we get to the next one let me just briefly in two"
     },
     {
       "start": 1813.76,
       "end": 1858.32,
-      "text": "sentences explain more about how alpha fold 3 works the way it works is a slide no no this this was the perfect slide oh okay yeah just just just high level there's three parts here the first step is input preparation every variation of alpha cold they added in more data because that is a part of the scaling law one of the two scaling laws that we're going to talk about which is the more data and more compute you give these neural networks which are also called Universal function approximators because they can approximate any given function if given the right parameters through back propagation in this input process they was given even more data than Alpha fold 1 and two in that it's not just able to predict protein for humans but for any living organism and all the interactions"
+      "text": "sentences explain more about how AlphaFold 3 works the way it works is a slide no no this this was the perfect slide oh okay yeah just just just high level there's three parts here the first step is input preparation every variation of alpha cold they added in more data because that is a part of the scaling law one of the two scaling laws that we're going to talk about which is the more data and more compute you give these neural networks which are also called Universal function approximators because they can approximate any given function if given the right parameters through back propagation in this input process they was given even more data than AlphaFold 1 and two in that it's not just able to predict protein for humans but for any living organism and all the interactions"
     },
     {
       "start": 1856.039,
       "end": 1899.72,
-      "text": "of a variety of molecules not just proteins actually liens a bunch of different ones so it's just basically it's trying to be a general purpose llm for biology and it took Google scale resources to do this and what we know about deep learning is that it is The Cutting Edge tool for representation learning being able to find the features and important Connections in this data set but the part that made Alpha fold 3 unique from alpha fold 1 and two was this diffusion model and who gear has heard of stable diffusion raise your hand diffusion in the past few years great I love to see that in the past few years has really shown people the power of generative modeling for images uh but it's also useful for biology it's"
+      "text": "of a variety of molecules not just proteins actually liens a bunch of different ones so it's just basically it's trying to be a general purpose llm for biology and it took Google scale resources to do this and what we know about deep learning is that it is The Cutting Edge tool for representation learning being able to find the features and important Connections in this data set but the part that made AlphaFold 3 unique from AlphaFold 1 and two was this diffusion model and who gear has heard of stable diffusion raise your hand diffusion in the past few years great I love to see that in the past few years has really shown people the power of generative modeling for images uh but it's also useful for biology it's"
     },
     {
       "start": 1898.159,
@@ -313,7 +313,7 @@
     {
       "start": 2517.04,
       "end": 2561.28,
-      "text": "how how do we and we know about all those parts but really the hardest part here is the experimentation part and so we want an AI that's going to be able to generate proofs for everything that it generates and there's three programming languages currently for generating proofs Isabelle is one not enough libraries I would say uh COA is the other one and lean is the one that I want to use it was actually created by Microsoft and it's used by the ethereum community to secure smart cont tracks uh there's a huge history of automated theorum proving which is what the subfield is called in ethereum in blockchain if you guys have heard of ZK"
+      "text": "how how do we and we know about all those parts but really the hardest part here is the experimentation part and so we want an AI that's going to be able to generate proofs for everything that it generates and there's three programming languages currently for generating proofs Isabelle is one not enough libraries I would say uh COA is the other one and lean is the one that I want to use it was actually created by Microsoft and it's used by the Ethereum community to secure smart cont tracks uh there's a huge history of automated theorem proving which is what the subfield is called in Ethereum in blockchain if you guys have heard of ZK"
     },
     {
       "start": 2557.92,
@@ -353,7 +353,7 @@
     {
       "start": 2846.359,
       "end": 2889.92,
-      "text": "about this new scaling law uh which is inference time scaling we've had the the pre the pre-training scaling laws gbt 1 2 3 4 we all know about that more data more compute makes the mod model smarter across a whole bunch of evaluations but with 01 we saw inference time compute arise and that shows that the longer we let a model think when we prompt it the more like the higher the likelihood that the output is going to be aligned with the evaluation that we're running it for I actually think that there's a third scaling law that we're not talking about and that is a law involving these algebraic relations that I'm talking about automated theorum proving it"
+      "text": "about this new scaling law uh which is inference time scaling we've had the the pre the pre-training scaling laws gbt 1 2 3 4 we all know about that more data more compute makes the mod model smarter across a whole bunch of evaluations but with 01 we saw inference time compute arise and that shows that the longer we let a model think when we prompt it the more like the higher the likelihood that the output is going to be aligned with the evaluation that we're running it for I actually think that there's a third scaling law that we're not talking about and that is a law involving these algebraic relations that I'm talking about automated theorem proving it"
     },
     {
       "start": 2887.4,

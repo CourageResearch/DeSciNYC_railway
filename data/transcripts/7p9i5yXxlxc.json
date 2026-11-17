@@ -68,7 +68,7 @@
     {
       "start": 605.76,
       "end": 638.64,
-      "text": "actually what all the people in the no were doing was looking at like poly market to figure out if poly market was like that that was the source of truth because people were betting with their own real money to determine if um who was going to win. And so when people have like skin in the game and they're incentivized to do accurate review uh reviews of data, they do a much better job. And this is actually like the opposite of what happens in traditional science today where people are peer-reviewing things but they're just sort of randomly throwing out scores."
+      "text": "actually what all the people in the no were doing was looking at like Polymarket to figure out if Polymarket was like that that was the source of truth because people were betting with their own real money to determine if um who was going to win. And so when people have like skin in the game and they're incentivized to do accurate review uh reviews of data, they do a much better job. And this is actually like the opposite of what happens in traditional science today where people are peer-reviewing things but they're just sort of randomly throwing out scores."
     },
     {
       "start": 637.04,
@@ -153,7 +153,7 @@
     {
       "start": 1226.96,
       "end": 1270.32,
-      "text": "connection brokering. They might use uh uh, you know, much like Skype used to where it would broker the connection between the two users and then be hands off. often just be direct between the users, but at some point it does have to communicate with the server. Um, often there's some basic data analytics sent for vendor diagnostics, you know, usage, uh, you know, the kind of crap that we always click on and say, \"Yes, we're okay with this.\" Uh, you know, and never actually read the whole bloody thing. Very simply, you know, Bluetooth is phone, vendor cloud, you know, how would you get to the vendor cloud, 5G, Wi-Fi, whatever? oftentimes using XMPPP"
+      "text": "connection brokering. They might use uh uh, you know, much like Skype used to where it would broker the connection between the two users and then be hands off. often just be direct between the users, but at some point it does have to communicate with the server. Um, often there's some basic data analytics sent for vendor diagnostics, you know, usage, uh, you know, the kind of crap that we always click on and say, \"Yes, we're okay with this.\" Uh, you know, and never actually read the whole bloody thing. Very simply, you know, Bluetooth is phone, vendor cloud, you know, how would you get to the vendor cloud, 5G, Wi-Fi, whatever? oftentimes using XMPP"
     },
     {
       "start": 1267.32,
@@ -463,7 +463,7 @@
     {
       "start": 3610.4,
       "end": 3654.72,
-      "text": "is again PII something that was not publicly disclosed. Once you have the sorry one vulnerability allowed you to query their XMPPP server for a username in order to respond including the uh email address. If you have the email address it would allow you to generate the user's login token. So you could then you know inject uh just do a replace through like burpuite or something and it would suddenly allow you to log in. They found administrators for this company on a bunch of their websites because they used a uh integrated uh authentication system. And so they were able to log in and now view all sorts of information"
+      "text": "is again PII something that was not publicly disclosed. Once you have the sorry one vulnerability allowed you to query their XMPP server for a username in order to respond including the uh email address. If you have the email address it would allow you to generate the user's login token. So you could then you know inject uh just do a replace through like burpuite or something and it would suddenly allow you to log in. They found administrators for this company on a bunch of their websites because they used a uh integrated uh authentication system. And so they were able to log in and now view all sorts of information"
     },
     {
       "start": 3653.119,

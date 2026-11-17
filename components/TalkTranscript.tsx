@@ -14,7 +14,7 @@ export default function TalkTranscript({ transcript, paragraphs }: {
         </a>
       </div>
       <p className="mt-3 text-sm leading-relaxed text-stone-400">
-        {transcript.generated ? "Automatically generated transcript. May contain errors." : "Transcript from the video captions."}
+        {transcript.edited ? "Automatically generated transcript, lightly edited for names, scientific terms, and obvious transcription errors. Some errors may remain." : transcript.generated ? "Automatically generated transcript. May contain errors." : "Transcript from the video captions."}
         {transcript.videoId ? " Select a timestamp to watch that moment on YouTube." : " Select a timestamp to watch that moment in the recording."}
       </p>
       <div className="mt-8 space-y-7">
