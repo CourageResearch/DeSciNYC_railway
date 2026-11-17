@@ -45,6 +45,21 @@
     "wordCount": 12494
   },
   {
+    "key": "s4gX7dunx8c",
+    "slug": "what-are-we-breathing-on-the-nyc-subway",
+    "title": "What Are We Breathing on the NYC Subway?",
+    "speaker": "Jack Klein",
+    "videoId": "s4gX7dunx8c",
+    "eventUrl": "https://luma.com/descinyc46",
+    "pagePath": "/transcripts/what-are-we-breathing-on-the-nyc-subway",
+    "downloadPath": "/transcripts/what-are-we-breathing-on-the-nyc-subway.txt",
+    "captionsPath": "/transcripts/what-are-we-breathing-on-the-nyc-subway.vtt",
+    "generated": true,
+    "source": "audio-transcription",
+    "paragraphCount": 171,
+    "wordCount": 16615
+  },
+  {
     "key": "W9bFAvFpv70",
     "slug": "why-is-china-winning-in-clinical-trials-by-cremieux",
     "title": "Why is China Winning in Clinical Trials? By Crémieux",
@@ -73,6 +88,21 @@
     "source": "youtube-captions",
     "paragraphCount": 152,
     "wordCount": 12141
+  },
+  {
+    "key": "L17vCfpGQko",
+    "slug": "desciboston-prediction-markets-for-clinical-trials",
+    "title": "DeSciBoston: Prediction Markets for Clinical Trials",
+    "speaker": "Dr. Michael",
+    "videoId": "L17vCfpGQko",
+    "eventUrl": "https://luma.com/descinyc43",
+    "pagePath": "/transcripts/desciboston-prediction-markets-for-clinical-trials",
+    "downloadPath": "/transcripts/desciboston-prediction-markets-for-clinical-trials.txt",
+    "captionsPath": "/transcripts/desciboston-prediction-markets-for-clinical-trials.vtt",
+    "generated": true,
+    "source": "audio-transcription",
+    "paragraphCount": 94,
+    "wordCount": 9574
   },
   {
     "key": "z-JP8QYILPw",
@@ -345,6 +375,22 @@
     "wordCount": 7491
   },
   {
+    "key": "crispr",
+    "slug": "crispr",
+    "title": "CRISPR",
+    "speaker": "Dr. Jo Zayner",
+    "videoId": null,
+    "eventUrl": "https://lu.ma/descinyc19",
+    "pagePath": "/biological-futures",
+    "downloadPath": "/transcripts/crispr.txt",
+    "captionsPath": "/transcripts/crispr.vtt",
+    "generated": true,
+    "source": "audio-transcription",
+    "paragraphCount": 74,
+    "wordCount": 7851,
+    "lumaId": "evt-dc04Au36HzE1tvh"
+  },
+  {
     "key": "FrIaTV23ZO0",
     "slug": "longevity-bryan-johnson",
     "title": "Longevity",
@@ -373,6 +419,21 @@
     "source": "youtube-captions",
     "paragraphCount": 96,
     "wordCount": 9753
+  },
+  {
+    "key": "nhfCkI6jvzA",
+    "slug": "microbiome",
+    "title": "Microbiome",
+    "speaker": "Scott Hickle",
+    "videoId": "nhfCkI6jvzA",
+    "eventUrl": "https://lu.ma/descinyc16",
+    "pagePath": "/transcripts/microbiome",
+    "downloadPath": "/transcripts/microbiome.txt",
+    "captionsPath": "/transcripts/microbiome.vtt",
+    "generated": true,
+    "source": "audio-transcription",
+    "paragraphCount": 113,
+    "wordCount": 13242
   },
   {
     "key": "N4uE5jIG1Co",

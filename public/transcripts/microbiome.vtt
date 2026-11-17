@@ -1,0 +1,503 @@
+WEBVTT
+
+00:00:03.380 --> 00:00:33.340
+There&#x27;s room over here. Come in, come in, come in. You can find a chair, put a chair. Come on. Yay, thank you all for coming. Thanks for having me. Okay, well, how many people is this your first DSiNYC?
+
+00:00:33.340 --> 00:01:04.140
+Show of hands. Okay, wow. So how many of you have been to two? Two. How many have been to three? Four. Four. Four. Five. Five. Wow. Six. Six. Okay. Seven. I think this is our 15th. Half. Half? Okay. We must have someone who&#x27;s been to eight.
+
+00:01:04.430 --> 00:01:35.440
+No? Okay. How many people know what decentralized science is? Okay, a few. Well, first off, thank you all for coming. My name&#x27;s Michael. I sort of organized this initially, and now we&#x27;re sort of spreading out, spreading our wings and having more people organize it. So, thank you, Megan, for helping.
+
+00:01:35.760 --> 00:02:07.570
+Who else? Isaiah? Isaiah, here we go. And thank you for posting about it as well. On New York City. I&#x27;m a terrible name. Okay, anyway. So, I&#x27;m going to give like a mini talk on what is decentralized science. So for people that don&#x27;t know. And then I&#x27;m going to tell you
+
+00:02:07.570 --> 00:02:33.260
+about the three upcoming speakers that we have. And all the upcoming speakers are actually crazy. And one in particular is like, get ready. You&#x27;re gonna be really excited about him. And then I&#x27;m gonna tell you a little bit about AI and science, and I&#x27;m gonna hope to keep it really tight. Okay, so, what is Descension?
+
+00:02:33.260 --> 00:03:01.070
+Science is like one of the most important things for like determining human progress. So can anyone think of like if you&#x27;re trying to measure like human progress, maybe you&#x27;re thinking of like how long we live or like the GDP or like but maybe like how many patents or like how many things are being invented. So science is like incredibly useful for knowing that, knowing like for measuring like how good we are doing as a people.
+
+00:03:01.070 --> 00:03:29.860
+But the problem today is that science is sort of being constrained, right? Where do you do science? You do it in a university setting, or you do it as a lone person in your home. But the problem with that is in a university setting, it&#x27;s constrained by the people who decide how it&#x27;s funded, oftentimes get a lot of ability to direct the research. So there&#x27;ll be people who give grants, but
+
+00:03:29.860 --> 00:03:57.970
+they give the grants the same things over time. Or you might have to go through many, many layers of intermediation. So you might need to go through the government, and then you need to go through your PI, and then you need to go through peer review. And by the time you actually publish your work, it&#x27;s gone through so many iterations that there&#x27;s nothing really left of the original thing. So what decentralized science is about is it&#x27;s about like
+
+00:03:57.970 --> 00:04:26.340
+Connecting like people and David much more closely to each other so you don&#x27;t have to go through as many layers and so that you can sort of accelerate science now How do you how do you do that? like one of the big one of the big things is like You know you could you could have done this before with something like citizen science where people were sort of posting their People here notice this in sciences. It&#x27;s like people just like wanting to like post datasets around on the internet, right?
+
+00:04:26.340 --> 00:04:55.360
+But that never really worked very well because I don&#x27;t think there was an incentive model there. So people were sort of posting things, but they didn&#x27;t get any credit for it. Like, they didn&#x27;t make any money, they didn&#x27;t get any status. And so what you really need is some sort of way for people to, like, post data and get credit and be able to monetize it. And one of the big, big inventions that&#x27;s come about recently is, like, the blockchain. And the blockchain is great because it&#x27;s this universal ledger that is sort of permissionless.
+
+00:04:55.360 --> 00:05:23.580
+that anybody can write to. And traditionally it&#x27;s been used for like DeFi, so decentralized finance. And that was good, but it was just people sort of swapping tokens. So it was people like saying like, I have this number of token X, and I think it&#x27;s valued at this amount of money. But the problem with that was like, there was no real asset attached to those tokens per se. And wouldn&#x27;t it be better if you could attach like a real tangible piece of data or a piece of intellectual property to it?
+
+00:05:23.580 --> 00:05:50.000
+So that&#x27;s sort of what decentralized science is, it&#x27;s about connecting science with incentives using the blockchain. So I&#x27;m just gonna run through five different ways in which traditional science is different than, what we call that, trad sci, is different than de sci.
+
+00:05:50.000 --> 00:06:17.230
+So the first one is funding. So in TradSci, what you had to do is you had to say, like, I want to get money, and I&#x27;m going to get that through the government. And the government is going to give me money, and then I&#x27;m going to, like, do my research product based on sort of what they say. But in DeSci, what you can do is you can do, like, a crowdfunding approach where anyone is able to, like, crowdfund a project and get partial ownership of it. So the problem with the government is they&#x27;re just giving you money, and they don&#x27;t sort of expect that you can get a return.
+
+00:06:17.230 --> 00:06:46.850
+In the DSci model, people are actually investing in the project and getting part equity for it. Next slide. The next one is publication. So in DSci, in traditional science, you have to go through peer review. And peer review had so many different levels of abstraction. You had to submit it. And the incentives in peer review were all wrong because you had to pay the journal to get your paper submitted. And then they relied on people to grade the papers who were unpaid.
+
+00:06:46.850 --> 00:07:14.610
+and then you had to pay to get access to those journals. So there was a whole bunch of misaligned incentives. In DSci, everything is just sort of published on chain, and people are allowed to sort of critique it and use it what they want. So you remove a lot of the intermediaries that happened. Next slide. Oh, peer review. So peer review is one of the things that&#x27;s related to publication. So peer review is much easier and incentivized. So imagine in the traditional world of peer review.
+
+00:07:14.610 --> 00:07:40.210
+You know, it&#x27;s anonymous, which actually makes no sense at all, because they have no skin in the game. They can just put random things there and not be incentivized. But in decentralized science, you can think you can do peer review using a prediction market. You can say, if you do a really good job of predicting if this is accurate research, you&#x27;ll earn more money in the future. So you&#x27;re sort of staking on the actual content of the paper and being incentivized by it.
+
+00:07:40.300 --> 00:08:08.030
+Data sharing. So in traditional science, you publish a PDF that is like, and you post it on archive. Oftentimes the data isn&#x27;t shared. There&#x27;s no reproducibility. It&#x27;s hard to get access to the data sets. In dSci, what you can do is you can post all of the content online and put it on the blockchain for anyone to be able to purchase that data set. And when you purchase the data set, you&#x27;re actually incentivizing people to maintain the quality of the data set. So it&#x27;s not a bad thing that you have to spend money for things.
+
+00:08:08.030 --> 00:08:35.790
+But it&#x27;s actually a good thing that people are being actually incentivized to maintain these data sets. Community is a big one. So in like traditional science today, there&#x27;s artificially too few researchers and too few scientists. It&#x27;s like doctors. There should be a lot more doctors today, but the AMA artificially suppresses it. And I think there&#x27;s a similar thing going on in traditional science where there&#x27;s more people that actually want to study science.
+
+00:08:35.790 --> 00:09:01.940
+but there&#x27;s not enough slots in the university system for the people that are capable of doing research. So, decentralized science actually sort of fixes that problem by making it permissionless, being able to participate. There is no acceptance, it&#x27;s like Bitcoin. Anybody can just own a Bitcoin as long as you have the criteria to purchase a Bitcoin. In a similar way with decentralized science, as long as you have the data, as long as you&#x27;re able to build, and as long as you&#x27;re able to...
+
+00:09:01.940 --> 00:09:28.800
+have a reputation and there&#x27;s certain standards. It doesn&#x27;t matter if you&#x27;re in New York, if you&#x27;re in California, or if you&#x27;re in some other part of the world. It&#x27;s all permissionless. You don&#x27;t need to go through this oftentimes very tedious process to get accepted. So I think decentralized science will allow for a thousand times more scientists than what&#x27;s available today. The next one is around IP. And so IP is a tricky one because people who
+
+00:09:28.800 --> 00:09:58.370
+who are in a research lab, they&#x27;re not really incentivized to do good quality work, because they don&#x27;t really see the end result of it. Whereas in decentralized science, anyone you know, you post, you do good research, and you automatically are part owner of the IP that&#x27;s created. So if it&#x27;s licensed to someone else, you get to own parts of it. And lastly, governance. So governance in traditional science is oftentimes not meritocratic. So you have to go through
+
+00:09:58.370 --> 00:10:26.540
+your PI or something, but the PI doesn&#x27;t have the best ideas. They got 10 or 20 years ago. They don&#x27;t care anymore, right? And they oftentimes don&#x27;t have the drive or the skin in the game that they used to. Whereas in decentralized science, governance is very active, right? There&#x27;s all sorts of new models that exist, like futocracy, liquid democracy, and all those types of ways of governing research projects and allocating resources in a smarter way to allow for projects to be more dynamic.
+
+00:10:26.540 --> 00:10:52.660
+and sort of uncrufting the system that exists in science. And then reproducibility is a big one. Like all these professors, and I think this is a bigger one than most people know about, if you try and reproduce any paper on archive, your chances of being able to do that are oftentimes very slim to nil. And I think this is a big problem because science is oftentimes based on the ability to easily reproduce things, right, or being able to verifiably reproduce things.
+
+00:10:52.660 --> 00:11:15.420
+And if you were to just instead post all the data on chain as it leads the sensor and be able to one click with a button to be able to reproduce the science experiment, this would greatly increase reproducibility just by the nature of how science is done. And then the last one is around AI-driven science. I think this is a big one as well.
+
+00:11:15.420 --> 00:11:43.700
+the idea that humans are going to be the best scientists in the world i think is passé and like in the future like all science isn&#x27;t going to be necessarily about like um humans doing science it&#x27;s going to be about ais doing science so we need to start creating systems where the ai is the is the primary user of data and um so this is just another like transformation that will happen okay so the future of ai the future of dsci i think is very bright um
+
+00:11:43.700 --> 00:12:10.590
+We&#x27;re going to democratize science. We&#x27;re going to expand it up to a lot more people. We&#x27;re going to make it much more reproducible. And we&#x27;re sort of going to make it a lot more AI native. And these are all going to be really good things because I&#x27;ll talk about this in the future, but I think we&#x27;re sort of reaching a plateau. Like the number of things that humans are able to do with our data sets is sort of is peaking. Like we only have so much caring capacity in our brain. And to get to the really exciting things like longevity, living forever.
+
+00:12:10.590 --> 00:12:33.940
+solving climate change, infinite energy, we&#x27;re going to have to use a lot more AI and verifiable methods to get to that next level. Dyson spheres. Dyson spheres. I don&#x27;t know what that is, but yes. Challenges of de-size. I think some of the issues that are going to be a problem is around
+
+00:12:33.940 --> 00:13:00.300
+you know, figuring out how D-Size and traditional science integrate together. I think there&#x27;s going to be some ethical things too. Like we wanted, like there&#x27;s IRBs in traditional science and they&#x27;re there for a reason so that people don&#x27;t do unethical research. And I think if you don&#x27;t have those in place, there could be an issue as well. And then also like funding is always an issue. Like there&#x27;s needs to be a way to bring money in to actually pay the hard costs associated with science.
+
+00:13:00.300 --> 00:13:31.810
+So that&#x27;s sort of the overview on sites, on DSi. Okay, can you do any questions? Yeah. How do you do stop loss insurance? How do you do what? Stop loss insurance for intellectual property theft or if I generate like an mRNA vaccine for COVID and then I patented it and then I generated it so then the person who is in the pre-trained mix.
+
+00:13:31.810 --> 00:14:00.430
+I think that will be baked into the project ahead of time, how each project will have different bylaws by which it&#x27;s created and then some will deal with it in one way and some will deal with it in another way. It&#x27;s all, it&#x27;s all, it&#x27;ll just be a smart contract and it&#x27;ll all be on chain so you can just say like I want to participate in it because I agree with these rules and other ones will be like I don&#x27;t agree with this, I don&#x27;t want to participate. That&#x27;s how you decide the rules. You go over to prepare and create the project.
+
+00:14:00.430 --> 00:14:29.460
+The AI will decide that. Oh no, no, no. It&#x27;s human plus AI. Yeah. Anyway, that was great. I&#x27;m fresh out of, I&#x27;m brown from underground, so I&#x27;m totally doing the institutional stuff. How do you plan to get institutional buy-in for DSAG? It&#x27;s a great idea. I think it goes outside of it. I think it&#x27;s like Uber and taxis. I think it just happens on the outside. I don&#x27;t think, I think it&#x27;s like, I think the traditional ones are just gonna, if their costs are so different.
+
+00:14:29.460 --> 00:15:04.800
+that you know it&#x27;s much easier to just create it on the uh without going through the traditional institutions yeah and wouldn&#x27;t these traditional institutions be totally elevated i don&#x27;t know why we yeah go in that direction at all yeah and i think they don&#x27;t take enough risk either like they just do the same thing there&#x27;s a lot of topics that are really important and so they like that waste a lot of money as well yeah
+
+00:15:04.800 --> 00:15:31.380
+Sky labs, like there&#x27;s sky kitchens and like, or ghost kitchens where people can just rent out a kitchen for eight hours a day. I&#x27;m sure people will have, I think there&#x27;s empty laboratory space now that you can probably rent it out by the hour. So you can rent out a hood or whatever you need. But do you think you&#x27;re also collaborating with community labs, like JetSpace here or? I mean, it&#x27;s not me, but I think people probably will do it. Yeah.
+
+00:15:31.980 --> 00:16:00.140
+This is like saying the goals of this overall arching thing. It&#x27;s not me. Yeah, go ahead. I&#x27;m Zeb. First of all, thank you for all this. This is amazing. What are the keys to accelerating the two-side movement? Because it&#x27;s a movement. It&#x27;s happening. It&#x27;s a few years old, and it&#x27;s clearly getting steered. What are the keys to accelerating this both in the US, international, and all of this? I think creating liquidity around the data sets so people can actually earn money. Those are no important ones.
+
+00:16:00.750 --> 00:16:32.880
+Make it like a new word so people can earn cash. Yeah? Do you mind if I share a bit of an alternative path? Sure, just keep it short. What are we doing at the end? Yeah. Go ahead. What are the fears of the SEC? I mean, this is a movement, I think, that is happening, not necessarily, that&#x27;s a different question. Something like if people are flying for Vulcans, I represent entrepreneurship in the alpha or some research.
+
+00:16:32.910 --> 00:16:53.710
+I mean, this is a, I don&#x27;t know. Yeah. Yeah. Yeah. He said, how do you certify results basically so that like you can trust it.
+
+00:17:02.860 --> 00:17:30.080
+And I think they&#x27;ll be like, sort of like there&#x27;s the American Heart Association certified things, just they&#x27;ll be like a similar version of that, like how they&#x27;re starting for something for like auditing contracts. There&#x27;ll be like other companies that audit data sets or protocols for machines. Yeah. Is this something that scientists can do right now or is this something that will be possible in the future? What would a scientist want to do this now do? Yeah, I mean, I think it&#x27;s just starting.
+
+00:17:30.080 --> 00:17:59.900
+So I think you can start to contribute data sets. You can start to contribute towards like overarching. There&#x27;s bigger projects that sort of exist today, but I think they&#x27;re just sort of doing traditional science through funding. They&#x27;re trying to like raise money through the blockchain. I don&#x27;t think they&#x27;re doing the other parts of it yet around like actually doing science on chain. They&#x27;re just sort of doing the funding on chain and then like putting that into a lab setting. I think like true DSci is like actually having multiple people and PI sort of collaborate.
+
+00:17:59.900 --> 00:18:29.250
+And I think that&#x27;s really good for reproducibility too. Because there&#x27;s this concept called adversarial cooperation, where you have people sort of competing with each other and it leads to better results instead of just like one person who has their hypothesis set in their mind and then will sort of prove it no matter what. I think we have time for maybe one more question. Oh, that&#x27;s all right. Yeah, okay, yeah. So, sorry, just to go back to your question there before. Is the plan with respect to certifying results to...
+
+00:18:29.250 --> 00:19:03.660
+I used to create new ones that allow for more choice so instead of just having one regulatory body like the AMA, maybe there could be multiple certifications for organizations and you can choose the level of risk that you&#x27;re willing to take. Yeah? Oh because it goes on chain with their wallet address so you think it&#x27;s linked to them.
+
+00:19:04.720 --> 00:19:27.920
+Okay, that&#x27;s good. Okay, let&#x27;s do a quick photo. Can you cover that light? Everyone smile. Everyone look excited. Everyone be excited. Cover the light. Thank you. You&#x27;re welcome.
+
+00:19:40.400 --> 00:20:12.270
+Beautiful scientists here. So many hot and merry people. We love it, we love it. And? One in point five. Keep it covered. Keep it covered. Okay, now we&#x27;ll get to the fun part, which is our next speaker. Okay. So recording, is this the red light? Yes. Okay, next slide. So I&#x27;ll talk about DCI NYC very, very quickly.
+
+00:20:14.060 --> 00:20:45.360
+So what is DCI NYC? Next slide. Oh. Okay, so we&#x27;ve had a ton of speakers. We&#x27;ve had mushrooms, psychedelics, bees, Marta Screlli, NXE and Science, Longevity, Enhanced Games, ProPedic, Bioelectricity, Michael Levin. All right, next slide. We have a website now. We&#x27;ve just gone, oh, no, this isn&#x27;t our website, sorry.
+
+00:20:45.360 --> 00:21:14.590
+Pizza, we have speakers, we have pizza. Next slide. We have a website now, dsci.nyc. We post all our videos, including this one there. Okay, so now the speakers. So here&#x27;s, we&#x27;ve been working hard to get the next speakers here. So on August 8th, we have David Shore. And David&#x27;s amazing because he was the chief data science guy for Obama.
+
+00:21:14.590 --> 00:21:45.060
+And he knows a lot about the science of elections and, you know, data sets on how they collect and what types of questions are important for people. So he&#x27;s coming on August 8th. You can find that. But don&#x27;t go next time. Don&#x27;t go next time. Sorry. So for the next slide, get amped. Tell me when to go. I ruined it. Oh my God, he&#x27;s coming back. That&#x27;s crazy. So he&#x27;ll be on August 19th.
+
+00:21:45.060 --> 00:22:14.270
+No. Very excited about that. Who knows who Brian Johnson is? Who is? He&#x27;s the founder of the Don&#x27;t Die movement. He&#x27;s the founder of Venmo. He&#x27;s a very cool guy. He&#x27;s an interesting person. I&#x27;ve met him. He&#x27;s a great guy. So we&#x27;re very excited for that. Awesome. Can I go to the next one? Yeah, next one.
+
+00:22:14.270 --> 00:22:44.210
+Next we have this, people know who Jo Zainer is. Yeah, we got Jo Zainer, she&#x27;ll be on September 19th. Thank you to Ben for the recommendation. If anyone has ideas around future people, yeah, she&#x27;s amazing. She was basically one of the first people to democratize CRISPR and do self-experimentation on CRISPR. It&#x27;s very cool. She has a big presence online and she&#x27;s one of the OGs in biohacking.
+
+00:22:44.210 --> 00:23:14.460
+Next slide. We have Nora Sineke. She&#x27;s also very cool. She&#x27;s doing this new concept on embryo testing and doing full genomic testing on embryos. Really interesting. Really important cause also. Okay. Everyone here, now that you all RSPPed for all those events, please tag us, take a picture, follow us on Twitter, follow Elthap so you can see it. Follow us on Twitter, follow us on Instagram.
+
+00:23:14.460 --> 00:23:40.060
+Tag us on Instagram, tag us on Twitter, make a post about us, actually do it. I have to sometimes nag people. Raise your hand if you&#x27;re going to do it. Social proof. What was it? Okay, good. Excellent, excellent. Anyone else want to do it? Did you see the social proof? Okay, good.
+
+00:23:40.060 --> 00:24:09.520
+Okay, we have some people who are gonna do really cool TikToks. We&#x27;re trying to build online presence more because I think there&#x27;s so many run clubs and things that people are getting excited about. Next slide. Oh, if you have any questions, this is my either Twitter or Instagram. You can find me at 0xMikeyF on Twitter. If anyone has any questions or wants to call them here in the future.
+
+00:24:09.810 --> 00:24:40.160
+Okay, now super, this is the last thing, two minutes. This is a new project we&#x27;ve sort of been working on. We&#x27;re a couple people who are working on it. We started a company on it, so I want to tell you about it. It&#x27;s called SVN, which is like Science Validator Network. You can find out more at svn.haus. Next slide. So what it is, it&#x27;s like a blockchain for like validating public data sets.
+
+00:24:40.160 --> 00:25:09.970
+So the idea is that in the future, you need a lot of data. The amount of data that&#x27;s out there is often times very low quality. And the future of that is going to make data sets specifically built for AI to enable AI to discover new things. Next slide. So the hypothesis is that the amount of time that humans are going to be doing science is limited probably to the next five years until super intelligent AI comes along and invents science without humans needing
+
+00:25:09.970 --> 00:25:33.970
+to be part of it, or if humans are part of it, humans will slow down science. So it&#x27;s important that we start creating data sets and AI specifically for AI scientists. So there&#x27;s only so much, in order to accelerate, someone asked before, how do we accelerate science? I think this is an important way. Coffee is not the way to accelerate science.
+
+00:25:33.970 --> 00:26:02.530
+Humans can only drink so much coffee and they can only accelerate it so much. The future is in like enabling AI to do like really cool things. All right, next slide. So we need better data sets. So AI is currently trained on terrible data sets like Reddit and like Common Crawl, Books 2, Wikipedia, sort of stuff like that. And like these are OK data sets, but they&#x27;re oftentimes very low quality. And they have a lot of subjective bias in them.
+
+00:26:02.530 --> 00:26:32.210
+So a really, really good data set isn&#x27;t one that is subjective, I believe. I believe a really great data set is something that is 100% objective. And all the subjectivity will be built. All data should be objective to allow for the AI to do all the objective stuff on top of it. So current data sets are very imprecise. And they&#x27;re out to heaven. And they&#x27;re partially bad because they&#x27;re outdated.
+
+00:26:32.210 --> 00:27:01.140
+ways in which science is done and the incentives, people just trying to prove hypotheses that they already believe to be true. OK, so what we need is higher quality data sets. So data sets where people are measuring directly from some temperature sensors, blood work, MRIs, and having no human intervention. It&#x27;s all just raw data. So in order to do this,
+
+00:27:01.140 --> 00:27:19.710
+we need to incentivize people for them to give us their data. And how do we do that is we use like a crypto token. So people should be able to give data to a data set and then in return get a crypto token that has some liquidity around it so they can like basically sell it. But if you do that, what&#x27;s going to happen?
+
+00:27:19.710 --> 00:27:45.300
+is people are just going to upload random data, right? They&#x27;re going to see like, oh, this is like, they&#x27;re just going to take pictures of their foot and be like, oh, this is like infected and it hurts and whatever. So it won&#x27;t actually be like accurate data or they&#x27;ll just like make up sleep data or they&#x27;ll make up like Strava data. So you need a way to incentivize the validation of that data set. So to make sure that that data is accurate. So we created a system of validators and a prediction market.
+
+00:27:45.300 --> 00:28:14.340
+to allow validators to stake on the validity of data. And so they win money if they&#x27;re correct, and they lose money if they&#x27;re incorrect. So it&#x27;s like a whole AI-driven validation system. Next slide. So this is a very different way of doing science. So traditional science is like you have a research question, and then you have a hypothesis, and then you gather data, and then you have a result, and then you have a conclusion. And this is all very AI, sort of human-driven. But I think the future of science is to just be able to accurately model the world.
+
+00:28:14.340 --> 00:28:37.840
+and then have it be able to make predictions around outcomes of the world as opposed to sort of doing this retrospective sort of scientific method. So I think this is like, I think it&#x27;s like a new and different way of thinking about how science should be done and sort of that goes beyond like the initial, how a human centric way where we&#x27;re sort of limited by what we can think of and do in our brain. I think that&#x27;s it.
+
+00:28:37.840 --> 00:29:07.630
+Oh yeah, so we&#x27;re hiring people. So if you&#x27;re an engineer, if you&#x27;re a data scientist, if you&#x27;re into business, if you&#x27;re into marketing, scan this QR code and come work. We&#x27;re backed by Polychain, DAO5, Bellagy, and Blizzard. These are all like the top VCs in crypto. So if you&#x27;re interested in working together with us, make sure to scan the QR code here. Does anyone have any questions while I leave that up? Question? Yes.
+
+00:29:10.700 --> 00:29:40.620
+There&#x27;s ultimately a curator that it goes to but there&#x27;s sort of a double or nothing system that preamps that so validators have to continually upping their stakes and being more and more confident or sort of it&#x27;s like a game of chicken for data. So someone has to keep continually saying that it&#x27;s better, it&#x27;s better, it&#x27;s better until it hits a cutoff and then a human comes in and actually does it. But the human is the person that originally started the data set. Oh, I see. So the one who wants the data is paying clicks. Yeah, exactly.
+
+00:29:40.820 --> 00:30:12.480
+It&#x27;s like a judge system. It&#x27;s based on a concept of double or nothing lawsuits by something handsome who&#x27;s at like George Washington University. Yes, go ahead. Are you interested in social part around this data set besides this question? Can I understand what&#x27;s in that data set and continue? Sure. Yeah. Go ahead.
+
+00:30:12.480 --> 00:30:45.520
+What are the easiest ways to get raw data? I think Aura Ring, Strava, HealthKit, levels, temperature sensors, any sort of raw data, MRI, DICOM, all these types of things. Blunked out. Yeah. I know there&#x27;s a lot of researchers who, is there a way to incentivize them to give you their data sets to make sure they give you right along the data? Yeah, yeah. I mean, if they submit it and it&#x27;s accepted by the validators, they will be rewarded in tokens that have liquidity around it.
+
+00:30:45.520 --> 00:31:20.020
+Yeah, yeah. Ready to start a project? Oh, go to sbn.ha.us, Science Validator Network, and you can just create a project. And we have validators running that are able to judge, and you can also run your own validator on your computer as well. Yeah? Is there any, like, texting data sets? We have Hinged data. From a GDPR data request. Or Tinder, or anything that&#x27;s GDPR data requestable. Yeah.
+
+00:31:20.020 --> 00:31:49.390
+Okay, last one. Okay. Oh yeah, go ahead. They&#x27;re doing something like this for GPS data. Where they build hardware and then they sell it to people. These machines will gather location data and then send it to their blockchain. Cool. So it sounds similar to that. Okay, now I&#x27;m done talking. And now it is Scott&#x27;s turn. So let&#x27;s just talk about this.
+
+00:31:57.900 --> 00:32:23.630
+I&#x27;ll do it. I&#x27;ll do it. Okay, so Scott flew up yesterday, and Scott is a master of the toilet. A master of the throne. And he was very... I&#x27;ll just give you a brief thing. Scott has been doing this really interesting experiment. It&#x27;s like a modern day, super-sized meat. But with new technology to experiment with his gut health.
+
+00:32:23.630 --> 00:32:51.010
+And so Scott has created a big presence on Twitter. Follow him and I&#x27;ll let you go from here. Thank you so much for having me. First of all, thank you so much for coming out. I met several of you here who changed travel plans or actually traveled to be here. That is fucking absurd to me. And I&#x27;m just so grateful that this resonates with people and delighted that you joined me here tonight.
+
+00:32:51.010 --> 00:33:20.980
+Yeah, so as Michael kind of mentioned, I just did a 30-day experiment eating only ultra-processed foods. Like 100% of my calories for 30 days were ultra-processed foods. So we go to the next slide, and I&#x27;ll talk about why I did that. So introduction, I&#x27;m Scott. I&#x27;m running a health company. We&#x27;re building a device to monitor gut health, uralogic function, and hydration under toilet using computer vision and AI. So it&#x27;s literally a camera that goes in your toilet.
+
+00:33:20.980 --> 00:33:50.460
+and we run models over it and then tell you how hydrated you are, how it looks like, it goes over to a nap. It&#x27;s literally like, you joke, it&#x27;s woot for your poop or aura for your flora. It&#x27;s the most fun I&#x27;ve ever had in my career. And ultimately, long term, the goal is I think this can legitimately solve colon cancer because we can find early signs of what&#x27;s called fecal occult blood, which is blood that&#x27;s invisible to the naked eye. There&#x27;s a lot of things that can cause that, right? Like ulcers, viral infections, fissures, fissures, hemorrhoids.
+
+00:33:50.460 --> 00:34:19.180
+The most scary though is colorectal cancer. And when you catch colorectal cancer early, you have a 95% five-year spinal rate. When you catch it late, it goes down to like 60% once it&#x27;s metastasized, once it&#x27;s been distantly metastasized. So if we can catch that blood, get you into a GI doctor, get a colonoscopy, that will legitimately save lives. That&#x27;s kind of the driving motivation here. So let&#x27;s go to the next slide. So yeah, why did I eat post-processed foods in
+
+00:34:19.180 --> 00:34:46.800
+for 30 days in the first place and it&#x27;s because as i mentioned i wrote this kind of health startup and i was able to see uh oh my that looks a little smaller so let me just narrate this for you so i was able to see the gut brain access amazing thank you so this is my aura data from may 3rd and may 3rd was a stressful day we had to part ways with a colleague and as you can see you know that conversation happened like you know roughly this time and i took my ring off because i was fidgeting with it all day but my stress was like
+
+00:34:46.860 --> 00:35:16.340
+Highest level it&#x27;s been ever since I started wearing my aura ring last year if we go to the right You can see my gun health data. This is from the throne app that was May 3rd there and that day My gut was all sorts of fucked up, right? Like I went the full spectrum from hard to healthy to liquid in like nine hours Just like full swing of this pendulum so seeing the way like in the data I would be able to see the way that like my physiological stress or my psychological stress impacted my physiology
+
+00:35:16.340 --> 00:35:43.900
+It was like two days afterwards, I was like, oh, that&#x27;s fucking cool. But at the moment, it really sucked. And so then it was a question of like, OK, the arrow from my brain to my gut is very strong. What happens if I try and eat foods for a month to fuck up my gut? What will happen to my mental health? And I have the means to do that. And it was, why not? So let&#x27;s go to the next slide. I have a question. So you.
+
+00:35:43.900 --> 00:35:53.500
+This arrow very dominant for me this arrow was an open question
+
+00:36:12.720 --> 00:36:43.420
+So let&#x27;s go to the next slide. So I did this basically May 28th through June 27th, 30 very long days. I could not recommend doing this to anyone. Let&#x27;s go to the next slide. So basically there were three rules that I observed throughout the duration of this experiment. I posted everything every single day, but basically any food containing ingredients that your grandma can&#x27;t pronounce is considered also processed. Those are typically emulsifiers, shell stabilizers,
+
+00:36:43.420 --> 00:37:11.820
+you know, the types of things that end up in the center of the grocery store, not the outer perimeter. The sugar and oil test, so things that contain added sugar or deep-fried count as ultra-processed, that put fast food on the menu for me. And then finally, there&#x27;s the shelf test, which is if something has ingredients in it that give it an extended shelf life that would last longer than something you would make homemade, that counts as ultra-processed. These are kind of rules of thumb that I picked up from a doctor who wrote this book, Ultra-processed People.
+
+00:37:11.820 --> 00:37:35.950
+you know ultra processed food like the actual like clinical definition of upf is like paragraphs long it doesn&#x27;t look good on this slide um so next one so yeah the differences between this and supersize me were that i did not eat till satiety right so i ate only 3 200 calories a day um like religiously and
+
+00:37:35.950 --> 00:38:05.660
+Basically what that meant is that I was isofluorant because if I ate until I was full every day, eating super shitty foods, the outcome is pretty predictable and not that interesting, right? Which is like you gain a bunch of weight. So the question is, what if I continued every other aspect of my lifestyle exactly the same, and so I ate 3,300 calories, and then I continued to exercise, and I don&#x27;t drink. The reason I flagged that, because supersized me, he came out, Morgan Spirits came out years later and admitted that he had been basically an alcoholic since in his teens.
+
+00:38:05.660 --> 00:38:29.970
+and said, you know, I have not drank for a week since I was like 16 years old and then kind of called into question the super-sized experiment. And like in hindsight now there&#x27;s like a dark steam where like one of the physicians is like, man, I haven&#x27;t seen like fatty liver like this in a non-alcoholic in my life. And he&#x27;s just like, wow.
+
+00:38:29.970 --> 00:38:49.760
+Okay, so yeah, and the other big piece was like I got to use modern tools and technology. So, you know, this super size me was 2004 when it came out. I think it was still in 2003, so 20 years ago. There&#x27;s a lot of tools available to us now, like as you know, citizen scientists.
+
+00:38:49.760 --> 00:39:17.730
+consumers so I wore an Oura ring mine is charging at home right now but I use a Wulb strap which is basically redundant in the Oura ring I use a continuous glucose monitor levels which I have on my ass right now yeah they&#x27;re great like actually amazing tools I use obviously Throne to monitor my hydration and gut health I use my WISE smart scale to weigh myself twice a day I use a generic blood pressure cuff to monitor my blood pressure three times a day first thing when I woke up in the middle of the day and then again before I was in bed I use the app Heavy
+
+00:39:17.730 --> 00:39:41.860
+I need to track every single workout routine that I do, every set and every rep, as well as my regular perceived exertion. I need paddle health to track all my steps. I did a self-report of my mood, energy, focus, and stress every time I did my blood pressure. So for that I used a seven-point symmetrical Likert scale, basically like one with like ass and seven with like best day ever, and then neutral would be in the middle. But then I did point and time tests. So these are continuous measurements that are happening every single day.
+
+00:39:41.860 --> 00:40:02.110
+And then I did point-in-time tests. I did a DEXA scan, so dual x-ray and probdometry, which is kind of the gold standard for body composition analysis. I did blood tests through function health, which got me like 130 biomarkers. And then microbiome analysis of stool samples that I now went into a lab through tiny health that got me another 110 biomarkers from my stool.
+
+00:40:02.110 --> 00:40:25.040
+I like the second most measured man. So like, that was hilarious. I like that. I have a question. Your point and time test, could you elaborate more on your time before? Oh yeah, so I did the DEXA scan and the blood test microbiome analysis.
+
+00:40:25.040 --> 00:40:55.520
+Blood tests are taken over two days because the function draws so much blood. So every two days? No, no, no, no. So at the point in time, I did them once before and once after. So nothing in the middle? No, nothing in the middle because honestly, they&#x27;re just really expensive. Dexas are like $60 a pop. The blood tests are $500 pop. And the microbiome tests are like $300. So that was not something I really wanted to develop on more than absolutely necessary. Next slide. Sorry, question. Yeah, real quick. So it&#x27;s just the full bureau.
+
+00:40:55.520 --> 00:41:22.800
+you&#x27;re not taking anything else no i i i washed out all the supplements for my system i stopped taking all of my supplements three weeks before so like washed those completely out of my system so i was just like just changing my food i wasn&#x27;t going to say it water is the same water that you know yeah i drank the same amount of water same amount of diet cokes like that didn&#x27;t change okay so let&#x27;s talk real quick about the thing that stayed the same so
+
+00:41:22.800 --> 00:41:51.070
+We&#x27;ll skip to that one in the end. So my heart rate variability, interesting, did not change. That&#x27;s generally a measure of your recovery and overall aerobic fitness. This is my strain, which is basically a measure of how much I am working out every day. That didn&#x27;t change. You can see that&#x27;s pretty consistent. Went to a concert and that&#x27;s what that really did to people that day. My weight did not change too much. I actually undershot my calendar goal on accident because I picked...
+
+00:41:51.070 --> 00:42:17.020
+the same calories that I&#x27;ve been counting my calories since like April like religiously like not just a meal so I picked the same calories I was eating for April and May when I started this but I neglected to account for the fact that I lost a bunch of weight in those months so I was continuing to lose weight which was not point of an experiment so I that&#x27;s when I bought my calories from 2800 to 3200 you can say I leveled out so that you know I started at 187 I ended at 185.8 so like close enough
+
+00:42:17.020 --> 00:42:37.600
+That was my gut health for the month. We&#x27;ll talk about these aberrations right here. So perfect gut health on throne. It&#x27;s just a straight blue bar across. These are slightly constipative, and this is liquid. And those are because I did some theme days where I ate, one day I ate only Krispy Kreme donuts for 3200 calories.
+
+00:42:37.600 --> 00:43:04.560
+and that had me like a shit I&#x27;d been with for two days, so it was absolutely abysmal. And then the other day was spicy day, which was the closest I have ever come to shit myself in public. So cannot recommend those, but honestly, instrumental learnings for me, because again, like you don&#x27;t see a screenshot up here, but we have this concept of a gut health score on the throat, and like, I&#x27;m someone who I think is blessed with like a generally healthy gut, and so on those days where I would just like
+
+00:43:04.560 --> 00:43:34.320
+Like trash and like not able to leave the toilet to be able to see that my health scores like you&#x27;re at 85 I was like that&#x27;s fine. That&#x27;s wrong, right? So I had to go back and like rewrite the entire health score algorithm to be way more responsive to things like that So that was interesting But overall my gut health did not change too much a little bit We&#x27;ll talk about that in a moment more when we get to the microbiome results my sleep shockingly consistent throughout and This is my resting heart rhythm. It did not change at all
+
+00:43:34.320 --> 00:44:04.220
+So one thing here that&#x27;s worth noting is so this is my average glucose data. So this is my average daily glucose from levels, which is continuous glucose monitor. And that didn&#x27;t change at all despite the fact that it turns out glucose is one of the most significant amounts of my mood writ large. So just keep that in mind. We&#x27;ll circle back to that in a moment. Next slide. Okay. Things that change dramatically. My energy, my mood, and my focus.
+
+00:44:04.220 --> 00:44:34.190
+like 10. Energy in particular, like for the first, like, you know, highly variable, right? This is also objective measurement. But like, my energy over the course of a month was, like, you know, I started high, fell off, moved, same thing, although less of a precipitous drop off, but we&#x27;ll get the same thing. So let&#x27;s go to the next slide. Those are just self-reported? Yeah, those are self-reported. You like made a number scale for it? Yeah, like a seven-point Likert scale, so like, you know,
+
+00:44:34.190 --> 00:45:04.140
+neutral in the middle and then you know symmetrical on both sides like you know somewhat okay so what that&#x27;s something like really good really bad other things that take one these lines somehow got this word another day we&#x27;ll just talk through it so what most dramatic changes was in my visceral ad post issues so basically have two types of fat right you have subcutaneous fat under the skin and then you have gut fat like in your organs and that is the bad fat and that&#x27;s associated
+
+00:45:04.140 --> 00:45:31.740
+with elevated risk of diabetes, elevated risk of heart disease, and cancer. And I, for basically, so this is my DEPSA scan from last September. It says 24, but obviously not true. My visceral adipose tissue was like 0.2 pounds. Before I started the experiment, my pre-weigh-in was 0.2 pounds, so I was like asymptotically slowly approaching zero. In the course of a month, I net lost fat.
+
+00:45:31.740 --> 00:45:59.970
+I went from 12.2 to 11.9% body fat, but I gained 5.5x in my visceral outpost tissue, which is a crazy redistribution. I actually honestly did not believe that result. I thought that was wrong. And so then I went and did another measurement a few days ago before I got here. And after a month of eating healthy, I had lost 0.1 pounds in my visceral outpost tissue. So the lesson here, which is insane, is that it&#x27;s...
+
+00:45:59.970 --> 00:46:27.840
+Really easy to fuck up your body and really hard to fix it right which is a bummer But like it&#x27;s gonna take me another you know eight to nine months to get that where I was before Which is like a crazy thing like also what a cool thing to have the data to see that right like that&#x27;s awesome Next slide All right, so this is yeah, this is where I was supposed to talk about my mood so my colleague Catherine who sits across from me in my office we face each other and
+
+00:46:27.840 --> 00:46:57.540
+I didn&#x27;t realize that one of my friends had put her up to keeping a mood journal of me, secretly. So I&#x27;ll just read some of these entries for you, right? Like, this is the first day, spirits are very high, excited to start the experiment. The next day, seems so chill. You know, a few days later, chipper and happy. We get to the end here, everything got bad, and we came into the room radiating, in all caps, bad energy. So, you know, the self-report is interesting, and this totally validates it. And I did not know this data set was being captured until post-bath. No.
+
+00:46:57.540 --> 00:47:28.340
+Next slide. So a couple things have changed. So this is my before. And you can see great results, 20 out of 110. Normal results, 70. A couple things. And then need support, which is like the worst bucket in the hierarchy here on Tiny Health. I was like three out of 110. After, I went from 28 to 23 great results. And I went from three to eight need support. The most interesting of the two.
+
+00:47:28.340 --> 00:47:55.660
+are these results here on the Calprotectin and lactobarins. So these are proteins typically associated with colonic eucosal inflammation, which is something that people with Crohn&#x27;s or Astoria of Colitis and inflammatory bowel diseases have. These are the two biomarkers that basically a gastroenterologist would look at to determine, do I need to do a colonoscopy on this person to look at their colon to basically ID if they have IBD or not.
+
+00:47:55.660 --> 00:48:26.190
+So the fact that I went from, and before, neither of these were out of range. So that was a pretty interesting thing. I did manage, even though I wasn&#x27;t feeling the effects, I did manage to cause some perhaps concerning inflammation of my colon. Next page. Then my blood results. So I did, like I said, May 23rd and June 27th, my cholesterol.
+
+00:48:27.120 --> 00:48:57.250
+basically improved, which is interesting. And my biological age also improved. I don&#x27;t understand it. You know, biological cascades, like, the more you get into health, the more you start to appreciate that there are literally thousands of biological cascades that happen in your body concurrently at all times. Understanding cause and effect and teasing out the weights of the various cascades is, like, really difficult. That&#x27;s why doctors go to med school for, like, a decade.
+
+00:48:57.250 --> 00:49:25.470
+and I don&#x27;t understand this at all. These are confounding results. I did not feel healthier, look healthier, act healthier, treat people healthier by the end of my experiment, but by just looking at my blood, you would never have guessed it. So next slide. Well, actually, we can just talk about it, but my testosterone also dropped recidivously, which is fascinating. So again, really easy to fuck up your body, really hard to fix it.
+
+00:49:25.470 --> 00:49:55.180
+More stuff that changed. So this is my recovery score. As you can see, the highs got lower. This is my spike time. So this is the amount of time in a day that I spent with my blood sugar spiking. So in the course of a month, that went from roughly three hours a day, let&#x27;s say, probably like 10 and a half hours a day, up to three hours and 35 minutes. And there were some days where I was pressing five hours. And then my blood pressure, highly, highly volatile.
+
+00:49:55.220 --> 00:50:25.150
+mostly consistent almost slightly up into the right. Yeah. How did you like your workouts? So the first week of workouts were amazing because I typically eat like a fairly low carb diet. So I had like way more like glycogen stores to work with. So I was pushing heavier weights and like feeling like I could punch through a brick wall. By the time, by like the last three or four days, I was like dropping weights. I was pushing probably like 80% of what I started at the beginning of the month. It felt terrible.
+
+00:50:25.150 --> 00:50:54.900
+So it was interesting because that&#x27;s about what I expected to happen because when you cargo load or whatever, you end up, I mean that&#x27;s why endurance athletes and performance athletes and the Olympics is a perfect example of that. If you look at what Michael Phelps ate back when he was in the Olympics, he was like 10,000 calories a day. Probably a testosterone. What? Probably because of your testosterone. Yeah. So you went to 100% and she ate 1,000. What percent were you at before that?
+
+00:50:55.120 --> 00:51:25.700
+That&#x27;s a good question. I could go back and look I would say Roughly ten to fifteen percent my general philosophy right like when you eat like ten percent shitty foods they taste in time Right like with but like when that&#x27;s your everything like I&#x27;m gonna fucking see a car or sugar, right? Like I was so ready to get back to like eating eggs and Sam all right next Yeah, so now I&#x27;m back on track. I&#x27;ve got some more results here
+
+00:51:25.700 --> 00:51:59.360
+So I took these results roughly 18 days afterwards because I needed to get these screenshots over to my designer to make these beautiful slides. But you can see the stress didn&#x27;t change hardly at all. Stress is volatile, not startup like blah blah blah, but pretty manageable. Energy, mood, and focus, straight up, just a V. It&#x27;s amazing to see the story. You have a question?
+
+00:51:59.360 --> 00:52:24.940
+I was basically optimizing for weight consistency with the isochloric part of the diet. So I was trying to keep my weight exactly the same, which is why I ate the same amount of calorie food. No. If I had changed my calorie goal, I wouldn&#x27;t gain weight, but I went to bed hungry a lot of nights because I wasn&#x27;t trying to gain weight. All right, next slide.
+
+00:52:24.940 --> 00:52:55.710
+These are some other really fun ones. So you can see my spike time dropped from four hours and 20 some odd minutes to like an hour or something. I can&#x27;t read those numbers. Can you do that again? Spike time. So that&#x27;s the amount of time that my blood glucose is spiking at least 30 points and above 110 nanomole per deciliter or something like that. But basically it&#x27;s a measure of how much time your blood sugar is spiking in a given day. And so you can see here my...
+
+00:52:55.710 --> 00:53:23.920
+Spike time went from, yeah, two hours and four hours and 22 minutes. I ended there. Two hours and 15 minutes. So like almost, you know, almost cut in half. Let&#x27;s scroll over to that side. Yeah, so I forget. What is that there? So that&#x27;s my stability score. It&#x27;s kind of like the derivative metric that Lovitz has. You can see basically that increased a few points. My spike counts as the number of blood sugar spikes I&#x27;m having in a day.
+
+00:53:23.920 --> 00:53:52.130
+That went from 3.2 to 1.7, so also almost cut in half. But again, my blood glucose stayed the same. So important lesson here. Actually, let&#x27;s go to the next slide. I think we can talk about this on the next one. Yeah, perfect. We&#x27;re getting into the reflections. So yeah, basically delta glucose, or the change in my glucose, totally dominates my existence and my experience in the world, which is like a crazy thing. I have a brother who&#x27;s hypoglycemic, and I always thought that was like an M thing, right? Like my mom was growing up.
+
+00:53:52.130 --> 00:54:20.700
+She&#x27;d be like, well, you know, he&#x27;s kind of being an angry bitch, and I&#x27;m just going to give him some food and come back in 40 minutes. Turns out that&#x27;s totally a new thing, too, and I think it&#x27;s like an everyone thing. If I could have a CGM on every single person here, a little heads-up display telling me they&#x27;re spiking or crashing, I&#x27;d be like, cool, you&#x27;re a reptile. I&#x27;m going to come back when you&#x27;re not. Because it totally, when I&#x27;m spiking, I feel invincible. When I&#x27;m crashing, I&#x27;m like, how many times can I roll my car at 90 miles an hour? It&#x27;s just, let&#x27;s give in to these intrusive thoughts. It&#x27;s crazy.
+
+00:54:20.700 --> 00:54:51.180
+And so that&#x27;s why, like, oh yeah. What if you like surfing the waves of the spike? I actually think, so there&#x27;s a whole pathology around like glucose and depression, and I actually think this is a huge piece of it, which is people eat shitty diets, they feel good for 15 minutes, they self-medicate with that, and then you start crashing, and your brain creates... So that&#x27;s the thing, like, people are trying to do that when they self-medicate to get the spike, but it&#x27;s the crash.
+
+00:54:51.180 --> 00:55:22.130
+that absolutely wrecks your day and makes you think much more negative thoughts and then your brain creates an energy of consistency so you stick to those negative thoughts even once your glucose is filled out. That was absolutely an experience that I found. More power to you, brother. I&#x27;m not doing it anymore. Sorry, quick question. I might have missed this. What was your diet like before we started? Before the diet, I eat 200 grams of protein every single day. My general breakfast is like
+
+00:55:22.130 --> 00:55:51.630
+three eggs, grilled salmon, I have a diner in it five days a week. I eat the same salad from sweet cream five days a week. I eat poke-y. I&#x27;m very warm. My dinner is usually the whole food top bar. I used to be overweight and now I&#x27;m not. I&#x27;m trying to keep it that way. There was no ultra-processed food before. Not no ultra-processed food. There&#x27;s like 10 to 15% of my diet is probably ultra-processed food. I&#x27;m not trying to like, you know, Brian Johnson is like the most disciplined man on the planet. I&#x27;m not trying to be Brian Johnson, you know?
+
+00:55:51.980 --> 00:56:22.160
+My question is, before your diet, the regular one, did you ever go to bed hungry? Or did it just happen and death? That&#x27;s a great question. Not too much, honestly. I don&#x27;t keep snacks in the house, so sometimes that would happen. Proportionally bigger with this specific diet for the one month? What was that? Meaning, did you go more often bed hungry? Oh, definitely, because ultra-processed foods are very nutritionally dearth.
+
+00:56:22.160 --> 00:56:49.890
+So they&#x27;re, you know, like, calorically dense, but you don&#x27;t feel full after them. Did you monitor that as well? Like, how many nights I went to bed? No, I shouldn&#x27;t have done that in hindsight. That&#x27;s another lesson here, is you don&#x27;t, like, I think it&#x27;s on the next page, but, like, you can&#x27;t capture the data retroactively, right? So, like, bummer. And that&#x27;s kind of one of the motivations for having anybody they see. Yeah? Would you consider yourself someone who experiences, like, food noise, if you know that concept about...
+
+00:56:49.890 --> 00:57:14.750
+when you&#x27;re not eating thinking about eating and that&#x27;s something that like no i was that big kind of no i don&#x27;t experience food noise not particularly and this didn&#x27;t change no like no if anything i found myself like thinking more about food than i care to so it so it toggled in the direction of more yeah then more food yes but like because like i did two weeks of these theme days and they just require a lot of logistics
+
+00:57:14.750 --> 00:57:43.870
+right like when you&#x27;re eating only Taco Bell for a day or when you&#x27;re eating only gas station food for a day or when you&#x27;re eating only like healthy low food for a day like protein bars right like that is actually like it sounds like not that hard but you gotta like plan and show up and buy all those things in advance and then you go to all your events you gotta have your food with you and if you don&#x27;t have your food with you then you&#x27;re really hungry but it was logistical not emotional yeah yeah exactly all right just before and after sorry no after after you so the total sugar intake did you keep track of that like yeah oh yeah sugar intake
+
+00:57:43.870 --> 00:58:13.710
+My total sugar intake went from 100 grams a day, but mostly fruits, to 170 grams a day of bullshit. Protein 200. The composition of that went from fructose to straight up table sugar or added sugar. Table sugar is also 50%. Yeah, yeah. But yes. Hold up real quick. So if you&#x27;re eating the same amount of calories with processed and healthy food,
+
+00:58:13.710 --> 00:58:43.890
+If you remember, did you feel hungrier with the processed food? So this is actually, for me, I didn&#x27;t experience that much hunger, other than just towards the end of the night, where I had hit my calorie cap earlier in the day, and now it&#x27;s five, six hours since I&#x27;m eating. That&#x27;s soft. But this experiment that you&#x27;re talking about is something that there&#x27;s a scientist called Kevin Hall, who ran this study. He had two control groups, each eat, and they&#x27;re nutritionally identical lines, right? So the same, like,
+
+00:58:43.890 --> 00:59:11.440
+nutritionally effectively, and same macros between protein, fat, and carbs. One was whole foods for two weeks, and the other group was ultra-processed foods for two weeks. And then they switched. And in both groups, they found that the UPF group ate 500 calories more a day, which is one of the first controlled clinical trials around the difference between UPF and whole foods. And there does seem to be something about the fact that even though they are nutritionally identical,
+
+00:59:11.440 --> 00:59:39.060
+you are driven to eat more BPF than whole foods despite the fact that like on paper they&#x27;re losing. Yeah, I have a future forward question like would you do this diet, like not this diet, but would you do like kind of a branch of, is doing like doing one month of whole lean plant-based vegan diet? Um, yeah I actually do want to, I&#x27;m talking about a buddy of mine in September, we&#x27;re talking about doing the blueprint diet because like
+
+00:59:39.060 --> 01:00:08.020
+Why not? I have the equipment, I&#x27;m set up for it, like, you know, doing like, I&#x27;ll probably do a cardboard diet for a month sometime, right? But like, first I was going to string them all together, like month, month, month, month, but now I&#x27;m like, I don&#x27;t, that discipline sucks. Like, there&#x27;s also like a very real mental social aspect to it, which is like showing up to events and being like that anti-social asshole who&#x27;s like, I can&#x27;t eat this home cooking that you prepared for me. Like, I&#x27;m so grateful, but like, I&#x27;m not going to. Like, after a month, it gets old.
+
+01:00:09.140 --> 01:00:38.140
+Next slide. Actually, let me see. Good. That was in the detail. Okay, so real quick, the one I want to talk about with this is, again, like, glucose dominates my mood, but I would never have known that if I wasn&#x27;t monitoring it in a continuous basis because my average glucose didn&#x27;t change at all. So if I was only looking at my H, no, A1C, which is like a retroactive look at the past 90 days of your glucose measurements, those didn&#x27;t change whatsoever. So I would, like, being able to have, like,
+
+01:00:38.140 --> 01:01:07.070
+high to poor resolution on your data is super educational. And like glucose is one of the only metabolites that you can actually measure in an ongoing basis right now. So that&#x27;s like one of the big things for what we&#x27;re doing in front and the big motivations for us is like the first question any GI doc asks when you go in and say like, hey, I think I have IBS or IBD, and they&#x27;re like, how have you been pooping? I&#x27;m like, fuck, man, I don&#x27;t remember what I ate two days ago for breakfast. I couldn&#x27;t tell you how my bowel movements have changed over the past three months. Yeah. How&#x27;s your yoga changing your mood? That&#x27;s a great question. I do.
+
+01:01:07.070 --> 01:01:36.530
+So I differentiate between exercise yoga and soul yoga, recovery yoga. I&#x27;m way bigger than recovery yoga. I don&#x27;t do a whole lot of exercise yoga anymore because I lift, and so this is my balance in my exercise routine. I got a lot out of yoga throughout the thing, but I was still feeling that. You feel good for the hour or two after or the rest of the evening, but then by the next day, I still woke up.
+
+01:01:36.910 --> 01:02:07.490
+Not happy and like especially in the last week I was like More like yoga Okay, yeah, it is I got the chair of what we talked about that next slide. We&#x27;re almost done y&#x27;all. Thank you so much So yeah, you can go back and capture data that you didn&#x27;t have time So, you know to your point like I wish I kept track of like the like, you know subjective hunger
+
+01:02:07.490 --> 01:02:35.570
+You need baseline data, which is boring, to notice deviations which are interesting and potentially life-saving. So like we talked about, you know, if you have your baseline data, then you can see things like changes. And you know, if I went from not having blood in my school to blood in my school, that could be life-saving. Another example is like I have a friend who wears an Apple watch and he found that his, he&#x27;s in his late sixties and he found that his resting heart rate jumped from like
+
+01:02:35.570 --> 01:03:04.290
+mid 60s to high 80s in the course of a month and went to his physician and the physician was like you&#x27;re getting older he was like no dude that&#x27;s like a step function change that&#x27;s not that&#x27;s not how he works he went to a third a fourth or a second a third and finally a fourth doctor before he could finally get someone to work him up which is like you know another that&#x27;s a whole separate indictment of the system but this fourth doctor was like you&#x27;re right that&#x27;s not how aging works let&#x27;s get you worked up it turns out he&#x27;s contracted lyme disease and like
+
+01:03:04.290 --> 01:03:32.460
+Thank God he was a stubborn bastard about it. But if he had not been, he would have been just living with Lyme disease indefinitely. And if he didn&#x27;t have that Apple Watch as a continuous monitor to monitor his own heart rate, he would not have even known to go to the doctor. Now, was that heart rate change enough to be diagnostic? Absolutely not. But it was enough to throw up the red flag. And the other thing is, if he had just gone and gotten his heart rate measured at his annual physical, that
+
+01:03:32.660 --> 01:04:00.930
+would have been that curve and that change in heart rate would have been smoothed over by the course of a year, in which case the doctor would have been like, dude, you let yourself go, that actually would look like aging because we only have two data points a year apart. So temporal resolution really does matter when it comes to your health because things can change like that and you have no idea why. And then finally, your baselines are unique to you, they change as you age, and healthy for general population does not mean optimal for you. What is typically considered healthy or normal is anywhere from the
+
+01:04:00.930 --> 01:04:29.680
+two and a half percentile to the 97.5 percentile I don&#x27;t think most of us would agree that you know those are healthy so optimal is a deeply personal metric yeah so that&#x27;s me next slide I am Scott on Twitter my company is thronescience.com if you have questions like I&#x27;m gonna stick around afterwards and we&#x27;d love to chat with y&#x27;all you know follow me
+
+01:04:29.780 --> 01:04:51.380
+We&#x27;re talking about the mice or any of the experiment like I&#x27;m around and thank you so much. This is so Thank you so much It&#x27;s shocking
+
+01:05:07.940 --> 01:05:35.460
+I think health changes typically, slowly, and then all at once, right? So, like, there are different systems in your body that operate at different speeds, right? Like, my metabolic system works on, like, a diurnal cadence, so, like, every single day, same thing with your sleep. I think with gut health, that is one that, like, has a tremendous amount of inertia because I have a healthy death to begin with. So I think had I eaten 90 days like that, I would start to see a more dramatic drop-off.
+
+01:05:35.460 --> 01:06:05.620
+You can see my microbiome was pretty minimal, but still not totally worth ignoring. I would not do this for 90 days though, seeing the way that things are progressing, my metabolic and mental health. Yeah, no, it stayed roughly 97 plus or minus 3 the entire time.
+
+01:06:05.620 --> 01:06:31.820
+No, yeah, so my spikes were changing, right? But it was the spikes, not the average. But you were still spending more in spite of the average? Yes. No. Not what the data said. No, but the thing is, continued glucose spiders are like a proxy for insulin. I don&#x27;t think they&#x27;re really continued insulin. Do you think it became more insulin business?
+
+01:06:31.820 --> 01:07:01.950
+That&#x27;s a great question. So insulin resistance the literature typically says that develops over the course of years. There is a form of insulin resistance that can develop in a shorter time frame. I don&#x27;t know if I develop that. It&#x27;s hard to say. I&#x27;ve been yelled at on the internet for talking about this wrong head. Yeah. Like five and a half X. Yeah. So it was a fat redistribution. So I lost fat from my arms to my legs. It all just got sucked into my gut, which is fucking wild.
+
+01:07:01.950 --> 01:07:33.200
+How do you do that? Do the DEXA scan. So that was the new electrolytes from geometry. So you literally just lay out a table for seven minutes while the scan goes and slices. Did you notice anything that comes your way from? No. But like, I&#x27;m, you know, I&#x27;m on to the hip right now, so. Yeah. Do you track electrolytes at all? And do you think it&#x27;s a highly active? No, but I drink the same amount of electrolytes before and after. You know, I love elements and so I&#x27;ll take a really good workout. You know, more than you can have today.
+
+01:07:36.530 --> 01:08:02.880
+I don&#x27;t say more almost identical. I&#x27;m happy about it by the way like all my results are on a notion doc I will share that on my Twitter after this and you can go look at it all yourself. You know, if you have questions. Would you consider challenging Brian Johnson? There&#x27;s no fucking way you do this. If he would do this absolutely like he&#x27;s way too smart for that.
+
+01:08:02.880 --> 01:08:27.680
+He&#x27;s invested so much like you know like to get back to his level of health after a month of this would take him five more years and ten million dollars.
+
+01:08:34.000 --> 01:09:01.820
+No, I just did the cardiovascular, the blood test through function that gave me like biological age, but that&#x27;s just some cosmetic that&#x27;s fungical. If you had one like health tracker monitor to do if you were on like a limited budget or you were just nipped with one. Great question. Yeah. I, okay, so the question is if I could only use one health tracker because I&#x27;m on budget, obviously from, but, but, real talk.
+
+01:09:01.820 --> 01:09:27.260
+so aura and whoop cost basically the exact same amount over the course of two years of use right whoop is 240 a year as a subscription or you pay 300 for the cheapest version of the ring and then six bucks a month so 72 a year so they basically both come out to like roughly 450 bucks over the course of two years i think the whoop app is one is not one of it is hands down the best design most intuitive most user-friendly health app i have ever used
+
+01:09:27.260 --> 01:10:02.610
+No, Whoop is not mine. We are modeling our app heavily off of theirs though because it&#x27;s just fucking good. It seems like you have some significant results in the path that you built. Coming off of it, would you propose weights to measure what happens? I&#x27;m not a weight loss expert. For me, it&#x27;s just coming down to like, counting calories sucks, but that&#x27;s always been the thing to me that has helped me stay on top of my weight and being disciplined about exercise.
+
+01:10:02.640 --> 01:10:31.260
+I also think, not think, know for fact that most fat measurement methods are horribly off. So if I go to my gym, they have this impotence monitor, so I pull little electrodes and stand on the thing barefoot and it tells me what my body fat percentage is and what my lean mass is. That is off my backroom almost 100% from my DEXA results, which is the gold standard that&#x27;s only clinically accepted.
+
+01:10:31.260 --> 01:11:03.820
+measurement for body fat and body composition. So my body composition now according to a DEXA is 11.5. I did one of those body confidence things and it&#x27;s only 6% body fat. That&#x27;s literally stage ready. That&#x27;s what Ronnie Coleman and my bodybuilders Schwarzenegger look like when they&#x27;re on stage. It&#x27;s just not me. I&#x27;ve never been to that. And I know it will be. I think getting a DEXA scan every six months is probably good. DEXA isn&#x27;t that reliable, either. Do you think that it&#x27;s based on machine learning? Based on the operator?
+
+01:11:03.820 --> 01:11:33.070
+like, drag the middle squares over your x-ray. If you do that in different places, it&#x27;s huge variance. So like, yeah, they&#x27;re better than, like, in bite bits, but they&#x27;re also not. Mine&#x27;s 100% automated. I do it next time, I get the results 30 minutes later. Like somebody in the back room is drawing a box with your x-ray. Fascinating. Yeah. So I mean, that&#x27;s still the gold standard, right? Like, I guess you could do, like, technically the best would be a caliber test, but like, you don&#x27;t want to do it.
+
+01:11:33.230 --> 01:12:01.060
+Does anyone from the physician community see new results and have any comments whether good or bad? Both my parents are physicians and my mom fucking hated this. I know you said you don&#x27;t drink, but do you think a month of daily alcohol consumption? That&#x27;s a great question. So I actually think, had I drank, because they&#x27;re not drinking things that are relatively recent addition to my life. I gave that up in April.
+
+01:12:01.060 --> 01:12:27.220
+completely arbitrary. My first drink was on my 21st birthday, my last drink was on my 31st birthday, and when I realized that I&#x27;m a leader, I was like, I&#x27;m just gonna let that ride for a while. But last December was the holidays, right? And it&#x27;s easy to find yourself having three, four, five in a given night just to get buzzed, and that happens five nights a week. Had I continued that, my results would definitely look different. Alcohol is a huge gut inflammatory.
+
+01:12:37.230 --> 01:13:05.200
+The exact same I was so stoked to get back to salmon and sweet green and whole foods like it&#x27;s like, you know, five days a week. It&#x27;s I&#x27;m just like I was salivating over the idea like in the last few days. I mean, the biggest adjustment was like in response to my experience was just to the gut health algorithm.
+
+01:13:06.510 --> 01:13:35.810
+Most of the work we&#x27;re doing it from right now is more around user experience testing and validation with people that have more chronic gut health issues like IBS and IDD. So we&#x27;re frankly far more responsive to their feedback than my feedback in mind. For the most part, it just wasn&#x27;t all that positive. Thank you so much for coming. Yeah, I&#x27;m serious.
+
+01:13:35.810 --> 01:13:59.500
+There&#x27;s so much misinformation and messy information, but also really interesting and useful information about fasting. There&#x27;s so many intensive fasts that people play fast and we&#x27;re still doing. Intermittent fasting is not fasting. I don&#x27;t know what my opinion is. It&#x27;s like fasting is fasting, right? Not too fast. Right. So would you think about doing this with a fast or a certain amount of time?
+
+01:14:00.850 --> 01:14:29.070
+Maybe I&#x27;ve never been particularly like and I know that there&#x27;s like arguments for it in terms of you know it accelerates like tissue regeneration that kind of stuff yeah, I&#x27;ll talk to you. Thank you. I I like food and for me like you know I don&#x27;t appear to be off on this like he went from pro fasting to anti fasting I just have enough and like the idea of eating a bad diet for a month
+
+01:14:29.070 --> 01:14:54.770
+sucked but at least I got to eat food every day. The idea of not eating food every day is just not that annoying. Maybe you didn&#x27;t talk about this, like, quote your own product enough, but what does Throne do in this data? So basically we run with, like, you push a button when you use the toilet before, and then you push the button again after you flush.
+
+01:14:54.770 --> 01:15:21.760
+That video gets uploaded to the cloud, and then we run computer vision models on the video. So the first thing we do is we run a model to identify what are the objects in the given frame, right? Like stool, urine, blood, toilet paper, that kind of stuff. Then we look for the frames that have unobstructed photos of urine, blood, and stool. And then we run more models on those to understand, like, OK, this is urine. What is the estimated urine osmolality? So it&#x27;s the concentration of the urine, which then maps pretty linearly to hydration.
+
+01:15:21.760 --> 01:15:49.390
+The next model we run is called the Bristol Stool Scale model, basically identifying, you know, okay, this is a stool. There&#x27;s this medical classification system called Bristol Stool Scale, like a map stool from like one, which is like constipated, right, like deer poop, to like seven, which is like pure liquid, and then like three and four in the middle are considered healthy, and then like five is loose, six and seven are like, you know, unsensibly. So the stool consistency is not like anything inside of it? Not yet. Like, kind of, so like, at this point previously, right, the first data sets we used to train our initial models were from red.
+
+01:15:49.390 --> 01:16:18.190
+And now we have enough prototypes in the field that we actually have our own data coming in and we have a team of gastroenterologists that label this data for us. But we are only as smart as we have enough data in distribution to train models on. And we don&#x27;t have that many pictures of worms right now. Is this a megaprocameras? What is it? It&#x27;s visible light and infrared.
+
+01:16:18.190 --> 01:16:54.900
+Okay, awesome. It may have worked because it&#x27;s covered in strong language. Yeah. It&#x27;s a great question. Like I said, like I, this is a really interesting question. I haven&#x27;t thought about the actual specific cascades. My guess, thank you so much. Short answers, I don&#x27;t know, right? Like I haven&#x27;t given too much thought for that, but I will say the net of principles.
+
+01:16:56.430 --> 01:17:30.400
+Basically same question. In your opinion, do things will stay or stress affect your bowel health more? I mean it&#x27;s totally possible, right? Because by week three, I was like done. Two more questions. Have you given any thought to Q1 and Rumi no diet experiment with the future? What would be your next experiment? The next one would be Brian Johnson&#x27;s Blueprint. I&#x27;ve got a friend that runs a Blueprint company and he watched this whole thing. He was like, yo, can I give you Blueprint for a month? I was like, sure.
+
+01:17:30.400 --> 01:17:41.620
+I&#x27;ll stop there. I&#x27;m going to hang out here for a while. I was going to say, thank you so much for coming out. Seriously, it means the world to me.
+
+01:17:41.620 --> 01:18:10.720
+The fact that I can stand up here and talk to a group like this about my group is fucking insane. Wildlife. I would never have guessed this group. I&#x27;ll stand up here and hang out with y&#x27;all as long as you want. This is like the most fun night in New York for me. Thank you so much for this. I really appreciate it. And then lastly, we have the generous donor of the space. Pardon? I&#x27;m wrong.
+
+01:18:10.720 --> 01:18:26.720
+We are also investing in founders that are building on the Polygon chain and we are doing events every month.
+
+01:18:40.020 --> 01:19:10.020
+We&#x27;ve got some great founders on our portfolio. So doing events like these, thanks to people like Michael, helps us get to know the decentralized community much more clearly. And yeah, if you guys know founders or if you guys are founders that are building on the Polygon chain or would like to be developers slash founders on for doing that, we&#x27;d love to have you look out at the space and we&#x27;d love you
+
+01:19:10.020 --> 01:19:39.950
+fuel your idea and party that as well. Thank you very much for the next week. This was awesome. I was emailing people at the very last minute to make this work. Amazing. Well, have fun, chill, have some more pizza, drink some stuff, and great to see everyone again. See you August 8th. This is the next one. Thank you.
+
+01:19:39.950 --> 01:19:47.950
+Just gonna get my turn.
+

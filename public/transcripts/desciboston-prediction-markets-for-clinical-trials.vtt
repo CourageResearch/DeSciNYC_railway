@@ -1,0 +1,374 @@
+WEBVTT
+
+00:00:02.670 --> 00:00:20.270
+Okay, so everyone can find a chair. Find a seat, and a seat here, here, come on. Anyone else have a seat?
+
+00:00:30.400 --> 00:01:04.260
+You guys see there&#x27;s a chair here if you&#x27;re daring. Here if you don&#x27;t block the camera. Also someone can move this one if they want it. Does everyone want to sit here? The captain&#x27;s seat. There we go. Otherwise you&#x27;re gonna have to stand which is like fine but this is better than deciding where people are placed on the floor. So just to give you guys some intro, my name is Michael. I normally host these in New York.
+
+00:01:04.260 --> 00:01:37.440
+And they&#x27;re called the DeSciNYC. And I see a couple familiar faces here who people who have attended those. So it&#x27;s good to see it. But this is the first time that we&#x27;re doing one in Boston as part of Boston Tech Week. So that&#x27;s very exciting. And I&#x27;m just going to move this over. So this is very exciting to be the first one in Boston. So everyone&#x27;s very excited. Okay, so...
+
+00:01:37.440 --> 00:02:07.980
+I&#x27;m curious how many people are part of like, if I&#x27;m putting like pharma, just to get a sense. Pharma people? Okay, cool. And how many people are part of like finance? Okay, finance. What are other people? Just you can tell me. Still in school. Still in school. Okay, good. Learning. Anyone else? Engineering. Engineering. Engineering. You have a cool startup. So, you&#x27;re seeing a cool startup. Okay, so does anyone have any questions before I get started?
+
+00:02:10.860 --> 00:02:52.060
+Good, we&#x27;ll do a group picture just for two seconds. Three, one, smile. So, I was very interested in prediction markets and specifically, you know, a lot of times there&#x27;s like prediction markets and they&#x27;re being used for like sports betting and how many times Elon Musk is going to tweet in a day. And this didn&#x27;t seem like it was going to like make the world a better place at all. So,
+
+00:02:52.060 --> 00:03:21.090
+I thought, what if we could instead of using prediction markets for that type of thing, what if we could instead use them for science and engineering and things like that? So I&#x27;ve had this idea to do prediction markets and science for a very long time, but I didn&#x27;t yet have the idea on what to do it. Because the original idea was, okay, what if you had an archive paper, and instead of having someone do a peer review on it,
+
+00:03:21.090 --> 00:03:46.510
+You could instead bet on it. That would be really cool. And the issue with Archive today is people, you post up Archive, you post a paper, or any sort of journal article. You post a paper and the reviewer isn&#x27;t incentivized to do a good job. They don&#x27;t make any more or less money if they do a good or bad job. What would be cool, I thought, was what if you could like...
+
+00:03:46.510 --> 00:04:14.140
+incentivize the person who&#x27;s reviewing the paper so that if they do a good job of reviewing and say like oh this this paper is going to have a really big impact in the future you&#x27;ll earn more money or and if you&#x27;re correct on that you know so you&#x27;re sort of like trying to forecast out which types of scientific papers are going to be interesting or not or accurate the problem with this though is that like um academic papers are so crazy long and unverifiable
+
+00:04:14.140 --> 00:04:40.190
+So they&#x27;ll have like three or ten or ten pages, three claims and ten page PDF. They don&#x27;t publish their data, nothing in it. So there&#x27;s no oracle that can be used as the source of truth in an academic paper. Where there is a source of truth is in clinical trials because they have very clear endpoints. And so I was able to put these, an endpoint is basically sort of like what they&#x27;re measuring for in a clinical trial. And we&#x27;ll talk more about that in a second.
+
+00:04:40.190 --> 00:05:08.320
+But with this idea, now I could sort of piece together the idea of like prediction market together with a scientific outcome. And the other thing that&#x27;s cool about this is you&#x27;re sort of, I&#x27;ll just give another high level thing that was sort of the motivation behind this was I wanted to tie together financial incentives with scientific excellence. And because today when you get a grant, you know, there&#x27;s no accountability and you have no...
+
+00:05:08.320 --> 00:05:38.020
+Besides your honor, you have no incentive to do a good job. Whereas in the financial market, you&#x27;re incentivized to really research things very carefully and make sure that your predictions are accurate. And so Gordon Gekko has this thing that says greed is good and it makes the world a better place. And I wanted to create a system that would encourage greediness and that would encourage people to be very, very accurate with their prediction. So now we&#x27;ll get into...
+
+00:05:38.020 --> 00:06:06.980
+What it is. So, you know, as many of you know, clinical trials are really, really, really expensive. You know, you could be spending anywhere from $10 million to $100 million. These CROs take a lot of money, and it&#x27;s a binary outcome. So you have a lot of unhedged risk. You know, 90% fail at some point if you start from the beginning, and, you know, you have a zero or a one outcome. It&#x27;s not like...
+
+00:06:06.980 --> 00:06:37.150
+Costco, say, where you have like, oh, we sold like 100 million gallons of milk, but we were expecting to sell 120 million gallons of milk, like where it sort of degrades slowly. You either have a zero or a one. But the problem with this is that this is a lot of risk for someone to take on. And so if it works, it works. If it doesn&#x27;t work, it doesn&#x27;t work. So, you know, how can we sort of solve this problem of riskiness in this business?
+
+00:06:37.150 --> 00:07:05.310
+What you want to do is you want to be able to hedge these bets and make this a more investable product. So a lot of industries will hedge their risk in order to make a trial more palatable. So airlines will buy fuel swaps to flatten out the risk profile of how much fuel costs. Or the oil industry buys futures, agriculture sells futures, credit.
+
+00:07:05.310 --> 00:07:34.700
+Has a clinical credit default swap, where basically people pool their risk together and then sell that off as an asset. And this makes it more investable. But the problem is that clinical trials have no such product yet to be able to group together risk for a clinical trial because you can&#x27;t price it. Because it&#x27;s very hard to figure out how likely a clinical trial is to either succeed or fail. So how can we fix this problem?
+
+00:07:34.700 --> 00:08:05.120
+And there does exist solutions, obviously. Like, people are developing AIs to do it, and people have expert opinions. But I thought the best way to do it would be to... Oh, there&#x27;s another, like, another slight issue is that you might say, like, oh, Michael, like, why don&#x27;t we just use a stock market to do this? And, you know, you can already bet on if... You can already do a very similar thing with Pfizer or with AstraZeneca.
+
+00:08:05.120 --> 00:08:35.120
+But I would say that this is a very messy way of doing that. So if you invest in one of these companies, they might have 100 plus assets that you&#x27;re investing in, all of which have a varying level of market cap that is like how much that drug is worth. So how likely is it to succeed? What type of thing is it trying to solve? Is it trying to solve diabetes or is it trying to solve some very niche rare disease? So when you&#x27;re buying Pfizer, when you&#x27;re buying AstraZeneca, you&#x27;re actually really investing in something like an index.
+
+00:08:35.120 --> 00:09:00.820
+And it&#x27;s very hard to get the granularity and the specificity that you would actually want to be able to make these very precise predictions on which types of scientific outcome are going to work. So how do we go about pricing some of this risk is we use prediction markets. So prediction markets are really, you know, as many of you are here know about Polymarket. We know about CalShe.
+
+00:09:00.820 --> 00:09:30.100
+And you know that these things are excellent at predicting the future outcome of things. So whether it be like a presidential election or the weather or things like that because they basically pool together many experts and they let people bet sort of based on how confident they are. So you can not only have to have a... There&#x27;s a couple interesting things about prediction markets. One is you bet based on how confident you are.
+
+00:09:30.100 --> 00:09:58.480
+Two, you have skin in the game. So if you&#x27;re right, you get more payout. You&#x27;re not just a news expert or a pundit spouting off on the news. If you&#x27;re a pundit, you can say as much as you want. With a prediction market, it&#x27;s your own money in the game. So this is why prediction markets are very good at pricing risk around scientific outcomes. So what we&#x27;re going to do is we&#x27;re going to use this prediction market to build a science pricing engine.
+
+00:09:59.790 --> 00:10:27.390
+This is a live product, but we&#x27;ll do a demo in a second and I&#x27;ll talk about just to give you a demo how it works, I&#x27;ll tell you about some of the outcomes from the AI and what they generated and how the lecture goes. So this is Endpoint Arena. We went viral on Twitter a couple times. Who&#x27;s seen us on Twitter? A couple people? Okay, cool.
+
+00:10:27.390 --> 00:11:24.990
+So the way it works is that we put up these prediction markets around specific endpoints on this website. So it&#x27;s like Polymarket or CalSheet, but with various well-chosen endpoints that we look at. And so we focus on sort of phase one, phase two, and phase three outcomes, and each market is given a certain probability of success. So I can give you a quick demo. So here&#x27;s how it works.
+
+00:11:28.720 --> 00:12:09.730
+So on the website here, we have all these different endpoints for different types of clinical trials that we&#x27;re looking at. So we&#x27;ll look at this one on macular degeneration. This is for a specific on related to prostate cancer. So the way it works is, so this is the probability of that specific trial for a specific endpoint working out over time.
+
+00:12:09.730 --> 00:12:37.780
+Here is the stock of the company, of the sponsor. So in this case, it&#x27;s Telex. And so this is its stock price over time. And so one of the things we want to do is you want to see how the divergence of the actual trials, a specific asset, changes over time and how that changes with the price. So you might see some divergence there, which is interesting. And then here you can sort of learn more about the disease. You can see how big of a burden it is.
+
+00:12:37.780 --> 00:13:07.700
+The survivorship, you know, how big of a sort of a market this might be for it. You can also see we collate all the news related for this clinical trial. So every time like pharma has so many different sources of data, it&#x27;s actually very hard to collate it all together, knowing when a trial is going to happen, when they&#x27;re going to release the data, when a presentation is happening, when a conference is happening. So we collate all that together here so people can see it.
+
+00:13:07.700 --> 00:13:38.380
+We have various information about it, you know, who&#x27;s the sponsor, what&#x27;s the ticker, how big is the trial. I&#x27;ll link to the trial on ClinicalTrial.gov here so you can get more information about it. We&#x27;ll go into this more detail, but we have a bunch of AI models that are betting on it, so you can see which ones believe that this, which positions different models and how much stock of it each one has. And then if you click into it,
+
+00:13:38.380 --> 00:14:09.010
+You can see how much it bet and why it bet that. So it tries to give a summary of its thinking around why it&#x27;s holding a certain position. And then finally, the oracle. So we&#x27;re always monitoring to see if there&#x27;s any results to see if we should close the market. So if they release that an endpoint, if they have published some sort of thing that, you know, or clinicaltrial.gov updates, we update and close the market and pay the winners.
+
+00:14:09.010 --> 00:14:35.580
+So here you can actually bet money. So the current likelihood of success on it is based at 37% and 63% it won&#x27;t work. And we&#x27;ll talk more about this in a second, but we&#x27;re actually looking at overall survivorship here. And what&#x27;s interesting about this is, outcome measure, so overall survivorship is not the primary endpoint here.
+
+00:14:35.580 --> 00:15:04.480
+So we did a lot of research to sort of look to see which of the endpoints we actually want. You might say, oh, like the thing you want is the primary endpoint, which is this thing listed above here, which is PFS, which is progression-free survival. But that&#x27;s actually not the thing that the stock market cares about. This is something that was chosen by the sponsor to, you know, say that this is the thing they care about. But if you look at for a lot of these things, and specifically around cancer things,
+
+00:15:04.480 --> 00:15:32.000
+There&#x27;s not as much movement on progression-free survival, but the market actually cares about is overall survivorship. And this is very interesting because it shows how financial incentives are actually probably the correct thing that people should care about in choosing it. So we chose overall survivorship here as the thing which is a secondary endpoint and not a primary endpoint. And then what we can do...
+
+00:15:32.000 --> 00:16:04.910
+is we can buy one dollar of Tether USDC testnet on base Sepolia and it&#x27;s making that transaction and it confirmed and so now if we go into our account here we can see you know we bought a share of this and it&#x27;s here and so this is like how
+
+00:16:04.910 --> 00:16:35.150
+how the site works in terms of, you know, as I get down. Yeah, go ahead. Can you talk a little bit more about how you pick what the acceptance criteria is? And does that ever drift? Is there any judgment kind of as the trial goes along? Yeah, it&#x27;s a great question. So we put a lot of thought into what, so there&#x27;s two sort of like, you could in theory create a market
+
+00:16:35.440 --> 00:17:06.620
+For each one of these endpoints. So for this specific trial, there are four different endpoints. So in theory, what we could do is we try and look for things that&#x27;s some, so there&#x27;s this tension between if we create a market for each of these, you sort of spread out your liquidity. So one of the things you sort of have to balance is how much
+
+00:17:06.620 --> 00:17:31.780
+Each time you create a liquidity pool or an order book or something like that, it costs maybe $10,000. So if we&#x27;re spending $10,000 on one thing and then all of a sudden you have four and then you have 70 trials, all of a sudden your liquid costs go way up. So we try and choose only one per market. This is more like an engineering problem. In theory, maybe when we&#x27;re big enough, we have one for each one.
+
+00:17:31.780 --> 00:17:57.310
+But we basically did a regression on what changes stock prices with some certain features and then tried to see which things the market cares about and then try to piece those out. Now, we also want to have a market at some point if the protocol changes. So sometimes halfway through a thing, they&#x27;ll change the protocol.
+
+00:17:57.310 --> 00:18:24.720
+and we&#x27;ll have a market for that eventually that&#x27;ll be like, oh, they changed the protocol, and if they do, you&#x27;ll win, and maybe that will invalidate these things. But it is a tricky problem to figure out what is the correct endpoint to choose. Is that a great question, or what was your question? If the protocol changes, how do you handle that today? Does everyone get their money back, or do you... Right now, it invalidates it, and these people get their money back. That might change down the road.
+
+00:18:25.010 --> 00:18:51.540
+Got it. We&#x27;re still in like testnet version of this. So we haven&#x27;t made a decision, but that will be in the resolution criteria so that it&#x27;s deterministic as to what happens. And there&#x27;s no Oracle. It&#x27;s just today. It&#x27;s just your team that decides. Oh, well, yeah. So that&#x27;s a very good question. The Oracle is basically a predefined AI prompt that scans the web and makes the decision.
+
+00:18:51.540 --> 00:19:23.740
+So, you know, on CalShe or on Polymarket, they use like UMA and things like that. But these things also are hackable. I think actually the correct thing to do is for everyone to agree on a prompt and a model and then have that be the final adjudicator. Because a lot of times like these things, let me show you here. So the way we resolve these markets is we have this Oracle and then it basically, one of the models,
+
+00:19:23.740 --> 00:19:54.160
+We use like GPT-5. Scrapes the web and looks for any sort of publication around it. So this was looking to see a positive result for PFS in patients with this. And so it found this and rated it 93% that based on this press release from the sponsor that it was above 93% for PFS. And so it gives its whole reasoning
+
+00:19:54.700 --> 00:20:24.190
+In its summary. So you could use Uma or you could use whatever Cal she uses, but I think this is actually like probably like the correct way to do it. But there&#x27;s many different ways that I think it&#x27;s just like a design thing and I think for this type of market it&#x27;s the best. Because it is relatively, we also try and choose markets that have clear, that are pretty clear and can be determined without too much wiggle room.
+
+00:20:24.190 --> 00:20:50.210
+What was it? The other AI bits on the endpoint. There was a tab. Oh, models? Yeah. Model positions? Yeah, those. Oh, yeah. So we have these 10 models. So these are 10. I&#x27;ll talk about it in the second one. I&#x27;ll talk about it now, too. These are 10 models that are trading on the market currently. So these are all out of the box. The ones like CLAW, GBT.
+
+00:20:50.210 --> 00:21:18.290
+GROC, Gemini, Geeks, and then so there&#x27;s a couple here that are interesting. I&#x27;ll mention a couple things. A couple of these have access to the internet and a couple don&#x27;t. So Claw, GPT, GROC, Gemini all have access to the web and the other ones don&#x27;t. So they&#x27;re obviously at a huge disadvantage because of that. But we try to basically take all these models as out of the box as possible and match these are your bets using that model. This is our play money.
+
+00:21:18.290 --> 00:21:46.670
+given a prompt to each model, and then it determines how to trade based on that. Do you update the prompt a little bit for every single model? No, it&#x27;s all the same. So every model gets the same prompt. Otherwise, it&#x27;s really hard to benchmark these types of things. And we also have other people that are betting, given their own models, and they have totally different prompts, they have totally different tool sets, different MCPs, depending on... This is just more to...
+
+00:21:46.670 --> 00:22:33.920
+Benchmark these as a sort of proof of concept. The longer term goal is for individual people to build their own agents to trade. Yeah, go ahead. People trading on... It&#x27;s on the blockchain, so not... No. It&#x27;s not a... It&#x27;s, you know, no. People that do this job are incentivized to do it really well. So like, was insider trading kind of the goal with this?
+
+00:22:33.920 --> 00:23:03.170
+The goal is for people to understand the science and to look at the mechanism of action around certain types of drugs, to look at related work, to look at published literature, to figure out what types of science is going to work. Science is deterministic, right? Like there&#x27;s nothing, it&#x27;s like chess. Everyone has equal information to the pieces on the board. Everyone has equal information to the different molecules that exist. And we&#x27;ll talk...
+
+00:23:03.170 --> 00:23:36.660
+The goal of this is to replicate science. So I encourage people to replicate the experience and find out through their own hard work and knowledge which drug is going to work. Maybe you&#x27;re AlphaFold and you can determine it. Maybe you run a parallel clinical trial using a different CRO and you create replicatable science is the hope here. Anything else? When you&#x27;re peer reviewing, you have to sign conflict of interest forms. You can&#x27;t be motivated.
+
+00:23:37.740 --> 00:24:09.900
+How do you pay the reviewer? Well, this is different from peer review. The peer review for archive is just sort of the genesis that&#x27;s got this product idea started. Now it&#x27;s different and has taken on a different life of its own. Here the goal is to incentivize people to do rigorous scientific validation of different drugs. Okay so...
+
+00:24:44.750 --> 00:25:14.480
+So we have the trials here. So we have these different agents that are betting currently. This is the public ones. We also have people that have developed their own private bots that are betting and are doing very well, which we&#x27;ll talk about in a little bit. But basically each of them is betting. Some have access to the web. Some have access to thinking. Some have access to... And we try and max out the tokens for each one. And they all have access...
+
+00:25:14.480 --> 00:25:42.900
+So you can give a token allocation of anywhere from 1 to 6,000 tokens, say. So we try and give maximal, we try and make it so that each model out of the box is maximally supercharged so that it can do its best. And so you can see the sort of leaderboard, yeah, so for each model, it predicts, for each clinical trial, it predicts, say, for each endpoint, it predicts how much yes it wants to have and how much no it wants to have.
+
+00:25:42.900 --> 00:26:13.330
+And then, what was I going to say? It can also choose not to bet. So with each prediction, it can say, it gives a confidence score between 50 and 100. And if it&#x27;s not very confident, it&#x27;s 50% confident in its decision, it doesn&#x27;t place the bet. But if it chooses when it wants to place the bet, though. And they all have a common prompt. In the prompt, I&#x27;ll tell you a little bit about it.
+
+00:26:13.330 --> 00:26:40.060
+It basically comes up with a yes or no or hold decision, and it has to explain its decision briefly with a couple sentences. And then it also has access to its portfolio, so it knows which other stocks it has. Now, we&#x27;ll talk about it in a second, but one of the weaknesses is it&#x27;s really hard for it to make decisions across multiple endpoints. So it needs to know how confident it is in one thing relative to it.
+
+00:26:40.060 --> 00:27:09.100
+If you have $1,000 and you have access to every ticker symbol on the stock market, how do you want to allocate it? How do you want to divide it up? It&#x27;s not a tricky problem. And that is certainly a weakness of the current method since we&#x27;ve given access to its other portfolio holdings, but it doesn&#x27;t do a good job of allocating between different markets. We also have the news here. So we actually spend a lot of time gathering news.
+
+00:27:09.100 --> 00:27:49.740
+Scraping across every sort of clinical, any sort of pharma company&#x27;s website and then parsing it for, is it an outline? Are they going to release results? Are they going to have a conference? Is there a change in leadership? We hide all that, but you can switch between different tags to be able to see what type of information is going to be published. And then we also have different pipelines, so this is the point I was making earlier. Oh yeah, go ahead.
+
+00:27:49.740 --> 00:28:17.540
+Is there a section where you&#x27;re allowing them to add their own piece to this? Yes, we&#x27;ll get to that at the end where you can upload your own data. Okay, so since the going standard, and I&#x27;ll just say, you know, my background is as a Gen AI specialist for Google, left, you know, a year ago to do my own thing. But the standard there is that you&#x27;re going to use an ontology and feed that in, and that&#x27;s the one thing that...
+
+00:28:17.540 --> 00:28:44.130
+You see a lot of different startups doing to fill in an ontology in a particular domain. Each one of these trials essentially creates its own ontology. Are you going to be providing that in your agentic framework, or are you going to be thinking that other people are adding that? Yeah, so the goal here is this is just the table stakes that are needed. People...
+
+00:28:44.130 --> 00:29:11.470
+Are developing their own agents that have access to many different types of data sources. This is just to get people started. There&#x27;s a lot of people who are using private databases of drug trials, of EHR records, of all types of things to make their own trading decisions. This is literally just the table stakes that I would assume as a strong baseline.
+
+00:29:11.470 --> 00:29:39.230
+But some people are scraping Twitter. Some people are trying to look at the mechanism of action. This is just table stakes here. Yeah. Sorry, just the last follow-on then is I kind of go back to what the guy said about what&#x27;s insider trading because when somebody was just picked up today for insider trading on Google&#x27;s search results when the outcome was who was going to be the best.
+
+00:29:39.230 --> 00:30:06.220
+you know, entity search guy for Google, right? And so they had inside information. If you take special databases of, you know, health record information or, you know, this is like, this is like certain kinds of drug information, like how interactions are working or the pharmacology of something or. For instance, you could be at CVS and you can have access to point of sale data for.
+
+00:30:06.220 --> 00:30:35.140
+all of the information for an antibiotic. And so because it&#x27;s a clinical trial, you&#x27;ll be able to see, you know, is that person still prescribing anymore? You&#x27;ll know, like, is the trial going or not going? You can use that kind of thing to predict how well the drug is uptaking. And I was just wondering, like, how do you make sure we&#x27;re all on the same plant fields? That&#x27;s kind of the question. Right? Because if I want to play, I want to know somebody is able to kind of sit on a piece of information and...
+
+00:30:35.140 --> 00:31:04.000
+kind of outdo me simply because they&#x27;re allowed to use that in this. Yeah. I mean, you have to use the type of information that people would use to bet on this. This is for scientific betting based on science. And how you want to bet on this market is based on that. The goal here is for people to develop AI models that are very good at predicting
+
+00:31:04.000 --> 00:31:30.560
+outcomes. So you imagine people buying tool molecules in the lab. Correctly. That&#x27;s pretty cool. Thank you, yes. It is for people to train AI agents that are good at predicting this so that you can have less patients who need to go through a clinical trial because otherwise you&#x27;re just churning them through this giant machine. Okay, go ahead. An outcome of five years is a really long time for a consumer to wait to get a payout.
+
+00:31:30.560 --> 00:31:57.340
+Are you worried about user adoption? People might just lose interest. If you make a bad, you won&#x27;t know if it&#x27;s good for five years. Yeah, so that&#x27;s part of the reason we spend a lot of time looking at these endpoints. And so you&#x27;re correct that these trials do take five years. But the good thing, though, is that there&#x27;s 7,000 trials a year, and they&#x27;ve been going on for more than five years. So at any given time, there&#x27;s multiple closing per day. And so we try and scrape very actively.
+
+00:31:57.340 --> 00:32:25.790
+to figure out which ones are going to be closing in the next, like, six months, and then only post those ones. I think I agree with you. If you talk to other experts in the field in prediction markets, like Robin Hanson, he has this idea that you should have, like, thousand-year prediction markets. I don&#x27;t agree with that, but I think you want a lot of, like, fast-moving action so that people don&#x27;t lose interest, and we try and post things, like, a couple months ahead of time before there&#x27;s a decision.
+
+00:32:25.790 --> 00:32:56.720
+Are your database costs and token costs pretty high? Our token costs are fairly expensive, just because we&#x27;re sorting so much different types of information. Is it the ballpark of what that is? No. And the server costs are pretty cheap because the compute is pretty free. The token costs are kind of expensive, especially if you want good ones. Anyone else? Yeah. How exactly do you price the outcomes? Oh, yes. So good question.
+
+00:32:56.720 --> 00:33:20.380
+So, we don&#x27;t price the outcomes. We create the market that prices the outcomes. So, there&#x27;s a couple different ways you could do this. You could use like a, you create a market. So, you could use like a central limit order book and have a market maker create these pricing of it. So, basically he&#x27;s asking is like, you know, how do you create a market for something? It&#x27;s not, it&#x27;s not, you go in the stock market and it seems obvious like, oh, Tesla is.
+
+00:33:20.380 --> 00:33:48.460
+$600 a share. That seems like a good price. I&#x27;ll buy it. But actually when you do that, there&#x27;s a lot that has to happen behind it. There&#x27;s always a buyer and there&#x27;s a seller. It works fairly well for things that have a lot of liquidity, like Tesla. But say you&#x27;re on a smaller market. Like how many people think that a prostate drug is going to work for a specific endpoint. There&#x27;s not that many people who are going to be doing it. So we used something called an automated market maker, which basically allocates a certain number of tokens in a pool.
+
+00:33:48.460 --> 00:34:14.030
+And then it holds those. And then as people buy the yes tokens in that pool, the price of the no tokens sort of goes up exponentially along something called the bonding curve. So if it&#x27;s 50-50 and you buy one token of yes, now all of a sudden no becomes more expensive. And so you&#x27;re sort of constantly balancing this. But it&#x27;s a good system for these low liquidity markets where you don&#x27;t have...
+
+00:34:14.030 --> 00:34:41.440
+something like a market maker to be able to take on the risk on both sides of these you have something oh okay okay okay so like for some of the single models that you have and you&#x27;re as you were saying like some of them have web search something have you tried like adversarial methods where you like pit some of them against each other and have them run longer to make a decision and what do you mean just work together or oh yeah basically like have to debate the outcome
+
+00:34:41.440 --> 00:35:05.010
+No. I think there&#x27;s a lot of different ways that we can optimize the out of the box things. At the end of the day, that&#x27;s not our goal. Our goal is to create the market with deep liquidity so that other people can create agents that will figure this out. So the creativity is on other people now. Exactly. I mean, these are just out of the box benchmarks to get the market started.
+
+00:35:05.010 --> 00:35:36.820
+But if anyone here has an agent that they&#x27;re looking, we have an MCP or API that you can integrate your agent with and start betting on it. I have one more question. What&#x27;s the latency between when an outcome is decided in the real world and when it&#x27;s decided on the whole world? Yeah. It&#x27;s like an hour or so. It&#x27;s just rate limited by how quickly that Oracle is scraping every single...
+
+00:35:36.880 --> 00:36:05.760
+So there is a chance that people will bet on it and it will resolve de facto more quickly than it resolves in practice, but that&#x27;s fine because that&#x27;s how it works. It should gradually go to 100% anyway. That&#x27;s not like a super rate limit. That&#x27;s not an issue. Even for things like did...
+
+00:36:05.760 --> 00:36:37.760
+Elon tweet X number of times, it just exponentially gets closer and closer to something. they&#x27;re still bidding on tokens that they already know the answer to yeah but the market just self-closes that way like it prices itself correctly
+
+00:36:49.330 --> 00:37:17.010
+Meaning if the outcome is known, it&#x27;s pricing itself correct? Yeah. People will start buying it. Which is, it does point to a marginal inefficiency between buying, actually. But you can do the same thing for the Navy guy running into the middle of the Super Bowl. If you have that faster network than anyone else, then you can make a guaranteed money, a guaranteed outcome. But you have to be faster than people.
+
+00:37:17.490 --> 00:37:50.020
+Yeah, we can, yeah, so it&#x27;s not something I worry about too much. Did you have something over here? Do you have a question? No. Okay, we&#x27;ll move on. So we have a leaderboard of which ones, which people are being, are the top of the leaderboard. This is kind of cool. So, okay, let&#x27;s just talk about this briefly. At a high level, who are the types of people that want to take either side of this market? So, obviously, if you&#x27;re a biotech company, you want to hedge your risk that your trial is going to fail.
+
+00:37:50.020 --> 00:38:18.420
+that your trial is going to fail or succeed. So you might have five different drugs that are going through a pipeline. You want to take out insurance that maybe one to five of them is going to fail to alleviate, to free up more money so that you can maybe pursue a sixth one without having to tie up money. And so you&#x27;ll take out an insurance. You&#x27;ll bet that your clinical trial is going to fail.
+
+00:38:18.420 --> 00:38:48.320
+And what this does is it actually makes you more investable because now an investor knows that they have downside protection. Now what wasn&#x27;t immediately obvious is who takes the other side of the bet. Who&#x27;s hedging on success here? And it&#x27;s actually like health insurance companies and hospitals that are exposed to upside risk. So imagine you are a hospital or imagine you&#x27;re an insurer and all of a sudden there&#x27;s a drug that&#x27;s a new drug.
+
+00:38:48.320 --> 00:39:14.800
+with a very large reimbursement obligation, say that&#x27;s like an Ozempic or something around sleep or something that costs a lot of money per patient, you&#x27;re sort of hoping that these types of drugs are not approved. So you&#x27;re willing to take the other side of that bet. And then this is sort of the structure of how these markets will work. Wouldn&#x27;t competing biotechs also want to take the same side? Totally, yeah. There&#x27;s many different types.
+
+00:39:14.800 --> 00:39:44.180
+I was just trying to lay this out as because people were oftentimes very unclear who would take this other side of this risk. I think this side is pretty clear. But I imagine in the same way that credit default swaps created a whole new market around credit, around people paying or not paying their debt. So another really interesting one is like service providers. Say you&#x27;re a CRO and the clinical trial fails. Oftentimes those people might not get paid because that company is like now out of money.
+
+00:39:44.180 --> 00:40:16.100
+So they also want to use this as a type of insurance, as a way to ensure that they get paid. So there&#x27;s all different types of parties, but this is sort of the, I think this is sort of the broad structure of how it would work. Your market are going to be in the area of $100 million? I don&#x27;t know. I mean, it takes a while to get that level of liquidity, but that would be the goal. You know, because the amount of money that a pharmaceutical company is putting in is obviously, you know, hundreds of millions of dollars.
+
+00:40:16.100 --> 00:40:46.290
+Yeah, I mean, you might hedge part of it, you might not hedge the whole thing. You can&#x27;t get an insurance policy for everything, but that would be the hope. Okay, so this is how we sort of look to find the endpoints that are the most interesting, is we look, let&#x27;s see, oh, so yeah, so we looked at the stock price around different clinical trials, around different pharma companies, and around different endpoints.
+
+00:40:46.290 --> 00:41:16.130
+To understand which endpoints we should be choosing. Basically, you know, phase two and phase three have the largest price movement around stocks. Smaller biotech companies are much more swinging, swing much more per endpoint than larger ones. The market doesn&#x27;t care about primary endpoints. They care about, you know, this exact endpoint or how much an endpoint changes. And just as a general sense, here&#x27;s about...
+
+00:41:16.130 --> 00:41:47.570
+you know, for phase one, phase two, phase three, knowing absolutely nothing about a clinical trial, about, you know, how much it affects the stock price for each of those. So like a phase one readout is three. So the other thing that&#x27;s interesting is positive readouts bump your stock a little bit, but like negative readouts bump your stock, like double negative. So people, positive in news is like marginally good, but negative news like sinks you. So we did this though, so that we could choose, choose the correct end points. And we talked about this a little bit before.
+
+00:41:47.570 --> 00:42:20.420
+But the market doesn&#x27;t care about what the primary endpoint is for the most part. The market cares about if the thing is going to be a successful drug, which is oftentimes how it competes with other drugs on the market, overall survivability, the things that patients care about, basically. And here&#x27;s some of the baselines for a clinical trial being accepted or denied.
+
+00:42:20.420 --> 00:42:49.300
+Knowing nothing about it, but basically if it&#x27;s phase one it&#x27;s about 50%, if it&#x27;s phase two it&#x27;s like 30%, and if it&#x27;s phase three it&#x27;s around 50%, and then once you&#x27;ve done all those, once you sort of get your PDUFA, then it&#x27;s like 90%. The reason this is important is because this is a baseline, so now I want to talk about how well these models did. So this is for season five. Claude was very very good for n equals seven.
+
+00:42:49.300 --> 00:43:19.330
+Predicting these outcomes. GPT OSS sucked. So this is sort of the overall here. But then this is only, this is if you force each one to bet. Another really important thing is, oh, why these models succeeded and failed. So a model for the most, so because we forced reasoning, a model will oftentimes be very successful
+
+00:43:19.330 --> 00:43:45.490
+if it looks at the sort of mechanism of action and tries to identify a rationale between, if it knows the endpoint it&#x27;s going after and it tries to look at the science for that specific endpoint and figure that out. A model, it also looks to see, it also tries to weigh the risks on these things.
+
+00:43:45.490 --> 00:44:12.430
+Some of the best models basically looked at the risks for different types of things occurring and was able to sort of internally weigh, at least acknowledge them and then compare them. When things didn&#x27;t work is basically when they went back to the overall reports for how likely a clinical trial is to succeed or fail and then just sort of went with that. That was an issue. Another one is when things tried to overfit based on what I read online.
+
+00:44:12.430 --> 00:44:41.280
+When it tries to say, like, oh, so-and-so said such-and-such, therefore this is going to succeed, then it sort of oftentimes failed. And then another one that was sort of interesting is, like, if it was expecting a readout at a certain time, but it was taking longer to basically come up with the actual data, some of the models started freaking out, and they looked too much into, like, a delay in readout as being a negative signal.
+
+00:44:41.280 --> 00:45:10.110
+So these are sort of some interesting success and failure mechanisms for the different AIs. And the other thing is like sizing. So you have to, based on how you, you have to know how competent you are in your predictions. So you could get all the things right, but if you don&#x27;t make your allocation correctly, it doesn&#x27;t really matter. And this is actually why I think prediction markets are a really, really good way of benchmarking AI models, because it forces both
+
+00:45:10.110 --> 00:45:41.020
+you to know what you&#x27;re doing but also to accurately assess your confidence so if you&#x27;re good at something you can&#x27;t actually be confident in it you know you your sensitivity and specificity will sort of all get messed up but this is like a good a good middle ground of like a way of benchmarking things uh oh so uh another another thing that&#x27;s interesting about the sizing is that um how how it manages its portfolio i think there was a pretty big failure in getting
+
+00:45:41.020 --> 00:46:10.690
+Models to look at the risk profile of all, look at it to like look at every single market that exists and properly allocating between the different markets that it could. So that&#x27;s definitely something that all of these and I&#x27;d imagine some of the people are going to sort of like do a lot of innovation there. Yeah. Why was GPT so bad? That seems surprising. I don&#x27;t know for that specific one, but yeah, it&#x27;s a good question.
+
+00:46:10.690 --> 00:46:40.640
+The issue when I was making this presentation is that I had so many questions. I had to sort of just like scope it down at some point. Like, why did XYZ, why did I make this decision on this decision? I kind of, it became too long. But yeah, you can look on the website and look to see. If I had to make a guess, I would say it&#x27;s probably because it&#x27;s sized into one too much and it ended up being wrong and then it lost all its money.
+
+00:46:40.640 --> 00:47:05.310
+But I don&#x27;t know, I have to look. Why haven&#x27;t traditional insurance frameworks work their way into these kind of markets? I think because it&#x27;s really hard to price the risk associated with science. Fifth Tribe is just hard to do. Were you reading the thinking traces? Yeah, yeah. I mean, I was using meta-level, so I fed them all in and then tried to get it all from that.
+
+00:47:05.310 --> 00:47:36.350
+Okay, meta level. Like, I can&#x27;t read through 10,000 things, so I looked at the sentiment of everything, yeah. But I didn&#x27;t, yeah, that&#x27;s how I did, that&#x27;s how I did that part, yeah. Because in a way, like, sometimes I read the traces when I&#x27;m coding and stuff, and it&#x27;s like, it&#x27;ll say things that it doesn&#x27;t actually act on. Yeah, yeah. So then what about that? So in this case, what do you mean? What I mean is like, I don&#x27;t know, like sometimes the traces are actually misleading. Oh, so this, this, this, for, do you, do you,
+
+00:47:36.350 --> 00:48:02.210
+I don&#x27;t think I follow. Like, you were saying that you read the thinking traces. Yeah. And you, like, are looking at them at a meta level to figure out what they&#x27;re doing. But what I&#x27;m saying is, like, sometimes the traces don&#x27;t actually correspond with the outcome. Oh, so we looked at it after the fact. So when it got it correctly, what was its thinking? And when it got it incorrectly, what was its thinking? And then looked at the failure mode that way. Okay. I guess the only question is, like, sometimes, like, it might be, like...
+
+00:48:02.210 --> 00:48:30.720
+I don&#x27;t know, right? Like you saying that you believe the alignment or misalignment between the trace and the outcome. And I&#x27;m just saying sometimes it&#x27;s not actually- Yeah, yeah, totally. That could be an issue. I mean, that&#x27;s what we forced it to make, to print out its reasoning. Yeah. It could be, yeah. It&#x27;s hard to debug these things. Yeah, it&#x27;s definitely hard to debug. Yeah, I&#x27;ve definitely seen that as well. Like, you read the trace and you feel like it&#x27;s going to answer a certain way, but then it doesn&#x27;t answer. Yeah, yeah, yeah, totally. Yeah, that&#x27;s a good point.
+
+00:48:30.720 --> 00:48:57.710
+That&#x27;s why you have money, because money equalizes all of that. So this is another thing that I thought was interesting. I asked it to sort of look at its personality types of each of its investing strategies. One of the things that I thought was interesting is Grock did not look at evidence a lot. I thought that having access to Twitter would give it a huge leg up in its ability to make assessments, but that didn&#x27;t seem to be the case.
+
+00:48:57.710 --> 00:49:27.920
+Claude was very good, I think partially because it had the most scientific reasoning. Same with Gemini. Gemini and Claude were pretty good. And they looked at these specific endpoints and they actually tried to do the science. You know, Groth wanted to try to read what other people were thinking and kind of lost its way. So this speaks to the importance of actually understanding the endpoint and understanding the science and doing your own.
+
+00:49:27.920 --> 00:49:59.360
+First Order Calculations as opposed to sort of what listening to other people say. So I just want to talk a little bit about prediction markets as something that can do more than forecasting. So, you know, people think, oh, you&#x27;re just looking, you&#x27;re just looking at something and making, and you&#x27;re looking at, you&#x27;re an object and forecasting about it. But prediction markets actually have, you know, a lot of other interesting things. So people can intentionally bet no that
+
+00:49:59.360 --> 00:50:23.600
+disease won&#x27;t be cured and drive down the stock price of that market. But then what that does is it encourages researchers to buy yes at a very low price and then make a lot of money if they themselves come up with the discovery that will cure this disease. So it&#x27;s not just acting as like a measurement tool, it&#x27;s acting as like an incentivization layer.
+
+00:50:23.700 --> 00:50:52.540
+Another sort of fun output of this is like decision making. Say you are having to enroll in a clinical trial. You might not know any of the options between trial A and trial B. You don&#x27;t know if trial A and you don&#x27;t currently, they both look about the same. You don&#x27;t know which one&#x27;s more likely to succeed. If you go to this website in the future, you could say like, oh, oh my gosh, trial A has an 80% chance of success and trial B has a 10% trial of success.
+
+00:50:52.540 --> 00:51:28.800
+Probably a success. I&#x27;m going to go with Trial A. Yeah, go ahead. To expand your horizon, critical problems are weird that you mentioned. Yeah. We just need to build up more volume and liquidity to make this work. But it&#x27;s just that&#x27;s sort of like an engineering issue. It&#x27;s not necessarily like a... Yeah, but this is how it could... These are things that are interesting about the future of how this could work, not necessarily as it stands today.
+
+00:51:28.800 --> 00:51:59.840
+Ideally, I like to have every endpoint and every trial on the market. Okay, help find a picture of the Prime Losing. We&#x27;ll talk about the end of one in a second. Okay, so those are sort of the interesting things about that. So this is interesting. This is what we&#x27;re working on now is doing this thing called the Shadow Trial. And what this is cool is basically you install the app on your phone and you get...
+
+00:51:59.840 --> 00:52:25.220
+You collect data around how much you&#x27;re sleeping and if you&#x27;re on a GLP-1. Now, it uses that data that&#x27;s on your phone to then make a bet for you. So it&#x27;s using your own proprietary data, and there&#x27;s a small open source model that lives on the phone also. And then you will deposit in a little bit of money, and then it would then make bets based on your own personal data that lives on your phone.
+
+00:52:25.220 --> 00:52:54.700
+So this incentivizes like end of one style data collection for it to be pooled together to create like a replicatable shadow trial that you sort of do based on your own personal data. So I think this is like a very, very cool concept. How can people omit data basically, like if they chose to? Like suppose there&#x27;s like random construction going on outside my bedroom. Yeah. So you can delete it from your health kit database. So there&#x27;s a, and it gives you access to
+
+00:52:54.700 --> 00:53:22.960
+This basically collects the data and then proposes the trade. And it gives you a reason for that, why it came up with that trade for yes or no based on the endpoint on Clinical Trials. Yeah? Okay, cool. So basically every time that the prediction is being made on top of your data, you decide how real your own data is. Exactly. Okay, cool, thanks. So you&#x27;re incentivizing people to accurately upload correct data. This isn&#x27;t about uploading fake data because then you&#x27;re shooting yourself in the foot.
+
+00:53:22.960 --> 00:53:45.010
+But it&#x27;s incentivizing accurate, robust, scientific data that you then make your bet on. So I think this is very cool. When did you first come up with this idea? Just very recently, actually. And the data never leaves your phone. It&#x27;s running a small open source model on the device, like an OLAW 0.3b version.
+
+00:53:45.010 --> 00:54:12.500
+um and then it&#x27;s making the trade and so you click that you find it the trials when rolling that&#x27;s sort of related to one of the ones existing you try and collate your data around that and then you uh you trade so could you group together with a group of people also enrolled in a similar chat totally yeah totally yeah and so you can have a small data cabal but you can also sell it to someone right you can sell your data
+
+00:54:12.500 --> 00:54:41.740
+like how you&#x27;d sell anything and um uh uh yeah so yeah but i&#x27;m very excited about this because you can you basically replicate science you&#x27;ve got an incentive mechanism to replicate science you might need to have like bedroom controls or something like that yeah well you can do it so we&#x27;ve been looking into doing this for like acne sleep psychiatry glp1s uh you know whatever whatever types of things that are sort of easily measurable
+
+00:54:46.480 --> 00:55:13.870
+Yeah, so the vision here is just to build the financial infrastructure to enable scientific truth, because I don&#x27;t think that science is greedy or correctly motivated enough. And, you know, I think we can actually, through this new incentivization layer, you can accelerate science and make it more replicatable. And...
+
+00:55:13.970 --> 00:55:43.550
+A couple things here. So we&#x27;re hiring. So if you&#x27;re interested in working together, I would encourage you to scan this QR code. It&#x27;ll be specifically around like data and like partnerships with other companies and social media. We&#x27;re looking to expand in that area. If you have a question, either if you want to reach out either in person or the people online who are watching, DM us on Twitter is the best way. I can also give you my email if you want it.
+
+00:55:43.550 --> 00:56:23.060
+For the most part, DMing us on Twitter at Endpoint Arena on Twitter is good, or whatever you call it. And then, of course, the website is EndpointArena.com, and that&#x27;s that third QR code there. And thank you, guys. So if you have any questions, let me know. But thank you. All right. Anyone have a question? We did a lot throughout a little bit. Yes, go ahead. What&#x27;s going to surprise you most during this whole process of building Endpoint Arena? The uptake...
+
+00:56:23.060 --> 00:56:50.480
+In agentic trading compared to human trading. So we&#x27;re seeing a lot of trading based on agents. And because I think this is probably one of the first prediction markets that is really built towards AI as opposed to being built towards humans. So every human has an opinion if Biden or Trump is going to win the election.
+
+00:56:50.480 --> 00:57:19.440
+The types of questions that we&#x27;re asking here around science are really actually better suited towards AIs trading on it. And so it&#x27;s not something that&#x27;s relied on human thought, but more on AI trading. That&#x27;s been very surprising. There&#x27;s a lot of that going on. Anyone else? Yeah, go ahead.
+
+00:57:19.440 --> 00:57:45.140
+Do you think you&#x27;ll get competition from Polymarket and Halshi? Because obviously you could create similar markets there. Yeah. I mean, I think we&#x27;re going into more of the deeper science and trying to get the data firsthand. And, you know, you have to do a lot of these markets. Figuring out which one is correct is tricky. But we&#x27;re going deeper and deeper into, like, eventually integrating with the lab equipment, right? And the outcome measurements will be different.
+
+00:57:45.140 --> 00:58:16.290
+And the Oracles will be different. So it could happen, but I&#x27;m not too... And it&#x27;s also a very different market. So the people... CalShe for the most part is going after, like, you know, CME style stuff. And, you know, Polymarket is going after, like, Teenage Boys and DGEN stuff like that. I don&#x27;t think it&#x27;s... The type of markets that exist for these... I think there&#x27;s just like a big customer difference also. Yeah, you were just talking about, like, generating data. I mean, would you ever consider having, like, sort of...
+
+00:58:16.290 --> 00:58:44.880
+a data set like constantly generating like data yourself as a company to give out for other people to analyze and then potentially having like lab automation generate that so there&#x27;s like you know some sort of verification on every data yeah absolutely yeah i mean i think uh i think at some point this could be like a very cool cro where basically uh cro is a clinical research organization where basically they are the ones that are conducting this clinical trial but if we&#x27;re collecting the data firsthand and you know
+
+00:58:44.880 --> 00:59:13.630
+There&#x27;s also going to be a very big rise in vibe drugging, I&#x27;m calling it. So it&#x27;s like vibe coding, but for drug development. And where people are going to start developing their own drugs. You&#x27;ve seen this already today. You&#x27;ve seen little bits of this today with people trying to analyze their own genome on Twitter. Someone&#x27;s trying to develop drugs for cancer for their dog on Twitter. And so people are trying to basically come up with new ways to develop drugs.
+
+00:59:13.630 --> 00:59:43.230
+So I think you&#x27;re going to see an explosion in the types of drugs, in the number of drugs that are going to be developed, but there&#x27;s still going to be a bottleneck in how you can test those. So testing a program is very easy because you can just run it on silicon. Testing a drug is a resource allocation problem, so there&#x27;s still only going to be 8 billion people. So basically, I think we could eventually become like a CRO or something. Yeah.
+
+00:59:43.230 --> 01:00:14.800
+Yeah, go ahead. If there&#x27;s a retraction in scientific data, or if there was like a poisoning of data in a trial result, and like two years down the line they retract, would you recuperate people that were on the wrong side of the bat? Hmm. I think there would probably be some language in there that says the thing that&#x27;s posted on ClinicalTrial.gov is the de facto thing at a certain time. I think one of the important parts of all about law is like finality. And so eventually, like...
+
+01:00:14.800 --> 01:00:45.570
+You have to just agree to it. Anyone else? Yeah, go ahead. What&#x27;s the toughest thing you&#x27;re going to need to do over the next 18 to 24 months to, like, make this, like, go to the next step, next stage? You know, build out which endpoints we&#x27;re choosing, build out the liquidity, build out the agents that are betting on it, you know, bringing in new people, bringing in new data.
+
+01:00:45.570 --> 01:01:22.800
+it&#x27;s mostly around like choosing the markets correctly i think and getting the word out marketing it cool we very much follow our nose um we do things and try things out and see what works and then try again uh when you say we how many others are there uh like two others amazing well thank you guys all for coming and i&#x27;m around after if you guys have questions thank you
+
+01:01:22.800 --> 01:01:30.800
+Thank you.
+
+01:01:56.400 --> 01:02:04.400
+Thank you.
+

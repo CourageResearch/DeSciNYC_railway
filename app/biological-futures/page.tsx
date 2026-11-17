@@ -62,7 +62,6 @@ export default async function BiologicalFuturesPage() {
               aria-label="CRISPR video with Dr. Jo Zayner"
             >
               <source src={videoUrl} type="video/mp4" />
-              {transcript && <track kind="captions" src={transcript.captionsPath} srcLang="en" label="English (automatic)" />}
               <a href={videoUrl}>Open the video</a>
             </video>
           </div>
