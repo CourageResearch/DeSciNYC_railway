@@ -56,6 +56,12 @@ const PastEvents = async () => {
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
           const isMarkoTalk = event.luma_id === MARKO_TALK.lumaId;
+          const isBananaFest = event.luma_id === "evt-IysA048BA6kZrSc";
+          const summaryVideoId = isMarkoTalk
+            ? MARKO_TALK.summaryVideoId
+            : isBananaFest
+              ? "nQDSdII_YgE"
+              : null;
           const transcript = getEventTranscript(event);
           const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
           const watchUrl = isMarkoTalk ? MARKO_TALK.pagePath : videoUrl;
@@ -66,7 +72,7 @@ const PastEvents = async () => {
           return (
             <div
               key={event.event_uuid || event.id || event.luma_id}
-              id={isMarkoTalk ? "marko-jukic" : undefined}
+              id={isMarkoTalk ? "marko-jukic" : isBananaFest ? "bananafest" : undefined}
               className="flex flex-col border border-[#202020] h-full border-b-4 border-r-4"
             >
               {eventMedia ? (
@@ -131,7 +137,7 @@ const PastEvents = async () => {
                       rel="noopener noreferrer"
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
-                      {isMarkoTalk ? "Full video" : "Video"}
+                      {isMarkoTalk || isBananaFest ? "Full video" : "Video"}
                     </Link>
                   )}
                   {(isMarkoTalk || transcript) && (
@@ -142,23 +148,23 @@ const PastEvents = async () => {
                       Summary
                     </Link>
                   )}
+                  {summaryVideoId && (
+                    <Link
+                      href={`https://www.youtube.com/shorts/${summaryVideoId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm uppercase text-white hover:underline"
+                    >
+                      1 min video
+                    </Link>
+                  )}
                   {isMarkoTalk && (
-                    <>
-                      <Link
-                        href={`https://www.youtube.com/shorts/${MARKO_TALK.summaryVideoId}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm uppercase text-white hover:underline"
-                      >
-                        1 min video
-                      </Link>
-                      <Link
-                        href={`${MARKO_TALK.pagePath}#transcript`}
-                        className="text-sm uppercase text-white hover:underline"
-                      >
-                        Transcript
-                      </Link>
-                    </>
+                    <Link
+                      href={`${MARKO_TALK.pagePath}#transcript`}
+                      className="text-sm uppercase text-white hover:underline"
+                    >
+                      Transcript
+                    </Link>
                   )}
                   {transcript && (
                     <Link
