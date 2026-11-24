@@ -58,6 +58,7 @@ const PastEvents = async () => {
           const eventMedia = getEventMedia(event);
           const isMarkoTalk = event.luma_id === MARKO_TALK.lumaId;
           const isBananaFest = event.luma_id === BANANAFEST.lumaId;
+          const title = isBananaFest ? BANANAFEST.title : event.title;
           const summaryVideoId = isMarkoTalk
             ? MARKO_TALK.summaryVideoId
             : isBananaFest
@@ -81,7 +82,7 @@ const PastEvents = async () => {
                 <Link
                   href={eventMedia.pagePath}
                   className="relative w-full aspect-video bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0FA711]"
-                  aria-label={`Watch ${event.title}`}
+                  aria-label={`Watch ${title}`}
                 >
                   <Image
                     src={eventMedia.thumbnailPath}
@@ -100,7 +101,7 @@ const PastEvents = async () => {
                 >
                   <Image
                     src={isMarkoTalk ? MARKO_TALK.thumbnailPath : `https://i3.ytimg.com/vi/${videoId}/sddefault.jpg`}
-                    alt={event.title}
+                    alt={title}
                     fill
                     sizes="(min-width: 768px) 33vw, 100vw"
                     className="object-cover"
@@ -113,7 +114,7 @@ const PastEvents = async () => {
                     href={eventMedia.pagePath}
                     className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
                   >
-                    {event.title}
+                    {title}
                   </Link>
                 ) : (
                   <Link
@@ -121,10 +122,16 @@ const PastEvents = async () => {
                     target={isMarkoTalk ? undefined : "_blank"}
                     className="text-lg font-bold line-clamp-2 hover:text-[#0FA711] transition-all ease-in-out duration-300"
                   >
-                    {event.title}
+                    {title}
                   </Link>
                 )}
-                <p className="text-sm text-gray-500">{event.speaker}</p>
+                {isBananaFest ? (
+                  <ul aria-label="Speakers" className="list-none space-y-1 text-sm text-gray-400">
+                    {BANANAFEST.speakers.map((speaker) => <li key={speaker}>{speaker}</li>)}
+                  </ul>
+                ) : (
+                  <p className="text-sm text-gray-500">{event.speaker}</p>
+                )}
                 <div className="flex flex-col gap-2">
                   {eventMedia ? (
                     <Link
