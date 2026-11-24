@@ -1,4 +1,21 @@
 {
+  "dOEmfJcTIeI": {
+    "summary": "Dan Koeppel traces how Panama disease drove exporters from Gros Michel to Cavendish. Thanos Papageorgiou follows bananas from harvest through refrigerated shipping and controlled ripening. Gabriel Sachter-Smith surveys wild and cultivated bananas using examples from his Hawaii farm and travels. Jacob Krupnick screens an excerpt from Ladi Rides, his film about a banana delivery cyclist in Burundi.",
+    "takeaways": [
+      {
+        "text": "The export industry replaced Gros Michel with Cavendish, but relying heavily on one cultivar left it exposed to another strain of Panama disease.",
+        "start": 458
+      },
+      {
+        "text": "Export bananas travel green under refrigeration. Ripening centers use ethylene to prepare them for sale.",
+        "start": 3155
+      },
+      {
+        "text": "Many familiar edible bananas have three sets of chromosomes. The broader diversity includes seeded wild relatives and cultivars grown and eaten locally.",
+        "start": 5395
+      }
+    ]
+  },
   "bqDch_aXFWY": {
     "summary": "Michael Fischer introduces Endpoint Arena as a way to quantify uncertainty about clinical-trial outcomes. The LA discussion connects prediction markets, AI benchmarking, and incentives for collecting better scientific data.",
     "takeaways": [

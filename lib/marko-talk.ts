@@ -5,6 +5,7 @@ export const MARKO_TALK = {
   title: "Humanity, Space, and Industrial Civilization",
   speaker: "Marko Jukic",
   videoId: "vOMeEN-qGh0",
+  thumbnailPath: "/images/events/descinyc54-marko-cover.jpg",
   videoPublishedAt: "2026-11-16T08:48:44-08:00",
   summaryVideoId: "GwfmzahO2vk",
   summaryPublishedAt: "2026-11-17T09:50:43-08:00",

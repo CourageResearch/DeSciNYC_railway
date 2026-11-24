@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import TalkTranscript from "@/components/TalkTranscript";
 import TalkSummary from "@/components/TalkSummary";
+import { BANANAFEST } from "@/lib/bananafest";
+import { getSlidesHref } from "@/lib/slides";
 import { getTalkOverview } from "@/lib/talk-summaries";
 import { transcripts } from "@/lib/transcripts";
 import { getTranscriptParagraphs } from "@/lib/transcript-content";
@@ -31,6 +33,7 @@ export default async function TranscriptPage({ params }: Props) {
   const transcript = transcripts.find((item) => item.slug === slug && item.videoId);
   if (!transcript) notFound();
   const paragraphs = await getTranscriptParagraphs(transcript.key);
+  const decks = transcript.videoId === BANANAFEST.videoId ? BANANAFEST.decks : [];
 
   return (
     <main className="min-h-screen px-4 pb-20 pt-12 md:pb-28 md:pt-20">
@@ -44,6 +47,7 @@ export default async function TranscriptPage({ params }: Props) {
         <nav aria-label="Talk resources" className="flex flex-wrap gap-5 text-sm text-[#5cdb68]">
           <a href="#summary" className="underline underline-offset-4">Summary &amp; takeaways</a>
           <a href="#transcript" className="underline underline-offset-4">Read transcript</a>
+          {decks.length > 0 && <a href="#slides" className="underline underline-offset-4">Slides</a>}
           <a href={transcript.downloadPath} download className="underline underline-offset-4">Download text</a>
           <a href={`https://www.youtube.com/watch?v=${transcript.videoId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Watch on YouTube</a>
         </nav>
@@ -51,6 +55,21 @@ export default async function TranscriptPage({ params }: Props) {
           <iframe id="recording" tabIndex={0} className="h-full w-full scroll-mt-24" src={`https://www.youtube-nocookie.com/embed/${transcript.videoId}`} title={transcript.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
         </div>
         <TalkSummary talkKey={transcript.key} videoId={transcript.videoId} />
+        {decks.length > 0 && (
+          <section id="slides" aria-labelledby="slides-heading" className="mx-auto w-full max-w-3xl scroll-mt-24 border-t border-[#303030] pt-8 font-sans">
+            <h2 id="slides-heading" className="text-3xl font-semibold">Slides</h2>
+            <p className="mt-3 text-base leading-7 text-stone-300">Each PDF contains slides captured from the recording in presentation order.</p>
+            <ul className="mt-4 space-y-2">
+              {decks.map(({ speaker, filename }) => (
+                <li key={filename}>
+                  <a href={getSlidesHref(filename)} target="_blank" rel="noopener noreferrer" className="text-[#5cdb68] underline underline-offset-4 hover:text-white">
+                    {speaker} slides (PDF)
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
         <TalkTranscript transcript={transcript} paragraphs={paragraphs} />
       </div>
     </main>

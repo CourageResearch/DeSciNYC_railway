@@ -1,5 +1,22 @@
 [
   {
+    "key": "dOEmfJcTIeI",
+    "slug": "bananafest",
+    "title": "BananaFest",
+    "speaker": "Dan Koeppel, Thanos Papageorgiou, Gabriel Sachter-Smith, and Jacob Krupnick",
+    "videoId": "dOEmfJcTIeI",
+    "eventUrl": "https://luma.com/descinyc55",
+    "pagePath": "/transcripts/bananafest",
+    "downloadPath": "/transcripts/bananafest.txt",
+    "captionsPath": "/transcripts/bananafest.vtt",
+    "generated": true,
+    "source": "recording-asr",
+    "paragraphCount": 216,
+    "wordCount": 18653,
+    "edited": true,
+    "lumaId": "evt-IysA048BA6kZrSc"
+  },
+  {
     "key": "bqDch_aXFWY",
     "slug": "quantifying-uncertainty-in-clinical-trials-la-tech-week",
     "title": "Quantifying Uncertainty in Clinical Trials (LA Tech Week)",

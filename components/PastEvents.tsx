@@ -7,6 +7,7 @@ import { getEventMedia } from "@/lib/media";
 import { getSlidesHref } from "@/lib/slides";
 import { withUtmSource } from "@/lib/tracking";
 import { MARKO_TALK } from "@/lib/marko-talk";
+import { BANANAFEST } from "@/lib/bananafest";
 import { getEventTranscript } from "@/lib/transcripts";
 
 const PastEvents = async () => {
@@ -56,14 +57,15 @@ const PastEvents = async () => {
         {pastEventsWithLumaData?.map((event) => {
           const eventMedia = getEventMedia(event);
           const isMarkoTalk = event.luma_id === MARKO_TALK.lumaId;
-          const isBananaFest = event.luma_id === "evt-IysA048BA6kZrSc";
+          const isBananaFest = event.luma_id === BANANAFEST.lumaId;
           const summaryVideoId = isMarkoTalk
             ? MARKO_TALK.summaryVideoId
             : isBananaFest
-              ? "nQDSdII_YgE"
+              ? BANANAFEST.summaryVideoId
               : null;
           const transcript = getEventTranscript(event);
-          const videoUrl = `https://www.youtube.com/watch?v=${event.yt_uuid}`;
+          const videoId = isMarkoTalk ? MARKO_TALK.videoId : event.yt_uuid;
+          const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
           const watchUrl = isMarkoTalk ? MARKO_TALK.pagePath : videoUrl;
           const eventLinkLabel = /^https?:\/\/(?:www\.)?partiful\.com(?:\/|$)/i.test(event.luma_url)
             ? "Partiful event"
@@ -97,9 +99,10 @@ const PastEvents = async () => {
                   target={isMarkoTalk ? undefined : "_blank"}
                 >
                   <Image
-                    src={`https://i3.ytimg.com/vi/${event.yt_uuid}/sddefault.jpg`}
+                    src={isMarkoTalk ? MARKO_TALK.thumbnailPath : `https://i3.ytimg.com/vi/${videoId}/sddefault.jpg`}
                     alt={event.title}
                     fill
+                    sizes="(min-width: 768px) 33vw, 100vw"
                     className="object-cover"
                   />
                 </Link>
@@ -132,7 +135,7 @@ const PastEvents = async () => {
                     </Link>
                   ) : (
                     <Link
-                      href={isMarkoTalk ? `https://www.youtube.com/watch?v=${MARKO_TALK.videoId}` : videoUrl}
+                      href={videoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
@@ -174,13 +177,21 @@ const PastEvents = async () => {
                       Transcript
                     </Link>
                   )}
+                  {isBananaFest && transcript && (
+                    <Link
+                      href={`${transcript.pagePath}#slides`}
+                      className="text-sm uppercase text-white hover:underline"
+                    >
+                      Slides
+                    </Link>
+                  )}
                   {event.slides && (
                     <Link
                       href={getSlidesHref(event.slides)}
                       target="_blank"
                       className="text-sm uppercase text-white hover:underline transition-all duration-300 ease-in-out"
                     >
-                      Slides
+                      {isBananaFest ? "Event slides" : "Slides"}
                     </Link>
                   )}
                   <Link
